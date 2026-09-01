@@ -253,6 +253,7 @@
 
   /* GOL/HAT Signal Edition: stadium night meets digital newspaper */
   :root,
+  :root:not([data-theme="light"]),
   :root[data-theme="dark"]{
     --paper:#ECE9DF;
     --ink:#101313;
@@ -701,7 +702,7 @@
   .desks{ gap:22px; }
   .desks > div{
     padding:24px;
-    background:rgba(255,252,243,.72);
+    background:var(--surface-raised);
     border:1px solid var(--line);
     box-shadow:0 12px 30px rgba(8,16,13,.06);
   }
