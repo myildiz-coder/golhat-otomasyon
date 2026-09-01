@@ -1,0 +1,343 @@
+<title>GOLHAT</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --paper:#EEF1E6;
+    --ink:#16231B;
+    --turf:#1F5C3F;
+    --turf-strong:#123B27;
+    --wire:#C81E3A;
+    --floodlight-fill:#F2B705;
+    --floodlight-ink:#1B2A1E;
+    --muted:#52604A;
+    --line:rgba(22,35,27,0.16);
+    --surface:#F8F8EF;
+    --surface-raised:#FFFFFF;
+    --shadow:rgba(22,35,27,0.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0E1D15;
+      --ink:#ECEFE3;
+      --turf:#4FB37E;
+      --turf-strong:#7FD1A4;
+      --wire:#FF6B78;
+      --floodlight-fill:#FFC94A;
+      --floodlight-ink:#1B2A1E;
+      --muted:#9FB1A0;
+      --line:rgba(236,239,227,0.16);
+      --surface:#132A1F;
+      --surface-raised:#173224;
+      --shadow:rgba(0,0,0,0.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0E1D15;
+    --ink:#ECEFE3;
+    --turf:#4FB37E;
+    --turf-strong:#7FD1A4;
+    --wire:#FF6B78;
+    --floodlight-fill:#FFC94A;
+    --floodlight-ink:#1B2A1E;
+    --muted:#9FB1A0;
+    --line:rgba(236,239,227,0.16);
+    --surface:#132A1F;
+    --surface-raised:#173224;
+    --shadow:rgba(0,0,0,0.4);
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Source Serif 4', Georgia, 'Times New Roman', serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{ color:inherit; }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--wire); outline-offset:2px; }
+  h1,h2,h3{ font-family:'Big Shoulders Display', 'Arial Narrow', sans-serif; text-wrap:balance; margin:0; letter-spacing:0.01em; }
+  .mono{ font-family:'IBM Plex Mono','SFMono-Regular',Consolas,monospace; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 20px; }
+  .eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); }
+
+  /* ---------- Masthead ---------- */
+  .masthead{ border-bottom:2px solid var(--ink); padding:18px 0 14px; }
+  .masthead-row{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  .wordmark{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  .wordmark h1{ font-size:clamp(2.2rem,6vw,3.2rem); font-weight:900; color:var(--turf-strong); }
+  .wordmark .tagline{ font-family:'IBM Plex Mono',monospace; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); }
+  .clockbox{ text-align:right; font-family:'IBM Plex Mono',monospace; }
+  .clockbox .live{ display:inline-flex; align-items:center; gap:6px; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--wire); font-weight:600; }
+  .dot{ width:7px; height:7px; border-radius:50%; background:var(--wire); display:inline-block; animation:pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse{ 0%,100%{ opacity:1; } 50%{ opacity:0.35; } }
+  .clockbox .time{ font-size:1.1rem; font-weight:600; font-variant-numeric:tabular-nums; }
+  .desknav{ display:flex; gap:14px; flex-wrap:wrap; margin-top:12px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; }
+  .desknav a{ text-decoration:none; color:var(--muted); border-bottom:1px solid transparent; padding-bottom:2px; }
+  .desknav a:hover{ color:var(--turf-strong); border-color:var(--turf-strong); }
+
+  /* ---------- Ticker ---------- */
+  .ticker{ background:var(--turf-strong); color:#F4F2E4; overflow:hidden; white-space:nowrap; border-bottom:1px solid var(--line); }
+  .ticker-track{ display:inline-flex; align-items:center; gap:48px; padding:9px 0; animation:ticker-scroll 42s linear infinite; }
+  .ticker:hover .ticker-track, .ticker:focus-within .ticker-track{ animation-play-state:paused; }
+  .ticker-item{ font-family:'IBM Plex Mono',monospace; font-size:0.78rem; letter-spacing:0.02em; display:inline-flex; align-items:center; gap:10px; }
+  .ticker-item b{ color:var(--floodlight-fill); font-weight:600; }
+  @keyframes ticker-scroll{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce){
+    .ticker{ overflow-x:auto; }
+    .ticker-track{ animation:none; }
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{ padding:34px 0 10px; }
+  .hero-grid{ display:grid; grid-template-columns:1.7fr 1fr; gap:28px; align-items:stretch; }
+  @media (max-width:760px){ .hero-grid{ grid-template-columns:1fr; } }
+  .tag{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:0.68rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; padding:3px 8px; border-radius:2px; }
+  .tag-urgent{ background:var(--wire); color:#fff; }
+  .tag-desk{ background:transparent; border:1px solid var(--line); color:var(--muted); }
+  .hero-lead .tags{ display:flex; gap:8px; margin-bottom:12px; }
+  .hero-lead h2{ font-size:clamp(1.9rem,4.4vw,3.1rem); font-weight:800; }
+  .hero-lead .dek{ margin-top:14px; font-size:1.08rem; max-width:60ch; }
+  .hero-lead .byline{ margin-top:16px; }
+  .hero-side{ border-left:2px solid var(--line); padding-left:24px; display:flex; flex-direction:column; }
+  @media (max-width:760px){ .hero-side{ border-left:none; border-top:2px solid var(--line); padding-left:0; padding-top:20px; } }
+  .hero-side h3{ font-size:clamp(1.4rem,3vw,1.9rem); font-weight:800; margin-top:10px; }
+  .hero-side .dek{ margin-top:10px; font-size:0.98rem; }
+  .byline{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; }
+  .byline a{ color:var(--turf-strong); text-decoration:none; border-bottom:1px solid currentColor; }
+  .relative{ color:var(--muted); }
+
+  /* ---------- Scoreboard ---------- */
+  .scoreboard{ margin:30px 0; }
+  .scoreboard-card{ background:var(--turf-strong); color:#F4F2E4; border-radius:6px; padding:22px 24px; display:flex; flex-wrap:wrap; gap:26px; align-items:center; justify-content:space-between; box-shadow:0 8px 24px var(--shadow); }
+  .sb-heading{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:#C7D9CB; }
+  .sb-title{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.3rem; margin-top:4px; }
+  .sb-units{ display:flex; gap:14px; }
+  .sb-unit{ text-align:center; min-width:56px; }
+  .sb-unit .n{ font-family:'IBM Plex Mono',monospace; font-size:1.9rem; font-weight:600; font-variant-numeric:tabular-nums; color:var(--floodlight-fill); }
+  .sb-unit .l{ font-family:'IBM Plex Mono',monospace; font-size:0.62rem; text-transform:uppercase; letter-spacing:0.1em; color:#C7D9CB; }
+  .sb-meta{ font-family:'IBM Plex Mono',monospace; font-size:0.74rem; color:#C7D9CB; line-height:1.7; }
+  .sb-meta strong{ color:#fff; }
+
+  /* ---------- Desks ---------- */
+  .desks{ padding:12px 0 40px; display:grid; grid-template-columns:1.1fr 0.9fr; gap:40px; }
+  @media (max-width:820px){ .desks{ grid-template-columns:1fr; } }
+  .desk-heading{ display:flex; align-items:baseline; gap:10px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:18px; }
+  .desk-heading h2{ font-size:1.5rem; font-weight:800; color:var(--turf-strong); }
+  .desk-count{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); }
+  .dispatch + .dispatch{ margin-top:22px; padding-top:22px; border-top:1px solid var(--line); }
+  .dispatch-meta{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:8px; }
+  .dateline{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); }
+  .dispatch-headline{ font-size:1.28rem; font-weight:700; }
+  .dispatch-dek{ margin-top:8px; font-size:0.98rem; color:var(--ink); }
+  .dispatch-source{ display:inline-block; margin-top:10px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-decoration:none; color:var(--turf-strong); border-bottom:1px solid currentColor; }
+
+  /* ---------- Footer ---------- */
+  footer{ border-top:2px solid var(--ink); padding:22px 0 40px; }
+  .foot-grid{ display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+  .foot-note{ max-width:56ch; font-size:0.92rem; color:var(--muted); }
+  .foot-brand{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.2rem; color:var(--turf-strong); }
+  .foot-mono{ font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--muted); margin-top:6px; }
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead-row">
+      <div class="wordmark">
+        <h1>GOLHAT</h1>
+        <span class="tagline">Süper Lig &amp; Dünya Futbolu &middot; Haber Hattı</span>
+      </div>
+      <div class="clockbox">
+        <div class="live"><span class="dot" aria-hidden="true"></span> Canlı yayında</div>
+        <div class="time" id="live-clock">--:--:--</div>
+      </div>
+    </div>
+    <nav class="desknav" aria-label="Bölümler">
+      <a href="#manset">Manşet</a>
+      <a href="#skorbord">Transfer Sayacı</a>
+      <a href="#super-lig">Süper Lig</a>
+      <a href="#dunya-futbolu">Dünya Futbolu</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker" role="marquee" aria-label="Son dakika şeridi">
+  <div class="ticker-track">
+    <span class="ticker-item"><b>SON DAKİKA</b> Şampiyonlar Ligi kurasında Fenerbahçe ve Galatasaray'ın rakipleri belli oldu</span>
+    <span class="ticker-item"><b>TRANSFER</b> Rodri, Real Madrid'i değil Barcelona'yı seçti</span>
+    <span class="ticker-item"><b>SÜPER LİG</b> Fenerbahçe, Can Uzun'un durumunu Frankfurt'a sordu</span>
+    <span class="ticker-item"><b>SÜPER LİG</b> Galatasaray'ın gündeminde Camavinga ve Fofana var</span>
+    <span class="ticker-item"><b>DÜNYA FUTBOLU</b> Premier Lig'de deadline day Salı gecesi TR saatiyle 01:00'de kapanıyor</span>
+    <span class="ticker-item"><b>SÜPER LİG</b> Beşiktaş, Alvercalı Davy Gui ile ilgileniyor</span>
+    <!-- loop tekrarı -->
+    <span class="ticker-item"><b>SON DAKİKA</b> Şampiyonlar Ligi kurasında Fenerbahçe ve Galatasaray'ın rakipleri belli oldu</span>
+    <span class="ticker-item"><b>TRANSFER</b> Rodri, Real Madrid'i değil Barcelona'yı seçti</span>
+    <span class="ticker-item"><b>SÜPER LİG</b> Fenerbahçe, Can Uzun'un durumunu Frankfurt'a sordu</span>
+    <span class="ticker-item"><b>SÜPER LİG</b> Galatasaray'ın gündeminde Camavinga ve Fofana var</span>
+    <span class="ticker-item"><b>DÜNYA FUTBOLU</b> Premier Lig'de deadline day Salı gecesi TR saatiyle 01:00'de kapanıyor</span>
+    <span class="ticker-item"><b>SÜPER LİG</b> Beşiktaş, Alvercalı Davy Gui ile ilgileniyor</span>
+  </div>
+</div>
+
+<main class="wrap">
+  <section class="hero" id="manset">
+    <div class="hero-grid">
+      <article class="hero-lead">
+        <div class="tags"><span class="tag tag-urgent">Son Dakika</span><span class="tag tag-desk">Şampiyonlar Ligi</span></div>
+        <h2>19 yıl sonra ilk kez: Türkiye kurada iki temsilciyle boy gösterdi</h2>
+        <p class="dek">2026-27 UEFA Şampiyonlar Ligi lig aşaması kurasında Fenerbahçe; Liverpool, Atletico Madrid, Roma, Aston Villa, Villarreal, Shakhtar Donetsk, Slavia Prag ve LASK Linz ile eşleşti. Galatasaray ise Barcelona, PSG, Aston Villa, Sporting Lizbon, Feyenoord, Lille, Stuttgart ve AEK Atina'yla karşılaşacak. Galatasaray Başkanı Dursun Özbek kurayı "zor kuralardan biri" olarak nitelendirdi. Lig aşacı 8-10 Eylül'de başlıyor, her takım 8 maç oynayacak.</p>
+        <p class="byline mono">GOLHAT &middot; 31.08.2026 14:20 &middot; Kaynak: <a href="https://www.hurriyet.com.tr/sporarena/live-sampiyonlar-ligi-kuralar-cekildi-iste-fenerbahce-ve-galatasarayin-rakipleri-43285323" target="_blank" rel="noopener">Hürriyet</a></p>
+      </article>
+      <article class="hero-side">
+        <div class="tags"><span class="tag tag-urgent">Son Dakika</span></div>
+        <h3>Barcelona'dan Real Madrid'e asrın çalımı: Rodri</h3>
+        <p class="dek">Manchester City'nin dünya şampiyonu orta sahası Rodri'nin, uzun süredir kendisini bekleyen Real Madrid yerine Barcelona'ya imza atmaya çok yakın olduğu iddia edildi. Real Madrid teknik direktörü Jose Mourinho, planını Bernardo Silva üzerine kurdu.</p>
+        <p class="byline mono">31.08.2026 13:05 &middot; Kaynak: <a href="https://beinsports.com.tr/haber/barcelonadan-real-madride-asrin-transfer-calimi-imzaya-gidiyor" target="_blank" rel="noopener">beIN Sports</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="scoreboard" id="skorbord">
+    <div class="scoreboard-card">
+      <div>
+        <div class="sb-heading">Transfer Penceresi &middot; Geri Sayım</div>
+        <div class="sb-title">İngiltere'de Deadline Day</div>
+      </div>
+      <div class="sb-units" aria-label="Kapanışa kalan süre">
+        <div class="sb-unit"><div class="n" id="cd-d">00</div><div class="l">gün</div></div>
+        <div class="sb-unit"><div class="n" id="cd-h">00</div><div class="l">saat</div></div>
+        <div class="sb-unit"><div class="n" id="cd-m">00</div><div class="l">dk</div></div>
+        <div class="sb-unit"><div class="n" id="cd-s">00</div><div class="l">sn</div></div>
+      </div>
+      <div class="sb-meta">
+        Premier Lig &amp; EFL: 1 Eylül Salı 23:00 (UK) &middot; <strong>TR saatiyle 2 Eylül 01:00</strong><br>
+        La Liga penceresi 2 Eylül'e kadar açık &middot; UEFA Şampiyonlar Ligi lig aşaması 8-10 Eylül'de başlıyor<br>
+        Son güncelleme: <strong id="last-updated">31.08.2026 14:37 (TR)</strong> &middot; Otomatik tarama sıklığı: <strong>saatlik</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="desks">
+    <div>
+      <div class="desk-heading" id="super-lig"><h2>Süper Lig</h2><span class="desk-count mono">3 dispatch</span></div>
+
+      <article class="dispatch" data-time="2026-08-31T14:10:00+03:00">
+        <div class="dispatch-meta">
+          <span class="tag tag-desk">Transfer</span>
+          <span class="dateline">31.08.2026 14:10 <span class="relative"></span></span>
+        </div>
+        <h3 class="dispatch-headline">Fenerbahçe'den sürpriz hamle: Can Uzun gündemde</h3>
+        <p class="dispatch-dek">Sarı-lacivertliler, Galatasaray'ın uzun süredir takip ettiği Eintracht Frankfurt'lu 20 yaşındaki milli orta saha Can Uzun'un transfer şartlarını sordu; resmi teklif henüz yapılmadı. Frankfurt'un bonservis beklentisi 50 milyon avro. Teknik direktör İsmail Kartal, "23 yaş altı bir transfer yapabiliriz" dedi.</p>
+        <a class="dispatch-source" href="https://www.aspor.com.tr/fenerbahce/2026/08/31/transferde-buyuk-surpriz-galatasaray-derken-fenerbahceye-gidiyor" target="_blank" rel="noopener">Kaynak: A Spor &rarr;</a>
+      </article>
+
+      <article class="dispatch" data-time="2026-08-31T12:40:00+03:00">
+        <div class="dispatch-meta">
+          <span class="tag tag-urgent">Son Dakika</span>
+          <span class="tag tag-desk">Transfer</span>
+          <span class="dateline">31.08.2026 12:40 <span class="relative"></span></span>
+        </div>
+        <h3 class="dispatch-headline">Galatasaray'dan son hafta bombası: Camavinga ve Fofana</h3>
+        <p class="dispatch-dek">Sarı-kırmızılılar, orta saha için iki hedefi birden zorluyor: Real Madrid'in genç yıldızı Eduardo Camavinga'nın bonservis bedeli 55 milyon avroya kadar düşürüldü; Milan'ın Fransız orta sahası Youssouf Fofana ise satın alma opsiyonlu kiralama teklifini kabul etti. Fofana gerçekleşirse, kontenjan nedeniyle Lemina'nın Başakşehir'e gitmesi bekleniyor.</p>
+        <a class="dispatch-source" href="https://www.aspor.com.tr/galatasaray/2026/08/31/galatasaraydan-transferde-son-hafta-bombasi" target="_blank" rel="noopener">Kaynak: A Spor &rarr;</a>
+      </article>
+
+      <article class="dispatch" data-time="2026-08-31T11:15:00+03:00">
+        <div class="dispatch-meta">
+          <span class="tag tag-desk">Transfer</span>
+          <span class="dateline">31.08.2026 11:15 <span class="relative"></span></span>
+        </div>
+        <h3 class="dispatch-headline">Beşiktaş'ın gözü Portekiz'de: Davy Gui</h3>
+        <p class="dispatch-dek">Siyah-beyazlılar, Alverca forması giyen 20 yaşındaki Fildişi Sahilli orta saha Davy Gui ile ilgileniyor. Oyuncunun TFF'nin 10+4 yabancı kuralına uygun statüsü, transferi kulüp için cazip kılıyor. Piyasa değeri 600 bin avro, sözleşmesi 2028'de bitiyor.</p>
+        <a class="dispatch-source" href="https://www.aspor.com.tr/besiktas/2026/08/31/besiktasa-20lik-orta-saha-portekiz-liginden-gelecek" target="_blank" rel="noopener">Kaynak: A Spor &rarr;</a>
+      </article>
+    </div>
+
+    <div>
+      <div class="desk-heading" id="dunya-futbolu"><h2>Dünya Futbolu</h2><span class="desk-count mono">1 dispatch</span></div>
+
+      <article class="dispatch" data-time="2026-08-31T09:30:00+03:00">
+        <div class="dispatch-meta">
+          <span class="tag tag-desk">Transfer</span>
+          <span class="dateline">31.08.2026 09:30 <span class="relative"></span></span>
+        </div>
+        <h3 class="dispatch-headline">Premier Lig'de geri sayım: deadline day yarın gece</h3>
+        <p class="dispatch-dek">İngiltere'de yaz transfer penceresi, 1 Eylül Salı gecesi saat 23:00'te (İngiltere saati) kapanıyor — bu sezon pencere geleneksel olarak geç saatte sona eriyor. İspanya'da La Liga'nın transfer dönemi ise 2 Eylül'e kadar açık kalacak.</p>
+        <a class="dispatch-source" href="https://www.skysports.com/football/news/11095/13546220/summer-transfer-window-2026-dates-when-is-deadline-day-for-premier-league-and-efl-clubs-to-sign-players" target="_blank" rel="noopener">Kaynak: Sky Sports &rarr;</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-brand">GOLHAT</div>
+      <p class="foot-note">GOLHAT, güvenilir spor kaynaklarını saatlik olarak tarayıp özetleyen otomatik bir haber derleme hattıdır. Her dispatch, orijinal haberine bağlıdır; yorum ve değerlendirmeler kaynak yayın kuruluşlarına aittir. GOLHAT bir haber ajansı değildir, birleştirilmiş bir haber panosudur.</p>
+    </div>
+    <div class="foot-mono">
+      Yayın dili: Türkçe<br>
+      Kapsam: Süper Lig &amp; Dünya Futbolu<br>
+      Güncelleme sıklığı: saatlik &middot; otomatik<br>
+      Son tarama: <span id="foot-updated">31.08.2026 14:37 (TR)</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    function pad(n){ return String(n).padStart(2,'0'); }
+
+    function tickClock(){
+      var el = document.getElementById('live-clock');
+      if(!el) return;
+      try{
+        var now = new Date();
+        var fmt = new Intl.DateTimeFormat('tr-TR', { timeZone:'Europe/Istanbul', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false });
+        el.textContent = fmt.format(now);
+      }catch(e){
+        el.textContent = new Date().toLocaleTimeString();
+      }
+    }
+    tickClock();
+    setInterval(tickClock, 1000);
+
+    function updateRelative(){
+      var nodes = document.querySelectorAll('.dispatch[data-time]');
+      nodes.forEach(function(node){
+        var t = new Date(node.getAttribute('data-time')).getTime();
+        if(isNaN(t)) return;
+        var diffMin = Math.round((Date.now() - t) / 60000);
+        var label = document.createElement('span');
+        var text;
+        if(diffMin < 1) text = 'az önce';
+        else if(diffMin < 60) text = diffMin + ' dk önce';
+        else text = Math.round(diffMin/60) + ' sa önce';
+        var rel = node.querySelector('.relative');
+        if(rel) rel.textContent = '· ' + text;
+      });
+    }
+    updateRelative();
+    setInterval(updateRelative, 30000);
+
+    function updateCountdown(){
+      var deadline = new Date('2026-09-02T01:00:00+03:00').getTime();
+      var diff = deadline - Date.now();
+      var dEl=document.getElementById('cd-d'), hEl=document.getElementById('cd-h'), mEl=document.getElementById('cd-m'), sEl=document.getElementById('cd-s');
+      if(!dEl) return;
+      if(diff <= 0){
+        dEl.textContent = hEl.textContent = mEl.textContent = sEl.textContent = '00';
+        return;
+      }
+      var d = Math.floor(diff / 86400000); diff -= d*86400000;
+      var h = Math.floor(diff / 3600000); diff -= h*3600000;
+      var m = Math.floor(diff / 60000); diff -= m*60000;
+      var s = Math.floor(diff / 1000);
+      dEl.textContent = pad(d); hEl.textContent = pad(h); mEl.textContent = pad(m); sEl.textContent = pad(s);
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  })();
+</script>
