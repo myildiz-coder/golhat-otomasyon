@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="tr">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skor — GOLHAT</title>
+<meta name="description" content="Süper Lig, Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi ve büyük Avrupa liglerinden canlı skorlar.">
+<link rel="canonical" href="https://golhat.com/skor.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GOLHAT">
+<meta property="og:title" content="Skor — GOLHAT">
+<meta property="og:description" content="Süper Lig, Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi ve büyük Avrupa liglerinden canlı skorlar.">
+<meta property="og:url" content="https://golhat.com/skor.html">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Skor — GOLHAT">
+<meta name="twitter:description" content="Süper Lig, Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi ve büyük Avrupa liglerinden canlı skorlar.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --paper:#F2F1E8;
+    --ink:#111A14;
+    --turf:#103D2B;
+    --turf-dark:#08271B;
+    --floodlight:#F4C430;
+    --floodlight-ink:#1B2A1E;
+    --var-red:#D7263D;
+    --muted:#687168;
+    --line:rgba(17,26,20,0.18);
+    --surface:#FAFAF4;
+    --surface-raised:#FFFFFF;
+    --shadow:rgba(17,26,20,0.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0B1712;
+      --ink:#EDEFE6;
+      --turf:#3FA377;
+      --turf-dark:#7FD1A4;
+      --floodlight:#FFC94A;
+      --floodlight-ink:#1B2A1E;
+      --var-red:#FF6B78;
+      --muted:#9DB0A0;
+      --line:rgba(237,239,230,0.16);
+      --surface:#12241C;
+      --surface-raised:#17281F;
+      --shadow:rgba(0,0,0,0.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0B1712;
+    --ink:#EDEFE6;
+    --turf:#3FA377;
+    --turf-dark:#7FD1A4;
+    --floodlight:#FFC94A;
+    --floodlight-ink:#1B2A1E;
+    --var-red:#FF6B78;
+    --muted:#9DB0A0;
+    --line:rgba(237,239,230,0.16);
+    --surface:#12241C;
+    --surface-raised:#17281F;
+    --shadow:rgba(0,0,0,0.4);
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Source Serif 4', Georgia, 'Times New Roman', serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{ color:inherit; }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--floodlight); outline-offset:2px; }
+  h1,h2,h3{ font-family:'Big Shoulders Display', 'Arial Narrow', sans-serif; text-wrap:balance; margin:0; letter-spacing:0.01em; }
+  .mono{ font-family:'IBM Plex Mono','SFMono-Regular',Consolas,monospace; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 20px; }
+  .eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); }
+  .visually-hidden{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+
+  /* ---------- 1. Canlı maç ve skor şeridi ---------- */
+  .scorestrip{ background:var(--turf-dark); border-bottom:1px solid var(--line); }
+  .scorestrip-inner{ display:flex; gap:0; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:thin; }
+  .score-chip{ flex-shrink:0; display:flex; flex-direction:column; gap:3px; padding:9px 18px; border-right:1px solid rgba(244,242,228,0.16); font-family:'IBM Plex Mono',monospace; white-space:nowrap; }
+  .score-chip-label{ font-size:0.64rem; text-transform:uppercase; letter-spacing:0.08em; color:#BFD1C4; }
+  .score-chip-value{ font-size:0.82rem; color:#F4F2E4; }
+  .score-chip-value strong{ color:var(--floodlight); font-weight:600; }
+  .score-chip.status .score-chip-value{ color:#BFD1C4; font-style:italic; }
+  .scorestrip-credit{ padding:5px 20px 6px; }
+  .scorestrip-credit a{ font-family:'IBM Plex Mono',monospace; font-size:0.66rem; color:#9DB6A5; text-decoration:none; border-bottom:1px solid currentColor; }
+
+  /* ---------- 2. GOL/HAT masthead ---------- */
+  .masthead{ border-bottom:2px solid var(--ink); padding:18px 0 14px; }
+  .masthead-row{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  .wordmark{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  .wordmark h1{ font-size:clamp(2.2rem,6vw,3.2rem); font-weight:900; color:var(--turf-dark); }
+  .wordmark h1 .slash{ color:var(--var-red); }
+  .wordmark .tagline{ font-family:'IBM Plex Mono',monospace; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); }
+  .clockbox{ text-align:right; font-family:'IBM Plex Mono',monospace; }
+  .clockbox .updated-badge{ display:inline-flex; align-items:center; gap:6px; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--turf-dark); font-weight:600; }
+  .clockbox .date-ist{ font-size:0.72rem; color:var(--muted); margin-top:4px; }
+  .clockbox .local-time{ font-size:0.76rem; color:var(--muted); margin-top:2px; font-variant-numeric:tabular-nums; }
+  .desknav{ display:flex; gap:14px; flex-wrap:wrap; margin-top:12px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; }
+  .desknav a{ text-decoration:none; color:var(--muted); border-bottom:1px solid transparent; padding-bottom:2px; }
+  .desknav a:hover{ color:var(--turf-dark); border-color:var(--turf-dark); }
+
+  /* ---------- 3. Son dakika şeridi ---------- */
+  /* Desktop: JS ile tek-öğe döndüren "kontrollü" şerit (kelime kırpılması olmaz).
+     Mobil: tüm öğelerin listelendiği, parmakla yatay kaydırılan doğal bir liste. */
+  .ticker{ background:var(--turf-dark); color:#F4F2E4; border-bottom:1px solid var(--line); display:flex; align-items:stretch; }
+  .ticker-item{ font-family:'IBM Plex Mono',monospace; font-size:0.78rem; letter-spacing:0.02em; display:inline-flex; align-items:center; gap:10px; white-space:nowrap; }
+  .ticker-item b{ color:var(--var-red); font-weight:600; }
+  .ticker-item.tag-world b{ color:var(--floodlight); }
+
+  .ticker-rotor{ flex:1; min-width:0; overflow:hidden; padding:9px 16px; display:flex; align-items:center; }
+  .ticker-rotor .ticker-item{ overflow:hidden; text-overflow:ellipsis; }
+
+  .ticker-scroll{ display:none; }
+
+  .ticker-toggle{ flex-shrink:0; display:flex; align-items:center; padding:0 14px; background:var(--turf-dark); border:0; border-left:1px solid rgba(244,242,228,0.25); cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:0.68rem; text-transform:uppercase; letter-spacing:0.06em; color:#F4F2E4; }
+  .ticker-toggle:hover{ color:var(--floodlight); }
+
+  @media (max-width:700px){
+    .ticker-rotor{ display:none; }
+    .ticker-scroll{ display:flex; flex:1; min-width:0; gap:32px; overflow-x:auto; -webkit-overflow-scrolling:touch; padding:9px 16px; align-items:center; }
+    .ticker-toggle{ display:none; }
+  }
+
+  /* ---------- 4. Dijital gazete kapağı ---------- */
+  .frontpage{ padding:34px 0 8px; }
+  .frontpage-kicker{ display:inline-flex; align-items:center; gap:8px; background:var(--turf-dark); color:var(--floodlight); font-family:'IBM Plex Mono',monospace; font-size:0.72rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; padding:5px 10px; border-radius:2px; margin-bottom:14px; }
+  .frontpage-headline{ font-size:clamp(2.5rem,4vw + 1.6rem,4.875rem); font-weight:900; color:var(--turf-dark); line-height:1.04; }
+  .frontpage-standfirst{ margin-top:16px; font-size:1.15rem; max-width:72ch; }
+  .byline{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; }
+  .byline a{ color:var(--turf-dark); text-decoration:none; border-bottom:1px solid currentColor; }
+  .frontpage-byline{ margin-top:14px; }
+  .relative{ color:var(--muted); }
+
+  .cover-grid{ margin-top:26px; display:grid; grid-template-columns:1.4fr 1fr; gap:28px; align-items:start; }
+  @media (max-width:860px){ .cover-grid{ grid-template-columns:1fr; } }
+
+  .cover-visual{ border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+  .cover-clash{ display:grid; grid-template-columns:1fr auto 1fr; }
+  @media (max-width:480px){ .cover-clash{ grid-template-columns:1fr; } }
+  .clash-side{ padding:20px 20px; }
+  .clash-side.claim{ background:var(--surface); }
+  .clash-side.reply{ background:var(--turf-dark); color:#F4F2E4; }
+  .clash-label{ font-family:'IBM Plex Mono',monospace; font-size:0.66rem; text-transform:uppercase; letter-spacing:0.08em; opacity:0.75; }
+  .clash-side.reply .clash-label{ color:#C7D9CB; }
+  .clash-value{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.3rem; margin-top:6px; line-height:1.15; }
+  .clash-vs{ display:flex; align-items:center; justify-content:center; padding:0 14px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); background:var(--paper); }
+  @media (max-width:480px){ .clash-vs{ padding:8px 20px; justify-content:flex-start; } }
+  .cover-visual-note{ padding:10px 20px; font-size:0.68rem; color:var(--muted); border-top:1px solid var(--line); background:var(--surface); }
+
+  .cover-secondary{ display:flex; flex-direction:column; gap:14px; }
+  .fact-panel{ border:1px solid var(--line); border-radius:6px; padding:16px 18px; background:var(--surface); }
+  .fact-panel-title{ font-family:'IBM Plex Mono',monospace; font-size:0.68rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-bottom:10px; }
+  .fact-row{ display:flex; justify-content:space-between; gap:12px; padding:6px 0; border-top:1px solid var(--line); font-size:0.86rem; }
+  .fact-row:first-of-type{ border-top:0; }
+  .fact-row dt{ color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:0.7rem; text-transform:uppercase; letter-spacing:0.04em; flex-shrink:0; }
+  .fact-row dd{ margin:0; text-align:right; }
+  .cover-secondary-item{ display:block; text-decoration:none; color:inherit; border:1px solid var(--line); border-radius:6px; padding:14px 16px; }
+  .cover-secondary-item h3{ font-size:1.02rem; font-weight:700; margin-top:8px; font-family:'Source Serif 4',serif; }
+  .cover-secondary-item .dateline{ display:block; margin-top:8px; }
+  .cover-secondary-item:hover h3{ color:var(--turf-dark); }
+
+  .section-label{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-bottom:14px; }
+
+  /* ---------- 5. Maçın kırılma anı ---------- */
+  .breakdown{ margin-top:34px; }
+  .breakdown-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  @media (max-width:860px){ .breakdown-grid{ grid-template-columns:1fr; } }
+  .breakdown-item{ border-top:2px solid var(--turf-dark); padding-top:12px; }
+  .breakdown-item h3{ font-size:1.15rem; font-weight:800; color:var(--ink); }
+  .breakdown-item p{ margin-top:10px; font-size:0.96rem; }
+  .breakdown-item a{ color:var(--turf-dark); text-decoration:none; border-bottom:1px solid currentColor; font-family:'IBM Plex Mono',monospace; font-size:0.78rem; }
+
+  /* ---------- 6. Yorumcular ne dedi? ---------- */
+  .voices-wrap{ margin-top:34px; }
+  .voices{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+  @media (max-width:700px){ .voices{ grid-template-columns:1fr; } }
+  .voice-card{ background:var(--surface-raised); border:1px solid var(--line); border-radius:6px; padding:18px 20px; }
+  .voice-who{ display:flex; align-items:flex-start; gap:12px; margin-bottom:10px; }
+  .voice-avatar{ flex-shrink:0; width:42px; height:42px; border-radius:4px; background:var(--turf-dark); color:var(--floodlight); display:flex; align-items:center; justify-content:center; font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.05rem; }
+  .voice-id{ display:flex; flex-direction:column; }
+  .voice-name{ color:var(--ink); font-weight:600; font-family:'IBM Plex Mono',monospace; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.02em; }
+  .voice-role{ font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; margin-top:2px; }
+  .voice-quote{ margin:0; font-size:1.02rem; font-style:italic; }
+  .voice-quote::before{ content:"\201C"; }
+  .voice-quote::after{ content:"\201D"; }
+  .voice-context{ margin-top:8px; font-size:0.9rem; color:var(--muted); font-style:normal; }
+  .voice-source{ display:inline-block; margin-top:10px; font-family:'IBM Plex Mono',monospace; font-size:0.7rem; text-decoration:none; color:var(--turf-dark); border-bottom:1px solid currentColor; }
+  .voices-note{ margin-top:14px; }
+
+  /* ---------- 7. GOLHAT'ın sözü ---------- */
+  .verdict{ margin-top:24px; background:var(--turf-dark); color:#F4F2E4; border-radius:6px; padding:22px 24px; }
+  .verdict .section-label{ color:#C7D9CB; margin-bottom:8px; }
+  .verdict .section-label b{ color:var(--floodlight); }
+  .verdict-disclaimer{ margin:0 0 12px; font-size:0.72rem; color:#C7D9CB; }
+  .verdict-text{ margin:0; font-size:1.03rem; line-height:1.65; }
+
+  /* ---------- 8. Transfer Hattı ---------- */
+  .transferline{ margin:40px 0; padding-top:14px; border-top:2px solid var(--ink); }
+  .translist-meta{ display:flex; flex-wrap:wrap; gap:6px 20px; font-size:0.74rem; color:var(--muted); margin-top:6px; margin-bottom:18px; }
+  .translist-meta strong{ color:var(--ink); font-variant-numeric:tabular-nums; }
+  .translist{ list-style:none; margin:0; padding:0; border-top:1px solid var(--line); }
+  .translist-item{ display:grid; grid-template-columns:auto 1fr auto; gap:10px 16px; align-items:baseline; padding:13px 0; border-bottom:1px solid var(--line); }
+  @media (max-width:700px){ .translist-item{ grid-template-columns:1fr; gap:6px; } }
+  .translist-player{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.05rem; grid-column:2; }
+  @media (max-width:700px){ .translist-player{ grid-column:1; } }
+  .translist-club{ font-size:0.92rem; color:var(--ink); grid-column:1/-1; }
+  .translist-source{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-decoration:none; color:var(--turf-dark); border-bottom:1px solid currentColor; white-space:nowrap; }
+
+  /* ---------- Tags ---------- */
+  .tag{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:0.68rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; padding:3px 8px; border-radius:2px; white-space:nowrap; }
+  .tag-urgent{ background:var(--var-red); color:#fff; }
+  .tag-desk{ background:transparent; border:1px solid var(--line); color:var(--muted); }
+  .tag-claim{ background:transparent; border:1px solid var(--muted); color:var(--muted); }
+  .tag-progress{ background:var(--turf-dark); color:var(--floodlight); }
+
+  /* ---------- 9. Süper Lig / Dünya Futbolu akışı ---------- */
+  .supporting-label{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); border-top:2px solid var(--ink); padding-top:12px; margin-top:8px; }
+  .desks{ padding:16px 0 40px; display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+  @media (max-width:820px){ .desks{ grid-template-columns:1fr; } }
+  .desk-heading{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:18px; }
+  .desk-heading h2{ font-size:1.35rem; font-weight:800; color:var(--turf-dark); }
+  .desk-count{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); }
+  .dispatch{ display:flex; gap:14px; }
+  .dispatch + .dispatch{ margin-top:18px; padding-top:18px; border-top:1px solid var(--line); }
+  .dispatch-visual{ flex-shrink:0; width:6px; align-self:stretch; border-radius:3px; background:var(--turf-dark); }
+  .dispatch-visual.urgent{ background:var(--var-red); }
+  .dispatch-body{ flex:1; min-width:0; }
+  .dispatch-meta{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:8px; }
+  .dateline{ font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); }
+  .dispatch-headline{ font-size:1.1rem; font-weight:700; }
+  .dispatch-dek{ margin-top:6px; font-size:0.92rem; color:var(--ink); }
+  .dispatch-source{ display:inline-block; margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-decoration:none; color:var(--turf-dark); border-bottom:1px solid currentColor; }
+  .dispatch-source + .dispatch-source{ margin-left:14px; }
+
+  /* ---------- Footer ---------- */
+  footer{ border-top:2px solid var(--ink); padding:22px 0 40px; }
+  .foot-grid{ display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+  .foot-note{ max-width:56ch; font-size:0.92rem; color:var(--muted); }
+  .foot-brand{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.2rem; color:var(--turf-dark); }
+  .foot-mono{ font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--muted); margin-top:6px; }
+
+  /* ---------- Mobile: birincil ürün akışı ---------- */
+  @media (max-width:700px){
+    .frontpage-headline{ font-size:clamp(2.5rem,7.5vw,3rem); }
+  }
+
+  /* GOL/HAT Signal Edition: stadium night meets digital newspaper */
+  :root,
+  :root[data-theme="dark"]{
+    --paper:#ECE9DF;
+    --ink:#101313;
+    --turf:#176647;
+    --turf-dark:#0B3324;
+    --floodlight:#F4C84B;
+    --floodlight-ink:#161B18;
+    --var-red:#E21B2D;
+    --muted:#60645F;
+    --line:rgba(16,19,19,0.18);
+    --surface:#F7F4EB;
+    --surface-raised:#FFFCF3;
+    --shadow:rgba(4,8,7,0.20);
+    --night:#07090A;
+    --night-raised:#111516;
+    --night-line:rgba(255,255,255,0.14);
+    --chalk:#F6F2E8;
+    --signal:#E21B2D;
+    color-scheme:light;
+  }
+
+  html{ scroll-behavior:smooth; }
+  body{
+    background:
+      linear-gradient(rgba(10,35,25,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(10,35,25,0.025) 1px, transparent 1px),
+      var(--paper);
+    background-size:28px 28px;
+  }
+  ::selection{ background:var(--signal); color:#fff; }
+
+  .scorestrip{
+    position:relative;
+    background:var(--night);
+    border-top:3px solid var(--signal);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    color:var(--chalk);
+  }
+  .scorestrip::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    background:linear-gradient(105deg, transparent 0 68%, rgba(226,27,45,0.10) 68% 69%, transparent 69%);
+  }
+  .scorestrip-inner{ position:relative; }
+  .score-chip{
+    min-height:58px;
+    justify-content:center;
+    border-right:1px solid rgba(255,255,255,0.12);
+  }
+  .score-chip-label{ color:#8FA69B; }
+  .score-chip-value{ color:var(--chalk); }
+  .score-chip-value strong{ color:var(--floodlight); }
+  .scorestrip-credit{ position:relative; padding-top:6px; padding-bottom:8px; }
+  .scorestrip-credit a{ color:#A5B5AC; }
+
+  .masthead{
+    position:relative;
+    isolation:isolate;
+    overflow:hidden;
+    padding:22px 0 16px;
+    background:
+      radial-gradient(circle at 78% 15%, rgba(226,27,45,0.16), transparent 25%),
+      linear-gradient(115deg, #0D1112 0 63%, #151A1B 63% 100%);
+    border-bottom:0;
+    color:var(--chalk);
+  }
+  .masthead::before{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    width:280px;
+    height:280px;
+    right:10%;
+    top:-190px;
+    border:1px solid rgba(255,255,255,0.10);
+    border-radius:50%;
+    box-shadow:0 0 0 38px rgba(255,255,255,0.025), 0 0 0 76px rgba(255,255,255,0.018);
+  }
+  .masthead::after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:calc(50% - 1px);
+    width:1px;
+    background:rgba(255,255,255,0.045);
+  }
+  .wordmark{ gap:16px; }
+  .wordmark h1{
+    position:relative;
+    color:#fff;
+    font-size:clamp(2.55rem,6vw,4rem);
+    font-style:italic;
+    letter-spacing:-0.045em;
+    line-height:0.9;
+    text-shadow:0 8px 30px rgba(0,0,0,0.35);
+  }
+  .wordmark h1::after{
+    content:"";
+    display:block;
+    width:42%;
+    height:4px;
+    margin-top:8px;
+    margin-left:4px;
+    background:var(--signal);
+    transform:skewX(-18deg);
+  }
+  .wordmark h1 .slash{ color:var(--signal); }
+  .wordmark .tagline{ color:#9CA6A1; letter-spacing:0.16em; }
+  .clockbox .updated-badge{ color:#fff; }
+  .clockbox .updated-badge::before{
+    content:"";
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:var(--signal);
+    box-shadow:0 0 0 5px rgba(226,27,45,0.16);
+  }
+  .clockbox .date-ist,
+  .clockbox .local-time{ color:#9CA6A1; }
+  .desknav{ gap:6px; margin-top:18px; }
+  .desknav a{
+    color:#BDC4C0;
+    border:1px solid transparent;
+    padding:6px 10px;
+    transition:background .2s ease, color .2s ease, border-color .2s ease;
+  }
+  .desknav a:hover{
+    color:#fff;
+    background:rgba(255,255,255,0.06);
+    border-color:rgba(255,255,255,0.14);
+  }
+
+  .ticker{
+    min-height:42px;
+    background:var(--signal);
+    border:0;
+    box-shadow:0 8px 22px rgba(84,0,10,0.18);
+  }
+  .ticker-item{ color:#fff; }
+  .ticker-item b,
+  .ticker-item.tag-world b{ color:#fff; font-weight:700; }
+  .ticker-item b::after{ content:" /"; color:rgba(255,255,255,0.58); }
+  .ticker-toggle{
+    background:#B70E1E;
+    color:#fff;
+    border-left:1px solid rgba(255,255,255,0.28);
+  }
+  .ticker-toggle:hover{ color:var(--floodlight); }
+
+  main.wrap{ position:relative; }
+  .frontpage{
+    position:relative;
+    isolation:isolate;
+    overflow:hidden;
+    margin-top:30px;
+    padding:clamp(26px,4.2vw,54px);
+    color:var(--chalk);
+    background:
+      radial-gradient(circle at 92% 8%, rgba(226,27,45,0.22), transparent 24%),
+      linear-gradient(125deg, #080A0B 0 58%, #111617 58% 100%);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:12px;
+    box-shadow:0 26px 60px rgba(5,10,8,0.23);
+  }
+  .frontpage::before{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    inset:0;
+    opacity:.28;
+    background:
+      linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+    background-size:54px 54px;
+    mask-image:linear-gradient(90deg, transparent 24%, #000 100%);
+  }
+  .frontpage::after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    width:260px;
+    height:5px;
+    right:-42px;
+    top:64px;
+    background:var(--signal);
+    transform:rotate(-45deg);
+    box-shadow:0 14px 0 rgba(226,27,45,0.28);
+  }
+  .frontpage-kicker{
+    background:var(--signal);
+    color:#fff;
+    border-radius:0;
+    padding:7px 11px;
+    box-shadow:8px 0 0 rgba(226,27,45,0.28);
+  }
+  .frontpage-headline{
+    max-width:14.5ch;
+    color:#fff;
+    font-size:clamp(3rem,5.7vw,5.6rem);
+    line-height:.94;
+    letter-spacing:-.018em;
+    text-shadow:0 12px 36px rgba(0,0,0,.42);
+  }
+  .frontpage-standfirst{ color:#D7DDD8; font-size:clamp(1.02rem,1.7vw,1.18rem); }
+  .frontpage .byline{ color:#919C96; }
+  .frontpage .byline a{ color:#fff; }
+
+  .frontpage .cover-visual,
+  .frontpage .fact-panel,
+  .frontpage .cover-secondary-item{ border-color:rgba(255,255,255,0.15); }
+  .frontpage .clash-side.claim,
+  .frontpage .cover-visual-note,
+  .frontpage .fact-panel,
+  .frontpage .cover-secondary-item{ background:#151A1B; color:var(--chalk); }
+  .frontpage .clash-side.reply{ background:var(--signal); color:#fff; }
+  .frontpage .clash-vs{ background:#0B0E0F; color:#929B96; }
+  .frontpage .cover-visual-note{ color:#9CA6A1; border-color:rgba(255,255,255,.11); }
+  .frontpage .fact-panel-title,
+  .frontpage .section-label,
+  .frontpage .fact-row dt,
+  .frontpage .dateline{ color:#96A09B; }
+  .frontpage .fact-row{ border-color:rgba(255,255,255,.12); }
+  .frontpage .fact-row dd{ color:#fff; }
+  .frontpage .cover-secondary-item{ transition:transform .2s ease, border-color .2s ease, background .2s ease; }
+  .frontpage .cover-secondary-item:hover{
+    transform:translateX(5px);
+    border-color:var(--signal);
+    background:#1A1F20;
+  }
+  .frontpage .cover-secondary-item:hover h3{ color:#fff; }
+  .frontpage .tag-desk{ color:#D6DDD8; border-color:rgba(255,255,255,.22); }
+
+  @media (max-width:700px){
+    .scorestrip-credit{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .masthead{ padding-top:18px; }
+    .masthead-row{ align-items:flex-start; }
+    .clockbox{ text-align:left; }
+    .desknav{
+      flex-wrap:nowrap;
+      overflow-x:auto;
+      padding-bottom:5px;
+      scrollbar-width:none;
+    }
+    .desknav::-webkit-scrollbar{ display:none; }
+    .desknav a{ flex:0 0 auto; }
+    main.wrap{ padding:0 12px; }
+    .frontpage{ margin-top:18px; padding:24px 18px 28px; border-radius:8px; }
+    .frontpage-headline{ max-width:none; font-size:clamp(2.55rem,12vw,3.5rem); }
+    .frontpage::after{ right:-110px; opacity:.65; }
+  }
+
+  .section-label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#505650;
+    font-weight:600;
+  }
+  .section-label::before{
+    content:"";
+    width:24px;
+    height:4px;
+    background:var(--signal);
+    transform:skewX(-18deg);
+    flex:0 0 auto;
+  }
+
+  .breakdown{ margin-top:46px; }
+  .breakdown-grid{ counter-reset:breakdown; gap:14px; }
+  .breakdown-item{
+    counter-increment:breakdown;
+    position:relative;
+    min-height:100%;
+    padding:54px 20px 22px;
+    background:var(--surface-raised);
+    border:1px solid var(--line);
+    border-top:4px solid var(--ink);
+    box-shadow:0 12px 28px rgba(9,18,14,.07);
+    transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+  }
+  .breakdown-item::before{
+    content:"0" counter(breakdown);
+    position:absolute;
+    top:15px;
+    left:20px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;
+    font-weight:600;
+    color:var(--signal);
+    letter-spacing:.12em;
+  }
+  .breakdown-item::after{
+    content:"";
+    position:absolute;
+    top:24px;
+    right:20px;
+    width:42px;
+    height:1px;
+    background:var(--line);
+    box-shadow:8px 0 0 var(--signal);
+  }
+  .breakdown-item:hover{
+    transform:translateY(-4px);
+    border-color:rgba(226,27,45,.42);
+    box-shadow:0 18px 36px rgba(9,18,14,.11);
+  }
+  .breakdown-item h3{ font-size:1.48rem; }
+  .breakdown-item a,
+  .dispatch-source,
+  .voice-source,
+  .translist-source{
+    text-decoration:none;
+    color:var(--turf-dark);
+    border-bottom:1px solid currentColor;
+    transition:color .2s ease;
+  }
+  .breakdown-item a:hover,
+  .dispatch-source:hover,
+  .voice-source:hover,
+  .translist-source:hover{ color:var(--signal); }
+
+  .voices-wrap{ margin-top:46px; }
+  .voices{ gap:14px; }
+  .voice-card{
+    position:relative;
+    overflow:hidden;
+    background:var(--surface-raised);
+    border:1px solid var(--line);
+    border-radius:0;
+    padding:24px;
+    box-shadow:0 12px 28px rgba(9,18,14,.06);
+  }
+  .voice-card::after{
+    content:"";
+    position:absolute;
+    width:90px;
+    height:4px;
+    right:-20px;
+    top:18px;
+    background:var(--signal);
+    transform:rotate(-35deg);
+  }
+  .voice-avatar{
+    background:var(--night);
+    color:#fff;
+    border-radius:0;
+    box-shadow:5px 5px 0 rgba(226,27,45,.9);
+  }
+  .voice-name{ color:var(--ink); }
+  .voice-quote{ font-size:1.08rem; line-height:1.65; }
+  .voices-note{
+    padding:13px 15px;
+    border-left:3px solid var(--signal);
+    background:rgba(255,255,255,.44);
+  }
+
+  .verdict{
+    position:relative;
+    isolation:isolate;
+    overflow:hidden;
+    margin-top:26px;
+    padding:30px clamp(24px,4vw,46px);
+    background:
+      radial-gradient(circle at 88% 14%, rgba(226,27,45,.24), transparent 25%),
+      var(--night);
+    color:var(--chalk);
+    border:0;
+    border-radius:0;
+    box-shadow:0 22px 46px rgba(6,12,10,.2);
+  }
+  .verdict::before{
+    content:"//";
+    position:absolute;
+    z-index:-1;
+    right:28px;
+    bottom:-42px;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size:12rem;
+    font-weight:900;
+    line-height:1;
+    color:rgba(226,27,45,.15);
+    letter-spacing:-.16em;
+  }
+  .verdict .section-label{ color:#C4CCC7; }
+  .verdict .section-label::before{ background:var(--signal); }
+  .verdict .section-label b{ color:#fff; }
+  .verdict-disclaimer{ color:#9EA8A2; border-bottom:1px solid rgba(255,255,255,.12); padding-bottom:13px; }
+  .verdict-text{ max-width:88ch; font-size:1.08rem; }
+
+  .transferline{
+    position:relative;
+    margin:48px 0 38px;
+    padding:28px;
+    background:var(--surface-raised);
+    border:1px solid var(--line);
+    border-top:5px solid var(--signal);
+    box-shadow:0 18px 38px rgba(7,15,12,.09);
+  }
+  .transferline::before{
+    content:"IDDIA  /  GELISME  /  KESINLESTI";
+    display:block;
+    margin-bottom:18px;
+    color:var(--muted);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.64rem;
+    font-weight:600;
+    letter-spacing:.13em;
+    word-spacing:.45em;
+  }
+  .transferline .desk-heading{ border-bottom-color:var(--ink); }
+  .transferline .desk-heading h2{ color:var(--ink); font-size:1.75rem; }
+  .translist{ border-color:var(--line); }
+  .translist-item{
+    position:relative;
+    margin:0 -12px;
+    padding:16px 12px;
+    transition:background .18s ease, transform .18s ease;
+  }
+  .translist-item:hover{ background:#F1EEE4; transform:translateX(4px); }
+  .translist-player{ font-size:1.22rem; }
+  .tag-claim{ color:var(--signal); border-color:var(--signal); }
+  .tag-progress{ background:var(--floodlight); color:var(--floodlight-ink); }
+  .tag-urgent{ background:var(--signal); }
+  .tag-desk{ background:rgba(255,255,255,.28); }
+
+  .supporting-label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border-top:0;
+    padding-top:0;
+    color:var(--ink);
+    font-weight:600;
+  }
+  .supporting-label::before{
+    content:"";
+    width:34px;
+    height:5px;
+    background:var(--signal);
+    transform:skewX(-18deg);
+  }
+  .desks{ gap:22px; }
+  .desks > div{
+    padding:24px;
+    background:rgba(255,252,243,.72);
+    border:1px solid var(--line);
+    box-shadow:0 12px 30px rgba(8,16,13,.06);
+  }
+  .desk-heading h2{ color:var(--ink); }
+  .dispatch{
+    position:relative;
+    padding-left:16px;
+  }
+  .dispatch::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:5px;
+    bottom:4px;
+    width:3px;
+    background:var(--turf-dark);
+  }
+  .dispatch:has(.tag-urgent)::before,
+  .dispatch:has(.tag-progress)::before{ background:var(--signal); }
+  .dispatch + .dispatch{ padding-top:20px; padding-left:16px; }
+  .dispatch-headline{ font-size:1.2rem; }
+  .dispatch-headline,
+  .cover-secondary-item h3{ transition:color .2s ease; }
+  .dispatch:hover .dispatch-headline{ color:var(--signal); }
+
+  footer{
+    position:relative;
+    overflow:hidden;
+    margin-top:26px;
+    padding:38px 0 48px;
+    background:var(--night);
+    color:var(--chalk);
+    border-top:5px solid var(--signal);
+  }
+  footer::after{
+    content:"GOL/HAT";
+    position:absolute;
+    right:-20px;
+    bottom:-56px;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size:10rem;
+    font-style:italic;
+    font-weight:900;
+    color:rgba(255,255,255,.035);
+    pointer-events:none;
+  }
+  footer .foot-brand{ color:#fff; font-size:2rem; font-style:italic; }
+  footer .foot-brand::first-letter{ color:inherit; }
+  footer .foot-brand span{ color:var(--signal); }
+  footer .foot-note,
+  footer .foot-mono{ color:#9EA8A2; }
+  footer .foot-grid{ position:relative; z-index:1; }
+
+  .brand-manifesto{
+    margin-top:48px;
+    padding:32px clamp(22px,4vw,46px);
+    color:#fff;
+    background:
+      linear-gradient(115deg, rgba(226,27,45,.95) 0 30%, rgba(7,9,10,.98) 30% 100%);
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 22px 44px rgba(6,12,10,.18);
+  }
+  .brand-manifesto-grid{
+    display:grid;
+    grid-template-columns:.8fr 1.5fr;
+    gap:34px;
+    align-items:center;
+  }
+  .brand-manifesto-mark{
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size:clamp(2.6rem,6vw,5.2rem);
+    font-weight:900;
+    font-style:italic;
+    line-height:.85;
+    letter-spacing:-.045em;
+  }
+  .brand-manifesto-mark span{ color:#080A0B; }
+  .brand-manifesto-copy{
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size:clamp(2rem,4.5vw,4rem);
+    font-weight:800;
+    line-height:.98;
+    text-transform:uppercase;
+  }
+  .brand-manifesto-copy em{ color:var(--signal); font-style:normal; }
+  .brand-manifesto-points{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 18px;
+    margin-top:18px;
+    color:#BFC8C2;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.7rem;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+  }
+  .brand-manifesto-points span::before{ content:"+"; color:var(--signal); margin-right:6px; }
+
+  @media (prefers-reduced-motion:reduce){
+    html{ scroll-behavior:auto; }
+    *,*::before,*::after{ transition-duration:.01ms !important; }
+  }
+
+  @media (max-width:820px){
+    .brand-manifesto-grid{ grid-template-columns:1fr; }
+    .brand-manifesto-mark{ font-size:3.6rem; }
+  }
+  @media (max-width:700px){
+    .breakdown-item{ padding:48px 18px 20px; }
+    .voice-card{ padding:20px 18px; }
+    .transferline{ margin-left:0; margin-right:0; padding:22px 16px; }
+    .transferline::before{ line-height:1.7; }
+    .desks > div{ padding:20px 16px; }
+    .brand-manifesto{ margin-top:32px; padding:24px 18px; }
+    .brand-manifesto-copy{ font-size:2.25rem; }
+  }
+
+
+  .tag-confirmed{ background:var(--ink); color:var(--paper); }
+  .page-hero{ padding:28px 0 8px; border-bottom:1px solid var(--line); margin-bottom:22px; }
+  .page-hero .section-label{ margin-bottom:6px; }
+  .page-hero h1{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:clamp(1.8rem,4.5vw,2.6rem); margin:0 0 8px; line-height:1.02; }
+  .page-hero p{ color:var(--muted); max-width:62ch; margin:0; }
+  .single-desk{ margin-bottom:36px; }
+  .dosya-block{ border:1px solid var(--line); border-radius:4px; padding:22px 22px 18px; margin-bottom:22px; background:var(--surface-raised); }
+  .dosya-block h2{ font-family:'Big Shoulders Display',sans-serif; font-size:1.5rem; margin:6px 0 10px; }
+  .dosya-block .standfirst{ margin:0 0 14px; }
+  .dosya-facts{ display:flex; flex-wrap:wrap; gap:8px 22px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; color:var(--muted); margin-bottom:14px; }
+  .dosya-facts b{ color:var(--ink); }
+  .dosya-sources{ list-style:none; margin:0; padding:0; border-top:1px solid var(--line); padding-top:12px; }
+  .dosya-sources li{ margin-bottom:8px; font-size:0.86rem; }
+  .dosya-sources a{ color:var(--turf-dark); }
+  .dosya-sources .note{ color:var(--muted); font-size:0.8rem; }
+  .empty-state{ border:1px dashed var(--line); border-radius:4px; padding:28px; text-align:center; color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:0.85rem; }
+
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead-row">
+      <div class="wordmark">
+        <a href="/" style="text-decoration:none;color:inherit;"><h1>GOL<span class="slash">/</span>HAT</h1></a>
+        <span class="tagline">Futbolun Haber Hattı</span>
+      </div>
+      <div class="clockbox">
+        <div class="updated-badge mono">Son Güncelleme &middot; <span id="masthead-updated">--:--</span></div>
+        <div class="date-ist mono" id="masthead-date">&nbsp;</div>
+        <div class="local-time mono">İstanbul yerel saati: <span id="live-clock">--:--:--</span></div>
+      </div>
+    </div>
+    <nav class="desknav" aria-label="Bölümler">
+      <a href="/">Ana Sayfa</a>
+      <a href="/#dosya">Günün Dosyası</a>
+      <a href="/#kirilma-ani">Dosya Analizi</a>
+      <a href="/transfer.html">Transfer Hattı</a>
+      <a href="/skor.html" aria-current="page">Skor</a>
+      <a href="/ozel-haber.html">Özel Haber</a>
+      <a href="/super-lig.html">Süper Lig</a>
+      <a href="/sampiyonlar-ligi.html">Şampiyonlar Ligi</a>
+      <a href="/uefa.html">UEFA</a>
+      <a href="/avrupa.html">Avrupa Futbolu</a>
+      <a href="/fenerbahce.html">Fenerbahçe</a>
+      <a href="/galatasaray.html">Galatasaray</a>
+      <a href="/besiktas.html">Beşiktaş</a>
+      <a href="/trabzonspor.html">Trabzonspor</a>
+      <a href="/anadolu.html">Anadolu Takımları</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="page-hero">
+    <span class="section-label">Skor</span>
+    <h1>Canlı Skor</h1>
+    <p>Veri kaynağı: API-Football. Bu sayfa yalnızca gerçek zamanlı API verisini gösterir; uydurma skor veya "canlı" etiketi kullanılmaz. Takip edilen maç yoksa bu açıkça belirtilir.</p>
+  </section>
+
+  <section class="single-desk">
+    <div class="desk-heading"><h2>Canlı Maçlar</h2><span class="desk-count mono" id="skor-count">&mdash;</span></div>
+    <div id="skor-list"></div>
+    <p class="foot-mono" id="skor-updated-line">Yükleniyor&hellip;</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-brand">GOL<span>/</span>HAT</div>
+      <p class="foot-note">GOLHAT, güvenilir spor kaynaklarını tarayıp özetleyen ve önemli gelişmeleri olay örgüsü, taraf açıklamaları ve editoryal değerlendirmeyle sunan bir dijital spor gazetesidir. Her alıntı ve haber, orijinal kaynağına bağlıdır; kaynaksız yorum, doğrulanmamış iddia ya da yapay/uydurma görsel yayınlanmaz. "GOLHAT'IN SÖZÜ" bölümleri GOLHAT'ın kendi editoryal görüşüdür, haber değildir.</p>
+    </div>
+    <div class="foot-mono">
+      Yayın dili: Türkçe<br>
+      Kapsam: Süper Lig &amp; Dünya Futbolu<br>
+      Yayın ilkesi: Kaynak &middot; Taraf &middot; Bağlam &middot; Analiz<br>
+      "İddia": teyit seviyesi düşük &middot; "Gelişme": taraf ağzından aktarım &middot; "Kesinleşti": yalnızca resmi açıklama<br>
+      Son tarama: <span id="foot-updated">01.09.2026</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    function pad(n){ return String(n).padStart(2,'0'); }
+    function tickClock(){
+      var el = document.getElementById('live-clock');
+      if(!el) return;
+      try{
+        var now = new Date();
+        var fmt = new Intl.DateTimeFormat('tr-TR', { timeZone:'Europe/Istanbul', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false });
+        el.textContent = fmt.format(now);
+      }catch(e){ el.textContent = new Date().toLocaleTimeString(); }
+    }
+    tickClock(); setInterval(tickClock, 1000);
+    function updateDate(){
+      var el = document.getElementById('masthead-date');
+      if(!el) return;
+      try{
+        var fmt = new Intl.DateTimeFormat('tr-TR', { timeZone:'Europe/Istanbul', weekday:'long', day:'numeric', month:'long' });
+        el.textContent = fmt.format(new Date()) + ' · İstanbul';
+      }catch(e){ el.textContent=''; }
+    }
+    updateDate(); setInterval(updateDate, 60000);
+    var upd = new Intl.DateTimeFormat('tr-TR', { timeZone:'Europe/Istanbul', hour:'2-digit', minute:'2-digit', hour12:false }).format(new Date());
+    ['masthead-updated'].forEach(function(id){ var e=document.getElementById(id); if(e) e.textContent=upd; });
+  })();
+</script>
+
+<script>
+  (function(){
+    var listEl = document.getElementById('skor-list');
+    var countEl = document.getElementById('skor-count');
+    var updEl = document.getElementById('skor-updated-line');
+
+    function render(data){
+      var matches = (data && data.matches) || [];
+      countEl.textContent = matches.length + ' maç';
+      if(matches.length === 0){
+        listEl.innerHTML = '<div class="empty-state">Şu anda takip edilen liglerde canlı maç bulunmuyor.</div>';
+      } else {
+        listEl.innerHTML = matches.map(function(m){
+          return '<article class="dispatch"><div class="dispatch-visual" aria-hidden="true"></div><div class="dispatch-body">' +
+            '<div class="dispatch-meta"><span class="tag tag-urgent">CANLI &middot; ' + (m.minute != null ? m.minute + "'" : m.status) + '</span><span class="dateline">' + (m.league || '') + '</span></div>' +
+            '<h3 class="dispatch-headline">' + m.home + ' ' + (m.homeScore ?? '-') + ' &ndash; ' + (m.awayScore ?? '-') + ' ' + m.away + '</h3>' +
+            '</div></article>';
+        }).join('');
+      }
+      var updated = data && data.updatedAt ? new Date(data.updatedAt) : null;
+      updEl.textContent = 'Kaynak: ' + ((data && data.source) || 'API-Football') + ' &middot; Son güncelleme: ' + (updated ? updated.toLocaleString('tr-TR', {timeZone:'Europe/Istanbul'}) : 'bilinmiyor');
+    }
+
+    function load(){
+      fetch('/data/canli-skorlar.json', {cache:'no-store'})
+        .then(function(r){ if(!r.ok) throw new Error('no data'); return r.json(); })
+        .then(render)
+        .catch(function(){
+          listEl.innerHTML = '<div class="empty-state">Canlı skor verisi şu anda okunamıyor.</div>';
+          updEl.textContent = '';
+        });
+    }
+    load();
+    setInterval(load, 60000);
+  })();
+</script>
+
+</html>
