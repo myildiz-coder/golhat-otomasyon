@@ -1,1 +1,0 @@
-# golhat-otomasyon
