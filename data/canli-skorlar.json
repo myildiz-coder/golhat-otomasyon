@@ -1,5 +1,25 @@
 {
-  "updatedAt": "2026-09-02T09:56:46.950Z",
+  "updatedAt": "2026-09-02T10:09:17.803Z",
   "source": "API-Football",
+  "sourceUrl": "https://www.api-football.com/",
+  "date": "2026-09-02",
+  "timezone": "Europe/Istanbul",
+  "trackedLeagues": [
+    203,
+    2,
+    3,
+    848,
+    39,
+    140,
+    135,
+    78,
+    61
+  ],
+  "summary": {
+    "total": 0,
+    "live": 0,
+    "upcoming": 0,
+    "finished": 0
+  },
   "matches": []
 }
