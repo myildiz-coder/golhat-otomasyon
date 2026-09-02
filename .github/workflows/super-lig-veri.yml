@@ -1,0 +1,51 @@
+name: Süper Lig Puan ve Fikstür
+
+on:
+  schedule:
+    # Türkiye saati: 07:05, 12:05, 17:05, 22:05 (UTC+3)
+    - cron: '5 4,9,14,19 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+jobs:
+  update-super-lig:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Veri dönüştürme testleri
+        run: npm test
+
+      - name: Puan cetveli ve sıradaki haftayı çek
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node scripts/fetch-super-lig.js
+
+      - name: Değişiklik varsa commit et ve gönder
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-league-bot"
+          git config user.email "actions@github.com"
+          git add data/super-lig.json
+          if git diff --cached --quiet; then
+            echo "Süper Lig verisinde değişiklik yok."
+            exit 0
+          fi
+          git commit -m "Süper Lig puan ve fikstür güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

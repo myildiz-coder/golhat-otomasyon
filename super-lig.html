@@ -844,6 +844,205 @@
   .dosya-sources .note{ color:var(--muted); font-size:0.8rem; }
   .empty-state{ border:1px dashed var(--line); border-radius:4px; padding:28px; text-align:center; color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:0.85rem; }
 
+
+  /* Süper Lig canlı veri paneli */
+  .league-dashboard{
+    margin:0 0 34px;
+    border:1px solid #244238;
+    border-radius:6px;
+    overflow:hidden;
+    background:#071711;
+    color:#F2F4F0;
+    box-shadow:0 16px 36px rgba(5,20,14,.12);
+  }
+  .league-dashboard-head{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:18px;
+    padding:20px 22px 17px;
+    border-bottom:1px solid rgba(255,255,255,.13);
+    background:linear-gradient(120deg,#0A2118 0%,#071711 70%);
+  }
+  .league-dashboard-kicker{
+    display:block;
+    margin-bottom:4px;
+    color:#77E2B7;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.67rem;
+    font-weight:700;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+  }
+  .league-dashboard-title{
+    margin:0;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size:clamp(1.65rem,4vw,2.35rem);
+    font-weight:800;
+    line-height:1;
+    letter-spacing:.01em;
+  }
+  .league-dashboard-meta{
+    flex:0 0 auto;
+    color:#9FB5AA;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.66rem;
+    letter-spacing:.06em;
+    text-align:right;
+    text-transform:uppercase;
+  }
+  .league-dashboard-grid{
+    display:grid;
+    grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr);
+  }
+  .league-panel{ min-width:0; padding:20px 22px 22px; }
+  .league-panel + .league-panel{ border-left:1px solid rgba(255,255,255,.13); }
+  .league-panel-title{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin:0 0 14px;
+    color:#DCE8E1;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;
+    font-weight:700;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+  }
+  .league-round{
+    color:#FF4058;
+    font-size:.66rem;
+    letter-spacing:.08em;
+    white-space:nowrap;
+  }
+  .standings-wrap{ overflow-x:auto; scrollbar-color:#45685A #0A2118; }
+  .standings-table{
+    width:100%;
+    border-collapse:collapse;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;
+    font-variant-numeric:tabular-nums;
+  }
+  .standings-table th,
+  .standings-table td{
+    padding:8px 7px;
+    border-bottom:1px solid rgba(255,255,255,.09);
+    text-align:center;
+    white-space:nowrap;
+  }
+  .standings-table thead th{
+    padding-top:0;
+    color:#789487;
+    font-size:.61rem;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+  }
+  .standings-table .team-cell{
+    width:100%;
+    color:#F2F4F0;
+    font-family:Arial,sans-serif;
+    font-size:.8rem;
+    font-weight:700;
+    text-align:left;
+    white-space:normal;
+  }
+  .standings-table .rank-cell{ color:#9FB5AA; font-weight:700; }
+  .standings-table .points-cell{ color:#77E2B7; font-size:.84rem; font-weight:800; }
+  .standings-table tr.zone-top .rank-cell{ box-shadow:inset 3px 0 0 #77E2B7; }
+  .standings-table tr.zone-bottom .rank-cell{ box-shadow:inset 3px 0 0 #FF4058; }
+  .standings-table tbody tr:hover{ background:rgba(119,226,183,.06); }
+  .fixture-list{ display:grid; gap:10px; }
+  .fixture-card{
+    padding:12px 13px;
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:4px;
+    background:rgba(255,255,255,.035);
+  }
+  .fixture-meta{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:8px;
+    color:#91AA9D;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.62rem;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+  }
+  .fixture-teams{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+    align-items:center;
+    gap:10px;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size:1.08rem;
+    font-weight:700;
+    line-height:1.05;
+  }
+  .fixture-away{ text-align:right; }
+  .fixture-vs{ color:#FF4058; font-family:'IBM Plex Mono',monospace; font-size:.62rem; }
+  .fixture-venue{
+    margin-top:8px;
+    overflow:hidden;
+    color:#6F8B7D;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.6rem;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .league-empty{
+    margin:0;
+    padding:18px;
+    border:1px dashed rgba(255,255,255,.2);
+    color:#91AA9D;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.7rem;
+    text-align:center;
+  }
+  .league-dashboard-foot{
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+    padding:11px 22px;
+    border-top:1px solid rgba(255,255,255,.13);
+    color:#789487;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.61rem;
+    letter-spacing:.04em;
+  }
+  .league-dashboard-foot a{ color:#77E2B7; text-underline-offset:3px; }
+
+  @media (max-width:900px){
+    .league-dashboard-grid{ grid-template-columns:1fr; }
+    .league-panel + .league-panel{
+      border-top:1px solid rgba(255,255,255,.13);
+      border-left:0;
+    }
+  }
+  @media (max-width:600px){
+    .league-dashboard{ margin-bottom:26px; }
+    .league-dashboard-head{
+      align-items:flex-start;
+      flex-direction:column;
+      padding:18px 16px 15px;
+    }
+    .league-dashboard-meta{ text-align:left; }
+    .league-panel{ padding:17px 14px 19px; }
+    .standings-table th,
+    .standings-table td{ padding:8px 5px; }
+    .standings-table .table-detail{ display:none; }
+    .standings-table .team-cell{ font-size:.76rem; }
+    .standings-table .points-cell{ font-size:.8rem; }
+    .fixture-teams{ font-size:1rem; }
+    .league-dashboard-foot{
+      align-items:flex-start;
+      flex-direction:column;
+      padding:11px 16px;
+    }
+  }
+
 </style>
 
 <header class="masthead">
@@ -885,6 +1084,63 @@
     <h1>Süper Lig</h1>
     <p>Trendyol Süper Lig'den kaynak gösterilen puan durumu, maç sonuçları ve gündem.</p>
   </section>
+
+  <section class="league-dashboard" aria-labelledby="league-live-title">
+    <header class="league-dashboard-head">
+      <div>
+        <span class="league-dashboard-kicker">Süper Lig Veri Hattı</span>
+        <h2 class="league-dashboard-title" id="league-live-title">Puan Cetveli &amp; Haftanın Maçları</h2>
+      </div>
+      <div class="league-dashboard-meta">
+        <span id="league-season">2026/27</span><br>
+        <span id="league-updated">Veri hazırlanıyor</span>
+      </div>
+    </header>
+
+    <div class="league-dashboard-grid">
+      <section class="league-panel" aria-labelledby="standings-title">
+        <h3 class="league-panel-title" id="standings-title">
+          <span>Puan Cetveli</span>
+          <span class="league-round">Güncel</span>
+        </h3>
+        <div class="standings-wrap">
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col" class="team-cell">Takım</th>
+                <th scope="col">O</th>
+                <th scope="col" class="table-detail">G</th>
+                <th scope="col" class="table-detail">B</th>
+                <th scope="col" class="table-detail">M</th>
+                <th scope="col">AV</th>
+                <th scope="col">P</th>
+              </tr>
+            </thead>
+            <tbody id="standings-body">
+              <tr><td colspan="8"><p class="league-empty">Puan cetveli yükleniyor…</p></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="league-panel" aria-labelledby="fixtures-title">
+        <h3 class="league-panel-title" id="fixtures-title">
+          <span>Oynanacak Maçlar</span>
+          <span class="league-round" id="fixture-round">Sıradaki Hafta</span>
+        </h3>
+        <div class="fixture-list" id="fixture-list">
+          <p class="league-empty">Haftanın programı yükleniyor…</p>
+        </div>
+      </section>
+    </div>
+
+    <footer class="league-dashboard-foot">
+      <span>O: Oynanan · G: Galibiyet · B: Beraberlik · M: Mağlubiyet · AV: Averaj · P: Puan</span>
+      <span>Kaynak: <a href="https://www.api-football.com/" target="_blank" rel="noopener">API-Football</a></span>
+    </footer>
+  </section>
+
 
   <section class="single-desk">
     <div class="desk-heading"><h2>Süper Lig Gündemi</h2><span class="desk-count mono">7 haber</span></div> <article class="dispatch"> <div class="dispatch-visual" aria-hidden="true"></div> <div class="dispatch-body"> <div class="dispatch-meta"> <span class="tag tag-progress">Gelişme</span> <span class="dateline">2026-08-31</span> </div> <h3 class="dispatch-headline">Samsunspor-Fenerbahçe maçında Semedo'ya kart çıkmaması eski hakemlerce tepkiyle karşılandı</h3> <p class="dispatch-dek">Süper Lig 3. hafta maçında hakem Yasin Kol'un yönetimi tartışma yarattı; beIN Trio programındaki eski hakemler Nelson Semedo'nun müdahalesinde kırmızı kart verilmesi gerektiğini belirtti.</p> <a class="dispatch-source" href="https://www.haberturk.com/spor/foto/eski-hakemler-samsunspor-fenerbahce-macindaki-pozisyonlari-degerlendirdi-penalti-ve-kirmizi-kart-yorumu-3909193" target="_blank" rel="noopener">Kaynak: Habertürk &rarr;</a> </div> </article>
@@ -983,6 +1239,134 @@
     </div>
   </div>
 </footer>
+
+<script>
+  (function(){
+    var standingsBody = document.getElementById('standings-body');
+    var fixtureList = document.getElementById('fixture-list');
+    var seasonEl = document.getElementById('league-season');
+    var updatedEl = document.getElementById('league-updated');
+    var roundEl = document.getElementById('fixture-round');
+
+    function make(tag, className, text){
+      var node = document.createElement(tag);
+      if(className) node.className = className;
+      if(text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function tableCell(tag, text, className){
+      return make(tag, className || '', String(text));
+    }
+
+    function signed(value){
+      var number = Number(value) || 0;
+      return number > 0 ? '+' + number : String(number);
+    }
+
+    function renderStandings(rows){
+      standingsBody.replaceChildren();
+      if(!Array.isArray(rows) || !rows.length){
+        var emptyRow = document.createElement('tr');
+        var emptyCell = document.createElement('td');
+        emptyCell.colSpan = 8;
+        emptyCell.appendChild(make('p','league-empty','Puan cetveli henüz yayımlanmadı.'));
+        emptyRow.appendChild(emptyCell);
+        standingsBody.appendChild(emptyRow);
+        return;
+      }
+
+      rows.forEach(function(team){
+        var row = document.createElement('tr');
+        if(Number(team.rank) <= 4) row.className = 'zone-top';
+        if(Number(team.rank) > rows.length - 3) row.className = 'zone-bottom';
+
+        row.appendChild(tableCell('td',team.rank,'rank-cell'));
+        var teamCell = tableCell('th',team.team,'team-cell');
+        teamCell.scope = 'row';
+        row.appendChild(teamCell);
+        row.appendChild(tableCell('td',team.played));
+        row.appendChild(tableCell('td',team.won,'table-detail'));
+        row.appendChild(tableCell('td',team.drawn,'table-detail'));
+        row.appendChild(tableCell('td',team.lost,'table-detail'));
+        row.appendChild(tableCell('td',signed(team.goalDifference)));
+        row.appendChild(tableCell('td',team.points,'points-cell'));
+        standingsBody.appendChild(row);
+      });
+    }
+
+    function renderFixtures(fixtures){
+      fixtureList.replaceChildren();
+      if(!Array.isArray(fixtures) || !fixtures.length){
+        fixtureList.appendChild(make('p','league-empty','Sıradaki haftanın programı henüz açıklanmadı.'));
+        return;
+      }
+
+      var dayFormat = new Intl.DateTimeFormat('tr-TR',{
+        timeZone:'Europe/Istanbul',
+        weekday:'short',
+        day:'2-digit',
+        month:'short'
+      });
+      var timeFormat = new Intl.DateTimeFormat('tr-TR',{
+        timeZone:'Europe/Istanbul',
+        hour:'2-digit',
+        minute:'2-digit',
+        hour12:false
+      });
+
+      fixtures.forEach(function(fixture){
+        var date = new Date(fixture.date);
+        var card = make('article','fixture-card');
+        var meta = make('div','fixture-meta');
+        meta.appendChild(make('span','',dayFormat.format(date)));
+        meta.appendChild(make('time','',timeFormat.format(date)));
+        card.appendChild(meta);
+
+        var teams = make('div','fixture-teams');
+        teams.appendChild(make('span','fixture-home',fixture.home));
+        teams.appendChild(make('span','fixture-vs','VS'));
+        teams.appendChild(make('span','fixture-away',fixture.away));
+        card.appendChild(teams);
+        if(fixture.venue) card.appendChild(make('div','fixture-venue',fixture.venue));
+        fixtureList.appendChild(card);
+      });
+    }
+
+    fetch('/data/super-lig.json?v=' + Date.now(),{ cache:'no-store' })
+      .then(function(response){
+        if(!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+      })
+      .then(function(data){
+        seasonEl.textContent = data.seasonLabel || 'Süper Lig';
+        roundEl.textContent = data.roundLabel || 'Sıradaki Hafta';
+        if(data.updatedAt){
+          updatedEl.textContent = 'Güncellendi ' + new Intl.DateTimeFormat('tr-TR',{
+            timeZone:'Europe/Istanbul',
+            day:'2-digit',
+            month:'2-digit',
+            hour:'2-digit',
+            minute:'2-digit',
+            hour12:false
+          }).format(new Date(data.updatedAt));
+        }
+        renderStandings(data.standings);
+        renderFixtures(data.fixtures);
+      })
+      .catch(function(){
+        standingsBody.replaceChildren();
+        var row = document.createElement('tr');
+        var cell = document.createElement('td');
+        cell.colSpan = 8;
+        cell.appendChild(make('p','league-empty','Puan verisi şu anda alınamıyor.'));
+        row.appendChild(cell);
+        standingsBody.appendChild(row);
+        fixtureList.replaceChildren(make('p','league-empty','Fikstür verisi şu anda alınamıyor.'));
+        updatedEl.textContent = 'Bağlantı bekleniyor';
+      });
+  })();
+</script>
 
 <script>
   (function(){
