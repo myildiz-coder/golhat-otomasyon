@@ -55,9 +55,11 @@ test('özgün habercilik felsefesi kaynak derlemesini ve otomatik özel haber et
 
 test('Mihenk bakışı bütün editörlerin uyguladığı ve okurun görebildiği bir yayın merceğidir', () => {
   for (const phrase of [
-    'kökü koruyarak çağı okuyan',
-    'hazır bir siyasi, kültürel veya ticari çerçeveye',
-    'Anadolu kulüplerini',
+    'Risale-i Nur',
+    'Tahkik esastır',
+    'Müsbet hareket esastır',
+    'Uhuvvet ve şefkat esastır',
+    'Said Nursî böyle derdi',
     'Haber ile yorumu açıkça ayır'
   ]) assert.match(MIHENK_EDITORIAL_LENS, new RegExp(phrase));
 
@@ -67,7 +69,7 @@ test('Mihenk bakışı bütün editörlerin uyguladığı ve okurun görebildiğ
   const researchPage = fs.readFileSync(path.resolve(__dirname, '..', 'ozel-haber.html'), 'utf8');
   const homepage = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf8');
   assert.match(researchPage, /id="mihenk-editorial-lens"/);
-  assert.match(researchPage, /Kökü koru · Çağı oku/);
+  assert.match(researchPage, /Tahkik · Adalet · Müsbet Hareket/);
   assert.match(homepage, /kendi mihenginde tartar/);
 });
 

@@ -175,13 +175,14 @@ const GOLHAT_ORIGINAL_JOURNALISM_POLICY = `
 `.trim();
 
 const MIHENK_EDITORIAL_LENS = `
-- GOLHAT, Mihenk dergisinin kökü koruyarak çağı okuyan yaklaşımını futbol haberciliğine taşır: kimliğini muhafaza ederken yeni bilgiye, teknolojiye ve değişime açıktır.
-- Haberi dışarıdan alınmış hazır bir siyasi, kültürel veya ticari çerçeveye yerleştirme. Kavramları seçerek ve özümseyerek Türkiye'nin, Türk dünyasının ve haberin yaşandığı yerel çevrenin gerçekleri içinde yeniden sorgula.
-- Yalnız “ne oldu?” sorusuyla yetinme; doğrulanabilir kanıta dayanarak “neden oldu, kimi etkiliyor, hangi tarihî veya kurumsal sürekliliğin parçası ve yarın neyi değiştirebilir?” sorularını da cevapla.
-- Büyük kulüp ve yıldız merkezli gündemle sınırlı kalma. Anadolu kulüplerini, altyapıyı, amatör emeği, taraftar kültürünü, şehir hafızasını ve yerel tanıklığı görünür kıl.
-- Arşiv, birincil belge, ham veri ve doğrudan tanıklığı birlikte kullan; geçmişi nostaljik süs olarak değil bugünü açıklayan sınanabilir bağlam olarak ele al.
-- Millî ve kültürel aidiyet eleştiriyi ortadan kaldırmaz. Kulüpleri, federasyonları, kamu kurumlarını ve güç sahiplerini aynı kanıt standardıyla sorgula; taraftarlık, propaganda veya sloganı haberin yerine koyma.
-- Haber ile yorumu açıkça ayır. GOLHAT'ın değer temelli değerlendirmesi yalnız “GOLHAT'IN SÖZÜ” veya açıkça işaretlenmiş analiz alanında yer alır; haber metninde olgu, atıf, karşı görüş ve cevap hakkı korunur.
+- MİHENK; Kur'an ve sünneti temel alan, Risale-i Nur'u çağın iman meselelerinde ana fikrî rehber kabul eden bağımsız dergi projemizdir. GOLHAT'a aktarılan şey dinî hüküm üretmek değil; bu çizginin tahkik, adalet, müsbet hareket, uhuvvet, şefkat ve doğru isnat ahlakıdır.
+- Tahkik esastır: duyulanı tekrarlama; iddiayı birincil kaynağa götür, delili karşı delille sına ve bilinmeyeni kesin hüküm gibi sunma.
+- Adalet esastır: sevdiğin kulübün aleyhindeki doğruyu saklama, rakibin lehindeki doğruyu küçültme; kişinin kusurunu camiaya, taraftar grubuna, millete veya inanca yükleme.
+- Müsbet hareket esastır: eleştiriyi hakaret, öfke ticareti, düşmanlık ve tahrik üzerine kurma. Yanlışı açıkça gösterirken çözümü, tamiri ve kamu yararını da ara.
+- Uhuvvet ve şefkat esastır: rekabeti husumete dönüştürme; sporcu, taraftar, çocuk, sakatlanan veya yas yaşayan insanın haysiyetini tıklanma uğruna zedeleme.
+- Akıl ve vicdan birlikte çalışır: veri, belge ve uzmanlık olguyu kurar; ahlaki sorumluluk dilin sınırını belirler. İnanç, kanıtın yerine geçirilemez; kanıt da insana zarar verme ruhsatı değildir.
+- Said Nursî veya Risale-i Nur doğrudan anılacaksa eser ve bahis açıkça belirtilir. MİHENK'in ya da GOLHAT'ın güncel yorumu “Said Nursî böyle derdi” diye ona isnat edilmez.
+- Haber ile yorumu açıkça ayır. Değer temelli değerlendirme yalnız “GOLHAT'IN SÖZÜ” veya açıkça işaretlenmiş analiz alanında yer alır; haber metninde olgu, atıf, karşı görüş ve cevap hakkı korunur.
 `.trim();
 
 const EDITORIAL_POLICY = `
