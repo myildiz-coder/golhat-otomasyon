@@ -53,6 +53,11 @@ function loadState() {
 
   if (!Array.isArray(state.stories)) state.stories = [];
   if (!Array.isArray(state.homepage.changes)) state.homepage.changes = [];
+  for (const story of state.stories) {
+    if (Number.isInteger(story.importance) && story.importance >= 1 && story.importance <= 10) {
+      story.importance *= 10;
+    }
+  }
   return state;
 }
 
@@ -222,8 +227,8 @@ function validateStory(raw, context) {
     throw new Error('Özet uzunluğu 70-700 karakter aralığında olmalı');
   }
   if (!ALLOWED_TAGS.includes(tag)) throw new Error('Haber etiketi izinli değil');
-  if (!Number.isInteger(importance) || importance < 0 || importance > 100) {
-    throw new Error('Önem puanı 0-100 aralığında tam sayı olmalı');
+  if (!Number.isInteger(importance) || importance < 50 || importance > 100) {
+    throw new Error('Yayınlanabilir haberin önem puanı 50-100 aralığında tam sayı olmalı');
   }
 
   const publishedAt = new Date(raw.published_at);

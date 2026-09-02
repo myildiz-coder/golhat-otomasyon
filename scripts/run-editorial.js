@@ -47,7 +47,7 @@ const CATEGORY_SCHEMA = {
           summary: { type: 'string', minLength: 70, maxLength: 700 },
           tag: { type: 'string', enum: ALLOWED_TAGS },
           published_at: { type: 'string' },
-          importance: { type: 'integer', minimum: 0, maximum: 100 },
+          importance: { type: 'integer', minimum: 50, maximum: 100 },
           sources: {
             type: 'array',
             minItems: 2,
@@ -132,6 +132,7 @@ function categoryRequest(role, now, model) {
       'Türkçe yaz. Dedikodu ve yorumu olgu gibi sunma. Uydurma alıntı, sayı, tarih, URL veya haber üretme.',
       'Kesinleşti etiketi yalnızca resmi açıklama ve ikinci bağımsız doğrulama varsa kullanılabilir.',
       'Görsel önerme; site gerçek kişi fotoğrafı ve yapay haber görseli kullanmaz.',
+      'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       SOURCE_RULES
     ].join('\n'),
