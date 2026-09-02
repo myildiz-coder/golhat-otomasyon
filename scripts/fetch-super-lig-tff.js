@@ -90,22 +90,35 @@ function fixtureDateIso(dateValue, timeValue) {
   )).toISOString();
 }
 
-function activeFixtureWeek(html, fixtureStart) {
+function activeFixtureWeek(html, fixtureStart, standings) {
   const header = html.slice(0, fixtureStart);
-  const matches = [...header.matchAll(/class=haftaNoActive[^>]*>[\s\S]*?<a[^>]*>\s*(\d+)\s*<\/a>/gi)];
-  if (!matches.length) throw new Error('TFF sayfasinda aktif fikstur haftasi bulunamadi');
-  return Number(matches.at(-1)[1]);
+  const matches = [...header.matchAll(
+    /class\s*=\s*["']?haftaNoActive["']?[^>]*>[\s\S]*?<a[^>]*>\s*(\d+)\s*<\/a>/gi
+  )];
+  if (matches.length) return Number(matches.at(-1)[1]);
+
+  const frequency = new Map();
+  for (const row of standings) {
+    if (Number.isInteger(row.played)) {
+      frequency.set(row.played, (frequency.get(row.played) || 0) + 1);
+    }
+  }
+  const fallback = [...frequency.entries()].sort((left, right) => right[1] - left[1])[0]?.[0];
+  if (Number.isInteger(fallback)) return fallback + 1;
+  throw new Error('TFF sayfasinda aktif fikstur haftasi bulunamadi');
 }
 
-function parseFixtures(html) {
+function parseFixtures(html, standings) {
   const fixtureMarker = html.match(/<table\s+id="[^"]*_dtlHaftaninMaclari"/i);
   if (!fixtureMarker) throw new Error('TFF sayfasinda haftanin maclari tablosu bulunamadi');
 
   const fixtureStart = fixtureMarker.index;
   const standingsStart = html.indexOf('Sezonu Puan Cetveli', fixtureStart);
   const fixtureHtml = html.slice(fixtureStart, standingsStart > fixtureStart ? standingsStart : undefined);
-  const week = activeFixtureWeek(html, fixtureStart);
-  const rows = fixtureHtml.match(/<tr\b[^>]*class="haftaninMaclariTr"[^>]*>[\s\S]*?<\/tr>/gi) || [];
+  const week = activeFixtureWeek(html, fixtureStart, standings);
+  const rows = fixtureHtml.match(
+    /<tr\b[^>]*class\s*=\s*["']?haftaninMaclariTr["']?[^>]*>[\s\S]*?<\/tr>/gi
+  ) || [];
   const fixtures = [];
 
   for (const row of rows) {
@@ -125,7 +138,7 @@ function parseFixtures(html) {
       timestamp: Math.floor(new Date(date).getTime() / 1000),
       round: week + '. Hafta',
       status: 'NS',
-      statusLong: 'Baslamadi',
+      statusLong: 'Ba\u015flamad\u0131',
       venue: '',
       home,
       away
@@ -139,16 +152,17 @@ function parseFixtures(html) {
 
 function parseTffPage(html) {
   const season = parseSeason(html);
-  const fixtureData = parseFixtures(html);
+  const standings = parseStandings(html);
+  const fixtureData = parseFixtures(html, standings);
   return {
-    source: 'Turkiye Futbol Federasyonu (TFF)',
+    source: 'T\u00fcrkiye Futbol Federasyonu (TFF)',
     sourceUrl: TFF_URL,
     leagueId: 'TFF-SUPER-LIG',
     season: season.season,
     seasonLabel: season.seasonLabel,
     round: fixtureData.week + '. Hafta',
     roundLabel: fixtureData.week + '. Hafta',
-    standings: parseStandings(html),
+    standings,
     fixtures: fixtureData.fixtures
   };
 }
