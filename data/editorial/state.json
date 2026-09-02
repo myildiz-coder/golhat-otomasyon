@@ -1,7 +1,262 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T19:24:34.895Z",
+  "updatedAt": "2026-09-02T20:27:55.155Z",
   "stories": [
+    {
+      "id": "3b6a47f9f4936c5a",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş, Ümit Akdağ transferinde anlaşmaya vardı",
+      "summary": "Beşiktaş, savunma hattı için Corendon Alanyaspor forması giyen 22 yaşındaki Ümit Akdağ ve kulübüyle anlaşma sağladı. Transferin resmî işlemlerin tamamlanmasının ardından açıklanması bekleniyor.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Ümit Akdağ transferinde Alanyaspor ile anlaştı",
+      "seoDescription": "Beşiktaş, 22 yaşındaki savunmacı Ümit Akdağ’ın transferi için Alanyaspor ve oyuncuyla anlaşmaya vardı.",
+      "focusKeyword": "Ümit Akdağ Beşiktaş",
+      "originalAngle": "Beşiktaş’ın transferin son günlerindeki savunma hamlesi, resmî imza öncesindeki anlaşma aşamasıyla öne çıkıyor.",
+      "keyFindings": [
+        "Beşiktaş, Ümit Akdağ’ın transferi için Corendon Alanyaspor ile anlaşmaya vardı.",
+        "22 yaşındaki savunmacıyla da anlaşma sağlandığı bildirildi.",
+        "Transferin kısa süre içinde resmiyet kazanması bekleniyor.",
+        "Ümit Akdağ, geçen sezon Alanyaspor formasıyla 36 maçta 1 gol ve 3 asist üretti."
+      ],
+      "publishedAt": "2026-09-02T18:54:00.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "Beşiktaş Ümit Akdağ transferi için Alanyaspor ile anlaştı",
+          "publisher": "Habertürk Spor",
+          "url": "https://www.haberturk.com/spor/son-dakika-besiktas-umit-akdag-transferi-icin-alanyaspor-ile-anlasti-3909864",
+          "publishedAt": "2026-09-02T21:35:00+03:00"
+        },
+        {
+          "title": "Beşiktaş transferde mutlu sona ulaştı! Flaş gelişme",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/besiktas-transferde-mutlu-sona-ulasti-flas-gelisme",
+          "publishedAt": "2026-09-02T18:37:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "d8f6bd46148dc7ba",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Sivasspor ile Mardin 1969 Spor yenişemedi: 2-2",
+      "summary": "Trendyol 1. Lig’in 5. haftasında Sivasspor ile Mardin 1969 Spor 2-2 berabere kaldı. Mardin temsilcisi puanını 9’a çıkarırken Sivasspor 3 puana ulaştı.",
+      "tag": "Maç Sonucu",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "Sivasspor 2-2 Mardin 1969 Spor maç sonucu",
+      "seoDescription": "Sivasspor ile Mardin 1969 Spor, 1. Lig 5. hafta karşılaşmasında 2-2 berabere kaldı.",
+      "focusKeyword": "Sivasspor Mardin 1969 Spor",
+      "originalAngle": "Sivas’ta dört gollü denge: İki Anadolu temsilcisi birer puanla sahadan ayrıldı.",
+      "keyFindings": [
+        "Sivasspor ile Mardin 1969 Spor, 2 Eylül 2026’da karşılaştı.",
+        "Karşılaşma 2-2 sona erdi.",
+        "Mardin 1969 Spor puanını 9’a yükseltti.",
+        "Sivasspor 5. hafta sonunda 3 puana ulaştı."
+      ],
+      "publishedAt": "2026-09-02T17:27:55.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "Trendyol 1. Lig Puan Cetveli ve Fikstür",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=142",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Trendyol 1. Lig Fikstür ve Maç Sonuçları",
+          "publisher": "beIN SPORTS",
+          "url": "https://beinsports.com.tr/lig/tff-1-lig/fikstur",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "5d876441f5407139",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Fatih Karagümrük ile Kayserispor puanları paylaştı: 1-1",
+      "summary": "Trendyol 1. Lig’in 5. haftasında Fatih Karagümrük ile Kayserispor 1-1 berabere kaldı. Kayserispor 10 puana yükselirken Fatih Karagümrük 8 puana ulaştı.",
+      "tag": "Maç Sonucu",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Fatih Karagümrük 1-1 Kayserispor maç sonucu",
+      "seoDescription": "Fatih Karagümrük ile Kayserispor, 1. Lig 5. hafta mücadelesinde 1-1 berabere kaldı.",
+      "focusKeyword": "Fatih Karagümrük Kayserispor",
+      "originalAngle": "İstanbul’da puanlar bölüşüldü: Karagümrük ve Kayserispor zirve yarışında birer puan aldı.",
+      "keyFindings": [
+        "Fatih Karagümrük ile Kayserispor, 2 Eylül 2026’da karşılaştı.",
+        "Karşılaşma 1-1 sona erdi.",
+        "Kayserispor puanını 10’a çıkardı.",
+        "Fatih Karagümrük 8 puana ulaştı."
+      ],
+      "publishedAt": "2026-09-02T17:27:55.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "Trendyol 1. Lig Puan Cetveli ve Fikstür",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=142",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Trendyol 1. Lig Fikstür ve Maç Sonuçları",
+          "publisher": "beIN SPORTS",
+          "url": "https://beinsports.com.tr/lig/tff-1-lig/fikstur",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "ae9cfb102d72ee09",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "TFF açıkladı: Süper Lig'den 13 kulüp PFDK'ya sevk edildi",
+      "summary": "TFF Hukuk Müşavirliği, Süper Lig'in 3. haftasında yaşanan çeşitli disiplin ihlalleri nedeniyle 13 kulübü PFDK'ya gönderdi. Konyasporlu Enis Bardhi ile Samsunspor Başkanı Yüksel Yıldırım da sevk edilen isimler arasında yer aldı; nihai cezalar henüz açıklanmadı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Süper Lig'den 13 kulüp PFDK'ya sevk edildi",
+      "seoDescription": "TFF, Süper Lig'in 3. haftası sonrası 13 kulübü ve bazı kulüp yetkililerini PFDK'ya sevk etti.",
+      "focusKeyword": "Süper Lig PFDK sevkleri",
+      "originalAngle": "Üçüncü hafta maçlarının ardından disiplin gündemini kulüpler, yöneticiler ve sevk gerekçeleri üzerinden toplu biçimde ortaya koymak.",
+      "keyFindings": [
+        "TFF Hukuk Müşavirliği, 1 Eylül 2026 tarihinde Süper Lig'den 13 kulübü PFDK'ya sevk etti.",
+        "Konyaspor futbolcusu Enis Bardhi, 29 Ağustos 2026 tarihli Konyaspor-Kocaelispor maçındaki kural dışı hareketi nedeniyle tedbirli olarak sevk edildi.",
+        "Göztepe Kulübü ve Başkanı Rasmus Froekiaer Ankersen, Galatasaray maçı sonrası yapılan resmi sosyal medya paylaşımı nedeniyle sevk edildi.",
+        "Samsunspor Başkanı Yüksel Yıldırım, Fenerbahçe maçındaki hakaret gerekçesiyle tedbirli olarak PFDK'ya gönderildi.",
+        "Konyaspor, Kocaelispor, Galatasaray, Göztepe, Gaziantep FK, Çaykur Rizespor, Eyüpspor, Corendon Alanyaspor, Samsunspor, Fenerbahçe, Amed Sportif Faaliyetler, Trabzonspor ve Beşiktaş sevk edilen kulüpler oldu.",
+        "PFDK'nın nihai kararları ve uygulanacak cezalar henüz açıklanmadı."
+      ],
+      "publishedAt": "2026-09-01T14:07:00.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "TFF, PFDK sevklerini açıkladı",
+          "publisher": "Star",
+          "url": "https://www.star.com.tr/spor/tff-pfdk-sevklerini-acikladi-haber-2037492",
+          "publishedAt": "2026-09-01T17:07:00+03:00"
+        },
+        {
+          "title": "Süper Lig’de Çaykur Rizespor Dahil 13 Takım PFDK’ya Sevk Edildi!",
+          "publisher": "Olay53",
+          "url": "https://www.olay53.com/service/amp/haber/super-ligde-caykur-rizespor-dahil-13-takim-pfdkya-sevk-edildi-1525700.htm",
+          "publishedAt": "2026-09-01T18:22:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "798fa8a711e8fab0",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Sunderland, Lyon’un Belçikalı kanadı Malick Fofana’yı Crystal Palace’ın önünde kadrosuna kattı",
+      "summary": "Sunderland, transfer döneminin son saatlerinde Lyon’un 21 yaşındaki kanat oyuncusu Malick Fofana’nın transferini tamamladı. Olympique Lyonnais Groupe işlemi 2 Eylül 2026 saat 01.15’te duyururken, The Guardian da oyuncunun Sunderland’i tercih ettiğini aktardı.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Sunderland, Malick Fofana transferini tamamladı",
+      "seoDescription": "Sunderland, Lyon kanat oyuncusu Malick Fofana’yı transfer döneminin son saatlerinde Crystal Palace’ın önünde kadrosuna kattı.",
+      "focusKeyword": "Malick Fofana Sunderland transferi",
+      "originalAngle": "Transfer yarışını kazanan Sunderland, İngiltere’de kapanan pencerenin en dikkat çekici son dakika hamlelerinden birine imza attı.",
+      "keyFindings": [
+        "Malick Fofana’nın Lyon’dan Sunderland’e transferi Olympique Lyonnais Groupe tarafından resmi olarak duyuruldu.",
+        "Transfer açıklaması 2 Eylül 2026 saat 01.15’te yayımlandı.",
+        "The Guardian, Sunderland’in Crystal Palace’ı geride bırakarak oyuncuyu kadrosuna kattığını bildirdi.",
+        "İşlem, mevcut Avrupa Futbolu manşetlerinde yer alan Crystal Palace transferlerinden ayrı ve yeni bir gelişmedir."
+      ],
+      "publishedAt": "2026-09-01T22:20:00.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "TRANSFERT DE MALICK FOFANA A SUNDERLAND",
+          "publisher": "Olympique Lyonnais Groupe",
+          "url": "https://finance.ol.fr/communiques",
+          "publishedAt": "2026-09-02T01:15:00+03:00"
+        },
+        {
+          "title": "War chests, deal sheets and online meltdowns: anatomy of a deadline day",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day",
+          "publishedAt": "2026-09-02T17:57:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "ab48e075718c48c9",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Newcastle United, Lille’den Matias Fernandez-Pardo’yu 51 milyon sterlin karşılığında aldı",
+      "summary": "Newcastle United, transfer döneminin kapanış saatlerinde Lille’in 21 yaşındaki hücum oyuncusu Matias Fernandez-Pardo ile uzun süreli sözleşme imzaladı. Premier League ve Newcastle United, transferin tamamlandığını doğruladı; Premier League bedeli 51 milyon sterlin olarak verdi.",
+      "tag": "Kesinleşti",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Newcastle United, Matias Fernandez-Pardo transferini tamamladı",
+      "seoDescription": "Newcastle United, Lille’in genç hücum oyuncusu Matias Fernandez-Pardo’yu 51 milyon sterlinlik bedelle kadrosuna kattı.",
+      "focusKeyword": "Matias Fernandez-Pardo Newcastle",
+      "originalAngle": "Newcastle, deneyimli yıldızlar yerine genç ve çok yönlü hücum oyuncusuna yatırım yapan transfer politikasını sürdürdü.",
+      "keyFindings": [
+        "Newcastle United, Matias Fernandez-Pardo’nun transferini resmi kulüp kanallarında duyurdu.",
+        "Oyuncu Newcastle ile uzun süreli sözleşme imzaladı.",
+        "Premier League, transfer bedelini 51 milyon sterlin olarak aktardı.",
+        "Fernandez-Pardo 21 yaşında ve Lille’de forvet, 10 numara ve sol kanat rollerinde oynayabiliyor."
+      ],
+      "publishedAt": "2026-09-02T07:01:00.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "Newcastle United sign Matias Fernandez-Pardo",
+          "publisher": "Newcastle United",
+          "url": "https://www.newcastleunited.com/en/news/win-a-newcastle-united-shirt-signed-by-new-signing-matias-fernandez-pardo",
+          "publishedAt": "2026-09-02T10:01:00+03:00"
+        },
+        {
+          "title": "The Wrap: What happened on Transfer Deadline Day",
+          "publisher": "Premier League",
+          "url": "https://www.premierleague.com/en/news/4705808/the-wrap-what-happened-on-transfer-deadline-day",
+          "publishedAt": "2026-09-02T00:00:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "39e3ca7db0fcd44a",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Premier League, yaz transfer döneminde 3,46 milyar sterlinle yeni harcama rekoru kırdı",
+      "summary": "Premier League kulüpleri 2026 yaz transfer döneminde yaklaşık 3,46 milyar sterlin harcayarak üst üste ikinci sezon yeni rekor kırdı. Sky Sports ve Reuters kaynaklı haber, İngiltere’deki transfer harcamasının önceki rekoru geride bıraktığını ve son gün yapılan büyük işlemlerin toplamı yükselttiğini doğruladı.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Premier League transfer harcamasında yeni rekor: 3,46 milyar sterlin",
+      "seoDescription": "Premier League kulüpleri 2026 yazında yaklaşık 3,46 milyar sterlin harcayarak transfer piyasasında yeni bir rekor kırdı.",
+      "focusKeyword": "Premier League transfer harcaması 2026",
+      "originalAngle": "İngiltere ligi yalnızca transfer döneminin son gününü değil, Avrupa futbol piyasasının mali dengesini de belirleyen rekor bir yaz geçirdi.",
+      "keyFindings": [
+        "Premier League kulüplerinin toplam yaz transfer harcaması yaklaşık 3,46 milyar sterline ulaştı.",
+        "Bu rakam, İngiltere ligi için üst üste ikinci sezon yaz transfer harcaması rekoru anlamına geliyor.",
+        "Reuters, önceki yaz dönemindeki yaklaşık 3,14 milyar sterlinlik toplamın aşıldığını bildirdi.",
+        "Sky Sports verisine göre Premier League kulüpleri 2026 yazında 3,48 milyar sterlin harcadı; iki rapor arasındaki fark veri metodolojisinden kaynaklanıyor.",
+        "Rekorun oluşmasında transfer döneminin son saatlerinde tamamlanan yüksek bedelli anlaşmalar etkili oldu."
+      ],
+      "publishedAt": "2026-09-02T07:42:00.000Z",
+      "discoveredAt": "2026-09-02T20:27:55.155Z",
+      "sources": [
+        {
+          "title": "Summer transfer spending: Premier League, EFL, WSL, Scottish Premiership, LaLiga, Ligue 1, Serie A and Bundesliga breakdowns",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13574593/summer-transfer-spending-premier-league-efl-wsl-scottish-premiership-laliga-ligue-1-serie-a-and-bundesliga-breakdowns",
+          "publishedAt": "2026-09-02T12:30:00+03:00"
+        },
+        {
+          "title": "Clubes da Premier League quebram recorde de gastos com transferências",
+          "publisher": "Reuters / UOL Esporte",
+          "url": "https://www.uol.com.br/esporte/ultimas-noticias/reuters/2026/09/02/clubes-da-premier-league-quebram-recorde-de-gastos-com-transferencias.htm",
+          "publishedAt": "2026-09-02T12:42:00+03:00"
+        }
+      ]
+    },
     {
       "id": "0a39103440f7dd1b",
       "role": "galatasaray",
