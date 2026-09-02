@@ -1,0 +1,74 @@
+name: GOLHAT Baş Editör
+
+on:
+  schedule:
+    # Türkiye saati: 09:00, 13:00, 17:00, 21:00 (UTC+3)
+    - cron: '0 6,10,14,18 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Kararı göster; ana sayfayı değiştirme
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+env:
+  OPENAI_MODEL: gpt-5.6-luna
+
+jobs:
+  head-editor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Güvenlik ve HTML testleri
+        run: npm test
+
+      - name: Baş Editörü çalıştır
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+            echo "::error title=Eksik secret::OPENAI_API_KEY GitHub Actions secret olarak tanımlı değil"
+            exit 1
+          fi
+
+          args=(--head)
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${DRY_RUN:-true}" == "true" ]]; then
+            args+=(--dry-run)
+          fi
+          node scripts/run-editorial.js "${args[@]}"
+
+      - name: Değişiklik varsa commit et ve gönder
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-head-editor-bot"
+          git config user.email "actions@github.com"
+          git add data/editorial/state.json index.html
+          if git diff --cached --quiet; then
+            echo "Ana sayfada değişiklik yok."
+            exit 0
+          fi
+          git commit -m "Baş Editör manşet güncellemesi $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

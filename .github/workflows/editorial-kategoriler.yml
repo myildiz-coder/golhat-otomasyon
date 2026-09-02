@@ -1,0 +1,93 @@
+name: GOLHAT Kategori Editörleri
+
+on:
+  schedule:
+    # Türkiye saati: 08:20, 12:20, 16:20, 20:20 (UTC+3)
+    - cron: '20 5,9,13,17 * * *'
+  workflow_dispatch:
+    inputs:
+      role:
+        description: Çalıştırılacak editör
+        required: true
+        type: choice
+        default: all
+        options:
+          - all
+          - fenerbahce
+          - galatasaray
+          - besiktas
+          - trabzon_anadolu
+          - super_lig
+          - avrupa_kupalari
+          - transfer_ozel
+      dry_run:
+        description: Yalnızca araştır ve doğrula; dosyaları değiştirme
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+env:
+  OPENAI_MODEL: gpt-5.6-luna
+
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Güvenlik ve HTML testleri
+        run: npm test
+
+      - name: Kategori editörlerini çalıştır
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SELECTED_ROLE: ${{ inputs.role }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+            echo "::error title=Eksik secret::OPENAI_API_KEY GitHub Actions secret olarak tanımlı değil"
+            exit 1
+          fi
+
+          args=(--all)
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && -n "${SELECTED_ROLE:-}" && "$SELECTED_ROLE" != "all" ]]; then
+            args=(--role "$SELECTED_ROLE")
+          fi
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${DRY_RUN:-true}" == "true" ]]; then
+            args+=(--dry-run)
+          fi
+
+          node scripts/run-editorial.js "${args[@]}"
+
+      - name: Değişiklik varsa commit et ve gönder
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-editorial-bot"
+          git config user.email "actions@github.com"
+          git add data/editorial/state.json ./*.html
+          if git diff --cached --quiet; then
+            echo "Yayınlanacak değişiklik yok."
+            exit 0
+          fi
+          git commit -m "Editoryal güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

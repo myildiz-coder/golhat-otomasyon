@@ -9,15 +9,23 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
 jobs:
   update-scores:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Canlı skorları API-Football'dan çek
         env:
@@ -25,9 +33,16 @@ jobs:
         run: node scripts/fetch-canli-skor.js
 
       - name: Değişiklik varsa commit et ve gönder
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "golhat-bot"
           git config user.email "actions@github.com"
           git add data/canli-skorlar.json
-          git diff --cached --quiet || git commit -m "Canlı skor güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push
+          if git diff --cached --quiet; then
+            echo "Skor değişikliği yok."
+            exit 0
+          fi
+          git commit -m "Canlı skor güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
