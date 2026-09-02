@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T18:37:27.829Z",
+  "updatedAt": "2026-09-02T20:33:23.054Z",
   "sources": [
     {
       "name": "FotMob",
@@ -408,6 +408,13 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
         "disclosures": [
           {
+            "id": 1657700,
+            "date": "2026-09-02T22:00:04+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel Futbolcumuz Victor Enok Nelsson'un Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657700"
+          },
+          {
             "id": 1657686,
             "date": "2026-09-02T21:00:10+03:00",
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
@@ -441,13 +448,6 @@
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
             "summary": "Profesyonel Futbolcu Rafael Alexandre Da Conceiçao Leao Transferi Hakkında",
             "url": "https://www.kap.org.tr/tr/Bildirim/1655994"
-          },
-          {
-            "id": 1655989,
-            "date": "2026-08-29T13:40:46+03:00",
-            "type": "Transfer Görüşmeleri",
-            "summary": "Profesyonel Futbolcu Rafael Alexandre Da Conceiçao Leao Hakkında",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1655989"
           }
         ]
       }
