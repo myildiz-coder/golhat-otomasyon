@@ -8,6 +8,7 @@ const {
   canonicalUrl,
   collectCitedUrls,
   urlSignature,
+  assertEditorialLanguage,
   validateStory,
   buildCategoryHtml,
   buildHomepageHtml,
@@ -111,6 +112,24 @@ test('aynı alan adındaki iki URL bağımsız kaynak sayılmaz', () => {
     allowedPages: ['fenerbahce.html'],
     citedUrls: collectCitedUrls(response)
   }), /iki farklı alan adından/);
+});
+
+test('KKTC yerine yabancı siyasi terminolojisi kullanan haber karantinaya alınır', () => {
+  assert.throws(
+    () => validStory({
+      headline: "Batan feribotun ardından Kıbrıs'ın kuzeyinde ulaştırma bakanı görevden alındı"
+    }),
+    /Yayın politikası karantinası/
+  );
+  assert.throws(
+    () => assertEditorialLanguage(
+      "Kıbrıs'ın kuzeyindeki Türk yönetimi yeni bir karar açıkladı"
+    ),
+    /KKTC, kendi adı ve kurumlarıyla anılmalı/
+  );
+  assert.doesNotThrow(() => assertEditorialLanguage(
+    'KKTC hükümeti, Bayındırlık ve Ulaştırma Bakanı hakkındaki kararını açıkladı'
+  ));
 });
 
 test('kategori HTMLi yalnızca otomasyon bloğu ekler ve fotoğraf üretmez', () => {

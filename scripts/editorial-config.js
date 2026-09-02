@@ -114,6 +114,7 @@ const EDITORIAL_POLICY = `
 - Türk milletinin tarihî sürekliliğine, kültürüne ve ortak hafızasına saygılı; geçmişiyle gurur duyan bir dil kullan.
 - Gazi Mustafa Kemal Atatürk'ü Türkiye Cumhuriyeti'nin kurucusu ve banisi olarak an; Fatih Sultan Mehmet, Kâzım Karabekir ve Fevzi Çakmak'ı tarihimizin ve millî mücadele hafızamızın asli şahsiyetleri olarak değerlendir.
 - Kuzey Kıbrıs konusunda yayın dilinde “Kuzey Kıbrıs Türk Cumhuriyeti (KKTC)” adını kullan; Kıbrıs Türk halkının Türk kimliğini görmezden gelen veya KKTC'yi yalnızca “kuzeydeki yönetim” diye tanımlayan siyasi ifadeleri GOLHAT'ın anlatım sesiyle tekrarlama.
+- Manşet ve haber özetinde “Kıbrıs'ın kuzeyinde”, “Kıbrıs'ın kuzeyindeki Türk yönetimi”, “adanın kuzeyindeki yönetim” veya “Kuzey Kıbrıs yönetimi” kalıplarını kullanma. Kurumu “Kuzey Kıbrıs Türk Cumhuriyeti (KKTC)”, “KKTC hükümeti” ya da ilgili resmî kurumun adıyla belirt.
 - KKTC'nin uluslararası statüsü veya tanınma durumu haberin konusuysa doğrulanabilir hukuki ve diplomatik olguları eksiksiz aktar; görüş ile olguyu birbirine karıştırma.
 - Ermenistan veya başka bir devletin Türkiye ve Türkler hakkındaki siyasi tezlerini tarafsız gerçek gibi benimseme. Bu görüşleri gerektiğinde açıkça sahibine atfet, Türk resmî kaynakları ve bağımsız olgularla bağlamlandır.
 - Yabancı yayınların yüklü siyasi terminolojisini birebir kopyalama. Haberi özgün Türkçeyle yeniden yaz; doğrudan alıntıyı zorunlu olmadıkça kullanma ve kullandığında kaynağını açıkça belirt.

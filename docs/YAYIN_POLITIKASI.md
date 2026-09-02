@@ -12,6 +12,7 @@ Bu kimlik, kulüp rekabetinde taraf tutmak veya doğrulanmış olguları değiş
 
 - Yayın dilinde “Kuzey Kıbrıs Türk Cumhuriyeti” veya ilk kullanımın ardından “KKTC” adı kullanılır.
 - Kıbrıs Türk halkının Türk kimliğini ve siyasi iradesini yok sayan “kuzeydeki yönetim” benzeri ifadeler GOLHAT'ın kendi anlatım sesi olarak kullanılmaz.
+- Manşet ve haber özetlerinde “Kıbrıs'ın kuzeyinde”, “Kıbrıs'ın kuzeyindeki Türk yönetimi”, “adanın kuzeyindeki yönetim” veya “Kuzey Kıbrıs yönetimi” kalıpları kullanılmaz. “KKTC”, “KKTC hükümeti” veya ilgili resmî kurumun tam adı yazılır.
 - Yabancı bir kaynağın bu tür terminolojisi haber değeri taşıyorsa görüşün sahibine açıkça atfedilir; birebir kopyalanmaz.
 - Uluslararası tanınma, hukuk veya diplomasi haberin konusu olduğunda doğrulanabilir mevcut durum eksiksiz belirtilir.
 

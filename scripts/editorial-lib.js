@@ -23,6 +23,13 @@ const TRACKING_PARAMS = new Set([
   'ref',
   'ref_src'
 ]);
+const EDITORIAL_QUARANTINE_RULES = Object.freeze([
+  /Kıbrıs['’]ın kuzeyinde/iu,
+  /Kıbrıs['’]ın kuzeyindeki(?:\s+Türk)?\s+yönetim/iu,
+  /adanın kuzeyindeki(?:\s+Türk)?\s+yönetim/iu,
+  /Kuzey Kıbrıs(?:\s+Türk)?\s+yönetimi/iu,
+  /sözde\s+KKTC/iu
+]);
 
 function emptyState() {
   return {
@@ -102,6 +109,15 @@ function normalizeHeadline(value) {
     .trim();
 }
 
+function assertEditorialLanguage(...values) {
+  const text = values.map((value) => String(value || '')).join('\n');
+  if (EDITORIAL_QUARANTINE_RULES.some((pattern) => pattern.test(text))) {
+    throw new Error(
+      'Yayın politikası karantinası: KKTC, kendi adı ve kurumlarıyla anılmalı'
+    );
+  }
+  return true;
+}
 function canonicalUrl(value) {
   const url = new URL(String(value));
   if (url.protocol !== 'https:' && url.protocol !== 'http:') {
@@ -220,6 +236,7 @@ function validateStory(raw, context) {
   const tag = String(raw.tag || '').trim();
   const importance = Number(raw.importance);
 
+  assertEditorialLanguage(headline, summary);
   if (headline.length < 20 || headline.length > 180) {
     throw new Error('Manşet uzunluğu 20-180 karakter aralığında olmalı');
   }
@@ -350,6 +367,7 @@ function tagClass(tag) {
 
 function renderArticle(story) {
   const visualClass = story.importance >= 90 ? 'dispatch-visual urgent' : 'dispatch-visual';
+  assertEditorialLanguage(story.headline, story.summary);
   const sources = story.sources
     .map((source, index) => {
       const label = 'Kaynak ' + (index + 1) + ': ' + source.publisher + ' →';
@@ -569,6 +587,7 @@ function assertHomepageIntegrity(html, story) {
 
 function buildHomepageHtml(html, story, now) {
   const pageLabel = PAGE_LABELS[story.page] || story.page;
+  assertEditorialLanguage(story.headline, story.summary);
   const sourceLinks = story.sources.slice(0, 3).map((source) => [
     '        <a class="cover-secondary-item" href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">',
     '          <span class="tag tag-desk">' + htmlEscape(source.publisher) + '</span>',
@@ -744,6 +763,7 @@ module.exports = {
   headlineSimilarity,
   storyIsDuplicate,
   validateStory,
+  assertEditorialLanguage,
   existingHeadlines,
   formatIstanbulDate,
   formatIstanbulDateTime,
