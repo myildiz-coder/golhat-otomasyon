@@ -2,6 +2,8 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const {
   COMPETITIONS,
   normalizeFixtures,
@@ -123,5 +125,26 @@ test('next UEFA matchday includes every upcoming match in that week', () => {
   assert.equal(result.label, '1. Hafta');
   assert.deepEqual(result.matches.map((match) => match.id), ['1', '2']);
   assert.equal(result.matches[0].home, 'Home 1');
+
   assert.equal(result.matches[0].homeCountry, 'TUR');
+});
+
+test('competition rail reserves the flexible column for full team names', () => {
+  const css = fs.readFileSync(
+    path.join(__dirname, '..', 'styles', 'uefa-standings.css'),
+    'utf8'
+  );
+
+  assert.match(
+    css,
+    /\.competition-page \.uefa-table th:nth-child\(2\)\{\s*width:auto;/
+  );
+  assert.match(
+    css,
+    /th:nth-child\(10\),[\s\S]*?\.competition-page \.uefa-table \.points\{\s*width:34px;/
+  );
+  assert.match(
+    css,
+    /\.competition-page \.uefa-team-name\{[\s\S]*?font-size:\.86rem;/
+  );
 });
