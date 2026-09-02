@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:50:25.078Z",
+  "updatedAt": "2026-09-02T21:07:21.398Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -7,7 +7,7 @@
     "FotMob"
   ],
   "degraded": true,
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "timezone": "Europe/Istanbul",
   "trackedLeagues": [
     203,
@@ -22,10 +22,47 @@
     88
   ],
   "summary": {
-    "total": 0,
+    "total": 2,
     "live": 0,
-    "upcoming": 0,
+    "upcoming": 2,
     "finished": 0
   },
-  "matches": []
+  "matches": [
+    {
+      "id": 5868070,
+      "leagueId": 140,
+      "league": "LaLiga",
+      "country": "ESP",
+      "round": "6",
+      "date": "2026-09-03T19:00:00.000Z",
+      "timestamp": 1788462000,
+      "venue": "",
+      "home": "Real Sociedad",
+      "away": "Celta Vigo",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5802926,
+      "leagueId": 61,
+      "league": "Ligue 1",
+      "country": "FRA",
+      "round": "3",
+      "date": "2026-09-03T18:45:00.000Z",
+      "timestamp": 1788461100,
+      "venue": "",
+      "home": "Toulouse",
+      "away": "Lille",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    }
+  ]
 }
