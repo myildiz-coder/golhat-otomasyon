@@ -10,18 +10,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Avrupa Futbolu — GOLHAT</title>
-<meta name="description" content="Premier Lig, La Liga, Serie A, Bundesliga ve Ligue 1'den kaynak gösterilen haberler.">
+<meta name="description" content="Premier League, La Liga, Serie A, Ligue 1, Bundesliga ve Eredivisie puan durumları, canlı skorlar, oynanacak maçlar ve kaynaklı haberler.">
 <link rel="canonical" href="https://golhat.com/avrupa.html">
+<link rel="stylesheet" href="/styles/avrupa-ligleri.css">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GOLHAT">
 <meta property="og:title" content="Avrupa Futbolu — GOLHAT">
-<meta property="og:description" content="Premier Lig, La Liga, Serie A, Bundesliga ve Ligue 1'den kaynak gösterilen haberler.">
+<meta property="og:description" content="Altı Avrupa liginin puan durumları, canlı skorları, oynanacak maçları ve kaynaklı haberleri.">
 <meta property="og:url" content="https://golhat.com/avrupa.html">
 <meta property="og:locale" content="tr_TR">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Avrupa Futbolu — GOLHAT">
-<meta name="twitter:description" content="Premier Lig, La Liga, Serie A, Bundesliga ve Ligue 1'den kaynak gösterilen haberler.">
+<meta name="twitter:description" content="Altı Avrupa liginin puan durumları, canlı skorları, oynanacak maçları ve kaynaklı haberleri.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
@@ -879,12 +880,94 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap europe-page">
   <section class="page-hero">
     <span class="section-label">Avrupa Futbolu</span>
     <h1>Avrupa Futbolu</h1>
-    <p>Premier Lig, La Liga, Serie A, Bundesliga ve Ligue 1'den kaynaklı, doğrulanmış gelişmeler.</p>
+    <p>İngiltere, İspanya, İtalya, Fransa, Almanya ve Hollanda liglerinden canlı skorlar, tam puan cetvelleri, oynanacak maçlar ve doğrulanmış gelişmeler.</p>
   </section>
+
+  <aside class="europe-live-hub" data-europe-hub aria-labelledby="europe-live-title">
+    <div class="europe-live-bar">
+      <span class="europe-live-state" data-europe-live-state>Canlı merkez aktif</span>
+      <span class="europe-live-updated">Son veri: <b data-europe-updated>—</b></span>
+    </div>
+
+    <nav class="europe-tabs" role="tablist" aria-label="Avrupa ligi seçimi">
+      <button class="europe-tab" type="button" role="tab"
+        data-europe-tab="england" aria-selected="true" tabindex="0">
+        İngiltere
+      </button>
+      <button class="europe-tab" type="button" role="tab"
+        data-europe-tab="spain" aria-selected="false" tabindex="-1">
+        İspanya
+      </button>
+      <button class="europe-tab" type="button" role="tab"
+        data-europe-tab="italy" aria-selected="false" tabindex="-1">
+        İtalya
+      </button>
+      <button class="europe-tab" type="button" role="tab"
+        data-europe-tab="france" aria-selected="false" tabindex="-1">
+        Fransa
+      </button>
+      <button class="europe-tab" type="button" role="tab"
+        data-europe-tab="germany" aria-selected="false" tabindex="-1">
+        Almanya
+      </button>
+      <button class="europe-tab" type="button" role="tab"
+        data-europe-tab="netherlands" aria-selected="false" tabindex="-1">
+        Hollanda
+      </button>
+    </nav>
+
+    <section aria-live="polite">
+      <header class="europe-summary">
+        <span class="europe-summary-kicker" data-europe-country>İngiltere</span>
+        <h2 id="europe-live-title" data-europe-title>Premier League</h2>
+        <div class="europe-summary-line">
+          <span data-europe-summary>Puan cetveli yükleniyor</span>
+          <span class="europe-season" data-europe-season>2026/27</span>
+        </div>
+      </header>
+
+      <div class="europe-table-wrap" tabindex="0" aria-label="Tam puan cetveli">
+        <table class="europe-table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Takım</th>
+              <th scope="col">O</th>
+              <th scope="col">AV</th>
+              <th scope="col">P</th>
+            </tr>
+          </thead>
+          <tbody data-europe-body></tbody>
+        </table>
+      </div>
+
+      <footer class="europe-table-foot">
+        <div class="europe-legend" aria-label="Puan cetveli bölgeleri">
+          <span><i></i> Lider</span>
+          <span class="europe"><i></i> Avrupa</span>
+          <span class="drop"><i></i> Düşme</span>
+        </div>
+        <a href="https://www.api-football.com/" target="_blank" rel="noopener">Kaynak</a>
+      </footer>
+
+      <section class="europe-fixtures" aria-labelledby="europe-fixtures-title">
+        <header class="europe-fixtures-head">
+          <div>
+            <span class="europe-fixtures-kicker">Bugün ve sıradaki maçlar</span>
+            <h3 id="europe-fixtures-title">Maç Merkezi</h3>
+          </div>
+          <span class="europe-fixtures-count" data-europe-fixtures-count>— MAÇ</span>
+        </header>
+        <div class="europe-fixture-list" data-europe-fixture-list>
+          <div class="europe-empty">Maç programı yükleniyor…</div>
+        </div>
+      </section>
+    </section>
+  </aside>
 
   <section class="single-desk">
     <div class="desk-heading"><h2>Avrupa Futbolu Gündemi</h2><span class="desk-count mono">9 haber</span></div>  <!-- GOLHAT:AUTO_EDITOR:START -->
@@ -1013,6 +1096,7 @@
   </div>
 </footer>
 
+<script src="/scripts/avrupa-ligleri-ui.js"></script>
 <script>
   (function(){
     function pad(n){ return String(n).padStart(2,'0'); }

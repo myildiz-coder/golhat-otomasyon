@@ -15,7 +15,8 @@ const TRACKED_LEAGUES = [
   140, // La Liga
   135, // Serie A
   78,  // Bundesliga
-  61   // Ligue 1
+  61,  // Ligue 1
+  88   // Eredivisie
 ];
 const TRACKED_SET = new Set(TRACKED_LEAGUES);
 const LEAGUE_PRIORITY = new Map(TRACKED_LEAGUES.map((id, index) => [id, index]));

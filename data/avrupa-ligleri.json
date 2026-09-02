@@ -1,0 +1,58 @@
+{
+  "updatedAt": null,
+  "source": "API-Football",
+  "sourceUrl": "https://www.api-football.com/",
+  "timezone": "Europe/Istanbul",
+  "season": 2026,
+  "seasonLabel": "2026/27",
+  "leagues": {
+    "england": {
+      "key": "england",
+      "id": 39,
+      "country": "İngiltere",
+      "name": "Premier League",
+      "standings": [],
+      "fixtures": []
+    },
+    "spain": {
+      "key": "spain",
+      "id": 140,
+      "country": "İspanya",
+      "name": "La Liga",
+      "standings": [],
+      "fixtures": []
+    },
+    "italy": {
+      "key": "italy",
+      "id": 135,
+      "country": "İtalya",
+      "name": "Serie A",
+      "standings": [],
+      "fixtures": []
+    },
+    "france": {
+      "key": "france",
+      "id": 61,
+      "country": "Fransa",
+      "name": "Ligue 1",
+      "standings": [],
+      "fixtures": []
+    },
+    "germany": {
+      "key": "germany",
+      "id": 78,
+      "country": "Almanya",
+      "name": "Bundesliga",
+      "standings": [],
+      "fixtures": []
+    },
+    "netherlands": {
+      "key": "netherlands",
+      "id": 88,
+      "country": "Hollanda",
+      "name": "Eredivisie",
+      "standings": [],
+      "fixtures": []
+    }
+  }
+}

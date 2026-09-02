@@ -1,0 +1,52 @@
+name: Avrupa Lig Merkezi
+
+on:
+  schedule:
+    # Türkiye saati 08:35, 16:35 ve 00:35 (UTC 05:35, 13:35 ve 21:35)
+    - cron: '35 5,13,21 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+jobs:
+  update-european-leagues:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Veri dönüştürme testleri
+        run: npm test
+
+      - name: Altı ligin puan cetveli ve fikstürünü çek
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node scripts/fetch-avrupa-ligleri.js
+
+      - name: Değişiklik varsa commit et ve gönder
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-bot"
+          git config user.email "actions@github.com"
+          git add data/avrupa-ligleri.json
+          if git diff --cached --quiet; then
+            echo "Avrupa ligi verisinde değişiklik yok."
+            exit 0
+          fi
+          git commit -m "Avrupa ligleri güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+

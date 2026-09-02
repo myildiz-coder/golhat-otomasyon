@@ -1,0 +1,399 @@
+.europe-page{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(350px,390px);
+  gap:0 32px;
+  align-items:start;
+}
+.europe-page>.page-hero{
+  grid-column:1/-1;
+  grid-row:1;
+}
+.europe-page>.single-desk{
+  grid-column:1;
+  grid-row:2;
+  min-width:0;
+}
+.europe-live-hub{
+  grid-column:2;
+  grid-row:2;
+  min-width:0;
+  margin:0 0 42px;
+  position:sticky;
+  top:14px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--surface-raised);
+  box-shadow:0 14px 32px var(--shadow);
+}
+.europe-live-bar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 13px;
+  color:#f4f2e4;
+  background:#071f16;
+  border-bottom:1px solid rgba(255,255,255,.12);
+  font:600 .62rem/1.35 'IBM Plex Mono',monospace;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.europe-live-state{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  color:#aee5c7;
+}
+.europe-live-state::before{
+  content:"";
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#45d486;
+  box-shadow:0 0 0 4px rgba(69,212,134,.13);
+}
+.europe-live-state.has-live{
+  color:#fff;
+}
+.europe-live-state.has-live::before{
+  background:var(--var-red);
+  box-shadow:0 0 0 4px rgba(215,38,61,.2);
+  animation:europe-pulse 1.5s ease-out infinite;
+}
+@keyframes europe-pulse{
+  50%{box-shadow:0 0 0 7px rgba(215,38,61,0)}
+}
+.europe-live-updated{
+  color:#9bb5a6;
+  font-weight:400;
+  letter-spacing:.02em;
+  text-transform:none;
+}
+.europe-tabs{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:1px;
+  padding:1px;
+  background:var(--line);
+}
+.europe-tab{
+  min-width:0;
+  min-height:44px;
+  padding:7px 4px;
+  border:0;
+  color:var(--muted);
+  background:var(--surface);
+  cursor:pointer;
+  font:600 .6rem/1.2 'IBM Plex Mono',monospace;
+  letter-spacing:.02em;
+  text-transform:uppercase;
+}
+.europe-tab:hover{
+  color:var(--turf-dark);
+}
+.europe-tab[aria-selected="true"]{
+  color:#f4c430;
+  background:#103d2b;
+}
+.europe-summary{
+  padding:17px 14px 14px;
+  color:#f4f2e4;
+  background:#08271b;
+}
+.europe-summary-kicker{
+  display:block;
+  margin-bottom:4px;
+  color:#9fc8b0;
+  font:500 .58rem 'IBM Plex Mono',monospace;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+.europe-summary h2{
+  margin:0;
+  color:#fff;
+  font:800 1.85rem/1 'Big Shoulders Display',sans-serif;
+}
+.europe-summary-line{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  margin-top:8px;
+  color:#c4d3ca;
+  font-size:.8rem;
+}
+.europe-season{
+  flex:0 0 auto;
+  color:#f4c430;
+  font:600 .62rem 'IBM Plex Mono',monospace;
+}
+.europe-table-wrap{
+  max-height:430px;
+  overflow:auto;
+  scrollbar-color:var(--muted) var(--surface);
+  border-bottom:1px solid var(--line);
+}
+.europe-table{
+  display:block;
+  width:100%;
+  border-collapse:collapse;
+  font-family:'IBM Plex Mono',monospace;
+  font-variant-numeric:tabular-nums;
+}
+.europe-table thead,
+.europe-table tbody{
+  display:block;
+  width:100%;
+}
+.europe-table tr{
+  display:grid;
+  grid-template-columns:34px minmax(145px,1fr) 34px 39px 34px;
+  width:100%;
+}
+.europe-table th,
+.europe-table td{
+  box-sizing:border-box;
+  min-width:0;
+  padding:8px 4px;
+  border-bottom:1px solid var(--line);
+}
+.europe-table th{
+  position:sticky;
+  top:0;
+  z-index:2;
+  min-height:32px;
+  color:#d6e5dc;
+  background:#153d2e;
+  font-size:.55rem;
+  letter-spacing:.04em;
+  text-align:center;
+  text-transform:uppercase;
+}
+.europe-table th:nth-child(2){
+  padding-left:8px;
+  text-align:left;
+}
+.europe-table td{
+  display:flex;
+  min-height:42px;
+  align-items:center;
+  justify-content:center;
+  font-size:.68rem;
+}
+.europe-table tbody tr:last-child td{
+  border-bottom:0;
+}
+.europe-table tbody tr:hover{
+  background:rgba(63,163,119,.07);
+}
+.europe-table .rank{
+  border-left:3px solid transparent;
+  font-weight:600;
+}
+.europe-table tr.zone-title .rank{
+  border-left-color:#2fa36b;
+}
+.europe-table tr.zone-europe .rank{
+  border-left-color:#3b7fce;
+}
+.europe-table tr.zone-drop .rank{
+  border-left-color:var(--var-red);
+}
+.europe-table .team-cell{
+  justify-content:flex-start;
+  padding-left:8px;
+}
+.europe-team-name{
+  display:block;
+  min-width:0;
+  overflow:visible;
+  color:var(--ink);
+  font-family:'Source Serif 4',serif;
+  font-size:.83rem;
+  font-weight:650;
+  line-height:1.1;
+  white-space:normal;
+  overflow-wrap:anywhere;
+}
+.europe-table .points{
+  color:var(--turf-dark);
+  font-weight:700;
+}
+.europe-table-foot{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  padding:9px 12px;
+  color:var(--muted);
+  background:var(--surface);
+  font:400 .56rem/1.45 'IBM Plex Mono',monospace;
+}
+.europe-table-foot a{
+  color:var(--turf-dark);
+}
+.europe-legend{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px 10px;
+}
+.europe-legend span{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+}
+.europe-legend i{
+  width:9px;
+  height:3px;
+  background:#2fa36b;
+}
+.europe-legend .europe i{background:#3b7fce}
+.europe-legend .drop i{background:var(--var-red)}
+.europe-fixtures{
+  border-top:7px solid var(--paper);
+}
+.europe-fixtures-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:12px;
+  padding:15px 13px 12px;
+  border-bottom:1px solid var(--line);
+}
+.europe-fixtures-kicker{
+  display:block;
+  margin-bottom:3px;
+  color:var(--muted);
+  font:500 .56rem 'IBM Plex Mono',monospace;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.europe-fixtures h3{
+  color:var(--turf-dark);
+  font:800 1.55rem/1 'Big Shoulders Display',sans-serif;
+}
+.europe-fixtures-count{
+  color:var(--var-red);
+  font:600 .58rem 'IBM Plex Mono',monospace;
+  text-transform:uppercase;
+}
+.europe-fixture-list{
+  max-height:445px;
+  overflow:auto;
+  scrollbar-color:var(--muted) var(--surface);
+}
+.europe-fixture-day{
+  position:sticky;
+  top:0;
+  z-index:1;
+  padding:7px 11px;
+  color:#c8d5cd;
+  background:#173628;
+  font:500 .58rem 'IBM Plex Mono',monospace;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+.europe-fixture{
+  display:grid;
+  grid-template-columns:68px minmax(0,1fr);
+  min-height:60px;
+  border-bottom:1px solid var(--line);
+}
+.europe-fixture:last-child{
+  border-bottom:0;
+}
+.europe-fixture-status{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  padding:8px 5px;
+  border-right:1px solid var(--line);
+  color:var(--ink);
+  font:600 .7rem 'IBM Plex Mono',monospace;
+  text-align:center;
+}
+.europe-fixture-status small{
+  color:var(--muted);
+  font-size:.51rem;
+  font-weight:500;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
+.europe-fixture.is-live .europe-fixture-status{
+  color:var(--var-red);
+}
+.europe-fixture.is-live .europe-fixture-status small{
+  color:var(--var-red);
+}
+.europe-fixture-teams{
+  display:grid;
+  align-content:center;
+  gap:3px;
+  min-width:0;
+  padding:8px 11px;
+}
+.europe-fixture-team{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:7px;
+  align-items:center;
+  min-width:0;
+  font-size:.82rem;
+  font-weight:600;
+}
+.europe-fixture-team span:first-child{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.europe-fixture-score{
+  color:var(--turf-dark);
+  font:700 .76rem 'IBM Plex Mono',monospace;
+}
+.europe-empty{
+  padding:28px 16px;
+  color:var(--muted);
+  text-align:center;
+  font:400 .68rem/1.6 'IBM Plex Mono',monospace;
+}
+@media(prefers-reduced-motion:reduce){
+  .europe-live-state.has-live::before{animation:none}
+}
+@media(max-width:900px){
+  .europe-page{
+    display:flex;
+    flex-direction:column;
+  }
+  .europe-page>.page-hero{order:1;width:100%}
+  .europe-page>.europe-live-hub{
+    order:2;
+    position:static;
+    width:100%;
+    margin:0 0 30px;
+  }
+  .europe-page>.single-desk{order:3;width:100%}
+  .europe-table-wrap{max-height:560px}
+  .europe-fixture-list{max-height:none}
+}
+@media(max-width:460px){
+  .europe-live-hub{
+    width:calc(100% + 8px)!important;
+    margin-left:-4px!important;
+    border-radius:4px;
+  }
+  .europe-tab{
+    min-height:42px;
+    font-size:.55rem;
+  }
+  .europe-table tr{
+    grid-template-columns:30px minmax(132px,1fr) 31px 36px 31px;
+  }
+  .europe-table td{
+    padding-left:3px;
+    padding-right:3px;
+  }
+  .europe-team-name{font-size:.8rem}
+  .europe-live-updated{display:none}
+}
+

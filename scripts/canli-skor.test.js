@@ -3,6 +3,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
+  TRACKED_LEAGUES,
   istanbulDateString,
   matchKind,
   normalizeFixtures,
@@ -26,6 +27,10 @@ function fixture(id, leagueId, date, status, home, away, homeScore = null, awayS
     goals: { home: homeScore, away: awayScore }
   };
 }
+
+test('Eredivisie canli skor kapsamindadir', () => {
+  assert.equal(TRACKED_LEAGUES.includes(88), true);
+});
 
 test('Istanbul gunu UTC gece sinirinda dogru hesaplanir', () => {
   assert.equal(istanbulDateString(new Date('2026-06-30T20:30:00Z')), '2026-06-30');
