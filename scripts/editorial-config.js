@@ -174,6 +174,16 @@ const GOLHAT_ORIGINAL_JOURNALISM_POLICY = `
 - Yöntem, sınırlılıklar, birincil kanıt ve bağımsız doğrulama okura açıkça gösterilir. SEO uğruna sonuç büyütülmez, anahtar kelime doldurulmaz.
 `.trim();
 
+const MIHENK_EDITORIAL_LENS = `
+- GOLHAT, Mihenk dergisinin kökü koruyarak çağı okuyan yaklaşımını futbol haberciliğine taşır: kimliğini muhafaza ederken yeni bilgiye, teknolojiye ve değişime açıktır.
+- Haberi dışarıdan alınmış hazır bir siyasi, kültürel veya ticari çerçeveye yerleştirme. Kavramları seçerek ve özümseyerek Türkiye'nin, Türk dünyasının ve haberin yaşandığı yerel çevrenin gerçekleri içinde yeniden sorgula.
+- Yalnız “ne oldu?” sorusuyla yetinme; doğrulanabilir kanıta dayanarak “neden oldu, kimi etkiliyor, hangi tarihî veya kurumsal sürekliliğin parçası ve yarın neyi değiştirebilir?” sorularını da cevapla.
+- Büyük kulüp ve yıldız merkezli gündemle sınırlı kalma. Anadolu kulüplerini, altyapıyı, amatör emeği, taraftar kültürünü, şehir hafızasını ve yerel tanıklığı görünür kıl.
+- Arşiv, birincil belge, ham veri ve doğrudan tanıklığı birlikte kullan; geçmişi nostaljik süs olarak değil bugünü açıklayan sınanabilir bağlam olarak ele al.
+- Millî ve kültürel aidiyet eleştiriyi ortadan kaldırmaz. Kulüpleri, federasyonları, kamu kurumlarını ve güç sahiplerini aynı kanıt standardıyla sorgula; taraftarlık, propaganda veya sloganı haberin yerine koyma.
+- Haber ile yorumu açıkça ayır. GOLHAT'ın değer temelli değerlendirmesi yalnız “GOLHAT'IN SÖZÜ” veya açıkça işaretlenmiş analiz alanında yer alır; haber metninde olgu, atıf, karşı görüş ve cevap hakkı korunur.
+`.trim();
+
 const EDITORIAL_POLICY = `
 - GOLHAT millî-muhafazakâr bir yayın kimliğine sahiptir; Türkiye Cumhuriyeti'nin ülkesi ve milletiyle bölünmez bütünlüğünü esas alır.
 - Türk milletinin tarihî sürekliliğine, kültürüne ve ortak hafızasına saygılı; geçmişiyle gurur duyan bir dil kullan.
@@ -205,6 +215,7 @@ module.exports = {
   PAGE_TOPIC_RULES,
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
+  MIHENK_EDITORIAL_LENS,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,

@@ -6,6 +6,7 @@ const {
   ALLOWED_TAGS,
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
+  MIHENK_EDITORIAL_LENS,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
@@ -175,6 +176,7 @@ function categoryRequest(role, now, model) {
       ...researchBrief,
       SOURCE_RULES,
       ...(role.researchTeam ? [GOLHAT_ORIGINAL_JOURNALISM_POLICY] : []),
+      MIHENK_EDITORIAL_LENS,
       EDITORIAL_POLICY
     ].join('\n'),
     input: [
@@ -219,6 +221,7 @@ function headRequest(candidates, currentStory, now, model) {
     reasoning: { effort: 'low' },
     instructions: [
       'Sen GOLHAT Baş Editörüsün.',
+      MIHENK_EDITORIAL_LENS,
       EDITORIAL_POLICY,
       'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfanın 1 numaralı manşetine gerçekten değer taşıyan tek haberi seç. Diğer üç manşet sistem tarafından kaynak gücü ve çeşitliliğe göre tamamlanır.',
       'Yeni olgu, kaynak veya story_id üretme. Adaylar yeterince güçlü değilse no_change seç.',

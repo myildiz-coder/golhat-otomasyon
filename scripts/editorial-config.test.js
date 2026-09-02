@@ -5,7 +5,8 @@ const path = require('node:path');
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
-  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
+  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, MIHENK_EDITORIAL_LENS,
+  EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 test('depodaki her HTML sayfasının tek bir sorumlu editörü vardır', () => {
@@ -50,6 +51,24 @@ test('özgün habercilik felsefesi kaynak derlemesini ve otomatik özel haber et
   assert.match(page, /id="golhat-original-journalism-charter"/);
   assert.match(page, /Özgün habercilik felsefemiz/);
   assert.match(page, /Kaynak derlemesi özgün haber değildir/);
+});
+
+test('Mihenk bakışı bütün editörlerin uyguladığı ve okurun görebildiği bir yayın merceğidir', () => {
+  for (const phrase of [
+    'kökü koruyarak çağı okuyan',
+    'hazır bir siyasi, kültürel veya ticari çerçeveye',
+    'Anadolu kulüplerini',
+    'Haber ile yorumu açıkça ayır'
+  ]) assert.match(MIHENK_EDITORIAL_LENS, new RegExp(phrase));
+
+  const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
+  assert.ok((runner.match(/MIHENK_EDITORIAL_LENS/g) || []).length >= 3);
+
+  const researchPage = fs.readFileSync(path.resolve(__dirname, '..', 'ozel-haber.html'), 'utf8');
+  const homepage = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf8');
+  assert.match(researchPage, /id="mihenk-editorial-lens"/);
+  assert.match(researchPage, /Kökü koru · Çağı oku/);
+  assert.match(homepage, /kendi mihenginde tartar/);
 });
 
 test('her yayın sayfasının kodla uygulanan bir konu sınırı vardır', () => {
