@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-02T17:45:36.304Z",
-  "source": "API-Football",
-  "sourceUrl": "https://www.api-football.com/",
+  "updatedAt": "2026-09-02T17:54:35.916Z",
+  "source": "FotMob",
+  "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
     "API-Football",
     "FotMob"
   ],
-  "degraded": false,
+  "degraded": true,
   "date": "2026-09-02",
   "timezone": "Europe/Istanbul",
   "trackedLeagues": [
