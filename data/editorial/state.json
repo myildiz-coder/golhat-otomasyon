@@ -1,7 +1,132 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T13:30:18.258Z",
+  "updatedAt": "2026-09-02T16:03:10.336Z",
   "stories": [
+    {
+      "id": "7d1ca6e9af8aa8f1",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ın Nicolas Raskin teklifi Rangers tarafından reddedildi",
+      "summary": "Beşiktaş’ın Rangers forması giyen Nicolas Raskin için yaptığı teklifin İskoç kulübü tarafından geri çevrildiği bildirildi. STV News, iki kulüp arasında anlaşma sağlanamadığını duyurdu. Yeni Asır da Rangers’ın kiralama bedeli ve satın alma opsiyonu içeren öneriyi kabul etmediğini aktardı. Beşiktaş ve KAP cephesinden şu ana kadar resmî açıklama yapılmadı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "publishedAt": "2026-09-02T13:34:00.000Z",
+      "discoveredAt": "2026-09-02T16:03:10.336Z",
+      "sources": [
+        {
+          "title": "Rangers reject Besiktas offer for midfielder Nico Raskin",
+          "publisher": "STV News",
+          "url": "https://news.stv.tv/sport/rangers-reject-besiktas-offer-for-midfielder-nico-raskin",
+          "publishedAt": "2026-09-02T15:42:00+01:00"
+        },
+        {
+          "title": "Beşiktaş’ta Nicolas Raskin transferi rafa kalktı! Rangers’tan beklenmedik karar",
+          "publisher": "Yeni Asır",
+          "url": "https://www.yeniasir.com.tr/spor/2026/09/02/besiktasta-nicolas-raskin-transferi-rafa-kalkti-rangerstan-beklenmedik-karar",
+          "publishedAt": "2026-09-02T16:34:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "990f6014c7ebaaae",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Trabzonspor’da Fatih Tekke dönemi sona erdi",
+      "summary": "Trabzonspor, teknik direktör Fatih Tekke’nin sözleşmesinin karşılıklı anlaşmayla feshedildiğini KAP’a bildirdi. Ayrılık, kulüp açıklamasına dayandırılan bağımsız haberlerle de doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "publishedAt": "2026-09-02T09:18:00.000Z",
+      "discoveredAt": "2026-09-02T16:03:10.336Z",
+      "sources": [
+        {
+          "title": "Trabzonspor'dan Fatih Tekke açıklaması! KAP'a bildirildi",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/trabzonspordan-fatih-tekke-aciklamasi-kapa-bildirildi",
+          "publishedAt": "2026-09-02T12:18:00+03:00"
+        },
+        {
+          "title": "Trabzonspor'da Fatih Tekke dönemi sona erdi",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/trabzonspor-fatih-tekke-ile-yollarin-ayrildigini-acikladi/4044172/4044172",
+          "publishedAt": "2026-09-01T00:00:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "febbc92f2a9fab3d",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Crystal Palace, Chilwell ve Quinten Timber transferlerini tamamladı",
+      "summary": "Crystal Palace, transfer döneminin kapanmasının ardından Ben Chilwell ile Quinten Timber’in kalıcı transferlerini tamamladığını duyurdu. Kulüp, işlemlerin Premier League’e sunulan anlaşma formlarıyla son tarih sonrasında sonuçlandırıldığını bildirdi. Chilwell, 2024-25 sezonunun ikinci yarısında kiralık olarak formasını giydiği Palace’a dönerken Timber, Marseille’den transfer edildi.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "publishedAt": "2026-09-02T00:11:00.000Z",
+      "discoveredAt": "2026-09-02T16:03:10.336Z",
+      "sources": [
+        {
+          "title": "Palace sign Netherlands international Quinten Timber / Ben Chilwell completes permanent transfer to Palace",
+          "publisher": "Crystal Palace",
+          "url": "https://www.cpfc.co.uk/news/news",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Palace sign Chilwell and Timber after deadline",
+          "publisher": "BBC Sport",
+          "url": "https://bbc.com.im/sport/football/articles/crr4d0x0175o",
+          "publishedAt": "2026-09-02T00:11:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e16c854305ed4833",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Folarin Balogun’un Everton transferi son anda iptal oldu",
+      "summary": "Everton’ın Monaco’dan Folarin Balogun’u kadrosuna katma girişimi, transfer dönemi sona ermeden önce sonuçlanamadı. İngiliz basınındaki doğrulamalara göre oyuncu, sağlık kontrolü ve yeniden görüşülen transfer şartlarının ardından Everton’a katılmaktan vazgeçti. Böylece Everton, sezonun ilk bölümünde forvet rotasyonunda ciddi bir eksikle kaldı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "publishedAt": "2026-09-02T01:03:00.000Z",
+      "discoveredAt": "2026-09-02T16:03:10.336Z",
+      "sources": [
+        {
+          "title": "Folarin Balogun: Monaco striker's move to Everton falls through",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/transfer/news/11671/13580201/folarin-balogun-monaco-strikers-move-to-everton-falls-through-after-deal-scuppered-chelseas-chances-of-signing-lamine-camara",
+          "publishedAt": "2026-09-02T01:03:00Z"
+        },
+        {
+          "title": "Balogun's Everton deal collapses after he walks away",
+          "publisher": "BBC Sport",
+          "url": "https://bbc.com.im/sport/football/articles/c780e6q84l4o",
+          "publishedAt": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "b7c886fc703ca5f2",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Nathan Patterson, Everton’dan Torino’ya transfer oldu",
+      "summary": "Torino, İskoç sağ bek Nathan Patterson’ın Everton’dan kalıcı olarak transfer edildiğini resmen açıkladı. Patterson, Ocak 2022’de katıldığı Everton’da toplam 68 resmi karşılaşmada görev yaptı. Transferin tamamlandığı, Torino’nun resmi duyurusu ve İtalya merkezli ANSA’nın sağlık kontrolü ile anlaşmanın son aşamaya geldiğini aktaran haberiyle doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "discoveredAt": "2026-09-02T16:03:10.336Z",
+      "sources": [
+        {
+          "title": "Patterson joins Torino FC",
+          "publisher": "Torino FC",
+          "url": "https://www.torinofc.it/en/news/02/09/2026/patterson-joins-torino-fc_44674",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Il Torino su Patterson, l'esterno è in città per le visite",
+          "publisher": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/01/il-torino-su-patterson-lesterno-e-in-citta-per-le-visite_3906d9a3-c92c-419a-b0f3-e9b2b91debed.html",
+          "publishedAt": "2026-09-01T09:56:00Z"
+        }
+      ]
+    },
     {
       "id": "3d2176a8c0b37ed7",
       "role": "trabzon_anadolu",
