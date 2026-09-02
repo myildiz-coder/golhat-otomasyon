@@ -80,10 +80,85 @@
     });
   }
 
+  function renderFixtures(container, competition) {
+    var list = container.querySelector('[data-uefa-fixture-list]');
+    var label = container.querySelector('[data-uefa-round]');
+    var matchday = competition && competition.nextMatchday;
+    var matches = matchday && Array.isArray(matchday.matches)
+      ? matchday.matches
+      : [];
+
+    list.replaceChildren();
+    if (label) {
+      label.textContent = matchday && matchday.label
+        ? matchday.label
+        : 'Program Bekleniyor';
+    }
+    if (!matches.length) {
+      list.appendChild(make(
+        'div',
+        'uefa-fixtures-empty',
+        'Sıradaki maç programı henüz açıklanmadı.'
+      ));
+      return;
+    }
+
+    var dayFormat = new Intl.DateTimeFormat('tr-TR', {
+      timeZone: 'Europe/Istanbul',
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long'
+    });
+    var keyFormat = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Istanbul',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    });
+    var timeFormat = new Intl.DateTimeFormat('tr-TR', {
+      timeZone: 'Europe/Istanbul',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    });
+    var activeDay = '';
+
+    matches.forEach(function(match) {
+      var date = new Date(match.date);
+      var dayKey = keyFormat.format(date);
+      if (dayKey !== activeDay) {
+        activeDay = dayKey;
+        list.appendChild(make(
+          'div',
+          'uefa-fixture-day',
+          dayFormat.format(date)
+        ));
+      }
+
+      var row = make('article', 'uefa-fixture');
+      var time = make('time', 'uefa-fixture-time', timeFormat.format(date));
+      time.dateTime = match.date;
+      row.appendChild(time);
+
+      var teams = make('div', 'uefa-fixture-teams');
+      var home = make('span', '', match.home || 'Ev sahibi');
+      var away = make('span', '', match.away || 'Deplasman');
+      if (match.homeCountry === 'TUR') home.classList.add('is-turkish');
+      if (match.awayCountry === 'TUR') away.classList.add('is-turkish');
+      teams.appendChild(home);
+      teams.appendChild(away);
+      row.appendChild(teams);
+      list.appendChild(row);
+    });
+  }
   function render(data) {
     document.querySelectorAll('[data-uefa-table]').forEach(function(table) {
       var key = table.getAttribute('data-uefa-table');
       renderRows(table, data.competitions && data.competitions[key]);
+    });
+    document.querySelectorAll('[data-uefa-fixtures]').forEach(function(panel) {
+      var key = panel.getAttribute('data-uefa-fixtures');
+      renderFixtures(panel, data.competitions && data.competitions[key]);
     });
 
     document.querySelectorAll('[data-uefa-season]').forEach(function(element) {
@@ -119,6 +194,15 @@
       row.appendChild(cell);
       body.appendChild(row);
     });
+    document.querySelectorAll('[data-uefa-fixture-list]').forEach(
+      function(list) {
+        list.replaceChildren(make(
+          'div',
+          'uefa-fixtures-empty',
+          'UEFA maç programına şu anda ulaşılamıyor.'
+        ));
+      }
+    );
   }
 
   function setupTabs() {

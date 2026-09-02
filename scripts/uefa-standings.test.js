@@ -4,6 +4,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   COMPETITIONS,
+  normalizeFixtures,
   normalizeRows,
   seasonEndYear,
   translatedTeamName
@@ -87,4 +88,40 @@ test('empty UEFA standings are rejected', () => {
     () => normalizeRows([{ items: [] }]),
     /standings are empty/
   );
+});
+
+test('next UEFA matchday includes every upcoming match in that week', () => {
+  const makeMatch = (id, date, matchdayId, sequence, phase = 'TOURNAMENT') => ({
+    id: String(id),
+    status: 'UPCOMING',
+    competitionPhase: phase,
+    kickOffTime: { dateTime: date },
+    matchday: {
+      id: matchdayId,
+      sequenceNumber: String(sequence),
+      longName: 'Matchday ' + sequence
+    },
+    round: { id: 'league', metaData: { name: 'League Phase' } },
+    homeTeam: {
+      id: 'h' + id,
+      internationalName: 'Home ' + id,
+      countryCode: 'TUR'
+    },
+    awayTeam: {
+      id: 'a' + id,
+      internationalName: 'Away ' + id,
+      countryCode: 'ENG'
+    }
+  });
+  const result = normalizeFixtures([
+    makeMatch(4, '2026-09-16T19:00:00Z', 'md2', 2),
+    makeMatch(2, '2026-09-09T19:00:00Z', 'md1', 1),
+    makeMatch(1, '2026-09-09T16:45:00Z', 'md1', 1),
+    makeMatch(3, '2026-09-08T16:45:00Z', 'qual', 4, 'QUALIFYING')
+  ], new Date('2026-09-02T12:00:00Z'));
+
+  assert.equal(result.label, '1. Hafta');
+  assert.deepEqual(result.matches.map((match) => match.id), ['1', '2']);
+  assert.equal(result.matches[0].home, 'Home 1');
+  assert.equal(result.matches[0].homeCountry, 'TUR');
 });

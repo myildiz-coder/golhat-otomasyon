@@ -260,3 +260,180 @@
     padding:10px 12px;
   }
 }
+
+/* Competition pages: news across two thirds, data rail on the right. */
+.competition-page{
+  display:grid;
+  grid-template-columns:minmax(0,2fr) minmax(320px,1fr);
+  gap:28px 34px;
+  align-items:start;
+}
+.competition-page > .page-hero{
+  grid-column:1/-1;
+}
+.competition-page > .single-desk{
+  grid-column:1;
+  grid-row:2;
+  min-width:0;
+}
+.competition-page > .uefa-standings,
+.competition-page > .uefa-standings-hub{
+  grid-column:2;
+  grid-row:2;
+  min-width:0;
+  margin-top:0;
+}
+.competition-page .uefa-standings{
+  margin-top:0;
+}
+.competition-page .uefa-table-wrap{
+  max-height:440px;
+}
+.competition-page .uefa-table{
+  min-width:0;
+  table-layout:fixed;
+}
+.competition-page .uefa-table .optional{
+  display:none;
+}
+.competition-page .uefa-table .rank{
+  width:39px;
+}
+.competition-page .uefa-table .played,
+.competition-page .uefa-table .difference,
+.competition-page .uefa-table .points{
+  width:38px;
+}
+.competition-page .uefa-table .team-cell{
+  min-width:0;
+}
+.competition-page .uefa-standings-intro{
+  display:block;
+  padding:17px 16px;
+}
+.competition-page .uefa-standings-intro h2{
+  font-size:1.75rem;
+}
+.competition-page .uefa-season{
+  display:block;
+  margin-top:9px;
+}
+.competition-page .uefa-standings-foot{
+  padding:10px 12px;
+}
+.competition-page .uefa-legend{
+  gap:6px 11px;
+}
+
+.uefa-fixtures{
+  border-top:7px solid var(--paper);
+  background:var(--surface-raised);
+}
+.uefa-fixtures-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+  padding:16px;
+  border-bottom:1px solid var(--line);
+}
+.uefa-fixtures-head h3{
+  margin:0;
+  color:var(--turf-dark);
+  font:800 1.55rem/1 'Big Shoulders Display',sans-serif;
+}
+.uefa-fixtures-kicker{
+  display:block;
+  margin-bottom:4px;
+  color:var(--muted);
+  font:500 .58rem 'IBM Plex Mono',monospace;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.uefa-fixtures-round{
+  flex:0 0 auto;
+  color:var(--var-red);
+  font:600 .63rem 'IBM Plex Mono',monospace;
+  text-transform:uppercase;
+}
+.uefa-fixture-list{
+  max-height:510px;
+  overflow:auto;
+  scrollbar-color:var(--muted) var(--surface);
+}
+.uefa-fixture-day{
+  position:sticky;
+  top:0;
+  z-index:1;
+  padding:7px 12px;
+  color:#c8d5cd;
+  background:#173628;
+  font:500 .58rem 'IBM Plex Mono',monospace;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+.uefa-fixture{
+  display:grid;
+  grid-template-columns:55px minmax(0,1fr);
+  min-height:58px;
+  border-bottom:1px solid var(--line);
+}
+.uefa-fixture:last-child{
+  border-bottom:0;
+}
+.uefa-fixture-time{
+  display:flex;
+  align-items:center;
+  padding:9px 10px;
+  border-right:1px solid var(--line);
+  font:600 .76rem 'IBM Plex Mono',monospace;
+  font-variant-numeric:tabular-nums;
+}
+.uefa-fixture-teams{
+  display:grid;
+  align-content:center;
+  gap:3px;
+  min-width:0;
+  padding:8px 11px;
+}
+.uefa-fixture-teams span{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:.84rem;
+  font-weight:600;
+}
+.uefa-fixture-teams .is-turkish{
+  color:var(--turf-dark);
+}
+.uefa-fixture-teams .is-turkish::after{
+  content:" TUR";
+  color:var(--var-red);
+  font:600 .52rem 'IBM Plex Mono',monospace;
+}
+.uefa-fixtures-empty{
+  padding:26px 16px;
+  color:var(--muted);
+  text-align:center;
+  font:400 .7rem 'IBM Plex Mono',monospace;
+}
+
+@media(max-width:900px){
+  .competition-page{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+  }
+  .competition-page > .page-hero{order:1;width:100%}
+  .competition-page > .single-desk{order:2;width:100%}
+  .competition-page > .uefa-standings,
+  .competition-page > .uefa-standings-hub{
+    order:3;
+    width:100%;
+  }
+  .competition-page .uefa-table-wrap{
+    max-height:570px;
+  }
+  .uefa-fixture-list{
+    max-height:none;
+  }

@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const API_ROOT = 'https://standings.uefa.com/v1/standings';
+const MATCHES_ROOT = 'https://match.uefa.com/v5/matches';
 const OUTPUT_PATH = path.resolve(__dirname, '..', 'data', 'uefa-standings.json');
 const COMPETITIONS = [
   {
@@ -82,34 +83,138 @@ function normalizeRows(body) {
     .filter((row) => row.rank && row.teamId && row.team)
     .sort((left, right) => left.rank - right.rank);
 }
+function matchdayLabel(match) {
+  const sequence = Number(
+    match && match.matchday && match.matchday.sequenceNumber || 0
+  );
+  if (sequence) return sequence + '. Hafta';
 
-async function fetchCompetition(competition, season) {
-  const query = new URLSearchParams({
-    competitionId: String(competition.id),
-    seasonYear: String(season)
-  });
-  const response = await fetch(API_ROOT + '?' + query, {
+  const translations =
+    match && match.matchday && match.matchday.translations;
+  const longName = translations && translations.longName;
+  return String(
+    longName && (longName.TR || longName.EN) ||
+    match && match.matchday && match.matchday.longName ||
+    match && match.round && match.round.metaData &&
+      match.round.metaData.name ||
+    'Siradaki Maclar'
+  );
+}
+
+function matchdayKey(match) {
+  return String(
+    match && match.matchday && match.matchday.id ||
+    match && match.round && match.round.id ||
+    ''
+  );
+}
+
+function normalizeFixtures(body, now = new Date()) {
+  if (!Array.isArray(body)) {
+    throw new Error('UEFA matches response is not an array.');
+  }
+
+  const threshold = now.getTime() - 60 * 1000;
+  const upcoming = body
+    .filter((match) => (
+      match &&
+      match.competitionPhase === 'TOURNAMENT' &&
+      match.status === 'UPCOMING' &&
+      new Date(match.kickOffTime && match.kickOffTime.dateTime)
+        .getTime() >= threshold
+    ))
+    .sort((left, right) => (
+      new Date(left.kickOffTime.dateTime).getTime() -
+      new Date(right.kickOffTime.dateTime).getTime()
+    ));
+
+  if (!upcoming.length) {
+    return {
+      id: '',
+      label: 'Program Bekleniyor',
+      dateFrom: '',
+      dateTo: '',
+      matches: []
+    };
+  }
+
+  const first = upcoming[0];
+  const key = matchdayKey(first);
+  const selected = upcoming.filter((match) => matchdayKey(match) === key);
+  const matches = selected.map((match) => ({
+    id: String(match.id || ''),
+    date: String(match.kickOffTime && match.kickOffTime.dateTime || ''),
+    timestamp: new Date(
+      match.kickOffTime && match.kickOffTime.dateTime
+    ).getTime(),
+    home: translatedTeamName(match.homeTeam),
+    away: translatedTeamName(match.awayTeam),
+    homeCountry: String(match.homeTeam && match.homeTeam.countryCode || ''),
+    awayCountry: String(match.awayTeam && match.awayTeam.countryCode || ''),
+    status: String(match.status || '')
+  })).filter((match) => (
+    match.id && match.date && match.home && match.away
+  ));
+
+  return {
+    id: key,
+    label: matchdayLabel(first),
+    dateFrom: matches[0] && matches[0].date || '',
+    dateTo: matches[matches.length - 1] &&
+      matches[matches.length - 1].date || '',
+    matches
+  };
+}
+
+async function fetchJson(url, competitionName) {
+  const response = await fetch(url, {
     headers: { accept: 'application/json' }
   });
   const body = await response.json();
 
   if (!response.ok) {
     throw new Error(
-      competition.name + ' request failed: HTTP ' + response.status
+      competitionName + ' request failed: HTTP ' + response.status
     );
   }
   if (body && body.error) {
     throw new Error(
-      competition.name + ' error: ' +
+      competitionName + ' error: ' +
       (body.error.message || body.error.title || 'unknown error')
     );
   }
+  return body;
+}
+
+async function fetchCompetition(competition, season) {
+  const baseQuery = {
+    competitionId: String(competition.id),
+    seasonYear: String(season)
+  };
+  const standingsQuery = new URLSearchParams(baseQuery);
+  const matchesQuery = new URLSearchParams({
+    ...baseQuery,
+    limit: '500',
+    offset: '0',
+    order: 'ASC'
+  });
+  const [standingsBody, matchesBody] = await Promise.all([
+    fetchJson(
+      API_ROOT + '?' + standingsQuery,
+      competition.name + ' standings'
+    ),
+    fetchJson(
+      MATCHES_ROOT + '?' + matchesQuery,
+      competition.name + ' matches'
+    )
+  ]);
 
   return {
     id: competition.id,
     name: competition.name,
     pageUrl: competition.pageUrl,
-    standings: normalizeRows(body)
+    standings: normalizeRows(standingsBody),
+    nextMatchday: normalizeFixtures(matchesBody)
   };
 }
 
@@ -156,6 +261,8 @@ if (require.main === module) {
 
 module.exports = {
   COMPETITIONS,
+  matchdayLabel,
+  normalizeFixtures,
   normalizeRows,
   seasonEndYear,
   translatedTeamName
