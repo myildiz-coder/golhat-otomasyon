@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T12:47:21.491Z",
+  "updatedAt": "2026-09-02T13:16:34.775Z",
   "source": "API-Football",
   "sourceUrl": "https://www.api-football.com/",
   "date": "2026-09-02",
@@ -13,7 +13,8 @@
     140,
     135,
     78,
-    61
+    61,
+    88
   ],
   "summary": {
     "total": 0,
