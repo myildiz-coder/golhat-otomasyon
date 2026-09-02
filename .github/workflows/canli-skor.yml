@@ -2,6 +2,8 @@ name: Canlı Skor Güncelleme
 
 on:
   schedule:
+    # Günün tam programını Türkiye saati 06:00'da hazırla (UTC 03:00)
+    - cron: '0 3 * * *'
     # Türkiye saatiyle yaklaşık 12:00–24:00 arası, 15 dakikada bir (UTC 09:00–21:00)
     - cron: '*/15 9-21 * * *'
   workflow_dispatch: {}
@@ -27,7 +29,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Canlı skorları API-Football'dan çek
+      - name: Veri dönüştürme testleri
+        run: npm test
+
+      - name: Günün maç programını ve canlı skorları çek
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: node scripts/fetch-canli-skor.js
