@@ -7,6 +7,7 @@ const {
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   GOLHAT_PUBLISHER_EXPERIENCE,
+  GOLHAT_SEO_PLAYBOOK,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
@@ -30,6 +31,7 @@ const {
   writeCategoryPage,
   writeStoryPages,
   writeSitemap,
+  writeNewsSitemap,
   writeHomepageArchive,
   writeHomepage
 } = require('./editorial-lib');
@@ -175,6 +177,7 @@ function categoryRequest(role, now, model) {
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       ...researchBrief,
       GOLHAT_PUBLISHER_EXPERIENCE,
+      GOLHAT_SEO_PLAYBOOK,
       SOURCE_RULES,
       ...(role.researchTeam ? [GOLHAT_ORIGINAL_JOURNALISM_POLICY] : []),
       EDITORIAL_POLICY
@@ -222,6 +225,7 @@ function headRequest(candidates, currentStory, now, model) {
     instructions: [
       'Sen GOLHAT Baş Editörüsün.',
       GOLHAT_PUBLISHER_EXPERIENCE,
+      GOLHAT_SEO_PLAYBOOK,
       EDITORIAL_POLICY,
       'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfanın 1 numaralı manşetine gerçekten değer taşıyan tek haberi seç. Diğer üç manşet sistem tarafından kaynak gücü ve çeşitliliğe göre tamamlanır.',
       'Yeni olgu, kaynak veya story_id üretme. Adaylar yeterince güçlü değilse no_change seç.',
@@ -318,7 +322,8 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
   refreshRolePages(role, state, now);
   const storyPageChanges = writeStoryPages(state.stories, now);
   const sitemapChanged = writeSitemap(state.stories, now);
-  console.log('[' + role.label + '] kalıcı haber sayfaları=' + storyPageChanges + ', sitemap=' + (sitemapChanged ? 'güncellendi' : 'aynı'));
+  const newsSitemapChanged = writeNewsSitemap(state.stories, now);
+  console.log('[' + role.label + '] kalıcı haber sayfaları=' + storyPageChanges + ', sitemap=' + (sitemapChanged ? 'güncellendi' : 'aynı') + ', haber sitemap=' + (newsSitemapChanged ? 'güncellendi' : 'aynı'));
   state.updatedAt = now.toISOString();
   saveState(state);
   return accepted.length;

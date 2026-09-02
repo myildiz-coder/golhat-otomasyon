@@ -185,6 +185,17 @@ const GOLHAT_PUBLISHER_EXPERIENCE = `
 - Okur metnin sonunda yalnız ne olduğunu değil, bu gelişmeye bundan sonra hangi soruyla bakması gerektiğini de anlamalıdır.
 `.trim();
 
+const GOLHAT_SEO_PLAYBOOK = `
+- SEO’nun amacı arama motorunu kandırmak değil, GOLHAT’ın doğrulanmış ve özgün futbol bilgisini doğru arama niyetiyle buluşturmaktır. Sıralama vaadi verme; insanlar için yararlı haber üret.
+- Her haber tek bir açık arama niyetine cevap versin. focus_keyword gerçek kişi, kulüp, turnuva veya olay adını doğal biçimde taşısın; metne anahtar kelime yığma ve eş anlamlı tekrar doldurma.
+- seo_title kısa, ayırt edici ve sayfadaki h1 ile aynı olguyu anlatsın. Kaynakta olmayan kesinlik, şok ifadesi, soru işaretiyle merak tuzağı veya “son dakika” kalıbı ekleme.
+- seo_description 120-170 karakter hedeflesin; kim/ne, doğrulanmış gelişme ve okurun sayfada bulacağı özgün bağlamı tek doğal cümlede anlatsın.
+- İlk paragraf arama niyetinin temel cevabını geciktirmeden versin. original_angle ve key_findings, diğer yayınların özetinden farklı olarak ikinci soru, karşılaştırma, zaman çizelgesi veya somut etki katsın.
+- Güncellik yalnız gerçek ve önemli yeni bilgi varsa kullanılır. Eski haberi yeniymiş gibi tarihleme, küçük değişiklik için manşeti yeniden paketleme veya sırf trend olduğu için içerik üretme.
+- Başlık, açıklama, h1, görünür metin ve yapılandırılmış veri aynı kişileri, takımları, tarihi ve sonucu tutarlı biçimde anlatsın.
+- Arama potansiyeli haber değerinin yerine geçmez. Kaynak gücü ve özgün katkısı zayıf konu yalnız trafik getirebilir diye yayımlanmaz.
+`.trim();
+
 const EDITORIAL_POLICY = `
 - GOLHAT millî-muhafazakâr bir yayın kimliğine sahiptir; Türkiye Cumhuriyeti'nin ülkesi ve milletiyle bölünmez bütünlüğünü esas alır.
 - Türk milletinin tarihî sürekliliğine, kültürüne ve ortak hafızasına saygılı; geçmişiyle gurur duyan bir dil kullan.
@@ -217,6 +228,7 @@ module.exports = {
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   GOLHAT_PUBLISHER_EXPERIENCE,
+  GOLHAT_SEO_PLAYBOOK,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,

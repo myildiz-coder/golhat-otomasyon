@@ -23,6 +23,7 @@ const {
   selectHomepageStories,
   buildStoryPageHtml,
   buildSitemapXml,
+  buildNewsSitemapXml,
   assertHomepageIntegrity
 } = require('./editorial-lib');
 
@@ -482,12 +483,23 @@ test('ana sayfa dört numaralı manşet havuzu kurar ve araştırma dosyasını 
 
 test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanını içerir', () => {
   const story = validStory();
-  const html = buildStoryPageHtml(story, NOW);
+  const related = validStory({
+    headline: 'Fenerbahçe kadro planlamasında doğrulanan ikinci gelişmeyi açıkladı',
+    summary: 'Fenerbahçe, kadro planlamasındaki ikinci gelişmeyi resmî kanallarından duyurdu; açıklama bağımsız kaynakla doğrulandı ve önceki kararın sportif bağlamı aktarıldı.'
+  });
+  const html = buildStoryPageHtml(story, NOW, [story, related]);
   assert.match(storySlug(story), /^[a-z0-9-]+$/);
   assert.match(storyUrl(story), /^\/haber\/[a-z0-9-]+\.html$/);
   assert.match(html, /rel="canonical"/);
   assert.match(html, /application\/ld\+json/);
   assert.match(html, /NewsArticle/);
+  assert.match(html, /BreadcrumbList/);
+  assert.match(html, /max-image-preview:large/);
+  assert.match(html, /article:published_time/);
+  assert.match(html, /twitter:card/);
+  assert.match(html, /<time datetime=/);
+  assert.match(html, /İlgili GOLHAT dosyaları/);
+  assert.match(html, new RegExp(storySlug(related)));
   assert.match(html, /Dosyanın özgün açısı/);
   assert.match(html, /Kaynak zinciri/);
   assert.match(html, /<b>Yöntem:<\/b>/);
@@ -495,6 +507,12 @@ test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanın
   assert.match(html, /<b>Cevap hakkı:<\/b>/);
   assert.doesNotMatch(html, /<img\b/i);
   assert.match(buildSitemapXml([story], NOW), /https:\/\/golhat.com\/haber\//);
+  const newsSitemap = buildNewsSitemapXml([story], NOW);
+  assert.match(newsSitemap, /xmlns:news=/);
+  assert.match(newsSitemap, /<news:name>GOLHAT<\/news:name>/);
+  assert.match(newsSitemap, /<news:language>tr<\/news:language>/);
+  const oldStory = { ...story, id: 'old-story-000001', publishedAt: '2026-08-29T07:30:00.000Z' };
+  assert.doesNotMatch(buildNewsSitemapXml([oldStory], NOW), new RegExp(storySlug(oldStory)));
   const misplaced = { ...story, id: '990f6014c7ebaaae', page: 'anadolu.html', headline: 'Trabzonspor’da Fatih Tekke dönemi sona erdi', summary: 'Trabzonspor teknik direktör değişikliğini KAP üzerinden duyurdu.' };
   assert.doesNotMatch(buildSitemapXml([story, misplaced], NOW), new RegExp(storySlug(misplaced)));
 });

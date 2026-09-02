@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://golhat.com/sitemap.xml
+Sitemap: https://golhat.com/news-sitemap.xml

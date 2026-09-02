@@ -5,7 +5,7 @@ const path = require('node:path');
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
-  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, GOLHAT_PUBLISHER_EXPERIENCE,
+  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, GOLHAT_PUBLISHER_EXPERIENCE, GOLHAT_SEO_PLAYBOOK,
   EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
@@ -73,11 +73,37 @@ test('yayıncı tecrübesi mevcut mimariyi bozmadan haberin düşünme ve yazma 
   assert.doesNotMatch(homepage, /MİHENK|kendi mihenginde/);
 });
 
+test('SEO disiplini arama motoru için seri içerik yerine özgün ve insan odaklı haberi korur', () => {
+  for (const phrase of ['arama motorunu kandırmak değil', 'tek bir açık arama niyetine', 'anahtar kelime yığma', 'h1 ile aynı olguyu', 'Eski haberi yeniymiş gibi', 'Arama potansiyeli haber değerinin yerine geçmez']) {
+    assert.match(GOLHAT_SEO_PLAYBOOK, new RegExp(phrase));
+  }
+  const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
+  assert.ok((runner.match(/GOLHAT_SEO_PLAYBOOK/g) || []).length >= 3);
+});
+
 test('her yayın sayfasının kodla uygulanan bir konu sınırı vardır', () => {
   assert.deepEqual(Object.keys(PAGE_TOPIC_RULES).sort(), Object.keys(PAGE_LABELS).sort());
   for (const [page, rule] of Object.entries(PAGE_TOPIC_RULES)) {
     assert.ok(Array.isArray(rule.requiredAny), page + ' konu terimleri tanımsız');
   }
+});
+
+test('tüm yayın sayfaları Google site kimliği ve önizleme kurallarını taşır', () => {
+  const root = path.resolve(__dirname, '..');
+  for (const page of Object.keys(PAGE_OWNERS)) {
+    const html = fs.readFileSync(path.join(root, page), 'utf8');
+    assert.match(html, /rel="canonical"/);
+    assert.match(html, /max-image-preview:large/);
+    assert.match(html, /rel="icon" href="\/favicon.svg"/);
+    assert.match(html, /application\/ld\+json/);
+  }
+  const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  assert.match(homepage, /"@type":"WebSite"/);
+  assert.match(homepage, /"alternateName":["GOL\/HAT","golhat.com"]/);
+  const robots = fs.readFileSync(path.join(root, 'robots.txt'), 'utf8');
+  assert.match(robots, /Sitemap: https:\/\/golhat.com\/sitemap.xml/);
+  assert.match(robots, /Sitemap: https:\/\/golhat.com\/news-sitemap.xml/);
+  assert.match(fs.readFileSync(path.join(root, 'favicon.svg'), 'utf8'), /viewBox="0 0 96 96"/);
 });
 
 test('kategori editörleri her saat 7/24 çalışır', () => {

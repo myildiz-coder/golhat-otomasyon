@@ -5,6 +5,7 @@ const {
   writeHomepageArchive,
   writeStoryPages,
   writeSitemap,
+  writeNewsSitemap,
   writeHomepage
 } = require('./editorial-lib');
 
@@ -27,6 +28,7 @@ function main() {
 
   const storyPagesChanged = writeStoryPages(state.stories, publishedAt);
   const sitemapChanged = writeSitemap(state.stories, publishedAt);
+  const newsSitemapChanged = writeNewsSitemap(state.stories, publishedAt);
   const changed = writeHomepage(story, publishedAt, state.stories);
   const archiveChanged = writeHomepageArchive(story, publishedAt);
   console.log(
@@ -37,7 +39,7 @@ function main() {
   if (archiveChanged) {
     console.log('[Ana Sayfa Bütünlük] Manşet Özel Haber arşivine eklendi.');
   }
-  console.log('[Ana Sayfa Bütünlük] Kalıcı haber sayfaları=' + storyPagesChanged + ', sitemap=' + (sitemapChanged ? 'güncellendi' : 'aynı') + '.');
+  console.log('[Ana Sayfa Bütünlük] Kalıcı haber sayfaları=' + storyPagesChanged + ', sitemap=' + (sitemapChanged ? 'güncellendi' : 'aynı') + ', haber sitemap=' + (newsSitemapChanged ? 'güncellendi' : 'aynı') + '.');
 }
 
 try {
