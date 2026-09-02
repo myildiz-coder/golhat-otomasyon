@@ -174,15 +174,15 @@ const GOLHAT_ORIGINAL_JOURNALISM_POLICY = `
 - Yöntem, sınırlılıklar, birincil kanıt ve bağımsız doğrulama okura açıkça gösterilir. SEO uğruna sonuç büyütülmez, anahtar kelime doldurulmaz.
 `.trim();
 
-const MIHENK_EDITORIAL_LENS = `
-- MİHENK; Kur'an ve sünneti temel alan, Risale-i Nur'u çağın iman meselelerinde ana fikrî rehber kabul eden bağımsız dergi projemizdir. GOLHAT'a aktarılan şey dinî hüküm üretmek değil; bu çizginin tahkik, adalet, müsbet hareket, uhuvvet, şefkat ve doğru isnat ahlakıdır.
-- Tahkik esastır: duyulanı tekrarlama; iddiayı birincil kaynağa götür, delili karşı delille sına ve bilinmeyeni kesin hüküm gibi sunma.
-- Adalet esastır: sevdiğin kulübün aleyhindeki doğruyu saklama, rakibin lehindeki doğruyu küçültme; kişinin kusurunu camiaya, taraftar grubuna, millete veya inanca yükleme.
-- Müsbet hareket esastır: eleştiriyi hakaret, öfke ticareti, düşmanlık ve tahrik üzerine kurma. Yanlışı açıkça gösterirken çözümü, tamiri ve kamu yararını da ara.
-- Uhuvvet ve şefkat esastır: rekabeti husumete dönüştürme; sporcu, taraftar, çocuk, sakatlanan veya yas yaşayan insanın haysiyetini tıklanma uğruna zedeleme.
-- Akıl ve vicdan birlikte çalışır: veri, belge ve uzmanlık olguyu kurar; ahlaki sorumluluk dilin sınırını belirler. İnanç, kanıtın yerine geçirilemez; kanıt da insana zarar verme ruhsatı değildir.
-- Said Nursî veya Risale-i Nur doğrudan anılacaksa eser ve bahis açıkça belirtilir. MİHENK'in ya da GOLHAT'ın güncel yorumu “Said Nursî böyle derdi” diye ona isnat edilmez.
-- Haber ile yorumu açıkça ayır. Değer temelli değerlendirme yalnız “GOLHAT'IN SÖZÜ” veya açıkça işaretlenmiş analiz alanında yer alır; haber metninde olgu, atıf, karşı görüş ve cevap hakkı korunur.
+const GOLHAT_PUBLISHER_EXPERIENCE = `
+- Bu katman yeni bir yayın politikası değildir; mevcut kaynak doğrulama, sayfa sınırı, editör rolü ve özgün haber mimarisini değiştirmeden tecrübeli bir yayıncının düşünme disiplinini aktarır.
+- MİHENK adı, dinî terminoloji veya başka bir yayın projesinin ilkeleri spor haberine taşınmaz. Aktarılan yalnız özgünlük cesareti, fikrî derinlik, tutarlı düşünce örgüsü ve okura karşı sorumluluk tecrübesidir.
+- İlk sorunun cevabı haberdir: Ne oldu? İkinci doğru soru GOLHAT’ın katkısıdır: Neden şimdi oldu, önceye göre ne değişti, oyuna veya kulübe etkisi ne ve herkesin atladığı ayrıntı hangisi?
+- original_angle alanında bu ikinci soruyu ve onu haber değerine dönüştüren özgün bakışı kur. Kaynakta hazır duran yorumu GOLHAT fikri gibi yeniden paketleme.
+- key_findings alanlarını bilgi katmanları olarak kullan: önce merkez olgu, sonra bağlam veya karşılaştırma, ardından kanıtın izin verdiği sonuç. Aynı bilgiyi farklı cümlelerle tekrarlama.
+- Nedensellik yalnız kanıtlandığı ölçüde kurulur. Karşı ihtimali ve bilinmeyeni limitations alanında görünür bırak; boşluğu tahminle kapatma.
+- Manşet olayın en keskin ve özgün tarafını söyler fakat bulguyu büyütmez. Doğal Türkçe, somut fiil, açık özne ve bilgi yoğunluğu; süslü anlatımın ve SEO tekrarının önündedir.
+- Okur metnin sonunda yalnız ne olduğunu değil, bu gelişmeye bundan sonra hangi soruyla bakması gerektiğini de anlamalıdır.
 `.trim();
 
 const EDITORIAL_POLICY = `
@@ -197,14 +197,6 @@ const EDITORIAL_POLICY = `
 - Millî yayın kimliği; skor, tarih, belge, alıntı veya karşıt kanıtı değiştirme gerekçesi değildir. Doğrulanmış olguları saklama, çarpıtma veya uydurma.
 - Kulüp rekabetinde eşit mesafeyi koru. Irk, etnik köken, din veya mezhep temelinde aşağılayıcı, dışlayıcı ya da düşmanlaştırıcı dil kullanma.
 `.trim();
-const GOLHAT_EDITORIAL_THRESHOLDS = Object.freeze({
-  tahkik: 85,
-  adalet: 80,
-  musbet_hareket: 75,
-  uhuvvet_sefkat: 80,
-  public_interest: 70
-});
-
 const DEFAULT_MODEL = 'gpt-5.6-luna';
 const MAX_STORIES_PER_RUN = 3;
 const MAX_STORIES_PER_PAGE = 8;
@@ -224,8 +216,7 @@ module.exports = {
   PAGE_TOPIC_RULES,
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
-  MIHENK_EDITORIAL_LENS,
-  GOLHAT_EDITORIAL_THRESHOLDS,
+  GOLHAT_PUBLISHER_EXPERIENCE,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,

@@ -5,8 +5,8 @@ const path = require('node:path');
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
-  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, MIHENK_EDITORIAL_LENS,
-  GOLHAT_EDITORIAL_THRESHOLDS, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
+  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, GOLHAT_PUBLISHER_EXPERIENCE,
+  EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 test('depodaki her HTML sayfasının tek bir sorumlu editörü vardır', () => {
@@ -53,31 +53,24 @@ test('özgün habercilik felsefesi kaynak derlemesini ve otomatik özel haber et
   assert.match(page, /Kaynak derlemesi özgün haber değildir/);
 });
 
-test('Mihenk bakışı bütün editörlerin uyguladığı ve okurun görebildiği bir yayın merceğidir', () => {
+test('yayıncı tecrübesi mevcut mimariyi bozmadan haberin düşünme ve yazma derinliğini artırır', () => {
   for (const phrase of [
-    'Risale-i Nur',
-    'Tahkik esastır',
-    'Müsbet hareket esastır',
-    'Uhuvvet ve şefkat esastır',
-    'Said Nursî böyle derdi',
-    'Haber ile yorumu açıkça ayır'
-  ]) assert.match(MIHENK_EDITORIAL_LENS, new RegExp(phrase));
+    'yeni bir yayın politikası değildir',
+    'MİHENK adı',
+    'İlk sorunun cevabı haberdir',
+    'original_angle',
+    'Nedensellik yalnız kanıtlandığı ölçüde',
+    'bilgi yoğunluğu'
+  ]) assert.match(GOLHAT_PUBLISHER_EXPERIENCE, new RegExp(phrase));
 
   const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
-  assert.ok((runner.match(/MIHENK_EDITORIAL_LENS/g) || []).length >= 3);
+  assert.ok((runner.match(/GOLHAT_PUBLISHER_EXPERIENCE/g) || []).length >= 3);
+  assert.doesNotMatch(runner, /editorial_review|storycraft_review/);
 
   const researchPage = fs.readFileSync(path.resolve(__dirname, '..', 'ozel-haber.html'), 'utf8');
   const homepage = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf8');
-  assert.match(researchPage, /id="mihenk-editorial-lens"/);
-  assert.match(researchPage, /Tahkik · Adalet · Müsbet Hareket/);
-  assert.match(homepage, /kendi mihenginde tartar/);
-  assert.deepEqual(GOLHAT_EDITORIAL_THRESHOLDS, {
-    tahkik: 85,
-    adalet: 80,
-    musbet_hareket: 75,
-    uhuvvet_sefkat: 80,
-    public_interest: 70
-  });
+  assert.doesNotMatch(researchPage, /mihenk-editorial-lens|MİHENK KONTROLÜ/);
+  assert.doesNotMatch(homepage, /MİHENK|kendi mihenginde/);
 });
 
 test('her yayın sayfasının kodla uygulanan bir konu sınırı vardır', () => {

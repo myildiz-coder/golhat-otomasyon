@@ -36,14 +36,6 @@ function rawStory(overrides = {}) {
     tag: 'Gelişme',
     published_at: '2026-09-02T07:30:00.000Z',
     importance: 88,
-    editorial_review: {
-      tahkik: { score: 94, note: 'Resmî açıklama bağımsız haber kaynağıyla karşılaştırıldı ve yalnız kesişen olgular metne alındı.' },
-      adalet: { score: 91, note: 'Kulübün açıklaması ile bağımsız kaynağın aktardığı bilgiler eşit görünürlükte ve atıflı biçimde sunuldu.' },
-      musbet_hareket: { score: 88, note: 'Manşet hakaret veya tahrik içermiyor; gelişmenin sonucu ölçülü ve çözüm odaklı bir dille anlatılıyor.' },
-      uhuvvet_sefkat: { score: 90, note: 'Rakip camiaları hedef göstermeyen ve kişilerin haysiyetini koruyan bir haber dili kullanıldı.' },
-      public_interest: { score: 86, note: 'Gelişme kulübün sportif kararlarını ve taraftarın doğrulanmış bilgi ihtiyacını doğrudan ilgilendiriyor.' },
-      news_comment_separated: true
-    },
     sources: [
       {
         title: 'Kulüpten gelişmeyle ilgili resmi açıklama',
@@ -154,27 +146,6 @@ test('haber yalnızca gerçek arama URLleri ve iki alan adıyla kabul edilir', (
   assert.equal(story.sources.length, 2);
   assert.equal(story.page, 'fenerbahce.html');
   assert.match(story.id, /^[a-f0-9]{16}$/);
-  assert.equal(story.editorialReview.tahkik.score, 94);
-  assert.equal(story.editorialReview.newsCommentSeparated, true);
-});
-
-test('GOLHAT–MİHENK yayın kapısı düşük ölçülü veya haber-yorum ayrımı yapılmamış içeriği reddeder', () => {
-  assert.throws(
-    () => validStory({ editorial_review: { ...rawStory().editorial_review, tahkik: { score: 84, note: 'Kaynaklar kısmen karşılaştırıldı ancak birincil açıklamadaki bütün ayrıntılar bağımsız doğrulanamadı.' } } }),
-    /Tahkik puanı 85 eşiğinin altında/
-  );
-  assert.throws(
-    () => validStory({ editorial_review: { ...rawStory().editorial_review, news_comment_separated: false } }),
-    /haber ile yorum ayrılmadan/
-  );
-});
-
-test('kalıcı haber sayfası geçen içeriğin GOLHAT yayın süzgecini okura gösterir', () => {
-  const html = buildStoryPageHtml(validStory(), NOW);
-  assert.match(html, /GOLHAT yayın süzgeci/);
-  assert.match(html, /Tahkik:/);
-  assert.match(html, /Müsbet hareket:/);
-  assert.match(html, /Kamu yararı:/);
 });
 
 test('arama sonuçlarında görülmeyen URL reddedilir', () => {
