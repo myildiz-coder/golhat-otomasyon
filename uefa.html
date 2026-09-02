@@ -12,6 +12,7 @@
 <title>UEFA Avrupa Ligi &amp; Konferans Ligi — GOLHAT</title>
 <meta name="description" content="UEFA Avrupa Ligi ve Konferans Ligi 2026-27 sezonu kura, fikstür ve gelişmeleri.">
 <link rel="canonical" href="https://golhat.com/uefa.html">
+<link rel="stylesheet" href="/styles/uefa-standings.css">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GOLHAT">
@@ -882,10 +883,135 @@
 <main class="wrap">
   <section class="page-hero">
     <span class="section-label">UEFA Kupaları</span>
-    <h1>UEFA Avrupa Ligi &amp;amp; Konferans Ligi</h1>
+    <h1>UEFA Avrupa Ligi &amp; Konferans Ligi</h1>
     <p>Beşiktaş ve Trabzonspor'un rakipleri dahil, UEFA kupalarından kaynaklı gelişmeler.</p>
   </section>
 
+  <section class="uefa-standings-hub" aria-label="Avrupa kupaları puan cetvelleri">
+    <div class="uefa-tabs" role="tablist" aria-label="UEFA kupası seçimi">
+      <button class="uefa-tab" type="button" role="tab"
+        id="uefa-tab-europa"
+        data-uefa-tab="europa" aria-selected="true"
+        aria-controls="europa-table-panel">
+        Avrupa Ligi
+      </button>
+      <button class="uefa-tab" type="button" role="tab"
+        id="uefa-tab-conference"
+        data-uefa-tab="conference" aria-selected="false"
+        aria-controls="conference-table-panel">
+        Konferans Ligi
+      </button>
+
+    </div>
+
+    <article class="uefa-standings uefa-panel"
+      id="europa-table-panel" role="tabpanel"
+      data-uefa-panel="europa"
+      aria-labelledby="uefa-tab-europa">
+      <header class="uefa-standings-intro">
+        <div>
+          <h2 id="uefa-tables-title">Avrupa Ligi Puan Cetveli</h2>
+          <p>36 takımlı lig aşaması; Beşiktaş satırı ayrıca vurgulanır.</p>
+
+        </div>
+        <span class="uefa-season">
+          UEFA <span data-uefa-season>2026/27</span>
+        </span>
+      </header>
+      <div class="uefa-table-wrap" tabindex="0">
+        <table class="uefa-table" data-uefa-table="europa">
+          <caption class="visually-hidden">
+            UEFA Avrupa Ligi puan cetveli
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Takım</th>
+              <th scope="col">O</th>
+              <th class="optional" scope="col">G</th>
+              <th class="optional" scope="col">B</th>
+              <th class="optional" scope="col">M</th>
+              <th class="optional" scope="col">AG</th>
+              <th class="optional" scope="col">YG</th>
+              <th scope="col">AV</th>
+              <th scope="col">P</th>
+            </tr>
+          </thead>
+          <tbody data-uefa-body>
+            <tr class="uefa-loading">
+              <td colspan="10">UEFA puan cetveli yükleniyor…</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <footer class="uefa-standings-foot">
+        <div class="uefa-legend" aria-label="Sıralama bölgeleri">
+          <span><i class="direct"></i>1–8: Son 16</span>
+          <span><i class="playoff"></i>9–24: Play-off</span>
+          <span><i></i>25–36: Elenir</span>
+        </div>
+        <span>
+          Son veri: <b data-uefa-updated>—</b> ·
+          <a href="https://www.uefa.com/uefaeuropaleague/standings/"
+            target="_blank" rel="noopener">Kaynak: UEFA</a>
+        </span>
+      </footer>
+    </article>
+
+    <article class="uefa-standings uefa-panel"
+      id="conference-table-panel" role="tabpanel"
+      data-uefa-panel="conference" hidden
+      aria-labelledby="uefa-tab-conference">
+      <header class="uefa-standings-intro">
+        <div>
+          <h2>Konferans Ligi Puan Cetveli</h2>
+          <p>36 takımlı lig aşaması; Trabzonspor satırı ayrıca vurgulanır.</p>
+        </div>
+        <span class="uefa-season">
+          UEFA <span data-uefa-season>2026/27</span>
+        </span>
+
+      </header>
+      <div class="uefa-table-wrap" tabindex="0">
+        <table class="uefa-table" data-uefa-table="conference">
+          <caption class="visually-hidden">
+            UEFA Konferans Ligi puan cetveli
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Takım</th>
+              <th scope="col">O</th>
+              <th class="optional" scope="col">G</th>
+              <th class="optional" scope="col">B</th>
+              <th class="optional" scope="col">M</th>
+              <th class="optional" scope="col">AG</th>
+              <th class="optional" scope="col">YG</th>
+              <th scope="col">AV</th>
+              <th scope="col">P</th>
+            </tr>
+          </thead>
+          <tbody data-uefa-body>
+            <tr class="uefa-loading">
+              <td colspan="10">UEFA puan cetveli yükleniyor…</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <footer class="uefa-standings-foot">
+        <div class="uefa-legend" aria-label="Sıralama bölgeleri">
+          <span><i class="direct"></i>1–8: Son 16</span>
+          <span><i class="playoff"></i>9–24: Play-off</span>
+          <span><i></i>25–36: Elenir</span>
+        </div>
+        <span>
+          Son veri: <b data-uefa-updated>—</b> ·
+          <a href="https://www.uefa.com/uefaconferenceleague/standings/"
+            target="_blank" rel="noopener">Kaynak: UEFA</a>
+        </span>
+      </footer>
+    </article>
+  </section>
   <section class="single-desk">
     <div class="desk-heading"><h2>UEFA Gündemi</h2><span class="desk-count mono">5 haber</span></div>
       <article class="dispatch">
@@ -971,6 +1097,7 @@
   </div>
 </footer>
 
+<script src="/scripts/uefa-standings-ui.js"></script>
 <script>
   (function(){
     function pad(n){ return String(n).padStart(2,'0'); }

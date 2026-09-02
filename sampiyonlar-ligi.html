@@ -12,6 +12,7 @@
 <title>Şampiyonlar Ligi — GOLHAT</title>
 <meta name="description" content="UEFA Şampiyonlar Ligi 2026-27 sezonu kura, fikstür ve gelişmeleri.">
 <link rel="canonical" href="https://golhat.com/sampiyonlar-ligi.html">
+<link rel="stylesheet" href="/styles/uefa-standings.css">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GOLHAT">
@@ -886,6 +887,55 @@
     <p>Fenerbahçe ve Galatasaray'ın rakipleri dahil, Şampiyonlar Ligi'nden kaynaklı gelişmeler.</p>
   </section>
 
+  <section class="uefa-standings" aria-labelledby="ucl-table-title">
+    <header class="uefa-standings-intro">
+      <div>
+        <h2 id="ucl-table-title">Lig Aşaması Puan Cetveli</h2>
+        <p>36 takımın tek lig sıralaması; Türk temsilcileri ayrıca vurgulanır.</p>
+      </div>
+      <span class="uefa-season">
+        UEFA <span data-uefa-season>2026/27</span>
+      </span>
+    </header>
+    <div class="uefa-table-wrap" tabindex="0">
+      <table class="uefa-table" data-uefa-table="champions">
+        <caption class="visually-hidden">
+          UEFA Şampiyonlar Ligi puan cetveli
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Takım</th>
+            <th scope="col">O</th>
+            <th class="optional" scope="col">G</th>
+            <th class="optional" scope="col">B</th>
+            <th class="optional" scope="col">M</th>
+            <th class="optional" scope="col">AG</th>
+            <th class="optional" scope="col">YG</th>
+            <th scope="col">AV</th>
+            <th scope="col">P</th>
+          </tr>
+        </thead>
+        <tbody data-uefa-body>
+          <tr class="uefa-loading">
+            <td colspan="10">UEFA puan cetveli yükleniyor…</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="uefa-standings-foot">
+      <div class="uefa-legend" aria-label="Sıralama bölgeleri">
+        <span><i class="direct"></i>1–8: Son 16</span>
+        <span><i class="playoff"></i>9–24: Play-off</span>
+        <span><i></i>25–36: Elenir</span>
+      </div>
+      <span>
+        Son veri: <b data-uefa-updated>—</b> ·
+        <a href="https://www.uefa.com/uefachampionsleague/standings/"
+          target="_blank" rel="noopener">Kaynak: UEFA</a>
+      </span>
+    </footer>
+  </section>
   <section class="single-desk">
     <div class="desk-heading"><h2>Şampiyonlar Ligi Gündemi</h2><span class="desk-count mono">6 haber</span></div>
       <article class="dispatch">
@@ -984,6 +1034,7 @@
   </div>
 </footer>
 
+<script src="/scripts/uefa-standings-ui.js"></script>
 <script>
   (function(){
     function pad(n){ return String(n).padStart(2,'0'); }

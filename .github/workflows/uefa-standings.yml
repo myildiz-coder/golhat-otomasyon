@@ -1,0 +1,49 @@
+name: UEFA Puan Cetvelleri
+
+on:
+  schedule:
+    # Istanbul saati: 01:15, 07:15, 13:15 ve 19:15
+    - cron: '15 4,10,16,22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+jobs:
+  update-uefa-standings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Veri donusturme testleri
+        run: npm test
+
+      - name: Uc UEFA puan cetvelini cek
+        run: node scripts/fetch-uefa-standings.js
+
+      - name: Degisiklik varsa commit et ve gonder
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-uefa-bot"
+          git config user.email "actions@github.com"
+          git add data/uefa-standings.json
+          if git diff --cached --quiet; then
+            echo "UEFA puan cetvellerinde degisiklik yok."
+            exit 0
+          fi
+          git commit -m "UEFA puan cetvelleri $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
