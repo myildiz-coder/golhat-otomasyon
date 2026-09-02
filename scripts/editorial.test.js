@@ -413,6 +413,8 @@ test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanın
   assert.match(html, /Kaynak zinciri/);
   assert.doesNotMatch(html, /<img\b/i);
   assert.match(buildSitemapXml([story], NOW), /https:\/\/golhat.com\/haber\//);
+  const misplaced = { ...story, id: '990f6014c7ebaaae', page: 'anadolu.html', headline: 'Trabzonspor’da Fatih Tekke dönemi sona erdi', summary: 'Trabzonspor teknik direktör değişikliğini KAP üzerinden duyurdu.' };
+  assert.doesNotMatch(buildSitemapXml([story, misplaced], NOW), new RegExp(storySlug(misplaced)));
 });
 
 test('yayındaki ana sayfada dört görünür manşet seçeneği vardır', () => {

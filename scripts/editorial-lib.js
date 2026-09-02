@@ -913,7 +913,8 @@ function writeStoryPage(story, now = new Date()) {
 
 function buildSitemapXml(stories, now = new Date()) {
   const entries = [''].concat(Object.keys(PAGE_LABELS)).map((page, index) => ({ url: 'https://golhat.com/' + page, lastmod: now.toISOString().slice(0, 10), frequency: index ? 'daily' : 'hourly', priority: index ? '0.8' : '1.0' }));
-  for (const story of stories) entries.push({ url: 'https://golhat.com' + storyUrl(story), lastmod: new Date(story.discoveredAt || story.publishedAt).toISOString().slice(0, 10), frequency: 'weekly', priority: ['dossier', 'exclusive'].includes(story.contentType) ? '0.9' : '0.7' });
+  const publishable = (stories || []).filter((story) => storyMatchesPage(story.page, story.headline, story.summary)).slice(0, 120);
+  for (const story of publishable) entries.push({ url: 'https://golhat.com' + storyUrl(story), lastmod: new Date(story.discoveredAt || story.publishedAt).toISOString().slice(0, 10), frequency: 'weekly', priority: ['dossier', 'exclusive'].includes(story.contentType) ? '0.9' : '0.7' });
   return ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', ...entries.map((entry) => '  <url><loc>' + htmlEscape(entry.url) + '</loc><lastmod>' + entry.lastmod + '</lastmod><changefreq>' + entry.frequency + '</changefreq><priority>' + entry.priority + '</priority></url>'), '</urlset>', ''].join('\n');
 }
 
