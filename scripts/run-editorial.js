@@ -279,6 +279,22 @@ function istanbulDay(value) {
 }
 
 async function runHeadEditor(state, options, apiKey, model, now) {
+  const currentStory = state.stories.find((story) => story.id === state.homepage.storyId) || null;
+  const lastPublishedChange = [...state.homepage.changes]
+    .reverse()
+    .find((change) => change.storyId === currentStory?.id);
+
+  if (currentStory && !options.dryRun) {
+    const repairTime = new Date(
+      lastPublishedChange?.at || currentStory.discoveredAt || currentStory.publishedAt
+    );
+    if (writeHomepage(currentStory, repairTime)) {
+      console.log('[Baş Editör] ana sayfa bütünlüğü otomatik onarıldı');
+    } else {
+      console.log('[Baş Editör] ana sayfa bütünlüğü doğrulandı');
+    }
+  }
+
   const today = istanbulDay(now);
   const todayChanges = state.homepage.changes.filter((change) => istanbulDay(change.at) === today);
   if (todayChanges.length >= HOMEPAGE_MAX_DAILY_CHANGES) {
@@ -287,7 +303,6 @@ async function runHeadEditor(state, options, apiKey, model, now) {
   }
 
   const recentThreshold = now.getTime() - 36 * 3_600_000;
-  const currentStory = state.stories.find((story) => story.id === state.homepage.storyId) || null;
   let candidates = state.stories.filter((story) =>
     story.id !== state.homepage.storyId &&
     story.importance >= HOMEPAGE_MIN_IMPORTANCE &&

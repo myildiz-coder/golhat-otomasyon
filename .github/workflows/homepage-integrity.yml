@@ -1,0 +1,49 @@
+name: GOLHAT Ana Sayfa Bütünlük
+
+on:
+  schedule:
+    # Manşet dosyasını günün her saati 15 dakikada bir doğrula.
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+jobs:
+  homepage-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ana sayfa bütünlük testleri
+        run: node --test scripts/editorial.test.js
+
+      - name: Manşet dosyasını doğrula ve gerekirse onar
+        run: node scripts/check-homepage.js
+
+      - name: Onarım varsa commit et ve gönder
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-homepage-guard"
+          git config user.email "actions@github.com"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "Ana sayfa bütünlüğü sağlam."
+            exit 0
+          fi
+          git commit -m "Ana sayfa bütünlük onarımı $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

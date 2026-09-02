@@ -10,7 +10,8 @@ const {
   urlSignature,
   validateStory,
   buildCategoryHtml,
-  buildHomepageHtml
+  buildHomepageHtml,
+  assertHomepageIntegrity
 } = require('./editorial-lib');
 
 const NOW = new Date('2026-09-02T09:00:00.000Z');
@@ -134,12 +135,25 @@ test('kategori HTMLi yalnızca otomasyon bloğu ekler ve fotoğraf üretmez', ()
   assert.match(output, /https:\/\/www\.reuters\.com\/sports\/guncel-dosya/);
 });
 
-test('ana sayfa tipografik, kaynaklı ve güvenli manşete dönüşür', () => {
+test('ana sayfa manşet dosyasının bütününü aynı haberle atomik yeniler', () => {
   const html = [
     '<body>',
+    '<header class="masthead"></header>',
+    '<div class="ticker" id="ticker"></div>',
+    '<main class="wrap">',
     '  <section class="frontpage" id="dosya">',
     '    <h2 class="frontpage-headline">ESKİ MANŞET</h2>',
     '  </section>',
+    '  <section class="breakdown" id="kirilma-ani">',
+    '    <p>ESKİ ANALİZ</p>',
+    '  </section>',
+    '  <section class="voices-wrap">',
+    '    <p>ESKİ KAYNAK VE KARAR</p>',
+    '  </section>',
+    '  <section class="transferline"></section>',
+    '  <section class="desks"></section>',
+    '  <section class="brand-manifesto"></section>',
+    '</main>',
     '<script>',
     "const ticker = [{ cat:'SON DAKİKA', urgent:true, text:'Eski haber' }];",
     '</script>',
@@ -151,13 +165,33 @@ test('ana sayfa tipografik, kaynaklı ve güvenli manşete dönüşür', () => {
   });
   const output = buildHomepageHtml(html, story, NOW);
 
-  assert.match(output, /data-auto-story-id=/);
+  assert.equal(
+    (output.match(new RegExp('data-auto-story-id="' + story.id + '"', 'g')) || []).length,
+    3
+  );
   assert.match(output, /&lt;KRİTİK&gt;/);
   assert.match(output, /Orijinal Kaynaklar/);
+  assert.match(output, /Manşet Dosyasının Kırılma Noktaları/);
+  assert.match(output, /Kaynaklar Ne Diyor\?/);
+  assert.match(output, /GOLHAT’IN SÖZÜ/);
+  assert.match(output, new RegExp("storyId:'" + story.id + "'"));
   assert.match(output, /Bu bir fotoğraf değildir/);
   assert.doesNotMatch(output, /<img\b/i);
-  assert.doesNotMatch(output, /ESKİ MANŞET/);
+  assert.doesNotMatch(output, /ESKİ MANŞET|ESKİ ANALİZ|ESKİ KAYNAK VE KARAR/);
   assert.match(output, /Fenerbahçe\\'nin <kritik> dosyasında doğrulanmış gelişme/);
+  assert.equal(assertHomepageIntegrity(output, story), true);
+
+  const broken = output.replace(
+    'class="breakdown" id="kirilma-ani" data-auto-story-id="' + story.id + '"',
+    'class="breakdown" id="kirilma-ani" data-auto-story-id="başka-haber"'
+  );
+  assert.throws(() => assertHomepageIntegrity(broken, story), /analiz farklı habere bağlı/);
+  assert.equal(buildHomepageHtml(output, story, NOW), output);
+  const missingTransferLine = output.replace('class="transferline"', 'class="missing-transferline"');
+  assert.throws(
+    () => assertHomepageIntegrity(missingTransferLine, story),
+    /transfer hattı bölümü 0 kez bulundu/
+  );
 });
 
 test('özel sayfa yapısı korunarak ayrı otomasyon bölümü eklenir', () => {

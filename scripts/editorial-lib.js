@@ -436,6 +436,137 @@ function buildCategoryHtml(html, page, stories, now) {
   return updated;
 }
 
+function publisherInitials(publisher) {
+  const words = String(publisher || '')
+    .split(/[\s/.-]+/u)
+    .map((word) => word.trim())
+    .filter(Boolean);
+  const initials = words.slice(0, 2).map((word) => word[0]).join('');
+  return (initials || 'GH').toLocaleUpperCase('tr-TR');
+}
+
+function renderHomepageBreakdown(story) {
+  const firstSource = story.sources[0];
+  const secondSource = story.sources[1] || firstSource;
+  const thirdSource = story.sources[2] || secondSource;
+  const sourceNames = story.sources.map((source) => source.publisher).join(', ');
+
+  return [
+    '  <section class="breakdown" id="kirilma-ani" data-auto-story-id="' + htmlEscape(story.id) + '">',
+    '    <div class="section-label">Manşet Dosyasının Kırılma Noktaları</div>',
+    '    <div class="breakdown-grid">',
+    '      <div class="breakdown-item">',
+    '        <h3>Ne oldu?</h3>',
+    '        <p>' + htmlEscape(story.summary) + '</p>',
+    '        <a href="' + htmlEscape(firstSource.url) + '" target="_blank" rel="noopener">Kaynak: ' + htmlEscape(firstSource.publisher) + ' →</a>',
+    '      </div>',
+    '      <div class="breakdown-item">',
+    '        <h3>Nasıl doğrulandı?</h3>',
+    '        <p>Dosya, ' + story.sources.length + ' bağımsız alan adındaki yayın karşılaştırılarak hazırlandı. Çapraz doğrulamada kullanılan kaynaklar: ' + htmlEscape(sourceNames) + '.</p>',
+    '        <a href="' + htmlEscape(secondSource.url) + '" target="_blank" rel="noopener">İkinci kaynağı aç →</a>',
+    '      </div>',
+    '      <div class="breakdown-item">',
+    '        <h3>Neden manşette?</h3>',
+    '        <p>Baş Editör bu gelişmeye 100 üzerinden ' + story.importance + ' önem puanı verdi. Yayın durumu “' + htmlEscape(story.tag) + '”; doğrulanmayan ayrıntılar dosyaya eklenmedi.</p>',
+    '        <a href="' + htmlEscape(thirdSource.url) + '" target="_blank" rel="noopener">Doğrulama kaynağı →</a>',
+    '      </div>',
+    '    </div>',
+    '  </section>'
+  ].join('\n');
+}
+
+function renderHomepageSources(story) {
+  const cards = story.sources.slice(0, 3).map((source) => [
+    '      <article class="voice-card source-card">',
+    '        <div class="voice-who">',
+    '          <span class="voice-avatar" aria-hidden="true">' + htmlEscape(publisherInitials(source.publisher)) + '</span>',
+    '          <div class="voice-id">',
+    '            <span class="voice-name">' + htmlEscape(source.publisher) + '</span>',
+    '            <span class="voice-role">Bağımsız doğrulama kaynağı</span>',
+    '          </div>',
+    '        </div>',
+    '        <p class="voice-quote">' + htmlEscape(source.title) + '</p>',
+    '        <p class="voice-context">Kaynak yayını · ' + htmlEscape(formatIstanbulDate(source.publishedAt)) + '</p>',
+    '        <a class="voice-source" href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">Orijinal haberi aç →</a>',
+    '      </article>'
+  ].join('\n')).join('\n');
+  const sourceNames = story.sources.map((source) => source.publisher).join(' · ');
+
+  return [
+    '  <section class="voices-wrap" data-auto-story-id="' + htmlEscape(story.id) + '">',
+    '    <div class="section-label">Kaynaklar Ne Diyor?</div>',
+    '    <div class="voices">',
+    cards,
+    '    </div>',
+    '    <p class="foot-mono voices-note">Bu kartlar kişi alıntısı değildir; doğrulamada kullanılan yayınların özgün haber başlıklarıdır. Kaynaklar: ' + htmlEscape(sourceNames) + '.</p>',
+    '',
+    '    <div class="verdict">',
+    '      <div class="section-label"><b>GOLHAT’IN SÖZÜ</b> · EDİTORYAL KARAR</div>',
+    '      <p class="verdict-disclaimer mono">Bu değerlendirme yalnızca yukarıdaki doğrulanmış haber kaydı ve kaynak kümesine dayanır.</p>',
+    '      <p class="verdict-text">Bu gelişme ' + story.importance + '/100 önem puanıyla ana sayfa dosyası seçildi ve “' + htmlEscape(story.tag) + '” statüsüyle yayımlandı. Karar ' + story.sources.length + ' bağımsız kaynağın kesişen bilgisine dayanıyor; kaynakların ortak doğrulamadığı ayrıntılar manşete dahil edilmedi. Yeni doğrulama geldiğinde manşet, analiz ve kaynak bölümleri birlikte yenilenir.</p>',
+    '    </div>',
+    '  </section>'
+  ].join('\n');
+}
+
+function assertHomepageIntegrity(html, story) {
+  const expected = String(story.id);
+  const requiredStructure = [
+    { name: 'site başlığı', pattern: /<header class="masthead"/g },
+    { name: 'son dakika şeridi', pattern: /<div class="ticker" id="ticker"/g },
+    { name: 'ana içerik', pattern: /<main class="wrap"/g },
+    { name: 'manşet dosyası', pattern: /<section class="frontpage"/g },
+    { name: 'manşet analizi', pattern: /<section class="breakdown"/g },
+    { name: 'kaynak ve karar', pattern: /<section class="voices-wrap"/g },
+    { name: 'transfer hattı', pattern: /<section class="transferline"/g },
+    { name: 'haber masaları', pattern: /<section class="desks"/g },
+    { name: 'yayın yaklaşımı', pattern: /<section class="brand-manifesto"/g },
+    { name: 'sayfa altı', pattern: /<footer(?:\s|>)/g }
+  ];
+
+  for (const region of requiredStructure) {
+    const count = (html.match(region.pattern) || []).length;
+    if (count !== 1) {
+      throw new Error(
+        'Ana sayfa yapı hatası: ' + region.name + ' bölümü ' + count + ' kez bulundu'
+      );
+    }
+  }
+
+  const regions = [
+    {
+      name: 'manşet',
+      pattern: /<section class="frontpage" id="dosya"[^>]*data-auto-story-id="([^"]+)"/
+    },
+    {
+      name: 'analiz',
+      pattern: /<section class="breakdown" id="kirilma-ani"[^>]*data-auto-story-id="([^"]+)"/
+    },
+    {
+      name: 'kaynak ve karar',
+      pattern: /<section class="voices-wrap"[^>]*data-auto-story-id="([^"]+)"/
+    }
+  ];
+
+  for (const region of regions) {
+    const match = html.match(region.pattern);
+    if (!match) throw new Error('Ana sayfa bütünlük hatası: ' + region.name + ' haber kimliği eksik');
+    if (match[1] !== expected) {
+      throw new Error('Ana sayfa bütünlük hatası: ' + region.name + ' farklı habere bağlı');
+    }
+  }
+
+  const tickerPattern = new RegExp(
+    "\\{ cat:'SON DAKİKA', urgent:true, storyId:'" +
+    escapeRegExp(expected) +
+    "', text:'(?:\\\\.|[^'])*' \\}"
+  );
+  if (!tickerPattern.test(html)) {
+    throw new Error('Ana sayfa bütünlük hatası: son dakika şeridi farklı habere bağlı');
+  }
+  return true;
+}
+
 function buildHomepageHtml(html, story, now) {
   const pageLabel = PAGE_LABELS[story.page] || story.page;
   const sourceLinks = story.sources.slice(0, 3).map((source) => [
@@ -486,12 +617,25 @@ function buildHomepageHtml(html, story, now) {
     '    </div>',
     '  </section>'
   ].join('\n');
+  const breakdown = renderHomepageBreakdown(story);
+  const sourcesAndVerdict = renderHomepageSources(story);
 
   const heroPattern = /  <section class="frontpage" id="dosya"(?:\s+[^>]*)?>[\s\S]*?  <\/section>/;
   if (!heroPattern.test(html)) throw new Error('index.html içinde frontpage bölümü bulunamadı');
+  const breakdownPattern = /  <section class="breakdown" id="kirilma-ani"(?:\s+[^>]*)?>[\s\S]*?  <\/section>/;
+  if (!breakdownPattern.test(html)) {
+    throw new Error('index.html içinde manşet analiz bölümü bulunamadı');
+  }
+  const sourcesPattern = /  <section class="voices-wrap"(?:\s+[^>]*)?>[\s\S]*?  <\/section>/;
+  if (!sourcesPattern.test(html)) {
+    throw new Error('index.html içinde manşet kaynak ve karar bölümü bulunamadı');
+  }
 
-  let updated = html.replace(heroPattern, hero);
-  const tickerPattern = /\{ cat:'SON DAKİKA', urgent:true, text:'(?:\\.|[^'])*' \}/;
+  let updated = html
+    .replace(heroPattern, hero)
+    .replace(breakdownPattern, breakdown)
+    .replace(sourcesPattern, sourcesAndVerdict);
+  const tickerPattern = /\{ cat:'SON DAKİKA', urgent:true,(?: storyId:'[^']*',)? text:'(?:\\.|[^'])*' \}/;
   const tickerText = story.headline
     .replaceAll('\\', '\\\\')
     .replaceAll("'", "\\'")
@@ -501,7 +645,7 @@ function buildHomepageHtml(html, story, now) {
   if (tickerPattern.test(updated)) {
     updated = updated.replace(
       tickerPattern,
-      "{ cat:'SON DAKİKA', urgent:true, text:'" + tickerText + "' }"
+      "{ cat:'SON DAKİKA', urgent:true, storyId:'" + story.id + "', text:'" + tickerText + "' }"
     );
   }
 
@@ -510,6 +654,7 @@ function buildHomepageHtml(html, story, now) {
     'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(now)) + '</span>'
   );
 
+  assertHomepageIntegrity(updated, story);
   return updated;
 }
 
@@ -589,6 +734,7 @@ module.exports = {
   htmlEscape,
   stripHtml,
   normalizeHeadline,
+  assertHomepageIntegrity,
   canonicalUrl,
   urlSignature,
   sourceDomain,

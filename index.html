@@ -207,6 +207,8 @@
   .voice-quote{ margin:0; font-size:1.02rem; font-style:italic; }
   .voice-quote::before{ content:"\201C"; }
   .voice-quote::after{ content:"\201D"; }
+  .source-card .voice-quote{ font-style:normal; font-weight:700; }
+  .source-card .voice-quote::before, .source-card .voice-quote::after{ content:none; }
   .voice-context{ margin-top:8px; font-size:0.9rem; color:var(--muted); font-style:normal; }
   .voice-source{ display:inline-block; margin-top:10px; font-family:'IBM Plex Mono',monospace; font-size:0.7rem; text-decoration:none; color:var(--turf-dark); border-bottom:1px solid currentColor; }
   .voices-note{ margin-top:14px; }
@@ -956,76 +958,63 @@
     </div>
   </section>
 
-  <!-- ============ 5. MAÇIN KIRILMA ANI ============ -->
-  <section class="breakdown" id="kirilma-ani">
-    <div class="section-label">Dosyanın Kırılma Noktası</div>
+  <!-- ============ 5. MANŞET DOSYASI ANALİZİ ============ -->
+  <section class="breakdown" id="kirilma-ani" data-auto-story-id="f5444451d8d50cf9">
+    <div class="section-label">Manşet Dosyasının Kırılma Noktaları</div>
     <div class="breakdown-grid">
       <div class="breakdown-item">
         <h3>Ne oldu?</h3>
-        <p>Galatasaray, AC Milan'dan Rafael Leão'yu 38 milyon euro sabit bedelle kadrosuna kattı; transfer 30 Ağustos'ta KAP'a bildirildi. İki gün sonra Porto'dan Deniz Gül'ün 11 milyon euroluk (10M&euro; bonservis + 1M&euro; bonus) transferi de resmen açıklandı.</p>
-        <a href="https://www.hurriyet.com.tr/sporarena/galatasaray-rafael-leaonun-maliyetini-kapa-bildirdi-43289966" target="_blank" rel="noopener">Kaynak: Hürriyet &rarr;</a>
+        <p>Manchester City, Chelsea&#39;nin Arjantinli orta saha oyuncusu Enzo Fernandez&#39;i 125 milyon sterlin karşılığında kadrosuna kattı. Beş yıllık sözleşme imzalayan Fernandez&#39;in transferi, Premier Lig tarihindeki en yüksek bedelli operasyonlardan biri olarak kayda geçti.</p>
+        <a href="https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/01/manchester-city-contrata-enzo-fernandez-agora-ex-chelsea-por-r-870-milhoes.ghtml" target="_blank" rel="noopener">Kaynak: ge.globo →</a>
       </div>
       <div class="breakdown-item">
-        <h3>Neden önemli?</h3>
-        <p>Başkan Dursun Özbek, imza töreni sonrası yaptığı açıklamada "Galatasaray'a güç katacak, Şampiyonlar Ligi'nde büyük etkisi olacağını düşünüyorum" dedi. 38 milyon euroluk bedel, kulübün bu transfer döneminde yaptığı en yüksek maliyetli imza oldu.</p>
-        <a href="https://www.aspor.com.tr/galatasaray/2026/08/30/dursun-ozbekten-leao-aciklamasi-haziran-ayindan-bu-yana" target="_blank" rel="noopener">Kaynak: A Spor &rarr;</a>
+        <h3>Nasıl doğrulandı?</h3>
+        <p>Dosya, 2 bağımsız alan adındaki yayın karşılaştırılarak hazırlandı. Çapraz doğrulamada kullanılan kaynaklar: ge.globo, Reuters/Yahoo Sports.</p>
+        <a href="https://ca.sports.yahoo.com/news/enzo-fernandez-leaves-chelsea-man-223713535.html" target="_blank" rel="noopener">İkinci kaynağı aç →</a>
       </div>
       <div class="breakdown-item">
-        <h3>Sonuca etkisi neydi?</h3>
-        <p>Deniz Gül, 1 Eylül'de İstanbul'a gelerek "Çocukluk hayalim bugün gerçek oluyor" dedi. Transferle Galatasaray, Mauro Icardi'nin ayrılığıyla boşalan santrfor hattını güçlendirmiş oldu.</p>
-        <a href="https://www.hurriyet.com.tr/sporarena/deniz-gul-galatasaray-icin-istanbulda-43292082" target="_blank" rel="noopener">Kaynak: Hürriyet &rarr;</a>
+        <h3>Neden manşette?</h3>
+        <p>Baş Editör bu gelişmeye 100 üzerinden 90 önem puanı verdi. Yayın durumu “Kesinleşti”; doğrulanmayan ayrıntılar dosyaya eklenmedi.</p>
+        <a href="https://ca.sports.yahoo.com/news/enzo-fernandez-leaves-chelsea-man-223713535.html" target="_blank" rel="noopener">Doğrulama kaynağı →</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 6. TARAFLAR NE DEDİ? ============ -->
-  <section class="voices-wrap">
-    <div class="section-label">Taraflar Ne Dedi?</div>
+  <!-- ============ 6. MANŞET KAYNAKLARI VE KARAR ============ -->
+  <section class="voices-wrap" data-auto-story-id="f5444451d8d50cf9">
+    <div class="section-label">Kaynaklar Ne Diyor?</div>
     <div class="voices">
-      <div class="voice-card">
+      <article class="voice-card source-card">
         <div class="voice-who">
-          <span class="voice-avatar" aria-hidden="true">RL</span>
+          <span class="voice-avatar" aria-hidden="true">GG</span>
           <div class="voice-id">
-            <span class="voice-name">Rafael Leão</span>
-            <span class="voice-role">Forvet &middot; Galatasaray</span>
+            <span class="voice-name">ge.globo</span>
+            <span class="voice-role">Bağımsız doğrulama kaynağı</span>
           </div>
         </div>
-        <p class="voice-quote">G.Saray, hazirandan bu yana beni buraya getirmek için çok büyük bir efor harcıyor. Teşekkür ediyorum ilgileri için. G.Saray çok büyük bir kulüp. Şampiyon olmak için buradayım.</p>
-        <p class="voice-context">İmza töreni sonrası açıklama, 30 Ağustos 2026</p>
-        <a class="voice-source" href="https://www.fotomac.com.tr/galatasaray/2026/08/31/sampiyonluk-icin-geldim" target="_blank" rel="noopener">Kaynak: Fotomac &rarr;</a>
-      </div>
-      <div class="voice-card">
+        <p class="voice-quote">Manchester City anuncia a contratação de Enzo Fernández</p>
+        <p class="voice-context">Kaynak yayını · 02.09.2026</p>
+        <a class="voice-source" href="https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/01/manchester-city-contrata-enzo-fernandez-agora-ex-chelsea-por-r-870-milhoes.ghtml" target="_blank" rel="noopener">Orijinal haberi aç →</a>
+      </article>
+      <article class="voice-card source-card">
         <div class="voice-who">
-          <span class="voice-avatar" aria-hidden="true">DG</span>
+          <span class="voice-avatar" aria-hidden="true">RY</span>
           <div class="voice-id">
-            <span class="voice-name">Deniz Gül</span>
-            <span class="voice-role">Forvet &middot; Galatasaray</span>
+            <span class="voice-name">Reuters/Yahoo Sports</span>
+            <span class="voice-role">Bağımsız doğrulama kaynağı</span>
           </div>
         </div>
-        <p class="voice-quote">Çocukluk hayalim bugün gerçek oluyor. Bir an önce başlamak istiyorum. Taraftarımızın inanılmaz olduğunu biliyorum.</p>
-        <p class="voice-context">Havalimanı açıklaması, 1 Eylül 2026</p>
-        <a class="voice-source" href="https://www.hurriyet.com.tr/sporarena/deniz-gul-galatasaray-icin-istanbulda-43292082" target="_blank" rel="noopener">Kaynak: Hürriyet &rarr;</a>
-      </div>
-      <div class="voice-card">
-        <div class="voice-who">
-          <span class="voice-avatar" aria-hidden="true">DÖ</span>
-          <div class="voice-id">
-            <span class="voice-name">Dursun Özbek</span>
-            <span class="voice-role">Başkan &middot; Galatasaray</span>
-          </div>
-        </div>
-        <p class="voice-quote">Galatasaray'a güç katacak. Şampiyonlar Ligi'nde büyük etkisi olacağını düşünüyorum. Hoş geldin diyorum. İnşallah uzun yıllar Galatasaray'a hizmet edecek.</p>
-        <p class="voice-context">İmza töreni sonrası açıklama, 30 Ağustos 2026</p>
-        <a class="voice-source" href="https://www.aspor.com.tr/galatasaray/2026/08/30/dursun-ozbekten-leao-aciklamasi-haziran-ayindan-bu-yana" target="_blank" rel="noopener">Kaynak: A Spor &rarr;</a>
-      </div>
+        <p class="voice-quote">Enzo Fernandez Leaves Chelsea As Man City Transfer Fee &amp; Terms Revealed</p>
+        <p class="voice-context">Kaynak yayını · 02.09.2026</p>
+        <a class="voice-source" href="https://ca.sports.yahoo.com/news/enzo-fernandez-leaves-chelsea-man-223713535.html" target="_blank" rel="noopener">Orijinal haberi aç →</a>
+      </article>
     </div>
-    <p class="foot-mono voices-note">Not: Yukarıdaki üç alıntı da doğrudan olayın taraflarına (iki oyuncu ve kulüp başkanı) ait; bağımsız bir yorumcu görüşü bu bölümde henüz doğrulanmadı — bu yüzden bölüm başlığı "Yorumcular Ne Dedi?" değil "Taraflar Ne Dedi?". Portreler yerine baş harfi rozetleri kullanıyoruz: bu ortamda lisanslı editoryal fotoğraf erişimi yok, gerçek kişilerin yapay/uydurma görselini üretmiyoruz.</p>
+    <p class="foot-mono voices-note">Bu kartlar kişi alıntısı değildir; doğrulamada kullanılan yayınların özgün haber başlıklarıdır. Kaynaklar: ge.globo · Reuters/Yahoo Sports.</p>
 
-    <!-- ============ 7. GOLHAT'IN SÖZÜ ============ -->
     <div class="verdict">
-      <div class="section-label"><b>GOLHAT'IN SÖZÜ</b> &middot; EDİTORYAL ANALİZ</div>
-      <p class="verdict-disclaimer mono">Bu, yalnızca yukarıdaki açıklamalardan hareketle yapılan bir değerlendirmedir — doğrulanmış bilgi değil, GOLHAT'ın yorumudur.</p>
-      <p class="verdict-text">Rafael Leão ve Deniz Gül'ün aynı hafta içinde resmen KAP'a bildirilmesi, Galatasaray'ın transfer döneminin son haftasında en iddialı hamlelerini tamamladığını gösteriyor. Her iki transfer de resmi bildirimlerle doğrulanmış durumda &mdash; GOLHAT bunları "tamamlanmış transfer" olarak takip ediyor. Leão'nun sahadaki ilk performansı ve Deniz Gül'ün resmi imza töreni henüz gerçekleşmedi; bu gelişmeler netleştiğinde dosya güncellenecek.</p>
+      <div class="section-label"><b>GOLHAT’IN SÖZÜ</b> · EDİTORYAL KARAR</div>
+      <p class="verdict-disclaimer mono">Bu değerlendirme yalnızca yukarıdaki doğrulanmış haber kaydı ve kaynak kümesine dayanır.</p>
+      <p class="verdict-text">Bu gelişme 90/100 önem puanıyla ana sayfa dosyası seçildi ve “Kesinleşti” statüsüyle yayımlandı. Karar 2 bağımsız kaynağın kesişen bilgisine dayanıyor; kaynakların ortak doğrulamadığı ayrıntılar manşete dahil edilmedi. Yeni doğrulama geldiğinde manşet, analiz ve kaynak bölümleri birlikte yenilenir.</p>
     </div>
   </section>
 
@@ -1249,7 +1238,7 @@
     // öğelerin listelendiği, parmakla kaydırılan doğal bir liste. Tek veri kaynağından
     // (TICKER_ITEMS) ikisi de üretilir, böylece içerik hiçbir yerde tekrar yazılmaz.
     var TICKER_ITEMS = [
-      { cat:'SON DAKİKA', urgent:true, text:'Enzo Fernandez, Manchester City\'ye transfer oldu' },
+      { cat:'SON DAKİKA', urgent:true, storyId:'f5444451d8d50cf9', text:'Enzo Fernandez, Manchester City\'ye transfer oldu' },
       { cat:'SÜPER LİG', text:'Arsenal, Malick Fofana yarışında öne geçti' },
       { cat:'SÜPER LİG', text:'Real Madrid\'den Galatasaray\'ın Camavinga\'sına ret' },
       { cat:'SÜPER LİG', text:'Beşiktaş 3-1 Çorum FK, Amedspor 90. dakikada Trabzonspor\'u 2-1 devirdi' },
