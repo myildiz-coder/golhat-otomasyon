@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T09:18:17.888Z",
+  "updatedAt": "2026-09-02T10:10:30.630Z",
   "stories": [
     {
       "id": "be2c49979c59c534",
@@ -9,7 +9,7 @@
       "headline": "Galatasaray, El-Chadaille Bitshiabu için resmi görüşmelere başladı",
       "summary": "Galatasaray, RB Leipzig forması giyen 21 yaşındaki stoper El-Chadaille Bitshiabu’nun geçici transferi için futbolcu ve kulübüyle resmi görüşmelere başlandığını KAP’a bildirdi. Bitshiabu, sağlık kontrolleri ve resmi imza süreci için İstanbul’a geldi. Transfer henüz tamamlanmadı.",
       "tag": "Gelişme",
-      "importance": 8,
+      "importance": 80,
       "publishedAt": "2026-09-02T06:23:00.000Z",
       "discoveredAt": "2026-09-02T09:18:17.888Z",
       "sources": [
@@ -40,7 +40,7 @@
       "headline": "Enzo Fernandez, Manchester City'ye transfer oldu",
       "summary": "Manchester City, Chelsea'nin Arjantinli orta saha oyuncusu Enzo Fernandez'i 125 milyon sterlin karşılığında kadrosuna kattı. Beş yıllık sözleşme imzalayan Fernandez'in transferi, Premier Lig tarihindeki en yüksek bedelli operasyonlardan biri olarak kayda geçti.",
       "tag": "Kesinleşti",
-      "importance": 9,
+      "importance": 90,
       "publishedAt": "2026-09-01T21:30:00.000Z",
       "discoveredAt": "2026-09-02T09:18:17.888Z",
       "sources": [
@@ -65,7 +65,7 @@
       "headline": "Gabriel Jesus, Barcelona'nın yeni forveti oldu",
       "summary": "Barcelona, Arsenal'den Brezilyalı santrfor Gabriel Jesus'i üç sezonluğuna transfer etti. Kulübün resmi açıklamasına göre sözleşme 30 Haziran 2029'a kadar geçerli olacak; bağımsız AP haberi de transferi doğruladı.",
       "tag": "Kesinleşti",
-      "importance": 8,
+      "importance": 80,
       "publishedAt": "2026-09-01T12:45:00.000Z",
       "discoveredAt": "2026-09-02T09:18:17.888Z",
       "sources": [
@@ -85,7 +85,12 @@
     }
   ],
   "homepage": {
-    "storyId": null,
-    "changes": []
+    "storyId": "f5444451d8d50cf9",
+    "changes": [
+      {
+        "at": "2026-09-02T10:10:30.630Z",
+        "storyId": "f5444451d8d50cf9"
+      }
+    ]
   }
 }
