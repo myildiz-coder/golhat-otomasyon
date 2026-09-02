@@ -6,7 +6,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, MIHENK_EDITORIAL_LENS,
-  EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
+  GOLHAT_EDITORIAL_THRESHOLDS, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 test('depodaki her HTML sayfasının tek bir sorumlu editörü vardır', () => {
@@ -71,6 +71,13 @@ test('Mihenk bakışı bütün editörlerin uyguladığı ve okurun görebildiğ
   assert.match(researchPage, /id="mihenk-editorial-lens"/);
   assert.match(researchPage, /Tahkik · Adalet · Müsbet Hareket/);
   assert.match(homepage, /kendi mihenginde tartar/);
+  assert.deepEqual(GOLHAT_EDITORIAL_THRESHOLDS, {
+    tahkik: 85,
+    adalet: 80,
+    musbet_hareket: 75,
+    uhuvvet_sefkat: 80,
+    public_interest: 70
+  });
 });
 
 test('her yayın sayfasının kodla uygulanan bir konu sınırı vardır', () => {

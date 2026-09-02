@@ -7,6 +7,7 @@ const path = require('node:path');
 const {
   ALLOWED_TAGS,
   DOSSIER_MIN_SOURCES,
+  GOLHAT_EDITORIAL_THRESHOLDS,
   HOMEPAGE_SLOT_COUNT,
   MAX_STORIES_PER_PAGE,
   MAX_STORY_AGE_HOURS,
@@ -299,8 +300,33 @@ function validateStory(raw, context) {
   const limitations = String(raw.limitations || 'Mevcut açık kaynakların kapsamadığı ayrıntılar sonuç olarak sunulmadı.').trim();
   const rightOfReplyStatus = String(raw.right_of_reply_status || 'not_applicable').trim();
   const evidenceId = String(raw.golhat_evidence_id || '').trim();
+  const rawEditorialReview = raw.editorial_review;
+  if (!rawEditorialReview || typeof rawEditorialReview !== 'object' || Array.isArray(rawEditorialReview)) {
+    throw new Error('GOLHAT–MİHENK editoryal değerlendirmesi zorunlu');
+  }
+  const reviewLabels = {
+    tahkik: 'Tahkik',
+    adalet: 'Adalet',
+    musbet_hareket: 'Müsbet hareket',
+    uhuvvet_sefkat: 'Uhuvvet ve şefkat',
+    public_interest: 'Kamu yararı'
+  };
+  const editorialReview = {};
+  for (const [key, threshold] of Object.entries(GOLHAT_EDITORIAL_THRESHOLDS)) {
+    const criterion = rawEditorialReview[key];
+    const score = Number(criterion?.score);
+    const note = String(criterion?.note || '').trim();
+    if (!Number.isInteger(score) || score < 0 || score > 100) throw new Error(reviewLabels[key] + ' puanı 0-100 aralığında tam sayı olmalı');
+    if (note.length < 30 || note.length > 500) throw new Error(reviewLabels[key] + ' değerlendirmesi 30-500 karakter aralığında olmalı');
+    if (score < threshold) throw new Error('GOLHAT–MİHENK yayın kapısı: ' + reviewLabels[key] + ' puanı ' + threshold + ' eşiğinin altında');
+    editorialReview[key] = { score, note };
+  }
+  if (rawEditorialReview.news_comment_separated !== true) {
+    throw new Error('GOLHAT–MİHENK yayın kapısı: haber ile yorum ayrılmadan yayın yapılamaz');
+  }
+  editorialReview.newsCommentSeparated = true;
 
-  assertEditorialLanguage(headline, summary, seoTitle, seoDescription, originalAngle, methodology, limitations, ...keyFindings, ...originalFindings);
+  assertEditorialLanguage(headline, summary, seoTitle, seoDescription, originalAngle, methodology, limitations, ...keyFindings, ...originalFindings, ...Object.values(editorialReview).filter((value) => value && typeof value === 'object').map((value) => value.note));
   assertStoryPageRelevance(raw.page, headline, summary);
   if (headline.length < 20 || headline.length > 180) {
     throw new Error('Manşet uzunluğu 20-180 karakter aralığında olmalı');
@@ -423,6 +449,7 @@ function validateStory(raw, context) {
     limitations,
     rightOfReplyStatus,
     evidenceId,
+    editorialReview,
     publishedAt: publishedAt.toISOString(),
     discoveredAt: now.toISOString(),
     sources: uniqueSources
@@ -943,6 +970,9 @@ function buildStoryPageHtml(story, now = new Date()) {
   const findings = (story.keyFindings?.length ? story.keyFindings : [story.summary]).map((item) => '<li>' + htmlEscape(item) + '</li>').join('');
   const originalFindings = (story.originalFindings || []).map((item) => '<li>' + htmlEscape(item) + '</li>').join('');
   const originalContribution = originalFindings ? '<h2>GOLHAT’ın yeni bulguları</h2><ul class="findings original-findings">' + originalFindings + '</ul>' : '';
+  const editorialReviewLabels = { tahkik: 'Tahkik', adalet: 'Adalet', musbet_hareket: 'Müsbet hareket', uhuvvet_sefkat: 'Uhuvvet ve şefkat', public_interest: 'Kamu yararı' };
+  const editorialReviewItems = Object.entries(editorialReviewLabels).filter(([key]) => story.editorialReview?.[key]?.note).map(([key, label]) => '<li><b>' + htmlEscape(label) + ':</b> ' + htmlEscape(story.editorialReview[key].note) + '</li>').join('');
+  const editorialReviewSection = editorialReviewItems ? '<h2>GOLHAT yayın süzgeci</h2><p class="meta">Tahkik · Adalet · Müsbet hareket · Uhuvvet ve şefkat · Kamu yararı</p><ul class="findings editorial-review">' + editorialReviewItems + '</ul>' : '';
   const sourceRoleLabels = { primary_evidence: 'Birincil kanıt', independent_verification: 'Bağımsız doğrulama', context: 'Bağlam' };
   const sources = story.sources.map((source, index) => '<li><span>' + (index + 1) + '</span><div><a href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">' + htmlEscape(source.publisher) + ' →</a><p>' + htmlEscape(source.title) + '</p><small>' + htmlEscape(sourceRoleLabels[source.sourceRole] || 'Kaynak') + '</small></div></li>').join('');
   const methodology = story.methodology || 'Olgular en az iki bağımsız kaynaktan çapraz doğrulandı; ortak doğrulanmayan ayrıntılar sonuç olarak sunulmadı.';
@@ -951,7 +981,7 @@ function buildStoryPageHtml(story, now = new Date()) {
   const replyText = replyLabels[story.rightOfReplyStatus] || replyLabels.not_applicable;
   const typeLabel = story.contentType === 'exclusive' ? 'Özel Haber' : story.contentType === 'dossier' ? 'Araştırma Dosyası' : story.contentType === 'analysis' ? 'Analiz' : 'Doğrulanmış Haber';
   const css = `:root{--paper:#f1efe6;--ink:#101313;--night:#07100d;--red:#e21b2d;--line:rgba(16,19,19,.18)}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,serif;line-height:1.65}a{color:inherit}.wrap{width:min(980px,calc(100% - 32px));margin:auto}.top{background:var(--night);color:#fff;border-bottom:7px solid var(--red);padding:22px 0}.top .wrap{display:flex;justify-content:space-between;gap:18px;align-items:center}.brand{font:900 2rem/1 Impact,sans-serif;text-decoration:none}.brand span{color:var(--red)}nav{font:600 .72rem monospace;display:flex;gap:14px;flex-wrap:wrap}.article-head{padding:56px 0 30px;border-bottom:1px solid var(--line)}.kicker,.meta{font:600 .72rem monospace;letter-spacing:.08em;text-transform:uppercase}.kicker{color:var(--red)}h1{font:900 clamp(2.7rem,8vw,5.7rem)/.96 Impact,sans-serif;max-width:17ch;margin:15px 0}.standfirst{font-size:1.25rem;max-width:72ch}.meta{color:#626761}.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:42px;padding:36px 0 70px}h2{font:800 2rem/1.1 Impact,sans-serif;margin-top:36px}.angle{border-left:5px solid var(--red);padding:18px 22px;background:#fff}.findings{padding-left:22px}.findings li{margin:12px 0}.method{padding:18px;border:1px solid var(--line);font:.78rem/1.6 monospace}.sources{list-style:none;padding:0}.sources li{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}.sources span{font:700 .7rem monospace;color:var(--red)}.sources a{font-weight:700}.sources p{margin:4px 0;font-size:.9rem}.back{display:inline-block;margin-top:24px;font:600 .75rem monospace}@media(max-width:760px){.top .wrap{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.article-head{padding-top:34px}h1{font-size:clamp(2.5rem,13vw,4rem)}}`;
-  return ['<!DOCTYPE html><html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">', '<title>' + htmlEscape(title) + ' | GOLHAT</title>', '<meta name="description" content="' + htmlEscape(description) + '"><meta name="robots" content="index,follow,max-snippet:-1">', '<link rel="canonical" href="' + absoluteUrl + '"><meta property="og:type" content="article"><meta property="og:site_name" content="GOLHAT"><meta property="og:title" content="' + htmlEscape(title) + '"><meta property="og:description" content="' + htmlEscape(description) + '"><meta property="og:url" content="' + absoluteUrl + '"><meta property="og:image" content="https://golhat.com/og.png">', '<script type="application/ld+json">' + storyJsonLd(story, absoluteUrl, now) + '</script><style>' + css + '</style></head><body>', '<header class="top"><div class="wrap"><a class="brand" href="/">GOL<span>/</span>HAT</a><nav><a href="/">Ana Sayfa</a><a href="/ozel-haber.html">Araştırma Dosyaları</a><a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a></nav></div></header>', '<main class="wrap"><article><div class="article-head"><div class="kicker">' + htmlEscape(typeLabel) + ' · ' + htmlEscape(pageLabel) + '</div><h1>' + htmlEscape(story.headline) + '</h1><p class="standfirst">' + htmlEscape(story.summary) + '</p><p class="meta">GOLHAT Haber Merkezi · ' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + ' · ' + story.sources.length + ' bağımsız kaynak</p></div>', '<div class="grid"><div><h2>Dosyanın özgün açısı</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p>' + originalContribution + '<h2>Doğrulanan bulgular</h2><ul class="findings">' + findings + '</ul><h2>Ne anlama geliyor?</h2><p>' + htmlEscape(story.summary) + ' GOLHAT, kaynakların ortak doğrulamadığı ayrıntıları sonuç gibi sunmaz.</p><a class="back" href="/' + htmlEscape(story.page) + '">← ' + htmlEscape(pageLabel) + ' haber masasına dön</a></div>', '<aside><h2>Kaynak zinciri</h2><ol class="sources">' + sources + '</ol><p class="method"><b>Yöntem:</b> ' + htmlEscape(methodology) + '</p><p class="method"><b>Sınırlılıklar:</b> ' + htmlEscape(limitations) + '</p><p class="method"><b>Cevap hakkı:</b> ' + htmlEscape(replyText) + '</p><p class="method"><b>Etiket standardı:</b> Kaynak derlemesi özgün haber sayılmaz. “Özel Haber” yalnız insan muhabir kanıtı ve editör onayıyla kullanılır.</p></aside></div></article></main></body></html>', ''].join('\n');
+  return ['<!DOCTYPE html><html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">', '<title>' + htmlEscape(title) + ' | GOLHAT</title>', '<meta name="description" content="' + htmlEscape(description) + '"><meta name="robots" content="index,follow,max-snippet:-1">', '<link rel="canonical" href="' + absoluteUrl + '"><meta property="og:type" content="article"><meta property="og:site_name" content="GOLHAT"><meta property="og:title" content="' + htmlEscape(title) + '"><meta property="og:description" content="' + htmlEscape(description) + '"><meta property="og:url" content="' + absoluteUrl + '"><meta property="og:image" content="https://golhat.com/og.png">', '<script type="application/ld+json">' + storyJsonLd(story, absoluteUrl, now) + '</script><style>' + css + '</style></head><body>', '<header class="top"><div class="wrap"><a class="brand" href="/">GOL<span>/</span>HAT</a><nav><a href="/">Ana Sayfa</a><a href="/ozel-haber.html">Araştırma Dosyaları</a><a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a></nav></div></header>', '<main class="wrap"><article><div class="article-head"><div class="kicker">' + htmlEscape(typeLabel) + ' · ' + htmlEscape(pageLabel) + '</div><h1>' + htmlEscape(story.headline) + '</h1><p class="standfirst">' + htmlEscape(story.summary) + '</p><p class="meta">GOLHAT Haber Merkezi · ' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + ' · ' + story.sources.length + ' bağımsız kaynak</p></div>', '<div class="grid"><div><h2>Dosyanın özgün açısı</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p>' + originalContribution + '<h2>Doğrulanan bulgular</h2><ul class="findings">' + findings + '</ul>' + editorialReviewSection + '<h2>Ne anlama geliyor?</h2><p>' + htmlEscape(story.summary) + ' GOLHAT, kaynakların ortak doğrulamadığı ayrıntıları sonuç gibi sunmaz.</p><a class="back" href="/' + htmlEscape(story.page) + '">← ' + htmlEscape(pageLabel) + ' haber masasına dön</a></div>', '<aside><h2>Kaynak zinciri</h2><ol class="sources">' + sources + '</ol><p class="method"><b>Yöntem:</b> ' + htmlEscape(methodology) + '</p><p class="method"><b>Sınırlılıklar:</b> ' + htmlEscape(limitations) + '</p><p class="method"><b>Cevap hakkı:</b> ' + htmlEscape(replyText) + '</p><p class="method"><b>Etiket standardı:</b> Kaynak derlemesi özgün haber sayılmaz. “Özel Haber” yalnız insan muhabir kanıtı ve editör onayıyla kullanılır.</p></aside></div></article></main></body></html>', ''].join('\n');
 }
 
 function writeStoryPage(story, now = new Date()) {

@@ -7,6 +7,7 @@ const {
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   MIHENK_EDITORIAL_LENS,
+  GOLHAT_EDITORIAL_THRESHOLDS,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
@@ -47,7 +48,7 @@ const CATEGORY_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'sources'],
+        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'editorial_review', 'sources'],
         properties: {
           page: { type: 'string', enum: Object.keys(PAGE_LABELS) },
           headline: { type: 'string', minLength: 20, maxLength: 180 },
@@ -67,6 +68,19 @@ const CATEGORY_SCHEMA = {
           limitations: { type: 'string', maxLength: 700 },
           right_of_reply_status: { type: 'string', enum: ['not_applicable', 'response_in_sources', 'required_before_publish'] },
           golhat_evidence_id: { type: 'string', maxLength: 120 },
+          editorial_review: {
+            type: 'object',
+            additionalProperties: false,
+            required: ['tahkik', 'adalet', 'musbet_hareket', 'uhuvvet_sefkat', 'public_interest', 'news_comment_separated'],
+            properties: {
+              tahkik: { type: 'object', additionalProperties: false, required: ['score', 'note'], properties: { score: { type: 'integer', minimum: 0, maximum: 100 }, note: { type: 'string', minLength: 30, maxLength: 500 } } },
+              adalet: { type: 'object', additionalProperties: false, required: ['score', 'note'], properties: { score: { type: 'integer', minimum: 0, maximum: 100 }, note: { type: 'string', minLength: 30, maxLength: 500 } } },
+              musbet_hareket: { type: 'object', additionalProperties: false, required: ['score', 'note'], properties: { score: { type: 'integer', minimum: 0, maximum: 100 }, note: { type: 'string', minLength: 30, maxLength: 500 } } },
+              uhuvvet_sefkat: { type: 'object', additionalProperties: false, required: ['score', 'note'], properties: { score: { type: 'integer', minimum: 0, maximum: 100 }, note: { type: 'string', minLength: 30, maxLength: 500 } } },
+              public_interest: { type: 'object', additionalProperties: false, required: ['score', 'note'], properties: { score: { type: 'integer', minimum: 0, maximum: 100 }, note: { type: 'string', minLength: 30, maxLength: 500 } } },
+              news_comment_separated: { type: 'boolean' }
+            }
+          },
           sources: {
             type: 'array',
             minItems: 2,
@@ -174,6 +188,10 @@ function categoryRequest(role, now, model) {
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       ...researchBrief,
+      'Her haber için editorial_review alanını doldur. Her not somut olarak bu haberin metnine, kaynaklarına ve etkisine dayanmalı; genel slogan yazma.',
+      'Asgari yayın eşikleri: tahkik ' + GOLHAT_EDITORIAL_THRESHOLDS.tahkik + ', adalet ' + GOLHAT_EDITORIAL_THRESHOLDS.adalet + ', müsbet hareket ' + GOLHAT_EDITORIAL_THRESHOLDS.musbet_hareket + ', uhuvvet-şefkat ' + GOLHAT_EDITORIAL_THRESHOLDS.uhuvvet_sefkat + ', kamu yararı ' + GOLHAT_EDITORIAL_THRESHOLDS.public_interest + '.',
+      'Bir ölçü eşiğin altındaysa veya haber ile yorum ayrılmadıysa haberi iyileştir; düzeltilemiyorsa decision=no_change ve stories=[] döndür.',
+      'SEO optimizasyonu manşeti bulgunun ötesine taşıyamaz; anahtar kelime, tıklanma uğruna tahkik ve adalet ölçülerini düşüremez.',
       SOURCE_RULES,
       ...(role.researchTeam ? [GOLHAT_ORIGINAL_JOURNALISM_POLICY] : []),
       MIHENK_EDITORIAL_LENS,
@@ -212,7 +230,8 @@ function headRequest(candidates, currentStory, now, model) {
     importance: story.importance,
     publishedAt: story.publishedAt,
     page: story.page,
-    sourceDomains: story.sources.map((source) => new URL(source.url).hostname)
+    sourceDomains: story.sources.map((source) => new URL(source.url).hostname),
+    editorialScores: Object.fromEntries(Object.entries(story.editorialReview || {}).filter(([, value]) => value && typeof value === 'object' && Number.isInteger(value.score)).map(([key, value]) => [key, value.score]))
   }));
 
   return {
@@ -226,6 +245,7 @@ function headRequest(candidates, currentStory, now, model) {
       'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfanın 1 numaralı manşetine gerçekten değer taşıyan tek haberi seç. Diğer üç manşet sistem tarafından kaynak gücü ve çeşitliliğe göre tamamlanır.',
       'Yeni olgu, kaynak veya story_id üretme. Adaylar yeterince güçlü değilse no_change seç.',
       'Güncellik, kamu yararı, Türkiye futboluna etkisi ve kaynak gücünü birlikte değerlendir.',
+      'Adayların editorialScores değerlerini GOLHAT–MİHENK yayın kapısının sonucu olarak dikkate al; yüksek önem puanı düşük tahkik veya adaletin yerine geçmez.',
       'Kararı Türkçe ve kısa gerekçelendir.'
     ].join('\n'),
     input: JSON.stringify({

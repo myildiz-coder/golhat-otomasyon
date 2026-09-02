@@ -197,6 +197,14 @@ const EDITORIAL_POLICY = `
 - Millî yayın kimliği; skor, tarih, belge, alıntı veya karşıt kanıtı değiştirme gerekçesi değildir. Doğrulanmış olguları saklama, çarpıtma veya uydurma.
 - Kulüp rekabetinde eşit mesafeyi koru. Irk, etnik köken, din veya mezhep temelinde aşağılayıcı, dışlayıcı ya da düşmanlaştırıcı dil kullanma.
 `.trim();
+const GOLHAT_EDITORIAL_THRESHOLDS = Object.freeze({
+  tahkik: 85,
+  adalet: 80,
+  musbet_hareket: 75,
+  uhuvvet_sefkat: 80,
+  public_interest: 70
+});
+
 const DEFAULT_MODEL = 'gpt-5.6-luna';
 const MAX_STORIES_PER_RUN = 3;
 const MAX_STORIES_PER_PAGE = 8;
@@ -217,6 +225,7 @@ module.exports = {
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   MIHENK_EDITORIAL_LENS,
+  GOLHAT_EDITORIAL_THRESHOLDS,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
