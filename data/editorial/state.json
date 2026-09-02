@@ -1,7 +1,89 @@
 {
   "version": 1,
-  "updatedAt": null,
-  "stories": [],
+  "updatedAt": "2026-09-02T09:18:17.888Z",
+  "stories": [
+    {
+      "id": "be2c49979c59c534",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray, El-Chadaille Bitshiabu için resmi görüşmelere başladı",
+      "summary": "Galatasaray, RB Leipzig forması giyen 21 yaşındaki stoper El-Chadaille Bitshiabu’nun geçici transferi için futbolcu ve kulübüyle resmi görüşmelere başlandığını KAP’a bildirdi. Bitshiabu, sağlık kontrolleri ve resmi imza süreci için İstanbul’a geldi. Transfer henüz tamamlanmadı.",
+      "tag": "Gelişme",
+      "importance": 8,
+      "publishedAt": "2026-09-02T06:23:00.000Z",
+      "discoveredAt": "2026-09-02T09:18:17.888Z",
+      "sources": [
+        {
+          "title": "KAP bildirimleri: Galatasaray’da yeni transfer görüşmesi",
+          "publisher": "KAP",
+          "url": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
+          "publishedAt": "2026-09-02T06:02:00Z"
+        },
+        {
+          "title": "Galatasaray, El-Chadaille Bitshiabu'nun kiralık transferi için görüşmelere başlandığını açıkladı",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/galatasaray-el-chadaille-bitshiabunun-kiralik-2937510",
+          "publishedAt": "2026-09-02T09:23:00+03:00"
+        },
+        {
+          "title": "Galatasaray'ın yeni transferi İstanbul'a geldi! İşte ilk sözleri",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/galatasarayin-yeni-transferi-istanbula-geldi-iste-ilk-sozleri",
+          "publishedAt": "2026-09-02T05:32:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f5444451d8d50cf9",
+      "role": "avrupa_kupalari",
+      "page": "avrupa.html",
+      "headline": "Enzo Fernandez, Manchester City'ye transfer oldu",
+      "summary": "Manchester City, Chelsea'nin Arjantinli orta saha oyuncusu Enzo Fernandez'i 125 milyon sterlin karşılığında kadrosuna kattı. Beş yıllık sözleşme imzalayan Fernandez'in transferi, Premier Lig tarihindeki en yüksek bedelli operasyonlardan biri olarak kayda geçti.",
+      "tag": "Kesinleşti",
+      "importance": 9,
+      "publishedAt": "2026-09-01T21:30:00.000Z",
+      "discoveredAt": "2026-09-02T09:18:17.888Z",
+      "sources": [
+        {
+          "title": "Manchester City anuncia a contratação de Enzo Fernández",
+          "publisher": "ge.globo",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/01/manchester-city-contrata-enzo-fernandez-agora-ex-chelsea-por-r-870-milhoes.ghtml",
+          "publishedAt": "2026-09-01T19:32:00-03:00"
+        },
+        {
+          "title": "Enzo Fernandez Leaves Chelsea As Man City Transfer Fee & Terms Revealed",
+          "publisher": "Reuters/Yahoo Sports",
+          "url": "https://ca.sports.yahoo.com/news/enzo-fernandez-leaves-chelsea-man-223713535.html",
+          "publishedAt": "2026-09-01T22:37:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9cd4ad0dce5fcdac",
+      "role": "avrupa_kupalari",
+      "page": "avrupa.html",
+      "headline": "Gabriel Jesus, Barcelona'nın yeni forveti oldu",
+      "summary": "Barcelona, Arsenal'den Brezilyalı santrfor Gabriel Jesus'i üç sezonluğuna transfer etti. Kulübün resmi açıklamasına göre sözleşme 30 Haziran 2029'a kadar geçerli olacak; bağımsız AP haberi de transferi doğruladı.",
+      "tag": "Kesinleşti",
+      "importance": 8,
+      "publishedAt": "2026-09-01T12:45:00.000Z",
+      "discoveredAt": "2026-09-02T09:18:17.888Z",
+      "sources": [
+        {
+          "title": "Gabriel Jesus signs for FC Barcelona",
+          "publisher": "FC Barcelona",
+          "url": "https://www.fcbarcelona.com/en/news/4570072/gabriel-jesus-signs-for-fc-barcelona/amp",
+          "publishedAt": "2026-09-01T12:45:00Z"
+        },
+        {
+          "title": "Barcelona completes transfer deadline day deal for Gabriel Jesus from Arsenal",
+          "publisher": "Associated Press/Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/barcelona-completes-transfer-deadline-day-133444551.html",
+          "publishedAt": "2026-09-01T13:34:00Z"
+        }
+      ]
+    }
+  ],
   "homepage": {
     "storyId": null,
     "changes": []
