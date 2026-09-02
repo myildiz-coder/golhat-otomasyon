@@ -2,6 +2,7 @@
 
 const {
   loadState,
+  writeHomepageArchive,
   writeHomepage
 } = require('./editorial-lib');
 
@@ -23,11 +24,15 @@ function main() {
   }
 
   const changed = writeHomepage(story, publishedAt);
+  const archiveChanged = writeHomepageArchive(story, publishedAt);
   console.log(
     changed
       ? '[Ana Sayfa Bütünlük] Kopukluk bulundu ve tüm manşet dosyası yeniden kuruldu.'
       : '[Ana Sayfa Bütünlük] Manşet, analiz, kaynaklar ve karar aynı habere bağlı.'
   );
+  if (archiveChanged) {
+    console.log('[Ana Sayfa Bütünlük] Manşet Özel Haber arşivine eklendi.');
+  }
 }
 
 try {

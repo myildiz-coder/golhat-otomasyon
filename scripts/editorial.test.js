@@ -11,6 +11,7 @@ const {
   assertEditorialLanguage,
   validateStory,
   buildCategoryHtml,
+  buildHomepageArchiveHtml,
   buildHomepageHtml,
   assertHomepageIntegrity
 } = require('./editorial-lib');
@@ -154,6 +155,31 @@ test('kategori HTMLi yalnızca otomasyon bloğu ekler ve fotoğraf üretmez', ()
   assert.match(output, /https:\/\/www\.reuters\.com\/sports\/guncel-dosya/);
 });
 
+test('ana sayfa manşetleri Özel Haber sayfasında birikir ve tekrar eklenmez', () => {
+  const html = [
+    '<main>',
+    '  <section class="page-hero">',
+    '    <h1>Özel Haber</h1>',
+    '  </section>',
+    '  <article class="dosya-block"><h2>Mevcut özel dosya</h2></article>',
+    '</main>',
+    '<footer>Son tarama: <span id="foot-updated">01.09.2026</span></footer>'
+  ].join('\n');
+  const first = validStory();
+  const firstOutput = buildHomepageArchiveHtml(html, first, NOW);
+  assert.match(firstOutput, /Mevcut özel dosya/);
+  assert.match(firstOutput, new RegExp('data-homepage-story-id="' + first.id + '"'));
+  assert.match(firstOutput, /Ana Sayfa Manşet Arşivi/);
+  assert.doesNotMatch(firstOutput, /<img\b/i);
+  const second = validStory({
+    headline: "Fenerbahçe'nin Avrupa kadrosuna ilişkin yeni karar açıklandı",
+    summary: 'Kulüp, Avrupa kupası kadrosuna ilişkin yeni kararını resmî kanallarından duyurdu ve ayrıntılar iki bağımsız kaynak tarafından doğrulandı.'
+  });
+  const secondOutput = buildHomepageArchiveHtml(firstOutput, second, NOW);
+  assert.equal((secondOutput.match(new RegExp('data-homepage-story-id="' + second.id + '"', 'g')) || []).length, 1);
+  assert.ok(secondOutput.indexOf(second.headline) < secondOutput.indexOf(first.headline));
+  assert.equal(buildHomepageArchiveHtml(secondOutput, second, NOW), secondOutput);
+});
 test('ana sayfa manşet dosyasının bütününü aynı haberle atomik yeniler', () => {
   const html = [
     '<body>',

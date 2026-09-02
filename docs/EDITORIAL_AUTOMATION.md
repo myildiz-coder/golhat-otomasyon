@@ -6,6 +6,7 @@ Bu depo, haber merkezi işini GitHub Actions üzerinde bilgisayardan bağımsız
 
 - **11 sayfa editörü:** Fenerbahçe, Galatasaray, Beşiktaş, Trabzonspor, Anadolu, Süper Lig, Avrupa ligleri, Şampiyonlar Ligi, UEFA Avrupa/Konferans, Transfer ve Özel Haber masaları üç saatte bir, günün 24 saati araştırma yapar.
 - **GOLHAT Baş Editör:** Her saat ana sayfa bütünlüğünü denetler; yalnızca eşiği geçen doğrulanmış bir aday varsa model çağrısı yapar.
+- **Manşet Arşivi:** Ana sayfaya çıkan her doğrulanmış dosya, sonraki manşet değişimlerinden etkilenmeden Özel Haber sayfasında en yeni kayıt üstte olacak biçimde birikir.
 - **Ana Sayfa Bütünlük:** Manşet ile haber gövdesinin kopmasını 15 dakikada bir denetler ve doğrulanmış editöryel durumdan otomatik onarır.
 - **Canlı Skor Güncelleme:** Gündüz 10, gece 30 dakikada bir çalışır. API-Football birincil, FotMob kesinti ve gece kotası yedeğidir.
 - **Kulüp ve KAP Merkezi:** Dört büyüklerin resmî açıklama, futbol KAP bildirimi, kadro, form ve fikstür verisini iki saatte bir yeniler.

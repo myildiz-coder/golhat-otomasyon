@@ -25,6 +25,7 @@ const {
   formatIstanbulDate,
   requestOpenAI,
   writeCategoryPage,
+  writeHomepageArchive,
   writeHomepage
 } = require('./editorial-lib');
 
@@ -291,11 +292,14 @@ async function runHeadEditor(state, options, apiKey, model, now) {
     const repairTime = new Date(
       lastPublishedChange?.at || currentStory.discoveredAt || currentStory.publishedAt
     );
-    if (writeHomepage(currentStory, repairTime)) {
+    const homepageChanged = writeHomepage(currentStory, repairTime);
+    const archiveChanged = writeHomepageArchive(currentStory, repairTime);
+    if (homepageChanged) {
       console.log('[Baş Editör] ana sayfa bütünlüğü otomatik onarıldı');
     } else {
       console.log('[Baş Editör] ana sayfa bütünlüğü doğrulandı');
     }
+    if (archiveChanged) console.log('[Baş Editör] mevcut manşet Özel Haber arşivine alındı');
   }
 
   const today = istanbulDay(now);
@@ -343,6 +347,7 @@ async function runHeadEditor(state, options, apiKey, model, now) {
   if (options.dryRun) return 1;
 
   writeHomepage(selected, now);
+  writeHomepageArchive(selected, now);
   state.homepage.storyId = selected.id;
   state.homepage.changes.push({ at: now.toISOString(), storyId: selected.id });
   state.homepage.changes = state.homepage.changes.slice(-40);

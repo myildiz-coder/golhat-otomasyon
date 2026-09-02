@@ -15,6 +15,8 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 const STATE_PATH = path.join(REPO_ROOT, 'data', 'editorial', 'state.json');
 const START_MARKER = '  <!-- GOLHAT:AUTO_EDITOR:START -->';
 const END_MARKER = '  <!-- GOLHAT:AUTO_EDITOR:END -->';
+const HOMEPAGE_ARCHIVE_START = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE:START -->';
+const HOMEPAGE_ARCHIVE_END = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE:END -->';
 const TRACKING_PARAMS = new Set([
   'fbclid',
   'gclid',
@@ -390,7 +392,57 @@ function renderArticle(story) {
     '    </article>'
   ].join('\n');
 }
+function renderHomepageArchiveArticle(story, archivedAt) {
+  assertEditorialLanguage(story.headline, story.summary);
+  const pageLabel = PAGE_LABELS[story.page] || story.page;
+  const sources = story.sources.map((source) => [
+    '        <li><a href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">' +
+      htmlEscape(source.publisher) + ' &rarr;</a> <span class="note">' +
+      htmlEscape(source.title) + '</span></li>'
+  ].join('')).join('\n');
+  return [
+    '    <article class="dosya-block homepage-archive-item" data-homepage-story-id="' + htmlEscape(story.id) + '">',
+    '      <span class="section-label">Ana Sayfa Manşet Arşivi</span>',
+    '      <h2>' + htmlEscape(story.headline) + '</h2>',
+    '      <p class="standfirst">' + htmlEscape(story.summary) + '</p>',
+    '      <div class="dosya-facts"><span>Yayın: <b>' + htmlEscape(formatIstanbulDateTime(archivedAt)) + '</b></span><span>Kategori: <b>' + htmlEscape(pageLabel) + '</b></span><span>Kaynak güveni: <b>' + story.sources.length + ' bağımsız kaynak</b></span><span><a href="/' + htmlEscape(story.page) + '">Haber masasına git &rarr;</a></span></div>',
+    '      <ul class="dosya-sources">',
+    sources,
+    '      </ul>',
+    '    </article>'
+  ].join('\n');
+}
 
+function buildHomepageArchiveHtml(html, story, archivedAt) {
+  assertEditorialLanguage(story.headline, story.summary);
+  const storyToken = 'data-homepage-story-id="' + story.id + '"';
+  if (html.includes(storyToken)) return html;
+  const article = renderHomepageArchiveArticle(story, archivedAt);
+  let updated = html;
+  const hasStart = html.includes(HOMEPAGE_ARCHIVE_START);
+  const hasEnd = html.includes(HOMEPAGE_ARCHIVE_END);
+  if (hasStart !== hasEnd) throw new Error('Özel Haber manşet arşivi işaretleri eksik');
+  if (hasStart) {
+    updated = html.replace(HOMEPAGE_ARCHIVE_START, HOMEPAGE_ARCHIVE_START + '\n' + article);
+  } else {
+    const heroPattern = /  <section class="page-hero">[\s\S]*?  <\/section>/;
+    if (!heroPattern.test(html)) throw new Error('ozel-haber.html içinde page-hero bölümü bulunamadı');
+    const archive = [
+      '',
+      '  <section class="single-desk homepage-archive" aria-label="Ana sayfa manşet arşivi">',
+      '    <div class="desk-heading"><h2>Ana Sayfa Manşet Arşivi</h2><span class="desk-count mono">Kalıcı kayıt</span></div>',
+      HOMEPAGE_ARCHIVE_START,
+      article,
+      HOMEPAGE_ARCHIVE_END,
+      '  </section>'
+    ].join('\n');
+    updated = html.replace(heroPattern, (hero) => hero + archive);
+  }
+  return updated.replace(
+    /Son tarama:\s*<span id="foot-updated">[^<]*<\/span>/,
+    'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(archivedAt)) + '</span>'
+  );
+}
 function buildCategoryHtml(html, page, stories, now) {
   const pageStories = stories
     .filter((story) => story.page === page)
@@ -741,6 +793,14 @@ function writeHomepage(story, now) {
   writeTextAtomic(file, updated);
   return true;
 }
+function writeHomepageArchive(story, archivedAt) {
+  const file = path.join(REPO_ROOT, 'ozel-haber.html');
+  const original = fs.readFileSync(file, 'utf8');
+  const updated = buildHomepageArchiveHtml(original, story, archivedAt);
+  if (updated === original) return false;
+  writeTextAtomic(file, updated);
+  return true;
+}
 
 module.exports = {
   REPO_ROOT,
@@ -769,8 +829,10 @@ module.exports = {
   formatIstanbulDateTime,
   renderArticle,
   buildCategoryHtml,
+  buildHomepageArchiveHtml,
   buildHomepageHtml,
   requestOpenAI,
   writeCategoryPage,
+  writeHomepageArchive,
   writeHomepage
 };

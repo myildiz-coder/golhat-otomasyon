@@ -39,7 +39,7 @@ jobs:
           set -euo pipefail
           git config user.name "golhat-homepage-guard"
           git config user.email "actions@github.com"
-          git add index.html
+          git add index.html ozel-haber.html
           if git diff --cached --quiet; then
             echo "Ana sayfa bütünlüğü sağlam."
             exit 0
