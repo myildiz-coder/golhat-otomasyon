@@ -2,8 +2,8 @@ name: GOLHAT Kategori Editörleri
 
 on:
   schedule:
-    # 7/24 vardiya: bütün sayfa editörleri üç saatte bir çalışır.
-    - cron: '20 */3 * * *'
+    # 7/24 vardiya: bütün sayfa editörleri her saat güncel gelişmeleri tarar.
+    - cron: '20 * * * *'
   workflow_dispatch:
     inputs:
       role:

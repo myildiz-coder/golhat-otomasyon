@@ -30,6 +30,53 @@ const PAGE_OWNERS = Object.freeze({
   'transfer.html': 'transfer',
   'ozel-haber.html': 'ozel_haber'
 });
+const PAGE_TOPIC_RULES = Object.freeze({
+  'fenerbahce.html': { requiredAny: ['fenerbahçe', 'sarı-lacivert', 'kanarya'] },
+  'galatasaray.html': { requiredAny: ['galatasaray', 'sarı-kırmızı', 'cimbom'] },
+  'besiktas.html': { requiredAny: ['beşiktaş', 'siyah-beyaz', 'kartal'] },
+  'trabzonspor.html': { requiredAny: ['trabzonspor', 'bordo-mavi'] },
+  'anadolu.html': {
+    requiredAny: [
+      'anadolu', 'amedspor', 'başakşehir', 'göztepe', 'çaykur rizespor', 'rizespor',
+      'gaziantep fk', 'gençlerbirliği', 'samsunspor', 'kocaelispor', 'konyaspor',
+      'kayserispor', 'alanyaspor', 'antalyaspor', 'kasımpaşa', 'eyüpspor',
+      'sivasspor', 'adana demirspor', 'hatayspor', 'karagümrük', 'bodrum fk',
+      'sakaryaspor', 'erzurumspor', 'bandırmaspor'
+    ]
+  },
+  'super-lig.html': {
+    requiredAny: [
+      'süper lig', 'tff', 'mhk', 'pfdk', 'hakem', 'var kararı', 'fikstür',
+      'puan durumu', 'gol krallığı', 'hafta programı'
+    ]
+  },
+  'avrupa.html': {
+    requiredAny: [
+      'premier league', 'la liga', 'serie a', 'bundesliga', 'ligue 1', 'eredivisie',
+      'arsenal', 'chelsea', 'liverpool', 'manchester city', 'manchester united',
+      'tottenham', 'everton', 'sunderland', 'crystal palace', 'aston villa', 'newcastle',
+      'barcelona', 'real madrid', 'atletico madrid', 'atlético madrid', 'villarreal',
+      'athletic bilbao', 'sevilla', 'valencia', 'real betis', 'inter', 'ac milan',
+      'juventus', 'napoli', 'roma', 'lazio', 'fiorentina', 'torino', 'como', 'cagliari',
+      'bayern münih', 'borussia dortmund', 'rb leipzig', 'bayer leverkusen',
+      'eintracht frankfurt', 'stuttgart', 'psg', 'paris saint-germain', 'marsilya',
+      'marseille', 'lyon', 'monaco', 'lille', 'ajax', 'psv', 'feyenoord', 'az alkmaar'
+    ]
+  },
+  'sampiyonlar-ligi.html': { requiredAny: ['şampiyonlar ligi', 'champions league', 'lig aşaması'] },
+  'uefa.html': {
+    requiredAny: ['avrupa ligi', 'europa league', 'konferans ligi', 'conference league']
+  },
+  'transfer.html': {
+    requiredAny: [
+      'transfer', 'bonservis', 'sözleşme', 'imza', 'kiralık', 'kadrosuna kattı',
+      'anlaşma', 'anlaştı', 'görüşme', 'teklif', 'serbest oyuncu'
+    ]
+  },
+  'ozel-haber.html': { requiredAny: [] },
+  'skor.html': { requiredAny: ['maç', 'skor', 'gol', 'fikstür'] }
+});
+
 
 const EDITOR_ROLES = Object.freeze({
   fenerbahce: {
@@ -135,6 +182,7 @@ module.exports = {
   PAGE_OWNERS,
   EDITOR_ROLES,
   ALLOWED_TAGS,
+  PAGE_TOPIC_RULES,
   SOURCE_RULES,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,

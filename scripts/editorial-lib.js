@@ -8,7 +8,9 @@ const {
   ALLOWED_TAGS,
   MAX_STORIES_PER_PAGE,
   MAX_STORY_AGE_HOURS,
-  PAGE_LABELS
+  PAGE_LABELS,
+  PAGE_OWNERS,
+  PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -19,6 +21,8 @@ const HOMEPAGE_ARCHIVE_START = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE:START -->';
 const HOMEPAGE_ARCHIVE_END = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE:END -->';
 const HOMEPAGE_ARCHIVE_INDEX_START = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE_INDEX:START -->';
 const HOMEPAGE_ARCHIVE_INDEX_END = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE_INDEX:END -->';
+const PAGE_LIVE_START = '  <!-- GOLHAT:PAGE_LIVE:START -->';
+const PAGE_LIVE_END = '  <!-- GOLHAT:PAGE_LIVE:END -->';
 const TRACKING_PARAMS = new Set([
   'fbclid',
   'gclid',
@@ -229,11 +233,29 @@ function storyIsDuplicate(headline, headlines) {
     return normalized === other || headlineSimilarity(normalized, other) >= 0.82;
   });
 }
+function storyMatchesPage(page, headline, summary) {
+  const rule = PAGE_TOPIC_RULES[page];
+  if (!rule) return false;
+  const text = [headline, summary]
+    .map((value) => String(value || '').normalize('NFC').toLocaleLowerCase('tr-TR'))
+    .join(' ');
+  return rule.requiredAny.length === 0 || rule.requiredAny.some((term) =>
+    text.includes(term.toLocaleLowerCase('tr-TR'))
+  );
+}
+
+function assertStoryPageRelevance(page, headline, summary) {
+  if (!storyMatchesPage(page, headline, summary)) {
+    throw new Error('Haber hedef sayfanın konu alanıyla eşleşmiyor: ' + page);
+  }
+}
+
 
 function validateStory(raw, context) {
   const now = context.now || new Date();
   if (!raw || typeof raw !== 'object') throw new Error('Haber nesnesi geçersiz');
   if (!context.allowedPages.includes(raw.page)) throw new Error('Hedef sayfa izinli değil');
+  if (PAGE_OWNERS[raw.page] !== context.role) throw new Error('Haber yanlış editör masasına atanmış');
 
   const headline = String(raw.headline || '').trim();
   const summary = String(raw.summary || '').trim();
@@ -241,6 +263,7 @@ function validateStory(raw, context) {
   const importance = Number(raw.importance);
 
   assertEditorialLanguage(headline, summary);
+  assertStoryPageRelevance(raw.page, headline, summary);
   if (headline.length < 20 || headline.length > 180) {
     throw new Error('Manşet uzunluğu 20-180 karakter aralığında olmalı');
   }
@@ -491,15 +514,63 @@ function buildHomepageArchiveHtml(html, story, archivedAt) {
   );
   return refreshHomepageArchiveIndex(updated);
 }
+function updatePageScanDate(html, now) {
+  return html.replace(
+    /Son tarama:\s*<span id="foot-updated">[^<]*<\/span>/,
+    'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(now)) + '</span>'
+  );
+}
+
+function refreshPageLiveStatus(html, page, now) {
+  const label = PAGE_LABELS[page] || page;
+  const block = [
+    PAGE_LIVE_START,
+    '  <div class="editor-live-status mono" role="status" aria-label="' + htmlEscape(label) + ' haber masası canlı durumu" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:0 0 20px;padding:10px 12px;border:1px solid var(--line);border-left:4px solid #22a46b;background:var(--surface-raised);font-size:.72rem;line-height:1.45;">',
+    '    <span style="font-weight:800;letter-spacing:.08em;color:#08784a;">● CANLI</span>',
+    '    <span><b>' + htmlEscape(label) + ' haber masası</b> · Son kontrol: <time datetime="' + htmlEscape(now.toISOString()) + '">' + htmlEscape(formatIstanbulDateTime(now)) + '</time></span>',
+    '  </div>',
+    PAGE_LIVE_END
+  ].join('\n');
+  const hasStart = html.includes(PAGE_LIVE_START);
+  const hasEnd = html.includes(PAGE_LIVE_END);
+  if (hasStart !== hasEnd) throw new Error(page + ' canlı durum işaretleri eksik');
+
+  let updated = html;
+  if (hasStart) {
+    const pattern = new RegExp(escapeRegExp(PAGE_LIVE_START) + '[\\s\\S]*?' + escapeRegExp(PAGE_LIVE_END));
+    updated = html.replace(pattern, block);
+  } else {
+    const heroPattern = /(<section class="page-hero">[\s\S]*?<\/section>)/;
+    if (heroPattern.test(html)) updated = html.replace(heroPattern, '$1\n' + block);
+  }
+  return updatePageScanDate(updated, now);
+}
+
+function collapseDuplicateAutoSections(html) {
+  const pattern = new RegExp(
+    '<section class="single-desk"[^>]*>[\\s\\S]*?' +
+    escapeRegExp(START_MARKER) + '[\\s\\S]*?' + escapeRegExp(END_MARKER) +
+    '[\\s\\S]*?<\\/section>',
+    'g'
+  );
+  let seen = false;
+  return html.replace(pattern, (section) => {
+    if (seen) return '';
+    seen = true;
+    return section;
+  }).replace(/^[ \t]+$/gm, '');
+}
+
 function buildCategoryHtml(html, page, stories, now) {
   const pageStories = stories
-    .filter((story) => story.page === page)
+    .filter((story) => story.page === page && storyMatchesPage(page, story.headline, story.summary))
     .sort((a, b) => new Date(b.discoveredAt) - new Date(a.discoveredAt))
     .slice(0, MAX_STORIES_PER_PAGE);
+  const liveHtml = collapseDuplicateAutoSections(refreshPageLiveStatus(html, page, now));
 
-  if (!pageStories.length && !html.includes(START_MARKER)) return html;
+  if (!pageStories.length && !liveHtml.includes(START_MARKER)) return liveHtml;
 
-  if (!html.includes('<section class="single-desk">')) {
+  if (!/<section class="single-desk"(?:\s|>)/.test(liveHtml)) {
     const articles = pageStories.map(renderArticle).join('\n\n');
     const label = PAGE_LABELS[page] || page;
     const wrapper = [
@@ -511,9 +582,9 @@ function buildCategoryHtml(html, page, stories, now) {
       '  </section>'
     ].join('\n');
     const pageHeroPattern = /(<section class="page-hero">[\s\S]*?<\/section>\r?\n?)/;
-    if (!pageHeroPattern.test(html)) throw new Error(page + ' içinde page-hero bulunamadı');
+    if (!pageHeroPattern.test(liveHtml)) throw new Error(page + ' içinde page-hero bulunamadı');
 
-    let updated = html.replace(pageHeroPattern, '$1\n' + wrapper + '\n');
+    let updated = liveHtml.replace(pageHeroPattern, '$1\n' + wrapper + '\n');
     updated = updated.replace(
       /Son tarama:\s*<span id="foot-updated">[^<]*<\/span>/,
       'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(now)) + '</span>'
@@ -524,7 +595,7 @@ function buildCategoryHtml(html, page, stories, now) {
   const articles = pageStories.map(renderArticle).join('\n\n');
   const block = [START_MARKER, articles, END_MARKER].filter(Boolean).join('\n');
 
-  let updated = html;
+  let updated = liveHtml;
   if (updated.includes(START_MARKER) && updated.includes(END_MARKER)) {
     const markerPattern = new RegExp(escapeRegExp(START_MARKER) + '[\\s\\S]*?' + escapeRegExp(END_MARKER));
     updated = updated.replace(markerPattern, block);
@@ -534,7 +605,7 @@ function buildCategoryHtml(html, page, stories, now) {
     updated = updated.replace(headingPattern, '$1' + block + '\n');
   }
 
-  const sectionPattern = /(<section class="single-desk">)([\s\S]*?)(\s*<\/section>)/;
+  const sectionPattern = /(<section class="single-desk"[^>]*>)([\s\S]*?)(\s*<\/section>)/;
   const sectionMatch = updated.match(sectionPattern);
   if (!sectionMatch) throw new Error(page + ' içinde single-desk bulunamadı');
 
@@ -870,6 +941,8 @@ module.exports = {
   parseStructuredResponse,
   headlineSimilarity,
   storyIsDuplicate,
+  storyMatchesPage,
+  assertStoryPageRelevance,
   validateStory,
   assertEditorialLanguage,
   existingHeadlines,

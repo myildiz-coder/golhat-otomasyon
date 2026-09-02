@@ -20,6 +20,7 @@ const {
   collectCitedUrls,
   parseStructuredResponse,
   storyIsDuplicate,
+  storyMatchesPage,
   validateStory,
   existingHeadlines,
   formatIstanbulDate,
@@ -134,6 +135,9 @@ function categoryRequest(role, now, model) {
       'Türkçe yaz. Dedikodu ve yorumu olgu gibi sunma. Uydurma alıntı, sayı, tarih, URL veya haber üretme.',
       'Kesinleşti etiketi yalnızca resmi açıklama ve ikinci bağımsız doğrulama varsa kullanılabilir.',
       'Görsel önerme; site gerçek kişi fotoğrafı ve yapay haber görseli kullanmaz.',
+      'Her haber yalnızca hedef sayfanın konu alanına ait olmalı; başka editör masasının haberini burada yayımlama veya yan haber olarak verme.',
+      'Hedef sayfayla konu bağını manşette ya da özette açıkça belirt; sırf kaynakta geçtiği için ilgisiz haberi seçme.',
+      'Şampiyonlar Ligi, UEFA, yerel lig, kulüp ve transfer masalarının sınırlarını birbirine karıştırma.',
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       SOURCE_RULES,
@@ -214,6 +218,15 @@ function mergeStories(state, accepted) {
     .sort((left, right) => new Date(right.discoveredAt) - new Date(left.discoveredAt))
     .slice(0, 180);
 }
+function refreshRolePages(role, state, now) {
+  for (const page of role.pages) {
+    const pageStories = state.stories
+      .filter((story) => story.page === page)
+      .slice(0, MAX_STORIES_PER_PAGE);
+    writeCategoryPage(page, pageStories, now);
+  }
+}
+
 
 async function runCategory(roleName, state, options, apiKey, model, now) {
   const role = EDITOR_ROLES[roleName];
@@ -224,6 +237,7 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
 
   if (result.decision !== 'update' || result.stories.length === 0) {
     console.log('[' + role.label + '] değişiklik yok: ' + result.rationale);
+    if (!options.dryRun) refreshRolePages(role, state, now);
     return 0;
   }
 
@@ -252,6 +266,7 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
 
   if (accepted.length === 0) {
     console.log('[' + role.label + '] yayınlanabilir yeni haber bulunmadı');
+    if (!options.dryRun) refreshRolePages(role, state, now);
     return 0;
   }
 
@@ -262,12 +277,7 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
   }
 
   mergeStories(state, accepted);
-  for (const page of role.pages) {
-    const pageStories = state.stories
-      .filter((story) => story.page === page)
-      .slice(0, MAX_STORIES_PER_PAGE);
-    if (pageStories.length > 0) writeCategoryPage(page, pageStories, now);
-  }
+  refreshRolePages(role, state, now);
   state.updatedAt = now.toISOString();
   saveState(state);
   return accepted.length;
@@ -311,6 +321,7 @@ async function runHeadEditor(state, options, apiKey, model, now) {
 
   const recentThreshold = now.getTime() - 36 * 3_600_000;
   let candidates = state.stories.filter((story) =>
+    storyMatchesPage(story.page, story.headline, story.summary) &&
     story.id !== state.homepage.storyId &&
     story.importance >= HOMEPAGE_MIN_IMPORTANCE &&
     new Date(story.publishedAt).getTime() >= recentThreshold

@@ -2,6 +2,9 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const { PAGE_TOPIC_RULES } = require('./editorial-config');
 const {
   START_MARKER,
   END_MARKER,
@@ -9,6 +12,8 @@ const {
   collectCitedUrls,
   urlSignature,
   assertEditorialLanguage,
+  storyMatchesPage,
+  stripHtml,
   validateStory,
   buildCategoryHtml,
   buildHomepageArchiveHtml,
@@ -132,12 +137,72 @@ test('KKTC yerine yabancı siyasi terminolojisi kullanan haber karantinaya alın
     'KKTC hükümeti, Bayındırlık ve Ulaştırma Bakanı hakkındaki kararını açıkladı'
   ));
 });
+test('haber yalnız kendi sayfasının konu alanında yayınlanır', () => {
+  assert.equal(storyMatchesPage(
+    'anadolu.html',
+    'Trabzonspor’da Fatih Tekke dönemi sona erdi',
+    'Trabzonspor teknik direktör değişikliğini KAP üzerinden duyurdu.'
+  ), false);
+  assert.equal(storyMatchesPage(
+    'anadolu.html',
+    'Amedspor, Trabzonspor karşısında üç puanı aldı',
+    'Amedspor kendi sahasındaki lig karşılaşmasını son dakika golüyle kazandı.'
+  ), true);
+  assert.equal(storyMatchesPage(
+    'super-lig.html',
+    'Fiorentina, Torreira için Galatasaray ile temasa geçti',
+    'İtalyan kulübü oyuncunun transfer şartlarını görüşmek üzere teklif hazırladı.'
+  ), false);
+  assert.equal(storyMatchesPage(
+    'super-lig.html',
+    'Süper Lig hafta programı TFF tarafından açıklandı',
+    'TFF, Süper Lig fikstüründeki karşılaşmaların gün ve saatlerini duyurdu.'
+  ), true);
+
+  const misplaced = rawStory({
+    page: 'super-lig.html',
+    headline: 'Fiorentina, Torreira için Galatasaray ile temasa geçti',
+    summary: 'İtalyan kulübü, oyuncunun transfer şartlarını görüşmek üzere teklif hazırladı ve taraflar görüşmelere başladı.'
+  });
+  assert.throws(() => validateStory(misplaced, {
+    now: NOW,
+    role: 'super_lig',
+    allowedPages: ['super-lig.html'],
+    citedUrls: collectCitedUrls(citedResponse())
+  }), /konu alanıyla eşleşmiyor/);
+});
+
+test('mevcut haber kartlarının tamamı kendi sayfasının konusundadır', () => {
+  const root = path.resolve(__dirname, '..');
+  for (const page of Object.keys(PAGE_TOPIC_RULES)) {
+    if (['ozel-haber.html', 'skor.html'].includes(page)) continue;
+    const html = fs.readFileSync(path.join(root, page), 'utf8');
+    const pattern = /<article class="dispatch"[^>]*>[\s\S]*?<h3 class="dispatch-headline">([\s\S]*?)<\/h3>[\s\S]*?<p class="dispatch-dek">([\s\S]*?)<\/p>[\s\S]*?<\/article>/g;
+    for (const match of html.matchAll(pattern)) {
+      const headline = stripHtml(match[1]);
+      const summary = stripHtml(match[2]);
+      assert.equal(
+        storyMatchesPage(page, headline, summary),
+        true,
+        page + ' konu dışı haber içeriyor: ' + headline
+      );
+    }
+    const main = (html.match(/<main[^>]*>([\s\S]*?)<\/main>/) || [])[1] || '';
+    for (const link of main.matchAll(/href="\/([^"#?]+\.html)(?:[^"]*)"/g)) {
+      assert.equal(link[1], page, page + ' başka haber sayfasına bağlantı veriyor: ' + link[1]);
+    }
+  }
+});
+
 
 test('kategori HTMLi yalnızca otomasyon bloğu ekler ve fotoğraf üretmez', () => {
   const html = [
     '<main>',
     '  <section class="single-desk">',
     '    <div class="desk-heading"><h2>Fenerbahçe</h2><span class="desk-count mono">0 haber</span></div>',
+    '  </section>',
+    '  <section class="page-hero">',
+    '    <h1>Fenerbahçe</h1>',
     '  </section>',
     '</main>',
     '<footer>Son tarama: <span id="foot-updated">01.09.2026</span></footer>'
@@ -153,7 +218,26 @@ test('kategori HTMLi yalnızca otomasyon bloğu ekler ve fotoğraf üretmez', ()
   assert.match(output, /&lt;etiket&gt;/);
   assert.doesNotMatch(output, /<img\b/i);
   assert.match(output, /https:\/\/www\.reuters\.com\/sports\/guncel-dosya/);
+  assert.match(output, /● CANLI/);
 });
+
+test('yinelenen otomatik haber bölümleri tekilleştirilir', () => {
+  const story = validStory();
+  const html = [
+    '<main>',
+    '  <section class="page-hero"><h1>Fenerbahçe</h1></section>',
+    '  <section class="single-desk"><div class="desk-heading"><h2>Gündem</h2><span class="desk-count mono">0 haber</span></div></section>',
+    '</main>',
+    '<footer>Son tarama: <span id="foot-updated">01.09.2026</span></footer>'
+  ].join('\n');
+  const once = buildCategoryHtml(html, 'fenerbahce.html', [story], NOW);
+  const section = once.match(/<section class="single-desk"[^>]*>[\s\S]*?<\/section>/)[0];
+  const duplicated = once.replace('</main>', section + '\n</main>');
+  const cleaned = buildCategoryHtml(duplicated, 'fenerbahce.html', [story], NOW);
+  assert.equal((cleaned.match(/GOLHAT:AUTO_EDITOR:START/g) || []).length, 1);
+  assert.equal((cleaned.match(new RegExp('data-auto-id="' + story.id + '"', 'g')) || []).length, 1);
+});
+
 
 test('ana sayfa manşetleri Özel Haber sayfasında birikir ve tekrar eklenmez', () => {
   const html = [
@@ -255,7 +339,12 @@ test('özel sayfa yapısı korunarak ayrı otomasyon bölümü eklenir', () => {
     '</main>',
     '<footer>Son tarama: <span id="foot-updated">01.09.2026</span></footer>'
   ].join('\n');
-  const story = { ...validStory(), page: 'transfer.html' };
+  const story = {
+    ...validStory(),
+    page: 'transfer.html',
+    headline: 'Fenerbahçe yeni transfer görüşmesini resmen açıkladı',
+    summary: 'Kulüp, transfer görüşmesinin başladığını resmi kanallarından duyurdu ve gelişme ikinci bağımsız kaynak tarafından da doğrulandı.'
+  };
   const output = buildCategoryHtml(html, 'transfer.html', [story], NOW);
 
   assert.match(output, /class="single-desk"/);
