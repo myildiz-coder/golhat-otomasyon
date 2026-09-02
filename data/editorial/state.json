@@ -1,7 +1,132 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T18:53:50.239Z",
+  "updatedAt": "2026-09-02T19:24:34.895Z",
   "stories": [
+    {
+      "id": "0a39103440f7dd1b",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray’da Victor Nelsson dönemi sona erdi: Sözleşme karşılıklı feshedildi",
+      "summary": "Galatasaray, Danimarkalı stoper Victor Nelsson’un sözleşmesinin karşılıklı anlaşmayla sona erdirildiğini Türkiye Futbol Federasyonuna bildirdi. 27 yaşındaki oyuncunun sarı-kırmızılı forma altında 144 maçta görev yaptığı ve 4 gol attığı aktarıldı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "publishedAt": "2026-09-02T16:27:00.000Z",
+      "discoveredAt": "2026-09-02T19:24:34.895Z",
+      "sources": [
+        {
+          "title": "Galatasaray'da Victor Nelsson ile yollar ayrıldı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/galatasarayda-victor-nelsson-ile-yollar-ayrildi/4045649",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Nelsson ile yollar ayrıldı! Ülkesine dönüyor",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/spor/son-dakika-galatasaray-victor-nelsson-ile-yollarin-ayrildigini-tff-ye-bildirdi-3909845",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "2900c4db9db1ec22",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Ajax, Sunderland kanat oyuncusu Simon Adingra’yı satın alma opsiyonuyla kiraladı",
+      "summary": "Eredivisie ekiplerinden Ajax, Fildişi Sahilli kanat oyuncusu Simon Adingra’yı Sunderland’den sezon sonuna kadar kiraladığını açıkladı. Anlaşmada Ajax lehine satın alma opsiyonu bulunuyor. Transfer, kulübün 2 Eylül 2026 tarihli resmî duyurusu ve bağımsız Foot Mercato haberiyle doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "publishedAt": "2026-09-02T15:04:00.000Z",
+      "discoveredAt": "2026-09-02T19:24:34.895Z",
+      "sources": [
+        {
+          "title": "Simon Adingra op huurbasis naar Ajax",
+          "publisher": "AFC Ajax",
+          "url": "https://www.ajax.nl/club/pers/persberichten/simon-adingra-op-huurbasis-naar-ajax",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "L’Ajax officialise l’arrivée de Simon Adingra",
+          "publisher": "Foot Mercato",
+          "url": "https://www.footmercato.net/a7999579117447351445-lajax-officialise-larrivee-de-simon-adingra",
+          "publishedAt": "2026-09-02T20:04:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "f7ef5234bfd73261",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Manchester City, Iliman Ndiaye transferini beş yıllık sözleşmeyle tamamladı",
+      "summary": "Manchester City, Everton forması giyen Senegal Millî Takımı oyuncusu Iliman Ndiaye'yi kadrosuna kattığını açıkladı. Kulüp, 26 yaşındaki hücum oyuncusuyla beş yıllık sözleşme imzalandığını duyurdu; transferin son gününde gerçekleşen anlaşma 2031 yazına kadar geçerli olacak.",
+      "tag": "Kesinleşti",
+      "importance": 88,
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "discoveredAt": "2026-09-02T19:24:34.895Z",
+      "sources": [
+        {
+          "title": "Ndiaye signs for City",
+          "publisher": "Manchester City",
+          "url": "https://www.mancity.com/news/mens/iliman-ndiaye-signs-for-city-63923887",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Oficial: City, 76M€ por Ndiaye",
+          "publisher": "AS",
+          "url": "https://as.com/futbol/internacional/oficial-city-76m-por-ndiaye-f202609-n",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "8dc6a1fc44ac57f5",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Jonathan David, Juventus'tan Atlético Madrid'e kiralandı",
+      "summary": "Atlético Madrid ile Juventus, Kanadalı santrfor Jonathan David'in 2026-27 sezonu için kiralanması konusunda anlaşmaya vardı. Her iki kulüp de transferi resmî kanallarından duyurdu; David, Madrid ekibine geçmeden önce sağlık kontrolünden geçti.",
+      "tag": "Kesinleşti",
+      "importance": 84,
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "discoveredAt": "2026-09-02T19:24:34.895Z",
+      "sources": [
+        {
+          "title": "Welcome, Jonathan David!",
+          "publisher": "Atlético de Madrid",
+          "url": "https://en.atleticodemadrid.com/noticias/welcome-jonathan-david",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Jonathan David joins Atletico Madrid on loan",
+          "publisher": "Juventus",
+          "url": "https://www.juventus.com/en/news/articles/jonathan-david-joins-atletico-madrid-on-loan-01-09-26",
+          "publishedAt": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "6bebdc825312e88a",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "Adana Demirspor sezona eksi 24 puanla başlayacak: FIFA kararının kulübe ve 2. Lig dengesine etkisi",
+      "summary": "Türkiye Futbol Federasyonu, FIFA Disiplin Komitesi’nin Adana Demirspor’a dört ayrı dosya kapsamında toplam 24 puan tenzili cezası uyguladığını açıkladı. Kararla birlikte Adana temsilcisi 2026-2027 sezonuna -24 puanla başlayacak. Kulübün ilk haftadaki puan açığını kapatmak için 24 puanlık dezavantajı telafi etmesi gerekecek; karar, Adana Demirspor’un ligde kalma ve rekabet hedeflerini sezon başlamadan doğrudan etkiliyor. Mevcut doğrulanmış açıklamalarda dosyaların tarafları ve itiraz sürecine ilişkin ayrıntı yer almıyor.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "publishedAt": "2026-09-02T13:26:00.000Z",
+      "discoveredAt": "2026-09-02T19:24:34.895Z",
+      "sources": [
+        {
+          "title": "FIFA Disiplin Komitesi'nden Adana Demirspor Kulübü'ne Puan Tenzili Cezası",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51256&pageID=687",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "FIFA'dan ağır ceza: Türk kulübünün 24 puanı silindi",
+          "publisher": "Yeni Şafak",
+          "url": "https://www.yenisafak.com/amphtml/spor/fifadan-agir-ceza-turk-kulubunun-24-puani-silindi-4852673",
+          "publishedAt": "2026-09-02T16:26:00+03:00"
+        }
+      ]
+    },
     {
       "id": "e3fd0387f3c1db3e",
       "role": "fenerbahce",
