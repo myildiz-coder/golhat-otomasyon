@@ -1,0 +1,896 @@
+{
+  "updatedAt": "2026-09-02T15:58:04.212Z",
+  "sources": [
+    {
+      "name": "FotMob",
+      "url": "https://www.fotmob.com/"
+    },
+    {
+      "name": "KAP",
+      "url": "https://www.kap.org.tr/"
+    }
+  ],
+  "timezone": "Europe/Istanbul",
+  "clubs": {
+    "fenerbahce": {
+      "id": 8695,
+      "name": "Fenerbahçe",
+      "season": "2026/2027",
+      "league": "Super Lig",
+      "coach": "Ismail Kartal",
+      "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+      "squad": {
+        "total": 33,
+        "injured": 5
+      },
+      "nextMatches": [
+        {
+          "id": 5904737,
+          "date": "2026-09-05T17:00:00.000Z",
+          "timestamp": 1788627600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6106331,
+          "date": "2026-09-10T16:45:00.000Z",
+          "timestamp": 1789058700,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Roma",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904740,
+          "date": "2026-09-14T17:00:00.000Z",
+          "timestamp": 1789405200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Gaziantep FK",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904755,
+          "date": "2026-09-20T14:00:00.000Z",
+          "timestamp": 1789912800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Eyüpspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904761,
+          "date": "2026-10-11T17:00:00.000Z",
+          "timestamp": 1791738000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Rizespor",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6106284,
+          "date": "2026-10-14T19:00:00.000Z",
+          "timestamp": 1792004400,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Aston Villa",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        }
+      ],
+      "recentMatches": [
+        {
+          "id": 5904730,
+          "date": "2026-08-30T18:30:00.000Z",
+          "timestamp": 1788114600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Samsunspor",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5987810,
+          "date": "2026-08-26T19:00:00.000Z",
+          "timestamp": 1787770800,
+          "tournament": "Champions League Qualification",
+          "stage": "",
+          "home": "Lyon",
+          "away": "Fenerbahçe",
+          "homeScore": 1,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5904719,
+          "date": "2026-08-22T18:30:00.000Z",
+          "timestamp": 1787423400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Konyaspor",
+          "homeScore": 4,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5987803,
+          "date": "2026-08-18T19:00:00.000Z",
+          "timestamp": 1787079600,
+          "tournament": "Champions League Qualification",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Lyon",
+          "homeScore": 1,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
+        {
+          "id": 5904708,
+          "date": "2026-08-15T18:30:00.000Z",
+          "timestamp": 1786818600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Gençlerbirliği",
+          "away": "Fenerbahçe",
+          "homeScore": 2,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        }
+      ],
+      "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
+      "sourceUrl": "https://www.fotmob.com/teams/8695/overview/fenerbahce",
+      "kap": {
+        "ticker": "FENER",
+        "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a240e95dc90140ede7351a013d",
+        "disclosures": [
+          {
+            "id": 1633934,
+            "date": "2026-07-14T22:38:10+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Mason Will John Greenwood Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1633934"
+          },
+          {
+            "id": 1633933,
+            "date": "2026-07-14T22:30:16+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Mason Will John Greenwood Transferi hk. ",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1633933"
+          },
+          {
+            "id": 1618523,
+            "date": "2026-06-18T13:01:48+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Futbol A Takımı Teknik Direktörlüğü için İsmail Kartal ile anlaşmaya varılmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1618523"
+          },
+          {
+            "id": 1598035,
+            "date": "2026-04-28T13:48:32+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Sayın Domenico Tedesco'nun Sözleşme Feshi Hk.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1598035"
+          },
+          {
+            "id": 1552536,
+            "date": "2026-02-04T17:32:16+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "N'Golo Kante Transferi Hakkında ",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1552536"
+          },
+          {
+            "id": 1488382,
+            "date": "2025-09-09T18:01:06+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Futbol A Takımı Teknik Direktörlüğü için Domenico Tedesco ile anlaşmaya varılmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1488382"
+          }
+        ]
+      }
+    },
+    "galatasaray": {
+      "id": 8637,
+      "name": "Galatasaray",
+      "season": "2026/2027",
+      "league": "Super Lig",
+      "coach": "Okan Buruk",
+      "stadium": "RAMS Park",
+      "squad": {
+        "total": 32,
+        "injured": 1
+      },
+      "nextMatches": [
+        {
+          "id": 5904733,
+          "date": "2026-09-04T17:00:00.000Z",
+          "timestamp": 1788541200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Başakşehir",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6106280,
+          "date": "2026-09-09T19:00:00.000Z",
+          "timestamp": 1788980400,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Sporting CP",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904746,
+          "date": "2026-09-13T17:00:00.000Z",
+          "timestamp": 1789318800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Kocaelispor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904749,
+          "date": "2026-09-19T17:00:00.000Z",
+          "timestamp": 1789837200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904764,
+          "date": "2026-10-11T17:00:00.000Z",
+          "timestamp": 1791738000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Kasımpaşa",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6106338,
+          "date": "2026-10-13T19:00:00.000Z",
+          "timestamp": 1791918000,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Barcelona",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        }
+      ],
+      "recentMatches": [
+        {
+          "id": 5904728,
+          "date": "2026-08-29T18:30:00.000Z",
+          "timestamp": 1788028200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Göztepe",
+          "homeScore": 3,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5904721,
+          "date": "2026-08-21T18:30:00.000Z",
+          "timestamp": 1787337000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Erzurumspor FK",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 4,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5904710,
+          "date": "2026-08-14T18:30:00.000Z",
+          "timestamp": 1786732200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Çorum FK",
+          "homeScore": 2,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
+        {
+          "id": 5900327,
+          "date": "2026-08-08T18:00:00.000Z",
+          "timestamp": 1786212000,
+          "tournament": "Club Friendlies",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Villarreal",
+          "homeScore": 1,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
+        {
+          "id": 5981399,
+          "date": "2026-08-02T18:00:00.000Z",
+          "timestamp": 1785693600,
+          "tournament": "Club Friendlies",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Rennes",
+          "homeScore": 3,
+          "awayScore": 3,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        }
+      ],
+      "officialUrl": "https://www.galatasaray.org/haberler/futbol/43",
+      "sourceUrl": "https://www.fotmob.com/teams/8637/overview/galatasaray",
+      "kap": {
+        "ticker": "GSRAY",
+        "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
+        "disclosures": [
+          {
+            "id": 1657002,
+            "date": "2026-09-02T06:02:03+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu El-Chadaille Bitshiabu Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657002"
+          },
+          {
+            "id": 1656994,
+            "date": "2026-09-01T22:30:11+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Deniz Daniel Gül Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1656994"
+          },
+          {
+            "id": 1656667,
+            "date": "2026-09-01T12:30:15+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu Deniz Daniel Gül Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1656667"
+          },
+          {
+            "id": 1655994,
+            "date": "2026-08-30T13:00:36+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Rafael Alexandre Da Conceiçao Leao Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655994"
+          },
+          {
+            "id": 1655989,
+            "date": "2026-08-29T13:40:46+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu Rafael Alexandre Da Conceiçao Leao Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655989"
+          },
+          {
+            "id": 1653724,
+            "date": "2026-08-20T22:30:03+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Aleksei Batrakov Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1653724"
+          }
+        ]
+      }
+    },
+    "besiktas": {
+      "id": 10188,
+      "name": "Beşiktaş",
+      "season": "2026/2027",
+      "league": "Super Lig",
+      "coach": "Vincenzo Italiano",
+      "stadium": "Tüpraş Stadyumu",
+      "squad": {
+        "total": 34,
+        "injured": 0
+      },
+      "nextMatches": [
+        {
+          "id": 5904737,
+          "date": "2026-09-05T17:00:00.000Z",
+          "timestamp": 1788627600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904747,
+          "date": "2026-09-11T17:00:00.000Z",
+          "timestamp": 1789146000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Erzurumspor FK",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6112354,
+          "date": "2026-09-17T19:00:00.000Z",
+          "timestamp": 1789671600,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Marseille",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904752,
+          "date": "2026-09-20T17:00:00.000Z",
+          "timestamp": 1789923600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Amed Sportif",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904765,
+          "date": "2026-10-11T17:00:00.000Z",
+          "timestamp": 1791738000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Kocaelispor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6112353,
+          "date": "2026-10-15T19:00:00.000Z",
+          "timestamp": 1792090800,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Hoffenheim",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        }
+      ],
+      "recentMatches": [
+        {
+          "id": 5904729,
+          "date": "2026-08-31T18:30:00.000Z",
+          "timestamp": 1788201000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Çorum FK",
+          "homeScore": 6,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5987976,
+          "date": "2026-08-27T17:00:00.000Z",
+          "timestamp": 1787850000,
+          "tournament": "Europa League Qualification",
+          "stage": "",
+          "home": "FK Kauno Žalgiris",
+          "away": "Beşiktaş",
+          "homeScore": 1,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
+        {
+          "id": 5904715,
+          "date": "2026-08-23T18:30:00.000Z",
+          "timestamp": 1787509800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Alanyaspor",
+          "away": "Beşiktaş",
+          "homeScore": 1,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
+        {
+          "id": 5987964,
+          "date": "2026-08-20T17:00:00.000Z",
+          "timestamp": 1787245200,
+          "tournament": "Europa League Qualification",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "FK Kauno Žalgiris",
+          "homeScore": 3,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5904711,
+          "date": "2026-08-16T18:30:00.000Z",
+          "timestamp": 1786905000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Eyüpspor",
+          "homeScore": 1,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        }
+      ],
+      "officialUrl": "https://bjk.com.tr/tr/haber_listesi/1",
+      "sourceUrl": "https://www.fotmob.com/teams/10188/overview/besiktas",
+      "kap": {
+        "ticker": "BJKAS",
+        "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a241a25fcb0141a276cda10189",
+        "disclosures": [
+          {
+            "id": 1655996,
+            "date": "2026-08-30T21:15:07+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel futbolcumuz Almoatasembellah Ali Mohamed Al Musrati'nin Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655996"
+          },
+          {
+            "id": 1655995,
+            "date": "2026-08-30T20:15:03+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel futbolcumuz Amir Hadziahmetovic'in Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655995"
+          },
+          {
+            "id": 1654936,
+            "date": "2026-08-25T18:10:07+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel futbolcumuz Jean Emile Junior ONANA ONANA'nın Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1654936"
+          },
+          {
+            "id": 1649384,
+            "date": "2026-08-13T18:10:10+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Dusan Vlahovic'in  transferi konusunda Oyuncu ile sözleşme imzalanmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1649384"
+          },
+          {
+            "id": 1648818,
+            "date": "2026-08-12T18:45:04+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu Dusan Vlahovic Hakkında ",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1648818"
+          },
+          {
+            "id": 1633941,
+            "date": "2026-07-15T20:00:11+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Leandro Trossard'ın Transferi Konusunda Kulübü ve Kendisi ile Anlaşmaya Varılmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1633941"
+          }
+        ]
+      }
+    },
+    "trabzonspor": {
+      "id": 9752,
+      "name": "Trabzonspor",
+      "season": "2026/2027",
+      "league": "Super Lig",
+      "coach": "Fatih Tekke",
+      "stadium": "Papara Park",
+      "squad": {
+        "total": 30,
+        "injured": 4
+      },
+      "nextMatches": [
+        {
+          "id": 5904731,
+          "date": "2026-09-06T17:00:00.000Z",
+          "timestamp": 1788714000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Gençlerbirliği",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904745,
+          "date": "2026-09-12T17:00:00.000Z",
+          "timestamp": 1789232400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Konyaspor",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904749,
+          "date": "2026-09-19T17:00:00.000Z",
+          "timestamp": 1789837200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904766,
+          "date": "2026-10-11T17:00:00.000Z",
+          "timestamp": 1791738000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Samsunspor",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 6112478,
+          "date": "2026-10-15T16:45:00.000Z",
+          "timestamp": 1792082700,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "KuPS",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
+        {
+          "id": 5904767,
+          "date": "2026-10-18T17:00:00.000Z",
+          "timestamp": 1792342800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        }
+      ],
+      "recentMatches": [
+        {
+          "id": 5904725,
+          "date": "2026-08-31T18:30:00.000Z",
+          "timestamp": 1788201000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Amed Sportif",
+          "away": "Trabzonspor",
+          "homeScore": 2,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
+        {
+          "id": 5987967,
+          "date": "2026-08-27T18:30:00.000Z",
+          "timestamp": 1787855400,
+          "tournament": "Europa League Qualification",
+          "stage": "",
+          "home": "Ferencváros",
+          "away": "Trabzonspor",
+          "homeScore": 4,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
+        {
+          "id": 5904713,
+          "date": "2026-08-23T16:00:00.000Z",
+          "timestamp": 1787500800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Başakşehir",
+          "homeScore": 2,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
+        {
+          "id": 5987955,
+          "date": "2026-08-20T17:00:00.000Z",
+          "timestamp": 1787245200,
+          "tournament": "Europa League Qualification",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Ferencváros",
+          "homeScore": 0,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
+        {
+          "id": 5904705,
+          "date": "2026-08-15T16:00:00.000Z",
+          "timestamp": 1786809600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Kasımpaşa",
+          "away": "Trabzonspor",
+          "homeScore": 1,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        }
+      ],
+      "officialUrl": "https://www.trabzonspor.org.tr/tr/haberler?team=trabzonspor",
+      "sourceUrl": "https://www.fotmob.com/teams/9752/overview/trabzonspor",
+      "kap": {
+        "ticker": "TSPOR",
+        "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
+        "disclosures": [
+          {
+            "id": 1657232,
+            "date": "2026-09-02T15:13:45+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Fatih Tekke İle Olan Sözleşmenin Feshi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657232"
+          },
+          {
+            "id": 1656180,
+            "date": "2026-08-31T13:34:33+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Göktan Gürpüz Geçici Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1656180"
+          },
+          {
+            "id": 1646171,
+            "date": "2026-08-10T12:03:28+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Salih Malkoçoğlu Kesin Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1646171"
+          },
+          {
+            "id": 1643233,
+            "date": "2026-08-04T23:32:19+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Mohamed Salah Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1643233"
+          },
+          {
+            "id": 1638915,
+            "date": "2026-07-29T18:30:04+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Rene Mitongo Muteba Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1638915"
+          },
+          {
+            "id": 1634753,
+            "date": "2026-07-19T22:00:14+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Christ Ravynel Inao Oulai Kesin Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1634753"
+          }
+        ]
+      }
+    }
+  }
+}

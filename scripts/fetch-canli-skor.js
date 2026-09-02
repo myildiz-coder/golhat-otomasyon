@@ -4,6 +4,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const API_ROOT = 'https://v3.football.api-sports.io';
+const FOTMOB_ROOT = 'https://www.fotmob.com/api/data/matches';
+const REQUEST_TIMEOUT_MS = 12000;
 const OUTPUT_PATH = path.resolve(__dirname, '..', 'data', 'canli-skorlar.json');
 const TIMEZONE = 'Europe/Istanbul';
 const TRACKED_LEAGUES = [
@@ -18,6 +20,20 @@ const TRACKED_LEAGUES = [
   61,  // Ligue 1
   88   // Eredivisie
 ];
+const FOTMOB_LEAGUE_IDS = new Map([
+  ['TUR|super lig', 203],
+  ['INT|champions league', 2],
+  ['INT|europa league', 3],
+  ['INT|conference league', 848],
+  ['INT|europa conference league', 848],
+  ['ENG|premier league', 39],
+  ['ESP|laliga', 140],
+  ['ESP|la liga', 140],
+  ['ITA|serie a', 135],
+  ['GER|bundesliga', 78],
+  ['FRA|ligue 1', 61],
+  ['NED|eredivisie', 88]
+]);
 const TRACKED_SET = new Set(TRACKED_LEAGUES);
 const LEAGUE_PRIORITY = new Map(TRACKED_LEAGUES.map((id, index) => [id, index]));
 const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'INT', 'LIVE']);
@@ -91,6 +107,73 @@ function normalizeFixtures(body) {
     });
 }
 
+function normalizeFotmobMatches(body) {
+  const leagues = Array.isArray(body?.leagues) ? body.leagues : [];
+  const matches = [];
+  for (const league of leagues) {
+    const key = String(league?.ccode || '') + '|' +
+      String(league?.name || '').toLocaleLowerCase('en-US');
+    const leagueId = FOTMOB_LEAGUE_IDS.get(key);
+    if (!leagueId) continue;
+    for (const fixture of Array.isArray(league?.matches) ? league.matches : []) {
+      const date = String(fixture?.status?.utcTime || '');
+      const status = fixture?.status?.cancelled ? 'PST'
+        : fixture?.status?.finished ? 'FT'
+          : fixture?.status?.started ? 'LIVE' : 'NS';
+      matches.push({
+        id: Number(fixture?.id || 0),
+        leagueId,
+        league: String(league?.name || ''),
+        country: String(league?.ccode || ''),
+        round: String(fixture?.tournamentStage || ''),
+        date,
+        timestamp: Math.floor(new Date(date || 0).getTime() / 1000),
+        venue: '',
+        home: String(fixture?.home?.longName || fixture?.home?.name || ''),
+        away: String(fixture?.away?.longName || fixture?.away?.name || ''),
+        homeScore: fixture?.home?.score == null ? null : Number(fixture.home.score),
+        awayScore: fixture?.away?.score == null ? null : Number(fixture.away.score),
+        minute: fixture?.status?.liveTime?.short == null
+          ? null : Number.parseInt(fixture.status.liveTime.short, 10) || null,
+        status,
+        statusLong: String(fixture?.status?.reason?.long || ''),
+        kind: matchKind(status)
+      });
+    }
+  }
+  return matches
+    .filter((match) => match.id && match.date && match.home && match.away)
+    .sort((left, right) => {
+      const priority = (LEAGUE_PRIORITY.get(left.leagueId) ?? 99) -
+        (LEAGUE_PRIORITY.get(right.leagueId) ?? 99);
+      return priority || left.timestamp - right.timestamp || left.id - right.id;
+    });
+}
+
+function wait(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+async function fetchWithRetry(url, options, label, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        ...options,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS)
+      });
+      if (response.ok) return response;
+      if (response.status !== 429 && response.status < 500) {
+        throw new Error(label + ' request failed: HTTP ' + response.status);
+      }
+      lastError = new Error(label + ' temporary failure: HTTP ' + response.status);
+    } catch (error) {
+      lastError = error;
+    }
+    if (attempt < attempts) await wait(500 * (2 ** (attempt - 1)));
+  }
+  throw lastError;
+}
 function summaryFor(matches) {
   return matches.reduce((summary, match) => {
     summary.total += 1;
@@ -103,19 +186,26 @@ function summaryFor(matches) {
 
 async function fetchFixtures(date, key) {
   const query = new URLSearchParams({ date, timezone: TIMEZONE });
-  const response = await fetch(API_ROOT + '/fixtures?' + query, {
+  const response = await fetchWithRetry(API_ROOT + '/fixtures?' + query, {
     headers: { 'x-apisports-key': key }
-  });
+  }, 'API-Football');
   const body = await response.json();
-
-  if (!response.ok) {
-    throw new Error('API-Football request failed: HTTP ' + response.status);
-  }
   const errors = apiErrors(body);
   if (errors.length) {
     throw new Error('API-Football error: ' + errors.join(' | '));
   }
   return body;
+}
+async function fetchFotmob(date) {
+  const query = new URLSearchParams({
+    date: date.replaceAll('-', ''),
+    ccode3: 'TUR',
+    timezone: TIMEZONE
+  });
+  const response = await fetchWithRetry(FOTMOB_ROOT + '?' + query, {
+    headers: { accept: 'application/json', 'user-agent': 'GOLHAT/1.0 (+https://golhat.com)' }
+  }, 'FotMob');
+  return response.json();
 }
 
 function writeJsonAtomic(file, value) {
@@ -127,25 +217,43 @@ function writeJsonAtomic(file, value) {
 
 async function main() {
   const key = process.env.API_FOOTBALL_KEY;
-  if (!key) throw new Error('API_FOOTBALL_KEY is missing.');
-
+  const preferFotmob = process.env.PREFER_FOTMOB === 'true';
   const date = istanbulDateString();
-  const body = await fetchFixtures(date, key);
-  const matches = normalizeFixtures(body);
+  let matches;
+  let provider;
+  let sourceUrl;
+  let degraded = false;
+  if (key && !preferFotmob) {
+    try {
+      matches = normalizeFixtures(await fetchFixtures(date, key));
+      provider = 'API-Football';
+      sourceUrl = 'https://www.api-football.com/';
+    } catch (error) {
+      degraded = true;
+      console.warn('Primary provider unavailable, using fallback:', error.message);
+    }
+  } else {
+    degraded = true;
+    if (!key) {
+      console.warn('API_FOOTBALL_KEY missing, using fallback provider.');
+    } else {
+      console.warn('Overnight quota guard enabled, using fallback provider.');
+    }
+  }
+  if (!matches) {
+    matches = normalizeFotmobMatches(await fetchFotmob(date));
+    provider = 'FotMob';
+    sourceUrl = 'https://www.fotmob.com/';
+  }
   const output = {
-    updatedAt: new Date().toISOString(),
-    source: 'API-Football',
-    sourceUrl: 'https://www.api-football.com/',
-    date,
-    timezone: TIMEZONE,
-    trackedLeagues: TRACKED_LEAGUES,
-    summary: summaryFor(matches),
-    matches
+    updatedAt: new Date().toISOString(), source: provider, sourceUrl,
+    providerChain: ['API-Football', 'FotMob'], degraded, date,
+    timezone: TIMEZONE, trackedLeagues: TRACKED_LEAGUES,
+    summary: summaryFor(matches), matches
   };
-
   writeJsonAtomic(OUTPUT_PATH, output);
   console.log(
-    'Match center written: ' + matches.length + ' matches, ' +
+    'Match center written via ' + provider + ': ' + matches.length + ' matches, ' +
     output.summary.live + ' live, ' + output.summary.upcoming + ' upcoming.'
   );
 }
@@ -162,6 +270,7 @@ module.exports = {
   apiErrors,
   istanbulDateString,
   matchKind,
+  normalizeFotmobMatches,
   normalizeFixtures,
   summaryFor
 };

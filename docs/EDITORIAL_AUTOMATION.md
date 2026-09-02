@@ -4,11 +4,20 @@ Bu depo, haber merkezi işini GitHub Actions üzerinde bilgisayardan bağımsız
 
 ## İş akışları
 
-- **GOLHAT Kategori Editörleri:** Her gün Türkiye saatiyle 08:20, 12:20, 16:20 ve 20:20.
-- **GOLHAT Baş Editör:** Her gün Türkiye saatiyle 09:00, 13:00, 17:00 ve 21:00.
-- **Canlı Skor Güncelleme:** Ayrı API-Football akışı olarak devam eder.
+- **11 sayfa editörü:** Fenerbahçe, Galatasaray, Beşiktaş, Trabzonspor, Anadolu, Süper Lig, Avrupa ligleri, Şampiyonlar Ligi, UEFA Avrupa/Konferans, Transfer ve Özel Haber masaları üç saatte bir, günün 24 saati araştırma yapar.
+- **GOLHAT Baş Editör:** Her saat ana sayfa bütünlüğünü denetler; yalnızca eşiği geçen doğrulanmış bir aday varsa model çağrısı yapar.
+- **Ana Sayfa Bütünlük:** Manşet ile haber gövdesinin kopmasını 15 dakikada bir denetler ve doğrulanmış editöryel durumdan otomatik onarır.
+- **Canlı Skor Güncelleme:** Gündüz 10, gece 30 dakikada bir çalışır. API-Football birincil, FotMob kesinti ve gece kotası yedeğidir.
+- **Kulüp ve KAP Merkezi:** Dört büyüklerin resmî açıklama, futbol KAP bildirimi, kadro, form ve fikstür verisini iki saatte bir yeniler.
+- **Lig veri masaları:** Süper Lig, UEFA turnuvaları ve altı Avrupa ligi puan/fikstür önbelleklerini gün boyunca yeniler.
 
-Üç iş akışı aynı golhat-content-writer kilidini kullanır. Böylece aynı anda iki commit/push işlemi yapılmaz.
+Toplam 13 sayfanın her birinin tek sahibi vardır: `index.html` Baş Editöre, `skor.html` Canlı Skor masasına, diğer 11 sayfa kendi editörüne bağlıdır. Bu eşleme otomatik testle korunur; sahipsiz veya çift sahipli sayfa testi geçemez.
+
+Tüm yazıcı iş akışları aynı `golhat-content-writer` kilidini kullanır. Böylece aynı anda iki commit/push işlemi yapılmaz.
+
+## Ortak yayın politikası
+
+Baş Editör ve tüm sayfa editörleri [GOLHAT Yayın Politikası](YAYIN_POLITIKASI.md) ile bağlıdır. Millî-muhafazakâr yayın kimliği; KKTC, Türk tarihi ve yabancı siyasi terminoloji için ortak anlatım çerçevesi sağlar. Bu çerçeve doğrulanmış skor, tarih, belge, alıntı veya karşıt kanıtın değiştirilmesine izin vermez.
 
 ## Yayın güvenliği
 

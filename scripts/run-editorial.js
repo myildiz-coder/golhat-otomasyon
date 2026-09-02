@@ -5,6 +5,7 @@ const {
   EDITOR_ROLES,
   ALLOWED_TAGS,
   SOURCE_RULES,
+  EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
   MAX_STORIES_PER_PAGE,
@@ -134,7 +135,8 @@ function categoryRequest(role, now, model) {
       'Görsel önerme; site gerçek kişi fotoğrafı ve yapay haber görseli kullanmaz.',
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
-      SOURCE_RULES
+      SOURCE_RULES,
+      EDITORIAL_POLICY
     ].join('\n'),
     input: [
       'Editör: ' + role.label,
@@ -177,6 +179,7 @@ function headRequest(candidates, currentStory, now, model) {
     reasoning: { effort: 'low' },
     instructions: [
       'Sen GOLHAT Baş Editörüsün.',
+      EDITORIAL_POLICY,
       'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfaya gerçekten manşet değeri taşıyan tek haberi seç.',
       'Yeni olgu, kaynak veya story_id üretme. Adaylar yeterince güçlü değilse no_change seç.',
       'Güncellik, kamu yararı, Türkiye futboluna etkisi ve kaynak gücünü birlikte değerlendir.',

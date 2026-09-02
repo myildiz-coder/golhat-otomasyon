@@ -1,0 +1,49 @@
+name: GOLHAT Kulüp ve KAP Merkezi
+
+on:
+  schedule:
+    # Dört büyüklerin resmî açıklama, KAP, fikstür ve kadro verisini 7/24 yenile.
+    - cron: '25 */2 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golhat-content-writer
+  cancel-in-progress: false
+
+jobs:
+  update-club-hub:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Veri ve sayfa testleri
+        run: npm test
+
+      - name: Kulüp, fikstür ve KAP verisini çek
+        run: node scripts/fetch-kulup-merkezi.js
+
+      - name: Değişiklik varsa commit et ve gönder
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "golhat-club-desk"
+          git config user.email "actions@github.com"
+          git add data/kulup-merkezi.json
+          if git diff --cached --quiet; then
+            echo "Kulüp merkezinde değişiklik yok."
+            exit 0
+          fi
+          git commit -m "Kulüp ve KAP merkezi güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -2,8 +2,8 @@ name: GOLHAT Baş Editör
 
 on:
   schedule:
-    # Türkiye saati: 09:00, 13:00, 17:00, 21:00 (UTC+3)
-    - cron: '0 6,10,14,18 * * *'
+    # 7/24 denetim: Baş Editör her saatin beşinci dakikasında çalışır.
+    - cron: '5 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:

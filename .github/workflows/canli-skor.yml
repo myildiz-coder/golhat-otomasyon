@@ -4,8 +4,10 @@ on:
   schedule:
     # Günün tam programını Türkiye saati 06:00'da hazırla (UTC 03:00)
     - cron: '0 3 * * *'
-    # Türkiye saatiyle yaklaşık 12:00–24:00 arası, 15 dakikada bir (UTC 09:00–21:00)
-    - cron: '*/15 9-21 * * *'
+    # Türkiye saatiyle yaklaşık 12:00–24:00 arası, 10 dakikada bir (UTC 09:00–21:00)
+    - cron: '*/10 9-21 * * *'
+    # Gece ve sabah hattı: FotMob yedeğiyle 30 dakikada bir (API-Football kotasını korur)
+    - cron: '*/30 0-8,22-23 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -34,6 +36,7 @@ jobs:
 
       - name: Günün maç programını ve canlı skorları çek
         env:
+          PREFER_FOTMOB: ${{ github.event.schedule == '*/30 0-8,22-23 * * *' && 'true' || 'false' }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: node scripts/fetch-canli-skor.js
 

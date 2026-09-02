@@ -2,8 +2,8 @@ name: GOLHAT Kategori Editörleri
 
 on:
   schedule:
-    # Türkiye saati: 08:20, 12:20, 16:20, 20:20 (UTC+3)
-    - cron: '20 5,9,13,17 * * *'
+    # 7/24 vardiya: bütün sayfa editörleri üç saatte bir çalışır.
+    - cron: '20 */3 * * *'
   workflow_dispatch:
     inputs:
       role:
@@ -16,10 +16,14 @@ on:
           - fenerbahce
           - galatasaray
           - besiktas
-          - trabzon_anadolu
+          - trabzonspor
+          - anadolu
           - super_lig
-          - avrupa_kupalari
-          - transfer_ozel
+          - avrupa
+          - sampiyonlar_ligi
+          - uefa
+          - transfer
+          - ozel_haber
       dry_run:
         description: Yalnızca araştır ve doğrula; dosyaları değiştirme
         required: true
@@ -39,7 +43,7 @@ env:
 jobs:
   editorial:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 60
 
     steps:
       - uses: actions/checkout@v4

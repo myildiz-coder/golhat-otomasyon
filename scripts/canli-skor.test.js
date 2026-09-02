@@ -6,6 +6,7 @@ const {
   TRACKED_LEAGUES,
   istanbulDateString,
   matchKind,
+  normalizeFotmobMatches,
   normalizeFixtures,
   summaryFor
 } = require('./fetch-canli-skor');
@@ -62,8 +63,37 @@ test('durumlar ve ozet sayilari canli, oynanacak ve biten olarak ayrilir', () =>
   assert.deepEqual(summaryFor([
     { kind: 'live' },
     { kind: 'upcoming' },
+
     { kind: 'upcoming' },
     { kind: 'finished' },
     { kind: 'other' }
   ]), { total: 5, live: 1, upcoming: 2, finished: 1 });
+});
+
+test('FotMob yedek akışı aynı canlı skor şemasına dönüştürülür', () => {
+  const matches = normalizeFotmobMatches({
+    leagues: [{
+      ccode: 'ENG',
+      name: 'Premier League',
+      matches: [{
+        id: 44,
+        tournamentStage: '5',
+        home: { name: 'Arsenal', longName: 'Arsenal FC', score: 1 },
+        away: { name: 'Liverpool', score: 1 },
+        status: {
+          utcTime: '2026-09-02T18:00:00.000Z',
+          started: true,
+          finished: false,
+          cancelled: false,
+          liveTime: { short: '67' },
+          reason: { long: 'Second Half' }
+        }
+      }]
+    }]
+  });
+  assert.equal(matches.length, 1);
+  assert.equal(matches[0].leagueId, 39);
+  assert.equal(matches[0].kind, 'live');
+  assert.equal(matches[0].minute, 67);
+  assert.equal(matches[0].home, 'Arsenal FC');
 });

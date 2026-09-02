@@ -11,44 +11,81 @@ const PAGE_LABELS = Object.freeze({
   'sampiyonlar-ligi.html': 'Şampiyonlar Ligi',
   'uefa.html': 'UEFA Avrupa ve Konferans Ligi',
   'transfer.html': 'Transfer Hattı',
-  'ozel-haber.html': 'Özel Haber'
+  'ozel-haber.html': 'Özel Haber',
+  'skor.html': 'Canlı Skor'
+});
+
+const PAGE_OWNERS = Object.freeze({
+  'index.html': 'bas_editor',
+  'skor.html': 'canli_skor',
+  'fenerbahce.html': 'fenerbahce',
+  'galatasaray.html': 'galatasaray',
+  'besiktas.html': 'besiktas',
+  'trabzonspor.html': 'trabzonspor',
+  'anadolu.html': 'anadolu',
+  'super-lig.html': 'super_lig',
+  'avrupa.html': 'avrupa',
+  'sampiyonlar-ligi.html': 'sampiyonlar_ligi',
+  'uefa.html': 'uefa',
+  'transfer.html': 'transfer',
+  'ozel-haber.html': 'ozel_haber'
 });
 
 const EDITOR_ROLES = Object.freeze({
   fenerbahce: {
     label: 'Fenerbahçe Editörü',
     pages: ['fenerbahce.html'],
-    topics: 'Fenerbahçe transferleri, maçları, teknik ekip, yönetim ve resmi kulüp açıklamaları'
+    topics: 'Fenerbahçe transferleri, maçları, teknik ekip, yönetim, resmi kulüp ve KAP açıklamaları'
   },
   galatasaray: {
     label: 'Galatasaray Editörü',
     pages: ['galatasaray.html'],
-    topics: 'Galatasaray transferleri, maçları, teknik ekip, yönetim ve resmi kulüp açıklamaları'
+    topics: 'Galatasaray transferleri, maçları, teknik ekip, yönetim, resmi kulüp ve KAP açıklamaları'
   },
   besiktas: {
     label: 'Beşiktaş Editörü',
     pages: ['besiktas.html'],
-    topics: 'Beşiktaş transferleri, maçları, teknik ekip, yönetim ve resmi kulüp açıklamaları'
+    topics: 'Beşiktaş transferleri, maçları, teknik ekip, yönetim, resmi kulüp ve KAP açıklamaları'
   },
-  trabzon_anadolu: {
-    label: 'Trabzonspor ve Anadolu Editörü',
-    pages: ['trabzonspor.html', 'anadolu.html'],
-    topics: 'Trabzonspor ile Süper Lig ve 1. Lig Anadolu kulüplerinin transfer, maç, teknik ekip ve yönetim gelişmeleri'
+  trabzonspor: {
+    label: 'Trabzonspor Editörü',
+    pages: ['trabzonspor.html'],
+    topics: 'Trabzonspor transferleri, maçları, teknik ekip, yönetim, resmi kulüp ve KAP açıklamaları'
+  },
+  anadolu: {
+    label: 'Anadolu Kulüpleri Editörü',
+    pages: ['anadolu.html'],
+    topics: 'Süper Lig ve 1. Lig Anadolu kulüplerinin transfer, maç, teknik ekip ve yönetim gelişmeleri'
   },
   super_lig: {
     label: 'Süper Lig Editörü',
     pages: ['super-lig.html'],
     topics: 'Süper Lig geneli, TFF ve hakem gündemi, puan durumu, fikstür ve haftanın önemli gelişmeleri'
   },
-  avrupa_kupalari: {
-    label: 'Avrupa Kupaları Editörü',
-    pages: ['avrupa.html', 'sampiyonlar-ligi.html', 'uefa.html'],
-    topics: 'Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi, Türk takımlarının Avrupa performansı ve dünya futbolundaki önemli gelişmeler'
+  avrupa: {
+    label: 'Avrupa Ligleri Editörü',
+    pages: ['avrupa.html'],
+    topics: 'İngiltere, İspanya, İtalya, Almanya, Fransa ve Hollanda liglerindeki önemli gelişmeler'
   },
-  transfer_ozel: {
-    label: 'Transfer ve Özel Haber Editörü',
-    pages: ['transfer.html', 'ozel-haber.html'],
-    topics: 'Türkiye ve Avrupa transfer gündemi ile birden fazla kaynakla kurulabilen derinlemesine özel dosyalar'
+  sampiyonlar_ligi: {
+    label: 'Şampiyonlar Ligi Editörü',
+    pages: ['sampiyonlar-ligi.html'],
+    topics: 'Şampiyonlar Ligi, Türk takımları, haftanın maçları, kura ve resmi UEFA açıklamaları'
+  },
+  uefa: {
+    label: 'Avrupa ve Konferans Ligi Editörü',
+    pages: ['uefa.html'],
+    topics: 'Avrupa Ligi ve Konferans Ligi, Türk takımları, haftanın maçları, kura ve resmi UEFA açıklamaları'
+  },
+  transfer: {
+    label: 'Transfer Hattı Editörü',
+    pages: ['transfer.html'],
+    topics: 'Türkiye ve Avrupa futbolundaki doğrulanmış transfer görüşmeleri, imzalar ve sözleşme gelişmeleri'
+  },
+  ozel_haber: {
+    label: 'Özel Haber Editörü',
+    pages: ['ozel-haber.html'],
+    topics: 'Birden fazla güvenilir kaynakla kurulabilen özgün ve derinlemesine futbol dosyaları'
   }
 });
 
@@ -64,12 +101,25 @@ const ALLOWED_TAGS = Object.freeze([
 
 const SOURCE_RULES = `
 - Önce resmi kulüp, federasyon, UEFA/FIFA ve doğrudan taraf açıklamalarını ara.
+- Halka açık futbol şirketlerinin transfer, oyuncu sözleşmesi ve teknik yönetim bildirimlerinde KAP'ı birincil resmi kaynak olarak kontrol et.
 - Ardından Reuters, AP, BBC Sport, Sky Sports, The Athletic ve güvenilir Türk spor yayınları gibi editoryal kaynaklarla çapraz doğrula.
 - Sosyal medya paylaşımını tek başına yeterli kaynak sayma; paylaşımın resmi hesaptan geldiğini güvenilir bir haber kaynağıyla doğrula.
 - Her yayınlanabilir haber için en az iki farklı alan adından, gerçekten açılmış web araması sonucu URL'si ver.
 - URL uydurma, arama sonucu olmayan adres üretme ve aynı ajans metnini kopyalayan siteleri bağımsız kaynak gibi sayma.
 `.trim();
 
+
+const EDITORIAL_POLICY = `
+- GOLHAT millî-muhafazakâr bir yayın kimliğine sahiptir; Türkiye Cumhuriyeti'nin ülkesi ve milletiyle bölünmez bütünlüğünü esas alır.
+- Türk milletinin tarihî sürekliliğine, kültürüne ve ortak hafızasına saygılı; geçmişiyle gurur duyan bir dil kullan.
+- Gazi Mustafa Kemal Atatürk'ü Türkiye Cumhuriyeti'nin kurucusu ve banisi olarak an; Fatih Sultan Mehmet, Kâzım Karabekir ve Fevzi Çakmak'ı tarihimizin ve millî mücadele hafızamızın asli şahsiyetleri olarak değerlendir.
+- Kuzey Kıbrıs konusunda yayın dilinde “Kuzey Kıbrıs Türk Cumhuriyeti (KKTC)” adını kullan; Kıbrıs Türk halkının Türk kimliğini görmezden gelen veya KKTC'yi yalnızca “kuzeydeki yönetim” diye tanımlayan siyasi ifadeleri GOLHAT'ın anlatım sesiyle tekrarlama.
+- KKTC'nin uluslararası statüsü veya tanınma durumu haberin konusuysa doğrulanabilir hukuki ve diplomatik olguları eksiksiz aktar; görüş ile olguyu birbirine karıştırma.
+- Ermenistan veya başka bir devletin Türkiye ve Türkler hakkındaki siyasi tezlerini tarafsız gerçek gibi benimseme. Bu görüşleri gerektiğinde açıkça sahibine atfet, Türk resmî kaynakları ve bağımsız olgularla bağlamlandır.
+- Yabancı yayınların yüklü siyasi terminolojisini birebir kopyalama. Haberi özgün Türkçeyle yeniden yaz; doğrudan alıntıyı zorunlu olmadıkça kullanma ve kullandığında kaynağını açıkça belirt.
+- Millî yayın kimliği; skor, tarih, belge, alıntı veya karşıt kanıtı değiştirme gerekçesi değildir. Doğrulanmış olguları saklama, çarpıtma veya uydurma.
+- Kulüp rekabetinde eşit mesafeyi koru. Irk, etnik köken, din veya mezhep temelinde aşağılayıcı, dışlayıcı ya da düşmanlaştırıcı dil kullanma.
+`.trim();
 const DEFAULT_MODEL = 'gpt-5.6-luna';
 const MAX_STORIES_PER_RUN = 3;
 const MAX_STORIES_PER_PAGE = 8;
@@ -81,9 +131,11 @@ const HOMEPAGE_HOLD_HOURS = 12;
 
 module.exports = {
   PAGE_LABELS,
+  PAGE_OWNERS,
   EDITOR_ROLES,
   ALLOWED_TAGS,
   SOURCE_RULES,
+  EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
   MAX_STORIES_PER_PAGE,
