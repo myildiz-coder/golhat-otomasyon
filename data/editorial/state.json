@@ -1,7 +1,157 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T18:34:09.648Z",
+  "updatedAt": "2026-09-02T18:53:50.239Z",
   "stories": [
+    {
+      "id": "e3fd0387f3c1db3e",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’de Diego Carlos ayrılığı resmileşti: Parma’ya bir yıllığına kiralandı",
+      "summary": "Fenerbahçe, Brezilyalı stoper Diego Carlos’un İtalya Serie A ekibi Parma Calcio’ya bir yıllığına kiralandığını açıkladı. Ayrılık, kulübün resmi duyurusu ve bağımsız spor kaynaklarının haberleriyle doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "publishedAt": "2026-09-01T14:49:00.000Z",
+      "discoveredAt": "2026-09-02T18:53:50.239Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe’den ayrılık açıklaması!",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/fenerbahce/2026/09/01/fenerbahceden-ayrilik-aciklamasi",
+          "publishedAt": "2026-09-01T17:49:00+03:00"
+        },
+        {
+          "title": "Fenerbahçe, Diego Carlos’u Parma’ya kiraladı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahce-ayriligi-resmen-duyurdu-kiralik-gitti",
+          "publishedAt": "2026-09-01T14:47:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "fc583037957919b7",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’de Jayden Oosterwolde ameliyat edildi: Dönüş için aralık ayını işaret etti",
+      "summary": "Fenerbahçe, sol bacak arka adalesindeki sakatlığı bulunan Jayden Oosterwolde’nin Finlandiya’da ameliyat edildiğini duyurdu. Oyuncu ise tedavi sürecinin ardından aralık ayı başında Kadıköy’de sahalara dönmeyi beklediğini açıkladı.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "publishedAt": "2026-09-01T12:33:00.000Z",
+      "discoveredAt": "2026-09-02T18:53:50.239Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe’nin Hollandalı futbolcusu Oosterwolde, ameliyat edildi",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahcenin-hollandali-futbolcusu-oosterwolde-ameliyat-edildi/4044002",
+          "publishedAt": "2026-09-01T00:00:00+03:00"
+        },
+        {
+          "title": "Oosterwolde’den paylaşım: Tekrar görüşeceğiz!",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/spor/oosterwolde-den-sakatlik-paylasimi-3909550",
+          "publishedAt": "2026-09-01T15:33:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "a2c3b36390008f96",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ta Joao Mario dönemi sona erdi",
+      "summary": "Beşiktaş, Portekizli futbolcu Joao Mario Naval Da Costa Eduardo’nun sözleşmesinin karşılıklı anlaşmayla sonlandırıldığını açıkladı. Siyah-beyazlı kulüp, 2 Eylül 2026 tarihli duyurusunda oyuncuya hizmetleri için teşekkür etti. Anadolu Ajansı da ayrılığı kulübün resmi açıklamasına dayanarak duyurdu.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "discoveredAt": "2026-09-02T18:53:50.239Z",
+      "sources": [
+        {
+          "title": "Joao Mario Naval Da Costa Eduardo ile Yollarımız Ayrıldı",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95027",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Beşiktaş'ta Portekizli futbolcu Joao Mario ile yollar ayrıldı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/besiktasta-portekizli-futbolcu-joao-mario-ile-yollar-ayrildi/4045442",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "029ac234868c3754",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Borussia Dortmund, Arsenal’in genç yıldızı Ethan Nwaneri’yi sezon sonuna kadar kiraladı",
+      "summary": "Borussia Dortmund, Arsenal’in 19 yaşındaki orta saha oyuncusu Ethan Nwaneri’yi 2026-27 sezonunun sonuna kadar kiralık olarak kadrosuna kattı. Bundesliga kulübü, transferi Giannis Konstantelias’ın sakatlığı sonrası kadro takviyesi olarak açıkladı. Nwaneri’nin Dortmund’daki kiralık sözleşmesinde satın alma opsiyonu bulunduğuna dair doğrulanmış bilgi paylaşılmadı.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "publishedAt": "2026-09-01T18:00:00.000Z",
+      "discoveredAt": "2026-09-02T18:53:50.239Z",
+      "sources": [
+        {
+          "title": "BVB signs Ethan Nwaneri on loan",
+          "publisher": "Borussia Dortmund",
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/1/BVB-signs-Ethan-Nwaneri-on-loan.html",
+          "publishedAt": "2026-09-01T18:00:00Z"
+        },
+        {
+          "title": "Arsenal teenager Ethan Nwaneri joins Borussia Dortmund on loan",
+          "publisher": "Bundesliga",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/arsenal-ethan-nwaneri-borussia-dortmund-loan-deal-injury-ole-book-38938",
+          "publishedAt": "2026-09-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6a7d7602fe0729c4",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Galatasaray, El-Chadaille Bitshiabu transferini tamamladı",
+      "summary": "Galatasaray, RB Leipzig'in 20 yaşındaki stoperi El-Chadaille Bitshiabu'yu 2026-2027 sezonu sonuna kadar satın alma opsiyonuyla kiraladığını açıkladı. Kiralama bedeli 2 milyon euro, satın alma opsiyonu ise 28 milyon euro olarak duyuruldu.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "publishedAt": "2026-09-02T18:02:00.000Z",
+      "discoveredAt": "2026-09-02T18:53:50.239Z",
+      "sources": [
+        {
+          "title": "El-Chadaille Bitshiabu Galatasaray'da",
+          "publisher": "Galatasaray",
+          "url": "https://www.galatasaray.org/haber/gs-sportif-a-s/el-chadaille-bitshiabu-galatasarayda/60877",
+          "publishedAt": "2026-09-02T21:02:00+03:00"
+        },
+        {
+          "title": "Galatasaray bir transferi daha KAP'a bildirdi! İşte ilk sözleri",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://www.beinsports.com.tr/haber/galatasaray-bir-transferi-daha-kapa-bildirdi-2",
+          "publishedAt": "2026-09-02T05:30:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "33e31893be7f5187",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Trabzonspor, Folarin Balogun için Monaco ile temas kurdu",
+      "summary": "Trabzonspor'un, Everton'a gerçekleşmeyen transferinin ardından Monaco'da kalan Folarin Balogun'un şartlarını sorduğu ve Fransız kulübüyle temas başlattığı ileri sürüldü. Resmi teklif veya anlaşma açıklanmadı; Monaco'nun kararını teklifin mali gücüne göre vereceği aktarılıyor.",
+      "tag": "İddia",
+      "importance": 70,
+      "publishedAt": "2026-09-02T13:40:00.000Z",
+      "discoveredAt": "2026-09-02T18:53:50.239Z",
+      "sources": [
+        {
+          "title": "Trabzonspor Folarin Balogun'un şartlarını sordu",
+          "publisher": "61saat",
+          "url": "https://www.61saat.com/trabzonspor-folarin-balogunun-sartlarini-sordu",
+          "publishedAt": "2026-09-02T16:40:00+03:00"
+        },
+        {
+          "title": "Club move to take advantage after Everton deadline day drama – Transfer depends on ‘strength’ of offer",
+          "publisher": "Sport Witness",
+          "url": "https://sportwitness.co.uk/club-move-to-take-advantage-after-everton-deadline-day-drama-transfer-depends-on-strength-of-offer",
+          "publishedAt": "2026-09-02T13:16:00+03:00"
+        }
+      ]
+    },
     {
       "id": "052e44ee7cb9a71a",
       "role": "avrupa",
