@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:34:38.598Z",
+  "updatedAt": "2026-09-02T18:37:27.829Z",
   "sources": [
     {
       "name": "FotMob",
@@ -408,6 +408,13 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
         "disclosures": [
           {
+            "id": 1657686,
+            "date": "2026-09-02T21:00:10+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu El-Chadaille Bitshiabu Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657686"
+          },
+          {
             "id": 1657002,
             "date": "2026-09-02T06:02:03+03:00",
             "type": "Transfer Görüşmeleri",
@@ -441,13 +448,6 @@
             "type": "Transfer Görüşmeleri",
             "summary": "Profesyonel Futbolcu Rafael Alexandre Da Conceiçao Leao Hakkında",
             "url": "https://www.kap.org.tr/tr/Bildirim/1655989"
-          },
-          {
-            "id": 1653724,
-            "date": "2026-08-20T22:30:03+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "Profesyonel Futbolcu Aleksei Batrakov Transferi Hakkında",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1653724"
           }
         ]
       }
