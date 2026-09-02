@@ -11,7 +11,7 @@ const PAGE_LABELS = Object.freeze({
   'sampiyonlar-ligi.html': 'Şampiyonlar Ligi',
   'uefa.html': 'UEFA Avrupa ve Konferans Ligi',
   'transfer.html': 'Transfer Hattı',
-  'ozel-haber.html': 'Özel Haber',
+  'ozel-haber.html': 'Araştırma Dosyaları ve Özel Haber',
   'skor.html': 'Canlı Skor'
 });
 
@@ -130,9 +130,14 @@ const EDITOR_ROLES = Object.freeze({
     topics: 'Türkiye ve Avrupa futbolundaki doğrulanmış transfer görüşmeleri, imzalar ve sözleşme gelişmeleri'
   },
   ozel_haber: {
-    label: 'Özel Haber Editörü',
+    label: 'Araştırma Dosyaları ve Özel Haber Editörü',
     pages: ['ozel-haber.html'],
-    topics: 'Birden fazla güvenilir kaynakla kurulabilen özgün ve derinlemesine futbol dosyaları'
+    topics: 'Belge, resmi veri ve en az üç bağımsız kaynakla kurulan özgün futbol araştırmaları; kamu yararı taşıyan özel haberler ve kalıcı arama sorularını yanıtlayan dosyalar',
+    researchTeam: [
+      'Veri editörü: sayıları, sözleşmeleri, fikstürü ve resmi kayıtları karşılaştırır',
+      'Kaynak editörü: taraf beyanlarını, birincil belgeleri ve çelişkileri doğrular',
+      'Arama niyeti editörü: okurun açık sorusunu belirler; başlık ve özeti doğal Türkçeyle kurar'
+    ]
   }
 });
 
@@ -143,7 +148,9 @@ const ALLOWED_TAGS = Object.freeze([
   'İddia',
   'Maç Sonucu',
   'Puan Durumu',
-  'Analiz'
+  'Analiz',
+  'Dosya',
+  'Özel Haber'
 ]);
 
 const SOURCE_RULES = `
@@ -176,6 +183,8 @@ const HOMEPAGE_MIN_IMPORTANCE = 82;
 const HOMEPAGE_MAX_DAILY_CHANGES = 3;
 const HOMEPAGE_MIN_IMPROVEMENT = 8;
 const HOMEPAGE_HOLD_HOURS = 12;
+const HOMEPAGE_SLOT_COUNT = 4;
+const DOSSIER_MIN_SOURCES = 3;
 
 module.exports = {
   PAGE_LABELS,
@@ -192,5 +201,7 @@ module.exports = {
   HOMEPAGE_MIN_IMPORTANCE,
   HOMEPAGE_MAX_DAILY_CHANGES,
   HOMEPAGE_MIN_IMPROVEMENT,
-  HOMEPAGE_HOLD_HOURS
+  HOMEPAGE_HOLD_HOURS,
+  HOMEPAGE_SLOT_COUNT,
+  DOSSIER_MIN_SOURCES
 };

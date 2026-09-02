@@ -14,10 +14,15 @@ const {
   assertEditorialLanguage,
   storyMatchesPage,
   stripHtml,
+  storySlug,
+  storyUrl,
   validateStory,
   buildCategoryHtml,
   buildHomepageArchiveHtml,
   buildHomepageHtml,
+  selectHomepageStories,
+  buildStoryPageHtml,
+  buildSitemapXml,
   assertHomepageIntegrity
 } = require('./editorial-lib');
 
@@ -189,7 +194,13 @@ test('mevcut haber kartlarının tamamı kendi sayfasının konusundadır', () =
     }
     const main = (html.match(/<main[^>]*>([\s\S]*?)<\/main>/) || [])[1] || '';
     for (const link of main.matchAll(/href="\/([^"#?]+\.html)(?:[^"]*)"/g)) {
-      assert.equal(link[1], page, page + ' başka haber sayfasına bağlantı veriyor: ' + link[1]);
+      if (link[1].startsWith('haber/')) {
+        assert.match(link[1], /^haber\/[a-z0-9-]+\.html$/);
+        assert.equal(fs.existsSync(path.join(__dirname, "..", link[1])), true, page + " kalıcı haber bağlantısı bulunamadı: " + link[1]);
+        assert.equal(fs.existsSync(path.join(__dirname, '..', link[1])), true, page + ' kalıcı haber bağlantısı bulunamadı: ' + link[1]);
+      } else {
+        assert.equal(link[1], page, page + ' başka haber sayfasına bağlantı veriyor: ' + link[1]);
+      }
     }
   }
 });
@@ -353,4 +364,63 @@ test('özel sayfa yapısı korunarak ayrı otomasyon bölümü eklenir', () => {
   assert.equal(output.includes(START_MARKER), true);
   assert.equal(output.includes(END_MARKER), true);
   assert.doesNotMatch(output, /<img\b/i);
+});
+
+
+test('ana sayfa dört numaralı manşet havuzu kurar ve araştırma dosyasını öne alabilir', () => {
+  const primary = validStory();
+  const candidates = Array.from({ length: 4 }, (_, index) => ({
+    ...primary,
+    id: 'slot-' + index,
+    page: index === 0 ? 'ozel-haber.html' : 'fenerbahce.html',
+    headline: index === 0 ? 'Futbol ekonomisinin görünmeyen maliyetlerini inceleyen araştırma dosyası' : 'Fenerbahçe için doğrulanan gelişme ' + index + ' ayrıntılarıyla açıklandı',
+    summary: 'Birden fazla resmi veri ve bağımsız kaynağın karşılaştırılmasıyla hazırlanan bu içerik, futbol gündemindeki gelişmenin etkisini ayrıntılı biçimde açıklıyor.',
+    contentType: index === 0 ? 'dossier' : 'news',
+    importance: 84 - index,
+    publishedAt: '2026-09-02T08:00:00.000Z'
+  }));
+  const selected = selectHomepageStories(primary, candidates, NOW, 4);
+  assert.equal(selected.length, 4);
+  assert.equal(selected[0].id, primary.id);
+  assert.equal(selected[1].contentType, 'dossier');
+
+  const html = [
+    '<head></head><body>',
+    '<header class="masthead"></header><div class="ticker" id="ticker"></div><main class="wrap">',
+    '<section class="frontpage" id="dosya"></section>',
+    '<section class="breakdown" id="kirilma-ani"></section>',
+    '<section class="voices-wrap"></section>',
+    '<section class="transferline"></section><section class="desks"></section><section class="brand-manifesto"></section>',
+    "</main><script>const ticker=[{ cat:'SON DAKİKA', urgent:true, text:'Eski' }];</script>",
+    '<footer>Son tarama: <span id="foot-updated">01.09.2026</span></footer></body>'
+  ].join('\n');
+  const output = buildHomepageHtml(html, primary, NOW, candidates);
+  assert.match(output, /data-headline-count="4"/);
+  assert.equal((output.match(/class="headline-slide/g) || []).length, 4);
+  assert.equal((output.match(/class="headline-control(?: is-active)?"/g) || []).length, 4);
+  assert.match(output, /headline-structured-data/);
+});
+
+test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanını içerir', () => {
+  const story = validStory();
+  const html = buildStoryPageHtml(story, NOW);
+  assert.match(storySlug(story), /^[a-z0-9-]+$/);
+  assert.match(storyUrl(story), /^\/haber\/[a-z0-9-]+\.html$/);
+  assert.match(html, /rel="canonical"/);
+  assert.match(html, /application\/ld\+json/);
+  assert.match(html, /NewsArticle/);
+  assert.match(html, /Dosyanın özgün açısı/);
+  assert.match(html, /Kaynak zinciri/);
+  assert.doesNotMatch(html, /<img\b/i);
+  assert.match(buildSitemapXml([story], NOW), /https:\/\/golhat.com\/haber\//);
+});
+
+test('yayındaki ana sayfada dört görünür manşet seçeneği vardır', () => {
+  const root = path.resolve(__dirname, '..');
+  const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  assert.match(html, /data-headline-count="4"/);
+  assert.equal((html.match(/class="headline-slide(?: is-active)?"/g) || []).length, 4);
+  assert.equal((html.match(/class="headline-control(?: is-active)?"/g) || []).length, 4);
+  assert.match(html, /id="golhat-headline-slider"/);
+  assert.match(html, /id="golhat-headline-slider-script"/);
 });

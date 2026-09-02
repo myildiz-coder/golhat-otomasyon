@@ -69,3 +69,13 @@ test('her kategori sayfasında tek bir canlı haber masası durumu görünür', 
     }
   }
 });
+
+
+test('araştırma kurulu dört saatte bir ayrı vardiyada çalışır', () => {
+  const root = path.resolve(__dirname, '..');
+  const workflow = fs.readFileSync(path.join(root, '.github', 'workflows', 'editorial-arastirma.yml'), 'utf8');
+  const runner = fs.readFileSync(path.join(root, 'scripts', 'run-editorial.js'), 'utf8');
+  assert.match(workflow, /cron: '40 \*\/4 \* \* \*'/);
+  assert.match(workflow, /--role ozel_haber/);
+  assert.match(runner, /filter\(\(role\) => role !== 'ozel_haber'\)/);
+});

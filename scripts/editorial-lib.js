@@ -6,6 +6,8 @@ const path = require('node:path');
 
 const {
   ALLOWED_TAGS,
+  DOSSIER_MIN_SOURCES,
+  HOMEPAGE_SLOT_COUNT,
   MAX_STORIES_PER_PAGE,
   MAX_STORY_AGE_HOURS,
   PAGE_LABELS,
@@ -31,6 +33,7 @@ const TRACKING_PARAMS = new Set([
   'ref',
   'ref_src'
 ]);
+const CONTENT_TYPES = new Set(['news', 'analysis', 'dossier', 'exclusive']);
 const EDITORIAL_QUARANTINE_RULES = Object.freeze([
   /Kıbrıs['’]ın kuzeyinde/iu,
   /Kıbrıs['’]ın kuzeyindeki(?:\s+Türk)?\s+yönetim/iu,
@@ -115,6 +118,22 @@ function normalizeHeadline(value) {
     .replace(/[^\p{L}\p{N}\s]/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function slugify(value) {
+  return normalizeHeadline(value)
+    .replaceAll('ı', 'i').replaceAll('ş', 's').replaceAll('ğ', 'g')
+    .replaceAll('ç', 'c').replaceAll('ö', 'o').replaceAll('ü', 'u')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 72);
+}
+
+function storySlug(story) {
+  const base = slugify(story.seoTitle || story.headline) || 'golhat-haber';
+  return base + '-' + String(story.id || 'dosya').slice(0, 8);
+}
+
+function storyUrl(story) {
+  return '/haber/' + storySlug(story) + '.html';
 }
 
 function assertEditorialLanguage(...values) {
@@ -261,8 +280,16 @@ function validateStory(raw, context) {
   const summary = String(raw.summary || '').trim();
   const tag = String(raw.tag || '').trim();
   const importance = Number(raw.importance);
+  const contentType = String(raw.content_type || 'news').trim();
+  const seoTitle = String(raw.seo_title || headline).trim();
+  const seoDescription = String(raw.seo_description || summary).trim();
+  const focusKeyword = String(raw.focus_keyword || '').trim();
+  const originalAngle = String(raw.original_angle || summary).trim();
+  const keyFindings = Array.isArray(raw.key_findings)
+    ? raw.key_findings.map((item) => String(item || '').trim()).filter(Boolean)
+    : [summary];
 
-  assertEditorialLanguage(headline, summary);
+  assertEditorialLanguage(headline, summary, seoTitle, seoDescription, originalAngle, ...keyFindings);
   assertStoryPageRelevance(raw.page, headline, summary);
   if (headline.length < 20 || headline.length > 180) {
     throw new Error('Manşet uzunluğu 20-180 karakter aralığında olmalı');
@@ -271,6 +298,15 @@ function validateStory(raw, context) {
     throw new Error('Özet uzunluğu 70-700 karakter aralığında olmalı');
   }
   if (!ALLOWED_TAGS.includes(tag)) throw new Error('Haber etiketi izinli değil');
+  if (!CONTENT_TYPES.has(contentType)) throw new Error('İçerik türü izinli değil');
+  if (seoTitle.length < 20 || seoTitle.length > 110) throw new Error('SEO başlığı 20-110 karakter aralığında olmalı');
+  if (seoDescription.length < 70 || seoDescription.length > 180) throw new Error('SEO açıklaması 70-180 karakter aralığında olmalı');
+  if (originalAngle.length < 70 || originalAngle.length > 900) throw new Error('Özgün açı 70-900 karakter aralığında olmalı');
+  if (keyFindings.length < 1 || keyFindings.length > 6) throw new Error('Doğrulanmış bulgu sayısı 1-6 aralığında olmalı');
+  if (context.role === 'ozel_haber') {
+    if (!['analysis', 'dossier', 'exclusive'].includes(contentType)) throw new Error('Araştırma masası yalnız analiz, dosya veya özel haber yayımlar');
+    if (keyFindings.length < 3) throw new Error('Araştırma dosyası en az üç doğrulanmış bulgu içermeli');
+  }
   if (!Number.isInteger(importance) || importance < 50 || importance > 100) {
     throw new Error('Yayınlanabilir haberin önem puanı 50-100 aralığında tam sayı olmalı');
   }
@@ -282,8 +318,9 @@ function validateStory(raw, context) {
     throw new Error('Haber yayın penceresinin dışında');
   }
 
-  if (!Array.isArray(raw.sources) || raw.sources.length < 2 || raw.sources.length > 4) {
-    throw new Error('En az iki, en fazla dört kaynak gerekli');
+  const minimumSources = context.role === 'ozel_haber' ? DOSSIER_MIN_SOURCES : 2;
+  if (!Array.isArray(raw.sources) || raw.sources.length < minimumSources || raw.sources.length > 5) {
+    throw new Error('Bu içerik için en az ' + minimumSources + ', en fazla beş kaynak gerekli');
   }
 
   const sources = raw.sources.map((source) => {
@@ -335,6 +372,12 @@ function validateStory(raw, context) {
     summary,
     tag,
     importance,
+    contentType,
+    seoTitle,
+    seoDescription,
+    focusKeyword,
+    originalAngle,
+    keyFindings,
     publishedAt: publishedAt.toISOString(),
     discoveredAt: now.toISOString(),
     sources: uniqueSources
@@ -410,7 +453,7 @@ function renderArticle(story) {
     '          <span class="tag ' + tagClass(story.tag) + '">' + htmlEscape(story.tag) + '</span>',
     '          <span class="dateline">' + htmlEscape(formatIstanbulDate(story.publishedAt)) + '</span>',
     '        </div>',
-    '        <h3 class="dispatch-headline">' + htmlEscape(story.headline) + '</h3>',
+    '        <h3 class="dispatch-headline"><a class="dispatch-story-link" href="' + htmlEscape(storyUrl(story)) + '" style="color:inherit;text-decoration:none">' + htmlEscape(story.headline) + '</a></h3>',
     '        <p class="dispatch-dek">' + htmlEscape(story.summary) + '</p>',
     sources,
     '      </div>',
@@ -564,6 +607,7 @@ function collapseDuplicateAutoSections(html) {
 function buildCategoryHtml(html, page, stories, now) {
   const pageStories = stories
     .filter((story) => story.page === page && storyMatchesPage(page, story.headline, story.summary))
+    .filter((story) => page !== 'ozel-haber.html' || ['analysis', 'dossier', 'exclusive'].includes(story.contentType))
     .sort((a, b) => new Date(b.discoveredAt) - new Date(a.discoveredAt))
     .slice(0, MAX_STORIES_PER_PAGE);
   const liveHtml = collapseDuplicateAutoSections(refreshPageLiveStatus(html, page, now));
@@ -756,100 +800,137 @@ function assertHomepageIntegrity(html, story) {
   return true;
 }
 
-function buildHomepageHtml(html, story, now) {
-  const pageLabel = PAGE_LABELS[story.page] || story.page;
-  assertEditorialLanguage(story.headline, story.summary);
-  const sourceLinks = story.sources.slice(0, 3).map((source) => [
-    '        <a class="cover-secondary-item" href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">',
-    '          <span class="tag tag-desk">' + htmlEscape(source.publisher) + '</span>',
-    '          <h3>' + htmlEscape(source.title) + '</h3>',
-    '          <span class="dateline">Orijinal kaynağı aç →</span>',
-    '        </a>'
-  ].join('\n')).join('\n');
+function selectHomepageStories(primary, stories, now, limit = HOMEPAGE_SLOT_COUNT) {
+  const recentThreshold = new Date(now).getTime() - 7 * 24 * 3_600_000;
+  const pool = [primary, ...(stories || [])].filter((story, index, items) => story && items.findIndex((item) => item && item.id === story.id) === index && storyMatchesPage(story.page, story.headline, story.summary) && new Date(story.publishedAt).getTime() >= recentThreshold);
+  const score = (story) => story.importance + (story.contentType === 'exclusive' ? 16 : story.contentType === 'dossier' ? 12 : story.contentType === 'analysis' ? 5 : 0) + (story.page === 'ozel-haber.html' ? 7 : 0);
+  pool.sort((left, right) => score(right) - score(left) || new Date(right.publishedAt) - new Date(left.publishedAt));
+  const selected = [primary];
+  const research = pool.find((item) => item.id !== primary.id && ['dossier', 'exclusive'].includes(item.contentType));
+  if (research) selected.push(research);
+  for (const item of pool) { if (selected.length >= limit) break; if (!selected.some((chosen) => chosen.id === item.id) && !selected.some((chosen) => chosen.page === item.page)) selected.push(item); }
+  for (const item of pool) { if (selected.length >= limit) break; if (!selected.some((chosen) => chosen.id === item.id)) selected.push(item); }
+  return selected.slice(0, limit);
+}
 
+function renderHomepageSlide(story, index, now) {
+  const pageLabel = PAGE_LABELS[story.page] || story.page;
   const sourceNames = story.sources.map((source) => source.publisher).join(' · ');
-  const hero = [
-    '  <section class="frontpage" id="dosya" data-auto-story-id="' + htmlEscape(story.id) + '">',
-    '    <span class="frontpage-kicker">Günün Dosyası · ' + htmlEscape(pageLabel) + '</span>',
-    '    <h2 class="frontpage-headline">' + htmlEscape(story.headline.toLocaleUpperCase('tr-TR')) + '</h2>',
-    '    <p class="frontpage-standfirst">' + htmlEscape(story.summary) + '</p>',
-    '    <p class="byline frontpage-byline mono">GOLHAT · ' + htmlEscape(formatIstanbulDateTime(now)) + ' · ' + story.sources.length + ' bağımsız kaynakla doğrulandı</p>',
-    '',
-    '    <div class="cover-grid">',
-    '      <div class="cover-visual">',
+  const contentLabel = story.contentType === 'exclusive' ? 'Özel Haber' : story.contentType === 'dossier' ? 'Araştırma Dosyası' : story.contentType === 'analysis' ? 'Analiz' : 'Günün Dosyası';
+  const sourceLinks = story.sources.slice(0, 3).map((source) => [
+    '          <a class="cover-secondary-item" href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">',
+    '            <span class="tag tag-desk">' + htmlEscape(source.publisher) + '</span><h3>' + htmlEscape(source.title) + '</h3>',
+    '            <span class="dateline">Orijinal kaynağı aç →</span>',
+    '          </a>'
+  ].join('\n')).join('\n');
+  return [
+    '    <article class="headline-slide' + (index === 0 ? ' is-active' : '') + '" id="headline-slide-' + (index + 1) + '" data-headline-index="' + index + '" data-story-id="' + htmlEscape(story.id) + '"' + (index === 0 ? '' : ' hidden') + '>',
+    '      <span class="frontpage-kicker">' + htmlEscape(contentLabel) + ' · ' + htmlEscape(pageLabel) + '</span>',
+    '      <h2 class="frontpage-headline">' + htmlEscape(story.headline.toLocaleUpperCase('tr-TR')) + '</h2>',
+    '      <p class="frontpage-standfirst">' + htmlEscape(story.summary) + '</p>',
+    '      <p class="byline frontpage-byline mono">GOLHAT · ' + htmlEscape(formatIstanbulDateTime(now)) + ' · ' + story.sources.length + ' bağımsız kaynakla doğrulandı</p>',
+    '      <a class="headline-read-more mono" href="' + htmlEscape(storyUrl(story)) + '">GOLHAT dosyasını oku →</a>',
+    '      <div class="cover-grid"><div class="cover-visual">',
     '        <div class="cover-clash" role="img" aria-label="' + htmlEscape(story.tag + ': ' + story.headline) + '">',
-    '          <div class="clash-side claim">',
-    '            <div class="clash-label">Yayın Durumu</div>',
-    '            <div class="clash-value">' + htmlEscape(story.tag) + '</div>',
-    '          </div>',
+    '          <div class="clash-side claim"><div class="clash-label">Yayın Durumu</div><div class="clash-value">' + htmlEscape(story.tag) + '</div></div>',
     '          <div class="clash-vs">kaynak</div>',
-    '          <div class="clash-side reply">',
-    '            <div class="clash-label">Doğrulama</div>',
-    '            <div class="clash-value">' + story.sources.length + ' bağımsız yayın</div>',
-    '          </div>',
+    '          <div class="clash-side reply"><div class="clash-label">Doğrulama</div><div class="clash-value">' + story.sources.length + ' bağımsız yayın</div></div>',
     '        </div>',
     '        <p class="cover-visual-note mono">Kaynaklar: ' + htmlEscape(sourceNames) + '.</p>',
     '        <p class="cover-visual-note mono">Bu bir fotoğraf değildir. GOLHAT, lisanssız veya yapay zekâ ile üretilmiş haber fotoğrafı kullanmaz; tipografik yayın panelini kullanır.</p>',
-    '      </div>',
-    '',
-    '      <div class="cover-secondary">',
-    '        <dl class="fact-panel">',
-    '          <div class="fact-panel-title">Dosya Özeti</div>',
+    '      </div><div class="cover-secondary">',
+    '        <dl class="fact-panel"><div class="fact-panel-title">Dosya Özeti</div>',
     '          <div class="fact-row"><dt>Kategori</dt><dd>' + htmlEscape(pageLabel) + '</dd></div>',
+    '          <div class="fact-row"><dt>İçerik</dt><dd>' + htmlEscape(contentLabel) + '</dd></div>',
     '          <div class="fact-row"><dt>Durum</dt><dd>' + htmlEscape(story.tag) + '</dd></div>',
     '          <div class="fact-row"><dt>Önem puanı</dt><dd>' + story.importance + ' / 100</dd></div>',
     '          <div class="fact-row"><dt>Kaynak güveni</dt><dd>' + story.sources.length + ' farklı alan adı</dd></div>',
-    '          <div class="fact-row"><dt>Son güncelleme</dt><dd>' + htmlEscape(formatIstanbulDateTime(now)) + ' (TR)</dd></div>',
-    '        </dl>',
-    '        <div class="section-label" style="margin-top:16px;">Orijinal Kaynaklar</div>',
+    '        </dl><div class="section-label" style="margin-top:16px;">Orijinal Kaynaklar</div>',
     sourceLinks,
-    '      </div>',
-    '    </div>',
-    '  </section>'
+    '      </div></div>',
+    '    </article>'
   ].join('\n');
-  const breakdown = renderHomepageBreakdown(story);
-  const sourcesAndVerdict = renderHomepageSources(story);
+}
 
-  const heroPattern = /  <section class="frontpage" id="dosya"(?:\s+[^>]*)?>[\s\S]*?  <\/section>/;
-  if (!heroPattern.test(html)) throw new Error('index.html içinde frontpage bölümü bulunamadı');
-  const breakdownPattern = /  <section class="breakdown" id="kirilma-ani"(?:\s+[^>]*)?>[\s\S]*?  <\/section>/;
-  if (!breakdownPattern.test(html)) {
-    throw new Error('index.html içinde manşet analiz bölümü bulunamadı');
-  }
-  const sourcesPattern = /  <section class="voices-wrap"(?:\s+[^>]*)?>[\s\S]*?  <\/section>/;
-  if (!sourcesPattern.test(html)) {
-    throw new Error('index.html içinde manşet kaynak ve karar bölümü bulunamadı');
-  }
+function upsertHeadlineStructuredData(html, stories) {
+  if (!html.includes('</head>')) return html;
+  const data = { '@context': 'https://schema.org', '@type': 'ItemList', name: 'GOLHAT Ana Sayfa Manşetleri', itemListElement: stories.map((item, index) => ({ '@type': 'ListItem', position: index + 1, url: 'https://golhat.com' + storyUrl(item), name: item.seoTitle || item.headline })) };
+  const block = '<script id="headline-structured-data" type="application/ld+json">' + JSON.stringify(data).replace(/</g, '\u003c') + '</script>';
+  const pattern = /<script id="headline-structured-data"[\s\S]*?<\/script>/;
+  return pattern.test(html) ? html.replace(pattern, block) : html.replace('</head>', block + '\n</head>');
+}
 
-  let updated = html
-    .replace(heroPattern, hero)
-    .replace(breakdownPattern, breakdown)
-    .replace(sourcesPattern, sourcesAndVerdict);
+function buildHomepageHtml(html, story, now, allStories = []) {
+  assertEditorialLanguage(story.headline, story.summary);
+  const headlineStories = selectHomepageStories(story, allStories, now);
+  const slides = headlineStories.map((item, index) => renderHomepageSlide(item, index, now)).join('\n');
+  const controls = headlineStories.map((item, index) => '      <button type="button" class="headline-control' + (index === 0 ? ' is-active' : '') + '" data-headline-target="' + index + '" aria-controls="headline-slide-' + (index + 1) + '" aria-pressed="' + (index === 0 ? 'true' : 'false') + '"><span>' + (index + 1) + '</span><b>' + htmlEscape(item.headline) + '</b></button>').join('\n');
+  const hero = ['  <section class="frontpage" id="dosya" data-auto-story-id="' + htmlEscape(story.id) + '" data-headline-count="' + headlineStories.length + '" aria-label="GOLHAT ana manşetleri">', '    <div class="headline-track">', slides, '    </div>', '    <nav class="headline-controls" aria-label="Manşet seçimi">', controls, '      <button type="button" class="headline-pause" aria-pressed="false">Durdur</button>', '    </nav>', '  </section>'].join('\n');
+  const heroPattern = /^[ \t]*<section class="frontpage" id="dosya"(?:\s+[^>]*)?>[\s\S]*?<\/section>/m;
+  const breakdownPattern = /^[ \t]*<section class="breakdown" id="kirilma-ani"(?:\s+[^>]*)?>[\s\S]*?<\/section>/m;
+  const sourcesPattern = /^[ \t]*<section class="voices-wrap"(?:\s+[^>]*)?>[\s\S]*?<\/section>/m;
+  if (!heroPattern.test(html) || !breakdownPattern.test(html) || !sourcesPattern.test(html)) throw new Error('Ana sayfa manşet yapısı bulunamadı');
+  let updated = html.replace(heroPattern, hero).replace(breakdownPattern, renderHomepageBreakdown(story)).replace(sourcesPattern, renderHomepageSources(story));
   const tickerPattern = /\{ cat:'SON DAKİKA', urgent:true,(?: storyId:'[^']*',)? text:'(?:\\.|[^'])*' \}/;
-  const tickerText = story.headline
-    .replaceAll('\\', '\\\\')
-    .replaceAll("'", "\\'")
-    .replace(/\s+/g, ' ')
-    .trim();
-
-  if (tickerPattern.test(updated)) {
-    updated = updated.replace(
-      tickerPattern,
-      "{ cat:'SON DAKİKA', urgent:true, storyId:'" + story.id + "', text:'" + tickerText + "' }"
-    );
-  }
-
-  updated = updated.replace(
-    /Son tarama:\s*<span id="foot-updated">[^<]*<\/span>/,
-    'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(now)) + '</span>'
-  );
-
+  const tickerText = story.headline.replaceAll('\\', '\\\\').replaceAll("'", "\\'").replace(/\s+/g, ' ').trim();
+  if (tickerPattern.test(updated)) updated = updated.replace(tickerPattern, "{ cat:'SON DAKİKA', urgent:true, storyId:'" + story.id + "', text:'" + tickerText + "' }");
+  updated = updated.replace(/Son tarama:\s*<span id="foot-updated">[^<]*<\/span>/, 'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(now)) + '</span>');
+  updated = upsertHeadlineStructuredData(updated, headlineStories);
   assertHomepageIntegrity(updated, story);
   return updated;
 }
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^\${}()|[\]\\]/g, '\\$&');
+}
+
+function storyJsonLd(story, absoluteUrl, now) {
+  return JSON.stringify({ '@context': 'https://schema.org', '@type': ['analysis', 'dossier'].includes(story.contentType) ? 'AnalysisNewsArticle' : 'NewsArticle', headline: story.seoTitle || story.headline, description: story.seoDescription || story.summary, datePublished: story.publishedAt, dateModified: story.discoveredAt || now.toISOString(), mainEntityOfPage: absoluteUrl, inLanguage: 'tr-TR', author: { '@type': 'Organization', name: 'GOLHAT Haber Merkezi' }, publisher: { '@type': 'NewsMediaOrganization', name: 'GOLHAT', url: 'https://golhat.com/' }, isAccessibleForFree: true, keywords: [story.focusKeyword, PAGE_LABELS[story.page], story.tag].filter(Boolean).join(', ') }).replace(/</g, '\u003c');
+}
+
+function buildStoryPageHtml(story, now = new Date()) {
+  assertEditorialLanguage(story.headline, story.summary, story.originalAngle || '');
+  const relativeUrl = storyUrl(story);
+  const absoluteUrl = 'https://golhat.com' + relativeUrl;
+  const pageLabel = PAGE_LABELS[story.page] || story.page;
+  const title = story.seoTitle || story.headline;
+  const description = (story.seoDescription || story.summary).slice(0, 180);
+  const findings = (story.keyFindings?.length ? story.keyFindings : [story.summary]).map((item) => '<li>' + htmlEscape(item) + '</li>').join('');
+  const sources = story.sources.map((source, index) => '<li><span>' + (index + 1) + '</span><div><a href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">' + htmlEscape(source.publisher) + ' →</a><p>' + htmlEscape(source.title) + '</p></div></li>').join('');
+  const typeLabel = story.contentType === 'exclusive' ? 'Özel Haber' : story.contentType === 'dossier' ? 'Araştırma Dosyası' : story.contentType === 'analysis' ? 'Analiz' : 'Doğrulanmış Haber';
+  const css = `:root{--paper:#f1efe6;--ink:#101313;--night:#07100d;--red:#e21b2d;--line:rgba(16,19,19,.18)}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,serif;line-height:1.65}a{color:inherit}.wrap{width:min(980px,calc(100% - 32px));margin:auto}.top{background:var(--night);color:#fff;border-bottom:7px solid var(--red);padding:22px 0}.top .wrap{display:flex;justify-content:space-between;gap:18px;align-items:center}.brand{font:900 2rem/1 Impact,sans-serif;text-decoration:none}.brand span{color:var(--red)}nav{font:600 .72rem monospace;display:flex;gap:14px;flex-wrap:wrap}.article-head{padding:56px 0 30px;border-bottom:1px solid var(--line)}.kicker,.meta{font:600 .72rem monospace;letter-spacing:.08em;text-transform:uppercase}.kicker{color:var(--red)}h1{font:900 clamp(2.7rem,8vw,5.7rem)/.96 Impact,sans-serif;max-width:17ch;margin:15px 0}.standfirst{font-size:1.25rem;max-width:72ch}.meta{color:#626761}.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:42px;padding:36px 0 70px}h2{font:800 2rem/1.1 Impact,sans-serif;margin-top:36px}.angle{border-left:5px solid var(--red);padding:18px 22px;background:#fff}.findings{padding-left:22px}.findings li{margin:12px 0}.method{padding:18px;border:1px solid var(--line);font:.78rem/1.6 monospace}.sources{list-style:none;padding:0}.sources li{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}.sources span{font:700 .7rem monospace;color:var(--red)}.sources a{font-weight:700}.sources p{margin:4px 0;font-size:.9rem}.back{display:inline-block;margin-top:24px;font:600 .75rem monospace}@media(max-width:760px){.top .wrap{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.article-head{padding-top:34px}h1{font-size:clamp(2.5rem,13vw,4rem)}}`;
+  return ['<!DOCTYPE html><html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">', '<title>' + htmlEscape(title) + ' | GOLHAT</title>', '<meta name="description" content="' + htmlEscape(description) + '"><meta name="robots" content="index,follow,max-snippet:-1">', '<link rel="canonical" href="' + absoluteUrl + '"><meta property="og:type" content="article"><meta property="og:site_name" content="GOLHAT"><meta property="og:title" content="' + htmlEscape(title) + '"><meta property="og:description" content="' + htmlEscape(description) + '"><meta property="og:url" content="' + absoluteUrl + '"><meta property="og:image" content="https://golhat.com/og.png">', '<script type="application/ld+json">' + storyJsonLd(story, absoluteUrl, now) + '</script><style>' + css + '</style></head><body>', '<header class="top"><div class="wrap"><a class="brand" href="/">GOL<span>/</span>HAT</a><nav><a href="/">Ana Sayfa</a><a href="/ozel-haber.html">Araştırma Dosyaları</a><a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a></nav></div></header>', '<main class="wrap"><article><div class="article-head"><div class="kicker">' + htmlEscape(typeLabel) + ' · ' + htmlEscape(pageLabel) + '</div><h1>' + htmlEscape(story.headline) + '</h1><p class="standfirst">' + htmlEscape(story.summary) + '</p><p class="meta">GOLHAT Haber Merkezi · ' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + ' · ' + story.sources.length + ' bağımsız kaynak</p></div>', '<div class="grid"><div><h2>Dosyanın özgün açısı</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p><h2>Doğrulanan bulgular</h2><ul class="findings">' + findings + '</ul><h2>Ne anlama geliyor?</h2><p>' + htmlEscape(story.summary) + ' GOLHAT, kaynakların ortak doğrulamadığı ayrıntıları sonuç gibi sunmaz.</p><a class="back" href="/' + htmlEscape(story.page) + '">← ' + htmlEscape(pageLabel) + ' haber masasına dön</a></div>', '<aside><h2>Kaynak zinciri</h2><ol class="sources">' + sources + '</ol><p class="method"><b>GOLHAT yöntemi:</b> Bu metin kaynakların kopyası değildir. Olgular çapraz doğrulanmış, çelişkiler ayıklanmış ve özgün anlatımla yeniden kurulmuştur. “Özel Haber” etiketi yalnız özgün belge, veri veya doğrudan haber üretimi varsa kullanılır.</p></aside></div></article></main></body></html>', ''].join('\n');
+}
+
+function writeStoryPage(story, now = new Date()) {
+  const file = path.join(REPO_ROOT, storyUrl(story).replace(/^\//, ''));
+  const html = buildStoryPageHtml(story, now);
+  const original = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+  if (original === html) return false;
+  writeTextAtomic(file, html);
+  return true;
+}
+
+function buildSitemapXml(stories, now = new Date()) {
+  const entries = [''].concat(Object.keys(PAGE_LABELS)).map((page, index) => ({ url: 'https://golhat.com/' + page, lastmod: now.toISOString().slice(0, 10), frequency: index ? 'daily' : 'hourly', priority: index ? '0.8' : '1.0' }));
+  for (const story of stories) entries.push({ url: 'https://golhat.com' + storyUrl(story), lastmod: new Date(story.discoveredAt || story.publishedAt).toISOString().slice(0, 10), frequency: 'weekly', priority: ['dossier', 'exclusive'].includes(story.contentType) ? '0.9' : '0.7' });
+  return ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', ...entries.map((entry) => '  <url><loc>' + htmlEscape(entry.url) + '</loc><lastmod>' + entry.lastmod + '</lastmod><changefreq>' + entry.frequency + '</changefreq><priority>' + entry.priority + '</priority></url>'), '</urlset>', ''].join('\n');
+}
+
+function writeStoryPages(stories, now = new Date()) {
+  const publishable = (stories || []).filter((story) => storyMatchesPage(story.page, story.headline, story.summary)).slice(0, 120);
+  let changed = 0;
+  for (const story of publishable) if (writeStoryPage(story, now)) changed += 1;
+  return changed;
+}
+
+function writeSitemap(stories, now = new Date()) {
+  const file = path.join(REPO_ROOT, 'sitemap.xml');
+  const updated = buildSitemapXml(stories, now);
+  const original = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+  if (updated === original) return false;
+  writeTextAtomic(file, updated);
+  return true;
 }
 
 async function requestOpenAI(body, apiKey, options = {}) {
@@ -904,10 +985,10 @@ function writeCategoryPage(page, stories, now) {
   return true;
 }
 
-function writeHomepage(story, now) {
+function writeHomepage(story, now, allStories = []) {
   const file = path.join(REPO_ROOT, 'index.html');
   const original = fs.readFileSync(file, 'utf8');
-  const updated = buildHomepageHtml(original, story, now);
+  const updated = buildHomepageHtml(original, story, now, allStories);
   if (updated === original) return false;
   writeTextAtomic(file, updated);
   return true;
@@ -932,6 +1013,8 @@ module.exports = {
   htmlEscape,
   stripHtml,
   normalizeHeadline,
+  storySlug,
+  storyUrl,
   assertHomepageIntegrity,
   canonicalUrl,
   urlSignature,
@@ -952,8 +1035,14 @@ module.exports = {
   buildCategoryHtml,
   buildHomepageArchiveHtml,
   buildHomepageHtml,
+  selectHomepageStories,
+  buildStoryPageHtml,
+  buildSitemapXml,
   requestOpenAI,
   writeCategoryPage,
+  writeStoryPage,
+  writeStoryPages,
+  writeSitemap,
   writeHomepageArchive,
   writeHomepage
 };

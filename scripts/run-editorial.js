@@ -26,6 +26,8 @@ const {
   formatIstanbulDate,
   requestOpenAI,
   writeCategoryPage,
+  writeStoryPages,
+  writeSitemap,
   writeHomepageArchive,
   writeHomepage
 } = require('./editorial-lib');
@@ -43,7 +45,7 @@ const CATEGORY_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'sources'],
+        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'sources'],
         properties: {
           page: { type: 'string', enum: Object.keys(PAGE_LABELS) },
           headline: { type: 'string', minLength: 20, maxLength: 180 },
@@ -51,10 +53,16 @@ const CATEGORY_SCHEMA = {
           tag: { type: 'string', enum: ALLOWED_TAGS },
           published_at: { type: 'string' },
           importance: { type: 'integer', minimum: 50, maximum: 100 },
+          content_type: { type: 'string', enum: ['news', 'analysis', 'dossier', 'exclusive'] },
+          seo_title: { type: 'string', minLength: 20, maxLength: 110 },
+          seo_description: { type: 'string', minLength: 70, maxLength: 180 },
+          focus_keyword: { type: 'string', minLength: 2, maxLength: 80 },
+          original_angle: { type: 'string', minLength: 70, maxLength: 900 },
+          key_findings: { type: 'array', minItems: 1, maxItems: 6, items: { type: 'string', minLength: 20, maxLength: 350 } },
           sources: {
             type: 'array',
             minItems: 2,
-            maxItems: 4,
+            maxItems: 5,
             items: {
               type: 'object',
               additionalProperties: false,
@@ -106,6 +114,16 @@ function parseArgs(argv) {
 }
 
 function categoryRequest(role, now, model) {
+  const researchBrief = role.researchTeam ? [
+    'Bu masa üç uzman denetimiyle çalışır:',
+    ...role.researchTeam,
+    'Tek bir son dakika haberini yeniden anlatma. Belgeler, resmi veriler ve taraf açıklamalarını karşılaştırarak internette açık bir bilgi ihtiyacını yanıtlayan özgün bir dosya kur.',
+    'Araştırma dosyasında en az üç bağımsız alan adı, en az üç somut bulgu ve GOLHAT’a özgü bir original_angle zorunludur.',
+    'exclusive türünü yalnız GOLHAT’ın özgün belgesi, verisi veya doğrudan haber üretimi varsa kullan; kaynak sentezi için dossier kullan.',
+    'SEO alanlarında anahtar kelime doldurma yapma. seo_title doğal, açık ve arama sorusunu yanıtlayan bir başlık olsun.'
+  ] : [
+    'Her haber için doğal bir seo_title, kısa seo_description, tek focus_keyword, özgün original_angle ve doğrulanmış key_findings üret.'
+  ];
   const pageSummary = role.pages
     .map((page) => page + ': ' + PAGE_LABELS[page])
     .join('\n');
@@ -140,6 +158,7 @@ function categoryRequest(role, now, model) {
       'Şampiyonlar Ligi, UEFA, yerel lig, kulüp ve transfer masalarının sınırlarını birbirine karıştırma.',
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
+      ...researchBrief,
       SOURCE_RULES,
       EDITORIAL_POLICY
     ].join('\n'),
@@ -147,6 +166,7 @@ function categoryRequest(role, now, model) {
       'Editör: ' + role.label,
       'Şu an: ' + now.toISOString() + ' (Türkiye/İstanbul)',
       'Konu alanı: ' + role.topics,
+      ...(role.researchTeam ? ['Araştırma kurulu: ' + role.researchTeam.join(' | ')] : []),
       'İzinli hedef sayfalar:',
       pageSummary,
       'Son 36 saatteki önemli gelişmeleri araştır. En fazla üç haber seç.',
@@ -162,7 +182,7 @@ function categoryRequest(role, now, model) {
         schema: CATEGORY_SCHEMA
       }
     },
-    max_output_tokens: 3500
+    max_output_tokens: role.researchTeam ? 7000 : 5200
   };
 }
 
@@ -185,7 +205,7 @@ function headRequest(candidates, currentStory, now, model) {
     instructions: [
       'Sen GOLHAT Baş Editörüsün.',
       EDITORIAL_POLICY,
-      'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfaya gerçekten manşet değeri taşıyan tek haberi seç.',
+      'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfanın 1 numaralı manşetine gerçekten değer taşıyan tek haberi seç. Diğer üç manşet sistem tarafından kaynak gücü ve çeşitliliğe göre tamamlanır.',
       'Yeni olgu, kaynak veya story_id üretme. Adaylar yeterince güçlü değilse no_change seç.',
       'Güncellik, kamu yararı, Türkiye futboluna etkisi ve kaynak gücünü birlikte değerlendir.',
       'Kararı Türkçe ve kısa gerekçelendir.'
@@ -278,6 +298,9 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
 
   mergeStories(state, accepted);
   refreshRolePages(role, state, now);
+  const storyPageChanges = writeStoryPages(state.stories, now);
+  const sitemapChanged = writeSitemap(state.stories, now);
+  console.log('[' + role.label + '] kalıcı haber sayfaları=' + storyPageChanges + ', sitemap=' + (sitemapChanged ? 'güncellendi' : 'aynı'));
   state.updatedAt = now.toISOString();
   saveState(state);
   return accepted.length;
@@ -302,7 +325,7 @@ async function runHeadEditor(state, options, apiKey, model, now) {
     const repairTime = new Date(
       lastPublishedChange?.at || currentStory.discoveredAt || currentStory.publishedAt
     );
-    const homepageChanged = writeHomepage(currentStory, repairTime);
+    const homepageChanged = writeHomepage(currentStory, repairTime, state.stories);
     const archiveChanged = writeHomepageArchive(currentStory, repairTime);
     if (homepageChanged) {
       console.log('[Baş Editör] ana sayfa bütünlüğü otomatik onarıldı');
@@ -357,7 +380,7 @@ async function runHeadEditor(state, options, apiKey, model, now) {
   console.log('[Baş Editör] seçilen manşet: ' + selected.headline);
   if (options.dryRun) return 1;
 
-  writeHomepage(selected, now);
+  writeHomepage(selected, now, state.stories);
   writeHomepageArchive(selected, now);
   state.homepage.storyId = selected.id;
   state.homepage.changes.push({ at: now.toISOString(), storyId: selected.id });
@@ -386,7 +409,7 @@ async function main() {
     return;
   }
 
-  const roles = options.all ? Object.keys(EDITOR_ROLES) : [options.role];
+  const roles = options.all ? Object.keys(EDITOR_ROLES).filter((role) => role !== 'ozel_haber') : [options.role];
   let failures = 0;
   let accepted = 0;
   for (const role of roles) {

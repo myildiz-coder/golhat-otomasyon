@@ -1,13 +1,13 @@
-name: GOLHAT Baş Editör
+name: GOLHAT Araştırma ve Özel Haber Kurulu
 
 on:
   schedule:
-    # 7/24 denetim: Baş Editör her saatin beşinci dakikasında çalışır.
-    - cron: '5 * * * *'
+    # Derin araştırma vardiyası: her dört saatte bir özgün dosya fırsatlarını tarar.
+    - cron: '40 */4 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
-        description: Kararı göster; ana sayfayı değiştirme
+        description: Yalnızca araştır; dosya yayımlama
         required: true
         type: boolean
         default: true
@@ -23,23 +23,19 @@ env:
   OPENAI_MODEL: gpt-5.6-luna
 
 jobs:
-  head-editor:
+  research-desk:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-
-      - name: Güvenlik ve HTML testleri
+      - name: Yayın güvenliği ve SEO testleri
         run: npm test
-
-      - name: Baş Editörü çalıştır
+      - name: Araştırma kurulunu çalıştır
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run }}
@@ -47,29 +43,27 @@ jobs:
         run: |
           set -euo pipefail
           if [[ -z "${OPENAI_API_KEY:-}" ]]; then
-            echo "::error title=Eksik secret::OPENAI_API_KEY GitHub Actions secret olarak tanımlı değil"
+            echo "::error title=Eksik secret::OPENAI_API_KEY tanımlı değil"
             exit 1
           fi
-
-          args=(--head)
+          args=(--role ozel_haber)
           if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${DRY_RUN:-true}" == "true" ]]; then
             args+=(--dry-run)
           fi
           node scripts/run-editorial.js "${args[@]}"
-
-      - name: Değişiklik varsa commit et ve gönder
+      - name: Doğrulanan dosyayı yayımla
         if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "golhat-head-editor-bot"
+          git config user.name "golhat-research-desk"
           git config user.email "actions@github.com"
-          git add data/editorial/state.json index.html ozel-haber.html sitemap.xml
+          git add data/editorial/state.json ozel-haber.html sitemap.xml
           if [[ -d haber ]]; then git add haber; fi
           if git diff --cached --quiet; then
-            echo "Ana sayfada değişiklik yok."
+            echo "Yayınlanabilir yeni araştırma dosyası yok."
             exit 0
           fi
-          git commit -m "Baş Editör manşet güncellemesi $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git commit -m "Araştırma dosyası $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase origin main
           git push origin HEAD:main
