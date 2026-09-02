@@ -1,7 +1,82 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T10:10:30.630Z",
+  "updatedAt": "2026-09-02T13:30:18.258Z",
   "stories": [
+    {
+      "id": "3d2176a8c0b37ed7",
+      "role": "trabzon_anadolu",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor’un milli ara hazırlık maçları belli oldu: Drogheda United ve Zenit",
+      "summary": "Trabzonspor, ekim ve kasım aylarındaki milli aralarda iki özel maç oynayacak. Bordo-mavililer, 1 Ekim 2026 Perşembe günü saat 19.00’da Trabzon’da Drogheda United’ı konuk edecek. Zenit ile oynanacak karşılaşma ise 15 Kasım 2026 Pazar günü Rusya’da, TSİ 17.00’de başlayacak.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "publishedAt": "2026-09-02T09:10:00.000Z",
+      "discoveredAt": "2026-09-02T13:30:18.258Z",
+      "sources": [
+        {
+          "title": "Trabzonspor milli arada iki hazırlık maçı yapacak İşte rakipler",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/trabzonspor-milli-arada-iki-hazirlik-maci-yapacak-iste-rakipler",
+          "publishedAt": "2026-09-02T12:10:00+03:00"
+        },
+        {
+          "title": "Trabzonspor’dan iki özel maç",
+          "publisher": "Sporx",
+          "url": "https://m.sporx.com/trabzonspor-dan-iki-ozel-mac-SXHBQ1174544SXQ",
+          "publishedAt": "2026-09-02T15:41:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "24766306f81d7aa5",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Süper Lig'de 5. ve 6. hafta programı açıklandı",
+      "summary": "Türkiye Futbol Federasyonu, 2026-2027 Trendyol Süper Lig sezonunun 5. ve 6. hafta karşılaşma programlarını açıkladı. Programda 6. haftadaki Trabzonspor-Galatasaray maçı 19 Eylül Cumartesi günü saat 20.00'de Papara Park'ta oynanacak.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "publishedAt": "2026-09-01T10:57:00.000Z",
+      "discoveredAt": "2026-09-02T13:30:18.258Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig'de 5-6. Hafta Programları Açıklandı",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51249&pageID=201",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Trendyol Süper Lig'de 5 ve 6. hafta programı açıklandı!",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/trendyol-super-ligde-5-ve-6-hafta-programi-aciklandi-iste-derbi-tarihi",
+          "publishedAt": "2026-09-01T13:57:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "feaaff935ad3ffb4",
+      "role": "transfer_ozel",
+      "page": "transfer.html",
+      "headline": "Malick Fofana, Lyon'dan Sunderland'a transfer oldu",
+      "summary": "Sunderland, Lyon'un Belçikalı kanat oyuncusu Malick Fofana'yı kadrosuna kattı. Lyon'un resmi kurumsal duyurusunda transfer doğrulanırken Sky Sports, 21 yaşındaki futbolcunun Sunderland ile anlaşmasının tamamlandığını ve toplam bedelin eklentilerle birlikte yaklaşık 30,8 milyon sterline ulaştığını bildirdi. Fofana için Crystal Palace'ın da son gün girişimde bulunduğu aktarıldı.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "publishedAt": "2026-09-02T01:37:00.000Z",
+      "discoveredAt": "2026-09-02T13:30:18.258Z",
+      "sources": [
+        {
+          "title": "Transfert de Malick Fofana à Sunderland",
+          "publisher": "OL Groupe / Olympique Lyonnais",
+          "url": "https://finance.ol.fr/communiques",
+          "publishedAt": "2026-09-02T01:15:00Z"
+        },
+        {
+          "title": "Malick Fofana: Sunderland finally complete signing of Lyon winger after Deadline Day drama with Crystal Palace",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11695/13580106/malick-fofana-sunderland-finally-complete-signing-of-lyon-winger-after-deadline-day-drama-with-crystal-palace",
+          "publishedAt": "2026-09-02T01:37:00Z"
+        }
+      ]
+    },
     {
       "id": "be2c49979c59c534",
       "role": "galatasaray",
