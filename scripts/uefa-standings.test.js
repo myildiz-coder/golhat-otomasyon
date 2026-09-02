@@ -129,7 +129,7 @@ test('next UEFA matchday includes every upcoming match in that week', () => {
   assert.equal(result.matches[0].homeCountry, 'TUR');
 });
 
-test('competition rail reserves the flexible column for full team names', () => {
+test('competition rail uses five explicit columns and protects team names', () => {
   const css = fs.readFileSync(
     path.join(__dirname, '..', 'styles', 'uefa-standings.css'),
     'utf8'
@@ -137,14 +137,14 @@ test('competition rail reserves the flexible column for full team names', () => 
 
   assert.match(
     css,
-    /\.competition-page \.uefa-table th:nth-child\(2\)\{\s*width:auto;/
+    /\.competition-page \.uefa-table tr\{[\s\S]*?display:grid;[\s\S]*?grid-template-columns:32px minmax\(150px,1fr\) 32px 34px 32px;/
   );
   assert.match(
     css,
-    /th:nth-child\(10\),[\s\S]*?\.competition-page \.uefa-table \.points\{\s*width:34px;/
+    /\.competition-page \.uefa-table \.optional\{\s*display:none;/
   );
   assert.match(
     css,
-    /\.competition-page \.uefa-team-name\{[\s\S]*?font-size:\.86rem;/
+    /\.competition-page \.uefa-team-name\{[\s\S]*?white-space:normal;[\s\S]*?font-size:\.86rem;/
   );
 });

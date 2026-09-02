@@ -290,48 +290,72 @@
   max-height:440px;
 }
 .competition-page .uefa-table{
+  display:block;
+  width:100%;
   min-width:0;
-  table-layout:fixed;
+  table-layout:auto;
+}
+.competition-page .uefa-table thead,
+.competition-page .uefa-table tbody{
+  display:block;
+  width:100%;
+}
+.competition-page .uefa-table tr{
+  display:grid;
+  grid-template-columns:32px minmax(150px,1fr) 32px 34px 32px;
+  width:100%;
+}
+.competition-page .uefa-table th,
+.competition-page .uefa-table td{
+  box-sizing:border-box;
+  min-width:0;
+}
+.competition-page .uefa-table td{
+  display:flex;
+  min-height:43px;
+  height:auto;
+  align-items:center;
+  justify-content:center;
 }
 .competition-page .uefa-table .optional{
   display:none;
 }
-.competition-page .uefa-table th:nth-child(1),
 .competition-page .uefa-table .rank{
-  width:36px;
-  padding-left:5px;
-  padding-right:5px;
-}
-.competition-page .uefa-table th:nth-child(2){
   width:auto;
+  padding-left:4px;
+  padding-right:4px;
 }
-.competition-page .uefa-table th:nth-child(3),
-.competition-page .uefa-table th:nth-child(9),
-.competition-page .uefa-table th:nth-child(10),
 .competition-page .uefa-table .played,
 .competition-page .uefa-table .difference,
 .competition-page .uefa-table .points{
-  width:34px;
-  padding-left:4px;
-  padding-right:4px;
+  width:auto;
+  padding-left:3px;
+  padding-right:3px;
 }
 .competition-page .uefa-table .team-cell{
   width:auto;
   min-width:0;
   padding-left:6px;
   padding-right:6px;
+  justify-content:flex-start;
 }
 .competition-page .uefa-team{
   gap:6px;
+  min-width:0;
 }
 .competition-page .uefa-code{
-  flex-basis:27px;
+  flex-basis:25px;
   min-height:19px;
   font-size:.5rem;
 }
 .competition-page .uefa-team-name{
+  display:block;
   min-width:0;
+  overflow:visible;
+  text-overflow:clip;
+  white-space:normal;
   font-size:.86rem;
+  line-height:1.12;
 }
 .competition-page .uefa-standings-intro{
   display:block;
