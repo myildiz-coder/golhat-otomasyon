@@ -1,7 +1,113 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T16:03:10.336Z",
+  "updatedAt": "2026-09-02T18:34:09.648Z",
   "stories": [
+    {
+      "id": "052e44ee7cb9a71a",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Manchester City, Everton’dan Iliman Ndiaye’yi beş yıllığına kadrosuna kattı",
+      "summary": "Manchester City, Senegal Millî Takımı oyuncusu Iliman Ndiaye’nin Everton’dan transfer edildiğini açıkladı. 26 yaşındaki hücum oyuncusu, 2031 yazına kadar geçerli beş yıllık sözleşmeye imza attı. Sky Sports, anlaşmanın transfer döneminin son gününde tamamlandığını ve oyuncunun City’ye kalıcı olarak katıldığını bildirdi.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "publishedAt": "2026-09-02T15:00:00.000Z",
+      "discoveredAt": "2026-09-02T18:34:09.648Z",
+      "sources": [
+        {
+          "title": "Ndiaye signs for City",
+          "publisher": "Manchester City",
+          "url": "https://www.mancity.com/news/mens/iliman-ndiaye-signs-for-city-63923887",
+          "publishedAt": "2026-09-01T00:00:00+03:00"
+        },
+        {
+          "title": "Man City confirm £65m Ndiaye signing as Grealish joins Everton",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football",
+          "publishedAt": "2026-09-02T00:00:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "e873e53ac9f5a3db",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Tottenham, Chelsea’den Mykhailo Mudryk’i sezon sonuna kadar kiraladı; Tosin Adarabioyo’yu da transfer etti",
+      "summary": "Tottenham, Chelsea’den Ukraynalı kanat oyuncusu Mykhailo Mudryk’i 2026-27 sezonu sonuna kadar kiralık olarak kadrosuna kattığını açıkladı. Londra ekibi ayrıca Chelsea savunmacısı Tosin Adarabioyo ile de sözleşme imzaladı. Sky Sports, iki transferin 1 Eylül’deki son gün işlemleri arasında tamamlandığını duyurdu.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "publishedAt": "2026-09-02T14:30:00.000Z",
+      "discoveredAt": "2026-09-02T18:34:09.648Z",
+      "sources": [
+        {
+          "title": "Mudryk arrives on loan",
+          "publisher": "Tottenham Hotspur",
+          "url": "https://www.tottenhamhotspur.com/news/1088045/mudryk-arrives-on-loan",
+          "publishedAt": "2026-09-01T00:00:00+03:00"
+        },
+        {
+          "title": "Welcome Tosin! Adarabioyo joins from Chelsea",
+          "publisher": "Tottenham Hotspur",
+          "url": "https://www.tottenhamhotspur.com/news/1088054/welcome-tosin-adarabioyo-joins-from-chelsea",
+          "publishedAt": "2026-09-02T00:00:00+03:00"
+        },
+        {
+          "title": "Spurs sign Chelsea duo Mudryk and Tosin on Deadline Day",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football",
+          "publishedAt": "2026-09-02T00:00:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "4dfacc2fab14a492",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Jean-Mattéo Bahoya, Leeds United'a kiralandı",
+      "summary": "Eintracht Frankfurt, 21 yaşındaki hücum oyuncusu Jean-Mattéo Bahoya'nın Leeds United'a 2026-27 sezonu sonuna kadar kiralandığını duyurdu. Anlaşmada satın alma maddesi bulunuyor; kulüpler potansiyel bonservis bedelini açıklamadı.",
+      "tag": "Kesinleşti",
+      "importance": 74,
+      "publishedAt": "2026-09-02T08:00:00.000Z",
+      "discoveredAt": "2026-09-02T18:34:09.648Z",
+      "sources": [
+        {
+          "title": "Bahoya leaves Eagles",
+          "publisher": "Eintracht Frankfurt",
+          "url": "https://en.eintracht.de/news/abgang-jean-matteo-bahoya-179018",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Fußball-Bundesliga: Offensivspieler Bahoya verlässt Eintracht Frankfurt",
+          "publisher": "DIE ZEIT",
+          "url": "https://www.zeit.de/news/2026-09/02/offensivspieler-bahoya-verlaesst-eintracht-frankfurt",
+          "publishedAt": "2026-09-02T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "214792c4c5bf3491",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "UEFA’dan Avrupa kupalarında yeni dönem: VAR’ın müdahale alanı genişledi, zaman geçirmeye sıkı takip geldi",
+      "summary": "UEFA Hakemlik Direktörü Roberto Rosetti, 2 Eylül 2026’da Monaco’da yaptığı sunumda Avrupa kupalarında uygulanacak güncel oyun kurallarını ve VAR yaklaşımını açıkladı. Oyuncu değişikliklerinde 10 saniye sınırı, tedavi gören futbolcunun çoğu durumda bir dakika saha dışında kalması ve taç ile kale vuruşlarında beş saniyelik uygulama öne çıktı. VAR artık yanlış oyuncuya gösterilen kartlar, açıkça hatalı ikinci sarı kartlar ve duran top öncesindeki belirgin hücum ihlalleri gibi bazı yeni alanlarda devreye girebilecek. UEFA ayrıca 100’den fazla videodan oluşan Clear Line platformuyla hakem kararlarında Avrupa çapında ortak bir standart oluşturmayı hedefliyor. Uygulamalar, 2026-27 Şampiyonlar Ligi’",
+      "tag": "Gelişme",
+      "importance": 82,
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "discoveredAt": "2026-09-02T18:34:09.648Z",
+      "sources": [
+        {
+          "title": "How are matches refereed in UEFA competitions this season?",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/news-media/news/02a9-217e6735fa16-f3022d1021e7-1000--how-are-matches-refereed-in-uefa-competitions-this-season",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "La UEFA advierte que será muy estricta con las pérdidas de tiempo",
+          "publisher": "Europa Press",
+          "url": "https://www.europapress.es/deportes/futbol-00162/noticia-uefa-advierte-sera-muy-estricta-perdidas-tiempo-20260902155151.html",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
     {
       "id": "7d1ca6e9af8aa8f1",
       "role": "besiktas",
