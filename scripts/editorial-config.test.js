@@ -5,7 +5,7 @@ const path = require('node:path');
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
-  EDITORIAL_POLICY, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
+  EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 test('depodaki her HTML sayfasının tek bir sorumlu editörü vardır', () => {
@@ -37,6 +37,19 @@ test('ortak yayın politikası temel editoryal dengeleri kalıcı olarak taşır
   ]) {
     assert.match(EDITORIAL_POLICY, new RegExp(phrase.replace(/[()]/g, '\\$&')));
   }
+});
+
+test('özgün habercilik felsefesi kaynak derlemesini ve otomatik özel haber etiketini reddeder', () => {
+  for (const phrase of [
+    'yeniden yazmak özgün habercilik sayılmaz',
+    'en az iki yeni bulgu',
+    'Otomasyon kendi başına Özel Haber yayımlayamaz',
+    'cevap hakkı'
+  ]) assert.match(GOLHAT_ORIGINAL_JOURNALISM_POLICY, new RegExp(phrase));
+  const page = fs.readFileSync(path.resolve(__dirname, '..', 'ozel-haber.html'), 'utf8');
+  assert.match(page, /id="golhat-original-journalism-charter"/);
+  assert.match(page, /Özgün habercilik felsefemiz/);
+  assert.match(page, /Kaynak derlemesi özgün haber değildir/);
 });
 
 test('her yayın sayfasının kodla uygulanan bir konu sınırı vardır', () => {

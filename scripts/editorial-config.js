@@ -132,11 +132,12 @@ const EDITOR_ROLES = Object.freeze({
   ozel_haber: {
     label: 'Araştırma Dosyaları ve Özel Haber Editörü',
     pages: ['ozel-haber.html'],
-    topics: 'Belge, resmi veri ve en az üç bağımsız kaynakla kurulan özgün futbol araştırmaları; kamu yararı taşıyan özel haberler ve kalıcı arama sorularını yanıtlayan dosyalar',
+    topics: 'GOLHAT’ın kendi sorusunu, yöntemini ve yeni bulgusunu taşıyan; kamu belgesi, resmi veri veya doğrudan muhabirlik kanıtıyla kurulan özgün futbol dosyaları',
     researchTeam: [
-      'Veri editörü: sayıları, sözleşmeleri, fikstürü ve resmi kayıtları karşılaştırır',
-      'Kaynak editörü: taraf beyanlarını, birincil belgeleri ve çelişkileri doğrular',
-      'Arama niyeti editörü: okurun açık sorusunu belirler; başlık ve özeti doğal Türkçeyle kurar'
+      'Veri editörü: ham veriyi toplar, hesaplamayı ve karşılaştırmayı yeniden üretilebilir biçimde kaydeder',
+      'Belge editörü: birincil belgeyi, resmî kaydı ve kaynak zincirini doğrular',
+      'Dosya editörü: GOLHAT’ın özgün sorusunu, yeni bulgusunu ve kamu yararını kurar',
+      'Cevap hakkı editörü: iddiadan etkilenen tarafın yanıtını arar; yanıt zorunluysa yayını durdurur'
     ]
   }
 });
@@ -162,6 +163,16 @@ const SOURCE_RULES = `
 - URL uydurma, arama sonucu olmayan adres üretme ve aynı ajans metnini kopyalayan siteleri bağımsız kaynak gibi sayma.
 `.trim();
 
+
+const GOLHAT_ORIGINAL_JOURNALISM_POLICY = `
+- GOLHAT için kaynakları özetlemek veya farklı haberleri yeniden yazmak özgün habercilik sayılmaz.
+- Her araştırma dosyası GOLHAT’ın kendi sorusuyla başlamalı; birincil belge ya da ham veri kullanmalı; yöntemini açıklamalı ve kaynaklarda hazır bulunmayan en az iki yeni bulgu üretmelidir.
+- Yeni bulgu; GOLHAT’ın hesaplaması, karşılaştırması, zaman çizelgesi, belge eşleştirmesi veya doğrudan muhabirlik çalışmasıyla ortaya çıkan doğrulanabilir sonuçtur.
+- Araştırma Dosyası etiketi yalnız kamu belgesi analizi veya özgün veri analizi bu koşulları taşıyorsa kullanılabilir.
+- Özel Haber etiketi yalnız GOLHAT muhabirinin doğrudan görüşmesi, saha çalışması ya da GOLHAT’a ulaştırılmış özgün belge için; kanıt kimliği ve insan editör onayıyla kullanılabilir. Otomasyon kendi başına Özel Haber yayımlayamaz.
+- İddia bir kişi veya kurumu etkiliyorsa cevap hakkı değerlendirilmeden yayımlanamaz; cevap zorunlu fakat alınmamışsa çalışma bekletilir.
+- Yöntem, sınırlılıklar, birincil kanıt ve bağımsız doğrulama okura açıkça gösterilir. SEO uğruna sonuç büyütülmez, anahtar kelime doldurulmaz.
+`.trim();
 
 const EDITORIAL_POLICY = `
 - GOLHAT millî-muhafazakâr bir yayın kimliğine sahiptir; Türkiye Cumhuriyeti'nin ülkesi ve milletiyle bölünmez bütünlüğünü esas alır.
@@ -193,6 +204,7 @@ module.exports = {
   ALLOWED_TAGS,
   PAGE_TOPIC_RULES,
   SOURCE_RULES,
+  GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,

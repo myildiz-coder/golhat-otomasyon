@@ -5,6 +5,7 @@ const {
   EDITOR_ROLES,
   ALLOWED_TAGS,
   SOURCE_RULES,
+  GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
@@ -45,7 +46,7 @@ const CATEGORY_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'sources'],
+        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'sources'],
         properties: {
           page: { type: 'string', enum: Object.keys(PAGE_LABELS) },
           headline: { type: 'string', minLength: 20, maxLength: 180 },
@@ -59,6 +60,12 @@ const CATEGORY_SCHEMA = {
           focus_keyword: { type: 'string', minLength: 2, maxLength: 80 },
           original_angle: { type: 'string', minLength: 70, maxLength: 900 },
           key_findings: { type: 'array', minItems: 1, maxItems: 6, items: { type: 'string', minLength: 20, maxLength: 350 } },
+          originality_basis: { type: 'string', enum: ['reported_event', 'public_document_analysis', 'original_data_analysis', 'direct_reporting', 'original_document_obtained'] },
+          methodology: { type: 'string', maxLength: 1200 },
+          original_findings: { type: 'array', minItems: 0, maxItems: 6, items: { type: 'string', minLength: 20, maxLength: 400 } },
+          limitations: { type: 'string', maxLength: 700 },
+          right_of_reply_status: { type: 'string', enum: ['not_applicable', 'response_in_sources', 'required_before_publish'] },
+          golhat_evidence_id: { type: 'string', maxLength: 120 },
           sources: {
             type: 'array',
             minItems: 2,
@@ -66,12 +73,13 @@ const CATEGORY_SCHEMA = {
             items: {
               type: 'object',
               additionalProperties: false,
-              required: ['title', 'publisher', 'url', 'published_at'],
+              required: ['title', 'publisher', 'url', 'published_at', 'source_role'],
               properties: {
                 title: { type: 'string' },
                 publisher: { type: 'string' },
                 url: { type: 'string' },
-                published_at: { type: 'string' }
+                published_at: { type: 'string' },
+                source_role: { type: 'string', enum: ['primary_evidence', 'independent_verification', 'context'] }
               }
             }
           }
@@ -115,14 +123,20 @@ function parseArgs(argv) {
 
 function categoryRequest(role, now, model) {
   const researchBrief = role.researchTeam ? [
-    'Bu masa üç uzman denetimiyle çalışır:',
+    'Bu masa dört uzman denetimiyle çalışır:',
     ...role.researchTeam,
-    'Tek bir son dakika haberini yeniden anlatma. Belgeler, resmi veriler ve taraf açıklamalarını karşılaştırarak internette açık bir bilgi ihtiyacını yanıtlayan özgün bir dosya kur.',
-    'Araştırma dosyasında en az üç bağımsız alan adı, en az üç somut bulgu ve GOLHAT’a özgü bir original_angle zorunludur.',
-    'exclusive türünü yalnız GOLHAT’ın özgün belgesi, verisi veya doğrudan haber üretimi varsa kullan; kaynak sentezi için dossier kullan.',
-    'SEO alanlarında anahtar kelime doldurma yapma. seo_title doğal, açık ve arama sorusunu yanıtlayan bir başlık olsun.'
+    'Kaynak derlemesi, haber özeti veya başka yayınların analizini yeniden anlatan çalışma üretme.',
+    'Bu otomasyon yalnız content_type=dossier üretebilir; exclusive üretme. Özel Haber insan muhabir kanıtı ve editör onayı gerektirir.',
+    'originality_basis yalnız public_document_analysis veya original_data_analysis olabilir.',
+    'En az bir source_role=primary_evidence ve bir source_role=independent_verification kullan.',
+    'methodology alanında veri kümesini, tarih aralığını, hesabı ve karşılaştırmayı yeniden üretilebilir biçimde açıkla.',
+    'original_findings alanında kaynaklarda hazır cümle olarak bulunmayan, GOLHAT’ın yöntemle çıkardığı en az iki yeni sonucu yaz.',
+    'limitations alanında verinin kapsamadığı noktaları açıkla. right_of_reply_status=required_before_publish ise yayımlama; decision=no_change döndür.',
+    'SEO alanlarında anahtar kelime doldurma yapma; başlık bulguyu aşmasın.'
   ] : [
-    'Her haber için doğal bir seo_title, kısa seo_description, tek focus_keyword, özgün original_angle ve doğrulanmış key_findings üret.'
+    'Her haber için doğal seo_title, seo_description, focus_keyword, original_angle ve key_findings üret.',
+    'Normal haberlerde originality_basis=reported_event, original_findings=[], golhat_evidence_id="" kullan; methodology ile çapraz doğrulama yolunu, limitations ile bilinen sınırı kısaca açıkla.',
+    'Her kaynağı primary_evidence, independent_verification veya context olarak sınıflandır.'
   ];
   const pageSummary = role.pages
     .map((page) => page + ': ' + PAGE_LABELS[page])
@@ -160,6 +174,7 @@ function categoryRequest(role, now, model) {
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       ...researchBrief,
       SOURCE_RULES,
+      ...(role.researchTeam ? [GOLHAT_ORIGINAL_JOURNALISM_POLICY] : []),
       EDITORIAL_POLICY
     ].join('\n'),
     input: [
@@ -182,7 +197,7 @@ function categoryRequest(role, now, model) {
         schema: CATEGORY_SCHEMA
       }
     },
-    max_output_tokens: role.researchTeam ? 7000 : 5200
+    max_output_tokens: role.researchTeam ? 8500 : 6000
   };
 }
 

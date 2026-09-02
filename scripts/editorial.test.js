@@ -79,6 +79,55 @@ function validStory(overrides = {}) {
   });
 }
 
+function researchRaw(overrides = {}) {
+  return rawStory({
+    page: 'ozel-haber.html',
+    headline: 'Süper Lig kulüplerinin beş sezonluk transfer harcaması belgelerle incelendi',
+    summary: 'GOLHAT, kulüplerin resmî bildirimleri ile federasyon verilerini aynı dönem ve para biriminde karşılaştırarak transfer harcamasındaki yapısal değişimi ve kulüpler arasındaki farkı araştırdı.',
+    tag: 'Dosya',
+    content_type: 'dossier',
+    seo_title: 'Süper Lig transfer harcamalarının beş sezonluk veri dosyası',
+    seo_description: 'GOLHAT, resmî kulüp bildirimleri ve federasyon verileriyle Süper Lig transfer harcamalarının beş sezonluk değişimini özgün yöntemle inceledi.',
+    focus_keyword: 'Süper Lig transfer harcamaları',
+    original_angle: 'Bu çalışma tekil transfer haberlerini sıralamak yerine, resmî bildirimlerdeki bedelleri ortak dönem ve para birimine taşıyarak kulüplerin toplam harcama eğilimini ve dönemler arasındaki kırılmayı GOLHAT yöntemiyle ölçüyor.',
+    key_findings: [
+      'Beş sezonluk toplam harcama ortak para biriminde karşılaştırıldı.',
+      'Kulüpler arasındaki harcama farkının en yüksek olduğu dönem belirlendi.',
+      'Resmî bildirimi bulunmayan bedeller hesaplamanın dışında bırakıldı.'
+    ],
+    originality_basis: 'original_data_analysis',
+    methodology: 'GOLHAT veri editörü, TFF ve KAP kayıtlarındaki transfer bildirimlerini 2021-22 ile 2025-26 sezonları için topladı; bedelleri işlem tarihindeki ortak para birimine çevirdi, sezon ve kulüp bazında topladı ve sonuçları bağımsız haber kayıtlarıyla çapraz doğruladı.',
+    original_findings: [
+      'Ortak para birimine çevrilen seride harcama yoğunluğunun tek bir sezonda belirgin biçimde kümelendiği hesaplandı.',
+      'Açıklanan bedeller üzerinden en yüksek ve en düşük harcama grubu arasındaki farkın beş sezon içinde genişlediği belirlendi.'
+    ],
+    limitations: 'Açıklanmayan bonuslar, menajerlik ücretleri ve resmî kaydı bulunmayan transfer bedelleri hesaplamaya dahil edilmedi; sonuçlar yalnız açık veriyi temsil ediyor.',
+    right_of_reply_status: 'not_applicable',
+    golhat_evidence_id: '',
+    sources: [
+      { title: 'TFF kulüp ve transfer kayıtları', publisher: 'TFF', url: 'https://www.tff.org/kulup-transfer-raporu', published_at: '2026-09-02T06:00:00.000Z', source_role: 'primary_evidence' },
+      { title: 'Kamuyu Aydınlatma Platformu kulüp bildirimleri', publisher: 'KAP', url: 'https://www.kap.org.tr/tr/futbol-bildirimleri', published_at: '2026-09-02T06:10:00.000Z', source_role: 'primary_evidence' },
+      { title: 'Türkiye futbol ekonomisi değerlendirmesi', publisher: 'Reuters', url: 'https://www.reuters.com/sports/turkey-football-finance', published_at: '2026-09-02T06:20:00.000Z', source_role: 'independent_verification' }
+    ],
+    ...overrides
+  });
+}
+
+function researchContext(overrides = {}) {
+  const urls = [
+    'https://www.tff.org/kulup-transfer-raporu',
+    'https://www.kap.org.tr/tr/futbol-bildirimleri',
+    'https://www.reuters.com/sports/turkey-football-finance'
+  ];
+  return {
+    now: NOW,
+    role: 'ozel_haber',
+    allowedPages: ['ozel-haber.html'],
+    citedUrls: new Set(urls.map(urlSignature)),
+    ...overrides
+  };
+}
+
 test('canonicalUrl izleme parametrelerini ve parçayı kaldırır', () => {
   assert.equal(
     canonicalUrl('https://WWW.Example.com/path/?utm_source=x&fbclid=abc&foo=1#bolum'),
@@ -123,6 +172,36 @@ test('aynı alan adındaki iki URL bağımsız kaynak sayılmaz', () => {
     allowedPages: ['fenerbahce.html'],
     citedUrls: collectCitedUrls(response)
   }), /iki farklı alan adından/);
+});
+
+test('özgün veri dosyası birincil kanıt, yöntem ve yeni bulgularla kabul edilir', () => {
+  const story = validateStory(researchRaw(), researchContext());
+  assert.equal(story.contentType, 'dossier');
+  assert.equal(story.originalityBasis, 'original_data_analysis');
+  assert.equal(story.originalFindings.length, 2);
+  assert.equal(story.sources.some((source) => source.sourceRole === 'primary_evidence'), true);
+  assert.equal(story.sources.some((source) => source.sourceRole === 'independent_verification'), true);
+});
+
+test('kaynak derlemesi özgün araştırma dosyası sayılamaz', () => {
+  assert.throws(
+    () => validateStory(researchRaw({ originality_basis: 'reported_event' }), researchContext()),
+    /Kaynak derlemesi özgün dosya değildir/
+  );
+});
+
+test('otomasyon insan muhabir kanıtı olmadan Özel Haber yayımlayamaz', () => {
+  assert.throws(
+    () => validateStory(researchRaw({ content_type: 'exclusive', originality_basis: 'direct_reporting', golhat_evidence_id: 'GOLHAT-001' }), researchContext()),
+    /Otomasyon Özel Haber yayımlayamaz/
+  );
+});
+
+test('cevap hakkı tamamlanmamış araştırma yayımlanamaz', () => {
+  assert.throws(
+    () => validateStory(researchRaw({ right_of_reply_status: 'required_before_publish' }), researchContext()),
+    /Cevap hakkı tamamlanmadan/
+  );
 });
 
 test('KKTC yerine yabancı siyasi terminolojisi kullanan haber karantinaya alınır', () => {
@@ -411,6 +490,9 @@ test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanın
   assert.match(html, /NewsArticle/);
   assert.match(html, /Dosyanın özgün açısı/);
   assert.match(html, /Kaynak zinciri/);
+  assert.match(html, /<b>Yöntem:<\/b>/);
+  assert.match(html, /<b>Sınırlılıklar:<\/b>/);
+  assert.match(html, /<b>Cevap hakkı:<\/b>/);
   assert.doesNotMatch(html, /<img\b/i);
   assert.match(buildSitemapXml([story], NOW), /https:\/\/golhat.com\/haber\//);
   const misplaced = { ...story, id: '990f6014c7ebaaae', page: 'anadolu.html', headline: 'Trabzonspor’da Fatih Tekke dönemi sona erdi', summary: 'Trabzonspor teknik direktör değişikliğini KAP üzerinden duyurdu.' };
