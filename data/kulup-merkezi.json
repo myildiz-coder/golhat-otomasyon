@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:33:23.054Z",
+  "updatedAt": "2026-09-02T22:34:06.932Z",
   "sources": [
     {
       "name": "FotMob",
@@ -848,6 +848,13 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
         "disclosures": [
           {
+            "id": 1657703,
+            "date": "2026-09-02T23:51:50+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Franculino Gludo Dju Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657703"
+          },
+          {
             "id": 1657232,
             "date": "2026-09-02T15:13:45+03:00",
             "type": "Teknik Yönetime İlişkin Açıklama",
@@ -881,13 +888,6 @@
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
             "summary": "Rene Mitongo Muteba Transferi Hakkında.",
             "url": "https://www.kap.org.tr/tr/Bildirim/1638915"
-          },
-          {
-            "id": 1634753,
-            "date": "2026-07-19T22:00:14+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "Christ Ravynel Inao Oulai Kesin Transferi Hakkında.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1634753"
           }
         ]
       }
