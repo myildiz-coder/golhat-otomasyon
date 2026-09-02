@@ -1,7 +1,363 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T20:27:55.155Z",
+  "updatedAt": "2026-09-02T21:25:56.751Z",
   "stories": [
+    {
+      "id": "4ed572e0062a6446",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Manchester City, Enzo Fernández’i Chelsea’den İngiliz rekorunu egale eden bedelle aldı",
+      "summary": "Manchester City, Chelsea’nin Arjantinli orta saha oyuncusu Enzo Fernández’i 125 milyon sterlinlik bedelle kadrosuna kattı. Kulüp, 25 yaşındaki futbolcuyla beş yıllık sözleşme imzalandığını açıkladı; transfer İngiltere rekorunu egale etti.",
+      "tag": "Kesinleşti",
+      "importance": 95,
+      "contentType": "news",
+      "seoTitle": "Manchester City Enzo Fernández transferini tamamladı: 125 milyon sterlin",
+      "seoDescription": "Manchester City, Chelsea’den Enzo Fernández’i 125 milyon sterlin karşılığında transfer etti. Arjantinli orta saha oyuncusu 2031 yazına kadar sözleşme imzaladı.",
+      "focusKeyword": "Enzo Fernández Manchester City transferi",
+      "originalAngle": "Transferi yalnızca yüksek bedeliyle değil, Manchester City’nin orta saha yapılanması ve Chelsea’nin son gün kadro planlaması açısından doğrulanmış bilgilerle ele almak.",
+      "keyFindings": [
+        "Manchester City, Enzo Fernández transferini resmen tamamladı.",
+        "Fernández, City ile beş yıllık sözleşme imzaladı ve sözleşmesi 2031 yazına kadar geçerli.",
+        "Sky Sports transfer bedelini 125 milyon sterlin olarak verdi.",
+        "Transfer, İngiltere futbolundaki mevcut rekor bedeli egale etti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Manchester City’nin resmi açıklaması Chelsea’nin resmi transfer duyurusu ve Sky Sports’un bağımsız haberindeki sözleşme ile bedel bilgileri karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Kulüplerin resmi açıklamalarında transfer bedelinin tüm ödeme kalemleri ve olası bonus ayrıntıları yer almadı; bu nedenle yalnızca bağımsız doğrulanan toplam bedel kullanıldı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "editorialReview": {
+        "tahkik": {
+          "score": 97,
+          "note": "Manchester City ve Chelsea’nin resmi açıklamaları, Sky Sports’un bedel ve sözleşme bilgileriyle çaprazlandı."
+        },
+        "adalet": {
+          "score": 92,
+          "note": "City’nin transferi aktarılırken Chelsea’nin oyuncuyu kaybettiği ve yerine yapılması planlanan hamlenin gerçekleşmediğine ilişkin bağımsız bağlam abartılmadan verildi."
+        },
+        "musbet_hareket": {
+          "score": 86,
+          "note": "Haber, transferin sportif ve kadro planlama boyutunu aktarıyor; kulüplere veya yöneticilere yönelik hakaret ya da tahrik içermiyor."
+        },
+        "uhuvvet_sefkat": {
+          "score": 88,
+          "note": "Oyuncu ve kulüpler hakkında kişiselleştirilmiş suçlayıcı dil kullanılmadı; taraftar gruplarını hedef alan ifade yok."
+        },
+        "public_interest": {
+          "score": 96,
+          "note": "İngiltere futbolunun en yüksek profilli son gün transferlerinden biri ve Avrupa ligleri açısından doğrudan önemli."
+        },
+        "newsCommentSeparated": true
+      },
+      "publishedAt": "2026-09-02T06:30:00.000Z",
+      "discoveredAt": "2026-09-02T21:25:56.751Z",
+      "sources": [
+        {
+          "title": "City complete Enzo Fernández signing from Chelsea",
+          "publisher": "Manchester City",
+          "url": "https://www.mancity.com/news/mens/enzo-fernandez-signs-for-city-63923893",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Enzo Fernandez transfer news: Man City sign midfielder from Chelsea in British-record-equalling £125m deal",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/transfer/news/11679/13579972/enzo-fernandez-transfer-news-man-city-sign-midfielder-from-chelsea-in-british-record-equalling-125m-deal",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Enzo Fernández leaves on permanent transfer",
+          "publisher": "Chelsea FC",
+          "url": "https://www.chelseafc.com/en/news/article/enzo-fernandez-leaves--chelsea-on-permanent-transfer",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "b334709b39d0c035",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Barcelona, Arsenal’den Gabriel Jesus’u 2029’a kadar kadrosuna kattı",
+      "summary": "Barcelona, Arsenal’in Brezilyalı forveti Gabriel Jesus ile anlaşmaya vardığını açıkladı. Oyuncu, 30 Haziran 2029’a kadar Barcelona’ya bağlandı; Sky Sports transfer bedelini 10 milyon euro olarak bildirdi.",
+      "tag": "Kesinleşti",
+      "importance": 84,
+      "contentType": "news",
+      "seoTitle": "Gabriel Jesus Barcelona’ya transfer oldu: Sözleşme 2029’a kadar",
+      "seoDescription": "Barcelona, Arsenal’den Gabriel Jesus’u transfer etti. Brezilyalı forvet, İspanyol kulübüyle 30 Haziran 2029’a kadar sözleşme imzaladı.",
+      "focusKeyword": "Gabriel Jesus Barcelona transferi",
+      "originalAngle": "Barcelona’nın santrfor hamlesini, Arsenal’den ayrılık ve oyuncunun sözleşme süresiyle sınırlı, doğrulanmış bilgiler üzerinden aktarmak.",
+      "keyFindings": [
+        "Barcelona ile Arsenal, Gabriel Jesus’un transferi için anlaşmaya vardı.",
+        "Brezilyalı forvet Barcelona ile 30 Haziran 2029’a kadar sözleşme imzaladı.",
+        "Sky Sports transfer bedelini 10 milyon euro olarak bildirdi.",
+        "Jesus, Arsenal’de 123 maçta 32 gol kaydetti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Barcelona’nın resmi duyurusu, Sky Sports’un transfer haberi ve sözleşme süresi ile bedel bilgileri karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Barcelona’nın resmi duyurusunda transfer bedelinin ayrıntıları yer almadı; bedel bilgisi bağımsız spor kaynağına atfedilerek kullanıldı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "editorialReview": {
+        "tahkik": {
+          "score": 96,
+          "note": "Barcelona’nın resmi transfer duyurusu, Arsenal’den gelen oyuncu bilgisi ve Sky Sports’un 10 milyon euroluk bedel haberini doğruluyor."
+        },
+        "adalet": {
+          "score": 90,
+          "note": "Oyuncunun Arsenal’deki katkısı ve son dönemdeki sınırlı ilk 11 rolü birlikte aktarıldı; taraflardan biri küçümsenmedi."
+        },
+        "musbet_hareket": {
+          "score": 85,
+          "note": "Transfer, kariyer ve kadro ihtiyacı çerçevesinde sakin bir dille verildi; spekülatif sportif hüküm kurulmadı."
+        },
+        "uhuvvet_sefkat": {
+          "score": 88,
+          "note": "Oyuncunun geçmiş sakatlığı yalnızca kaynakta yer alan kariyer bağlamı ölçüsünde kullanıldı; sağlık durumu üzerinden sansasyon yapılmadı."
+        },
+        "public_interest": {
+          "score": 82,
+          "note": "Barcelona ve Arsenal gibi iki büyük kulübü ilgilendiren, son transfer gününün doğrulanmış Avrupa gelişmesi."
+        },
+        "newsCommentSeparated": true
+      },
+      "publishedAt": "2026-09-01T14:14:00.000Z",
+      "discoveredAt": "2026-09-02T21:25:56.751Z",
+      "sources": [
+        {
+          "title": "Gabriel Jesus signs for FC Barcelona",
+          "publisher": "FC Barcelona",
+          "url": "https://www.fcbarcelona.com/en/news/4570072/gabriel-jesus-signs-for-fc-barcelona/amp",
+          "publishedAt": "2026-09-01",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gabriel Jesus: Arsenal forward completes Barcelona transfer in £8.6m deal on Deadline Day",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11833/13579275/gabriel-jesus-arsenal-forward-completes-barcelona-transfer-in-lb8-6m-deal-on-deadline-day",
+          "publishedAt": "2026-09-01",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Gabriel Jesus ficha por el FC Barcelona",
+          "publisher": "FC Barcelona Español",
+          "url": "https://www.fcbarcelona.es/es/futbol/primer-equip/noticies/4570072/gabriel-jesus-fitxa-pel-fc-barcelona",
+          "publishedAt": "2026-09-01",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "5193a34dd79b33ec",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Leeds United, Eintracht Frankfurt’tan Jean-Mattéo Bahoya’yı kiraladı",
+      "summary": "Leeds United, Eintracht Frankfurt’ın 21 yaşındaki hücum oyuncusu Jean-Mattéo Bahoya’yı satın alma opsiyonuyla kiraladığını açıkladı. Transfer, İngiltere’de kapanan yaz penceresinin ardından 2 Eylül’de duyurulan son gün işlemleri arasında yer aldı.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Leeds United, Jean-Mattéo Bahoya transferini açıkladı",
+      "seoDescription": "Leeds United, Eintracht Frankfurt’tan Jean-Mattéo Bahoya’yı satın alma opsiyonuyla kiraladı. Fransız hücum oyuncusu İngiliz ekibinin yaz dönemindeki son transferi oldu.",
+      "focusKeyword": "Jean-Mattéo Bahoya Leeds United",
+      "originalAngle": "Transferi, Bundesliga’dan Premier League’e gerçekleşen son gün geçişi ve Leeds’in hücum rotasyonuna eklenen genç oyuncu perspektifiyle sunmak.",
+      "keyFindings": [
+        "Leeds United, Jean-Mattéo Bahoya’yı Eintracht Frankfurt’tan kiraladı.",
+        "Anlaşmada satın alma opsiyonu bulunuyor.",
+        "Bahoya, Leeds’in yaz transfer dönemindeki yedinci takviyesi oldu.",
+        "Leeds, transferi 2 Eylül 2026’da resmi olarak duyurdu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Leeds United’ın resmi duyurusu, Bundesliga’nın transfer merkezi ve Premier League’in son gün özetindeki bilgiler karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Satın alma opsiyonunun bedeli ve kullanım şartları resmi açıklamada paylaşılmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "editorialReview": {
+        "tahkik": {
+          "score": 95,
+          "note": "Leeds’in resmi açıklaması Bundesliga transfer merkezi ve Premier League’in son gün derlemesiyle çapraz doğrulandı."
+        },
+        "adalet": {
+          "score": 88,
+          "note": "Leeds ve Frankfurt’un transferdeki rolleri dengeli biçimde aktarıldı; oyuncunun performansı hakkında doğrulanmamış beklenti kurulmadı."
+        },
+        "musbet_hareket": {
+          "score": 84,
+          "note": "Haber, genç oyuncunun kariyer geçişini ve transfer formatını bilgi odaklı biçimde veriyor."
+        },
+        "uhuvvet_sefkat": {
+          "score": 87,
+          "note": "Oyuncunun gelişim süreci üzerinden küçültücü veya baskı kuran bir dil kullanılmadı."
+        },
+        "public_interest": {
+          "score": 73,
+          "note": "Leeds’in Avrupa liglerinden yaptığı doğrulanmış son gün takviyesi, Avrupa futbolu sayfası için sınırlı fakat anlamlı bir gelişme."
+        },
+        "newsCommentSeparated": true
+      },
+      "publishedAt": "2026-09-01T23:00:00.000Z",
+      "discoveredAt": "2026-09-02T21:25:56.751Z",
+      "sources": [
+        {
+          "title": "Jean-Mattéo Bahoya becomes our final summer signing!",
+          "publisher": "Leeds United",
+          "url": "https://www.leedsunited.com/en/news/jean-matteo-bahoya-becomes-our-final-summer-signing",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "publisher": "Bundesliga",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "The Wrap: What happened on Transfer Deadline Day",
+          "publisher": "Premier League",
+          "url": "https://www.premierleague.com/en/news/4705808/the-wrap-what-happened-on-transfer-deadline-day",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "e7f152207c5b92ee",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Brighton, Femi Azeez transferini dört yıllık sözleşmeyle açıkladı",
+      "summary": "Brighton, Millwall’dan Nijeryalı kanat oyuncusu Femi Azeez’i dört yıllık sözleşmeyle kadrosuna kattığını duyurdu. Kulüp, transfer evraklarının İngiltere’deki son günün uzatılmış süresi içinde tamamlandığını açıkladı; bedel paylaşılmadı.",
+      "tag": "Kesinleşti",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Brighton, Femi Azeez transferini dört yıllık sözleşmeyle tamamladı",
+      "seoDescription": "Brighton, Millwall’dan Femi Azeez’i dört yıllık sözleşmeyle transfer ettiğini resmen açıkladı. Transfer bedeli duyurulmadı.",
+      "focusKeyword": "Femi Azeez Brighton transferi",
+      "originalAngle": "İngiltere transfer döneminin kapanmasının ardından evrak süreci tamamlanan transferin resmî kulüp açıklamasıyla kesinleştiğini öne çıkarmak.",
+      "keyFindings": [
+        "Brighton, Femi Azeez’in Millwall’dan transfer edildiğini resmen açıkladı.",
+        "Oyuncuyla dört yıllık sözleşme imzalandı.",
+        "Transfer bedeli açıklanmadı.",
+        "Brighton, işlemin uzatılmış transfer süresi içinde tamamlandığını bildirdi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Brighton’ın resmî açıklaması, transferin dört yıllık sözleşme ve tamamlanma süresine ilişkin birincil kaynak olarak incelendi; bağımsız haber kaynağındaki transfer gündemiyle çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli ve sözleşmenin diğer mali şartları kamuoyuna açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "editorialReview": {
+        "tahkik": {
+          "score": 94,
+          "note": "Transfer Brighton’ın resmî kulüp açıklamasıyla doğrulanıyor; bağımsız kaynak da aynı imzayı aktarıyor."
+        },
+        "adalet": {
+          "score": 91,
+          "note": "Bedel açıklanmadığı hâlde rakam üretilmedi; oyuncu ve kulüpler hakkında doğrulanmamış değerlendirme kullanılmadı."
+        },
+        "musbet_hareket": {
+          "score": 88,
+          "note": "Haber, transferin tamamlanmasına ve sözleşme süresine odaklanıyor; tahrik edici veya küçültücü dil içermiyor."
+        },
+        "uhuvvet_sefkat": {
+          "score": 90,
+          "note": "Oyuncunun kariyer geçişi saygılı ve ölçülü biçimde aktarılıyor; kişisel hayatına veya taraftar gruplarına ilişkin gereksiz unsur yok."
+        },
+        "public_interest": {
+          "score": 78,
+          "note": "Premier League kulübünün son gün tamamlanan transferi, Türkiye ve Avrupa futbolundaki güncel transfer akışı bakımından kayda değer."
+        },
+        "newsCommentSeparated": true
+      },
+      "publishedAt": "2026-09-02T09:30:00.000Z",
+      "discoveredAt": "2026-09-02T21:25:56.751Z",
+      "sources": [
+        {
+          "title": "Albion sign Femi Azeez from Millwall",
+          "publisher": "Brighton & Hove Albion",
+          "url": "https://www.brightonandhovealbion.com/media-article/mft-transfer-news-femi-azeez-millwall-september-2026",
+          "publishedAt": "2026-09-02T10:30:00+01:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Every done deal on transfer deadline day",
+          "publisher": "BBC Sport via Yahoo Sports",
+          "url": "https://ca.sports.yahoo.com/news/every-done-deal-transfer-deadline-074504216.html",
+          "publishedAt": "2026-09-02T12:17:00Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "1034b05e52f2b32e",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Victor Nelsson, Galatasaray’dan ayrılıp FC Nordsjælland’a döndü",
+      "summary": "FC Nordsjælland, Galatasaray’dan ayrılan Victor Nelsson ile dört yıllık sözleşme imzalandığını açıkladı. Galatasaray’ın sözleşmeyi karşılıklı anlaşmayla sona erdirdiği gelişmesi de Türkiye’de bağımsız bir kaynak tarafından doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Victor Nelsson Galatasaray’dan ayrıldı, FC Nordsjælland’a döndü",
+      "seoDescription": "Galatasaray ile sözleşmesi sona eren Victor Nelsson, altyapısından yetiştiği FC Nordsjælland’a dört yıllık sözleşmeyle geri döndü.",
+      "focusKeyword": "Victor Nelsson FC Nordsjælland transferi",
+      "originalAngle": "Galatasaray’daki sözleşme feshi ile oyuncunun yetiştiği FC Nordsjælland’a dönüşünü aynı transfer dosyasında, iki kulübün açıklamaları üzerinden netleştirmek.",
+      "keyFindings": [
+        "FC Nordsjælland, Victor Nelsson’un Galatasaray’dan transfer edildiğini açıkladı.",
+        "Danimarkalı stoperle 2030 yazına kadar geçerli dört yıllık sözleşme imzalandı.",
+        "Galatasaray’ın Nelsson’la sözleşmesini karşılıklı anlaşmayla sona erdirdiği bildirildi.",
+        "FC Nordsjælland açıklamasında transfer bedeline yer verilmedi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "FC Nordsjælland’ın resmî transfer duyurusu incelendi; Galatasaray’ın sözleşme feshi ve oyuncunun yeni kulübü hakkındaki Türkiye kaynaklı bağımsız haberle çapraz doğrulama yapıldı.",
+      "originalFindings": [],
+      "limitations": "Galatasaray ile FC Nordsjælland arasındaki mali şartlar resmî açıklamada açıklanmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "editorialReview": {
+        "tahkik": {
+          "score": 96,
+          "note": "Yeni kulübün resmî açıklaması sözleşme süresini doğruluyor; Galatasaray’ın fesih bildirimi bağımsız bir Türkçe kaynakta ayrıca aktarılıyor."
+        },
+        "adalet": {
+          "score": 94,
+          "note": "Galatasaray’ın ayrılık süreci ve oyuncunun yeni kulübü birlikte veriliyor; kulüplerden biri lehine veya aleyhine spekülasyon yapılmıyor."
+        },
+        "musbet_hareket": {
+          "score": 90,
+          "note": "Haber, sözleşme ve kulüp değişikliğiyle sınırlı tutuldu; teknik tercih veya kişisel çatışma iddiası kesin gerçek gibi yazılmadı."
+        },
+        "uhuvvet_sefkat": {
+          "score": 91,
+          "note": "Nelsson’un eski kulübünden ayrılışı ve yetiştiği takıma dönüşü, oyuncunun haysiyetini koruyan nötr bir dille aktarılıyor."
+        },
+        "public_interest": {
+          "score": 86,
+          "note": "Galatasaray’ın önemli bir savunma oyuncusuyla yollarını ayırması ve oyuncunun Danimarka’ya dönüşü Türkiye transfer gündemi açısından yüksek önem taşıyor."
+        },
+        "newsCommentSeparated": true
+      },
+      "publishedAt": "2026-09-02T17:01:00.000Z",
+      "discoveredAt": "2026-09-02T21:25:56.751Z",
+      "sources": [
+        {
+          "title": "Victor Nelsson vender hjem til FC Nordsjælland",
+          "publisher": "FC Nordsjælland",
+          "url": "https://www.fcn.dk/nyheder/2026/september/victor-nelsson-vender-hjem-til-fc-nordsjaelland",
+          "publishedAt": "2026-09-02T19:01:00+02:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Nelsson ile yollar ayrıldı! Ülkesine döndü",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/spor/son-dakika-galatasaray-victor-nelsson-ile-yollarin-ayrildigini-tff-ye-bildirdi-3909845",
+          "publishedAt": "2026-09-02T19:27:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "3b6a47f9f4936c5a",
       "role": "besiktas",
