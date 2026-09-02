@@ -171,6 +171,9 @@ test('ana sayfa manşetleri Özel Haber sayfasında birikir ve tekrar eklenmez',
   assert.match(firstOutput, new RegExp('data-homepage-story-id="' + first.id + '"'));
   assert.match(firstOutput, /Ana Sayfa Manşet Arşivi/);
   assert.doesNotMatch(firstOutput, /<img\b/i);
+  assert.match(firstOutput, /homepage-archive-index/);
+  assert.match(firstOutput, new RegExp('href="#manset-' + first.id + '"'));
+  assert.match(firstOutput, />1 haber<\/span>/);
   const second = validStory({
     headline: "Fenerbahçe'nin Avrupa kadrosuna ilişkin yeni karar açıklandı",
     summary: 'Kulüp, Avrupa kupası kadrosuna ilişkin yeni kararını resmî kanallarından duyurdu ve ayrıntılar iki bağımsız kaynak tarafından doğrulandı.'
@@ -178,6 +181,11 @@ test('ana sayfa manşetleri Özel Haber sayfasında birikir ve tekrar eklenmez',
   const secondOutput = buildHomepageArchiveHtml(firstOutput, second, NOW);
   assert.equal((secondOutput.match(new RegExp('data-homepage-story-id="' + second.id + '"', 'g')) || []).length, 1);
   assert.ok(secondOutput.indexOf(second.headline) < secondOutput.indexOf(first.headline));
+  assert.match(secondOutput, />2 haber<\/span>/);
+  assert.match(secondOutput, /1\. haber/);
+  assert.match(secondOutput, /2\. haber/);
+  assert.match(secondOutput, new RegExp('href="#manset-' + second.id + '"'));
+  assert.match(secondOutput, new RegExp('href="#manset-' + first.id + '"'));
   assert.equal(buildHomepageArchiveHtml(secondOutput, second, NOW), secondOutput);
 });
 test('ana sayfa manşet dosyasının bütününü aynı haberle atomik yeniler', () => {

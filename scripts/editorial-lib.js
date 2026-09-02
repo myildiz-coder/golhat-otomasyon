@@ -17,6 +17,8 @@ const START_MARKER = '  <!-- GOLHAT:AUTO_EDITOR:START -->';
 const END_MARKER = '  <!-- GOLHAT:AUTO_EDITOR:END -->';
 const HOMEPAGE_ARCHIVE_START = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE:START -->';
 const HOMEPAGE_ARCHIVE_END = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE:END -->';
+const HOMEPAGE_ARCHIVE_INDEX_START = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE_INDEX:START -->';
+const HOMEPAGE_ARCHIVE_INDEX_END = '    <!-- GOLHAT:HOMEPAGE_ARCHIVE_INDEX:END -->';
 const TRACKING_PARAMS = new Set([
   'fbclid',
   'gclid',
@@ -401,7 +403,7 @@ function renderHomepageArchiveArticle(story, archivedAt) {
       htmlEscape(source.title) + '</span></li>'
   ].join('')).join('\n');
   return [
-    '    <article class="dosya-block homepage-archive-item" data-homepage-story-id="' + htmlEscape(story.id) + '">',
+    '    <article class="dosya-block homepage-archive-item" id="manset-' + htmlEscape(story.id) + '" data-homepage-story-id="' + htmlEscape(story.id) + '">',
     '      <span class="section-label">Ana Sayfa Manşet Arşivi</span>',
     '      <h2>' + htmlEscape(story.headline) + '</h2>',
     '      <p class="standfirst">' + htmlEscape(story.summary) + '</p>',
@@ -413,10 +415,55 @@ function renderHomepageArchiveArticle(story, archivedAt) {
   ].join('\n');
 }
 
+function refreshHomepageArchiveIndex(html) {
+  let updated = html.replace(
+    /<article class="dosya-block homepage-archive-item"(?![^>]*\sid=)([^>]*data-homepage-story-id="([^"]+)"[^>]*)>/g,
+    '<article class="dosya-block homepage-archive-item" id="manset-$2"$1>'
+  );
+  const entries = Array.from(updated.matchAll(
+    /<article class="dosya-block homepage-archive-item"[^>]*?\sid="([^"]+)"[^>]*>[\s\S]*?<h2>([\s\S]*?)<\/h2>/g
+  )).map((match) => ({ anchor: match[1], headline: match[2].trim() }));
+  if (!entries.length) return updated;
+
+  const index = [
+    HOMEPAGE_ARCHIVE_INDEX_START,
+    '    <nav class="homepage-archive-index" aria-label="Arşivlenen ana sayfa manşetleri">',
+    '      <p class="homepage-archive-index-title">Arşivlenen manşetler</p>',
+    '      <ol>',
+    entries.map((entry, indexNumber) => [
+      '        <li><a href="#' + htmlEscape(entry.anchor) + '">',
+      '          <span>' + (indexNumber + 1) + '. haber</span>',
+      '          <strong>' + entry.headline + '</strong>',
+      '        </a></li>'
+    ].join('\n')).join('\n'),
+    '      </ol>',
+    '    </nav>',
+    HOMEPAGE_ARCHIVE_INDEX_END
+  ].join('\n');
+
+  const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const indexPattern = new RegExp(
+    escapeRegex(HOMEPAGE_ARCHIVE_INDEX_START) + '[\\s\\S]*?' + escapeRegex(HOMEPAGE_ARCHIVE_INDEX_END)
+  );
+  if (indexPattern.test(updated)) {
+    updated = updated.replace(indexPattern, index);
+  } else {
+    updated = updated.replace(
+      /(<section class="single-desk homepage-archive"[\s\S]*?<div class="desk-heading">[\s\S]*?<\/div>)/,
+      '$1\n' + index
+    );
+  }
+
+  return updated.replace(
+    /(<section class="single-desk homepage-archive"[\s\S]*?<span class="desk-count mono">)[^<]*(<\/span>)/,
+    '$1' + entries.length + ' haber$2'
+  );
+}
+
 function buildHomepageArchiveHtml(html, story, archivedAt) {
   assertEditorialLanguage(story.headline, story.summary);
   const storyToken = 'data-homepage-story-id="' + story.id + '"';
-  if (html.includes(storyToken)) return html;
+  if (html.includes(storyToken)) return refreshHomepageArchiveIndex(html);
   const article = renderHomepageArchiveArticle(story, archivedAt);
   let updated = html;
   const hasStart = html.includes(HOMEPAGE_ARCHIVE_START);
@@ -438,10 +485,11 @@ function buildHomepageArchiveHtml(html, story, archivedAt) {
     ].join('\n');
     updated = html.replace(heroPattern, (hero) => hero + archive);
   }
-  return updated.replace(
+  updated = updated.replace(
     /Son tarama:\s*<span id="foot-updated">[^<]*<\/span>/,
     'Son tarama: <span id="foot-updated">' + htmlEscape(formatIstanbulDate(archivedAt)) + '</span>'
   );
+  return refreshHomepageArchiveIndex(updated);
 }
 function buildCategoryHtml(html, page, stories, now) {
   const pageStories = stories

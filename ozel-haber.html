@@ -842,6 +842,19 @@
   .dosya-sources li{ margin-bottom:8px; font-size:0.86rem; }
   .dosya-sources a{ color:var(--turf-dark); }
   .dosya-sources .note{ color:var(--muted); font-size:0.8rem; }
+  .homepage-archive-index{ margin:0 0 22px; padding:16px; border:1px solid var(--line); border-left:4px solid var(--var-red); background:var(--surface-raised); }
+  .homepage-archive-index-title{ margin:0 0 10px; font-family:'IBM Plex Mono',monospace; font-size:0.72rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  .homepage-archive-index ol{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:0; padding:0; list-style:none; }
+  .homepage-archive-index a{ display:grid; grid-template-columns:64px minmax(0,1fr); gap:10px; align-items:start; min-height:64px; padding:11px 12px; border:1px solid var(--line); border-radius:3px; color:var(--ink); background:var(--paper); text-decoration:none; }
+  .homepage-archive-index a:hover,.homepage-archive-index a:focus-visible{ border-color:var(--var-red); box-shadow:0 0 0 2px rgba(227,24,55,.12); }
+  .homepage-archive-index span{ padding-top:2px; font-family:'IBM Plex Mono',monospace; font-size:0.68rem; font-weight:700; color:var(--var-red); text-transform:uppercase; }
+  .homepage-archive-index strong{ font-family:'Big Shoulders Display',sans-serif; font-size:1.05rem; line-height:1.22; }
+  .homepage-archive-item{ scroll-margin-top:24px; }
+  @media (max-width:720px){
+    .homepage-archive-index{ padding:12px; }
+    .homepage-archive-index ol{ grid-template-columns:1fr; }
+    .homepage-archive-index a{ grid-template-columns:58px minmax(0,1fr); min-height:0; }
+  }
   .empty-state{ border:1px dashed var(--line); border-radius:4px; padding:28px; text-align:center; color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:0.85rem; }
 
 </style>
@@ -886,9 +899,32 @@
     <p>Tek bir iddiayla yetinmeyen, birden fazla kaynağı yan yana koyan dosya haberler. Her dosyanın kaynak güveni ayrıca belirtilir.</p>
   </section>
   <section class="single-desk homepage-archive" aria-label="Ana sayfa manşet arşivi">
-    <div class="desk-heading"><h2>Ana Sayfa Manşet Arşivi</h2><span class="desk-count mono">Kalıcı kayıt</span></div>
+    <div class="desk-heading"><h2>Ana Sayfa Manşet Arşivi</h2><span class="desk-count mono">4 haber</span></div>
+    <!-- GOLHAT:HOMEPAGE_ARCHIVE_INDEX:START -->
+    <nav class="homepage-archive-index" aria-label="Arşivlenen ana sayfa manşetleri">
+      <p class="homepage-archive-index-title">Arşivlenen manşetler</p>
+      <ol>
+        <li><a href="#manset-f5444451d8d50cf9">
+          <span>1. haber</span>
+          <strong>Enzo Fernandez, Manchester City&#39;ye transfer oldu</strong>
+        </a></li>
+        <li><a href="#manset-d9262e0-homepage">
+          <span>2. haber</span>
+          <strong>GALATASARAY&#39;DA REKOR TRANSFER GÜNÜ: RAFAEL LEÃO 38 MİLYON EUROYA GELDİ, DENİZ GÜL RESMEN AÇIKLANDI</strong>
+        </a></li>
+        <li><a href="#manset-11f1adc-homepage">
+          <span>3. haber</span>
+          <strong>FENERBAHÇE&#39;DE TALISCA KRİZİ: KULÜP AL JAZIRA&#39;YLA ANLAŞTI, OYUNCU TRANSFERE &quot;HAYIR&quot; DEDİ</strong>
+        </a></li>
+        <li><a href="#manset-ef28871-homepage">
+          <span>4. haber</span>
+          <strong>İSTANBUL HAKAN&#39;I İSTİYOR, INTER&#39;DEN TEK CÜMLELİK CEVAP: SATILIK DEĞİL</strong>
+        </a></li>
+      </ol>
+    </nav>
+    <!-- GOLHAT:HOMEPAGE_ARCHIVE_INDEX:END -->
     <!-- GOLHAT:HOMEPAGE_ARCHIVE:START -->
-    <article class="dosya-block homepage-archive-item" data-homepage-story-id="f5444451d8d50cf9">
+    <article class="dosya-block homepage-archive-item" id="manset-f5444451d8d50cf9" data-homepage-story-id="f5444451d8d50cf9">
       <span class="section-label">Ana Sayfa Manşet Arşivi</span>
       <h2>Enzo Fernandez, Manchester City&#39;ye transfer oldu</h2>
       <p class="standfirst">Manchester City, Chelsea&#39;nin Arjantinli orta saha oyuncusu Enzo Fernandez&#39;i 125 milyon sterlin karşılığında kadrosuna kattı. Beş yıllık sözleşme imzalayan Fernandez&#39;in transferi, Premier Lig tarihindeki en yüksek bedelli operasyonlardan biri olarak kayda geçti.</p>
@@ -896,6 +932,39 @@
       <ul class="dosya-sources">
         <li><a href="https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/01/manchester-city-contrata-enzo-fernandez-agora-ex-chelsea-por-r-870-milhoes.ghtml" target="_blank" rel="noopener">ge.globo &rarr;</a> <span class="note">Manchester City anuncia a contratação de Enzo Fernández</span></li>
         <li><a href="https://ca.sports.yahoo.com/news/enzo-fernandez-leaves-chelsea-man-223713535.html" target="_blank" rel="noopener">Reuters/Yahoo Sports &rarr;</a> <span class="note">Enzo Fernandez Leaves Chelsea As Man City Transfer Fee &amp; Terms Revealed</span></li>
+      </ul>
+    </article>
+    <article class="dosya-block homepage-archive-item" id="manset-d9262e0-homepage" data-homepage-story-id="d9262e0-homepage">
+      <span class="section-label">Geçmiş Ana Sayfa Manşeti</span>
+      <h2>GALATASARAY&#39;DA REKOR TRANSFER GÜNÜ: RAFAEL LEÃO 38 MİLYON EUROYA GELDİ, DENİZ GÜL RESMEN AÇIKLANDI</h2>
+      <p class="standfirst">Galatasaray, AC Milan&#39;dan Rafael Leão&#39;yu 38 milyon euro sabit bedelle kadrosuna kattı; Portekizli yıldız 2026-2027 sezonundan geçerli 4 yıllık sözleşmeye imza attı, yıllık net kazancı 10 milyon euro, AC Milan&#39;a ise oyuncunun gelecekteki satışından yüzde 20 pay tanındı. Transfer 30 Ağustos&#39;ta KAP&#39;a bildirildi. İki gün sonra kulüp, Porto&#39;dan Deniz Gül&#39;ün transferini de resmileştirdi: 10 milyon euro bonservis + 1 milyon euro bonus (toplam 11 milyon euro), Porto&#39;ya yüzde 10 satış payı. Her iki imza da resmi KAP bildirimleriyle doğrulandı.</p>
+      <div class="dosya-facts"><span>Yayın: <b>02.09.2026 07:13</b></span><span>Kategori: <b>Galatasaray</b></span><span>Durum: <b>Tarihsel manşet kaydı</b></span><span>Kaynak güveni: <b>3 kaynak</b></span><span><a href="/galatasaray.html">Haber masasına git &rarr;</a></span></div>
+      <ul class="dosya-sources">
+        <li><a href="https://www.hurriyet.com.tr/sporarena/galatasaray-rafael-leaonun-maliyetini-kapa-bildirdi-43289966" target="_blank" rel="noopener">Hürriyet &rarr;</a> <span class="note">Rafael Leão transferinin KAP bildirimi ve mali ayrıntıları</span></li>
+        <li><a href="https://www.aspor.com.tr/galatasaray/2026/08/30/dursun-ozbekten-leao-aciklamasi-haziran-ayindan-bu-yana" target="_blank" rel="noopener">A Spor &rarr;</a> <span class="note">Kulüp başkanı Dursun Özbek&#39;in Leão açıklaması</span></li>
+        <li><a href="https://www.hurriyet.com.tr/sporarena/deniz-gul-galatasaray-icin-istanbulda-43292082" target="_blank" rel="noopener">Hürriyet &rarr;</a> <span class="note">Deniz Gül transferinin İstanbul aşaması ve oyuncu açıklaması</span></li>
+      </ul>
+    </article>
+    <article class="dosya-block homepage-archive-item" id="manset-11f1adc-homepage" data-homepage-story-id="11f1adc-homepage">
+      <span class="section-label">Geçmiş Ana Sayfa Manşeti</span>
+      <h2>FENERBAHÇE&#39;DE TALISCA KRİZİ: KULÜP AL JAZIRA&#39;YLA ANLAŞTI, OYUNCU TRANSFERE &quot;HAYIR&quot; DEDİ</h2>
+      <p class="standfirst">Fenerbahçe, Birleşik Arap Emirlikleri kulübü Al Jazira ile 32 yaşındaki Anderson Talisca için bonservissiz anlaşma sağladı; ancak sözleşmesi 2028&#39;e kadar süren Brezilyalı, transfere karşı çıkıyor. Kulüp, oyuncuyu Samsunspor maçı kadrosuna almazken resmi gerekçe olarak sakatlığını gösterdi; Talisca ise sosyal medyada &quot;İnsanlar kullanılıp sonra bir kenara atılacak eşyalar değildir&quot; diyerek tepki gösterdi. Aynı gün Yönetim Kurulu Üyesi Cihan Kamer, Becao, Diego Carlos ve Çağlar Söyüncü&#39;nün de kulüpten ayrılacağını duyurdu.</p>
+      <div class="dosya-facts"><span>Yayın: <b>01.09.2026 22:55</b></span><span>Kategori: <b>Fenerbahçe</b></span><span>Durum: <b>Tarihsel manşet kaydı</b></span><span>Kaynak güveni: <b>3 kaynak</b></span><span><a href="/fenerbahce.html">Haber masasına git &rarr;</a></span></div>
+      <ul class="dosya-sources">
+        <li><a href="https://www.kocaelitv.com.tr/fenerbahcede-anderson-talisca-krizi-kulupler-anlasti-yildiz-futbolcu-rest-cekti" target="_blank" rel="noopener">Kocaeli TV &rarr;</a> <span class="note">Kulüpler arası anlaşma ve oyuncunun itirazına ilişkin dönem haberi</span></li>
+        <li><a href="https://spor.haber7.com/fenerbahce/haber/3655210-taliscadan-fenerbahce-yonetimine-tek-cumlelik-sitem" target="_blank" rel="noopener">Haber7 &rarr;</a> <span class="note">Talisca&#39;nın sosyal medya açıklaması</span></li>
+        <li><a href="https://www.fanatik.com.tr/fenerbahce/fenerbahcede-cihan-kamer-resmen-acikladi-3-isimle-yollar-ayrildi-iste-oosterwoldenin-son-durum-2636297" target="_blank" rel="noopener">Fanatik &rarr;</a> <span class="note">Cihan Kamer&#39;in kadro planlaması açıklaması</span></li>
+      </ul>
+    </article>
+    <article class="dosya-block homepage-archive-item" id="manset-ef28871-homepage" data-homepage-story-id="ef28871-homepage">
+      <span class="section-label">Geçmiş Ana Sayfa Manşeti</span>
+      <h2>İSTANBUL HAKAN&#39;I İSTİYOR, INTER&#39;DEN TEK CÜMLELİK CEVAP: SATILIK DEĞİL</h2>
+      <p class="standfirst">Sözleşmesi 2027 yazına kadar süren Hakan Çalhanoğlu&#39;na Fenerbahçe&#39;nin ilgisi, transfer döneminin son gününde yeniden gündeme geldi. Ancak Inter Başkanı Giuseppe Marotta, Spor Depor&#39;a verdiği özel açıklamada bir gün önce buna açık bir &quot;hayır&quot; ile karşılık vermişti. Bu arşiv kaydı, iddiayı ve tarafların o tarihteki açıklamalarını birlikte gösterir.</p>
+      <div class="dosya-facts"><span>Yayın: <b>01.09.2026 15:48</b></span><span>Kategori: <b>Transfer Hattı</b></span><span>Durum: <b>Tarihsel manşet kaydı</b></span><span>Kaynak güveni: <b>3 kaynak</b></span><span><a href="/transfer.html">Haber masasına git &rarr;</a></span></div>
+      <ul class="dosya-sources">
+        <li><a href="https://www.spordepor.com/ozel-inter-baskani-hakan-calhanoglu-icin-net-konustu" target="_blank" rel="noopener">Spor Depor &rarr;</a> <span class="note">Inter Başkanı Giuseppe Marotta&#39;nın Hakan Çalhanoğlu açıklaması</span></li>
+        <li><a href="https://www.ntv.com.tr/sporskor/galeri-hakan-calhanoglundan-galatasaray-ve-fenerbahce-cevabi-baskanlarla-konusuyorum-1736513" target="_blank" rel="noopener">NTV Spor &rarr;</a> <span class="note">Hakan Çalhanoğlu&#39;nun transfer söylentilerine yaklaşımı</span></li>
+        <li><a href="https://www.milligazete.com.tr/foto-galeri/transfer-haberleri-1-eylul-sali-fenerbahce-galatasaray-besiktas-son-dakika" target="_blank" rel="noopener">Milli Gazete &rarr;</a> <span class="note">1 Eylül transfer gündemi kaydı</span></li>
       </ul>
     </article>
     <!-- GOLHAT:HOMEPAGE_ARCHIVE:END -->
