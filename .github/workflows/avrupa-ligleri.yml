@@ -2,8 +2,8 @@ name: Avrupa Lig Merkezi
 
 on:
   schedule:
-    # Türkiye saati 08:35, 16:35 ve 00:35 (UTC 05:35, 13:35 ve 21:35)
-    - cron: '35 5,13,21 * * *'
+    # Altı liglik puan/fikstür önbelleğini dört saatte bir yenile
+    - cron: '15 */4 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -31,8 +31,6 @@ jobs:
         run: npm test
 
       - name: Altı ligin puan cetveli ve fikstürünü çek
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: node scripts/fetch-avrupa-ligleri.js
 
       - name: Değişiklik varsa commit et ve gönder

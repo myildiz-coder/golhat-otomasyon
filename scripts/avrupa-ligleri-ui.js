@@ -111,6 +111,18 @@
     });
   }
 
+  function matchKey(match) {
+    function teamKey(value) {
+      return String(value || '')
+        .toLocaleLowerCase('tr-TR')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9]/g, '');
+    }
+    return dayKey(new Date(match.date)) + '|' +
+      teamKey(match.home) + '|' + teamKey(match.away);
+  }
+
   function mergedMatches() {
     var league = currentLeague();
     var schedule = league && Array.isArray(league.fixtures)
@@ -119,7 +131,7 @@
     var merged = new Map();
 
     schedule.forEach(function(match) {
-      merged.set(Number(match.id), Object.assign({}, match, {
+      merged.set(matchKey(match), Object.assign({}, match, {
         kind:'upcoming',
         homeScore:null,
         awayScore:null,
@@ -127,7 +139,7 @@
       }));
     });
     liveMatchesForActiveLeague().forEach(function(match) {
-      merged.set(Number(match.id), match);
+      merged.set(matchKey(match), match);
     });
 
     return Array.from(merged.values())
