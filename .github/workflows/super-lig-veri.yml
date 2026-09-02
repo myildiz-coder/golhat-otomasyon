@@ -31,9 +31,7 @@ jobs:
         run: npm test
 
       - name: Puan cetveli ve sıradaki haftayı çek
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: node scripts/fetch-super-lig.js
+        run: node scripts/fetch-super-lig-tff.js
 
       - name: Değişiklik varsa commit et ve gönder
         shell: bash
