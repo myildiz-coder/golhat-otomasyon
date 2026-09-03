@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:24:02.185Z",
+  "updatedAt": "2026-09-03T00:33:40.102Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868070,
-          "date": "2026-09-03T19:00:00Z",
+          "date": "2026-09-03T19:00:00.000Z",
           "timestamp": 1788462000,
           "round": "6",
           "status": "NS",
@@ -1724,7 +1724,7 @@
       "fixtures": [
         {
           "id": 5802926,
-          "date": "2026-09-03T18:45:00Z",
+          "date": "2026-09-03T18:45:00.000Z",
           "timestamp": 1788461100,
           "round": "3",
           "status": "NS",
