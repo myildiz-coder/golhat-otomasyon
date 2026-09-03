@@ -1,7 +1,209 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T21:17:11.479Z",
+  "updatedAt": "2026-09-03T21:42:03.795Z",
   "stories": [
+    {
+      "id": "ee9466e64763ecda",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Bodrum FK ile Esenler Erokspor golsüz berabere kaldı",
+      "summary": "Trendyol 1. Lig’in 5. haftasında Bodrum FK, sahasında Esenler Erokspor ile 0-0 berabere kaldı. Bodrum FK böylece son üç maçını aynı skorla tamamladı.",
+      "tag": "Maç Sonucu",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "Bodrum FK-Esenler Erokspor maçı 0-0 bitti",
+      "seoDescription": "Bodrum FK, 1. Lig’in 5. haftasında Esenler Erokspor ile 0-0 berabere kaldı. Bodrum’un golsüz serisi ve maçın sonucu GOLHAT’ta.",
+      "focusKeyword": "Bodrum FK Esenler Erokspor 0-0",
+      "originalAngle": "Bodrum FK’nin Erokspor karşısındaki golsüz beraberliği, son üç maçın da 0-0 bitmesi nedeniyle tek maçlık sonuçtan daha geniş bir form göstergesine işaret ediyor; ancak bu serinin nedenine dair kaynaklarda kanıt bulunmuyor.",
+      "keyFindings": [
+        "Bodrum FK ile Esenler Erokspor, 3 Eylül 2026’da 0-0 berabere kaldı.",
+        "Karşılaşma Bodrum FK’nin sahasında, Trendyol 1. Lig’in 5. haftasında oynandı.",
+        "DHA’nın maç haberine göre Bodrum FK son üç karşılaşmasını da 0-0 tamamladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "DHA’nın maç sonrası haberi, Esenler Erokspor’un resmi futbol sayfasındaki puan ve maç bilgileriyle karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Golsüz sonuç serisinin taktik veya kadro kaynaklı nedeni, mevcut kaynaklarda doğrulanmadığı için nedensellik kurulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T19:01:00.000Z",
+      "discoveredAt": "2026-09-03T21:42:03.795Z",
+      "sources": [
+        {
+          "title": "Bodrum FK - Turka Esenler Erokspor: 0-0",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/mugla/bodrum-fk-turka-esenler-erokspor-0-0-2938710",
+          "publishedAt": "2026-09-03T22:01:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Esenler Erokspor - Futbol",
+          "publisher": "Esenler Erokspor",
+          "url": "https://www.eroksporfk.com/futbol",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "a2f6ecc7a85d869e",
+      "role": "uefa",
+      "page": "uefa.html",
+      "headline": "Beşiktaş’ın Avrupa Ligi listesinde Rashica ve Mustafa Hekimoğlu yok",
+      "summary": "Beşiktaş, UEFA Avrupa Ligi lig aşaması için 32 kişilik kadrosunu bildirdi. UEFA kaydı ve DHA’nın aktardığı listede Milot Rashica ile Mustafa Hekimoğlu yer almadı; siyah-beyazlılar ilk maçını 17 Eylül’de Marsilya’ya karşı oynayacak.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş’ın Avrupa Ligi kadrosu: Rashica ve Mustafa Hekimoğlu yok",
+      "seoDescription": "Beşiktaş’ın UEFA Avrupa Ligi kadrosu açıklandı. 32 kişilik listede Rashica ve Mustafa Hekimoğlu bulunmuyor; ilk rakip Marsilya.",
+      "focusKeyword": "Beşiktaş UEFA Avrupa Ligi kadrosu",
+      "originalAngle": "Yeni gelişmenin değeri yalnızca listenin açıklanması değil, Beşiktaş’ın sezon planında iki tanınan oyuncunun lig aşaması kadrosu dışında kalmasıdır. UEFA’daki resmi kayıt, kulübün Avrupa rotasyonunda hangi isimlere güvendiğini gösteriyor.",
+      "keyFindings": [
+        "Beşiktaş, UEFA Avrupa Ligi lig aşaması için 32 kişilik kadro bildirdi.",
+        "Milot Rashica ve Mustafa Hekimoğlu listede yer almadı; UEFA kaydında genç oyuncular B Listesi altında gösterildi.",
+        "Beşiktaş, lig aşamasındaki ilk maçında 17 Eylül 2026’da Marsilya’yı konuk edecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 3 Eylül tarihli lig aşaması kadro duyurusu ve Beşiktaş’ın resmi UEFA kadro sayfası, DHA’nın aynı gün yayımladığı kadro haberiyle karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Kadro dışında kalan oyuncuların teknik veya idari gerekçeleri kaynaklarda açıklanmadı; bu nedenle neden-sonuç yorumu yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T20:17:00.000Z",
+      "discoveredAt": "2026-09-03T21:42:03.795Z",
+      "sources": [
+        {
+          "title": "Europa League squads: League phase selections confirmed",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a9-21815eb7babc-62eab180d6e2-1000--europa-league-squads-league-phase-selections-confirmed",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş | Squad | UEFA Europa League 2026/27",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefaeuropaleague/clubs/50157--besiktas/squad",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş Avrupa Ligi kadrosunu duyurdu",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/amp/spor/besiktas-avrupa-ligi-kadrosunu-duyurdu-2938740",
+          "publishedAt": "2026-09-03T23:17:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "d9ecee502e47276c",
+      "role": "uefa",
+      "page": "uefa.html",
+      "headline": "Trabzonspor’un Konferans Ligi kadrosu bildirildi: Üç oyuncu listede yok",
+      "summary": "Trabzonspor, UEFA Konferans Ligi lig aşaması için kadrosunu UEFA’ya bildirdi. Mackolik ve Haber61’in aktardığı listelerde Metehan Mimaroğlu, Melih Kabasakal ve Onuralp Çevikkan yer almadı.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor’un Konferans Ligi kadrosu: Üç oyuncu listede yok",
+      "seoDescription": "Trabzonspor’un UEFA Konferans Ligi kadrosu bildirildi. Metehan Mimaroğlu, Melih Kabasakal ve Onuralp Çevikkan listede yer almadı.",
+      "focusKeyword": "Trabzonspor UEFA Konferans Ligi kadrosu",
+      "originalAngle": "Trabzonspor için yeni tablo, yalnızca Avrupa kadrosunun tamamlanması değil; lig aşamasında hangi oyuncu grubunun kullanılacağının netleşmesi anlamına geliyor. Özellikle genç kaleci Onuralp Çevikkan’ın listede bulunmaması, kadro tercihinin dikkat çeken ayrıntısı olarak öne çıkıyor.",
+      "keyFindings": [
+        "Trabzonspor, UEFA Konferans Ligi lig aşaması için kadro bildirimini yaptı.",
+        "Metehan Mimaroğlu, Melih Kabasakal ve Onuralp Çevikkan aktarılan UEFA listesinde yer almadı.",
+        "Trabzonspor’un lig aşamasındaki ilk maçı 15 Ekim 2026’da deplasmanda KuPS karşısında oynanacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Mackolik’in aynı gün yayımladığı kadro haberindeki liste, Haber61’in UEFA kadro haberinde belirttiği liste dışı isimlerle karşılaştırıldı; maç takvimi önceki UEFA ve kulüp duyurularıyla kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Trabzonspor’un resmi internet sitesinde bu kadro bildirimine ilişkin doğrudan bir kulüp açıklaması tespit edilmedi. Oyuncuların liste dışında bırakılma gerekçeleri kaynaklarda açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T19:51:00.000Z",
+      "discoveredAt": "2026-09-03T21:42:03.795Z",
+      "sources": [
+        {
+          "title": "Trabzonspor’un Konferans Ligi kadrosu açıklandı",
+          "publisher": "Mackolik",
+          "url": "https://arsiv.mackolik.com/Haber/269549/Trabzonsporun-Konferans-Ligi-kadrosu",
+          "publishedAt": "2026-09-03T22:51:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "UEFA kadrosunda büyük sürpriz! 3 isim listede yok",
+          "publisher": "Haber61",
+          "url": "https://www.haber61.net/trabzonspor/uefa-kadrosunda-buyuk-surpriz-3-isim-listede-yok/642495",
+          "publishedAt": "2026-09-03T23:01:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "UEFA Konferans Ligi maç programımız belli oldu",
+          "publisher": "Trabzonspor",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/uefa-konferans-ligi-mac-programimiz-belli-oldu-29-08-2026",
+          "publishedAt": "2026-08-29T22:09:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "b756dd88ff89c19c",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Fenerbahçe’nin Şampiyonlar Ligi listesi, kadro derinliğinden çok seçim hiyerarşisini gösterdi",
+      "summary": "Fenerbahçe, 2026-2027 Şampiyonlar Ligi için 36 kişilik kadrosunu UEFA’ya bildirdi; Jayden Oosterwolde, Çağlar Söyüncü, Rodrigo Becao ve Mert Hakan Yandaş listede yer almadı. Listenin asıl anlamı oyuncu sayısında değil, İsmail Kartal’ın Avrupa rotasyonunda hangi profilleri öne aldığı ve sezon ilerledikçe hangi mevkilerde daralma yaşanabileceğidir.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe Şampiyonlar Ligi kadrosu ne anlatıyor?",
+      "seoDescription": "Fenerbahçe’nin UEFA’ya bildirdiği Şampiyonlar Ligi kadrosu, Avrupa rotasyonundaki tercihleri ve kadro derinliğinin sınırlarını ortaya koyuyor.",
+      "focusKeyword": "Fenerbahçe Şampiyonlar Ligi kadrosu",
+      "originalAngle": "Fenerbahçe’nin UEFA listesi, yalnızca kimlerin kadroya alındığını değil, İsmail Kartal’ın Avrupa fikstüründe nasıl bir seçim hiyerarşisi kurduğunu gösteriyor; listenin kritik sonucu, yıldız yoğunluğundan çok savunma ve rotasyon sürekliliğinin sınanacak olmasıdır.",
+      "keyFindings": [
+        "UEFA, 3 Eylül 2026’da 2026-2027 Şampiyonlar Ligi lig aşamasına katılacak takımların kadro bildirimlerini doğruladı ve Fenerbahçe’nin listesine erişim sağladı.",
+        "DHA’nın aynı gün yayımladığı habere göre Fenerbahçe’nin UEFA’ya bildirdiği 36 kişilik listede Jayden Oosterwolde, Çağlar Söyüncü, Rodrigo Becao ve Mert Hakan Yandaş bulunmadı.",
+        "UEFA’nın yayımladığı listede Fenerbahçe’nin savunmasında Nathan Aké, Milan Škriniar, Nelson Semedo, Mert Müldür ve genç oyuncuların; hücumda ise Kerem Aktürkoğlu, Romelu Lukaku, Marco Asensio, Mason Greenwood ve Vedat Muriqi’nin yer aldığı görülüyor.",
+        "Fenerbahçe, lig aşamasında 10 Eylül’de Roma ile başlayıp Liverpool, Atletico Madrid ve Villarreal gibi rakiplerle de karşılaşacak; bu fikstür, savunma rotasyonundaki tercihleri erken ve görünür bir sınava dönüştürecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 3 Eylül 2026 tarihli resmi kadro duyurusu ve Fenerbahçe’nin UEFA kadro sayfası incelendi; oyuncu listesi ve liste dışında kalan isimler DHA’nın aynı gün yayımladığı haberle çapraz kontrol edildi. Yorum, doğrulanmış kadro tercihlerinin Avrupa rotasyonu ve kadro sürekliliği bakımından olası etkisiyle sınırlandırıldı.",
+      "originalFindings": [
+        "Listenin dikkat çekici tarafı, Fenerbahçe’nin kadroda çok sayıda deneyimli hücum oyuncusunu tutarken savunma hattında belirli isimleri dışarıda bırakmasıdır; bu durum, teknik ekibin Avrupa planında mevcut form ve rol uyumunu geçmiş statünün önüne koyduğuna işaret edebilir.",
+        "Ancak UEFA listesinde yer almak, bir oyuncunun her maçta ilk tercih olacağı anlamına gelmez. Asıl ölçü, Roma ile başlayacak fikstürde savunma dörtlüsünün ne kadar istikrarlı kurulacağı ve yoğun takvimde genç oyuncuların ne ölçüde kullanılacağı olacaktır.",
+        "Fenerbahçe’nin Avrupa kadrosu geniş görünse de bazı mevkilerdeki tercihlerin sezon boyunca sakatlık, kart ve fikstür yoğunluğu karşısında yeniden değerlendirilmesi gerekebilir."
+      ],
+      "limitations": "UEFA kadro listesi oyuncuların kayıt durumunu gösterir; ilk 11 tercihlerini, sakatlık durumlarını, antrenman performansını veya sezon içindeki olası ek liste değişikliklerini kanıtlamaz. Savunma rotasyonuna ilişkin değerlendirme, listedeki mevki dağılımından yapılan sınırlı bir editoryal çıkarımdır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GH-20260903-YORUM-FB-CL-KADRO",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-03T19:36:00.000Z",
+      "discoveredAt": "2026-09-03T21:42:03.795Z",
+      "sources": [
+        {
+          "title": "Champions League squads: League phase selections confirmed",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2181560eb976-bb235eef5ca5-1000--champions-league-squads-league-phase-selections-confirmed",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe | Squad | UEFA Champions League 2026/27",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/clubs/52692--fenerbahce/squad",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe’nin Şampiyonlar Ligi kadrosu açıklandı",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/spor/fenerbahcenin-sampiyonlar-ligi-kadrosu-aciklandi-2938724",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "47e982d10297cbac",
       "role": "transfer",
