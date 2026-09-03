@@ -14,12 +14,13 @@ const DEFAULT_VIEWPORTS = Object.freeze([
   Object.freeze({ name: 'wide', width: 2560, height: 1080, mobile: false })
 ]);
 const LAYOUT_LIMITS = Object.freeze({
-  mobile: Object.freeze({ h1: 76, h2: 60, h3: 50, body: 26 }),
-  desktop: Object.freeze({ h1: 152, h2: 92, h3: 72, body: 30 }),
-  wide: Object.freeze({ h1: 170, h2: 112, h3: 82, body: 34 }),
+  mobile: Object.freeze({ h1: 56, h2: 60, h3: 50, body: 26, maximumHeadlineLines: 8 }),
+  desktop: Object.freeze({ h1: 88, h2: 92, h3: 72, body: 30, maximumHeadlineLines: 4 }),
+  wide: Object.freeze({ h1: 96, h2: 112, h3: 82, body: 34, maximumHeadlineLines: 4 }),
   minimumBodyText: 9,
   minimumBodyLineHeightRatio: 1.18,
   minimumWideShellRatio: 0.52,
+  minimumWideStoryRatio: 0.44,
   horizontalTolerance: 2
 });
 
@@ -249,17 +250,18 @@ function browserAudit(page, viewport, limits) {
     });
   }
 
-  if (viewport.name === 'wide' && !page.startsWith('haber/')) {
+  if (viewport.name === 'wide') {
     const shell = document.querySelector('main.wrap');
     if (shell && visible(shell)) {
       const ratio = shell.getBoundingClientRect().width / root.clientWidth;
-      if (ratio < limits.minimumWideShellRatio) {
+      const minimumRatio = page.startsWith('haber/') ? limits.minimumWideStoryRatio : limits.minimumWideShellRatio;
+      if (ratio < minimumRatio) {
         issues.push({
           code: 'content-too-narrow',
           message: 'Ana yayın alanı geniş ekranı yeterince kullanmıyor',
           selector: 'main.wrap',
           value: Number(ratio.toFixed(3)),
-          limit: limits.minimumWideShellRatio
+          limit: minimumRatio
         });
       }
     }
@@ -283,6 +285,12 @@ function browserAudit(page, viewport, limits) {
     }
     if (fontSize > maximum + 0.1) {
       issues.push({ code: 'font-too-large', message: 'Yazı boyutu bu viewport için fazla büyük', selector: selector(element), value: fontSize, limit: maximum });
+    }
+    if (tag === 'h1' && lineHeight) {
+      const lineCount = Math.round(rect.height / lineHeight);
+      if (lineCount > limits[viewport.name].maximumHeadlineLines) {
+        issues.push({ code: 'headline-too-many-lines', message: 'Ana başlık bu viewport için fazla satıra bölünüyor', selector: selector(element), value: lineCount, limit: limits[viewport.name].maximumHeadlineLines });
+      }
     }
     if (!['h1', 'h2', 'h3'].includes(tag) && fontSize < limits.minimumBodyText - 0.1 && element.textContent.trim().length > 20) {
       issues.push({ code: 'font-too-small', message: 'Gövde yazısı okunabilirlik sınırının altında', selector: selector(element), value: fontSize, limit: limits.minimumBodyText });

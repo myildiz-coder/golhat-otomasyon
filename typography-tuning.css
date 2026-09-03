@@ -30,8 +30,14 @@
 }
 
 .score-page .hero h1 {
-  font-size: clamp(3.8rem, 8.2vw, 7rem);
-  line-height: .82;
+  font-size: clamp(3.4rem, 6vw, 5.5rem);
+  line-height: .86;
+}
+
+@media (max-width: 760px) {
+  .score-page .wordmark {
+    font-size: 3.4rem;
+  }
 }
 
 .score-page .scoreboard-head h2 {
@@ -64,7 +70,8 @@
 }
 
 .opinion-page .page-hero h1 {
-  font-size: clamp(3.5rem, 8vw, 6.5rem);
+  font-size: clamp(3.2rem, 6vw, 5.4rem);
+  line-height: .9;
 }
 
 .opinion-page .section-head h2,
@@ -79,8 +86,8 @@
   }
 
   .score-page .hero h1 {
-    font-size: clamp(3.1rem, 16vw, 4.25rem);
-    line-height: .84;
+    font-size: clamp(2.8rem, 13.5vw, 3.5rem);
+    line-height: .9;
   }
 
   .score-page .state {

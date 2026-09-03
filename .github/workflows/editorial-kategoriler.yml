@@ -87,6 +87,37 @@ jobs:
 
           node scripts/run-editorial.js "${args[@]}"
 
+      - name: Değişen sayfalarda yayın öncesi mizanpaj kapısı
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t pages < <(git diff --name-only -- '*.html')
+          if (( ${#pages[@]} == 0 )); then
+            echo "Mizanpajı değişen HTML sayfası yok."
+            exit 0
+          fi
+          browser="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)"
+          if [[ -z "$browser" ]]; then
+            echo "::error title=Mizanpaj tarayıcısı bulunamadı::Yayın öncesi görsel denetim için Chrome/Chromium gerekli"
+            exit 1
+          fi
+          export GOLHAT_BROWSER_PATH="$browser"
+          mkdir -p layout-prepublish
+          for page in "${pages[@]}"; do
+            safe="$(printf '%s' "$page" | tr '/\\' '--')"
+            node scripts/layout-audit.js --page "$page" --report "layout-prepublish/${safe}.json" --screenshots "layout-prepublish/${safe}-shots"
+          done
+
+      - name: Yayın öncesi mizanpaj kanıtını sakla
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: yayin-oncesi-mizanpaj-${{ github.run_id }}
+          path: layout-prepublish
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Değişiklik varsa commit et ve gönder
         if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
         shell: bash

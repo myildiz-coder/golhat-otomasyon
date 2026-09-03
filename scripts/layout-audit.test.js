@@ -19,6 +19,9 @@ test('Mizanpaj Editörü mobil, masaüstü ve geniş ekran görünümünü birli
   assert.ok(LAYOUT_LIMITS.mobile.h1 < LAYOUT_LIMITS.desktop.h1);
   assert.ok(LAYOUT_LIMITS.desktop.h1 < LAYOUT_LIMITS.wide.h1);
   assert.ok(LAYOUT_LIMITS.minimumWideShellRatio >= 0.5);
+  assert.ok(LAYOUT_LIMITS.minimumWideStoryRatio >= 0.44);
+  assert.ok(LAYOUT_LIMITS.desktop.maximumHeadlineLines <= 4);
+  assert.ok(LAYOUT_LIMITS.wide.h1 <= 96);
   assert.ok(LAYOUT_LIMITS.minimumBodyLineHeightRatio >= 1.18);
 });
 
@@ -57,6 +60,23 @@ test('görsel editörün ortak tipografi katmanı bütün yayın sayfalarında k
     assert.match(html, /<body(?:\s[^>]*)?>/i, page);
     assert.match(html, /typography-tuning\.css/i, page);
   }
+});
+
+test('kalıcı haber şablonu geniş ekranda dengeli başlık ve yayın alanı kullanır', () => {
+  const source = fs.readFileSync(path.resolve(__dirname, 'editorial-lib.js'), 'utf8');
+  assert.match(source, /width:min\(1180px,calc\(100% - 48px\)\)/);
+  assert.match(source, /clamp\(2\.8rem,5vw,4\.6rem\)/);
+  assert.match(source, /max-width:26ch/);
+  assert.match(source, /text-wrap:balance/);
+  assert.doesNotMatch(source, /clamp\(2\.7rem,8vw,5\.7rem\)/);
+});
+
+test('Skor ve Yorum ana başlıkları görsel editör sınırlarını aşmaz', () => {
+  const css = fs.readFileSync(path.resolve(__dirname, '..', 'typography-tuning.css'), 'utf8');
+  assert.match(css, /score-page \.hero h1[\s\S]*clamp\(3\.4rem, 6vw, 5\.5rem\)/);
+  assert.match(css, /opinion-page \.page-hero h1[\s\S]*clamp\(3\.2rem, 6vw, 5\.4rem\)/);
+  assert.match(css, /clamp\(2\.8rem, 13\.5vw, 3\.5rem\)/);
+  assert.match(css, /score-page \.wordmark[\s\S]*font-size: 3\.4rem/);
 });
 
 test('Mizanpaj Editörü saatte iki kez bütün sayfaları tarar ve görsel kanıt saklar', () => {
