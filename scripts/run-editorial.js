@@ -166,12 +166,23 @@ function assignmentSourceSignatures(role) {
     const root = path.resolve(__dirname, '..');
     const league = JSON.parse(fs.readFileSync(path.join(root, 'data', 'super-lig.json'), 'utf8'));
     const clubCenter = JSON.parse(fs.readFileSync(path.join(root, 'data', 'kulup-merkezi.json'), 'utf8'));
+    const editorialState = JSON.parse(fs.readFileSync(path.join(root, 'data', 'editorial', 'state.json'), 'utf8'));
+    const assignmentPages = new Set(['fenerbahce.html', 'galatasaray.html', 'super-lig.html']);
+    const recentVerifiedUrls = editorialState.stories
+      .filter((story) => assignmentPages.has(story.page))
+      .filter((story) => {
+        const ageHours = (Date.now() - new Date(story.publishedAt).getTime()) / 3_600_000;
+        return Number.isFinite(ageHours) && ageHours >= -2 && ageHours <= 168;
+      })
+      .flatMap((story) => story.sources || [])
+      .map((source) => source.url);
     const trustedUrls = [
       league.sourceUrl,
       ...['fenerbahce', 'galatasaray'].flatMap((key) => {
         const club = clubCenter.clubs[key];
         return [club.officialUrl, club.sourceUrl];
-      })
+      }),
+      ...recentVerifiedUrls
     ].filter(Boolean);
     for (const url of trustedUrls) signatures.add(urlSignature(url));
   } catch (error) {

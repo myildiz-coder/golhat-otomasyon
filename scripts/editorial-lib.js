@@ -377,7 +377,7 @@ function validateStory(raw, context) {
     const url = canonicalUrl(source.url);
     const signature = urlSignature(url);
     if (!context.citedUrls.has(signature)) {
-      throw new Error('Kaynak URL web araması sonuçlarında bulunmuyor');
+      throw new Error('Kaynak URL web araması sonuçlarında bulunmuyor ve güvenilir canlı veri havuzunda kayıtlı değil: ' + url);
     }
 
     const title = String(source.title || '').trim();

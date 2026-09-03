@@ -45,6 +45,8 @@ test('yorum masası benzersiz ve açıkça tanımlı müstear yazarlardan oluşu
   assert.match(runner, /assignmentSourceSignatures/);
   assert.match(runner, /league\.sourceUrl/);
   assert.match(runner, /club\.officialUrl, club\.sourceUrl/);
+  assert.match(runner, /ageHours <= 168/);
+  assert.match(runner, /recentVerifiedUrls/);
   assert.match(runner, /son 12 saatte yeni olay bulunması şartını uygulama/);
   assert.match(runner, /GOLHAT canlı veri özeti/);
 });
