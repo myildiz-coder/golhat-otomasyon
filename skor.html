@@ -47,7 +47,7 @@ var timeFmt=new Intl.DateTimeFormat('tr-TR',{timeZone:'Europe/Istanbul',hour:'2-
 function make(tag,cls,text){var el=document.createElement(tag);if(cls)el.className=cls;if(text!=null)el.textContent=text;return el}
 function kind(m){if(m.kind)return m.kind;var s=String(m.status||'').toUpperCase();if(live.has(s))return'live';if(finished.has(s))return'finished';if(upcoming.has(s))return'upcoming';return'other'}
 function label(m){var s=String(m.status||'').toUpperCase(),k=kind(m);if(k==='live')return s==='HT'?'Devre':(m.minute!=null?m.minute+"'":'Canl\u0131');if(k==='finished')return s==='PEN'?'Penalt\u0131lar':'Bitti';if(k==='upcoming')return s==='TBD'?'Saat Bekleniyor':'Ba\u015flamad\u0131';if(s==='PST')return'Ertelendi';if(s==='CANC')return'\u0130ptal';if(s==='SUSP'||s==='INT')return'Durduruldu';return m.statusLong||s||'Durum Bekleniyor'}
-function kickoff(m){var d=new Date(m.date);return Number.isNaN(d.getTime())?'--:--':timeFmt.format(d)}function score(v){return v==null?'\u2014':String(v)}
+function kickoff(m){var d=new Date(m.date);return Number.isNaN(d.getTime())?'--:--':timeFmt.format(d)}function score(m,v){return kind(m)==='upcoming'?'\u2014':(v==null?'\u2014':String(v))}
 function metrics(matches){var c={total:matches.length,live:0,upcoming:0,finished:0};matches.forEach(function(m){var k=kind(m);if(k==='live')c.live++;if(k==='upcoming')c.upcoming++;if(k==='finished')c.finished++});Object.keys(c).forEach(function(k){document.getElementById('metric-'+k).textContent=c[k]})}
 function row(m){
   var k=kind(m);
@@ -64,14 +64,14 @@ function row(m){
     make('span','team-name',m.home||'Ev sahibi')
   );
   home.appendChild(
-    make('strong','team-score',score(m.homeScore))
+    make('strong','team-score',score(m,m.homeScore))
   );
   var away=make('div','team-line');
   away.appendChild(
     make('span','team-name',m.away||'Deplasman')
   );
   away.appendChild(
-    make('strong','team-score',score(m.awayScore))
+    make('strong','team-score',score(m,m.awayScore))
   );
   pair.appendChild(home);
   pair.appendChild(away);

@@ -2,6 +2,8 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const {
   TRACKED_LEAGUES,
   istanbulDateString,
@@ -68,6 +70,13 @@ test('durumlar ve ozet sayilari canli, oynanacak ve biten olarak ayrilir', () =>
     { kind: 'finished' },
     { kind: 'other' }
   ]), { total: 5, live: 1, upcoming: 2, finished: 1 });
+});
+
+test('skor sayfası başlamamış maçlarda yanıltıcı 0-0 göstermez', () => {
+  const html = fs.readFileSync(path.resolve(__dirname, '..', 'skor.html'), 'utf8');
+  assert.match(html, /function score\(m,v\)\{return kind\(m\)==='upcoming'\?'\\u2014'/);
+  assert.match(html, /score\(m,m\.homeScore\)/);
+  assert.match(html, /score\(m,m\.awayScore\)/);
 });
 
 test('FotMob yedek akışı aynı canlı skor şemasına dönüştürülür', () => {
