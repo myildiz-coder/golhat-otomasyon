@@ -12,6 +12,7 @@ const PAGE_LABELS = Object.freeze({
   'uefa.html': 'UEFA Avrupa ve Konferans Ligi',
   'transfer.html': 'Transfer Hattı',
   'ozel-haber.html': 'Araştırma Dosyaları ve Özel Haber',
+  'yorum.html': 'Yorum ve Köşe Yazıları',
   'skor.html': 'Canlı Skor'
 });
 
@@ -28,7 +29,8 @@ const PAGE_OWNERS = Object.freeze({
   'sampiyonlar-ligi.html': 'sampiyonlar_ligi',
   'uefa.html': 'uefa',
   'transfer.html': 'transfer',
-  'ozel-haber.html': 'ozel_haber'
+  'ozel-haber.html': 'ozel_haber',
+  'yorum.html': 'yorum'
 });
 const PAGE_TOPIC_RULES = Object.freeze({
   'fenerbahce.html': { requiredAny: ['fenerbahçe', 'sarı-lacivert', 'kanarya'] },
@@ -74,8 +76,16 @@ const PAGE_TOPIC_RULES = Object.freeze({
     ]
   },
   'ozel-haber.html': { requiredAny: [] },
+  'yorum.html': { requiredAny: [] },
   'skor.html': { requiredAny: ['maç', 'skor', 'gol', 'fikstür'] }
 });
+
+const COMMENTARY_WRITERS = Object.freeze([
+  Object.freeze({ name: 'Ters Kademe', slug: 'ters-kademe', initials: 'TK', focus: 'Taktik, oyun planı ve maç içi kırılmalar' }),
+  Object.freeze({ name: 'Sessiz Tahta', slug: 'sessiz-tahta', initials: 'ST', focus: 'Transfer, kadro mühendisliği ve teknik yapılanma' }),
+  Object.freeze({ name: 'Deplasman Defteri', slug: 'deplasman-defteri', initials: 'DD', focus: 'Tribün kültürü, Anadolu futbolu ve şehir-kulüp ilişkisi' }),
+  Object.freeze({ name: 'Mizan 90', slug: 'mizan-90', initials: 'M90', focus: 'Futbol ekonomisi, yönetim, KAP ve kamu belgeleri' })
+]);
 
 
 const EDITOR_ROLES = Object.freeze({
@@ -139,6 +149,12 @@ const EDITOR_ROLES = Object.freeze({
       'Dosya editörü: GOLHAT’ın özgün sorusunu, yeni bulgusunu ve kamu yararını kurar',
       'Cevap hakkı editörü: iddiadan etkilenen tarafın yanıtını arar; yanıt zorunluysa yayını durdurur'
     ]
+  },
+  yorum: {
+    label: 'Yorum ve Köşe Yazıları Editörü',
+    pages: ['yorum.html'],
+    topics: 'Güncel ve doğrulanmış futbol olgularından hareket eden taktik, kadro planlaması, tribün kültürü, futbol ekonomisi ve yönetim yorumları',
+    columnists: COMMENTARY_WRITERS
   }
 });
 
@@ -150,6 +166,7 @@ const ALLOWED_TAGS = Object.freeze([
   'Maç Sonucu',
   'Puan Durumu',
   'Analiz',
+  'Yorum',
   'Dosya',
   'Özel Haber'
 ]);
@@ -222,6 +239,7 @@ module.exports = {
   PAGE_LABELS,
   PAGE_OWNERS,
   EDITOR_ROLES,
+  COMMENTARY_WRITERS,
   ALLOWED_TAGS,
   PAGE_TOPIC_RULES,
   SOURCE_RULES,

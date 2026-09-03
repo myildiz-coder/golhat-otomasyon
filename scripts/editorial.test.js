@@ -4,7 +4,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { PAGE_TOPIC_RULES } = require('./editorial-config');
+const { COMMENTARY_WRITERS, PAGE_TOPIC_RULES } = require('./editorial-config');
 const {
   START_MARKER,
   END_MARKER,
@@ -149,6 +149,34 @@ test('haber yalnızca gerçek arama URLleri ve iki alan adıyla kabul edilir', (
   assert.equal(story.sources.length, 2);
   assert.equal(story.page, 'fenerbahce.html');
   assert.match(story.id, /^[a-f0-9]{16}$/);
+});
+
+test('yorum masası yalnız kayıtlı müstear imzalı ve açıkça yorum etiketli analiz kabul eder', () => {
+  const base = rawStory({
+    page: 'yorum.html',
+    headline: 'Transfer yarışında asıl mesele imza değil kadro dengesidir',
+    summary: 'Son transfer gelişmelerini doğrulanmış açıklamalar üzerinden okuyan bu yorum, bir imzanın değerini kulübün kadro dengesi ve teknik ihtiyacıyla birlikte tartışıyor.',
+    tag: 'Yorum',
+    content_type: 'analysis',
+    author_name: COMMENTARY_WRITERS[1].name,
+    original_angle: 'Transfer haberi yalnız oyuncunun adını ve bonservis bedelini anlatınca eksik kalır; asıl ölçü, yeni oyuncunun mevcut kadrodaki rol çatışmasını çözüp çözmediği ve teknik planın hangi eksiğine cevap verdiğidir.',
+    seo_title: 'Transferde imzadan önce kadro dengesi neden önemlidir?',
+    seo_description: 'GOLHAT yorum masası, transfer kararını doğrulanmış gelişmeler, kadro dengesi ve teknik ihtiyaç üzerinden kaynaklı biçimde değerlendiriyor.',
+    focus_keyword: 'transfer kadro dengesi'
+  });
+  const context = {
+    now: NOW,
+    role: 'yorum',
+    allowedPages: ['yorum.html'],
+    citedUrls: collectCitedUrls(citedResponse())
+  };
+  const story = validateStory(base, context);
+  assert.equal(story.authorName, 'Sessiz Tahta');
+  assert.equal(story.contentType, 'analysis');
+  assert.equal(selectHomepagePrimary(story, [story], NOW), null);
+  assert.equal(selectHomepageStories(validStory(), [story], NOW, 10).some((item) => item.id === story.id), false);
+  assert.throws(() => validateStory({ ...base, author_name: 'Rastgele Yazar' }, context), /kayıtlı GOLHAT müstearlarından/);
+  assert.throws(() => validateStory({ ...base, tag: 'Analiz' }, context), /yalnız Yorum etiketli analiz/);
 });
 
 test('arama sonuçlarında görülmeyen URL reddedilir', () => {

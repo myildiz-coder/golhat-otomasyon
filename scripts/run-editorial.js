@@ -46,7 +46,7 @@ const CATEGORY_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'sources'],
+        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'author_name', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'sources'],
         properties: {
           page: { type: 'string', enum: Object.keys(PAGE_LABELS) },
           headline: { type: 'string', minLength: 20, maxLength: 180 },
@@ -55,6 +55,7 @@ const CATEGORY_SCHEMA = {
           published_at: { type: 'string' },
           importance: { type: 'integer', minimum: 50, maximum: 100 },
           content_type: { type: 'string', enum: ['news', 'analysis', 'dossier', 'exclusive'] },
+          author_name: { type: 'string', minLength: 2, maxLength: 80 },
           seo_title: { type: 'string', minLength: 20, maxLength: 110 },
           seo_description: { type: 'string', minLength: 70, maxLength: 180 },
           focus_keyword: { type: 'string', minLength: 2, maxLength: 80 },
@@ -111,7 +112,15 @@ function parseArgs(argv) {
 }
 
 function categoryRequest(role, now, model) {
-  const researchBrief = role.researchTeam ? [
+  const productionBrief = role.columnists ? [
+    'Bu masa haber üretmez; doğrulanmış güncel olgudan hareket eden, açıkça YORUM olarak işaretlenmiş köşe yazısı üretir.',
+    'Her içerikte content_type=analysis, tag=Yorum ve originality_basis=reported_event kullan.',
+    'author_name yalnız şu kayıtlı GOLHAT müstearlarından biri olabilir: ' + role.columnists.map((writer) => writer.name + ' — ' + writer.focus).join(' | '),
+    'Yazarı konu uzmanlığına göre seç. Yeni olgu, alıntı veya içeriden bilgi uydurma; yorum ile doğrulanmış olgu arasındaki sınırı görünür tut.',
+    'original_angle alanında yazının tek, savunulabilir ve özgün tezini kur; key_findings yalnız bu tezi taşıyan doğrulanmış olguları içersin.',
+    'Kulüp taraftarlığı yapma, kişiye saldırma, kesin hüküm vermeyen kanıtı kesinmiş gibi yazma. Kaynaklardaki haber metnini köşe yazısı diye yeniden paketleme.',
+    'Yeterli güncel olgu ve özgün tez yoksa decision=no_change döndür.'
+  ] : role.researchTeam ? [
     'Bu masa dört uzman denetimiyle çalışır:',
     ...role.researchTeam,
     'Kaynak derlemesi, haber özeti veya başka yayınların analizini yeniden anlatan çalışma üretme.',
@@ -121,11 +130,13 @@ function categoryRequest(role, now, model) {
     'methodology alanında veri kümesini, tarih aralığını, hesabı ve karşılaştırmayı yeniden üretilebilir biçimde açıkla.',
     'original_findings alanında kaynaklarda hazır cümle olarak bulunmayan, GOLHAT’ın yöntemle çıkardığı en az iki yeni sonucu yaz.',
     'limitations alanında verinin kapsamadığı noktaları açıkla. right_of_reply_status=required_before_publish ise yayımlama; decision=no_change döndür.',
-    'SEO alanlarında anahtar kelime doldurma yapma; başlık bulguyu aşmasın.'
+    'SEO alanlarında anahtar kelime doldurma yapma; başlık bulguyu aşmasın.',
+    'author_name alanını tam olarak GOLHAT Araştırma Kurulu yaz.'
   ] : [
     'Her haber için doğal seo_title, seo_description, focus_keyword, original_angle ve key_findings üret.',
     'Normal haberlerde originality_basis=reported_event, original_findings=[], golhat_evidence_id="" kullan; methodology ile çapraz doğrulama yolunu, limitations ile bilinen sınırı kısaca açıkla.',
-    'Her kaynağı primary_evidence, independent_verification veya context olarak sınıflandır.'
+    'Her kaynağı primary_evidence, independent_verification veya context olarak sınıflandır.',
+    'author_name alanını tam olarak GOLHAT Haber Merkezi yaz.'
   ];
   const pageSummary = role.pages
     .map((page) => page + ': ' + PAGE_LABELS[page])
@@ -161,7 +172,7 @@ function categoryRequest(role, now, model) {
       'Şampiyonlar Ligi, UEFA, yerel lig, kulüp ve transfer masalarının sınırlarını birbirine karıştırma.',
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
-      ...researchBrief,
+      ...productionBrief,
       GOLHAT_PUBLISHER_EXPERIENCE,
       GOLHAT_SEO_PLAYBOOK,
       SOURCE_RULES,
@@ -173,11 +184,14 @@ function categoryRequest(role, now, model) {
       'Şu an: ' + now.toISOString() + ' (Türkiye/İstanbul)',
       'Konu alanı: ' + role.topics,
       ...(role.researchTeam ? ['Araştırma kurulu: ' + role.researchTeam.join(' | ')] : []),
+      ...(role.columnists ? ['Müstear yazar kadrosu: ' + role.columnists.map((writer) => writer.name + ' (' + writer.focus + ')').join(' | ')] : []),
       'İzinli hedef sayfalar:',
       pageSummary,
       role.researchTeam
         ? 'Güncel resmî veri ve belgelerde özgün dosya fırsatlarını araştır. En fazla üç çalışma seç.'
-        : 'Önce son 6 saati, ardından son 12 saati tara. Yalnız gündem değeri taşıyan doğrulanmış gelişmeleri seç; eski haberi yeniden ısıtma. En fazla üç haber seç.',
+        : role.columnists
+          ? 'Önce son 12 saatin doğrulanmış futbol gündemini tara. Güncel olguya yeni ve kaynakla savunulabilir bir bakış getiren en fazla iki yorum yazısı seç.'
+          : 'Önce son 6 saati, ardından son 12 saati tara. Yalnız gündem değeri taşıyan doğrulanmış gelişmeleri seç; eski haberi yeniden ısıtma. En fazla üç haber seç.',
       'Her source.url değeri bu istekte web aramasıyla gerçekten açtığın sonucun tam URL adresi olmalı.',
       'Aynı olayın küçük güncellemelerini veya aşağıdaki mevcut manşetleri yeniden üretme:',
       current
@@ -190,7 +204,7 @@ function categoryRequest(role, now, model) {
         schema: CATEGORY_SCHEMA
       }
     },
-    max_output_tokens: role.researchTeam ? 8500 : 6000
+    max_output_tokens: role.researchTeam ? 8500 : role.columnists ? 7000 : 6000
   };
 }
 

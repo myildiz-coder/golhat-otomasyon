@@ -6,7 +6,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, GOLHAT_PUBLISHER_EXPERIENCE, GOLHAT_SEO_PLAYBOOK,
-  EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
+  COMMENTARY_WRITERS, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 test('depodaki her HTML sayfasının tek bir sorumlu editörü vardır', () => {
@@ -26,6 +26,18 @@ test('her içerik editörü yalnızca tek sayfadan sorumludur', () => {
     assert.deepEqual(EDITOR_ROLES[owner].pages, [page]);
   }
   assert.equal(Object.keys(EDITOR_ROLES).length, editorialPages.length);
+});
+
+test('yorum masası benzersiz ve açıkça tanımlı müstear yazarlardan oluşur', () => {
+  const names = COMMENTARY_WRITERS.map((writer) => writer.name);
+  assert.equal(names.length, 4);
+  assert.equal(new Set(names).size, names.length);
+  assert.deepEqual(EDITOR_ROLES.yorum.columnists, COMMENTARY_WRITERS);
+  const page = fs.readFileSync(path.resolve(__dirname, '..', 'yorum.html'), 'utf8');
+  for (const writer of COMMENTARY_WRITERS) {
+    assert.match(page, new RegExp(writer.name));
+  }
+  assert.match(page, /gerçek kişi iddiası taşımaz/);
 });
 
 test('ortak yayın politikası temel editoryal dengeleri kalıcı olarak taşır', () => {

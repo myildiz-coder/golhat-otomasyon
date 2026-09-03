@@ -6,6 +6,7 @@ const path = require('node:path');
 
 const {
   ALLOWED_TAGS,
+  COMMENTARY_WRITERS,
   DOSSIER_MIN_SOURCES,
   HOMEPAGE_MIN_IMPORTANCE,
   HOMEPAGE_PREMIUM_IMPORTANCE,
@@ -40,6 +41,7 @@ const CONTENT_TYPES = new Set(['news', 'analysis', 'dossier', 'exclusive']);
 const ORIGINALITY_BASES = new Set(['reported_event', 'public_document_analysis', 'original_data_analysis', 'direct_reporting', 'original_document_obtained']);
 const SOURCE_ROLES = new Set(['primary_evidence', 'independent_verification', 'context']);
 const RIGHT_OF_REPLY_STATUSES = new Set(['not_applicable', 'response_in_sources', 'required_before_publish']);
+const COMMENTARY_WRITER_NAMES = new Set(COMMENTARY_WRITERS.map((writer) => writer.name));
 const EDITORIAL_QUARANTINE_RULES = Object.freeze([
   /Kıbrıs['’]ın kuzeyinde/iu,
   /Kıbrıs['’]ın kuzeyindeki(?:\s+Türk)?\s+yönetim/iu,
@@ -302,6 +304,10 @@ function validateStory(raw, context) {
   const limitations = String(raw.limitations || 'Mevcut açık kaynakların kapsamadığı ayrıntılar sonuç olarak sunulmadı.').trim();
   const rightOfReplyStatus = String(raw.right_of_reply_status || 'not_applicable').trim();
   const evidenceId = String(raw.golhat_evidence_id || '').trim();
+  const requestedAuthorName = String(raw.author_name || '').trim();
+  const authorName = context.role === 'yorum'
+    ? requestedAuthorName
+    : context.role === 'ozel_haber' ? 'GOLHAT Araştırma Kurulu' : 'GOLHAT Haber Merkezi';
 
   assertEditorialLanguage(headline, summary, seoTitle, seoDescription, originalAngle, methodology, limitations, ...keyFindings, ...originalFindings);
   assertStoryPageRelevance(raw.page, headline, summary);
@@ -338,6 +344,17 @@ function validateStory(raw, context) {
     if (limitations.length < 50) throw new Error('Özgün dosyanın sınırlılık açıklaması eksik');
     if (contentType === 'dossier' && !['public_document_analysis', 'original_data_analysis'].includes(originalityBasis)) {
       throw new Error('Kaynak derlemesi özgün dosya değildir; kamu belgesi veya veri analizi gerekli');
+    }
+  }
+  if (context.role === 'yorum') {
+    if (contentType !== 'analysis' || tag !== 'Yorum') {
+      throw new Error('Yorum masası yalnız Yorum etiketli analiz yayımlar');
+    }
+    if (!COMMENTARY_WRITER_NAMES.has(authorName)) {
+      throw new Error('Yorum yazarı kayıtlı GOLHAT müstearlarından biri olmalı');
+    }
+    if (originalAngle.length < 120) {
+      throw new Error('Yorum yazısının özgün tezi en az 120 karakter olmalı');
     }
   }
   if (!Number.isInteger(importance) || importance < 50 || importance > 100) {
@@ -426,6 +443,7 @@ function validateStory(raw, context) {
     limitations,
     rightOfReplyStatus,
     evidenceId,
+    authorName,
     publishedAt: publishedAt.toISOString(),
     discoveredAt: now.toISOString(),
     sources: uniqueSources
@@ -492,6 +510,9 @@ function renderArticle(story) {
       return '          <a class="dispatch-source" href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">' + htmlEscape(label) + '</a>';
     })
     .join('\n');
+  const author = story.page === 'yorum.html' && story.authorName
+    ? '          <span class="dispatch-author">Yazan: ' + htmlEscape(story.authorName) + '</span>'
+    : '';
 
   return [
     '    <article class="dispatch" data-auto-id="' + htmlEscape(story.id) + '" data-time="' + htmlEscape(story.publishedAt) + '">',
@@ -500,6 +521,7 @@ function renderArticle(story) {
     '        <div class="dispatch-meta">',
     '          <span class="tag ' + tagClass(story.tag) + '">' + htmlEscape(story.tag) + '</span>',
     '          <span class="dateline">' + htmlEscape(formatIstanbulDate(story.publishedAt)) + '</span>',
+    author,
     '        </div>',
     '        <h3 class="dispatch-headline"><a class="dispatch-story-link" href="' + htmlEscape(storyUrl(story)) + '" style="color:inherit;text-decoration:none">' + htmlEscape(story.headline) + '</a></h3>',
     '        <p class="dispatch-dek">' + htmlEscape(story.summary) + '</p>',
@@ -614,11 +636,12 @@ function updatePageScanDate(html, now) {
 
 function refreshPageLiveStatus(html, page, now) {
   const label = PAGE_LABELS[page] || page;
+  const deskKind = page === 'yorum.html' ? 'yorum masası' : 'haber masası';
   const block = [
     PAGE_LIVE_START,
-    '  <div class="editor-live-status mono" role="status" aria-label="' + htmlEscape(label) + ' haber masası canlı durumu" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:0 0 20px;padding:10px 12px;border:1px solid var(--line);border-left:4px solid #22a46b;background:var(--surface-raised);font-size:.72rem;line-height:1.45;">',
+    '  <div class="editor-live-status mono" role="status" aria-label="' + htmlEscape(label) + ' ' + deskKind + ' canlı durumu" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:0 0 20px;padding:10px 12px;border:1px solid var(--line);border-left:4px solid #22a46b;background:var(--surface-raised);font-size:.72rem;line-height:1.45;">',
     '    <span style="font-weight:800;letter-spacing:.08em;color:#08784a;">● CANLI</span>',
-    '    <span><b>' + htmlEscape(label) + ' haber masası</b> · Son kontrol: <time datetime="' + htmlEscape(now.toISOString()) + '">' + htmlEscape(formatIstanbulDateTime(now)) + '</time></span>',
+    '    <span><b>' + htmlEscape(label) + ' ' + deskKind + '</b> · Son kontrol: <time datetime="' + htmlEscape(now.toISOString()) + '">' + htmlEscape(formatIstanbulDateTime(now)) + '</time></span>',
     '  </div>',
     PAGE_LIVE_END
   ].join('\n');
@@ -667,7 +690,7 @@ function buildCategoryHtml(html, page, stories, now) {
     const label = PAGE_LABELS[page] || page;
     const wrapper = [
       '  <section class="single-desk" aria-label="' + htmlEscape(label) + ' doğrulanmış güncellemeleri">',
-      '    <div class="desk-heading"><h2>Doğrulanmış Güncellemeler</h2><span class="desk-count mono">' + pageStories.length + ' haber</span></div>',
+      '    <div class="desk-heading"><h2>' + (page === 'yorum.html' ? 'Son Yazılar' : 'Doğrulanmış Güncellemeler') + '</h2><span class="desk-count mono">' + pageStories.length + (page === 'yorum.html' ? ' yazı' : ' haber') + '</span></div>',
       START_MARKER,
       articles,
       END_MARKER,
@@ -704,7 +727,7 @@ function buildCategoryHtml(html, page, stories, now) {
   const count = (sectionMatch[2].match(/<article class="dispatch"/g) || []).length;
   const sectionBody = sectionMatch[2].replace(
     /<span class="desk-count mono">[^<]*<\/span>/,
-    '<span class="desk-count mono">' + count + ' haber</span>'
+    '<span class="desk-count mono">' + count + (page === 'yorum.html' ? ' yazı' : ' haber') + '</span>'
   );
   updated = updated.replace(sectionPattern, sectionMatch[1] + sectionBody + sectionMatch[3]);
 
@@ -850,19 +873,20 @@ function assertHomepageIntegrity(html, story) {
 
 function selectHomepageStories(primary, stories, now, limit = HOMEPAGE_SLOT_COUNT) {
   const recentThreshold = new Date(now).getTime() - 7 * 24 * 3_600_000;
-  const pool = [primary, ...(stories || [])].filter((story, index, items) => story && items.findIndex((item) => item && item.id === story.id) === index && storyMatchesPage(story.page, story.headline, story.summary) && new Date(story.publishedAt).getTime() >= recentThreshold);
+  const eligiblePrimary = primary && primary.page !== 'yorum.html' ? primary : null;
+  const pool = [eligiblePrimary, ...(stories || [])].filter((story, index, items) => story && story.page !== 'yorum.html' && items.findIndex((item) => item && item.id === story.id) === index && storyMatchesPage(story.page, story.headline, story.summary) && new Date(story.publishedAt).getTime() >= recentThreshold);
   pool.sort((left, right) =>
     new Date(right.publishedAt) - new Date(left.publishedAt) ||
     new Date(right.discoveredAt || right.publishedAt) - new Date(left.discoveredAt || left.publishedAt) ||
     right.importance - left.importance
   );
-  const selected = [primary];
+  const selected = eligiblePrimary ? [eligiblePrimary] : [];
   for (const item of pool) { if (selected.length >= limit) break; if (!selected.some((chosen) => chosen.id === item.id)) selected.push(item); }
 
   // Bir özgün GOLHAT dosyası ilk dörtte kendiliğinden yer bulamadıysa son
   // sırayı alır. Bir numara Baş Editörün güncellik ve önem kararıdır.
   const research = pool.find((item) =>
-    item.id !== primary.id &&
+    item.id !== eligiblePrimary?.id &&
     (item.page === 'ozel-haber.html' || ['dossier', 'exclusive'].includes(item.contentType))
   );
   if (research && !selected.some((item) => item.id === research.id) && selected.length > 1) {
@@ -888,6 +912,7 @@ function selectHomepagePrimary(currentStory, stories, now) {
   const candidates = [currentStory, ...(stories || [])]
     .filter((story, index, items) =>
       story &&
+      story.page !== 'yorum.html' &&
       items.findIndex((item) => item && item.id === story.id) === index &&
       storyMatchesPage(story.page, story.headline, story.summary) &&
       story.importance >= HOMEPAGE_MIN_IMPORTANCE &&
@@ -997,7 +1022,9 @@ function storyJsonLd(story, absoluteUrl, pageLabel, now) {
     dateModified: modifiedAt,
     inLanguage: 'tr-TR',
     articleSection: pageLabel,
-    author: { '@type': 'Organization', name: 'GOLHAT Haber Merkezi', url: 'https://golhat.com/' },
+    author: story.page === 'yorum.html'
+      ? { '@type': 'Person', name: story.authorName || 'GOLHAT Yorum Masası', description: 'GOLHAT editoryal müstearı' }
+      : { '@type': 'Organization', name: story.authorName || 'GOLHAT Haber Merkezi', url: 'https://golhat.com/' },
     publisher: {
       '@type': 'NewsMediaOrganization',
       '@id': 'https://golhat.com/#organization',
@@ -1074,13 +1101,21 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     required_before_publish: 'Cevap hakkı tamamlanmadan yayımlanamaz.'
   };
   const replyText = replyLabels[story.rightOfReplyStatus] || replyLabels.not_applicable;
-  const typeLabel = story.contentType === 'exclusive' ? 'Özel Haber'
+  const typeLabel = story.page === 'yorum.html' ? 'Yorum'
+    : story.contentType === 'exclusive' ? 'Özel Haber'
     : story.contentType === 'dossier' ? 'Araştırma Dosyası'
       : story.contentType === 'analysis' ? 'Analiz' : 'Doğrulanmış Haber';
   const relatedStories = selectRelatedStories(story, allStories);
+  const byline = story.authorName || (story.page === 'ozel-haber.html' ? 'GOLHAT Araştırma Kurulu' : 'GOLHAT Haber Merkezi');
+  const angleHeading = story.page === 'yorum.html' ? 'Yazının özgün tezi' : 'Dosyanın özgün açısı';
+  const findingsHeading = story.page === 'yorum.html' ? 'Yorumu taşıyan doğrulanmış olgular' : 'Doğrulanan bulgular';
+  const currentPageNav = story.page === 'yorum.html'
+    ? ''
+    : '<a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a>';
+  const returnLabel = story.page === 'yorum.html' ? 'yorum masasına dön' : 'haber masasına dön';
   const relatedSection = relatedStories.length ? [
     '<section class="related" aria-labelledby="related-title">',
-    '<h2 id="related-title">İlgili GOLHAT dosyaları</h2><ul>',
+    '<h2 id="related-title">' + (story.page === 'yorum.html' ? 'İlgili GOLHAT yazıları' : 'İlgili GOLHAT dosyaları') + '</h2><ul>',
     relatedStories.map((item) => '<li><a href="' + htmlEscape(storyUrl(item)) + '"><span>' + htmlEscape(PAGE_LABELS[item.page] || item.page) + '</span><b>' + htmlEscape(item.headline) + '</b></a></li>').join(''),
     '</ul></section>'
   ].join('') : '';
@@ -1124,14 +1159,14 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + htmlEscape(title) + '">',
     '<meta name="twitter:description" content="' + htmlEscape(description) + '"><meta name="twitter:image" content="https://golhat.com/og.png">',
     '<script type="application/ld+json">' + structuredData + '</script><style>' + css + '</style></head><body>',
-    '<header class="top"><div class="wrap"><a class="brand" href="/">GOL<span>/</span>HAT</a><nav><a href="/">Ana Sayfa</a><a href="/ozel-haber.html">Araştırma Dosyaları</a><a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a></nav></div></header>',
+    '<header class="top"><div class="wrap"><a class="brand" href="/">GOL<span>/</span>HAT</a><nav><a href="/">Ana Sayfa</a><a href="/ozel-haber.html">Araştırma Dosyaları</a><a href="/yorum.html">Yorum</a>' + currentPageNav + '</nav></div></header>',
     '<main class="wrap"><article><nav class="breadcrumb" aria-label="İçerik yolu"><a href="/">Ana Sayfa</a> / <a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a></nav>',
     '<div class="article-head"><div class="kicker">' + htmlEscape(typeLabel) + ' · ' + htmlEscape(pageLabel) + '</div><h1>' + htmlEscape(story.headline) + '</h1>',
     '<p class="standfirst">' + htmlEscape(story.summary) + '</p>',
-    '<p class="meta">GOLHAT Haber Merkezi · <time datetime="' + publishedAt + '">' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + '</time> · ' + story.sources.length + ' bağımsız kaynak</p></div>',
-    '<div class="grid"><div><h2>Dosyanın özgün açısı</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p>' + originalContribution,
-    '<h2>Doğrulanan bulgular</h2><ul class="findings">' + findings + '</ul>',
-    '<a class="back" href="/' + htmlEscape(story.page) + '">← ' + htmlEscape(pageLabel) + ' haber masasına dön</a></div>',
+    '<p class="meta">' + htmlEscape(byline) + (story.page === 'yorum.html' ? ' · GOLHAT editoryal müstearı' : '') + ' · <time datetime="' + publishedAt + '">' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + '</time> · ' + story.sources.length + ' bağımsız kaynak</p></div>',
+    '<div class="grid"><div><h2>' + htmlEscape(angleHeading) + '</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p>' + originalContribution,
+    '<h2>' + htmlEscape(findingsHeading) + '</h2><ul class="findings">' + findings + '</ul>',
+    '<a class="back" href="/' + htmlEscape(story.page) + '">← ' + htmlEscape(pageLabel) + ' ' + returnLabel + '</a></div>',
     '<aside><h2>Kaynak zinciri</h2><ol class="sources">' + sources + '</ol>',
     '<p class="method"><b>Yöntem:</b> ' + htmlEscape(methodology) + '</p><p class="method"><b>Sınırlılıklar:</b> ' + htmlEscape(limitations) + '</p>',
     '<p class="method"><b>Cevap hakkı:</b> ' + htmlEscape(replyText) + '</p><p class="method"><b>Etiket standardı:</b> Kaynak derlemesi özgün haber sayılmaz. “Özel Haber” yalnız insan muhabir kanıtı ve editör onayıyla kullanılır.</p></aside></div></article>',

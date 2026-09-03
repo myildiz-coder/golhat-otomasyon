@@ -23,6 +23,7 @@ on:
           - sampiyonlar_ligi
           - uefa
           - transfer
+          - yorum
           - ozel_haber
       dry_run:
         description: Yalnızca araştır ve doğrula; dosyaları değiştirme
