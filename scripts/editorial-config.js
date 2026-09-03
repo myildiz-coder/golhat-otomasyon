@@ -210,6 +210,7 @@ const GOLHAT_COMMENTARY_VOICE = `
 - Yazarın kanaati görünür olsun. “Bence” sözcüğünü tekrarlamadan, kanıtın izin verdiği yerde açık bir yorum ve kişisel muhakeme ortaya koy.
 - Yapay zekâ kalıbı hissi veren mekanik geçişleri, aynı fikri farklı sözlerle yinelemeyi, “bu sadece... değil, aynı zamanda...” formülünü ve zoraki sonuç paragraflarını kullanma.
 - summary, original_angle, key_findings ve original_findings alanları birbirini tekrar etmesin; key_findings içindeki her öğeyi yayımlandığında yazının akışını sürdürecek doğal bir paragraf olarak yaz.
+- summary alanını 300-520 karakter arasında tut ve mutlaka tamamlanmış bir cümleyle bitir; karakter sınırına sığdırmak için kelimeyi ya da cümleyi yarıda kesme.
 - Kaynak güvenliği, tarafsızlık ve olgu-yorum ayrımı aynen korunur. İnsansı ses; uydurma anı, kulis, alıntı, duygu veya kesinlik üretme izni değildir.
 - Yazıyı okurun aklında kalacak açık bir kanaat, ölçülü bir uyarı ya da bundan sonra izlenmesi gereken soruyla bitir.
 `.trim();

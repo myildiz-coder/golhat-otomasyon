@@ -177,6 +177,7 @@ test('yorum masası yalnız kayıtlı yazar imzalı ve açıkça yorum etiketli 
   assert.equal(selectHomepageStories(validStory(), [story], NOW, 10).some((item) => item.id === story.id), false);
   assert.throws(() => validateStory({ ...base, author_name: 'Rastgele Yazar' }, context), /kayıtlı GOLHAT yazar kadrosundan/);
   assert.throws(() => validateStory({ ...base, tag: 'Analiz' }, context), /yalnız Yorum etiketli analiz/);
+  assert.throws(() => validateStory({ ...base, summary: base.summary.slice(0, -1) }, context), /tamamlanmış bir cümle/);
 
   const leadStory = validateStory({ ...base, author_name: 'Mustafa YILDIZ' }, context);
   const leadPage = buildStoryPageHtml(leadStory, NOW, [leadStory]);

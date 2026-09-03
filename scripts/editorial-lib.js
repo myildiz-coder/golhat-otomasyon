@@ -317,6 +317,9 @@ function validateStory(raw, context) {
   if (summary.length < 70 || summary.length > 700) {
     throw new Error('Özet uzunluğu 70-700 karakter aralığında olmalı');
   }
+  if (!/[.!?…]["'’”)]?$/u.test(summary)) {
+    throw new Error('Özet tamamlanmış bir cümle ve noktalama işaretiyle bitmeli');
+  }
   if (!ALLOWED_TAGS.includes(tag)) throw new Error('Haber etiketi izinli değil');
   if (!CONTENT_TYPES.has(contentType)) throw new Error('İçerik türü izinli değil');
   if (seoTitle.length < 20 || seoTitle.length > 110) throw new Error('SEO başlığı 20-110 karakter aralığında olmalı');
