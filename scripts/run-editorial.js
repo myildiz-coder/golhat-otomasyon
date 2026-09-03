@@ -112,6 +112,16 @@ function parseArgs(argv) {
 }
 
 function categoryRequest(role, now, model) {
+  const assignment = String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim();
+  const leadWriter = role.columnists?.find((writer) => writer.lead) || role.columnists?.[0] || null;
+  const assignmentBrief = assignment ? [
+    'ÖZEL YAYIN GÖREVİ: ' + assignment,
+    ...(leadWriter ? [
+      'Bu özel görev baş yazar ' + leadWriter.name + ' imzasıyla, tek ve bütünlüklü bir köşe yazısı olarak hazırlanmalı.',
+      'decision=update ve stories dizisinde tam bir yazı hedefle; author_name alanını tam olarak ' + leadWriter.name + ' yaz.',
+      'Her takım ve lig hükmünü güncel web araştırmasıyla ayrı ayrı doğrula; doğrulanamayan güncel durum iddiasını yazıya alma.'
+    ] : [])
+  ] : [];
   const productionBrief = role.columnists ? [
     'Bu masa haber üretmez; doğrulanmış güncel olgudan hareket eden, açıkça YORUM olarak işaretlenmiş köşe yazısı üretir.',
     'Her içerikte content_type=analysis, tag=Yorum ve originality_basis=reported_event kullan.',
@@ -173,6 +183,7 @@ function categoryRequest(role, now, model) {
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       ...productionBrief,
+      ...assignmentBrief,
       GOLHAT_PUBLISHER_EXPERIENCE,
       GOLHAT_SEO_PLAYBOOK,
       SOURCE_RULES,
@@ -185,6 +196,7 @@ function categoryRequest(role, now, model) {
       'Konu alanı: ' + role.topics,
       ...(role.researchTeam ? ['Araştırma kurulu: ' + role.researchTeam.join(' | ')] : []),
       ...(role.columnists ? ['Müstear yazar kadrosu: ' + role.columnists.map((writer) => writer.name + ' (' + writer.focus + ')').join(' | ')] : []),
+      ...(assignment ? ['Özel yayın görevi: ' + assignment] : []),
       'İzinli hedef sayfalar:',
       pageSummary,
       role.researchTeam

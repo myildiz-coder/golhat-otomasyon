@@ -32,6 +32,8 @@ test('yorum masası benzersiz ve açıkça tanımlı müstear yazarlardan oluşu
   const names = COMMENTARY_WRITERS.map((writer) => writer.name);
   assert.equal(names.length, 4);
   assert.equal(new Set(names).size, names.length);
+  assert.equal(COMMENTARY_WRITERS.filter((writer) => writer.lead).length, 1);
+  assert.equal(COMMENTARY_WRITERS.find((writer) => writer.lead).name, 'Ters Kademe');
   assert.deepEqual(EDITOR_ROLES.yorum.columnists, COMMENTARY_WRITERS);
   const page = fs.readFileSync(path.resolve(__dirname, '..', 'yorum.html'), 'utf8');
   for (const writer of COMMENTARY_WRITERS) {

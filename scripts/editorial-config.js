@@ -81,7 +81,7 @@ const PAGE_TOPIC_RULES = Object.freeze({
 });
 
 const COMMENTARY_WRITERS = Object.freeze([
-  Object.freeze({ name: 'Ters Kademe', slug: 'ters-kademe', initials: 'TK', focus: 'Taktik, oyun planı ve maç içi kırılmalar' }),
+  Object.freeze({ name: 'Ters Kademe', slug: 'ters-kademe', initials: 'TK', focus: 'Taktik, oyun planı, yarış dengesi ve maç içi kırılmalar', lead: true }),
   Object.freeze({ name: 'Sessiz Tahta', slug: 'sessiz-tahta', initials: 'ST', focus: 'Transfer, kadro mühendisliği ve teknik yapılanma' }),
   Object.freeze({ name: 'Deplasman Defteri', slug: 'deplasman-defteri', initials: 'DD', focus: 'Tribün kültürü, Anadolu futbolu ve şehir-kulüp ilişkisi' }),
   Object.freeze({ name: 'Mizan 90', slug: 'mizan-90', initials: 'M90', focus: 'Futbol ekonomisi, yönetim, KAP ve kamu belgeleri' })

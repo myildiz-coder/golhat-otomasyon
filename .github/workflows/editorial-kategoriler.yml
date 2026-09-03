@@ -30,6 +30,11 @@ on:
         required: true
         type: boolean
         default: true
+      assignment:
+        description: Editöre verilecek özel güncel yayın görevi
+        required: false
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -63,6 +68,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SELECTED_ROLE: ${{ inputs.role }}
           DRY_RUN: ${{ inputs.dry_run }}
+          GOLHAT_EDITORIAL_ASSIGNMENT: ${{ inputs.assignment }}
         shell: bash
         run: |
           set -euo pipefail
