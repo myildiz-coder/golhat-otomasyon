@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T09:42:25.337Z",
+  "updatedAt": "2026-09-03T10:19:11.653Z",
   "stories": [
+    {
+      "id": "718711c1645265b4",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ın Fenerbahçe deplasmanı için bilet uyarısı: Bazı bloklar cezalı",
+      "summary": "Beşiktaş, 5 Eylül 2026’da oynanacak Fenerbahçe derbisi öncesi deplasman tribünü biletleri hakkında bilgilendirme yaptı. Kulüp, 23 Ağustos’taki Alanyaspor maçındaki PFDK kararı nedeniyle bazı taraftar bloklarının karşılaşmaya alınmayacağını duyurdu.",
+      "tag": "Gelişme",
+      "importance": 65,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş-Fenerbahçe derbisi deplasman biletlerinde ceza uyarısı",
+      "seoDescription": "Beşiktaş, Fenerbahçe derbisi öncesi deplasman biletlerini duyurdu; PFDK cezası nedeniyle bazı taraftar bloklarının girişine izin verilmeyecek.",
+      "focusKeyword": "Beşiktaş Fenerbahçe deplasman biletleri",
+      "originalAngle": "Duyurunun kritik noktası yalnızca bilet satışının başlaması değil, Alanyaspor maçından kalan tribün blokesi nedeniyle Beşiktaş deplasman tribünündeki erişimin bazı taraftarlar için sınırlanacak olmasıdır. Derbi öncesi taraftarın bakması gereken temel ayrıntı, bilet alma hakkından önce bloke edilen bloklarda yer alıp almadığıdır.",
+      "keyFindings": [
+        "Beşiktaş, 5 Eylül 2026 Cumartesi günü saat 20.00’de oynanacak Fenerbahçe deplasmanı için bilet bilgilendirmesi yayımladı.",
+        "Kulüp, 23 Ağustos 2026’daki Corendon Alanyaspor-Beşiktaş maçında çirkin ve kötü tezahürat nedeniyle bazı misafir tribün bloklarına bir sonraki deplasman karşılaşması için giriş engeli uygulandığını açıkladı.",
+        "Bağımsız haber kaynağı Habertürk, derbi biletlerinin 3 Eylül 2026 saat 10.00’da genel satışa sunulacağını bildirdi; bu nedenle taraftar açısından bilet satışından önce tribün blokesi kontrolü önem taşıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş Kulübü’nün 3 Eylül 2026 tarihli resmi bilgilendirmesi, bilet satış takvimini aktaran bağımsız Habertürk haberiyle karşılaştırıldı. PFDK kararının dayanağı kulüp duyurusundaki ifadelerle sınırlandırıldı.",
+      "originalFindings": [],
+      "limitations": "Resmi kulüp duyurusunda genel satışın saat bilgisi ayrıntılı biçimde yer almıyor; saat bilgisi bağımsız Habertürk kaynağından alındı. Taraftar blokelerinin elektronik bilet sistemindeki güncel uygulaması ayrıca kontrol edilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-03T10:19:11.653Z",
+      "sources": [
+        {
+          "title": "Deplasmandaki Fenerbahçe Maçının Biletleri Hakkında Bilgilendirme",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/95029/deplasmandaki-fenerbahce-macinin-biletleri-hakkinda-bilgilendirme.html",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe Beşiktaş maçı ne zaman, saat kaçta, hangi kanalda? Fenerbahçe Beşiktaş derbi maçı biletleri ne kadar?",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/bilgi/foto/fenerbahce-besiktas-maci-ne-zaman-saat-kacta-hangi-kanalda-fenerbahce-besiktas-derbi-maci-biletleri-ne-kadar-3909866",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "78c1f80339ffd32d",
       "role": "sampiyonlar_ligi",
