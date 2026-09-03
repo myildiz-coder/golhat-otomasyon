@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T05:36:20.083Z",
+  "updatedAt": "2026-09-03T10:28:43.240Z",
   "source": "UEFA",
   "sourceUrl": "https://standings.uefa.com/",
   "seasonEndYear": 2027,
@@ -434,7 +434,7 @@
           "rank": 1,
           "teamId": "52797",
           "team": "S. Bratislava",
-          "code": "SLB",
+          "code": "SBR",
           "countryCode": "SVK",
           "played": 0,
           "won": 0,
