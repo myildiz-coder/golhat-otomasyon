@@ -1,7 +1,109 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T08:17:01.525Z",
+  "updatedAt": "2026-09-03T08:27:12.156Z",
   "stories": [
+    {
+      "id": "d451858e21a000b6",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor, Franculino Dju transferini resmileştirdi",
+      "summary": "Trabzonspor, Midtjylland’ın 22 yaşındaki forveti Franculino Gludo Dju ile 4+1 yıllık sözleşme imzaladı. Transfer için 17 milyon avro bonservis ve şarta bağlı bonuslar ödenecek.",
+      "tag": "Kesinleşti",
+      "importance": 95,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor Franculino Dju transferini resmileştirdi",
+      "seoDescription": "Trabzonspor, Franculino Dju’yu 4+1 yıllığına kadrosuna kattı. Midtjylland’a ödenecek bonservis ve sözleşme ayrıntılarıyla transferin etkisini inceleyin.",
+      "focusKeyword": "Franculino Dju Trabzonspor",
+      "originalAngle": "Trabzonspor’un transferi yalnızca yeni bir santrfor hamlesi değil; kulübün yüksek bonservisli genç oyuncu yatırım modelini sürdürdüğünü gösteren en somut adımlardan biri. Haber değerini artıran ayrıntı, 17 milyon avroluk bedelin sekiz taksite yayılması ve sonraki satıştan Midtjylland’a yüzde 15 pay verilmesi.",
+      "keyFindings": [
+        "Trabzonspor, Franculino Gludo Dju’nun kesin transferi için Midtjylland ile anlaşmaya vardı.",
+        "Oyuncuyla 4+1 yıllık sözleşme imzalandı; garanti ücret yıllık 2 milyon 125 bin avro olarak açıklandı.",
+        "Midtjylland’a 17 milyon avro bonservis sekiz taksitte ödenecek ve sonraki satıştan yüzde 15 pay verilecek.",
+        "Transferin sportif karşılığı, Trabzonspor’un forvet rotasyonunu güçlendirmesi ve genç yaşta yüksek yatırım yapılan bir hücum oyuncusunu kadroya katması olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Trabzonspor’un resmi duyurusu, KAP’a dayanan Anadolu Ajansı haberi ve DHA’nın bağımsız aktarımı karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Oyuncunun Trabzonspor formasıyla ilk maç tarihi, ilk 11 rolü ve performans etkisi henüz bilinmiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "publishedAt": "2026-09-02T21:29:00.000Z",
+      "discoveredAt": "2026-09-03T08:27:12.156Z",
+      "sources": [
+        {
+          "title": "Kamuoyuna Duyuru",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/kamuoyuna-duyuru-76-02-09-2026",
+          "publishedAt": "2026-09-02T23:53:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor, Franculino Gludo Dju'yu renklerine bağladı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/trabzonspor-franculino-gludo-djuyu-renklerine-bagladi/4045833",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trabzonspor, forvet transferini duyurdu",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/trabzon/trabzonspor-forvet-transferini-duyurdu-2938092",
+          "publishedAt": "2026-09-03T00:29:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "9f91a4eda5c28107",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Ertuğrul Doğan: Yeni teknik direktörümüz yabancı olacak gibi görünüyor",
+      "summary": "Trabzonspor Başkanı Ertuğrul Doğan, Fatih Terim, Antonio Conte, Abdullah Avcı, Şenol Güneş ve Arda Turan’la ilgili bir görüşme yapılmadığını açıkladı; yeni teknik direktörün yabancı olmasının muhtemel olduğunu söyledi.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor’da teknik direktör arayışında yabancı hoca sinyali",
+      "seoDescription": "Trabzonspor Başkanı Ertuğrul Doğan, öne çıkan yerli ve yabancı isimlerle görüşmediklerini açıkladı; yeni teknik direktörün yabancı olabileceğini söyledi.",
+      "focusKeyword": "Trabzonspor yabancı teknik direktör",
+      "originalAngle": "Trabzonspor’un teknik direktör arayışında önceki gün öne çıkan yerli aday başlıkları zayıflarken yönetim ilk kez tercih yönüne dair açık bir sinyal verdi. Ancak bu açıklama anlaşma sağlandığını değil, değerlendirme sürecinin yabancı teknik adamlara kaydığını gösteriyor.",
+      "keyFindings": [
+        "Ertuğrul Doğan, Antonio Conte ve Fatih Terim’le görüşmediklerini açıkladı.",
+        "Başkan, Abdullah Avcı ve Şenol Güneş’in gündemlerinde olmadığını, Arda Turan’ın da sözleşmeli olması nedeniyle değerlendirilmediğini belirtti.",
+        "Doğan, yeni teknik direktörün yabancı olmasının muhtemel olduğunu söyledi.",
+        "Trabzonspor’da teknik direktör kararı henüz resmileşmedi; yönetim değerlendirme sürecini sürdürüyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Başkan Ertuğrul Doğan’ın A Spor’a verdiği açıklama, Trabzonspor’un teknik direktörlük göreviyle ilgili resmi duyurusu ve bağımsız haber aktarımıyla karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Yeni teknik direktörün adı, sözleşme süresi ve göreve başlama tarihi açıklanmadı; yabancı teknik direktör ifadesi kesinleşmiş anlaşma anlamına gelmiyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "publishedAt": "2026-09-02T21:20:00.000Z",
+      "discoveredAt": "2026-09-03T08:27:12.156Z",
+      "sources": [
+        {
+          "title": "Ertuğrul Doğan'dan teknik direktör açıklaması: Terim, Conte, Turan, Avcı ve Güneş",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/trabzonspor/2026/09/02/ertugrul-dogandan-teknik-direktor-aciklamasi-terim-conte-turan-avci-ve-gunes",
+          "publishedAt": "2026-09-03T00:15:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Kamuoyuna Açıklama",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/kamuoyuna-aciklama-5-01-09-2026",
+          "publishedAt": "2026-09-01T19:51:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Ertuğrul Doğan'dan teknik direktör açıklaması: Terim, Conte, Turan, Avcı ve Güneş",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/webtv/trabzonspor/ertugrul-dogandan-teknik-direktor-aciklamasi-terim-conte-turan-avci-ve-gunes",
+          "publishedAt": "2026-09-03T00:15:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "4ed572e0062a6446",
       "role": "avrupa",
