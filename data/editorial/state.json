@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T20:52:53.936Z",
+  "updatedAt": "2026-09-03T21:17:11.479Z",
   "stories": [
+    {
+      "id": "47e982d10297cbac",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Rangers, Kevin Kelsy transferini dört yıllık sözleşmeyle açıkladı",
+      "summary": "Rangers, Portland Timbers’tan Venezuelalı forvet Kevin Kelsy’yi ilk etapta dört yıllığına kadrosuna kattığını duyurdu. Sözleşmede bir yıllık uzatma opsiyonu da bulunuyor.",
+      "tag": "Kesinleşti",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Rangers, Kevin Kelsy transferini açıkladı",
+      "seoDescription": "Rangers, Portland Timbers’tan Kevin Kelsy’yi dört yıllığına transfer etti. Gelişmenin kulübün hücum planına etkisini ve anlaşmanın ayrıntılarını okuyun.",
+      "focusKeyword": "Kevin Kelsy Rangers transferi",
+      "originalAngle": "Transferin haber değeri yalnızca imzadan değil, Rangers’ın sezon başındaki hücum eksikliğini gidermek için daha önce işaret ettiği santrfor hamlesini resmîleştirmesinden geliyor. Kelsy’nin Portland’daki performansı, anlaşmanın sportif hedefini ve transferin neden şimdi tamamlandığını açıklayan temel bağlamı oluşturuyor.",
+      "keyFindings": [
+        "Rangers, Kevin Kelsy’nin Portland Timbers’tan transfer edildiğini 3 Eylül 2026’da resmen açıkladı.",
+        "Oyuncu, ilk etapta dört yıllık sözleşme imzaladı; anlaşmada bir yıllık uzatma opsiyonu yer alıyor.",
+        "The Guardian’ın 26 Ağustos tarihli haberinde anlaşmanın yaklaşık 13 milyon dolar değerinde olduğu ve Portland’ın kulüp rekoru satışına dönüştüğü aktarılmıştı; Rangers’ın resmî açıklamasında bonservis bedeli açıklanmadı.",
+        "Kelsy, Portland formasıyla 43 maçta 16 gol attı; bu veri Rangers’ın resmî duyurusunda da yer alıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Rangers’ın resmî transfer duyurusu, The Guardian’ın doğrudan kaynaklı önceki anlaşma haberiyle karşılaştırıldı. Sözleşme süresi ve opsiyon bilgisi kulüp açıklamasından, transfer bedeli bağlamı ise bağımsız haber kaynağından kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Rangers’ın resmî açıklamasında bonservis bedeli ve ödeme planı yer almıyor. Yaklaşık 13 milyon dolarlık rakam The Guardian’ın 26 Ağustos tarihli kaynaklı haberine dayanıyor; bu nedenle kulüp tarafından teyit edilmiş kesin bedel olarak sunulmamalıdır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-03T21:17:11.479Z",
+      "sources": [
+        {
+          "title": "Rangers Announce Signing Of Kevin Kelsy",
+          "publisher": "Rangers Football Club",
+          "url": "https://www.rangers.co.uk/article/rangers-announce-signing-of-kevin-kelsy/2vORj7Klba6ZS2egGlIvYg",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Rangers finalize deal for Portland Timbers striker Kevin Kelsy",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/2026/aug/26/kevin-kelsy-rangers-portland-timbers-transfer",
+          "publishedAt": "2026-08-26",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "07e67673604ce5b8",
       "role": "ozel_haber",
