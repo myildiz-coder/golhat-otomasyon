@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T15:44:06.599Z",
+  "updatedAt": "2026-09-03T16:18:30.164Z",
   "stories": [
+    {
+      "id": "9caabfd356de7eb9",
+      "role": "sampiyonlar_ligi",
+      "page": "sampiyonlar-ligi.html",
+      "headline": "UEFA, Galatasaray-Sporting maçı öncesi kritik Şampiyonlar Ligi verilerini açıkladı",
+      "summary": "UEFA’nın 3 Eylül 2026 tarihli ilk hafta dosyasına göre Galatasaray, Şampiyonlar Ligi’ndeki son 10 açılış maçının yalnızca birini kazanabildi. Sporting CP ile Galatasaray, 9 Eylül’de Avrupa kupalarında ilk kez karşılaşacak.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "UEFA’dan Galatasaray-Sporting maçı öncesi dikkat çeken veriler",
+      "seoDescription": "UEFA, 9 Eylül 2026’daki Sporting-Galatasaray maçı öncesi iki takımın Şampiyonlar Ligi ve Türk ekipleriyle ilgili önemli verilerini yayımladı.",
+      "focusKeyword": "Galatasaray Sporting Şampiyonlar Ligi",
+      "originalAngle": "İlk hafta fikstürü daha önce açıklanmış olsa da UEFA’nın yeni veri dosyası, Galatasaray’ın açılış maçlarındaki zayıf bilançosunu ve Sporting’in Türk takımlarına karşı son dönemdeki üstünlüğünü aynı çerçevede ortaya koyuyor. Bu tablo, 9 Eylül 2026’daki karşılaşmanın Galatasaray açısından yalnızca yeni sezonun ilk maçı değil, kötü başlangıç eğilimini kırma sınavı olduğunu gösteriyor.",
+      "keyFindings": [
+        "UEFA’ya göre Sporting CP ile Galatasaray, kulüplerin toplamda 700’ü aşkın UEFA maçına rağmen Avrupa kupalarında ilk kez karşılaşacak.",
+        "Sporting CP, Türk takımlarına karşı oynadığı son beş maçın dördünü kazandı; Galatasaray ise Portekiz ekipleriyle yaptığı son beş karşılaşmada galibiyet alamadı.",
+        "Galatasaray, son 10 Şampiyonlar Ligi kampanyasındaki ilk maçların yalnızca birini kazanabildi; bu süreçte dört beraberlik ve beş yenilgi aldı.",
+        "Karşılaşma 9 Eylül 2026 Çarşamba günü Sporting CP’nin sahası Estádio José Alvalade’de oynanacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 3 Eylül 2026 tarihli resmi ilk hafta istatistik dosyası incelendi; Galatasaray-Sporting karşılaşmasının tarihi ve stadyumu Sporting CP’nin resmi duyurusuyla çapraz kontrol edildi. Yalnızca iki kaynağın doğrudan doğruladığı bilgiler kullanıldı.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın açıkladığı geçmiş maç istatistikleri, karşılaşmanın sonucuna veya takımların güncel kadro durumuna dair tek başına öngörü sağlamaz. Haber, maç öncesi tarihsel verilerle sınırlıdır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-03T16:18:30.164Z",
+      "sources": [
+        {
+          "title": "Champions League Matchday 1: Key stats and what to look out for in every game",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2180c6b55c39-54a55373de68-1000--champions-league-matchday-1-key-stats-and-what-to-look-o",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Bilhetes para a recepção ao Galatasaray SK disponíveis a partir de 2 de Setembro",
+          "publisher": "Sporting Clube de Portugal",
+          "url": "https://www.sporting.pt/pt/noticias/futebol/equipa-principal/2026-09-02/bilhetes-para-a-recepcao-ao-galatasaray-sk-disponiveis",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "47a6cdc862dad3b9",
       "role": "fenerbahce",
