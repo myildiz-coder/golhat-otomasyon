@@ -1,7 +1,150 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T14:44:30.712Z",
+  "updatedAt": "2026-09-03T15:44:06.599Z",
   "stories": [
+    {
+      "id": "47a6cdc862dad3b9",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisinde Halil Umut Meler görev yapacak",
+      "summary": "Fenerbahçe’nin 5 Eylül Cumartesi günü Beşiktaş’ı konuk edeceği Süper Lig 4. hafta karşılaşmasının hakemi Halil Umut Meler oldu. Sarı-lacivertliler derbi hazırlıklarına İsmail Kartal yönetiminde başladı.",
+      "tag": "Gelişme",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinin hakemi Halil Umut Meler",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisinde Halil Umut Meler düdük çalacak. Fenerbahçe’nin hazırlık süreci ve maç öncesi doğrulanmış detaylar haberde.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi Halil Umut Meler",
+      "originalAngle": "Derbi öncesinde yalnız hakem ataması değil, Fenerbahçe’nin hazırlık takvimi de netleşti: Meler’in görevlendirilmesiyle maçın resmi çerçevesi tamamlanırken takım Can Bartu Tesisleri’nde teknik ve fiziksel çalışmalara başladı.",
+      "keyFindings": [
+        "TFF Merkez Hakem Kurulu, 5 Eylül 2026 Cumartesi saat 20.00’de oynanacak Fenerbahçe-Beşiktaş maçına Halil Umut Meler’i atadı.",
+        "Fenerbahçe, İsmail Kartal yönetiminde salonda core ve dayanıklılık çalışması yaptı; saha bölümünde ısınma, çabukluk, koordinasyon ve pas çalışmaları gerçekleştirildi.",
+        "Gelişmenin bundan sonraki önemli sorusu, Fenerbahçe’nin derbi kadrosunda hangi oyuncuların tercih edileceği ve mevcut eksiklerin durumunun nasıl netleşeceği."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Hakem ataması beIN Sports’un TFF/MHK açıklamasına dayandırılan haberinden kontrol edildi; Fenerbahçe’nin antrenman programı 12 Numara’nın 3 Eylül tarihli saha haberinden karşılaştırıldı. İki farklı alan adındaki kaynaklar aynı derbi takvimini ve gelişmenin ana unsurlarını doğruluyor.",
+      "originalFindings": [],
+      "limitations": "Kaynaklarda Fenerbahçe’nin muhtemel ilk 11’i, sakat oyuncuların son durumu veya hakem atamasının maç sonucuna etkisi hakkında doğrulanmış bilgi bulunmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T12:44:06.000Z",
+      "discoveredAt": "2026-09-03T15:44:06.599Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinin hakemi açıklandı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahce-besiktas-derbisinin-hakemi-aciklandi-4",
+          "publishedAt": "2026-09-03T12:33:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş maçının hazırlıkları başladı",
+          "publisher": "12 Numara",
+          "url": "https://12numara.org/haber/besiktas-macinin-hazirliklari-basladi",
+          "publishedAt": "2026-09-03T10:10:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "9f8390acf18a11ae",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş, Fenerbahçe derbisi öncesi taktik ve duran top çalıştı",
+      "summary": "Beşiktaş, 5 Eylül 2026’daki Fenerbahçe derbisi öncesi hazırlıklarını sürdürdü. Vincenzo Italiano yönetimindeki basına kapalı idmanda kondisyon, taktik, duran top ve şut çalışmaları yapıldı.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Fenerbahçe derbisi öncesi taktik çalıştı",
+      "seoDescription": "Beşiktaş, 5 Eylül’deki Fenerbahçe derbisi öncesi kondisyon, taktik, duran top ve şut çalışması yaptı; hazırlık programı netleşti.",
+      "focusKeyword": "Beşiktaş Fenerbahçe derbisi hazırlıkları",
+      "originalAngle": "Beşiktaş’ın derbi hazırlığında öne çıkan nokta yalnızca çalışmanın sürmesi değil, maçtan iki gün önce antrenman içeriğinin taktik ve duran top başlıklarına yoğunlaşması. Kulüp ayrıca 4 Eylül’deki son basına kapalı çalışmanın saatini açıkladı; böylece takımın derbiye kadar kalan hazırlık takvimi görünür hâle geldi.",
+      "keyFindings": [
+        "Beşiktaş, 5 Eylül 2026 Cumartesi günü oynanacak Fenerbahçe derbisi öncesi 3 Eylül’de antrenman yaptı.",
+        "Vincenzo Italiano yönetimindeki yaklaşık 1,5 saatlik basına kapalı idmanda kondisyon, 5’e 2, çift kale, duran top ve şut çalışmaları gerçekleştirildi.",
+        "Beşiktaş, derbi öncesindeki çalışmalarına 4 Eylül saat 11.30’da basına kapalı antrenmanla devam edecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, Beşiktaş’ın 3 Eylül tarihli resmi antrenman açıklaması ile Habertürk’ün aynı gün yayımlanan bağımsız haberinin karşılaştırılmasıyla doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Kulüp açıklamasında kadro, sakatlık veya derbide forma giyecek oyuncular hakkında bilgi verilmediği için bu alanlarda çıkarım yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T12:06:00.000Z",
+      "discoveredAt": "2026-09-03T15:44:06.599Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe Maçı Hazırlıkları Devam Ediyor",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/95033/fenerbahce-maci-hazirliklari-devam-ediyor.html",
+          "publishedAt": "2026-09-03T15:06:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş, Fenerbahçe derbisi hazırlıklarını sürdürdü!",
+          "publisher": "Habertürk Spor",
+          "url": "https://www.haberturk.com/spor/besiktas-fenerbahce-derbisi-hazirliklarini-surdurdu-3910066",
+          "publishedAt": "2026-09-03T17:04:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "c9f7e68f4726ed51",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Fenerbahçe’nin UEFA dosyası ceza haberinden önce kadro planlama sınavına dönüştü",
+      "summary": "Fenerbahçe, Lyon maçı sonrası kulüp ile Guendouzi ve Greenwood hakkında UEFA disiplin süreci başlatıldığını açıkladı. Henüz yaptırım yok; ancak dosya, Avrupa kadrosunda süreklilik ve maç planlaması açısından yeni bir belirsizlik oluşturuyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe’nin UEFA dosyası kadro planını nasıl etkiler?",
+      "seoDescription": "Fenerbahçe, Guendouzi ve Greenwood için UEFA disiplin sürecini doğruladı. Ceza kararı çıkmadan dosyanın kadro planına etkisini inceliyoruz.",
+      "focusKeyword": "Fenerbahçe UEFA disiplin süreci",
+      "originalAngle": "Fenerbahçe açısından asıl mesele henüz açıklanmayan cezanın büyüklüğü değil, Avrupa sezonu başlamadan iki önemli oyuncu ve kulübün aynı dosyada savunma pozisyonuna düşmesiyle oluşan planlama belirsizliğidir. Bu dosya, kadro mühendisliğinde yalnızca oyuncu kalitesinin değil, oyuncunun Avrupa takvimindeki kullanılabilirliğinin de hesaba katılması gerektiğini gösteriyor.",
+      "keyFindings": [
+        "UEFA, Lyon ile oynanan Şampiyonlar Ligi play-off rövanşının ardından Fenerbahçe, Matteo Guendouzi ve Mason Greenwood hakkında disiplin süreci başlattı.",
+        "Fenerbahçe, gerekli bilgi, belge ve savunmaları UEFA’nın ilgili kurullarına sunacağını açıkladı; bu nedenle süreç şu aşamada kesinleşmiş bir ceza olarak değerlendirilemez.",
+        "Fenerbahçe’nin lig aşamasındaki ilk Şampiyonlar Ligi maçı 10 Eylül 2026’da Roma’ya karşı oynanacak. Sürecin zamanlaması, teknik ekibin Avrupa maçları için oyuncu sürekliliği planını hukuki karar çıkmadan önce yeniden değerlendirmesini gerektirebilir."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "3 Eylül 2026 tarihinde yayımlanan Fenerbahçe kaynaklı açıklamayı Anadolu Ajansı ve Euronews haberleriyle karşılaştırdım. Yorum bölümü yalnızca doğrulanan disiplin süreci, kulübün savunma açıklaması ve açıklanan Şampiyonlar Ligi takvimi üzerinden kuruldu; olası ceza türü veya süresi hakkında tahmin yürütülmedi.",
+      "originalFindings": [
+        "Dosyanın sportif etkisi, cezanın kesinleşip kesinleşmemesinden önce belirsizliğin Avrupa takviminin hemen öncesinde ortaya çıkmasıdır.",
+        "Guendouzi ve Greenwood hakkında bireysel süreç bulunması, kulübe yönelik sürecin de ayrıca yürütülmesi nedeniyle Fenerbahçe’nin savunma ve kadro planlamasını aynı anda yönetmesini gerektiriyor.",
+        "Bundan sonraki kritik soru cezanın ne olacağı değil, UEFA kararının Roma maçı öncesinde çıkıp çıkmayacağı ve teknik ekibin olası yokluk senaryosunu nasıl yöneteceğidir."
+      ],
+      "limitations": "UEFA’nın olası yaptırımı, karar takvimi ve süreçte isnat edilen maddeler bu kaynaklarda kesinleşmiş biçimde yer almıyor. Bu nedenle yazı, ceza ihtimali üzerinden hüküm kurmuyor; yalnızca belirsizliğin kadro planlamasına muhtemel etkisini analiz ediyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "GOLHAT-2026-09-03-UEFA-FB-DISIPLIN-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-03T15:44:06.000Z",
+      "discoveredAt": "2026-09-03T15:44:06.599Z",
+      "sources": [
+        {
+          "title": "UEFA, Fenerbahçe ile futbolcuları Guendouzi ve Greenwood hakkında disiplin süreci başlattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/uefa-fenerbahce-ile-futbolculari-guendouzi-ve-greenwood-hakkinda-disiplin-sureci-baslatti/4045950",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "UEFA’dan Fenerbahçe, Guendouzi ve Greenwood hakkında disiplin soruşturması",
+          "publisher": "Euronews Türkçe",
+          "url": "https://tr.euronews.com/2026/09/03/uefadan-fenerbahce-guendouzi-ve-greenwood-hakkinda-disiplin-sorusturmasi",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray ve Fenerbahçe’nin UEFA Şampiyonlar Ligi fikstürü belli oldu",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/galatasaray-ve-fenerbahcenin-uefa-sampiyonlar-ligi-fiksturu-belli-oldu/4040958",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "c1e82c0eca8264e3",
       "role": "avrupa",
