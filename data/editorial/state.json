@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T13:09:46.945Z",
+  "updatedAt": "2026-09-03T13:18:44.833Z",
   "stories": [
+    {
+      "id": "b983e2b472e7a818",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray, Başakşehir deplasmanında liderlik koltuğunu korumaya çıkacak",
+      "summary": "Galatasaray, Trendyol Süper Lig’in 4. haftasında 4 Eylül Cuma günü Başakşehir’e konuk olacak. İlk üç maçta 7 puan toplayan sarı-kırmızılı ekip, yeni transferleri Rafael Leão ve Deniz Gül’ün olası ilk maçları öncesinde liderlik yarışındaki yerini korumayı hedefleyecek.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray Başakşehir deplasmanında liderlik için sahaya çıkıyor",
+      "seoDescription": "Galatasaray, 4 Eylül’de Başakşehir’e konuk olacak. Sarı-kırmızılıların 7 puanla liderlik yarışındaki konumu ve yeni transferlerin durumu haberde.",
+      "focusKeyword": "Galatasaray Başakşehir maçı",
+      "originalAngle": "Haberin kritik noktası yalnızca maçın tarihi değil; Galatasaray’ın ilk üç haftada topladığı 7 puanla liderlik yarışını sürdürürken Rafael Leão ve Deniz Gül’ün olası ilk maçlarının kadro dengesine ne katacağıdır. Bundan sonraki temel soru, Okan Buruk’un yeni transferleri doğrudan ilk 11’de mi yoksa kontrollü biçimde mi kullanacağı olacak.",
+      "keyFindings": [
+        "Galatasaray, Süper Lig’in 4. haftasında 4 Eylül 2026 Cuma günü saat 20.00’de Başakşehir Fatih Terim Stadı’nda Başakşehir’e konuk olacak.",
+        "Sarı-kırmızılı ekip ilk üç haftada 7 puan topladı ve averajla liderlik yarışının içinde bulunuyor; Başakşehir’in ise 4 puanı var.",
+        "Rafael Leão ve Deniz Gül, teknik direktör Okan Buruk’un görev vermesi halinde Galatasaray formasıyla ilk maçlarına çıkabilecek.",
+        "Galatasaray’ın ligde Başakşehir karşısındaki son sekiz maçını kazanması, karşılaşmanın sportif bağlamını güçlendiriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Karşılaşmanın tarihi, saati, puan durumu ve yeni transferlerin olası ilk maç durumu 3 Eylül 2026 tarihli beIN SPORTS haberiyle; aynı gün yayımlanan DHA spor gündemiyle maç hazırlıklarının sürdüğü bilgisi çaprazlandı. Kulübün güncel KAP kayıtlarında bu konuya ilişkin yeni bir transfer bildirimi görülmedi.",
+      "originalFindings": [],
+      "limitations": "Maç kadrosu, ilk 11 ve yeni transferlerin kesin oynayıp oynamayacağı henüz resmi olarak açıklanmadı. DHA kaynağı karşılaşmanın ayrıntılı sportif analizini değil, günün programını doğruluyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T05:36:00.000Z",
+      "discoveredAt": "2026-09-03T13:18:44.833Z",
+      "sources": [
+        {
+          "title": "Galatasaray, Trendyol Süper Lig'de Başakşehir'e konuk olacak",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/galatasaray-trendyol-super-ligde-basaksehire-konuk-olacak",
+          "publishedAt": "2026-09-03T08:36:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "3 Eylül Perşembe DHA Spor Gündemi",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/3-eylul-persembe-dha-spor-gundemi-2938130",
+          "publishedAt": "2026-09-03T09:33:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "428f861327f19f84",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisini Halil Umut Meler yönetecek",
+      "summary": "Süper Lig’in 4. haftasında 5 Eylül 2026 Cumartesi günü oynanacak Fenerbahçe-Beşiktaş derbisinin hakemi Halil Umut Meler oldu. TFF, haftanın tüm müsabaka görevlilerini açıkladı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinin hakemi Halil Umut Meler",
+      "seoDescription": "TFF, 5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinin hakemini açıkladı. Halil Umut Meler’in görevlendirmesi ve 4. hafta programı burada.",
+      "focusKeyword": "Fenerbahçe-Beşiktaş derbisi hakemi",
+      "originalAngle": "Atamanın haber değeri yalnızca derbi hakeminin açıklanması değil; Halil Umut Meler’in ligde yaklaşık iki buçuk yıl sonra yeniden bir derbide görev alacak olmasıdır. Bu nedenle 4. hafta, hakem performansının yanı sıra Meler’in derbi yönetimindeki süreklilik ve baskı testi üzerinden izlenecek.",
+      "keyFindings": [
+        "TFF, Trendyol Süper Lig’in 4. haftasındaki müsabaka görevlilerini 3 Eylül 2026’da açıkladı.",
+        "5 Eylül 2026 Cumartesi günü saat 20.00’de oynanacak Fenerbahçe-Beşiktaş maçında hakem Halil Umut Meler olacak.",
+        "Meler, ligde son derbi görevini 17 Mart 2024’teki Trabzonspor-Fenerbahçe karşılaşmasında üstlenmişti.",
+        "4. haftanın diğer öne çıkan görevlendirmeleri arasında Başakşehir-Galatasaray maçında Kadir Sağlam, Trabzonspor-Gençlerbirliği maçında Çağdaş Altay ve Kocaelispor-Samsunspor maçında Reşat Onur Coşkunses bulunuyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Görevlendirme önce TFF’nin 3 Eylül 2026 tarihli resmi müsabaka görevlileri duyurusundan kontrol edildi; ardından Habertürk’ün aynı gün yayımlanan haberindeki maç tarihi, saati ve hakem bilgileriyle çapraz doğrulandı. Fikstür ve 4. hafta maçları ayrıca TFF’nin resmi puan cetveli ve fikstür sayfasından karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Hakem ataması doğrulanmış resmi bilgidir; Meler’in maç yönetimine veya kararlarına ilişkin değerlendirme maç oynanmadan yapılamaz. Atamanın performans ya da maç sonucu üzerindeki etkisi hakkında nedensel sonuç kurulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T12:29:00.000Z",
+      "discoveredAt": "2026-09-03T13:18:44.833Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig'de 4. Hafta Müsabaka Görevlileri Açıklandı",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51252&pageID=248",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş derbisinin hakemi belli oldu!",
+          "publisher": "Habertürk Spor",
+          "url": "https://www.haberturk.com/spor/son-dakika-fenerbahce-besiktas-derbisinin-hakemi-belli-oldu-3910045",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "ae5b82eb8264f450",
       "role": "yorum",
