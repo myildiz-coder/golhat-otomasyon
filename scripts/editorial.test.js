@@ -562,6 +562,9 @@ test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanın
   assert.match(html, /<b>Yöntem:<\/b>/);
   assert.match(html, /<b>Sınırlılıklar:<\/b>/);
   assert.match(html, /<b>Cevap hakkı:<\/b>/);
+  assert.match(html, /\.grid\{grid-template-columns:minmax\(0,1fr\)\}/);
+  assert.match(html, /\.grid>\*\{min-width:0\}/);
+  assert.match(html, /overflow-wrap:anywhere/);
   assert.doesNotMatch(html, /<img\b/i);
   assert.match(buildSitemapXml([story], NOW), /https:\/\/golhat.com\/haber\//);
   const newsSitemap = buildNewsSitemapXml([story], NOW);

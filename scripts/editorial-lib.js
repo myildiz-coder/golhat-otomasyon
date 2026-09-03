@@ -1133,18 +1133,19 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     '.kicker,.meta{font:600 .72rem monospace;letter-spacing:.08em;text-transform:uppercase}.kicker{color:var(--red)}',
     'h1{font:900 clamp(2.7rem,8vw,5.7rem)/.96 Impact,sans-serif;max-width:17ch;margin:15px 0}',
     '.standfirst{font-size:1.25rem;max-width:72ch}.meta{color:#626761}',
-    '.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:42px;padding:36px 0 40px}',
+    '.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:42px;padding:36px 0 40px}.grid>*{min-width:0}',
     'h2{font:800 2rem/1.1 Impact,sans-serif;margin-top:36px}',
     '.angle{border-left:5px solid var(--red);padding:18px 22px;background:#fff}',
     '.findings{padding-left:22px}.findings li{margin:12px 0}',
     '.method{padding:18px;border:1px solid var(--line);font:.78rem/1.6 monospace}',
-    '.sources{list-style:none;padding:0}.sources li{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}',
+    '.sources{list-style:none;padding:0}.sources li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}',
     '.sources span{font:700 .7rem monospace;color:var(--red)}.sources a{font-weight:700}.sources p{margin:4px 0;font-size:.9rem}',
+    'h1,.standfirst,.meta,.angle,.findings li,.sources a,.sources p,.method,.related b,.breadcrumb{overflow-wrap:anywhere}',
     '.back{display:inline-block;margin-top:24px;font:600 .75rem monospace}',
     '.related{border-top:5px solid var(--night);padding:10px 0 70px}.related ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;list-style:none;padding:0}',
     '.related a{display:flex;flex-direction:column;gap:5px;height:100%;padding:18px;background:#fff;text-decoration:none;border:1px solid var(--line)}',
     '.related span{font:700 .65rem monospace;color:var(--red);text-transform:uppercase}.related b{line-height:1.35}',
-    '@media(max-width:760px){.top .wrap{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.article-head{padding-top:26px}h1{font-size:clamp(2.5rem,13vw,4rem)}.related ul{grid-template-columns:1fr}}'
+    '@media(max-width:760px){.top .wrap{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:minmax(0,1fr)}.article-head{padding-top:26px}h1{font-size:clamp(2.5rem,13vw,4rem);max-width:100%}.related ul{grid-template-columns:minmax(0,1fr)}}'
   ].join('');
   return [
     '<!DOCTYPE html><html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">',

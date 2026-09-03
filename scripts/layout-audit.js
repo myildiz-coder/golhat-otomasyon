@@ -220,12 +220,29 @@ function browserAudit(page, viewport, limits) {
   }
 
   if (root.scrollWidth > root.clientWidth + tolerance || document.body.scrollWidth > root.clientWidth + tolerance) {
+    const suspects = [...document.body.querySelectorAll('*')]
+      .filter((element) => visible(element) && !insideHorizontalScroller(element))
+      .map((element) => {
+        const rect = element.getBoundingClientRect();
+        return {
+          selector: selector(element),
+          left: Number(rect.left.toFixed(1)),
+          right: Number(rect.right.toFixed(1)),
+          width: Number(rect.width.toFixed(1)),
+          scrollWidth: element.scrollWidth,
+          clientWidth: element.clientWidth
+        };
+      })
+      .filter((item) => item.left < -tolerance || item.right > root.clientWidth + tolerance || item.scrollWidth > item.clientWidth + tolerance)
+      .sort((left, right) => Math.max(right.right - root.clientWidth, right.scrollWidth - right.clientWidth) - Math.max(left.right - root.clientWidth, left.scrollWidth - left.clientWidth))
+      .slice(0, 8);
     issues.push({
       code: 'horizontal-overflow',
       message: 'Sayfa viewport dışına yatay taşıyor',
       selector: 'html',
       value: Math.max(root.scrollWidth, document.body.scrollWidth),
-      limit: root.clientWidth
+      limit: root.clientWidth,
+      suspects
     });
   }
 
