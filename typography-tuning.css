@@ -1,0 +1,100 @@
+/* GOLHAT görsel editörü: masaüstü + mobil tipografi dengesi. */
+.breakdown-item h3,
+.clash-value,
+.translist-player,
+.desk-heading h2,
+.dispatch-headline {
+  font-weight: 700;
+}
+
+.tag {
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+.byline,
+.section-label,
+.desk-count,
+.dateline,
+.dispatch-author,
+.dispatch-source,
+.voice-role,
+.voice-source,
+.fact-row dt {
+  font-size: .72rem;
+}
+
+.editor-live-status > span:first-child {
+  font-size: .72rem;
+  font-weight: 700 !important;
+}
+
+.score-page .hero h1 {
+  font-size: clamp(3.8rem, 8.2vw, 7rem);
+  line-height: .82;
+}
+
+.score-page .scoreboard-head h2 {
+  font-weight: 700;
+}
+
+.score-page .league-meta,
+.score-page .match-extra {
+  font-size: .64rem;
+}
+
+.opinion-page .nav {
+  font-size: .72rem;
+  font-weight: 600;
+}
+
+.opinion-page .tagline,
+.opinion-page .section-head p,
+.opinion-page .desk-count,
+.opinion-page .dateline,
+.opinion-page .dispatch-author,
+.opinion-page .dispatch-source {
+  font-size: .7rem;
+}
+
+.opinion-page .eyebrow,
+.opinion-page .tag {
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+.opinion-page .page-hero h1 {
+  font-size: clamp(3.5rem, 8vw, 6.5rem);
+}
+
+.opinion-page .section-head h2,
+.opinion-page .writer h3,
+.opinion-page .charter h2 {
+  font-weight: 800;
+}
+
+@media (max-width: 760px) {
+  .score-page .clockbox {
+    font-size: .64rem;
+  }
+
+  .score-page .hero h1 {
+    font-size: clamp(3.1rem, 16vw, 4.25rem);
+    line-height: .84;
+  }
+
+  .score-page .state {
+    font-size: .6rem;
+  }
+
+  .score-page .match-extra {
+    font-size: .62rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .opinion-page .page-hero h1 {
+    font-size: clamp(2.8rem, 13vw, 4.1rem);
+    line-height: .9;
+  }
+}

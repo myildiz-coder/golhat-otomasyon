@@ -48,6 +48,17 @@ test('bütün kök sayfalar responsive viewport meta etiketi taşır', () => {
   }
 });
 
+test('görsel editörün ortak tipografi katmanı bütün yayın sayfalarında kalıcıdır', () => {
+  const root = path.resolve(__dirname, '..');
+  for (const page of discoverPages(root, true)) {
+    const html = fs.readFileSync(path.join(root, page), 'utf8');
+    assert.match(html, /<head(?:\s[^>]*)?>/i, page);
+    assert.match(html, /<\/head>/i, page);
+    assert.match(html, /<body(?:\s[^>]*)?>/i, page);
+    assert.match(html, /typography-tuning\.css/i, page);
+  }
+});
+
 test('Mizanpaj Editörü saatte iki kez bütün sayfaları tarar ve görsel kanıt saklar', () => {
   const workflow = fs.readFileSync(path.resolve(__dirname, '..', '.github', 'workflows', 'mizanpaj-editoru.yml'), 'utf8');
   assert.match(workflow, /cron: '12,42 \* \* \* \*'/);
