@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T18:55:59.291Z",
+  "updatedAt": "2026-09-03T19:08:29.726Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 2,
-    "live": 1,
-    "upcoming": 1,
+    "live": 2,
+    "upcoming": 0,
     "finished": 0
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802926,
@@ -59,7 +59,7 @@
       "away": "Lille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 11,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
