@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T19:40:25.931Z",
+  "updatedAt": "2026-09-03T20:16:46.442Z",
   "stories": [
+    {
+      "id": "10d052585c6aea59",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Celtic, UEFA kayıt süresi öncesi altı transferi tamamladı",
+      "summary": "Celtic, UEFA’nın kadro kayıt süresi öncesinde 24 saatten kısa sürede altı oyuncuyu kadrosuna kattı. İskoç ekibinin duyurduğu hamleler arasında Parma’dan Oliver Sørensen’in kiralanması, PSV’den Joel van den Berg’in transferi ve Jordan Lotomba’nın gelişi de bulunuyor.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Celtic, UEFA süresi öncesi altı transfer yaptı",
+      "seoDescription": "Celtic, UEFA kadro kayıt süresi öncesinde altı transferi tamamladı. İskoç ekibinin yeni oyuncuları ve hamlelerin zamanlaması burada.",
+      "focusKeyword": "Celtic altı transfer",
+      "originalAngle": "Gelişmenin haber değeri yalnızca altı oyuncunun alınması değil, Celtic’in UEFA kadro kayıt süresi kapanmadan 24 saatten kısa bir bölümde kadro operasyonunu hızlandırmasıdır. Bu zamanlama, kulübün Avrupa planlamasını doğrudan etkileyen asıl ayrıntıdır.",
+      "keyFindings": [
+        "Celtic, UEFA kayıt süresi öncesinde 24 saatten kısa sürede altı transferi resmen tamamladı.",
+        "Kulübün doğruladığı hamleler arasında Parma’dan Oliver Sørensen’in sezonluk kiralanması, PSV’den Joel van den Berg’in gelişi ve Jordan Lotomba transferi yer alıyor.",
+        "Sørensen’in 3 Eylül’de Aberdeen karşısında forma giymesi, transferlerin yalnızca duyuru aşamasında kalmadığını gösteriyor; ancak altı oyuncunun tamamının Avrupa kadrosunda kullanılıp kullanılmayacağı kaynaklarda ayrıntılandırılmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Celtic’in resmi kulüp yayını, oyuncu transferinin gerçekleştiğini ve Sørensen’in sözleşme sonrasında takıma katıldığını doğruluyor. Sky Sports ise UEFA kayıt süresi öncesinde altı transferin tamamlandığını ve hamlelerin kapsamını bağımsız olarak aktarıyor.",
+      "originalFindings": [],
+      "limitations": "Celtic’in altı oyuncu için ödediği toplam bedel ve UEFA kadrosuna bildirilen oyuncuların tamamı bu kaynaklarda açıklanmadı. Bu nedenle maliyet ve Avrupa kadrosu etkisi hakkında kesin sonuç kurulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T13:51:00.000Z",
+      "discoveredAt": "2026-09-03T20:16:46.442Z",
+      "sources": [
+        {
+          "title": "Oliver Sørensen: This Celtic team is full of quality",
+          "publisher": "Celtic FC",
+          "url": "https://www.celticfc.com/news/2026/september/03/oliver-s-rensen--",
+          "publishedAt": "2026-09-03T13:51:00Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Celtic transfer news: Martin O'Neill's Hoops add SIX ahead of UEFA deadline but will more follow?",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11787/13579754/celtic-transfer-news-martin-oneills-hoops-add-six-ahead-of-uefa-deadline-but-will-more-follow",
+          "publishedAt": "2026-09-03T07:38:00Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "0b7294b47c604bb9",
       "role": "anadolu",
