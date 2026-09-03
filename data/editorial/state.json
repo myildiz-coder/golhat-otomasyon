@@ -1,7 +1,160 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T10:19:11.653Z",
+  "updatedAt": "2026-09-03T10:42:58.899Z",
   "stories": [
+    {
+      "id": "fe31e84e430ffbaa",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray’ın Lamine Camara planı gerçekleşmedi: Bonservis engeli aşılamadı",
+      "summary": "Galatasaray’ın orta saha adayları arasında değerlendirilen Lamine Camara’nın Chelsea transferi Monaco tarafından iptal edildi. Ancak Galatasaray, yüksek bonservis talebi nedeniyle Senegalli oyuncu için son hamleyi yapamadı.",
+      "tag": "İddia",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Galatasaray’ın Lamine Camara transfer planı neden gerçekleşmedi?",
+      "seoDescription": "Galatasaray’ın orta saha gündemindeki Lamine Camara için oluşan fırsat, Monaco’nun yüksek bonservis talebi nedeniyle sonuçlanmadı; dosyanın ayrıntıları burada.",
+      "focusKeyword": "Galatasaray Lamine Camara transferi",
+      "originalAngle": "Camara dosyasındaki temel değişim, oyuncunun Chelsea’ye gidememesi değil; bu gelişmenin Galatasaray açısından otomatik bir transfer fırsatına dönüşmemesi. Avrupa transfer piyasası kapanırken oluşan boşluk, Monaco’nun yaklaşık 50 milyon avroluk talebi nedeniyle sarı-kırmızılıların maliyet hesabını aşamadı.",
+      "keyFindings": [
+        "Lamine Camara’nın Monaco’dan Chelsea’ye transferi, Monaco’nun son aşamada anlaşmadan çekilmesiyle gerçekleşmedi.",
+        "Galatasaray’ın Camara’yı orta saha için değerlendirdiği Türk spor kaynaklarında yer aldı; ancak kulübün resmi teklif yaptığı veya oyuncuyla anlaşmaya vardığı doğrulanmadı.",
+        "Galatasaray cephesinde bildirilen yüksek bonservis beklentisi nedeniyle dosyanın sonuçlanmadığı aktarılıyor; kulübün orta saha rotasyonundaki mevcut planının değişip değişmeyeceği ise belirsiz."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Lamine Camara’nın Chelsea transferinin iptali L’Équipe ve Sky Sports haberleriyle çapraz kontrol edildi. Galatasaray bağlantısı ve bonservis engeli Sözcü ile Ajansspor’un 3 Eylül 2026 tarihli haberleri karşılaştırılarak değerlendirildi. Resmi Galatasaray veya KAP açıklaması bulunmadığı için kesinlik dili kullanılmadı.",
+      "originalFindings": [],
+      "limitations": "Galatasaray’ın Camara için resmi teklif yaptığına dair kulüp, KAP veya Monaco kaynaklı doğrulama bulunmuyor. Bonservis bedeline ilişkin rakamlar haber kaynaklarının aktardığı beklentiyi ifade ediyor; imzalanmış bir teklif veya sözleşme yok.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T07:42:58.000Z",
+      "discoveredAt": "2026-09-03T10:42:58.899Z",
+      "sources": [
+        {
+          "title": "Galatasaray ihtiyacı olan orta saha transferinde ayağına gelen fırsatı harcadı! Lamine Camara elden kaçtı",
+          "publisher": "Sözcü",
+          "url": "https://www.sozcu.com.tr/galatasaray-ihtiyaci-olan-orta-saha-transferinde-ayagina-gelen-firsati-harcadi-lamine-camara-elden-p354930",
+          "publishedAt": "2026-09-03T05:30:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray’da Eduardo Camavinga ve Lamine Camara planı suya düştü!",
+          "publisher": "Ajansspor",
+          "url": "https://ajansspor.com/haber/galatasarayda-eduardo-camavinga-ve-lamine-camara-plani-suya-dustu-734016",
+          "publishedAt": "2026-09-03T09:38:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Mercato : avec le transfert de Folarin Balogun à Everton finalement en cours, celui de Lamine Camara vers Chelsea annulé par Monaco",
+          "publisher": "L’Équipe",
+          "url": "https://www.lequipe.fr/Football/Actualites/Mercato-avec-le-transfert-de-folarin-balogun-a-everton-finalement-en-cours-celui-de-lamine-camara-vers-chelsea-annule-par-monaco/1715383",
+          "publishedAt": "2026-09-02T00:39:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Lamine Camara: Monaco pull out of selling midfielder to Chelsea in £47m deal",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11668/13580189/lamine-camara-monaco-pull-out-of-selling-midfielder-to-chelsea-in-lb47m-deal-after-blues-agreed-deal-for-enzo-fernandez-replacement",
+          "publishedAt": "2026-09-02T09:13:00+01:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "f49e1bdd150e68ff",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Beşiktaş, Ümit Akdağ ile dört yıllık sözleşme imzaladı",
+      "summary": "Beşiktaş, Corendon Alanyaspor’dan Ümit Akdağ’ın nihai transferi için anlaşma sağlandığını ve genç savunmacıyla dört yıllık sözleşme imzalandığını açıkladı. Hamle, siyah-beyazlıların savunma rotasyonuna yerli bir seçenek eklediğini gösteriyor.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Ümit Akdağ transferini dört yıllık sözleşmeyle açıkladı",
+      "seoDescription": "Beşiktaş, Alanyaspor’dan Ümit Akdağ’ı kadrosuna kattı ve genç savunmacıyla dört yıllık sözleşme imzaladı. Transferin kadro etkisi burada.",
+      "focusKeyword": "Ümit Akdağ Beşiktaş transferi",
+      "originalAngle": "Beşiktaş’ın Ümit Akdağ hamlesi yalnızca genç bir stoper takviyesi değil; savunma hattında yerli oyuncu rotasyonunu güçlendiren ve sezon içindeki kadro esnekliğini artıran resmî bir adım olarak öne çıkıyor.",
+      "keyFindings": [
+        "Beşiktaş, Ümit Akdağ’ın nihai transferi için Alanyaspor’la anlaşma sağlandığını açıkladı.",
+        "Kulüp, 3 Eylül 2026 tarihli duyurusunda oyuncuyla dört yıllık sözleşme imzalandığını bildirdi.",
+        "Bağımsız spor kaynakları da transferin tamamlandığını ve oyuncunun Beşiktaş savunmasına katıldığını doğruladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmî kulüp açıklaması, bağımsız Türk spor basınındaki transfer haberiyle karşılaştırıldı. Sözleşme süresi yalnızca resmî duyuruda yer alan bilgiye dayanılarak aktarıldı.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli ve ödeme planı incelenen doğrulanmış kaynaklarda açıklanmadı; oyuncunun ilk 11 rolü hakkında kesin hüküm kurulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:50:00.000Z",
+      "discoveredAt": "2026-09-03T10:42:58.899Z",
+      "sources": [
+        {
+          "title": "Beşiktaşımıza Hoş Geldin Ümit Akdağ",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95031",
+          "publishedAt": "2026-09-03 00:50",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Yeni Kartal Ümit Akdağ!",
+          "publisher": "Fotomaç",
+          "url": "https://www.fotomac.com.tr/besiktas/2026/09/03/yeni-kartal-umit-akdag",
+          "publishedAt": "2026-09-03 06:50",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "c537dfc7a01fd53b",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Carlos Martín, Atlético Madrid’den Hajduk Split’e kiralandı",
+      "summary": "Atlético Madrid ve Hajduk Split, Carlos Martín’in 2026-27 sezonu sonuna kadar sürecek kiralık transferi için anlaşmaya vardı. İspanyol forvet, Almería’ya yetişmeyen evrakların ardından kariyerine Hırvatistan’da devam edecek.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Carlos Martín, Atlético Madrid’den Hajduk Split’e kiralandı",
+      "seoDescription": "Atlético Madrid, Carlos Martín’in Hajduk Split’e sezon sonuna kadar kiralandığını açıkladı. Transferin Almería süreci sonrası nasıl gerçekleştiği burada.",
+      "focusKeyword": "Carlos Martín Hajduk Split transferi",
+      "originalAngle": "Carlos Martín’in transferi, kapanan İspanya penceresinde Almería’ya yetişmeyen evrakların ardından aynı oyuncu için yeni bir çıkış yolu açıldığını gösteriyor; gelişmenin ayırt edici noktası transferin son gün sonrası tamamlanması.",
+      "keyFindings": [
+        "Atlético Madrid, Carlos Martín’in 2026-27 sezonu için Hajduk Split’e kiralandığını duyurdu.",
+        "Hajduk Split de 24 yaşındaki forvetle bir yıllık kiralık anlaşma yapıldığını açıkladı.",
+        "Bağımsız İspanyol ve Hırvat kaynaklar, Almería transferinin evrak süresi nedeniyle tamamlanamadığını ve oyuncunun ardından Hajduk’a yöneldiğini aktardı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Atlético Madrid ve Hajduk Split’in resmî açıklamaları, bağımsız İspanyol ve Hırvat spor kaynaklarıyla çapraz kontrol edildi. Almería sürecine ilişkin ayrıntılar yalnızca bağımsız kaynakların ortak aktardığı çerçevede kullanıldı.",
+      "originalFindings": [],
+      "limitations": "Kiralık anlaşmanın mali şartları ve satın alma opsiyonu doğrulanmış kaynaklarda açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:25:00.000Z",
+      "discoveredAt": "2026-09-03T10:42:58.899Z",
+      "sources": [
+        {
+          "title": "Agreement with Hajduk Split for the loan of Carlos Martín",
+          "publisher": "Atlético de Madrid",
+          "url": "https://en.atleticodemadrid.com/noticias/agreement-with-hajduk-split-for-the-loan-of-carlos-martin",
+          "publishedAt": "2026-09-03 00:25",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Carlos Martín novi je igrač Hajduka!",
+          "publisher": "HNK Hajduk Split",
+          "url": "https://hajduk.hr/vijest/carlos-martin-novi-je-igrac-hajduka-/18505",
+          "publishedAt": "2026-09-03 00:22",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Oficial: Carlos Martín se marcha cedido al Hajduk Split",
+          "publisher": "Mundo Deportivo",
+          "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260903/1004222824/oficial-carlos-martin-marcha-cedido-hajduk-split.html?facet=amp",
+          "publishedAt": "2026-09-03 09:18",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "718711c1645265b4",
       "role": "besiktas",
