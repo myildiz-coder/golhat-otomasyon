@@ -49,6 +49,8 @@ test('yorum masası benzersiz ve açıkça tanımlı müstear yazarlardan oluşu
   assert.match(runner, /recentVerifiedUrls/);
   assert.match(runner, /son 12 saatte yeni olay bulunması şartını uygulama/);
   assert.match(runner, /GOLHAT canlı veri özeti/);
+  assert.match(runner, /02a6-20e5a8be4e63-ae971c582f8c/);
+  assert.match(runner, /Kaynak URL tahmin etme/);
 });
 
 test('ortak yayın politikası temel editoryal dengeleri kalıcı olarak taşır', () => {

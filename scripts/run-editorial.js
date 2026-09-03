@@ -3,6 +3,8 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
+const UEFA_2026_QUALIFYING_URL = 'https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-results-dates-how-it-/';
+
 const {
   PAGE_LABELS,
   EDITOR_ROLES,
@@ -147,6 +149,7 @@ function buildAssignmentSnapshot(role) {
       leagueUpdatedAt: league.updatedAt,
       leagueSource: league.source,
       leagueSourceUrl: league.sourceUrl,
+      championsLeagueContextUrl: UEFA_2026_QUALIFYING_URL,
       round: league.roundLabel,
       standings,
       fixtures,
@@ -178,6 +181,7 @@ function assignmentSourceSignatures(role) {
       .map((source) => source.url);
     const trustedUrls = [
       league.sourceUrl,
+      UEFA_2026_QUALIFYING_URL,
       ...['fenerbahce', 'galatasaray'].flatMap((key) => {
         const club = clubCenter.clubs[key];
         return [club.officialUrl, club.sourceUrl];
@@ -202,6 +206,7 @@ function categoryRequest(role, now, model) {
       'decision=update ve stories dizisinde tam bir yazı hedefle; author_name alanını tam olarak ' + leadWriter.name + ' yaz.',
       'Bu görev son dakika haberi değil mevcut durum analizidir; son 12 saatte yeni olay bulunması şartını uygulama.',
       'Sağlanan canlı veri özetini başlangıç noktası say, fakat yayımlanacak her olguyu özgün kaynak URLlerinde web araştırmasıyla yeniden doğrula.',
+      'Kaynak URL tahmin etme veya belleğinden üretme. UEFA eleme bağlamı gerekiyorsa canlı veri özetindeki championsLeagueContextUrl adresini karakter karakter aynen kullan ve web aramasında aç.',
       'Her takım ve lig hükmünü ayrı ayrı doğrula; doğrulanamayan iddiayı çıkar ve sınırlılığı açıkça yaz. Sırf yeni olay yok diye no_change döndürme.'
     ] : [])
   ] : [];
