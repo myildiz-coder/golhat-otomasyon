@@ -447,7 +447,7 @@ test('özel sayfa yapısı korunarak ayrı otomasyon bölümü eklenir', () => {
 });
 
 
-test('ana sayfa dört numaralı manşet havuzu kurar ve araştırma dosyasını öne alabilir', () => {
+test('ana sayfa en yeni haberi 1 numaraya alır ve güncel araştırma dosyasını ilk dörtte tutar', () => {
   const primary = validStory();
   const candidates = Array.from({ length: 4 }, (_, index) => ({
     ...primary,
@@ -457,12 +457,13 @@ test('ana sayfa dört numaralı manşet havuzu kurar ve araştırma dosyasını 
     summary: 'Birden fazla resmi veri ve bağımsız kaynağın karşılaştırılmasıyla hazırlanan bu içerik, futbol gündemindeki gelişmenin etkisini ayrıntılı biçimde açıklıyor.',
     contentType: index === 0 ? 'dossier' : 'news',
     importance: 84 - index,
-    publishedAt: '2026-09-02T08:00:00.000Z'
+    publishedAt: new Date(NOW.getTime() - (index === 0 ? 10 : index) * 3_600_000).toISOString()
   }));
   const selected = selectHomepageStories(primary, candidates, NOW, 4);
   assert.equal(selected.length, 4);
   assert.equal(selected[0].id, primary.id);
-  assert.equal(selected[1].contentType, 'dossier');
+  assert.equal(selected[3].contentType, 'dossier');
+  assert.ok(new Date(selected[1].publishedAt) >= new Date(selected[2].publishedAt));
 
   const html = [
     '<head></head><body>',
@@ -479,6 +480,7 @@ test('ana sayfa dört numaralı manşet havuzu kurar ve araştırma dosyasını 
   assert.equal((output.match(/class="headline-slide/g) || []).length, 4);
   assert.equal((output.match(/class="headline-control(?: is-active)?"/g) || []).length, 4);
   assert.match(output, /headline-structured-data/);
+  assert.ok(output.indexOf('class="headline-controls"') < output.indexOf('class="headline-track"'));
 });
 
 test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanını içerir', () => {

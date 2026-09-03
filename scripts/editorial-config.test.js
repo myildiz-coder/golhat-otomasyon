@@ -64,7 +64,7 @@ test('yayıncı tecrübesi mevcut mimariyi bozmadan haberin düşünme ve yazma 
   ]) assert.match(GOLHAT_PUBLISHER_EXPERIENCE, new RegExp(phrase));
 
   const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
-  assert.ok((runner.match(/GOLHAT_PUBLISHER_EXPERIENCE/g) || []).length >= 3);
+  assert.ok((runner.match(/GOLHAT_PUBLISHER_EXPERIENCE/g) || []).length >= 2);
   assert.doesNotMatch(runner, /editorial_review|storycraft_review/);
 
   const researchPage = fs.readFileSync(path.resolve(__dirname, '..', 'ozel-haber.html'), 'utf8');
@@ -78,7 +78,7 @@ test('SEO disiplini arama motoru için seri içerik yerine özgün ve insan odak
     assert.match(GOLHAT_SEO_PLAYBOOK, new RegExp(phrase));
   }
   const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
-  assert.ok((runner.match(/GOLHAT_SEO_PLAYBOOK/g) || []).length >= 3);
+  assert.ok((runner.match(/GOLHAT_SEO_PLAYBOOK/g) || []).length >= 2);
 });
 
 test('her yayın sayfasının kodla uygulanan bir konu sınırı vardır', () => {
@@ -106,13 +106,18 @@ test('tüm yayın sayfaları Google site kimliği ve önizleme kurallarını ta�
   assert.match(fs.readFileSync(path.join(root, 'favicon.svg'), 'utf8'), /viewBox="0 0 96 96"/);
 });
 
-test('kategori editörleri her saat 7/24 çalışır', () => {
+test('kategori editörleri her saat, baş editör her 15 dakikada 7/24 çalışır', () => {
   const root = path.resolve(__dirname, '..');
   const workflow = fs.readFileSync(
     path.join(root, '.github', 'workflows', 'editorial-kategoriler.yml'),
     'utf8'
   );
+  const headWorkflow = fs.readFileSync(
+    path.join(root, '.github', 'workflows', 'editorial-bas-editor.yml'),
+    'utf8'
+  );
   assert.match(workflow, /cron: '20 \* \* \* \*'/);
+  assert.match(headWorkflow, /cron: '\*\/15 \* \* \* \*'/);
 });
 
 test('yayın iş akışları haber site haritasını commit kapsamına alır', () => {

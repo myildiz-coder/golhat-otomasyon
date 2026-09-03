@@ -2,8 +2,8 @@ name: GOLHAT Baş Editör
 
 on:
   schedule:
-    # 7/24 denetim: Baş Editör her saatin beşinci dakikasında çalışır.
-    - cron: '5 * * * *'
+    # 7/24 denetim: Baş Editör manşet sırasını her 15 dakikada bir yeniler.
+    - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -41,16 +41,10 @@ jobs:
 
       - name: Baş Editörü çalıştır
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run }}
         shell: bash
         run: |
           set -euo pipefail
-          if [[ -z "${OPENAI_API_KEY:-}" ]]; then
-            echo "::error title=Eksik secret::OPENAI_API_KEY GitHub Actions secret olarak tanımlı değil"
-            exit 1
-          fi
-
           args=(--head)
           if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${DRY_RUN:-true}" == "true" ]]; then
             args+=(--dry-run)

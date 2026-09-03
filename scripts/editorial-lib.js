@@ -848,13 +848,23 @@ function assertHomepageIntegrity(html, story) {
 function selectHomepageStories(primary, stories, now, limit = HOMEPAGE_SLOT_COUNT) {
   const recentThreshold = new Date(now).getTime() - 7 * 24 * 3_600_000;
   const pool = [primary, ...(stories || [])].filter((story, index, items) => story && items.findIndex((item) => item && item.id === story.id) === index && storyMatchesPage(story.page, story.headline, story.summary) && new Date(story.publishedAt).getTime() >= recentThreshold);
-  const score = (story) => story.importance + (story.contentType === 'exclusive' ? 16 : story.contentType === 'dossier' ? 12 : story.contentType === 'analysis' ? 5 : 0) + (story.page === 'ozel-haber.html' ? 7 : 0);
-  pool.sort((left, right) => score(right) - score(left) || new Date(right.publishedAt) - new Date(left.publishedAt));
+  pool.sort((left, right) =>
+    new Date(right.publishedAt) - new Date(left.publishedAt) ||
+    new Date(right.discoveredAt || right.publishedAt) - new Date(left.discoveredAt || left.publishedAt) ||
+    right.importance - left.importance
+  );
   const selected = [primary];
-  const research = pool.find((item) => item.id !== primary.id && ['dossier', 'exclusive'].includes(item.contentType));
-  if (research) selected.push(research);
-  for (const item of pool) { if (selected.length >= limit) break; if (!selected.some((chosen) => chosen.id === item.id) && !selected.some((chosen) => chosen.page === item.page)) selected.push(item); }
   for (const item of pool) { if (selected.length >= limit) break; if (!selected.some((chosen) => chosen.id === item.id)) selected.push(item); }
+
+  // Bir özgün GOLHAT dosyası ilk dörtte kendiliğinden yer bulamadıysa son
+  // sırayı alır. Bir numara yine daima en yeni doğrulanmış manşettir.
+  const research = pool.find((item) =>
+    item.id !== primary.id &&
+    (item.page === 'ozel-haber.html' || ['dossier', 'exclusive'].includes(item.contentType))
+  );
+  if (research && !selected.some((item) => item.id === research.id) && selected.length > 1) {
+    selected[Math.min(limit, selected.length) - 1] = research;
+  }
   return selected.slice(0, limit);
 }
 
@@ -873,7 +883,7 @@ function renderHomepageSlide(story, index, now) {
     '      <span class="frontpage-kicker">' + htmlEscape(contentLabel) + ' · ' + htmlEscape(pageLabel) + '</span>',
     '      <h2 class="frontpage-headline">' + htmlEscape(story.headline.toLocaleUpperCase('tr-TR')) + '</h2>',
     '      <p class="frontpage-standfirst">' + htmlEscape(story.summary) + '</p>',
-    '      <p class="byline frontpage-byline mono">GOLHAT · ' + htmlEscape(formatIstanbulDateTime(now)) + ' · ' + story.sources.length + ' bağımsız kaynakla doğrulandı</p>',
+    '      <p class="byline frontpage-byline mono">GOLHAT · ' + htmlEscape(formatIstanbulDateTime(story.publishedAt || now)) + ' · ' + story.sources.length + ' bağımsız kaynakla doğrulandı</p>',
     '      <a class="headline-read-more mono" href="' + htmlEscape(storyUrl(story)) + '">GOLHAT dosyasını oku →</a>',
     '      <div class="cover-grid"><div class="cover-visual">',
     '        <div class="cover-clash" role="img" aria-label="' + htmlEscape(story.tag + ': ' + story.headline) + '">',
@@ -910,7 +920,7 @@ function buildHomepageHtml(html, story, now, allStories = []) {
   const headlineStories = selectHomepageStories(story, allStories, now);
   const slides = headlineStories.map((item, index) => renderHomepageSlide(item, index, now)).join('\n');
   const controls = headlineStories.map((item, index) => '      <button type="button" class="headline-control' + (index === 0 ? ' is-active' : '') + '" data-headline-target="' + index + '" aria-controls="headline-slide-' + (index + 1) + '" aria-pressed="' + (index === 0 ? 'true' : 'false') + '"><span>' + (index + 1) + '</span><b>' + htmlEscape(item.headline) + '</b></button>').join('\n');
-  const hero = ['  <section class="frontpage" id="dosya" data-auto-story-id="' + htmlEscape(story.id) + '" data-headline-count="' + headlineStories.length + '" aria-label="GOLHAT ana manşetleri">', '    <div class="headline-track">', slides, '    </div>', '    <nav class="headline-controls" aria-label="Manşet seçimi">', controls, '      <button type="button" class="headline-pause" aria-pressed="false">Durdur</button>', '    </nav>', '  </section>'].join('\n');
+  const hero = ['  <section class="frontpage" id="dosya" data-auto-story-id="' + htmlEscape(story.id) + '" data-headline-count="' + headlineStories.length + '" aria-label="GOLHAT ana manşetleri">', '    <nav class="headline-controls" aria-label="Manşet seçimi">', controls, '      <button type="button" class="headline-pause" aria-pressed="false">Durdur</button>', '    </nav>', '    <div class="headline-track">', slides, '    </div>', '  </section>'].join('\n');
   const heroPattern = /^[ \t]*<section class="frontpage" id="dosya"(?:\s+[^>]*)?>[\s\S]*?<\/section>/m;
   const breakdownPattern = /^[ \t]*<section class="breakdown" id="kirilma-ani"(?:\s+[^>]*)?>[\s\S]*?<\/section>/m;
   const sourcesPattern = /^[ \t]*<section class="voices-wrap"(?:\s+[^>]*)?>[\s\S]*?<\/section>/m;

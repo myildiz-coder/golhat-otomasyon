@@ -12,10 +12,7 @@ const {
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
   MAX_STORIES_PER_PAGE,
-  HOMEPAGE_MIN_IMPORTANCE,
-  HOMEPAGE_MAX_DAILY_CHANGES,
-  HOMEPAGE_MIN_IMPROVEMENT,
-  HOMEPAGE_HOLD_HOURS
+  HOMEPAGE_MIN_IMPORTANCE
 } = require('./editorial-config');
 const {
   loadState,
@@ -89,17 +86,6 @@ const CATEGORY_SCHEMA = {
         }
       }
     }
-  }
-};
-
-const HEAD_SCHEMA = {
-  type: 'object',
-  additionalProperties: false,
-  required: ['decision', 'story_id', 'rationale'],
-  properties: {
-    decision: { type: 'string', enum: ['update', 'no_change'] },
-    story_id: { type: 'string' },
-    rationale: { type: 'string' }
   }
 };
 
@@ -206,53 +192,6 @@ function categoryRequest(role, now, model) {
   };
 }
 
-function headRequest(candidates, currentStory, now, model) {
-  const candidateView = candidates.map((story) => ({
-    id: story.id,
-    headline: story.headline,
-    summary: story.summary,
-    tag: story.tag,
-    importance: story.importance,
-    publishedAt: story.publishedAt,
-    page: story.page,
-    sourceDomains: story.sources.map((source) => new URL(source.url).hostname)
-  }));
-
-  return {
-    model,
-    store: false,
-    reasoning: { effort: 'low' },
-    instructions: [
-      'Sen GOLHAT Baş Editörüsün.',
-      GOLHAT_PUBLISHER_EXPERIENCE,
-      GOLHAT_SEO_PLAYBOOK,
-      EDITORIAL_POLICY,
-      'Yalnızca verilen, daha önce doğrulanmış adaylardan ana sayfanın 1 numaralı manşetine gerçekten değer taşıyan tek haberi seç. Diğer üç manşet sistem tarafından kaynak gücü ve çeşitliliğe göre tamamlanır.',
-      'Yeni olgu, kaynak veya story_id üretme. Adaylar yeterince güçlü değilse no_change seç.',
-      'Güncellik, kamu yararı, Türkiye futboluna etkisi ve kaynak gücünü birlikte değerlendir.',
-      'Kararı Türkçe ve kısa gerekçelendir.'
-    ].join('\n'),
-    input: JSON.stringify({
-      now: now.toISOString(),
-      currentStory: currentStory ? {
-        id: currentStory.id,
-        headline: currentStory.headline,
-        importance: currentStory.importance
-      } : null,
-      candidates: candidateView
-    }),
-    text: {
-      format: {
-        type: 'json_schema',
-        name: 'golhat_head_editor_decision',
-        strict: true,
-        schema: HEAD_SCHEMA
-      }
-    },
-    max_output_tokens: 700
-  };
-}
-
 function mergeStories(state, accepted) {
   const byId = new Map(state.stories.map((story) => [story.id, story]));
   for (const story of accepted) byId.set(story.id, story);
@@ -329,16 +268,7 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
   return accepted.length;
 }
 
-function istanbulDay(value) {
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Europe/Istanbul',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit'
-  }).format(new Date(value));
-}
-
-async function runHeadEditor(state, options, apiKey, model, now) {
+async function runHeadEditor(state, options, now) {
   const currentStory = state.stories.find((story) => story.id === state.homepage.storyId) || null;
   const lastPublishedChange = [...state.homepage.changes]
     .reverse()
@@ -358,49 +288,28 @@ async function runHeadEditor(state, options, apiKey, model, now) {
     if (archiveChanged) console.log('[Baş Editör] mevcut manşet Özel Haber arşivine alındı');
   }
 
-  const today = istanbulDay(now);
-  const todayChanges = state.homepage.changes.filter((change) => istanbulDay(change.at) === today);
-  if (todayChanges.length >= HOMEPAGE_MAX_DAILY_CHANGES) {
-    console.log('[Baş Editör] günlük manşet değişikliği sınırına ulaşıldı');
-    return 0;
-  }
-
   const recentThreshold = now.getTime() - 36 * 3_600_000;
-  let candidates = state.stories.filter((story) =>
+  const candidates = state.stories.filter((story) =>
     storyMatchesPage(story.page, story.headline, story.summary) &&
-    story.id !== state.homepage.storyId &&
     story.importance >= HOMEPAGE_MIN_IMPORTANCE &&
     new Date(story.publishedAt).getTime() >= recentThreshold
+  ).sort((left, right) =>
+    new Date(right.publishedAt) - new Date(left.publishedAt) ||
+    new Date(right.discoveredAt || right.publishedAt) - new Date(left.discoveredAt || left.publishedAt) ||
+    right.importance - left.importance
   );
-
-  const lastChange = state.homepage.changes.at(-1);
-  if (currentStory && lastChange) {
-    const heldHours = (now.getTime() - new Date(lastChange.at).getTime()) / 3_600_000;
-    if (heldHours < HOMEPAGE_HOLD_HOURS) {
-      candidates = candidates.filter((story) =>
-        story.importance >= currentStory.importance + HOMEPAGE_MIN_IMPROVEMENT
-      );
-    }
-  }
-
-  candidates = candidates
-    .sort((left, right) => right.importance - left.importance)
-    .slice(0, 12);
   if (candidates.length === 0) {
     console.log('[Baş Editör] manşet eşiğini geçen yeni aday yok');
     return 0;
   }
 
-  const response = await requestOpenAI(headRequest(candidates, currentStory, now, model), apiKey);
-  const result = parseStructuredResponse(response);
-  if (result.decision !== 'update') {
-    console.log('[Baş Editör] değişiklik yok: ' + result.rationale);
+  const selected = candidates[0];
+  if (selected.id === state.homepage.storyId) {
+    console.log('[Baş Editör] 1 numaralı manşet zaten en yeni doğrulanmış aday');
     return 0;
   }
 
-  const selected = candidates.find((story) => story.id === result.story_id);
-  if (!selected) throw new Error('Baş Editör izinli adaylar dışında bir story_id döndürdü');
-  console.log('[Baş Editör] seçilen manşet: ' + selected.headline);
+  console.log('[Baş Editör] en yeni doğrulanmış manşet: ' + selected.headline);
   if (options.dryRun) return 1;
 
   writeHomepage(selected, now, state.stories);
@@ -416,7 +325,7 @@ async function runHeadEditor(state, options, apiKey, model, now) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) throw new Error('OPENAI_API_KEY tanımlı değil');
+  if (!options.head && !apiKey) throw new Error('OPENAI_API_KEY tanımlı değil');
   const model = process.env.OPENAI_MODEL || DEFAULT_MODEL;
   const now = new Date();
   const state = loadState();
@@ -428,7 +337,7 @@ async function main() {
   );
 
   if (options.head) {
-    await runHeadEditor(state, options, apiKey, model, now);
+    await runHeadEditor(state, options, now);
     return;
   }
 
