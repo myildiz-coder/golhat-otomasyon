@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T08:30:40.741Z",
+  "updatedAt": "2026-09-03T08:46:05.200Z",
   "stories": [
+    {
+      "id": "2b27b14a98732f51",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Alanyaspor, 3 maçta 90 dakika oynayan Ümit Akdağ’ı Beşiktaş’a gönderdi",
+      "summary": "Corendon Alanyaspor’un 22 yaşındaki savunma oyuncusu Ümit Akdağ, Beşiktaş ile 4 yıllık sözleşme imzaladı. Transfer, Akdeniz ekibinin sezonun ilk haftalarındaki savunma rotasyonunda doğrudan değişiklik oluşturdu.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Alanyaspor’da Ümit Akdağ ayrılığı: Beşiktaş’a transfer oldu",
+      "seoDescription": "Alanyaspor’un genç stoperi Ümit Akdağ, Beşiktaş’a 4 yıllığına transfer oldu. Gelişmenin Akdeniz ekibinin savunma rotasyonuna etkisi haberimizde.",
+      "focusKeyword": "Ümit Akdağ Alanyaspor Beşiktaş transferi",
+      "originalAngle": "Haberin ayırt edici noktası, transferi yalnızca Beşiktaş’ın kazandığı bir kadro hamlesi olarak değil, Alanyaspor’un sezonun ilk üç haftasında düzenli forma giyen genç savunmacısını kaybetmesi üzerinden ele almasıdır. Ümit Akdağ’ın ayrılığı, Alanyaspor’un savunma rotasyonunda yeni bir denge arayışını gündeme getiriyor.",
+      "keyFindings": [
+        "Beşiktaş, Ümit Akdağ ile 4 yıllık sözleşme imzaladığını resmi olarak açıkladı.",
+        "22 yaşındaki savunma oyuncusu, 2026-2027 sezonunun ilk üç lig maçında Alanyaspor formasıyla 90’ar dakika sahada kaldı.",
+        "Transferin Alanyaspor’un mevcut savunma rotasyonundaki görev dağılımını nasıl değiştireceği, gelişmenin sahadaki temel takip sorusu olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın 3 Eylül 2026 tarihli resmi kulüp açıklaması, Anadolu Ajansı’nın aynı gün yayımladığı bağımsız haberle karşılaştırıldı. Oyuncunun Alanyaspor kadrosundaki yeri ve sezonun ilk haftalarındaki süre bilgisi ayrıca haber kaynağındaki verilerle kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Alanyaspor’un transfer sonrası savunma planı, yerine düşünülen oyuncu veya yeni transfer konusunda bu taramada resmi bir açıklama bulunmadı. Bu nedenle sportif sonuçlara ilişkin kesin nedensellik kurulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-03T08:46:05.200Z",
+      "sources": [
+        {
+          "title": "Beşiktaşımıza Hoş Geldin Ümit Akdağ",
+          "publisher": "Beşiktaş JK",
+          "url": "https://bjk.com.tr/tr/mobil/haber?news_id=95031",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş, Corendon Alanyaspor'dan Ümit Akdağ'ı transfer etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/besiktas-corendon-alanyaspordan-umit-akdagi-transfer-etti/4045890",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "1503e1e7a00b9608",
+      "role": "sampiyonlar_ligi",
+      "page": "sampiyonlar-ligi.html",
+      "headline": "Şampiyonlar Ligi’nde ilk maçına çıkan futbolcular için özel Debut Patch dönemi başlıyor",
+      "summary": "UEFA, 2026/27 sezonundan itibaren Şampiyonlar Ligi’nde ilk kez forma giyen futbolcuların kolundaki Starball armasında özel Debut Patch kullanılacağını açıkladı. Uygulama, 8-10 Eylül 2026’daki ilk lig aşaması maç haftasında başlayacak.",
+      "tag": "Gelişme",
+      "importance": 64,
+      "contentType": "news",
+      "seoTitle": "Şampiyonlar Ligi’nde Debut Patch uygulaması başlıyor",
+      "seoDescription": "UEFA, Şampiyonlar Ligi’nde ilk kez oynayan futbolcular için Debut Patch uygulamasını başlatıyor; sistemin nasıl işleyeceği ve ilk maç haftası detayları burada.",
+      "focusKeyword": "Şampiyonlar Ligi Debut Patch",
+      "originalAngle": "Yenilik yalnızca forma üzerindeki sembolik bir değişiklik değil; UEFA, oyuncunun ilk Şampiyonlar Ligi maçını maç anından koleksiyon ürününe uzanan doğrulanabilir bir kariyer kaydına dönüştürüyor. İlk Türk takımları maçlarında bu işaretin hangi futbolcular için kullanılacağı, kadro ve oyuncuların turnuvadaki geçmişi netleştiğinde takip edilmesi gereken yeni soru olacak.",
+      "keyFindings": [
+        "UEFA, 2026/27 sezonunda Şampiyonlar Ligi’nde ilk kez sahaya çıkan futbolcular için Debut Patch uygulamasını başlatacağını duyurdu.",
+        "Patch, oyuncunun ilk maçında formasının kolundaki Şampiyonlar Ligi Starball armasına eklenecek; oyuncunun oyuna sonradan girmesi de debut kapsamında sayılacak.",
+        "Maçtan sonra mavi debut bölümü formadan çıkarılıp doğrulanacak ve Topps tarafından futbolcunun imzalayacağı tekil bir koleksiyon kartında kullanılacak.",
+        "Uygulama, 8-10 Eylül 2026 tarihlerindeki 2026/27 Şampiyonlar Ligi lig aşaması ilk maç haftasında planlanıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 2 Eylül 2026 tarihli resmi açıklaması, uygulamanın ortaklarından Topps’ın duyurusuyla karşılaştırıldı. Her iki kaynakta da uygulamanın kapsamı, ilk maç haftasında başlayacağı ve patch’in doğrulanarak koleksiyon kartına dönüştürüleceği bilgileri örtüşüyor.",
+      "originalFindings": [],
+      "limitations": "UEFA, 2026/27 sezonunda hangi futbolcuların Debut Patch takacağını henüz açıklamadı. Uygulamanın Türk takımlarındaki ilk kullanıcıları, maç kadroları ve oyuncuların geçmiş Şampiyonlar Ligi kayıtları kesinleştiğinde belirlenebilecek.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "publishedAt": "2026-09-03T05:46:05.000Z",
+      "discoveredAt": "2026-09-03T08:46:05.200Z",
+      "sources": [
+        {
+          "title": "UEFA Champions League Debut Patch to be introduced for 2026/27 season",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-217e9add282d-5915750f4f97-1000--uefa-champions-league-debut-patch-to-be-introduced-for-2026",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "From First Appearance to One-of-One: Introducing the UEFA Champions League Debut Patch",
+          "publisher": "Topps Ripped",
+          "url": "https://ripped.topps.com/uk/introducing-the-uefa-champions-league-debut-patch",
+          "publishedAt": "2026-08-27",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "d451858e21a000b6",
       "role": "trabzonspor",
