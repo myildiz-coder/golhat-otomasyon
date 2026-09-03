@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T17:32:17.740Z",
+  "updatedAt": "2026-09-03T17:44:41.872Z",
   "stories": [
+    {
+      "id": "69032e0bdfe4188d",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Premier League’den 20 kulübü kapsayan yeni taraftar destek programı",
+      "summary": "Premier League, 4-14 Eylül 2026 tarihleri arasında yürütülecek Together Against Suicide programını 20 kulübün tamamına genişletti. Kulüpler, iç saha maç günlerinde taraftarların güvenilir uzman desteğine ulaşabileceği özel alanlar oluşturacak.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Premier League’den 20 kulübü kapsayan taraftar destek programı",
+      "seoDescription": "Premier League, 4-14 Eylül’de 20 kulübü kapsayan taraftar destek programını başlatıyor; uygulamanın maç günlerindeki kapsamı ve ortakları burada.",
+      "focusKeyword": "Premier League Together Against Suicide",
+      "originalAngle": "Gelişmenin önceki sezondaki 11 kulüplük pilot uygulamadan 2026-27 sezonunda 20 kulübün tamamına taşınması, programın tekil kulüp çalışmasından lig standardına dönüşmesi anlamına geliyor.",
+      "keyFindings": [
+        "Premier League, Together Against Suicide programını 4-14 Eylül 2026 tarihleri arasında tüm 20 kulüple uygulayacağını açıkladı.",
+        "Kulüpler, iç saha maç günlerinde taraftarların güvenli ve yargılayıcı olmayan ortamlarda konuşabilmesi ve uzman kuruluşlara yönlendirilebilmesi için destek alanları sunacak.",
+        "Program, 2025-26 sezonundaki 11 kulüplük pilot uygulamanın ardından genişletildi ve Samaritans ile iş birliği içinde yürütülecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Premier League’in 3 Eylül 2026 tarihli resmi duyurusu, Sky Sports’un aynı gün yayımladığı bağımsız haberle karşılaştırıldı; kulüp sayısı, uygulama tarihleri ve programın kapsamı iki kaynakta da doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Duyuru programın lig çapındaki çerçevesini açıklıyor; her kulübün uygulayacağı yerel yöntemler ve maç bazındaki ayrıntılar henüz ayrı ayrı paylaşılmış değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T14:44:41.000Z",
+      "discoveredAt": "2026-09-03T17:44:41.872Z",
+      "sources": [
+        {
+          "title": "All Premier League clubs providing support for fans as part of Together Against Suicide initiative",
+          "publisher": "Premier League",
+          "url": "https://www.premierleague.com/en/news/4706110/premier-league-clubs-providing-support-for-fans-as-part-of-together-against-suicide",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "'Together Against Suicide' - Premier League to run initiative around suicide prevention in September",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13580742/together-against-suicide-premier-league-to-run-initiative-around-suicide-prevention-in-september",
+          "publishedAt": "2026-09-03T10:48:00Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "751de22c73563b41",
       "role": "yorum",
