@@ -40,6 +40,10 @@ test('yorum masası benzersiz ve açıkça tanımlı müstear yazarlardan oluşu
     assert.match(page, new RegExp(writer.name));
   }
   assert.match(page, /gerçek kişi iddiası taşımaz/);
+  const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
+  assert.match(runner, /buildAssignmentSnapshot/);
+  assert.match(runner, /son 12 saatte yeni olay bulunması şartını uygulama/);
+  assert.match(runner, /GOLHAT canlı veri özeti/);
 });
 
 test('ortak yayın politikası temel editoryal dengeleri kalıcı olarak taşır', () => {

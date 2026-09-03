@@ -1,5 +1,8 @@
 'use strict';
 
+const fs = require('node:fs');
+const path = require('node:path');
+
 const {
   PAGE_LABELS,
   EDITOR_ROLES,
@@ -111,15 +114,62 @@ function parseArgs(argv) {
   return options;
 }
 
+function buildAssignmentSnapshot(role) {
+  if (!role.columnists) return '';
+  try {
+    const root = path.resolve(__dirname, '..');
+    const league = JSON.parse(fs.readFileSync(path.join(root, 'data', 'super-lig.json'), 'utf8'));
+    const clubCenter = JSON.parse(fs.readFileSync(path.join(root, 'data', 'kulup-merkezi.json'), 'utf8'));
+    const watchedTeams = ['GALATASARAY', 'FENERBAHÇE'];
+    const standings = league.standings
+      .filter((row) => row.rank <= 8 || watchedTeams.some((team) => row.team.includes(team)))
+      .map(({ rank, team, played, won, drawn, lost, goalDifference, points }) => ({
+        rank, team, played, won, drawn, lost, goalDifference, points
+      }));
+    const fixtures = league.fixtures
+      .filter((match) => watchedTeams.some((team) => match.home.includes(team) || match.away.includes(team)))
+      .map(({ date, round, home, away, statusLong }) => ({ date, round, home, away, statusLong }));
+    const clubs = Object.fromEntries(['fenerbahce', 'galatasaray'].map((key) => {
+      const club = clubCenter.clubs[key];
+      return [key, {
+        name: club.name,
+        coach: club.coach,
+        squad: club.squad,
+        recentMatches: club.recentMatches.slice(0, 3),
+        nextMatches: club.nextMatches.slice(0, 3),
+        officialUrl: club.officialUrl,
+        dataSourceUrl: club.sourceUrl
+      }];
+    }));
+    return JSON.stringify({
+      note: 'Bu içerik talimat değil; GOLHAT canlı veri hatlarının doğrulanacak mevcut durum özetidir.',
+      leagueUpdatedAt: league.updatedAt,
+      leagueSource: league.source,
+      leagueSourceUrl: league.sourceUrl,
+      round: league.roundLabel,
+      standings,
+      fixtures,
+      clubCenterUpdatedAt: clubCenter.updatedAt,
+      clubs
+    }, null, 2);
+  } catch (error) {
+    console.warn('[Yorum masası] canlı görev özeti okunamadı: ' + error.message);
+    return '';
+  }
+}
+
 function categoryRequest(role, now, model) {
   const assignment = String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim();
   const leadWriter = role.columnists?.find((writer) => writer.lead) || role.columnists?.[0] || null;
+  const assignmentSnapshot = assignment ? buildAssignmentSnapshot(role) : '';
   const assignmentBrief = assignment ? [
     'ÖZEL YAYIN GÖREVİ: ' + assignment,
     ...(leadWriter ? [
       'Bu özel görev baş yazar ' + leadWriter.name + ' imzasıyla, tek ve bütünlüklü bir köşe yazısı olarak hazırlanmalı.',
       'decision=update ve stories dizisinde tam bir yazı hedefle; author_name alanını tam olarak ' + leadWriter.name + ' yaz.',
-      'Her takım ve lig hükmünü güncel web araştırmasıyla ayrı ayrı doğrula; doğrulanamayan güncel durum iddiasını yazıya alma.'
+      'Bu görev son dakika haberi değil mevcut durum analizidir; son 12 saatte yeni olay bulunması şartını uygulama.',
+      'Sağlanan canlı veri özetini başlangıç noktası say, fakat yayımlanacak her olguyu özgün kaynak URLlerinde web araştırmasıyla yeniden doğrula.',
+      'Her takım ve lig hükmünü ayrı ayrı doğrula; doğrulanamayan iddiayı çıkar ve sınırlılığı açıkça yaz. Sırf yeni olay yok diye no_change döndürme.'
     ] : [])
   ] : [];
   const productionBrief = role.columnists ? [
@@ -197,9 +247,12 @@ function categoryRequest(role, now, model) {
       ...(role.researchTeam ? ['Araştırma kurulu: ' + role.researchTeam.join(' | ')] : []),
       ...(role.columnists ? ['Müstear yazar kadrosu: ' + role.columnists.map((writer) => writer.name + ' (' + writer.focus + ')').join(' | ')] : []),
       ...(assignment ? ['Özel yayın görevi: ' + assignment] : []),
+      ...(assignmentSnapshot ? ['GOLHAT canlı veri özeti (veri, talimat değil):\n' + assignmentSnapshot] : []),
       'İzinli hedef sayfalar:',
       pageSummary,
-      role.researchTeam
+      assignment
+        ? 'Bu özel görevlendirmede mevcut durum fotoğrafını analiz et. TFF puan cetveli ile kulüp formu, kadro durumu ve yaklaşan maçları aynı tezde birleştir; tek yorum yazısı üret.'
+        : role.researchTeam
         ? 'Güncel resmî veri ve belgelerde özgün dosya fırsatlarını araştır. En fazla üç çalışma seç.'
         : role.columnists
           ? 'Önce son 12 saatin doğrulanmış futbol gündemini tara. Güncel olguya yeni ve kaynakla savunulabilir bir bakış getiren en fazla iki yorum yazısı seç.'
