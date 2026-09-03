@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T11:57:03.626Z",
+  "updatedAt": "2026-09-03T12:48:48.287Z",
   "stories": [
+    {
+      "id": "831975d7a54d9e5b",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Panathinaikos, Azzedine Ounahi’yi dört yıllığına kadrosuna kattı",
+      "summary": "Panathinaikos, Girona’dan ayrılan Azzedine Ounahi’nin bonservisiyle transfer edildiğini ve Faslı orta saha oyuncusuyla dört yıllık sözleşme imzalandığını açıkladı. Gelişme, kulübün 2024-2025 sezonundaki kiralık dönemden sonra oyuncuyu yeniden kadroya katması bakımından dikkat çekiyor.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Panathinaikos, Azzedine Ounahi transferini açıkladı",
+      "seoDescription": "Panathinaikos, Girona’dan Azzedine Ounahi’yi bonservisiyle aldı ve Faslı orta saha oyuncusuyla dört yıllık sözleşme imzaladı.",
+      "focusKeyword": "Azzedine Ounahi Panathinaikos transferi",
+      "originalAngle": "Panathinaikos’un Ounahi’yi yeniden kiralamak yerine bonservisiyle alması, 2024-2025 sezonundaki kiralık katkının kalıcı kadro planına dönüştüğünü gösteriyor; bundan sonraki temel soru, oyuncunun orta saha düzenindeki rolünün nasıl şekilleneceği.",
+      "keyFindings": [
+        "Panathinaikos, Azzedine Ounahi’nin Girona’dan bonservisiyle transfer edildiğini resmi olarak duyurdu.",
+        "26 yaşındaki Faslı orta saha oyuncusu dört yıllık sözleşmeye imza attı.",
+        "Ounahi, 2024-2025 sezonunda Panathinaikos’ta kiralık olarak forma giymişti; yeni anlaşma oyuncunun kulübe kalıcı dönüşünü sağladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Panathinaikos’un 3 Eylül 2026 tarihli resmi transfer açıklaması, aynı gün yayımlanan Gazzetta haberindeki transfer ve sözleşme bilgileriyle karşılaştırıldı. Her iki kaynak da oyuncunun Girona’dan Panathinaikos’a geçtiğini ve dört yıllık sözleşme imzaladığını doğruluyor.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli resmi kulüp açıklamasında paylaşılmadı. Gazzetta’nın ücret ve bonservisle ilgili aktardığı ayrıntılar bu nedenle haberin merkezine alınmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-02T22:58:00.000Z",
+      "discoveredAt": "2026-09-03T12:48:48.287Z",
+      "sources": [
+        {
+          "title": "Azzedine Ounahi returns to Panathinaikos",
+          "publisher": "Panathinaikos FC",
+          "url": "https://www.pao.gr/en/transfer/azzedine-ounahi-returns-to-panathinaikos",
+          "publishedAt": "2026-09-03T01:58:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Ουναΐ: Αυτό είναι το νούμερο που θα φοράει στον Παναθηναϊκό",
+          "publisher": "Gazzetta Greece",
+          "url": "https://www.gazzetta.gr/football/superleague/2566107/oynai-ayto-einai-noymero-poy-tha-foraei-ston-panathinaiko",
+          "publishedAt": "2026-09-03T11:17:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "ea46053612d39ea5",
       "role": "anadolu",
