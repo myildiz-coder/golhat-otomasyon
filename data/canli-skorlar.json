@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T18:43:57.515Z",
+  "updatedAt": "2026-09-03T18:55:59.291Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 2,
-    "live": 0,
-    "upcoming": 2,
+    "live": 1,
+    "upcoming": 1,
     "finished": 0
   },
   "matches": [
@@ -59,10 +59,10 @@
       "away": "Lille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
