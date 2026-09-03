@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T19:15:12.764Z",
+  "updatedAt": "2026-09-03T19:40:25.931Z",
   "stories": [
+    {
+      "id": "0b7294b47c604bb9",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Samet Yalçın, Kocaelispor’dan ayrılıp Antalyaspor’a transfer oldu",
+      "summary": "Kocaelispor, orta saha oyuncusu Samet Yalçın’ın sözleşmesinin karşılıklı feshedildiğini açıkladı. Antalyaspor’un transfer kapsamında Kocaelispor’a 3 milyon lira fesih tazminatı ödeyeceği bildirildi.",
+      "tag": "Kesinleşti",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Samet Yalçın Antalyaspor’a transfer oldu",
+      "seoDescription": "Kocaelispor’dan ayrılan Samet Yalçın, Antalyaspor’a transfer oldu. Transferin mali ayrıntıları ve iki kulübün açıklamalarındaki çerçeve GOLHAT’ta.",
+      "focusKeyword": "Samet Yalçın Antalyaspor transferi",
+      "originalAngle": "Transferin dikkat çeken tarafı yalnızca oyuncunun kulüp değiştirmesi değil, Kocaelispor’un Süper Lig kadro planlamasında bir orta saha oyuncusunu çıkarırken Antalyaspor’un 1. Lig rotasyonuna deneyimli bir isim eklemesi. 3 milyon liralık fesih tazminatı, ayrılığın resmî ve mali çerçevesini ortaya koyuyor.",
+      "keyFindings": [
+        "Kocaelispor ile Samet Yalçın’ın sözleşmesi karşılıklı olarak sona erdirildi.",
+        "Antalyaspor, 32 yaşındaki orta saha oyuncusunu kadrosuna kattığını duyurdu.",
+        "Antalyaspor’un Kocaelispor’a 3 eşit taksitte toplam 3 milyon lira sözleşme fesih tazminatı ödeyeceği bildirildi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, beIN SPORTS Türkiye ve Türkgün’de yayımlanan haberlerle çapraz kontrol edildi; her iki kaynak da Kocaelispor ve Antalyaspor’un resmî açıklamalarındaki transfer ve mali ayrıntıları aktardı.",
+      "originalFindings": [],
+      "limitations": "Oyuncunun Antalyaspor ile imzaladığı sözleşmenin süresi, forma numarası ve teknik ekibin kendisine biçtiği rol kaynaklarda açıklanmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T13:38:00.000Z",
+      "discoveredAt": "2026-09-03T19:40:25.931Z",
+      "sources": [
+        {
+          "title": "Kocaelispor Samet Yalçın ile yollarını ayırdı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/kocaelispordan-antalyaspora-transfer-oldu",
+          "publishedAt": "2026-09-03T16:35:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Kocaelispor'dan ayrılan Samet Yalçın'ın yeni takımı belli oldu! Antalyaspor'a transfer oldu",
+          "publisher": "Türkgün",
+          "url": "https://www.turkgun.com/futbol/kocaelispordan-ayrilan-samet-yalcinin-yeni-takimi-belli-oldu-antalyaspora-transfer-oldu/396865",
+          "publishedAt": "2026-09-03T19:36:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "0d94997b58fb80b1",
       "role": "transfer",
