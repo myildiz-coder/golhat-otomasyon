@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T10:42:58.899Z",
+  "updatedAt": "2026-09-03T11:16:40.250Z",
   "stories": [
+    {
+      "id": "92d08c13c7109840",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe, Guendouzi ve Greenwood için UEFA disiplin sürecine savunma hazırlıyor",
+      "summary": "Fenerbahçe, Lyon karşılaşmasının ardından Matteo Guendouzi, Mason Greenwood ve kulüp hakkında UEFA tarafından disiplin süreci başlatıldığını açıkladı. Sarı-lacivertliler, UEFA kurullarına gerekli savunma ve belgeleri sunacak.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe, Guendouzi ve Greenwood için UEFA sürecinde savunma yapacak",
+      "seoDescription": "Fenerbahçe, Lyon maçı sonrası Guendouzi, Greenwood ve kulüp hakkında başlatılan UEFA disiplin sürecinde savunma ve belgelerini sunacak.",
+      "focusKeyword": "Fenerbahçe UEFA disiplin süreci",
+      "originalAngle": "Gelişmenin kritik noktası yalnızca soruşturmanın açılması değil, dosyada kulüple birlikte iki oyuncunun da yer alması ve Fenerbahçe’nin süreci savunma belgeleriyle karşılamaya hazırlanmasıdır. Bundan sonraki temel soru, UEFA’nın hangi ihlaller üzerinden karar vereceği ve bunun oyuncuların Avrupa maçlarına etkisinin olup olmayacağıdır.",
+      "keyFindings": [
+        "Fenerbahçe, UEFA Şampiyonlar Ligi play-off turu rövanşının ardından kulüp, Matteo Guendouzi ve Mason Greenwood hakkında UEFA disiplin süreci başlatıldığını duyurdu.",
+        "Kulüp, hak ve menfaatlerini korumak amacıyla UEFA’nın ilgili kurullarına savunma, bilgi ve belge sunacağını açıkladı.",
+        "Şu aşamada herhangi bir ceza, men kararı veya yaptırım süresi açıklanmış değil; dosyanın sonucu UEFA kurullarının değerlendirmesinden sonra netleşecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Fenerbahçe’nin resmi açıklamasında aktarılan bilgiler, aynı gün yayımlanan Anadolu Ajansı ve beIN SPORTS haberleriyle karşılaştırıldı. İki bağımsız alan adı gelişmenin aktörlerini, maç bağlamını ve kulübün savunma hazırlığını doğruluyor.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın dosya kapsamındaki somut madde ve olası yaptırımına ilişkin nihai karar bulunmuyor. Bu nedenle ceza ihtimali veya oyuncuların sonraki maçlara katılımı hakkında kesin hüküm kurulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T03:01:00.000Z",
+      "discoveredAt": "2026-09-03T11:16:40.250Z",
+      "sources": [
+        {
+          "title": "UEFA, Fenerbahçe ile futbolcuları Guendouzi ve Greenwood hakkında disiplin süreci başlattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/uefa-fenerbahce-ile-futbolculari-guendouzi-ve-greenwood-hakkinda-disiplin-sureci-baslatti/4045950",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe'den Guendouzi ve Greenwood açıklaması",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahceden-guendouzi-ve-greenwood-aciklamasi",
+          "publishedAt": "2026-09-03T06:01:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "UEFA'dan Fenerbahçe'ye soruşturma: Guendouzi, Greenwood!",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/spor/son-dakika-uefa-dan-fenerbahce-ye-sorusturma-guendouzi-greenwood-3909912",
+          "publishedAt": "2026-09-03T09:07:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "fe31e84e430ffbaa",
       "role": "galatasaray",
