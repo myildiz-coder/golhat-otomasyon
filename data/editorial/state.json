@@ -1,7 +1,103 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T16:18:30.164Z",
+  "updatedAt": "2026-09-03T16:44:53.597Z",
   "stories": [
+    {
+      "id": "4cfd2abef2b60edf",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor’da Noah Saviolo’nun sakatlığında MR sonucu açıklandı",
+      "summary": "Trabzonspor, Amedspor maçında sakatlanarak oyundan çıkan Noah Saviolo’nun sağ omuz arka kas grubunda yaralanmaya bağlı kanama ve kemik ödemi tespit edildiğini duyurdu. Tedaviye başlanan oyuncunun sahalara dönüş süresi henüz açıklanmadı.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor’da Noah Saviolo’nun sakatlık sonucu açıklandı",
+      "seoDescription": "Trabzonspor, Noah Saviolo’nun sağ omuzundaki sakatlığın MR sonucunu açıkladı. Oyuncunun dönüş süresi ve tedavi sürecine dair son bilgiler burada.",
+      "focusKeyword": "Noah Saviolo sakatlık durumu",
+      "originalAngle": "Yeni bilgi, Saviolo’nun Amedspor maçında oyundan çıkmasından ibaret değil; kulübün MR açıklaması sakatlığın omuz arka kas grubunda kanama ve kemik ödemi içerdiğini ortaya koyuyor. Buna karşılık Trabzonspor henüz oyuncunun kaç maç kaçıracağını bildirmediği için asıl takip sorusu, tedaviye yanıtı ve milli ara sonrasındaki kullanılabilirliği olacak.",
+      "keyFindings": [
+        "Trabzonspor, Noah Saviolo’nun sağlık durumuna ilişkin resmi açıklama yaptı.",
+        "Muayene ve MR sonucunda sağ omuz arka kas grubunda yaralanmaya bağlı kanama ve kemik ödemi tespit edildi.",
+        "Oyuncunun tedavisine başlandı ancak sahalardan uzak kalacağı süre açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Kulübün 3 Eylül 2026 tarihli resmi sağlık açıklaması, aynı gün yayımlanan A Spor ve Mackolik haberleriyle karşılaştırıldı. Sakatlığın niteliği ve tedavinin başladığı bilgisi iki farklı alan adından doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Trabzonspor, Saviolo’nun tedavi takvimini veya tahmini dönüş tarihini açıklamadı. Bu nedenle kaç maç kaçıracağına ilişkin öngörüde bulunulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T15:26:00.000Z",
+      "discoveredAt": "2026-09-03T16:44:53.597Z",
+      "sources": [
+        {
+          "title": "Futbolcumuz Noah Saviolo'nun sağlık durumuyla ilgili açıklama",
+          "publisher": "Trabzonspor Kulübü Resmi Web Sitesi",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/futbolcumuz-noah-saviolonun-saglik-durumuyla-ilgili-aciklama-03-09-2026",
+          "publishedAt": "2026-09-03T18:26:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor'dan sakatlık açıklaması! Noah Saviolo...",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/trabzonspor/2026/09/03/trabzonspordan-sakatlik-aciklamasi-noah-saviolo",
+          "publishedAt": "2026-09-03T18:30:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "0a16b5fcb5b4b5cd",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Antalyaspor, kaleci Fotis Pseftis’i kadrosuna kattı",
+      "summary": "Antalyaspor, 23 yaşındaki Yunan kaleci Fotis Pseftis ile anlaşmaya vardığını duyurdu. Lugano’dan gelen oyuncunun transferi, 4 Eylül 2026’da sona erecek tescil dönemi öncesinde kırmızı-beyazlıların kaleci rotasyonuna yaptığı takviye oldu.",
+      "tag": "Kesinleşti",
+      "importance": 74,
+      "contentType": "news",
+      "seoTitle": "Antalyaspor, Fotis Pseftis transferini açıkladı",
+      "seoDescription": "Antalyaspor, 23 yaşındaki kaleci Fotis Pseftis’i kadrosuna kattı. Transferin, tescil döneminin bitimine bir gün kala kaleci rotasyonuna etkisini okuyun.",
+      "focusKeyword": "Antalyaspor Fotis Pseftis transferi",
+      "originalAngle": "Antalyaspor’un transferi yalnızca yeni bir kaleci hamlesi değil; 4 Eylül 2026’da sona erecek tescil dönemi öncesinde kadro derinliğini güçlendiren ve kaleci rekabetini artıran zamanlamasıyla öne çıkıyor.",
+      "keyFindings": [
+        "Antalyaspor, 3 Eylül 2026’da Fotis Pseftis ile anlaşmaya vardığını açıkladı.",
+        "23 yaşındaki Yunan kaleci, İsviçre kulübü Lugano’dan Antalyaspor’a geldi.",
+        "Yunan spor basını transferin kiralık gerçekleştiğini ve Pseftis’in Lugano’dan gönderildiğini bildirdi; Antalyaspor’un paylaşımında sözleşme süresine ilişkin ayrıntı yer almadı.",
+        "Transfer, Türkiye’de yaz tescil döneminin sona ermesine bir gün kala gerçekleşti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Antalyaspor’un resmi sosyal medya duyurusunu aktaran beIN SPORTS ve GZT haberleri, Yunanistan merkezli Sport24’ün transferin Lugano’dan kiralık olduğunu belirten haberiyle karşılaştırıldı. Transferin gerçekleştiği kulüp açıklaması ve farklı ülkeden bağımsız doğrulama birlikte değerlendirildi.",
+      "originalFindings": [],
+      "limitations": "Antalyaspor’un resmi paylaşımında transferin bonservis veya kiralık niteliği ile sözleşme süresi açıklanmadı. Bu nedenle haber metninde yalnızca bağımsız kaynakların ortak biçimde doğruladığı bilgiler kullanıldı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T13:45:00.000Z",
+      "discoveredAt": "2026-09-03T16:44:53.597Z",
+      "sources": [
+        {
+          "title": "Antalyaspor, kaleci Fotis Pseftis'i kadrosuna kattı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/antalyaspor-kaleci-fotis-pseftisi-kadrosuna-katti",
+          "publishedAt": "2026-09-03T13:31:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Antalyaspor kaleci Fotis Pseftis'i transfer etti",
+          "publisher": "GZT",
+          "url": "https://www.gzt.com/spor/antalyaspor-kaleci-fotis-pseftisi-transfer-etti-4257532",
+          "publishedAt": "2026-09-03T16:46:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Ο Φώτης Ψεύτης δανεικός στην Αντάλιασπορ",
+          "publisher": "Sport24 Greece",
+          "url": "https://www.sport24.gr/football/o-fotis-pseftis-daneikos-stin-antaliaspor",
+          "publishedAt": "2026-09-03T17:59:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "9caabfd356de7eb9",
       "role": "sampiyonlar_ligi",
