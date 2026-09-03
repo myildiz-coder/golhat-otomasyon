@@ -1,7 +1,107 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T22:17:04.187Z",
+  "updatedAt": "2026-09-03T23:41:31.037Z",
   "stories": [
+    {
+      "id": "b42aa8d3bd69bb48",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Lille, Toulouse deplasmanında Ayase Ueda’nın golüyle zirveye çıktı",
+      "summary": "Lille, Ligue 1’in 3. haftasında Toulouse’u Ayase Ueda’nın 73. dakikadaki golüyle 1-0 yendi. Fransız ekibi, diğer maçlar oynanmadan önce yedi puanla liderlik koltuğuna oturdu.",
+      "tag": "Maç Sonucu",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Lille, Toulouse’u yenerek Ligue 1’de liderliğe çıktı",
+      "seoDescription": "Lille, Toulouse’u Ayase Ueda’nın golüyle 1-0 yenerek Ligue 1’de geçici lider oldu; maçın öne çıkan ayrıntıları ve puan tablosundaki etkisi burada.",
+      "focusKeyword": "Lille Toulouse maçı",
+      "originalAngle": "Lille’in galibiyeti yalnızca üç puan getirmedi; deplasmandaki üst üste sekizinci zaferle kulüp tarihinin en uzun dış saha serisini de güncelledi. Ancak liderlik, cuma günkü Monaco-PSG maçının sonucuna bağlı olarak değişebilir.",
+      "keyFindings": [
+        "Lille, Toulouse’u deplasmanda 1-0 mağlup etti.",
+        "Ayase Ueda, Lille formasıyla ve Ligue 1’deki ilk maçında 73. dakikada galibiyet golünü attı.",
+        "Lille, bu sonuçla deplasmanda üst üste sekizinci galibiyetini alarak kulüp rekoru kırdı ve Ligue 1’de geçici lider oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu ve gol bilgisi Lille’in resmi maç raporuyla, liderlik ve karşılaşmanın genel akışı AS’nin bağımsız maç haberiyle çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Liderlik durumu, Ligue 1’in 3. haftasındaki diğer maçlar tamamlanmadan geçicidir; puan tablosunun nihai görünümü daha sonra değişebilir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T20:42:00.000Z",
+      "discoveredAt": "2026-09-03T23:41:31.037Z",
+      "sources": [
+        {
+          "title": "Toulouse-LOSC (0-1): La victoire au mental !",
+          "publisher": "LOSC",
+          "url": "https://losc.fr/actualites/2026-09-03/toulouse-losc-le-compte-rendu",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Davide se pone líder y espera al Betis",
+          "publisher": "AS",
+          "url": "https://as.com/futbol/internacional/davide-se-pone-lider-y-espera-al-betis-f202609-n",
+          "publishedAt": "2026-09-03T22:42:00+02:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "c454c5a8c5c63cb0",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Beşiktaş’ın Avrupa listesi, yıldızlardan önce rotasyon hesabını görünür kıldı",
+      "summary": "Beşiktaş’ın 2026-2027 UEFA Avrupa Ligi kadrosunu UEFA’ya bildirmesi, transfer döneminin kapanışından çok sezon içindeki kullanım planını tartışmaya açtı. Milot Rashica ve Mustafa Hekimoğlu’nun listede yer almaması, hücumdaki isim bolluğunun otomatik olarak geniş rotasyon anlamına gelmediğini gösteriyor. Siyah-beyazlıların Avrupa hedefi, artık kadro kalitesinden önce doğru eşleşme ve sürdürülebilir paylaşım meselesi olacak.",
+      "tag": "Yorum",
+      "importance": 74,
+      "contentType": "analysis",
+      "seoTitle": "Beşiktaş Avrupa Ligi kadrosunda rotasyon hesabı",
+      "seoDescription": "Beşiktaş’ın UEFA Avrupa Ligi kadrosu, yıldız transferlerinden çok rotasyon ve sezon içi kullanım planının hangi oyuncular üzerine kurulduğunu gösteriyor.",
+      "focusKeyword": "Beşiktaş Avrupa Ligi kadrosu",
+      "originalAngle": "Beşiktaş’ın Avrupa listesi, kadronun ne kadar kalabalık olduğunu değil, teknik yapılanmanın hangi oyuncuları sezonun kritik bölümlerinde taşıyıcı kabul ettiğini gösteriyor; asıl sınav isim sayısı değil, bu hiyerarşinin lig ve Avrupa temposunda sürdürülebilmesi.",
+      "keyFindings": [
+        "UEFA, 3 Eylül 2026’da 2026-2027 Avrupa Ligi lig aşamasındaki 36 kulübün kadro bildirimlerini tamamladığını açıkladı; Beşiktaş da yayımlanan listede yer aldı.",
+        "DHA’nın aynı gün aktardığı Beşiktaş listesinde 32 kişilik kadro bulunuyor; Milot Rashica ile Mustafa Hekimoğlu liste dışında kaldı.",
+        "UEFA’nın Beşiktaş kadro sayfasında Orkun Kökçü, Wilfred Ndidi, Salih Özcan, Leandro Trossard, Dušan Vlahović ve Semih Kılıçsoy gibi farklı kullanım profillerine sahip oyuncuların yanı sıra genç B Listesi futbolcuları da yer alıyor.",
+        "Beşiktaş’ın Avrupa Ligi lig aşamasındaki ilk maçı 17 Eylül 2026’da İstanbul’da Marsilya’ya karşı oynanacak; bu nedenle liste, sezonun ilk Avrupa rotasyon çerçevesini şimdiden belirliyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 3 Eylül 2026 tarihli resmi kadro duyurusu, UEFA’nın Beşiktaş kadro sayfası ve DHA’nın aynı gün yayımlanan kadro haberindeki isimler ve maç takvimi karşılaştırıldı. Yorum, doğrulanmış liste tercihleri ile Avrupa fikstürünün kadro kullanımına muhtemel etkisi arasındaki açık bağlantı üzerine kuruldu; teknik tercihlerin gerekçesi kaynaklarda açıklanmadığı için nedensellik iddiası kurulmadı.",
+      "originalFindings": [
+        "Liste, Beşiktaş’ın hücum ve orta saha bölgelerinde seçenek bolluğundan ziyade farklı rollerin aynı Avrupa planına nasıl sığdırılacağı sorusunu öne çıkarıyor.",
+        "Rashica ve Mustafa Hekimoğlu’nun dışında kalması, kadro planlamasında her tanınmış veya potansiyel oyuncunun Avrupa kullanımına otomatik biçimde dahil edilmediğini gösteren somut bir tercih olarak okunabilir.",
+        "İlk Avrupa maçının 17 Eylül’de Marsilya’ya karşı oynanacak olması, teknik heyetin listeyi soyut bir sezon planı olmaktan çıkarıp kısa sürede işleyen bir rotasyona dönüştürmesini gerektirecek."
+      ],
+      "limitations": "Kaynaklar, Milot Rashica ve Mustafa Hekimoğlu’nun neden liste dışında bırakıldığını açıklamıyor. Oyuncuların sakatlık, tescil, teknik tercih veya başka bir idari gerekçeyle dışarıda kalıp kalmadığı doğrulanmış değil. Bu nedenle yazı, listenin anlamını yorumlar; kararların perde arkasına ilişkin kesin hüküm kurmaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GH-2026-09-03-YORUM-BJK-EL-KADRO-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-03T20:41:31.000Z",
+      "discoveredAt": "2026-09-03T23:41:31.037Z",
+      "sources": [
+        {
+          "title": "Europa League squads: League phase selections confirmed",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a9-21815eb7babc-62eab180d6e2-1000--europa-league-squads-league-phase-selections-confirmed",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş Avrupa Ligi kadrosunu duyurdu",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/amp/spor/besiktas-avrupa-ligi-kadrosunu-duyurdu-2938740",
+          "publishedAt": "2026-09-03T23:17:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Beşiktaş JK UEFA Europa League 2026/27 Squad",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefaeuropaleague/clubs/50157--besiktas/squad",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "a4b6b3c41484c2d3",
       "role": "avrupa",
