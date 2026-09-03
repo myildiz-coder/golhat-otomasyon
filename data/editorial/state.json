@@ -1,7 +1,158 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T21:42:03.795Z",
+  "updatedAt": "2026-09-03T22:17:04.187Z",
   "stories": [
+    {
+      "id": "a4b6b3c41484c2d3",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Valencia'da Gourlay görevde kalacağını ve Corberán'a güvendiğini açıkladı",
+      "summary": "Valencia Futbol CEO'su Ron Gourlay, görevinden ayrılmayı düşünmediğini ve teknik direktör Carlos Corberán'ın projenin doğru ismi olduğunu söyledi. Açıklama, LaLiga'da üç maç sonunda bir puan alan Valencia'da yönetim-teknik heyet çizgisinin korunduğunu gösterdi.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Valencia CEO'su Gourlay: Görevden ayrılmayı düşünmüyorum",
+      "seoDescription": "Valencia Futbol CEO'su Ron Gourlay görevde kalacağını ve teknik direktör Carlos Corberán'a güvendiğini açıkladı; LaLiga başlangıcının etkisi değerlendirildi.",
+      "focusKeyword": "Ron Gourlay Valencia açıklaması",
+      "originalAngle": "Gourlay'nin açıklaması, Valencia'nın sezona üç maçta bir puanla başlamasına rağmen kısa vadeli teknik değişim yerine istikrar ve yeni Mestalla projesini önceleyen yönetim çizgisini ortaya koyuyor.",
+      "keyFindings": [
+        "Ron Gourlay, Valencia'daki görevinden istifa etmeyi veya emekli olmayı planlamadığını açıkladı.",
+        "Gourlay, Carlos Corberán'ı Valencia projesini yönetmek için doğru teknik direktör olarak nitelendirdi.",
+        "Valencia'nın sezonun ilk üç LaLiga maçında bir puan toplaması, açıklamanın kulübün zayıf başlangıcı sonrasında geldiğini gösteriyor; ancak yönetim yeni bir teknik karar sinyali vermedi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Ron Gourlay'nin 3 Eylül'deki basın toplantısına ilişkin Cadena SER yayını, aynı açıklamayı ve Valencia'nın sezon başlangıcına dair bağlamı aktaran El País haberiyle çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Gourlay'nin açıklamaları kulübün mevcut yönetim yaklaşımını gösteriyor; Corberán'ın geleceğine ilişkin resmî sözleşme değişikliği veya kulüp tarafından yayımlanmış ayrı bir karar açıklaması bulunmuyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T17:42:32.000Z",
+      "discoveredAt": "2026-09-03T22:17:04.187Z",
+      "sources": [
+        {
+          "title": "\"No voy a dimitir\": Ron Gourlay CEO del Valencia CF defiende su apuesta por Corberán",
+          "publisher": "Cadena SER",
+          "url": "https://cadenaser.com/comunitat-valenciana/2026/09/03/no-voy-a-dimitir-ron-gourlay-ceo-del-valencia-cf-defiende-su-apuesta-por-corberan-radio-valencia",
+          "publishedAt": "2026-09-03T12:11:00Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "El Valencia, en una economía de guerra, fía su futuro al Nuevo Mestalla",
+          "publisher": "El País",
+          "url": "https://elpais.com/deportes/futbol/2026-09-03/el-valencia-en-una-economia-de-guerra-fia-su-futuro-al-nuevo-mestalla.html",
+          "publishedAt": "2026-09-03T17:42:32Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "846b1ba4f34e32c1",
+      "role": "sampiyonlar_ligi",
+      "page": "sampiyonlar-ligi.html",
+      "headline": "Galatasaray’ın Şampiyonlar Ligi kadrosu belli oldu: 24 kişilik listede dikkat çeken tercihler",
+      "summary": "Galatasaray, 2026/27 UEFA Şampiyonlar Ligi lig aşaması için 24 kişilik oyuncu listesini UEFA’ya bildirdi. Kaan Ayhan, Arda Ünyay, Kazımcan Karataş, Eyüp Aydın ve Can Armando Güner kadroda yer almadı; sarı-kırmızılı ekip ilk maçını 9 Eylül 2026’da Sporting CP deplasmanında oynayacak.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Galatasaray’ın Şampiyonlar Ligi kadrosu belli oldu",
+      "seoDescription": "Galatasaray’ın UEFA’ya bildirdiği 24 kişilik Şampiyonlar Ligi kadrosu açıklandı. Listede yer almayan isimler ve Sporting maçı öncesi tablo burada.",
+      "focusKeyword": "Galatasaray Şampiyonlar Ligi kadrosu",
+      "originalAngle": "Yeni gelişmenin değeri yalnızca listenin açıklanması değil; Galatasaray’ın Sporting CP deplasmanı öncesinde hangi oyuncuları kadro dışında bıraktığının ve UEFA listesinin ilk maçtan hemen önce takım seçeneklerini nasıl çerçevelediğinin netleşmesi.",
+      "keyFindings": [
+        "Galatasaray, 2026/27 Şampiyonlar Ligi lig aşaması için UEFA’ya 24 kişilik liste bildirdi.",
+        "Kaan Ayhan, Arda Ünyay, Kazımcan Karataş, Eyüp Aydın ve Can Armando Güner bildirilen listede yer almadı.",
+        "UEFA, Galatasaray’ın da aralarında bulunduğu 36 takımın lig aşaması kadro bildirimlerini tamamladığını açıkladı; Galatasaray ilk maçını 9 Eylül 2026’da Sporting CP deplasmanında oynayacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 3 Eylül 2026 tarihli resmi kadro duyurusu, Galatasaray’ın UEFA kadro sayfası ve DHA’nın aynı gün yayımladığı kadro ayrıntıları karşılaştırıldı. Yalnızca iki farklı alan adında doğrulanabilen bilgiler kullanıldı.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın genel duyurusu kadroların bildirildiğini doğruluyor; oyuncu bazındaki liste ayrıntıları için DHA haberi ve UEFA takım sayfası esas alındı. Listenin maç günü ilk 11’ine veya teknik tercihlerin nedenlerine ilişkin doğrulanmış bilgi bulunmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T18:53:00.000Z",
+      "discoveredAt": "2026-09-03T22:17:04.187Z",
+      "sources": [
+        {
+          "title": "Champions League squads: League phase selections confirmed",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2181560eb976-bb235eef5ca5-1000--champions-league-squads-league-phase-selections-confirmed",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray’ın Şampiyonlar Ligi kadrosu belli oldu",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/amp/spor/galatasarayin-sampiyonlar-ligi-kadrosu-belli-oldu-2938654",
+          "publishedAt": "2026-09-03T19:53:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray | Squad | UEFA Champions League 2026/27",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/clubs/50067/matches",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "a25bed74f950ae3b",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Deplasman yasağında Avrupa’nın yeni ölçüsü: Cezanın adresi tribünün tamamı olamaz",
+      "summary": "UEFA, Avrupa Kulüpleri, Football Supporters Europe ve European Leagues; deplasman taraftarlarına yönelik toplu yasakların rutin güvenlik tedbirine dönüşmemesi gerektiğini açıkladı. Avrupa Konseyi’nin tavsiyesiyle uyumlu bu yaklaşım, tribün kültüründe yeni bir soruyu öne çıkarıyor: Güvenliği sağlarken masum taraftarın deplasman hakkı nasıl korunacak?",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Deplasman yasağında Avrupa’nın yeni ölçüsü",
+      "seoDescription": "UEFA ve Avrupa futbol paydaşları toplu deplasman yasaklarını sınırlıyor; kararların tribün kültürü ve taraftar hakkına etkisini inceliyoruz.",
+      "focusKeyword": "deplasman taraftarlarına toplu yasak",
+      "originalAngle": "Avrupa futbolunun 3 Eylül 2026 tarihli ortak tutumu, deplasman yasağını güvenlik kararından önce bir yönetim kalitesi testine çeviriyor: Gerçek sorumluları ayırmadan bütün tribünü cezalandırmak kolay, fakat sürdürülebilir tribün düzeni ancak bireysel sorumluluk, erken iletişim ve itiraz hakkıyla kurulabilir.",
+      "keyFindings": [
+        "UEFA, Avrupa Kulüpleri, Football Supporters Europe ve European Leagues 1-2 Eylül 2026’da Madrid’de yapılan güvenlik konferansının ardından toplu deplasman yasaklarının rutin bir uygulamaya dönüşmemesi gerektiğini açıkladı.",
+        "Ortak açıklamada, şiddet veya düzensizlikten sorumlu kişilere odaklanılması; toplu yasağın ise ancak açık, güncel ve nesnel kanıtlarla başka önlemlerin yetersiz kaldığı istisnai durumlarda uygulanması gerektiği belirtildi.",
+        "Avrupa Konseyi’nin Rec(2025)1 tavsiyesi; kararların erken duyurulmasını, ilgili paydaşlarla istişareyi, gerekçelerin açıklanmasını ve uygun itiraz yollarının bulunmasını öne çıkarıyor.",
+        "Bu çerçeve, deplasman tribününü yalnızca güvenlik riski olarak gören anlayışla, tribünün futbol atmosferi ve kültürel kimlikteki rolünü birlikte değerlendiren yaklaşım arasındaki farkı görünür kılıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "3 Eylül 2026 tarihli UEFA ortak açıklaması; UEFA’nın Madrid’deki güvenlik konferansına ilişkin resmi metni ve Avrupa Konseyi’nin toplu deplasman yasakları hakkındaki resmi tavsiye sayfasıyla karşılaştırıldı. Yorum, yalnızca bu belgelerde doğrulanan ilkeler üzerinden kurulmuştur.",
+      "originalFindings": [
+        "Yeni gelişmenin ağırlık noktası yalnızca yasakların sınırlandırılması değil, karar alma sürecinin de değişmesi talebidir.",
+        "Bireysel sorumluluk ilkesi, kulüpler ve kamu makamları için tribün yönetiminde daha ayrıntılı kanıt, daha erken iletişim ve daha ölçülü yaptırım zorunluluğu doğurabilecek bir standart ortaya koyuyor.",
+        "Yayınlanması gereken temel soru, bu tavsiyelerin farklı ülkelerde ve kulüpler düzeyinde bağlayıcı uygulamaya dönüşüp dönüşmeyeceğidir."
+      ],
+      "limitations": "Açıklama ortak bir ilke ve tavsiye çerçevesi ortaya koyuyor; tek başına ulusal mevzuatı veya kulüplerin mevcut deplasman uygulamalarını değiştiren bağlayıcı bir karar niteliğinde olduğu gösterilmiyor. Türkiye’deki uygulamaya doğrudan etkisi için TFF, kulüpler ve kamu makamlarının sonraki kararları izlenmelidir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-2026-09-03-YORUM-TRIBUN-001",
+      "authorName": "Deplasman Defteri",
+      "publishedAt": "2026-09-03T19:17:04.000Z",
+      "discoveredAt": "2026-09-03T22:17:04.187Z",
+      "sources": [
+        {
+          "title": "European football unites to limit collective bans against away supporters",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/news-media/news/02a9-2180f7cdc802-f243aeefab46-1000--european-football-unites-to-limit-collective-bans-against-",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Adopted texts on Safety, Security and Service Approach at Sports Events",
+          "publisher": "Council of Europe",
+          "url": "https://www.coe.int/en/web/sport/adopted-texts-on-safety-security-and-service-approach-at-sports-events",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "The Council of Europe adopted new recommendations on collective bans against travelling fans – it is now up to national governments to follow them",
+          "publisher": "Football Supporters Europe",
+          "url": "https://www.fanseurope.org/news/the-council-of-europe-adopted-new-recommendations-on-collective-bans-against-travelling-fans-it-is-now-up-to-national-governments",
+          "publishedAt": "2026-01-28",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "ee9466e64763ecda",
       "role": "anadolu",
