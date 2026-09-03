@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T20:16:46.442Z",
+  "updatedAt": "2026-09-03T20:47:52.883Z",
   "stories": [
+    {
+      "id": "07e67673604ce5b8",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "Fenerbahçe’nin UEFA cezasında kritik ölçü: Kadro maliyeti sınırı 14 puan aşıldı",
+      "summary": "UEFA ve KAP kayıtlarını birlikte inceleyen GOLHAT Araştırma Kurulu, Fenerbahçe’nin 2025 kadro maliyet oranının UEFA’nın yüzde 70 sınırının yüzde 84’e çıktığını; bunun 14 yüzde puanlık aşım ve yaklaşık her aşım puanı için 500 bin avroluk cezaya karşılık geldiğini hesapladı. UEFA kararında Fenerbahçe için 2026/27 oyuncu kayıt kısıtlaması yer almaması, yaptırımın para cezası düzeyinde kaldığını gösteriyor.",
+      "tag": "Dosya",
+      "importance": 82,
+      "contentType": "dossier",
+      "seoTitle": "Fenerbahçe’nin UEFA cezasında kadro maliyeti hesabı",
+      "seoDescription": "UEFA ve KAP verileriyle Fenerbahçe’nin yüzde 84’lük kadro maliyet oranını, 14 puanlık aşımı ve 7 milyon avroluk cezanın kapsamını inceliyoruz.",
+      "focusKeyword": "Fenerbahçe UEFA kadro maliyeti cezası",
+      "originalAngle": "GOLHAT’ın sorusu, Fenerbahçe’nin UEFA cezasının yalnızca kaç avro olduğuyla sınırlı değil: Kulüp sınırı ne kadar aştı, ceza bu aşımın hangi ölçüsüne denk geliyor ve yaptırım sportif kadro planlamasını doğrudan kısıtlıyor mu? UEFA’nın karar tablosu ile KAP açıklamasını eşleştiren dosya, 7 milyon avroluk cezanın arkasındaki 14 yüzde puanlık farkı ve Fenerbahçe’nin UEFA metninde yeni oyuncu kayıt kısıtlaması uygulanan “önemli ihlal” grubunda gösterilmediğini ortaya koyuyor.",
+      "keyFindings": [
+        "UEFA, Fenerbahçe’nin 2025 takvim yılı kadro maliyet oranını yüzde 70 sınırının üzerinde tespit ederek kulübe 7 milyon avro para cezası verdi.",
+        "Fenerbahçe’nin KAP açıklamasındaki yüzde 84 oranı, UEFA sınırının 14 yüzde puan üzerinde; bu oran izin verilen tavanın yüzde 20 üzerindedir.",
+        "UEFA’nın açıkladığı 9 kulüplük kadro maliyeti yaptırım tablosunda Fenerbahçe için para cezası bulunurken, 2026/27 UEFA kulüp turnuvalarında Liste A’ya yeni oyuncu kaydı kısıtlaması yalnızca yıldızla işaretlenen kulüpler için belirtilmiştir; Fenerbahçe bu grupta yer almamaktadır."
+      ],
+      "originalityBasis": "public_document_analysis",
+      "methodology": "30 Haziran 2026 tarihli UEFA Kulüp Finansal Kontrol Organı açıklaması ile aynı tarihli Fenerbahçe Futbol A.Ş. KAP özel durum açıklaması karşılaştırıldı. UEFA’nın yüzde 70 sınırı ve 7 milyon avroluk ceza bilgisi KAP’taki yüzde 84 oranıyla eşleştirildi. Aşım, 84-70=14 yüzde puanı olarak; izin verilen tavana göre nispi fark, 14/70= yüzde 20 olarak hesaplandı. Cezanın aşım puanı başına basit karşılığı, 7.000.000/14=500.000 avro olarak ayrıca hesaplandı; bunun UEFA’nın resmî formülü değil, dosya için üretilmiş karşılaştırmalı bir gösterge olduğu kabul edildi. UEFA yaptırım tablosundaki yıldız işaretleri incelenerek yeni oyuncu kayıt kısıtlamasının Fenerbahçe’ye uygulanıp uygulanmadığı kontrol edildi.",
+      "originalFindings": [
+        "Fenerbahçe’nin yüzde 84’lük oranı, yüzde 70’lik UEFA tavanını 14 yüzde puan aşarak izin verilen seviyenin beşte biri oranında üzerine çıkıyor.",
+        "7 milyon avroluk toplam ceza, basit bir karşılaştırma göstergesi olarak her aşım yüzde puanı başına 500 bin avroya denk geliyor; bu tutar UEFA’nın resmî hesaplama yöntemi değil, ihlalin ölçeğini görünür kılan GOLHAT hesaplamasıdır.",
+        "UEFA kararındaki yıldız sınıflandırmasına göre Fenerbahçe, yeni oyuncu kaydı kısıtlamasıyla birlikte açıklanan önemli ihlal grubunda değil; mevcut resmî belgeler yaptırımın Fenerbahçe bakımından para cezası olarak kaldığını gösteriyor."
+      ],
+      "limitations": "UEFA açıklaması, Fenerbahçe’nin kadro maliyetini oluşturan bonservis, menajerlik gideri, ücret ve diğer kalemlerin ayrı ayrı tutarlarını yayımlamıyor. Bu nedenle 14 puanlık aşımın hangi gider kaleminden kaynaklandığı veya gelecek dönemde oranı ne kadar düşüreceği bu dosyadan çıkarılamaz. Aşım puanı başına 500 bin avroluk hesap yalnızca karşılaştırmalı bir göstergedir; UEFA’nın resmî ceza formülü olarak sunulamaz. Fenerbahçe KAP açıklamasında karara itiraz edeceğini bildirdiğinden, nihai hukuki sonuç ayrıca takip edilmelidir.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "GOLHAT-DOSYA-2026-09-03-FENER-UEFA-001",
+      "authorName": "GOLHAT Araştırma Kurulu",
+      "publishedAt": "2026-09-03T17:47:52.000Z",
+      "discoveredAt": "2026-09-03T20:47:52.883Z",
+      "sources": [
+        {
+          "title": "Finalisation of club monitoring for the 2025/26 season",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/news-media/news/02a6-20fe598acc34-5b167fbb1b19-1000--finalisation-of-club-monitoring-for-the-2025-26-season",
+          "publishedAt": "2026-06-30",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "UEFA Sürdürülebilirlik Talimatı Kapsamında Limit Aşımı Hakkında Açıklama",
+          "publisher": "Kamuoyu Aydınlatma Platformu / Fenerbahçe Futbol A.Ş.",
+          "url": "https://kap.org.tr/en/Bildirim/1622163",
+          "publishedAt": "2026-06-30",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "UEFA'nın Fenerbahçe'ye kestiği ceza belli oldu",
+          "publisher": "Ekonomim",
+          "url": "https://www.ekonomim.com/spor/son-dakika-uefanin-fenerbahceye-kestigi-ceza-belli-oldu-haberi-903257",
+          "publishedAt": "2026-06-30",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "10d052585c6aea59",
       "role": "transfer",
