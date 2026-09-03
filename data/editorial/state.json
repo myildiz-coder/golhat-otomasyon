@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T13:45:04.900Z",
+  "updatedAt": "2026-09-03T14:19:32.222Z",
   "stories": [
+    {
+      "id": "2e6cb95ac3e3af66",
+      "role": "sampiyonlar_ligi",
+      "page": "sampiyonlar-ligi.html",
+      "headline": "Şampiyonlar Ligi’nde ilk hafta başlıyor: UEFA, Galatasaray ve Fenerbahçe maçları için dikkat çeken verileri açıkladı",
+      "summary": "2026/27 Şampiyonlar Ligi lig aşaması 8 Eylül’de başlayacak. UEFA’nın yayımladığı ilk hafta istatistik dosyasında Galatasaray’ın Sporting deplasmanı ve Fenerbahçe’nin Roma karşılaşması öne çıktı; sarı-lacivertlilerin 2008/09’dan bu yana ilk kez ana aşamada yer alacağı vurgulandı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Şampiyonlar Ligi ilk hafta: Galatasaray ve Fenerbahçe için UEFA verileri",
+      "seoDescription": "UEFA, 2026/27 Şampiyonlar Ligi’nin ilk haftası öncesi Galatasaray-Sporting ve Fenerbahçe-Roma maçlarına ilişkin güncel verileri yayımladı.",
+      "focusKeyword": "2026/27 Şampiyonlar Ligi ilk hafta",
+      "originalAngle": "İlk hafta fikstürü daha önce açıklanmıştı; yeni gelişme, UEFA’nın maç önü istatistikleriyle iki Türk temsilcisinin Avrupa sahnesindeki başlangıcını karşılaştırılabilir veriler üzerinden çerçevelemesi. Fenerbahçe’nin ana aşamaya dönüşü tarihsel bir eşik oluştururken Galatasaray’ın Sporting deplasmanı, ilk haftanın Türkiye açısından doğrudan puan arayışını öne çıkarıyor.",
+      "keyFindings": [
+        "Şampiyonlar Ligi 2026/27 lig aşaması 8 Eylül 2026’da başlayacak; Galatasaray 9 Eylül’de Sporting’e konuk olacak, Fenerbahçe ise 10 Eylül’de Roma’yı ağırlayacak.",
+        "UEFA, Fenerbahçe’nin 2008/09 sezonundan bu yana ilk kez Şampiyonlar Ligi’nin ana aşamasında mücadele edeceğini belirtti.",
+        "UEFA’nın ilk hafta dosyasında Sporting-Galatasaray ve Fenerbahçe-Roma eşleşmeleri, 36 takımlı lig aşamasının açılış programı içinde yer alıyor.",
+        "İlk haftanın Türkiye açısından temel sorusu, iki temsilcinin de yeni formatta başlangıç maçlarından puan çıkarıp çıkaramayacağı olacak; mevcut veriler maç sonucunu kesinleştirmiyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 3 Eylül 2026 tarihli ilk hafta istatistik dosyası, UEFA’nın resmi lig aşaması fikstürü ve beIN SPORTS’un 2026/27 fikstür sayfasıyla karşılaştırıldı. Yalnızca iki temsilcinin maç tarihi, rakibi ve UEFA’nın yayımladığı tarihsel istatistikler kullanıldı.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın yayımladığı istatistikler maç sonucu veya takım performansı için kesin öngörü sunmuyor. Galatasaray ve Fenerbahçe’nin güncel kadro durumu, sakatlıkları ve teknik tercihleri bu habere dahil edilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-03T14:19:32.222Z",
+      "sources": [
+        {
+          "title": "Champions League Matchday 1: Key stats and what to look out for in every game",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2180c6b55c39-54a55373de68-1000--champions-league-matchday-1-key-stats-and-what-to-look-o",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "UEFA Şampiyonlar Ligi Fikstür ve Maç Sonuçları",
+          "publisher": "beIN SPORTS",
+          "url": "https://beinsports.com.tr/lig/sampiyonlar-ligi/fikstur",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "7b2bbb020bb26753",
       "role": "avrupa",
