@@ -1,7 +1,80 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T12:48:48.287Z",
+  "updatedAt": "2026-09-03T13:09:46.945Z",
   "stories": [
+    {
+      "id": "ae5b82eb8264f450",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Zirve aynı puanda, yük aynı değil: Fenerbahçe-Galatasaray yarışında ilk eşik",
+      "summary": "3 Eylül 2026 itibarıyla Galatasaray, üç haftada topladığı 7 puan ve +5 averajla lider; Fenerbahçe ise 6 puanla dördüncü sırada. İki takımın son üç maçtaki üretimi güçlü görünse de Fenerbahçe’nin beş sakatlıkla daha daralan kadrosu ve 10 Eylül’de başlayacak Şampiyonlar Ligi lig aşaması, yarışın erken bölümünde takvim yönetimini belirleyici hâle getiriyor. Galatasaray’ın Başakşehir deplasmanı ve Fenerbahçe’nin Beşiktaş derbisi öncesindeki temel soru, kimin daha iyi olduğu değil, yoğun fikstürün kimden daha az bedel alacağı.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe-Galatasaray yarışında ilk güç dengesi",
+      "seoDescription": "Fenerbahçe ve Galatasaray’ın 3 Eylül 2026’daki puan, form, kadro ve Avrupa takvimini karşılaştıran tarafsız güç dengesi analizi.",
+      "focusKeyword": "Fenerbahçe Galatasaray güç dengesi 2026-27",
+      "originalAngle": "Erken puan tablosu iki büyük takım arasında yalnızca iki puanlık bir fark gösteriyor; fakat asıl ayrım sonuçlarda değil, bu sonuçların hangi kadro ve takvim koşullarında üretildiğinde ortaya çıkıyor. Galatasaray liderliği daha düşük sakatlık yüküyle korumaya çalışırken Fenerbahçe, Avrupa elemelerinden lig aşamasına geçişin fiziksel ve taktik maliyetini yönetmek zorunda.",
+      "keyFindings": [
+        "TFF’nin 3 Eylül 2026 tarihli cetvelinde Galatasaray üç maç sonunda 7 puan ve +5 averajla lider; Fenerbahçe 6 puan ve +3 averajla dördüncü sırada yer alıyor. İki takım arasındaki fark iki puan.",
+        "Fenerbahçe ligde Gençlerbirliği’ne karşı 1-2 yenilginin ardından Konyaspor’u 4-2 ve Samsunspor’u 2-0 mağlup etti; ayrıca 26 Ağustos’ta Lyon deplasmanında 2-1 kazanarak Avrupa elemelerindeki son maçını geçti.",
+        "Galatasaray ilk üç lig maçında Çorum FK ile 2-2 berabere kaldı, Erzurumspor FK’yı 4-0 ve Göztepe’yi 3-2 yendi. Bu seri, takımın hücum üretimini gösterirken Göztepe karşısında kalesinde iki gol görmesi savunma tarafında kusursuzluk olmadığını da ortaya koyuyor.",
+        "Canlı kadro özetinde Fenerbahçe’nin 33 kişilik kadrosunda 5 sakat, Galatasaray’ın 32 kişilik kadrosunda 1 sakat oyuncu bulunuyor. Bu veri, mevcut anda Galatasaray’ın rotasyon sürekliliği bakımından daha elverişli bir tabloya sahip olduğuna işaret ediyor; ancak sakat oyuncuların kimlikleri ve dönüş tarihleri bu çalışmada doğrulanmadı.",
+        "4 Eylül’de Başakşehir-Galatasaray, 5 Eylül’de Fenerbahçe-Beşiktaş oynanacak. Fenerbahçe 10 Eylül’de Roma’yı, Galatasaray ise 9 Eylül’de Sporting CP’yi konuk olacakları Şampiyonlar Ligi lig aşaması maçlarıyla karşılaşacak.",
+        "UEFA’nın 2026-27 lig aşaması fikstürü, iki takımın da eylül ayını yalnızca lig içi rekabetle değil, Avrupa seviyesinde yüksek tempolu rakiplerle birlikte yürütmek zorunda olduğunu doğruluyor. Bu nedenle ilk haftalardaki güç dengesi, tek maçlık kalite farkından çok kadro devamlılığı ve maçlar arası toparlanma kapasitesiyle şekillenecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin resmî puan cetveli ve 4. hafta fikstürü; kulüplerin ve maç veri sağlayıcısının yayımladığı takım, sonuç, kadro ve yaklaşan maç bilgileri; UEFA’nın 2026-27 Şampiyonlar Ligi lig aşaması ve eşleşme duyuruları karşılaştırıldı. Yorum, yalnızca aynı tarih aralığında doğrulanabilen puan, sonuç, fikstür ve kadro özeti verileri üzerine kuruldu. Transfer söylentileri ve kaynağı bağımsız biçimde doğrulanamayan iddialar kullanılmadı.",
+      "originalFindings": [
+        "Galatasaray’ın iki puanlık liderliği, üç haftalık örneklemde tek başına kalıcı bir kalite üstünlüğü kanıtlamıyor; ancak +5 averaj ve yalnızca bir sakatlıkla başlangıç yapması, kısa vadeli istikrar bakımından Fenerbahçe’ye göre daha rahat bir zemin oluşturuyor.",
+        "Fenerbahçe’nin son üç maçtaki üç galibiyeti, Avrupa eleme başarısıyla birlikte sonuç üretme kapasitesini gösteriyor. Buna karşılık beş sakatlık ve Roma maçı öncesindeki Beşiktaş derbisi, teknik heyetin ilk sınavını oyun kalitesinden önce rotasyon yönetimine taşıyor.",
+        "Galatasaray’ın Başakşehir deplasmanı, liderliği koruma; Fenerbahçe-Beşiktaş derbisi ise altı puanlı iki takım arasındaki doğrudan güç ölçümü niteliğinde. Bu iki maçın sonuçları, dördüncü hafta sonunda puan tablosundaki erken kümelenmeyi yeniden biçimlendirebilir.",
+        "Şampiyonlar Ligi’nde iki kulübün de lig aşamasına kalması, Türkiye’deki yarışın prestijini artırırken lig performansı üzerindeki takvim baskısını da yükseltiyor. Bu sezonun kritik stratejik sorusu, yıldız oyuncu kalitesinden ziyade Avrupa haftalarında ilk 11 seviyesini ne kadar koruyabilecekleri olacak."
+      ],
+      "limitations": "TFF puan cetveli ve fikstür doğrulandı; ancak iki kulübün 3 Eylül 2026 tarihinde yayımladığı ayrıntılı antrenman, sakatlık teşhisi, oyuncu dönüş takvimi ve muhtemel ilk 11 bilgileri bu çalışmada bağımsız biçimde doğrulanamadı. Bu nedenle sakatlık sayıları yalnızca canlı veri özetindeki takım verisi olarak kullanıldı; oyuncu bazlı sonuç çıkarılmadı. Sezonun henüz üçüncü hafta sonunda olması nedeniyle güç dengesi hükmü erken dönem fotoğrafıdır, kesin şampiyonluk öngörüsü değildir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-2026-09-03-YORUM-FB-GS-GUC-DENGESI",
+      "authorName": "Ters Kademe",
+      "publishedAt": "2026-09-03T10:09:46.000Z",
+      "discoveredAt": "2026-09-03T13:09:46.945Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - fixtures, team info and top players",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/teams/8695/overview/fenerbahce",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray - fixtures, team info and top players",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/teams/8637/overview/galatasaray",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Champions League league phase fixtures by team",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "831975d7a54d9e5b",
       "role": "transfer",
