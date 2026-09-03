@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T08:46:05.200Z",
+  "updatedAt": "2026-09-03T09:18:47.908Z",
   "stories": [
+    {
+      "id": "78c1f80339ffd32d",
+      "role": "sampiyonlar_ligi",
+      "page": "sampiyonlar-ligi.html",
+      "headline": "Fenerbahçe’ye Lyon maçı sonrası UEFA disiplin süreci",
+      "summary": "Fenerbahçe, Şampiyonlar Ligi play-off turunda Olimpik Lyon ile oynanan rövanşın ardından kulüp ile Mattéo Guendouzi ve Mason Greenwood hakkında UEFA tarafından disiplin süreci başlatıldığını açıkladı. Sarı-lacivertli kulüp, savunma ve belgelerini UEFA kurullarına sunacağını bildirdi.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe’ye Lyon maçı sonrası UEFA disiplin süreci",
+      "seoDescription": "Fenerbahçe, Lyon rövanşı sonrası kulüp, Guendouzi ve Greenwood hakkında başlatılan UEFA disiplin sürecine karşı savunma hazırlayacak.",
+      "focusKeyword": "Fenerbahçe UEFA disiplin süreci",
+      "originalAngle": "Gelişmenin ağırlığı yalnızca iki futbolcunun dosyaya dahil edilmesi değil, Fenerbahçe’nin Şampiyonlar Ligi lig aşamasındaki ilk maçından önce kulübün de UEFA nezdinde savunma sürecine girecek olmasıdır. Ancak henüz herhangi bir ceza kararı açıklanmadı; bundan sonraki kritik soru, UEFA’nın hangi ihlalleri dosyaya konu ettiği ve sürecin Fenerbahçe-Roma maçı kadrosuna etkisinin olup olmayacağıdır.",
+      "keyFindings": [
+        "Fenerbahçe, UEFA’nın Mattéo Guendouzi, Mason Greenwood ve kulüp hakkında disiplin süreci başlattığını duyurdu.",
+        "Süreç, 26 Ağustos 2026’da oynanan ve Fenerbahçe’nin Lyon’u 2-1 yenerek lig aşamasına yükseldiği rövanşın ardından yaşanan olaylarla bağlantılı.",
+        "Kulüp, hak ve menfaatlerini korumak amacıyla UEFA’nın ilgili kurullarına savunma, bilgi ve belge sunacağını açıkladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Fenerbahçe açıklamasını aktaran Anadolu Ajansı haberi, aynı gün yayımlanan beIN SPORTS haberi ve bağımsız Fransız kaynağı Le Parisien’in haber içeriği karşılaştırıldı. Üç kaynakta da disiplin sürecinin kulüp, Guendouzi ve Greenwood’u kapsadığı doğrulandı.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın henüz kamuya açık biçimde kesinleşmiş bir ceza kararı veya dosyadaki maddeleri açıklanmadı. Bu nedenle olası maç, oyuncu ya da para cezaları hakkında çıkarım yapılmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "publishedAt": "2026-09-03T03:01:00.000Z",
+      "discoveredAt": "2026-09-03T09:18:47.908Z",
+      "sources": [
+        {
+          "title": "UEFA, Fenerbahçe ile futbolcuları Guendouzi ve Greenwood hakkında disiplin süreci başlattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/uefa-fenerbahce-ile-futbolculari-guendouzi-ve-greenwood-hakkinda-disiplin-sureci-baslatti/4045950",
+          "publishedAt": "2026-09-03T00:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe’den Guendouzi ve Greenwood açıklaması",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahceden-guendouzi-ve-greenwood-aciklamasi",
+          "publishedAt": "2026-09-03T06:01:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Lyon-Fenerbahçe: UEFA ouvre une procédure disciplinaire contre Guendouzi et Greenwood",
+          "publisher": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/lyon-fenerbahce-luefa-ouvre-une-procedure-disciplinaire-contre-guendouzi-et-greenwood-03-09-2026-VSVXGUINYFHCBCYTLNEDM2UYXE.php",
+          "publishedAt": "2026-09-03T09:45:00+02:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "2b27b14a98732f51",
       "role": "anadolu",
