@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T17:44:41.872Z",
+  "updatedAt": "2026-09-03T18:20:59.376Z",
   "stories": [
+    {
+      "id": "00fb59e10191b535",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray’ın Şampiyonlar Ligi kadrosu açıklandı: Kaan Ayhan ve Arda Ünyay listede yok",
+      "summary": "Galatasaray, UEFA Şampiyonlar Ligi 2026-2027 sezonu lig aşaması için 24 kişilik oyuncu listesini bildirdi. Kaan Ayhan, Arda Ünyay, Kazımcan Karataş, Eyüp Aydın ve Can Armando Güner kadroda yer almadı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray’ın Şampiyonlar Ligi kadrosu açıklandı",
+      "seoDescription": "Galatasaray’ın UEFA Şampiyonlar Ligi kadrosu belli oldu; 24 kişilik listede Kaan Ayhan ve Arda Ünyay yer almadı. Detaylar ve ilk maç takvimi burada.",
+      "focusKeyword": "Galatasaray Şampiyonlar Ligi kadrosu",
+      "originalAngle": "Kadronun açıklanması yalnızca oyuncu listesini değil, Galatasaray’ın Avrupa rotasyonunda hangi isimlere öncelik verdiğini de ortaya koyuyor. Özellikle Kaan Ayhan ve Arda Ünyay’ın dışarıda kalması, savunma rotasyonunun lig ile Avrupa arasında nasıl yönetileceği sorusunu gündeme taşıyor.",
+      "keyFindings": [
+        "Galatasaray, UEFA Şampiyonlar Ligi 2026-2027 sezonu lig aşaması için 24 futbolcudan oluşan listesini UEFA’ya iletti.",
+        "Kaan Ayhan, Arda Ünyay, Kazımcan Karataş, Eyüp Aydın ve Can Armando Güner listede yer almadı.",
+        "Victor Osimhen, Rafael Leao, Leroy Sane ve Deniz Gül kadroda bulunuyor; Galatasaray’ın ilk Şampiyonlar Ligi maçı 9 Eylül 2026’da Sporting CP deplasmanında oynanacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Önce Galatasaray’ın 3 Eylül 2026 tarihli resmi kulüp açıklaması kontrol edildi. Kadro ve liste dışında kalan oyuncular, aynı gün yayımlanan DHA ve beIN SPORTS haberleriyle farklı alan adlarından çapraz doğrulandı.",
+      "originalFindings": [],
+      "limitations": "UEFA’ya bildirilen listenin maç günü değişiklikleri veya UEFA’nın nihai kayıt ekranındaki olası teknik güncellemeler ayrıca doğrulanmadı. Liste dışında kalan oyuncuların neden kadroya alınmadığına ilişkin resmi gerekçe açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T16:56:00.000Z",
+      "discoveredAt": "2026-09-03T18:20:59.376Z",
+      "sources": [
+        {
+          "title": "Galatasarayımızın Şampiyonlar Ligi oyuncu listesi belli oldu",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/galatasarayimizin-sampiyonlar-ligi-oyuncu-listesi-belli-oldu/60886",
+          "publishedAt": "2026-09-03T19:56:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray’ın Şampiyonlar Ligi kadrosu belli oldu",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/galatasarayin-sampiyonlar-ligi-kadrosu-belli-oldu-2938654",
+          "publishedAt": "2026-09-03T19:53:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray’ın Şampiyonlar Ligi kadrosu açıklandı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/galatasarayin-sampiyonlar-ligi-kadrosu-aciklandi",
+          "publishedAt": "2026-09-03T16:33:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "69032e0bdfe4188d",
       "role": "avrupa",
