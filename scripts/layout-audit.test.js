@@ -11,11 +11,14 @@ const {
   parseArgs
 } = require('./layout-audit');
 
-test('Mizanpaj Editörü mobil ve masaüstü görünümü birlikte denetler', () => {
-  assert.deepEqual(DEFAULT_VIEWPORTS.map((item) => item.name), ['mobile', 'desktop']);
+test('Mizanpaj Editörü mobil, masaüstü ve geniş ekran görünümünü birlikte denetler', () => {
+  assert.deepEqual(DEFAULT_VIEWPORTS.map((item) => item.name), ['mobile', 'desktop', 'wide']);
   assert.equal(DEFAULT_VIEWPORTS[0].width, 390);
   assert.equal(DEFAULT_VIEWPORTS[1].width, 1440);
+  assert.equal(DEFAULT_VIEWPORTS[2].width, 2560);
   assert.ok(LAYOUT_LIMITS.mobile.h1 < LAYOUT_LIMITS.desktop.h1);
+  assert.ok(LAYOUT_LIMITS.desktop.h1 < LAYOUT_LIMITS.wide.h1);
+  assert.ok(LAYOUT_LIMITS.minimumWideShellRatio >= 0.5);
   assert.ok(LAYOUT_LIMITS.minimumBodyLineHeightRatio >= 1.18);
 });
 

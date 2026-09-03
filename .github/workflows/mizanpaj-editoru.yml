@@ -2,7 +2,7 @@ name: GOLHAT Mizanpaj Editörü
 
 on:
   schedule:
-    # İçerik vardiyalarından sonra mobil ve masaüstü düzeni saatte iki kez denetler.
+    # İçerik vardiyalarından sonra mobil, masaüstü ve geniş ekran düzenini saatte iki kez denetler.
     - cron: '12,42 * * * *'
   workflow_dispatch:
 
@@ -70,7 +70,7 @@ jobs:
               await github.rest.issues.getLabel({ owner, repo, name: 'mizanpaj' });
             } catch (error) {
               if (error.status !== 404) throw error;
-              await github.rest.issues.createLabel({ owner, repo, name: 'mizanpaj', color: 'ef2840', description: 'GOLHAT otomatik mobil ve masaüstü düzen denetimi' });
+              await github.rest.issues.createLabel({ owner, repo, name: 'mizanpaj', color: 'ef2840', description: 'GOLHAT otomatik mobil, masaüstü ve geniş ekran düzen denetimi' });
             }
             const lines = report.results
               .filter(result => result.issues.length)

@@ -10,13 +10,16 @@ const { spawn, spawnSync } = require('node:child_process');
 const REPO_ROOT = path.resolve(__dirname, '..');
 const DEFAULT_VIEWPORTS = Object.freeze([
   Object.freeze({ name: 'mobile', width: 390, height: 844, mobile: true }),
-  Object.freeze({ name: 'desktop', width: 1440, height: 1000, mobile: false })
+  Object.freeze({ name: 'desktop', width: 1440, height: 1000, mobile: false }),
+  Object.freeze({ name: 'wide', width: 2560, height: 1080, mobile: false })
 ]);
 const LAYOUT_LIMITS = Object.freeze({
   mobile: Object.freeze({ h1: 76, h2: 60, h3: 50, body: 26 }),
   desktop: Object.freeze({ h1: 152, h2: 92, h3: 72, body: 30 }),
+  wide: Object.freeze({ h1: 170, h2: 112, h3: 82, body: 34 }),
   minimumBodyText: 9,
   minimumBodyLineHeightRatio: 1.18,
+  minimumWideShellRatio: 0.52,
   horizontalTolerance: 2
 });
 
@@ -244,6 +247,22 @@ function browserAudit(page, viewport, limits) {
       limit: root.clientWidth,
       suspects
     });
+  }
+
+  if (viewport.name === 'wide' && !page.startsWith('haber/')) {
+    const shell = document.querySelector('main.wrap');
+    if (shell && visible(shell)) {
+      const ratio = shell.getBoundingClientRect().width / root.clientWidth;
+      if (ratio < limits.minimumWideShellRatio) {
+        issues.push({
+          code: 'content-too-narrow',
+          message: 'Ana yayın alanı geniş ekranı yeterince kullanmıyor',
+          selector: 'main.wrap',
+          value: Number(ratio.toFixed(3)),
+          limit: limits.minimumWideShellRatio
+        });
+      }
+    }
   }
 
   const textSelector = 'h1,h2,h3,p,li,td,th,.dispatch-headline,.dispatch-dek,.standfirst';
