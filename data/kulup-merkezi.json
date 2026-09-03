@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T06:38:22.511Z",
+  "updatedAt": "2026-09-03T08:35:14.410Z",
   "sources": [
     {
       "name": "FotMob",
@@ -680,7 +680,7 @@
       "coach": "Fatih Tekke",
       "stadium": "Papara Park",
       "squad": {
-        "total": 30,
+        "total": 31,
         "injured": 4
       },
       "nextMatches": [
