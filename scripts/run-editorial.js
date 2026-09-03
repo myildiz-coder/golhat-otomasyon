@@ -19,6 +19,7 @@ const {
 const {
   loadState,
   saveState,
+  urlSignature,
   collectCitedUrls,
   parseStructuredResponse,
   storyIsDuplicate,
@@ -156,6 +157,27 @@ function buildAssignmentSnapshot(role) {
     console.warn('[Yorum masası] canlı görev özeti okunamadı: ' + error.message);
     return '';
   }
+}
+
+function assignmentSourceSignatures(role) {
+  const signatures = new Set();
+  if (!role.columnists || !String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim()) return signatures;
+  try {
+    const root = path.resolve(__dirname, '..');
+    const league = JSON.parse(fs.readFileSync(path.join(root, 'data', 'super-lig.json'), 'utf8'));
+    const clubCenter = JSON.parse(fs.readFileSync(path.join(root, 'data', 'kulup-merkezi.json'), 'utf8'));
+    const trustedUrls = [
+      league.sourceUrl,
+      ...['fenerbahce', 'galatasaray'].flatMap((key) => {
+        const club = clubCenter.clubs[key];
+        return [club.officialUrl, club.sourceUrl];
+      })
+    ].filter(Boolean);
+    for (const url of trustedUrls) signatures.add(urlSignature(url));
+  } catch (error) {
+    console.warn('[Yorum masası] güvenilir kaynak imzaları okunamadı: ' + error.message);
+  }
+  return signatures;
 }
 
 function categoryRequest(role, now, model) {
@@ -296,6 +318,7 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
   const response = await requestOpenAI(categoryRequest(role, now, model), apiKey);
   const result = parseStructuredResponse(response);
   const citedUrls = collectCitedUrls(response);
+  for (const signature of assignmentSourceSignatures(role)) citedUrls.add(signature);
 
   if (result.decision !== 'update' || result.stories.length === 0) {
     console.log('[' + role.label + '] değişiklik yok: ' + result.rationale);

@@ -42,6 +42,9 @@ test('yorum masası benzersiz ve açıkça tanımlı müstear yazarlardan oluşu
   assert.match(page, /gerçek kişi iddiası taşımaz/);
   const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
   assert.match(runner, /buildAssignmentSnapshot/);
+  assert.match(runner, /assignmentSourceSignatures/);
+  assert.match(runner, /league\.sourceUrl/);
+  assert.match(runner, /club\.officialUrl, club\.sourceUrl/);
   assert.match(runner, /son 12 saatte yeni olay bulunması şartını uygulama/);
   assert.match(runner, /GOLHAT canlı veri özeti/);
 });
