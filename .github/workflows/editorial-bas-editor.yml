@@ -64,7 +64,7 @@ jobs:
           set -euo pipefail
           git config user.name "golhat-head-editor-bot"
           git config user.email "actions@github.com"
-          git add data/editorial/state.json index.html ozel-haber.html sitemap.xml
+          git add data/editorial/state.json index.html ozel-haber.html sitemap.xml news-sitemap.xml
           if [[ -d haber ]]; then git add haber; fi
           if git diff --cached --quiet; then
             echo "Ana sayfada değişiklik yok."

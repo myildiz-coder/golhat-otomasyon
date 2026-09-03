@@ -39,7 +39,7 @@ jobs:
           set -euo pipefail
           git config user.name "golhat-homepage-guard"
           git config user.email "actions@github.com"
-          git add index.html ozel-haber.html sitemap.xml
+          git add index.html ozel-haber.html sitemap.xml news-sitemap.xml
           if [[ -d haber ]]; then git add haber; fi
           if git diff --cached --quiet; then
             echo "Ana sayfa bütünlüğü sağlam."

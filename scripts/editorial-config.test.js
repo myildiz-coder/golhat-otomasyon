@@ -115,6 +115,19 @@ test('kategori editörleri her saat 7/24 çalışır', () => {
   assert.match(workflow, /cron: '20 \* \* \* \*'/);
 });
 
+test('yayın iş akışları haber site haritasını commit kapsamına alır', () => {
+  const root = path.resolve(__dirname, '..');
+  for (const name of [
+    'editorial-kategoriler.yml',
+    'editorial-arastirma.yml',
+    'editorial-bas-editor.yml',
+    'homepage-integrity.yml'
+  ]) {
+    const workflow = fs.readFileSync(path.join(root, '.github', 'workflows', name), 'utf8');
+    assert.match(workflow, /git add .*sitemap\.xml news-sitemap\.xml/, name);
+  }
+});
+
 test('her kategori sayfasında tek bir canlı haber masası durumu görünür', () => {
   const root = path.resolve(__dirname, '..');
   for (const role of Object.values(EDITOR_ROLES)) {

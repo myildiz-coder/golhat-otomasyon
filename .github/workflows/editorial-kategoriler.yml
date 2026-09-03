@@ -87,7 +87,7 @@ jobs:
           set -euo pipefail
           git config user.name "golhat-editorial-bot"
           git config user.email "actions@github.com"
-          git add data/editorial/state.json ./*.html sitemap.xml
+          git add data/editorial/state.json ./*.html sitemap.xml news-sitemap.xml
           if [[ -d haber ]]; then git add haber; fi
           if git diff --cached --quiet; then
             echo "Yayınlanacak değişiklik yok."

@@ -58,7 +58,7 @@ jobs:
           set -euo pipefail
           git config user.name "golhat-research-desk"
           git config user.email "actions@github.com"
-          git add data/editorial/state.json ozel-haber.html sitemap.xml
+          git add data/editorial/state.json ozel-haber.html sitemap.xml news-sitemap.xml
           if [[ -d haber ]]; then git add haber; fi
           if git diff --cached --quiet; then
             echo "Yayınlanabilir yeni araştırma dosyası yok."
