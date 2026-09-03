@@ -1,7 +1,102 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T11:16:40.250Z",
+  "updatedAt": "2026-09-03T11:42:55.613Z",
   "stories": [
+    {
+      "id": "ea46053612d39ea5",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Bodrum FK, Benfica B’den Lüksemburglu orta saha Tomas Cruz’u aldı",
+      "summary": "Trendyol 1. Lig ekibi Bodrum FK, Benfica B takımında forma giyen ve Lüksemburg Millî Takımı’nda oynayan 21 yaşındaki orta saha Tomas Cruz ile anlaşmaya vardı.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Bodrum FK, Tomas Cruz transferini açıkladı",
+      "seoDescription": "Bodrum FK, Benfica B ve Lüksemburg Millî Takımı oyuncusu Tomas Cruz’u kadrosuna kattı. Transferin genç orta saha planındaki yeri haberimizde.",
+      "focusKeyword": "Bodrum FK Tomas Cruz transferi",
+      "originalAngle": "Bodrum FK’nın hamlesi yalnızca genç bir orta saha takviyesi değil; Portekiz futbol altyapısı ve Lüksemburg A Millî Takımı deneyimi bulunan bir oyuncuyla orta saha rotasyonunu farklı bir futbol geçmişiyle genişletme adımı. Bundan sonraki soru, Cruz’un Bodrum FK’nın yoğun fikstüründe ne kadar hızlı süre alacağı olacak.",
+      "keyFindings": [
+        "Bodrum FK, Benfica B takımında forma giyen Tomas Cruz ile anlaşmaya vardığını duyurdu.",
+        "26 Haziran 2005 doğumlu Cruz, Porto ve Hannover 96 altyapılarında yetişti; 2024’te Benfica’ya geçti.",
+        "Cruz, 2024’ten bu yana Lüksemburg A Millî Takımı’nda görev yapıyor ve UEFA Uluslar Ligi ile Dünya Kupası Elemeleri’nde forma giydi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Transfer gelişmesi, 3 Eylül 2026 tarihinde yayımlanan DHA haberi ile Ajansspor’un kulüp açıklamasına dayandırdığı haber karşılaştırılarak doğrulandı. Oyuncunun Benfica B ve Lüksemburg Millî Takımı geçmişi iki haberde de aynı çerçevede aktarıldı.",
+      "originalFindings": [],
+      "limitations": "Sözleşmenin süresi, transfer bedeli ve oyuncunun ilk maçta görev alıp almayacağı doğrulanmış kaynaklarda açıklanmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T07:38:00.000Z",
+      "discoveredAt": "2026-09-03T11:42:55.613Z",
+      "sources": [
+        {
+          "title": "Bodrum FK, Tomas Cruz’u kadrosuna kattı",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/mugla/bodrum/bodrum-fk-tomas-cruzu-kadrosuna-katti-2938187",
+          "publishedAt": "2026-09-03T10:38:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Bodrum FK, Tomas Cruz’u transfer etti",
+          "publisher": "Ajansspor",
+          "url": "https://ajansspor.com/haber/bodrum-fk-tomas-cruzu-transfer-etti-734005",
+          "publishedAt": "2026-09-03T00:35:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "1e64f2a0af68b371",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Trabzonspor, Franculino Dju transferini KAP’a bildirdi",
+      "summary": "Trabzonspor, Midtjylland’dan Franculino Gludo Dju ile 4+1 yıllık anlaşma sağlandığını duyurdu. Transferin mali ve sözleşme detayları KAP bildiriminde açıklandı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor, Franculino Dju transferini KAP’a bildirdi",
+      "seoDescription": "Trabzonspor, Franculino Dju ile 4+1 yıllık anlaşma sağladı. KAP bildirimi transfer bedeli, ücret ve sözleşme detaylarını ortaya koydu.",
+      "focusKeyword": "Franculino Dju Trabzonspor transferi",
+      "originalAngle": "Gelişmenin ayırt edici tarafı yalnızca transferin tamamlanması değil, Trabzonspor’un sözleşme yapısını ve mali yükümlülüklerini KAP üzerinden ayrıntılı biçimde açıklaması. Böylece haber, prensip anlaşmasından imzalı sözleşmeye geçti.",
+      "keyFindings": [
+        "Trabzonspor, Franculino Gludo Dju’nun transferi için Midtjylland ve oyuncuyla anlaşma sağlandığını açıkladı.",
+        "KAP bildirimine göre oyuncuyla 4+1 yıllık sözleşme imzalandı; ilk dört sezonun her biri için 2.125.000 avro garanti ücret belirlendi.",
+        "Midtjylland’a 17 milyon avro bonservis bedeli ve şarta bağlı bonuslar ödeneceği, ayrıca gelecekteki satıştan belirli koşullarla yüzde 15 pay verileceği bildirildi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Trabzonspor’un resmi duyurusu, KAP bildirimi ve bağımsız spor haberi karşılaştırıldı. Sözleşme süresi ile ücret bilgileri KAP kaydı üzerinden esas alındı.",
+      "originalFindings": [],
+      "limitations": "KAP bildiriminde şarta bağlı bonusların toplam tutarı ayrıntılı olarak belirtilmedi; bu nedenle bonusların toplam maliyeti kesinleştirilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-02T20:52:00.000Z",
+      "discoveredAt": "2026-09-03T11:42:55.613Z",
+      "sources": [
+        {
+          "title": "Kamuoyuna Duyuru",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/kamuoyuna-duyuru-76-02-09-2026",
+          "publishedAt": "2026-09-02T23:53:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor Sportif Yatırım ve Futbol İşletmeciliği Ticaret A.Ş. - Sözleşme İmzalanması",
+          "publisher": "Bloomberg HT / KAP",
+          "url": "https://www.bloomberght.com/borsa/hisse/trabzonspor/kap-haberi/348623",
+          "publishedAt": "2026-09-02T23:52:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor transferi resmen duyurdu!",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/trabzonspor-transferi-resmen-duyurdu-4",
+          "publishedAt": "2026-09-02T21:01:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "92d08c13c7109840",
       "role": "fenerbahce",
