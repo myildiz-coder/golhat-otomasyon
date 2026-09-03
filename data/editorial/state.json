@@ -1,7 +1,144 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T13:42:45.237Z",
+  "updatedAt": "2026-09-03T13:45:04.900Z",
   "stories": [
+    {
+      "id": "7b2bbb020bb26753",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Bayern Münih, Osnabrück deplasmanında geriden gelip DFB-Pokal’da tur atladı",
+      "summary": "Son şampiyon Bayern Münih, DFB-Pokal ilk turunda Osnabrück karşısında erken geriye düşmesine rağmen Harry Kane’in iki golüyle 4-1 kazanarak ikinci tura yükseldi.",
+      "tag": "Maç Sonucu",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Bayern Münih, Osnabrück’ü yenerek DFB-Pokal’da tur atladı",
+      "seoDescription": "Bayern Münih, Osnabrück karşısında 4-1 kazanıp DFB-Pokal’da ikinci tura yükseldi. Harry Kane’in iki golü ve maçın kırılma anları haberde.",
+      "focusKeyword": "Bayern Münih Osnabrück DFB-Pokal",
+      "originalAngle": "Bayern Münih’in sonucu yalnızca tur geçişi değil, Bundesliga sezonuna 5-1’lik galibiyetle başlayan takımın kupa açılışında erken gol yedikten sonra oyunu nasıl yeniden kontrol ettiğini gösteriyor. Osnabrück’ün maçı 73. dakikaya kadar tek farkta tutması, skorun rahat görünmesine rağmen karşılaşmanın uzun bölümünde tamamen kopmadığını ortaya koyuyor.",
+      "keyFindings": [
+        "Bayern Münih, 2 Eylül 2026’da Osnabrück’ü deplasmanda 4-1 yenerek DFB-Pokal’da ikinci tura çıktı.",
+        "Robin Meißner’in 5. dakikadaki golüne Harry Kane 18. ve 86. dakikalarda, Tom Bischof 24. dakikada, Michael Olise ise 73. dakikada karşılık verdi.",
+        "Bayern, 2026/27 Bundesliga sezonuna Stuttgart karşısında aldığı 5-1’lik galibiyetin ardından kupada da yoluna devam etti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu ve gol dakikaları FC Bayern’in resmî maç raporu ile Almanya Futbol Federasyonu’nun karşılaşma haberinde karşılaştırıldı; skor, tur bilgisi ve olay akışı iki ayrı alan adında aynı şekilde doğrulandı. ([fcbayern.com](https://fcbayern.com/en/news/matchreports/2026/09/match-report-vfl-osnabrueck-v-fc-bayern-020916))",
+      "originalFindings": [],
+      "limitations": "Bu haber maç sonucu ve doğrulanabilir olay akışıyla sınırlıdır; Bayern’in sonraki turdaki rakibi ve kura sonucu henüz bu haberin kapsamına alınmamıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T10:45:04.000Z",
+      "discoveredAt": "2026-09-03T13:45:04.900Z",
+      "sources": [
+        {
+          "title": "Match report: DFB Cup first round, VfL Osnabrück v FC Bayern",
+          "publisher": "FC Bayern München",
+          "url": "https://fcbayern.com/en/news/matchreports/2026/09/match-report-vfl-osnabrueck-v-fc-bayern-020916",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Nach frühem Rückstand: FC Bayern dreht Auftaktpartie in Osnabrück",
+          "publisher": "Deutscher Fußball-Bund",
+          "url": "https://www.dfb.de/news/nach-fruehem-rueckstand-fc-bayern-dreht-auftaktpartie-in-osnabrueck",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "4f43c9a228cba252",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Schalke’nin golcüsü Edin Džeko, Bosna-Hersek millî takımını bırakacağını açıkladı",
+      "summary": "Bundesliga’ya Schalke formasıyla dönen 40 yaşındaki Edin Džeko, Bosna-Hersek adına son maçına 2 Ekim 2026’da İsveç karşısında çıkacağını duyurdu.",
+      "tag": "Gelişme",
+      "importance": 74,
+      "contentType": "news",
+      "seoTitle": "Edin Džeko, Bosna-Hersek millî takımını bırakıyor",
+      "seoDescription": "Schalke forveti Edin Džeko, Bosna-Hersek formasını 2 Ekim 2026’daki İsveç maçından sonra bırakacağını açıkladı; kariyerindeki yeni dönem haberde.",
+      "focusKeyword": "Edin Džeko Bosna-Hersek millî takımını bırakıyor",
+      "originalAngle": "Džeko’nun kararı, 2026/27 sezonunda Bundesliga’ya dönen tecrübeli forvetin kulüp kariyerini sürdürürken millî takım yükünü bırakması anlamına geliyor. Schalke’de yeniden Bundesliga sahnesine çıkan Džeko için bundan sonraki temel soru, uluslararası vedanın kulüp düzeyindeki rolünü ve sezon planını nasıl etkileyeceği olacak.",
+      "keyFindings": [
+        "Edin Džeko, Bosna-Hersek millî takımındaki kariyerini 2 Ekim 2026’da İsveç karşılaşmasının ardından sonlandıracağını açıkladı.",
+        "Džeko, Bosna-Hersek formasıyla 151 maça çıktı ve 73 gol attı.",
+        "40 yaşındaki futbolcu, Schalke’nin Bundesliga’ya yükselmesinin ardından yeni sezonda Almanya’nın en üst ligine geri döndü."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Karar, Bundesliga’nın Džeko ve Schalke bağlantısını aktaran haberi ile beIN SPORTS Türkiye’nin aynı gün yayımladığı haber karşılaştırılarak doğrulandı. Son maç tarihi, millî takım vedası ve oyuncunun Schalke’deki Bundesliga dönüşü iki farklı alan adından kontrol edildi. ([bundesliga.com](https://www.bundesliga.com/en/bundesliga/news/edin-dzeko-announces-bosnia-herzegovina-retirement-schalke-world-cup-39006))",
+      "originalFindings": [],
+      "limitations": "Džeko’nun kulüp kariyerini ne zaman sonlandıracağı veya Schalke’deki forma rolünün değişip değişmeyeceği konusunda doğrulanmış yeni bir açıklama bulunmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T10:45:04.000Z",
+      "discoveredAt": "2026-09-03T13:45:04.900Z",
+      "sources": [
+        {
+          "title": "Schalke striker Edin Džeko announces Bosnia & Herzegovina retirement",
+          "publisher": "Bundesliga",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/edin-dzeko-announces-bosnia-herzegovina-retirement-schalke-world-cup-39006",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Edin Dzeko milli takım kariyerini noktalayacağını açıkladı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/edin-dzeko-milli-takim-kariyerini-noktalayacagini-acikladi",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "91efa50d7cd069c2",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Beşiktaş’ın Ümit Akdağ hamlesi, eksik kapatmaktan çok kadro esnekliği arayışı",
+      "summary": "Beşiktaş, Ümit Akdağ ile dört yıllık sözleşme imzaladı. Bu hamle, savunmaya tek oyuncu eklemekten öte, sezon yoğunluğu ve kadro esnekliği karşısında daha dayanıklı bir yapı kurma arayışını gösteriyor; asıl ölçü ise genç oyuncunun rotasyonda ne kadar erken sorumluluk alacağı.",
+      "tag": "Yorum",
+      "importance": 78,
+      "contentType": "analysis",
+      "seoTitle": "Beşiktaş’ın Ümit Akdağ transferi ne anlatıyor?",
+      "seoDescription": "Beşiktaş’ın Ümit Akdağ transferi, savunma takviyesinden fazlasını anlatıyor: kadro esnekliği, sezon yoğunluğu ve genç oyuncunun rolü.",
+      "focusKeyword": "Beşiktaş Ümit Akdağ transferi",
+      "originalAngle": "Ümit Akdağ transferinin asıl anlamı, Beşiktaş’ın yalnızca savunmadaki sayısal açığı kapatması değil; sezon boyunca farklı maç senaryolarına cevap verebilecek, genç ve çok yönlü bir rotasyon kurmaya yönelmesidir. Ancak bu yatırımın değeri, sözleşmenin uzunluğundan çok oyuncunun kısa vadede gerçek rekabet ve sorumluluk içine sokulup sokulmayacağıyla ölçülecek.",
+      "keyFindings": [
+        "Beşiktaş, Corendon Alanyaspor ile anlaşarak Ümit Akdağ’ı kadrosuna kattı ve oyuncuyla dört yıllık sözleşme imzaladı.",
+        "Ümit Akdağ transferinin 3 Eylül 2026’da, Avrupa listelerinin şekillendiği dönemin son bölümünde resmileşmesi hamlenin zamanlamasını önemli kılıyor.",
+        "Kulüp açıklaması transferin tamamlandığını doğruluyor; bağımsız spor basını ise oyuncunun savunma hattında kullanılmasının ve genç yaşının öne çıktığını aktarıyor.",
+        "Bu veriler, transferin yalnızca mevcut eksik için değil, sezon içindeki rotasyon ve kadro esnekliği için de değerlendirilebileceğine işaret ediyor; bunun sahadaki karşılığı henüz kanıtlanmış değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "3 Eylül 2026 tarihinde Beşiktaş’ın resmi kulüp açıklaması ile bağımsız spor basınındaki transfer haberleri karşılaştırıldı. Yorum, doğrulanmış transfer olgusundan hareketle kadro mühendisliği ve zamanlama üzerine kurulmuştur; oyuncunun gelecekteki performansı hakkında kesin hüküm verilmemiştir.",
+      "originalFindings": [
+        "Dört yıllık sözleşme, Beşiktaş’ın transferi kısa vadeli bir yedek hamlesinden ziyade orta vadeli kadro yatırımı olarak konumlandırdığını düşündürüyor; bu bir editoryal çıkarımdır.",
+        "Transferin sezon başlangıcında ve Avrupa listelerinin belirlendiği dönemde yapılması, teknik ekibin savunma rotasyonunu erken genişletme ihtiyacını gündeme getiriyor.",
+        "Bundan sonraki temel soru, Ümit Akdağ’ın yalnızca kadro derinliği olarak mı kalacağı, yoksa kısa sürede düzenli rekabet ve görev alacağıdır."
+      ],
+      "limitations": "Beşiktaş’ın transfer bedeli ve ödeme koşulları kulübün resmi açıklamasında yer almıyor. Oyuncunun hangi sistemde, hangi pozisyonda ve ne sıklıkta kullanılacağı konusunda teknik ekipten doğrulanmış bir açıklama bulunmuyor. Bu nedenle yazı, transferin olası kadro planlama anlamını tartışmakta; performans veya ilk 11 rolü hakkında kesin sonuç ileri sürmemektedir.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "GOLHAT-20260903-YORUM-UMIT-AKDAG-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-03T10:45:04.000Z",
+      "discoveredAt": "2026-09-03T13:45:04.900Z",
+      "sources": [
+        {
+          "title": "Beşiktaşımıza Hoş Geldin Ümit Akdağ",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95031",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Yeni Kartal Ümit Akdağ!",
+          "publisher": "Fotomaç",
+          "url": "https://www.fotomac.com.tr/besiktas/2026/09/03/yeni-kartal-umit-akdag",
+          "publishedAt": "2026-09-03T06:50:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "b983e2b472e7a818",
       "role": "galatasaray",
