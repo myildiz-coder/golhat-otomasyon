@@ -351,7 +351,7 @@ function validateStory(raw, context) {
       throw new Error('Yorum masası yalnız Yorum etiketli analiz yayımlar');
     }
     if (!COMMENTARY_WRITER_NAMES.has(authorName)) {
-      throw new Error('Yorum yazarı kayıtlı GOLHAT müstearlarından biri olmalı');
+      throw new Error('Yorum yazarı kayıtlı GOLHAT yazar kadrosundan biri olmalı');
     }
     if (originalAngle.length < 120) {
       throw new Error('Yorum yazısının özgün tezi en az 120 karakter olmalı');
@@ -1010,6 +1010,8 @@ function storyJsonLd(story, absoluteUrl, pageLabel, now) {
   const publishedAt = new Date(story.publishedAt).toISOString();
   const modifiedAt = new Date(story.discoveredAt || story.publishedAt || now).toISOString();
   const articleType = ['analysis', 'dossier'].includes(story.contentType) ? 'AnalysisNewsArticle' : 'NewsArticle';
+  const commentaryWriter = COMMENTARY_WRITERS.find((writer) => writer.name === story.authorName);
+  const commentaryDescription = commentaryWriter?.lead ? 'GOLHAT Baş Yazarı' : 'GOLHAT editoryal müstearı';
   const article = {
     '@type': articleType,
     '@id': absoluteUrl + '#article',
@@ -1023,7 +1025,7 @@ function storyJsonLd(story, absoluteUrl, pageLabel, now) {
     inLanguage: 'tr-TR',
     articleSection: pageLabel,
     author: story.page === 'yorum.html'
-      ? { '@type': 'Person', name: story.authorName || 'GOLHAT Yorum Masası', description: 'GOLHAT editoryal müstearı' }
+      ? { '@type': 'Person', name: story.authorName || 'GOLHAT Yorum Masası', description: commentaryDescription }
       : { '@type': 'Organization', name: story.authorName || 'GOLHAT Haber Merkezi', url: 'https://golhat.com/' },
     publisher: {
       '@type': 'NewsMediaOrganization',
@@ -1074,12 +1076,20 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
   const description = (story.seoDescription || story.summary).slice(0, 180);
   const publishedAt = new Date(story.publishedAt).toISOString();
   const modifiedAt = new Date(story.discoveredAt || story.publishedAt || now).toISOString();
-  const findings = (story.keyFindings?.length ? story.keyFindings : [story.summary])
+  const findingItems = story.keyFindings?.length ? story.keyFindings : [story.summary];
+  const findings = findingItems
     .map((item) => '<li>' + htmlEscape(item) + '</li>').join('');
-  const originalFindings = (story.originalFindings || [])
+  const commentaryParagraphs = findingItems
+    .map((item) => '<p>' + htmlEscape(item) + '</p>').join('');
+  const originalFindingItems = story.originalFindings || [];
+  const originalFindings = originalFindingItems
     .map((item) => '<li>' + htmlEscape(item) + '</li>').join('');
+  const originalCommentaryParagraphs = originalFindingItems
+    .map((item) => '<p>' + htmlEscape(item) + '</p>').join('');
   const originalContribution = originalFindings
-    ? '<h2>GOLHAT’ın yeni bulguları</h2><ul class="findings original-findings">' + originalFindings + '</ul>'
+    ? story.page === 'yorum.html'
+      ? '<div class="column-prose column-conclusion">' + originalCommentaryParagraphs + '</div>'
+      : '<h2>GOLHAT’ın yeni bulguları</h2><ul class="findings original-findings">' + originalFindings + '</ul>'
     : '';
   const roleLabels = {
     primary_evidence: 'Birincil kanıt',
@@ -1107,8 +1117,13 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
       : story.contentType === 'analysis' ? 'Analiz' : 'Doğrulanmış Haber';
   const relatedStories = selectRelatedStories(story, allStories);
   const byline = story.authorName || (story.page === 'ozel-haber.html' ? 'GOLHAT Araştırma Kurulu' : 'GOLHAT Haber Merkezi');
-  const angleHeading = story.page === 'yorum.html' ? 'Yazının özgün tezi' : 'Dosyanın özgün açısı';
-  const findingsHeading = story.page === 'yorum.html' ? 'Yorumu taşıyan doğrulanmış olgular' : 'Doğrulanan bulgular';
+  const commentaryWriter = COMMENTARY_WRITERS.find((writer) => writer.name === byline);
+  const commentaryRole = commentaryWriter?.lead ? 'GOLHAT Baş Yazarı' : 'GOLHAT editoryal müstearı';
+  const angleHeading = story.page === 'yorum.html' ? byline + ' yazıyor' : 'Dosyanın özgün açısı';
+  const findingsHeading = 'Doğrulanan bulgular';
+  const findingsBlock = story.page === 'yorum.html'
+    ? '<div class="column-prose" aria-label="Köşe yazısının devamı">' + commentaryParagraphs + '</div>'
+    : '<h2>' + htmlEscape(findingsHeading) + '</h2><ul class="findings">' + findings + '</ul>';
   const currentPageNav = story.page === 'yorum.html'
     ? ''
     : '<a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a>';
@@ -1137,6 +1152,7 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     'h2{font:700 2rem/1.1 Impact,sans-serif;margin-top:36px}',
     '.angle{border-left:5px solid var(--red);padding:18px 22px;background:#fff}',
     '.findings{padding-left:22px}.findings li{margin:12px 0}',
+    '.column-prose{margin:26px 0}.column-prose p{font-size:1.08rem;line-height:1.78;margin:0 0 1.25em}.column-conclusion{padding-top:8px;border-top:1px solid var(--line)}',
     '.method{padding:18px;border:1px solid var(--line);font:.78rem/1.6 monospace}',
     '.sources{list-style:none;padding:0}.sources li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}',
     '.sources span{font:600 .7rem monospace;color:var(--red)}.sources a{font-weight:700}.sources p{margin:4px 0;font-size:.9rem}',
@@ -1164,9 +1180,9 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     '<main class="wrap"><article><nav class="breadcrumb" aria-label="İçerik yolu"><a href="/">Ana Sayfa</a> / <a href="/' + htmlEscape(story.page) + '">' + htmlEscape(pageLabel) + '</a></nav>',
     '<div class="article-head"><div class="kicker">' + htmlEscape(typeLabel) + ' · ' + htmlEscape(pageLabel) + '</div><h1>' + htmlEscape(story.headline) + '</h1>',
     '<p class="standfirst">' + htmlEscape(story.summary) + '</p>',
-    '<p class="meta">' + htmlEscape(byline) + (story.page === 'yorum.html' ? ' · GOLHAT editoryal müstearı' : '') + ' · <time datetime="' + publishedAt + '">' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + '</time> · ' + story.sources.length + ' bağımsız kaynak</p></div>',
-    '<div class="grid"><div><h2>' + htmlEscape(angleHeading) + '</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p>' + originalContribution,
-    '<h2>' + htmlEscape(findingsHeading) + '</h2><ul class="findings">' + findings + '</ul>',
+    '<p class="meta">' + htmlEscape(byline) + (story.page === 'yorum.html' ? ' · ' + htmlEscape(commentaryRole) : '') + ' · <time datetime="' + publishedAt + '">' + htmlEscape(formatIstanbulDateTime(story.publishedAt)) + '</time> · ' + story.sources.length + ' bağımsız kaynak</p></div>',
+    '<div class="grid"><div><h2>' + htmlEscape(angleHeading) + '</h2><p class="angle">' + htmlEscape(story.originalAngle || story.summary) + '</p>',
+    findingsBlock + originalContribution,
     '<a class="back" href="/' + htmlEscape(story.page) + '">← ' + htmlEscape(pageLabel) + ' ' + returnLabel + '</a></div>',
     '<aside><h2>Kaynak zinciri</h2><ol class="sources">' + sources + '</ol>',
     '<p class="method"><b>Yöntem:</b> ' + htmlEscape(methodology) + '</p><p class="method"><b>Sınırlılıklar:</b> ' + htmlEscape(limitations) + '</p>',

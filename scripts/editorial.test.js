@@ -151,7 +151,7 @@ test('haber yalnızca gerçek arama URLleri ve iki alan adıyla kabul edilir', (
   assert.match(story.id, /^[a-f0-9]{16}$/);
 });
 
-test('yorum masası yalnız kayıtlı müstear imzalı ve açıkça yorum etiketli analiz kabul eder', () => {
+test('yorum masası yalnız kayıtlı yazar imzalı ve açıkça yorum etiketli analiz kabul eder', () => {
   const base = rawStory({
     page: 'yorum.html',
     headline: 'Transfer yarışında asıl mesele imza değil kadro dengesidir',
@@ -175,8 +175,15 @@ test('yorum masası yalnız kayıtlı müstear imzalı ve açıkça yorum etiket
   assert.equal(story.contentType, 'analysis');
   assert.equal(selectHomepagePrimary(story, [story], NOW), null);
   assert.equal(selectHomepageStories(validStory(), [story], NOW, 10).some((item) => item.id === story.id), false);
-  assert.throws(() => validateStory({ ...base, author_name: 'Rastgele Yazar' }, context), /kayıtlı GOLHAT müstearlarından/);
+  assert.throws(() => validateStory({ ...base, author_name: 'Rastgele Yazar' }, context), /kayıtlı GOLHAT yazar kadrosundan/);
   assert.throws(() => validateStory({ ...base, tag: 'Analiz' }, context), /yalnız Yorum etiketli analiz/);
+
+  const leadStory = validateStory({ ...base, author_name: 'Mustafa YILDIZ' }, context);
+  const leadPage = buildStoryPageHtml(leadStory, NOW, [leadStory]);
+  assert.match(leadPage, /Mustafa YILDIZ · GOLHAT Baş Yazarı/);
+  assert.match(leadPage, /"description":"GOLHAT Baş Yazarı"/);
+  assert.match(leadPage, /class="column-prose"/);
+  assert.doesNotMatch(leadPage, /Yorumu taşıyan doğrulanmış olgular/);
 });
 
 test('arama sonuçlarında görülmeyen URL reddedilir', () => {

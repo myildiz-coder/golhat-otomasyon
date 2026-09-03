@@ -81,10 +81,10 @@ const PAGE_TOPIC_RULES = Object.freeze({
 });
 
 const COMMENTARY_WRITERS = Object.freeze([
-  Object.freeze({ name: 'Ters Kademe', slug: 'ters-kademe', initials: 'TK', focus: 'Taktik, oyun planı, yarış dengesi ve maç içi kırılmalar', lead: true }),
-  Object.freeze({ name: 'Sessiz Tahta', slug: 'sessiz-tahta', initials: 'ST', focus: 'Transfer, kadro mühendisliği ve teknik yapılanma' }),
-  Object.freeze({ name: 'Deplasman Defteri', slug: 'deplasman-defteri', initials: 'DD', focus: 'Tribün kültürü, Anadolu futbolu ve şehir-kulüp ilişkisi' }),
-  Object.freeze({ name: 'Mizan 90', slug: 'mizan-90', initials: 'M90', focus: 'Futbol ekonomisi, yönetim, KAP ve kamu belgeleri' })
+  Object.freeze({ name: 'Mustafa YILDIZ', slug: 'mustafa-yildiz', initials: 'MY', focus: 'Taktik, oyun planı, yarış dengesi ve maç içi kırılmalar', lead: true, penName: false }),
+  Object.freeze({ name: 'Sessiz Tahta', slug: 'sessiz-tahta', initials: 'ST', focus: 'Transfer, kadro mühendisliği ve teknik yapılanma', penName: true }),
+  Object.freeze({ name: 'Deplasman Defteri', slug: 'deplasman-defteri', initials: 'DD', focus: 'Tribün kültürü, Anadolu futbolu ve şehir-kulüp ilişkisi', penName: true }),
+  Object.freeze({ name: 'Mizan 90', slug: 'mizan-90', initials: 'M90', focus: 'Futbol ekonomisi, yönetim, KAP ve kamu belgeleri', penName: true })
 ]);
 
 
@@ -202,6 +202,18 @@ const GOLHAT_PUBLISHER_EXPERIENCE = `
 - Okur metnin sonunda yalnız ne olduğunu değil, bu gelişmeye bundan sonra hangi soruyla bakması gerektiğini de anlamalıdır.
 `.trim();
 
+const GOLHAT_COMMENTARY_VOICE = `
+- Köşe yazısı bir rapor ya da veri dökümü gibi değil, sahayı ve kulübü uzun süredir izleyen gerçek bir yazarın insan sesiyle kurulmalıdır.
+- Tek bir merkez tez seç; yazıyı giriş, gerilim, yorum ve sonuç duygusuyla ilerleyen bütünlüklü bir anlatı olarak kur. Birbirinden kopuk bulguları art arda sıralama.
+- Girişe genel özetle değil, somut bir maç anı, çarpıcı bir karşıtlık, okurun zihnindeki dürüst bir soru veya gündemin asıl gerilimiyle başla.
+- Cümle uzunluklarını ve paragraf ritmini doğal biçimde değiştir. Gerektiğinde kısa ve doğrudan hüküm ver; ardından bu hükmün dayanağını açıkla.
+- Yazarın kanaati görünür olsun. “Bence” sözcüğünü tekrarlamadan, kanıtın izin verdiği yerde açık bir yorum ve kişisel muhakeme ortaya koy.
+- Yapay zekâ kalıbı hissi veren mekanik geçişleri, aynı fikri farklı sözlerle yinelemeyi, “bu sadece... değil, aynı zamanda...” formülünü ve zoraki sonuç paragraflarını kullanma.
+- summary, original_angle, key_findings ve original_findings alanları birbirini tekrar etmesin; key_findings içindeki her öğeyi yayımlandığında yazının akışını sürdürecek doğal bir paragraf olarak yaz.
+- Kaynak güvenliği, tarafsızlık ve olgu-yorum ayrımı aynen korunur. İnsansı ses; uydurma anı, kulis, alıntı, duygu veya kesinlik üretme izni değildir.
+- Yazıyı okurun aklında kalacak açık bir kanaat, ölçülü bir uyarı ya da bundan sonra izlenmesi gereken soruyla bitir.
+`.trim();
+
 const GOLHAT_SEO_PLAYBOOK = `
 - SEO’nun amacı arama motorunu kandırmak değil, GOLHAT’ın doğrulanmış ve özgün futbol bilgisini doğru arama niyetiyle buluşturmaktır. Sıralama vaadi verme; insanlar için yararlı haber üret.
 - Her haber tek bir açık arama niyetine cevap versin. focus_keyword gerçek kişi, kulüp, turnuva veya olay adını doğal biçimde taşısın; metne anahtar kelime yığma ve eş anlamlı tekrar doldurma.
@@ -245,6 +257,7 @@ module.exports = {
   SOURCE_RULES,
   GOLHAT_ORIGINAL_JOURNALISM_POLICY,
   GOLHAT_PUBLISHER_EXPERIENCE,
+  GOLHAT_COMMENTARY_VOICE,
   GOLHAT_SEO_PLAYBOOK,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
