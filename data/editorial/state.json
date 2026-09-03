@@ -1,7 +1,107 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T14:19:32.222Z",
+  "updatedAt": "2026-09-03T14:44:30.712Z",
   "stories": [
+    {
+      "id": "c1e82c0eca8264e3",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Nico Schlotterbeck sakatlık sonrası Dortmund antrenmanına döndü",
+      "summary": "Borussia Dortmund, ayak bileği sakatlığı nedeniyle uzun süre forma giyemeyen Nico Schlotterbeck’in yeniden antrenman sahasına çıktığını duyurdu. Teknik direktör Niko Kovač, Alman stoperin önümüzdeki iki hafta içinde takıma dönmesini umuyor; ancak maçta oynayacağı tarih henüz açıklanmadı.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Schlotterbeck Dortmund antrenmanına döndü",
+      "seoDescription": "Nico Schlotterbeck, ayak bileği sakatlığı sonrası Borussia Dortmund antrenmanlarına döndü. Kovač, savunmacının dönüş takvimini açıkladı.",
+      "focusKeyword": "Nico Schlotterbeck sakatlık dönüşü",
+      "originalAngle": "Schlotterbeck’in sahaya dönmesi, Dortmund’un savunma planlamasında önemli bir eşik oluşturuyor; ancak bireysel çalışmanın maç temposuna dönüş anlamına gelmediği özellikle ayrıştırılmalı.",
+      "keyFindings": [
+        "Nico Schlotterbeck, ayak bileği sakatlığı sonrasında Borussia Dortmund antrenman sahasında topla çalışmaya başladı.",
+        "Sky Sport, oyuncunun yeniden antrenmana çıktığını ve teknik direktör Niko Kovač’ın önümüzdeki iki hafta içinde dönüş beklentisini aktardı.",
+        "Dortmund’un savunmacıyı resmî maça ne zaman dahil edeceği ve tam takım antrenmanına geçiş tarihi henüz kesinleşmedi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Borussia Dortmund’un resmî kulüp duyurusu, Bundesliga’nın haber sayfası ve Sky Sport’un aynı gün yayımlanan haberleri karşılaştırıldı. Resmî açıklamadaki antrenmana dönüş bilgisi, bağımsız spor basınındaki dönüş takvimiyle çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Oyuncunun takım antrenmanına tam katılımı, maç kadrosuna alınması veya sahaya çıkacağı tarih doğrulanmış değil. Kovač’ın iki haftalık beklentisi kesin dönüş tarihi olarak sunulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-03T14:44:30.712Z",
+      "sources": [
+        {
+          "title": "Nico Schlotterbeck is back on the practice field",
+          "publisher": "Borussia Dortmund",
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/2/Nico-Schlotterbeck-is-back-on-the-practice-field.html",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Schlotterbeck vor BVB-Comeback: Kovac macht Hoffnung auf schnelle Rückkehr des Nationalspielers",
+          "publisher": "Sky Sport",
+          "url": "https://sport.sky.de/fussball/artikel/schlotterbeck-vor-bvb-comeback-kovac-macht-hoffnung-auf-schnelle-rueckkehr-des-nationalspielers/13580816/34942",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "BVB-Star Nico Schlotterbeck zurück auf dem Trainingsplatz",
+          "publisher": "Bundesliga",
+          "url": "https://www.bundesliga.com/de/bundesliga/news/borussia-dortmund-nico-schlotterbeck-comeback-individuelle-einheit-training-mit-ball-38996",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "6d4c9ef05dd64b28",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Panathinaikos’un Ounahi dönüşü, yıldız transferinden çok hazır bir oyun merkezine yatırım",
+      "summary": "Panathinaikos, Azzedine Ounahi’yi Girona’dan dört yıllığına kadrosuna kattı. GOLHAT yorumu, bu hamlenin yeni bir rol arayışından ziyade daha önce verim alınan oyun merkezini yeniden kurma tercihi olduğunu inceliyor.",
+      "tag": "Yorum",
+      "importance": 78,
+      "contentType": "analysis",
+      "seoTitle": "Panathinaikos’un Ounahi transferi ne anlatıyor?",
+      "seoDescription": "Panathinaikos’un Ounahi’yi dört yıllığına geri alması, kulübün transferden çok hazır bir oyun merkezine yatırım yaptığını gösteriyor; detaylı kadro yorumu.",
+      "focusKeyword": "Azzedine Ounahi Panathinaikos transferi",
+      "originalAngle": "Panathinaikos’un Ounahi’yi yeniden alması, yalnızca tanıdık bir oyuncuya duyulan güven olarak okunmamalı; kulüp, önceki kiralık döneminde ürettiği katkıyı kalıcı bir kadro planının merkezine taşıyor. Asıl soru transferin gerçekleşip gerçekleşmediği değil, Ounahi’nin daha önce verimli olduğu rolün bu kez dört yıllık yatırımın karşılığını verecek kadar sürdürülebilir olup olmadığıdır.",
+      "keyFindings": [
+        "Panathinaikos, Azzedine Ounahi’nin Girona’dan kalıcı transferini 3 Eylül 2026’da resmen açıkladı ve oyuncuyla dört yıllık sözleşme imzaladı.",
+        "Kulübün resmi açıklamasına göre Ounahi, 2024-2025 sezonundaki kiralık döneminde 37 maça çıktı; 5 gol ve 7 asist üretti.",
+        "Mundo Deportivo, transfer bedelini yaklaşık 15 milyon avro artı 1-2 milyon avroya kadar bonuslar ve Girona lehine gelecekteki satıştan yüzde 25 pay olarak aktardı.",
+        "Bu veriler, Panathinaikos’un Ounahi’yi kısa vadeli bir tamamlayıcıdan ziyade daha önce katkı verdiği rolü kalıcılaştırması beklenen ana orta saha yatırımı olarak konumlandırdığına işaret ediyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Resmî Panathinaikos açıklaması ile bağımsız İspanyol spor kaynağı karşılaştırıldı. Yorum bölümü, doğrulanmış transfer bilgisi ve oyuncunun önceki Panathinaikos dönemindeki resmî istatistikleri üzerinden kadro mühendisliği perspektifiyle oluşturuldu; kaynaklarda yer almayan taktik rol veya gelecek performansı kesin hüküm olarak sunulmadı.",
+      "originalFindings": [
+        "Transferin ayırt edici tarafı yalnızca Ounahi’nin geri dönmesi değil, kulübün daha önce ölçülebilir katkı aldığı bir oyuncu profilini uzun vadeli sözleşmeyle yeniden satın almasıdır.",
+        "37 maçta 5 gol ve 7 asistlik önceki Panathinaikos dönemi, yatırımın tamamen varsayımsal olmadığını gösteren somut geçmiş veridir.",
+        "Transfer bedeli ve gelecekteki satış payı, Panathinaikos’un oyuncuyu hem sportif hem de varlık değeri taşıyan bir kadro parçası olarak gördüğünü düşündürüyor; bunun ekonomik başarısı ise ilerleyen dönemde oyuncunun sürekliliğine bağlıdır."
+      ],
+      "limitations": "Ounahi’nin 2026-2027 sezonunda hangi pozisyonda ve hangi ilk 11 düzeninde kullanılacağına ilişkin güncel teknik ekip planı doğrulanmış kaynaklarda açıklanmadı. Transfer bedelinin bonuslarla birlikte kesinleşmiş nihai tutarı da resmî kulüp açıklamasında yer almıyor. Bu nedenle yazı, beklenen rol ve sportif getiri konusunda olasılık dili kullanmalıdır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GH-YORUM-20260903-OUNAHI-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-03T11:44:30.000Z",
+      "discoveredAt": "2026-09-03T14:44:30.712Z",
+      "sources": [
+        {
+          "title": "Azzedine Ounahi returns to Panathinaikos",
+          "publisher": "Panathinaikos FC",
+          "url": "https://www.pao.gr/en/transfer/azzedine-ounahi-returns-to-panathinaikos",
+          "publishedAt": "2026-09-03T01:58:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Ounahi deja el Girona a cambio de 15 millones de euros",
+          "publisher": "Mundo Deportivo",
+          "url": "https://www.mundodeportivo.com/futbol/girona-fc/20260902/1004222747/ounahi-deja-girona-cambio-15-millones-euros.html",
+          "publishedAt": "2026-09-03T00:49:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "2e6cb95ac3e3af66",
       "role": "sampiyonlar_ligi",
