@@ -5,7 +5,8 @@
   "description": "GOLHAT kaynak doğrulamalı editöryal otomasyonları",
   "scripts": {
     "test": "node --test scripts/*.test.js",
-    "editorial": "node scripts/run-editorial.js"
+    "editorial": "node scripts/run-editorial.js",
+    "layout:audit": "node scripts/layout-audit.js --all"
   },
   "engines": {
     "node": ">=22"

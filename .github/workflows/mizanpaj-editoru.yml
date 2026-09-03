@@ -1,0 +1,110 @@
+name: GOLHAT Mizanpaj Editörü
+
+on:
+  schedule:
+    # İçerik vardiyalarından sonra mobil ve masaüstü düzeni saatte iki kez denetler.
+    - cron: '12,42 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: golhat-layout-editor
+  cancel-in-progress: true
+
+jobs:
+  layout-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Kod ve yayın politikası testleri
+        run: npm test
+
+      - name: Chrome yolunu belirle
+        shell: bash
+        run: |
+          set -euo pipefail
+          browser="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)"
+          if [[ -z "$browser" ]]; then
+            echo "::error title=Mizanpaj tarayıcısı bulunamadı::GitHub runner üzerinde Chrome/Chromium bulunamadı"
+            exit 1
+          fi
+          echo "GOLHAT_BROWSER_PATH=$browser" >> "$GITHUB_ENV"
+
+      - name: Bütün sayfaları gerçek tarayıcıyla denetle
+        id: audit
+        continue-on-error: true
+        run: node scripts/layout-audit.js --all --report layout-report.json --screenshots layout-artifacts
+
+      - name: Mizanpaj raporunu sakla
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mizanpaj-raporu-${{ github.run_id }}
+          path: |
+            layout-report.json
+            layout-artifacts
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Sorun varsa tekil takip kaydı aç veya güncelle
+        if: steps.audit.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('layout-report.json', 'utf8'));
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const title = '[Mizanpaj] Otomatik sayfa denetimi hata buldu';
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: 'mizanpaj' });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              await github.rest.issues.createLabel({ owner, repo, name: 'mizanpaj', color: 'ef2840', description: 'GOLHAT otomatik mobil ve masaüstü düzen denetimi' });
+            }
+            const lines = report.results
+              .filter(result => result.issues.length)
+              .slice(0, 20)
+              .map(result => `- **${result.page} · ${result.viewport.name}** — ${result.issues.map(item => item.code).join(', ')}`);
+            const body = [
+              `Mizanpaj Editörü ${report.summary.issueCount} sorun buldu; etkilenen sayfa sayısı: ${report.summary.affectedPages.length}.`,
+              '',
+              ...lines,
+              '',
+              `Rapor ve ekran görüntüleri: ${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`
+            ].join('\n');
+            const { data: issues } = await github.rest.issues.listForRepo({ owner, repo, state: 'open', labels: 'mizanpaj', per_page: 20 });
+            const existing = issues.find(issue => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body, labels: ['mizanpaj'] });
+            }
+
+      - name: Sağlıklıysa eski mizanpaj kaydını kapat
+        if: steps.audit.outcome == 'success'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const title = '[Mizanpaj] Otomatik sayfa denetimi hata buldu';
+            const { data: issues } = await github.rest.issues.listForRepo({ owner, repo, state: 'open', labels: 'mizanpaj', per_page: 20 });
+            for (const issue of issues.filter(item => item.title === title)) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: issue.number, body: 'Son gerçek tarayıcı denetimi temiz geçti; takip kaydı otomatik kapatıldı.' });
+              await github.rest.issues.update({ owner, repo, issue_number: issue.number, state: 'closed' });
+            }
+
+      - name: Mizanpaj hatasında iş akışını başarısız say
+        if: steps.audit.outcome == 'failure'
+        run: exit 1
