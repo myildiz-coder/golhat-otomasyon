@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T16:24:28.328Z",
+  "updatedAt": "2026-09-03T20:22:34.115Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -644,6 +644,21 @@
         },
         {
           "rank": 11,
+          "teamId": 8560,
+          "team": "Real Sociedad",
+          "played": 4,
+          "won": 1,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3,
+          "points": 4,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
           "teamId": 8558,
           "team": "Espanyol",
           "played": 3,
@@ -658,7 +673,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "teamId": 8315,
           "team": "Athletic Club",
           "played": 3,
@@ -668,21 +683,6 @@
           "goalsFor": 3,
           "goalsAgainst": 5,
           "goalDifference": -2,
-          "points": 3,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 13,
-          "teamId": 8560,
-          "team": "Real Sociedad",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 6,
-          "goalDifference": -3,
           "points": 3,
           "form": "",
           "description": ""
@@ -721,14 +721,14 @@
           "rank": 16,
           "teamId": 9910,
           "team": "Celta Vigo",
-          "played": 3,
+          "played": 4,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 2,
           "goalsFor": 1,
           "goalsAgainst": 4,
           "goalDifference": -3,
-          "points": 1,
+          "points": 2,
           "form": "",
           "description": ""
         },
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868070,
-          "date": "2026-09-03T19:00:00.000Z",
-          "timestamp": 1788462000,
-          "round": "6",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Real Sociedad",
-          "away": "Celta Vigo",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868043,
           "date": "2026-09-04T19:00:00Z",
@@ -958,6 +944,20 @@
           "venue": "",
           "home": "Sevilla",
           "away": "Valencia",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5868056,
+          "date": "2026-09-12T12:00:00Z",
+          "timestamp": 1789214400,
+          "round": "5",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Racing Santander",
+          "away": "Deportivo Alavés",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -1452,6 +1452,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 8639,
+          "team": "Lille",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3,
+          "points": 7,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 9829,
           "team": "Monaco",
           "played": 2,
@@ -1466,7 +1481,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "teamId": 6379,
           "team": "Paris FC",
           "played": 2,
@@ -1476,21 +1491,6 @@
           "goalsFor": 3,
           "goalsAgainst": 0,
           "goalDifference": 3,
-          "points": 4,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 3,
-          "teamId": 8639,
-          "team": "Lille",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 2,
-          "goalDifference": 2,
           "points": 4,
           "form": "",
           "description": "#2AD572"
@@ -1679,13 +1679,13 @@
           "rank": 16,
           "teamId": 9941,
           "team": "Toulouse",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 2,
-          "goalsAgainst": 4,
-          "goalDifference": -2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
           "points": 1,
           "form": "",
           "description": "#FFA72F"
@@ -1722,20 +1722,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5802926,
-          "date": "2026-09-03T18:45:00.000Z",
-          "timestamp": 1788461100,
-          "round": "3",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Toulouse",
-          "away": "Lille",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5802922,
           "date": "2026-09-04T17:00:00Z",
@@ -1886,6 +1872,20 @@
           "venue": "",
           "home": "Auxerre",
           "away": "Nice",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5802930,
+          "date": "2026-09-12T18:45:00Z",
+          "timestamp": 1789238700,
+          "round": "4",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Le Havre",
+          "away": "Angers",
           "started": false,
           "finished": false,
           "cancelled": false
