@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T18:45:07.381Z",
+  "updatedAt": "2026-09-03T19:15:12.764Z",
   "stories": [
+    {
+      "id": "0d94997b58fb80b1",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Antalyaspor, Fotis Pseftis’i Lugano’dan kiraladı",
+      "summary": "Antalyaspor, 23 yaşındaki Yunan kaleci Fotis Pseftis’i Lugano’dan kiralık olarak kadrosuna kattığını duyurdu. Transfer, kulübün açıklaması ve bağımsız spor kaynakları tarafından doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 52,
+      "contentType": "news",
+      "seoTitle": "Antalyaspor, Fotis Pseftis’i kiralık olarak transfer etti",
+      "seoDescription": "Antalyaspor, 23 yaşındaki Yunan kaleci Fotis Pseftis’i Lugano’dan kiraladı. Transferin doğrulanmış ayrıntıları ve oyuncunun kariyer rotası burada.",
+      "focusKeyword": "Fotis Pseftis Antalyaspor transferi",
+      "originalAngle": "Transferin ayırt edici tarafı, Antalyaspor’un kaleci rotasyonuna genç bir isim eklemesinden çok Pseftis’in Lugano’dan üst üste ikinci sezon kiralanarak düzenli oynama arayışını sürdürmesi. Bundan sonraki temel soru, oyuncunun Antalyaspor’da ne kadar süre alacağı ve sezon sonunda Lugano’ya hangi rolle döneceği.",
+      "keyFindings": [
+        "Antalyaspor, Fotis Pseftis’in transferini 3 Eylül 2026’da duyurdu.",
+        "23 yaşındaki kaleci, Lugano’dan Antalyaspor’a kiralık olarak geçti.",
+        "Pseftis geçen sezon Almanya’da Alemannia Aachen formasıyla kiralık oynadı; bağımsız kaynaklar 18 maç ve dört gol yemeden tamamlanan karşılaşma bilgilerini aktardı.",
+        "Transferin kalıcı satış içerip içermediği ve kiralama süresinin mali şartları kamuya açık kaynaklarda açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Antalyaspor’un transfer duyurusu, beIN SPORTS Türkiye’nin haber metni ve Novasports’un bağımsız doğrulaması karşılaştırıldı. Kiralama bilgisi ile oyuncunun geçmiş sezon verileri yalnızca iki kaynakta ortaklaşan unsurlar çerçevesinde kullanıldı.",
+      "originalFindings": [],
+      "limitations": "Kulübün duyurusunda sözleşmenin süresi, kiralama bedeli veya satın alma opsiyonu açıklanmadı. Bu nedenle mali şartlar ve sezon sonrasına ilişkin sonuç çıkarılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T10:31:00.000Z",
+      "discoveredAt": "2026-09-03T19:15:12.764Z",
+      "sources": [
+        {
+          "title": "Antalyaspor, kaleci Fotis Pseftis'i kadrosuna kattı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/antalyaspor-kaleci-fotis-pseftisi-kadrosuna-katti",
+          "publishedAt": "2026-09-03T13:31:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Στην Αντάλιασπορ ο Φώτης Ψεύτης",
+          "publisher": "Novasports",
+          "url": "https://www.novasports.gr/sport/podosfairo/event/super-lig/article/15081107/stin-antaliaspor-o-fotis-pseytis",
+          "publishedAt": "2026-09-03T19:08:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "00fb59e10191b535",
       "role": "galatasaray",
