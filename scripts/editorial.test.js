@@ -20,6 +20,8 @@ const {
   buildCategoryHtml,
   buildHomepageArchiveHtml,
   buildHomepageHtml,
+  homepageAgendaScore,
+  selectHomepagePrimary,
   selectHomepageStories,
   buildStoryPageHtml,
   buildSitemapXml,
@@ -481,6 +483,31 @@ test('ana sayfa en yeni haberi 1 numaraya alır ve güncel araştırma dosyasın
   assert.equal((output.match(/class="headline-control(?: is-active)?"/g) || []).length, 4);
   assert.match(output, /headline-structured-data/);
   assert.ok(output.indexOf('class="headline-controls"') < output.indexOf('class="headline-track"'));
+});
+
+test('baş editör gündem puanını kullanır ve 1 numarayı en fazla 12 saat tutar', () => {
+  const current = validStory({
+    headline: 'Fenerbahçe için yüksek kamu yararı taşıyan önemli gelişme açıklandı',
+    importance: 96,
+    published_at: new Date(NOW.getTime() - 10 * 3_600_000).toISOString()
+  });
+  const ordinaryNew = validStory({
+    headline: 'Fenerbahçe için doğrulanan yeni kadro gelişmesi kamuoyuna açıklandı',
+    importance: 82,
+    published_at: new Date(NOW.getTime() - 30 * 60_000).toISOString()
+  });
+  assert.equal(selectHomepagePrimary(current, [current, ordinaryNew], NOW).id, current.id);
+
+  const decisiveNew = validStory({
+    headline: 'Fenerbahçe için çok önemli yeni karar resmî açıklamayla kesinleşti',
+    importance: 97,
+    published_at: new Date(NOW.getTime() - 15 * 60_000).toISOString()
+  });
+  assert.equal(selectHomepagePrimary(current, [current, decisiveNew], NOW).id, decisiveNew.id);
+
+  const stale = { ...current, publishedAt: new Date(NOW.getTime() - 12.1 * 3_600_000).toISOString() };
+  assert.equal(selectHomepagePrimary(stale, [stale, ordinaryNew], NOW).id, ordinaryNew.id);
+  assert.ok(homepageAgendaScore(ordinaryNew, NOW) > homepageAgendaScore(stale, NOW));
 });
 
 test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanını içerir', () => {

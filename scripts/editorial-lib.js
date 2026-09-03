@@ -7,6 +7,9 @@ const path = require('node:path');
 const {
   ALLOWED_TAGS,
   DOSSIER_MIN_SOURCES,
+  HOMEPAGE_MIN_IMPORTANCE,
+  HOMEPAGE_PREMIUM_IMPORTANCE,
+  HOMEPAGE_PRIMARY_MAX_AGE_HOURS,
   HOMEPAGE_SLOT_COUNT,
   MAX_STORIES_PER_PAGE,
   MAX_STORY_AGE_HOURS,
@@ -857,7 +860,7 @@ function selectHomepageStories(primary, stories, now, limit = HOMEPAGE_SLOT_COUN
   for (const item of pool) { if (selected.length >= limit) break; if (!selected.some((chosen) => chosen.id === item.id)) selected.push(item); }
 
   // Bir özgün GOLHAT dosyası ilk dörtte kendiliğinden yer bulamadıysa son
-  // sırayı alır. Bir numara yine daima en yeni doğrulanmış manşettir.
+  // sırayı alır. Bir numara Baş Editörün güncellik ve önem kararıdır.
   const research = pool.find((item) =>
     item.id !== primary.id &&
     (item.page === 'ozel-haber.html' || ['dossier', 'exclusive'].includes(item.contentType))
@@ -866,6 +869,45 @@ function selectHomepageStories(primary, stories, now, limit = HOMEPAGE_SLOT_COUN
     selected[Math.min(limit, selected.length) - 1] = research;
   }
   return selected.slice(0, limit);
+}
+
+function homepageStoryAgeHours(story, now) {
+  return (new Date(now).getTime() - new Date(story.publishedAt).getTime()) / 3_600_000;
+}
+
+function homepageAgendaScore(story, now) {
+  const ageHours = Math.max(0, homepageStoryAgeHours(story, now));
+  const originalBonus = story.page === 'ozel-haber.html' || ['dossier', 'exclusive'].includes(story.contentType)
+    ? 4
+    : story.contentType === 'analysis' ? 1 : 0;
+  const sourceBonus = Math.min(2, Math.max(0, (story.sources || []).length - 2));
+  return Number(story.importance) + originalBonus + sourceBonus - ageHours * 1.25;
+}
+
+function selectHomepagePrimary(currentStory, stories, now) {
+  const candidates = [currentStory, ...(stories || [])]
+    .filter((story, index, items) =>
+      story &&
+      items.findIndex((item) => item && item.id === story.id) === index &&
+      storyMatchesPage(story.page, story.headline, story.summary) &&
+      story.importance >= HOMEPAGE_MIN_IMPORTANCE &&
+      homepageStoryAgeHours(story, now) >= -2 &&
+      homepageStoryAgeHours(story, now) <= HOMEPAGE_PRIMARY_MAX_AGE_HOURS
+    )
+    .sort((left, right) =>
+      homepageAgendaScore(right, now) - homepageAgendaScore(left, now) ||
+      new Date(right.publishedAt) - new Date(left.publishedAt)
+    );
+
+  if (candidates.length === 0) return null;
+  const incumbent = currentStory && candidates.find((story) => story.id === currentStory.id);
+  const challenger = candidates.find((story) => story.id !== incumbent?.id);
+  if (
+    incumbent &&
+    incumbent.importance >= HOMEPAGE_PREMIUM_IMPORTANCE &&
+    (!challenger || homepageAgendaScore(incumbent, now) + 2 >= homepageAgendaScore(challenger, now))
+  ) return incumbent;
+  return candidates[0];
 }
 
 function renderHomepageSlide(story, index, now) {
@@ -1273,6 +1315,8 @@ module.exports = {
   buildCategoryHtml,
   buildHomepageArchiveHtml,
   buildHomepageHtml,
+  homepageAgendaScore,
+  selectHomepagePrimary,
   selectHomepageStories,
   buildStoryPageHtml,
   buildSitemapXml,

@@ -106,7 +106,7 @@ test('tüm yayın sayfaları Google site kimliği ve önizleme kurallarını ta�
   assert.match(fs.readFileSync(path.join(root, 'favicon.svg'), 'utf8'), /viewBox="0 0 96 96"/);
 });
 
-test('kategori editörleri her saat, baş editör her 15 dakikada 7/24 çalışır', () => {
+test('kategori editörleri saatte iki kez, baş editör her 15 dakikada 7/24 çalışır', () => {
   const root = path.resolve(__dirname, '..');
   const workflow = fs.readFileSync(
     path.join(root, '.github', 'workflows', 'editorial-kategoriler.yml'),
@@ -116,7 +116,7 @@ test('kategori editörleri her saat, baş editör her 15 dakikada 7/24 çalış�
     path.join(root, '.github', 'workflows', 'editorial-bas-editor.yml'),
     'utf8'
   );
-  assert.match(workflow, /cron: '20 \* \* \* \*'/);
+  assert.match(workflow, /cron: '5,35 \* \* \* \*'/);
   assert.match(headWorkflow, /cron: '\*\/15 \* \* \* \*'/);
 });
 

@@ -11,8 +11,7 @@ const {
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   MAX_STORIES_PER_RUN,
-  MAX_STORIES_PER_PAGE,
-  HOMEPAGE_MIN_IMPORTANCE
+  MAX_STORIES_PER_PAGE
 } = require('./editorial-config');
 const {
   loadState,
@@ -30,7 +29,8 @@ const {
   writeSitemap,
   writeNewsSitemap,
   writeHomepageArchive,
-  writeHomepage
+  writeHomepage,
+  selectHomepagePrimary
 } = require('./editorial-lib');
 
 const CATEGORY_SCHEMA = {
@@ -175,7 +175,9 @@ function categoryRequest(role, now, model) {
       ...(role.researchTeam ? ['Araştırma kurulu: ' + role.researchTeam.join(' | ')] : []),
       'İzinli hedef sayfalar:',
       pageSummary,
-      'Son 36 saatteki önemli gelişmeleri araştır. En fazla üç haber seç.',
+      role.researchTeam
+        ? 'Güncel resmî veri ve belgelerde özgün dosya fırsatlarını araştır. En fazla üç çalışma seç.'
+        : 'Önce son 6 saati, ardından son 12 saati tara. Yalnız gündem değeri taşıyan doğrulanmış gelişmeleri seç; eski haberi yeniden ısıtma. En fazla üç haber seç.',
       'Her source.url değeri bu istekte web aramasıyla gerçekten açtığın sonucun tam URL adresi olmalı.',
       'Aynı olayın küçük güncellemelerini veya aşağıdaki mevcut manşetleri yeniden üretme:',
       current
@@ -288,28 +290,18 @@ async function runHeadEditor(state, options, now) {
     if (archiveChanged) console.log('[Baş Editör] mevcut manşet Özel Haber arşivine alındı');
   }
 
-  const recentThreshold = now.getTime() - 36 * 3_600_000;
-  const candidates = state.stories.filter((story) =>
-    storyMatchesPage(story.page, story.headline, story.summary) &&
-    story.importance >= HOMEPAGE_MIN_IMPORTANCE &&
-    new Date(story.publishedAt).getTime() >= recentThreshold
-  ).sort((left, right) =>
-    new Date(right.publishedAt) - new Date(left.publishedAt) ||
-    new Date(right.discoveredAt || right.publishedAt) - new Date(left.discoveredAt || left.publishedAt) ||
-    right.importance - left.importance
-  );
-  if (candidates.length === 0) {
-    console.log('[Baş Editör] manşet eşiğini geçen yeni aday yok');
+  const selected = selectHomepagePrimary(currentStory, state.stories, now);
+  if (!selected) {
+    console.log('[Baş Editör] son 12 saatte manşet eşiğini geçen aday yok; kategori taraması bekleniyor');
     return 0;
   }
 
-  const selected = candidates[0];
   if (selected.id === state.homepage.storyId) {
-    console.log('[Baş Editör] 1 numaralı manşet zaten en yeni doğrulanmış aday');
+    console.log('[Baş Editör] 1 numaralı manşet güncellik ve önem puanında lider');
     return 0;
   }
 
-  console.log('[Baş Editör] en yeni doğrulanmış manşet: ' + selected.headline);
+  console.log('[Baş Editör] gündem puanıyla seçilen manşet: ' + selected.headline);
   if (options.dryRun) return 1;
 
   writeHomepage(selected, now, state.stories);
