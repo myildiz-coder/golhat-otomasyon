@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T20:21:49.261Z",
+  "updatedAt": "2026-09-03T20:38:05.479Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 60,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Lille",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 78,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
