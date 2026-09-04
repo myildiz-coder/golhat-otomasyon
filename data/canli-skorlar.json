@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T17:07:32.375Z",
+  "updatedAt": "2026-09-04T17:20:39.762Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -40,8 +40,8 @@
       "home": "Başakşehir",
       "away": "Galatasaray",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 8,
+      "awayScore": 1,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Auxerre",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
