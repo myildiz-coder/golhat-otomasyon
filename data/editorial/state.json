@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:43:46.713Z",
+  "updatedAt": "2026-09-04T19:13:49.373Z",
   "stories": [
+    {
+      "id": "25fb8bda71d5259c",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Trabzonspor’un yeni transferi Rene Mitongo, Estrela’ya kiralandı",
+      "summary": "Trabzonspor’un 29 Temmuz 2026’da Standard Liege’den kadrosuna kattığı 18 yaşındaki Rene Mitongo, sezon sonuna kadar Portekiz ekibi Estrela da Amadora’ya kiralandı. Genç forvet, bordo-mavili formayla resmi maça çıkamadan ayrıldı.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Rene Mitongo, Trabzonspor’dan Estrela’ya kiralandı",
+      "seoDescription": "Trabzonspor’un genç forveti Rene Mitongo, bordo-mavili formayla resmi maça çıkmadan sezon sonuna kadar Estrela da Amadora’ya kiralandı.",
+      "focusKeyword": "Rene Mitongo Estrela kiralık transferi",
+      "originalAngle": "Gelişmenin dikkat çeken tarafı, Trabzonspor’un 29 Temmuz 2026’da yatırım amacıyla kadrosuna kattığı Mitongo’yu henüz resmi maçta kullanmadan Portekiz’e göndermesi. Böylece transferin kısa vadeli kadro katkısından çok düzenli oynama ve gelişim planına dayandığı görülüyor; ancak kiralama sözleşmesinin satın alma veya geri çağırma şartları açıklanmış değil.",
+      "keyFindings": [
+        "Rene Mitongo, Trabzonspor’dan Estrela da Amadora’ya sezon sonuna kadar kiralandı.",
+        "18 yaşındaki forvet, Trabzonspor formasıyla resmi karşılaşmada süre alamadı.",
+        "Oyuncu 29 Temmuz 2026’da Standard Liege’den Trabzonspor’a transfer edilmişti; yeni süreçte izlenmesi gereken başlık, Portekiz’de düzenli forma bulup bulamayacağı olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli beIN SPORTS ve A Spor haberleri karşılaştırıldı; her iki kaynak da Mitongo’nun Estrela da Amadora’ya sezon sonuna kadar kiralandığını ve Trabzonspor’da resmi maç oynamadığını aktarıyor. Oyuncunun Trabzonspor’a önceki transferi kulübün resmi açıklaması ve KAP bildirimiyle kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kiralama anlaşmasının mali şartları, satın alma opsiyonu veya oyuncunun sezon sonunda dönüş koşulları doğrulanmış kaynaklarda yer almıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T14:48:00.000Z",
+      "discoveredAt": "2026-09-04T19:13:49.373Z",
+      "sources": [
+        {
+          "title": "Maç bile çıkmadan Trabzonspor'dan ayrıldı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/mac-bile-cikmadan-trabzonspordan-ayrildi",
+          "publishedAt": "2026-09-04T14:41:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trabzonspor’da Rene Mitongo Portekiz’e kiralandı",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/trabzonspor/2026/09/04/trabzonsporda-rene-mitongo-portekize-kiralandi",
+          "publishedAt": "2026-09-04T17:37:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Kamuoyuna Duyuru",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/kamuoyuna-duyuru-65-29-07-2026",
+          "publishedAt": "2026-07-29T18:30:00+03:00",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
     {
       "id": "fc2d169d0eb3405a",
       "role": "besiktas",
