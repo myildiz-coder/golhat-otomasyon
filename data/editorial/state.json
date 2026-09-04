@@ -1,7 +1,146 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T03:43:24.984Z",
+  "updatedAt": "2026-09-04T04:18:00.190Z",
   "stories": [
+    {
+      "id": "3233bdebb9bd7cce",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gençlerbirliği, Victor Orakpo’yu Nice’ten satın alma opsiyonuyla kiraladı",
+      "summary": "Gençlerbirliği, OGC Nice’in 20 yaşındaki Nijeryalı forveti Victor Orakpo’yu sezon sonuna kadar satın alma opsiyonuyla kiralık olarak kadrosuna kattı. Transfer, Türkiye’de 4 Eylül 2026’da sona erecek dönemin son bölümündeki kadro hamlesi oldu.",
+      "tag": "Kesinleşti",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Gençlerbirliği, Victor Orakpo’yu Nice’ten kiraladı",
+      "seoDescription": "Gençlerbirliği, Nice’in Nijeryalı forveti Victor Orakpo’yu satın alma opsiyonuyla kiraladı. Transferin sözleşme ve performans ayrıntıları burada.",
+      "focusKeyword": "Victor Orakpo Gençlerbirliği transferi",
+      "originalAngle": "Hamlenin haber değeri yalnızca Orakpo’nun gelişi değil; Gençlerbirliği’nin Türkiye transfer döneminin kapanışına saatler kala, Fransa’daki iki kiralık deneyimin ardından gelişim odaklı ve satın alma opsiyonlu bir model tercih etmesi. Bundan sonraki temel soru, oyuncunun Süper Lig’de düzenli süre alıp alamayacağı.",
+      "keyFindings": [
+        "OGC Nice, Victor Orakpo’nun Gençlerbirliği’ne satın alma opsiyonuyla kiralandığını duyurdu.",
+        "DHA, transferin sezon sonuna kadar kiralık gerçekleştiğini ve Orakpo’nun geçen sezon 26 maçta 3 gol ile 1 asist ürettiğini aktardı.",
+        "Anlaşma, Gençlerbirliği’nin hücum rotasyonuna genç ve fizik gücü yüksek bir forvet eklediğini gösteriyor; satın alma opsiyonunun mali şartları açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "OGC Nice’in resmi transfer duyurusu, DHA’nın bağımsız haberleştirmesiyle karşılaştırıldı. Oyuncunun kiralık statüsü ve satın alma opsiyonu iki farklı alan adında doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Gençlerbirliği’nin kendi sitesinde aynı gün yayımlanmış ayrıntılı bir duyuruya erişilemedi. Satın alma opsiyonunun bedeli ve zorunlu olup olmadığı açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T17:28:00.000Z",
+      "discoveredAt": "2026-09-04T04:18:00.190Z",
+      "sources": [
+        {
+          "title": "Victor Orakpo joins Gençlerbirliği on loan",
+          "publisher": "OGC Nice",
+          "url": "https://www.ogcnice.com/en/article/130777/victor-orakpo-joins-genclerbirlii-on-loan.html",
+          "publishedAt": "2026-09-03T17:00:00+02:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gençlerbirliği, Victor Orakpo’yu kiralık olarak kadrosuna kattı",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/amp/spor/genclerbirligi-victor-orakpoyu-kiralik-olarak-kadrosuna-katti-2938668",
+          "publishedAt": "2026-09-03T20:28:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "2dde8252e2039788",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Eyüpsporlu Lucas Calegari, LA Galaxy’ye transfer oldu",
+      "summary": "LA Galaxy, Eyüpspor’un Brezilyalı sağ beki Lucas Calegari’yi açıklanmayan bonservis bedeliyle kadrosuna kattı. Calegari, 30 Haziran 2029’a kadar geçerli sözleşmeyle MLS ekibine dönerken transfer, Türkiye’den Avrupa dışına gerçekleşen önemli son gün hamlelerinden biri oldu.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Lucas Calegari, Eyüpspor’dan LA Galaxy’ye transfer oldu",
+      "seoDescription": "LA Galaxy, Eyüpsporlu Lucas Calegari’yi açıkladı. Brezilyalı sağ bekin sözleşme süresi, transfer bedeli ve Türkiye’den ayrılışının ayrıntıları burada.",
+      "focusKeyword": "Lucas Calegari LA Galaxy transferi",
+      "originalAngle": "Transferin dikkat çeken yönü, Eyüpspor’da 2025 yazında kalıcı sözleşmeyle kadroya katılan Calegari’nin yalnızca bir sezon sonra eski kulübü LA Galaxy’ye dönmesi. Galaxy’nin oyuncuyla 2029’a kadar anlaşması, hamlenin kısa vadeli bir kiralama değil, kalıcı kadro planlaması olduğunu gösteriyor.",
+      "keyFindings": [
+        "LA Galaxy, Lucas Calegari’yi Eyüpspor’dan açıklanmayan bonservis bedeliyle transfer ettiğini duyurdu.",
+        "Calegari’nin sözleşmesi 30 Haziran 2029’a kadar geçerli; transfer, P-1 vizesinin alınması şartına bağlı olarak açıklandı.",
+        "LA Galaxy duyurusuna göre oyuncu, Eyüpspor’da geçen sezon tüm kulvarlarda 25 maçta 1 gol ve 4 asist üretti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "LA Galaxy’nin resmi açıklaması, MLS’nin transfer kaydı ve Brezilya merkezli ge haberleştirmesiyle çapraz kontrol edildi. Kulüp, transfer bedelini açıklamadı.",
+      "originalFindings": [],
+      "limitations": "Eyüpspor’un transfer için yayımladığı bağımsız resmi açıklamaya ve bonservis bedeline erişilemedi. Oyuncunun ABD’deki ilk maç tarihi henüz kesinleşmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T04:18:00.190Z",
+      "sources": [
+        {
+          "title": "LA Galaxy Reunites with 2023 Club Defender of the Year Lucas Calegari",
+          "publisher": "LA Galaxy",
+          "url": "https://www.lagalaxy.com/news/la-galaxy-reunites-with-2023-club-defender-of-the-year-lucas-calegari",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "LA Galaxy acquire Lucas Calegari from Eyüpspor",
+          "publisher": "MLSsoccer.com",
+          "url": "https://www.mlssoccer.com/news/la-galaxy-acquire-lucas-calegari-from-eyupspor",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Cuiabano ex-Fluminense retorna aos EUA para defender o LA Galaxy",
+          "publisher": "ge",
+          "url": "https://ge.globo.com/mt/futebol/noticia/2026/09/03/cuiabano-ex-fluminense-retorna-aos-estados-unidos-para-defender-o-los-angeles-galaxy.ghtml",
+          "publishedAt": "2026-09-03T20:15:00-03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "7a076c9d20917880",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gabriel Martinelli, Arsenal’dan Al-Hilal’e dört yıllığına imza attı",
+      "summary": "Al-Hilal, Arsenal’dan Gabriel Martinelli’yi dört yıllık sözleşmeyle kadrosuna kattığını açıkladı. İngiliz basını anlaşmanın 60 milyon sterlin seviyesinde olduğunu bildirirken, resmi kulüp duyurusu bonservis bedelini paylaşmadı.",
+      "tag": "Kesinleşti",
+      "importance": 90,
+      "contentType": "news",
+      "seoTitle": "Gabriel Martinelli, Arsenal’dan Al-Hilal’e transfer oldu",
+      "seoDescription": "Al-Hilal, Gabriel Martinelli’yi Arsenal’dan dört yıllığına kadrosuna kattı. Resmi açıklama, sözleşme süresi ve bildirilen bonservis ayrıntıları burada.",
+      "focusKeyword": "Gabriel Martinelli Al-Hilal transferi",
+      "originalAngle": "Martinelli transferi, Arsenal’ın 2019’dan beri kadroda bulunan ve Premier Lig şampiyonluğu yaşamış bir kanat oyuncusunu satması bakımından Avrupa transfer döneminin son önemli hamlelerinden biri. Al-Hilal’in duyurduğu dört yıllık sözleşme, oyuncunun kulübün kısa vadeli değil uzun vadeli sportif planına dahil edildiğine işaret ediyor; resmi bonservis bedeli ise açıklanmadı.",
+      "keyFindings": [
+        "Al-Hilal, Gabriel Martinelli’nin Arsenal’dan dört yıllığına transfer edildiğini resmi olarak açıkladı.",
+        "The Guardian, Arsenal’ın transferi 60 milyon sterlin bedelle doğruladığını bildirdi; Al-Hilal’in resmi açıklamasında rakam yer almadı.",
+        "Martinelli’nin Al-Hilal’deki ilk takım antrenmanına 3 Eylül akşamı katılmasının ve 4 Eylül’de Al-Shabab maçına hazırlanmasının beklendiği kulüp duyurusunda belirtildi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Al-Hilal’in resmi imza duyurusu, The Guardian’ın Arsenal kaynaklı bonservis doğrulamasıyla karşılaştırıldı. Sözleşme süresi resmi kulüp kaynağından, bonservis bilgisi bağımsız editoryal kaynaktan alındı.",
+      "originalFindings": [],
+      "limitations": "Al-Hilal’in resmi duyurusu bonservis bedelini açıklamıyor; 60 milyon sterlin bilgisi The Guardian’ın Arsenal doğrulamasına dayanıyor. Oyuncunun ilk resmi maçta forma giyip giymeyeceği kesinleşmiş değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T04:18:00.190Z",
+      "sources": [
+        {
+          "title": "Gabriel Martinelli joins Al-Hilal for four years",
+          "publisher": "Al-Hilal",
+          "url": "https://alhilal.com/en/news/gabriel-martinelli-joins-al-hilal-for-four-years",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gabriel Martinelli leaves Arsenal for Saudi Arabian club Al-Hilal in £60m deal",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/transfer-window/2026/sep/03/all",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "21a9cdd6b4e758a3",
       "role": "super_lig",
