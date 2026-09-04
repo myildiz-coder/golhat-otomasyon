@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T16:33:06.780Z",
+  "updatedAt": "2026-09-04T18:33:49.368Z",
   "sources": [
     {
       "name": "FotMob",
@@ -241,7 +241,7 @@
       "stadium": "RAMS Park",
       "squad": {
         "total": 32,
-        "injured": 0
+        "injured": 1
       },
       "nextMatches": [
         {
@@ -252,10 +252,10 @@
           "stage": "",
           "home": "Başakşehir",
           "away": "Galatasaray",
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 1,
+          "awayScore": 1,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
