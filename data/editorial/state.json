@@ -1,7 +1,204 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T22:57:35.687Z",
+  "updatedAt": "2026-09-04T23:05:34.558Z",
   "stories": [
+    {
+      "id": "5e474130e08d3eae",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray’ın 10 puanlık başlangıcı Sporting öncesi yeni soruyu ortaya çıkardı: Maç kazanmak yetiyor mu?",
+      "summary": "Galatasaray, Başakşehir deplasmanında 3-2 kazanarak Süper Lig’de 10 puana ulaştı. Ancak üç kez değişen skor ve savunmadaki kırılganlık, 9 Eylül’deki Sporting CP maçı öncesinde liderliğin ötesinde daha somut bir test ortaya koyuyor: Okan Buruk’un takımı, oyunun kontrolünü rakibin baskısı altında da sürdürebilecek mi?",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray’ın 10 puanı Sporting öncesi hangi soruyu doğurdu?",
+      "seoDescription": "Galatasaray Başakşehir’i 3-2 yenip 10 puana çıktı. Sporting maçı öncesi skor dalgalanması ve savunma dengesi yeni testin merkezinde.",
+      "focusKeyword": "Galatasaray Sporting CP maçı",
+      "originalAngle": "Galatasaray’ın ilk dört haftadaki puan verimliliğini yalnızca liderlik göstergesi olarak değil, maç içi kontrol kapasitesi açısından okumak gerekiyor. Başakşehir karşısında Osimhen’in erken golü, Torreira’nın yanıtı ve Sara’nın 90. dakikadaki frikiği galibiyeti getirdi; fakat iki kez eşitlenen skor, takımın hücum üretiminin savunma istikrarıyla aynı seviyede olmadığını gösterdi. Bu nedenle Sporting öncesi asıl ölçü, Galatasaray’ın yine bir anlık kaliteyle sonuca gidip gidemeyeceği değil, rakibin baskısını oyunun tamamına yaymadan yönetip yönetemeyeceği olacak.",
+      "keyFindings": [
+        "Galatasaray, Başakşehir’i 4 Eylül 2026’da deplasmanda 3-2 yenerek dört maç sonunda 10 puana yükseldi ve ligde liderliğini sürdürdü.",
+        "Karşılaşmada Galatasaray üç kez öne geçti; Başakşehir iki kez eşitliği sağladı. Galibiyet, Victor Osimhen, Lucas Torreira ve Gabriel Sara’nın golleriyle geldi.",
+        "Savunma tarafında Davinson Sanchez’in kendi kalesine attığı gol ve maçın son bölümündeki yüksek gerilim, takımın skor üretme gücü ile maç kontrolü arasında hâlâ fark bulunduğunu gösteriyor.",
+        "Galatasaray’ın sıradaki maçı 9 Eylül 2026’da UEFA Şampiyonlar Ligi lig aşamasında Sporting CP deplasmanı. Bu karşılaşma, Süper Lig’de elde edilen puanların Avrupa temposuna taşınıp taşınamayacağını sınayacak.",
+        "Okurun bundan sonraki temel sorusu, Galatasaray’ın zorlu maçlarda yalnızca bireysel kaliteyle mi yoksa daha istikrarlı savunma ve top kontrolüyle mi sonuç alacağı olmalı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli Başakşehir-Galatasaray sonucu Galatasaray’ın resmî maç raporu, DHA ve Anadolu Ajansı haberleriyle çaprazlandı. Lig sıralaması ve 4. hafta fikstürü TFF’nin 2026-2027 Süper Lig sayfası üzerinden kontrol edildi; Şampiyonlar Ligi’ndeki Sporting CP-Galatasaray eşleşmesi UEFA’nın takım fikstürü sayfasından doğrulandı. Analiz, doğrulanmış skor akışı ve takvim bağlamı üzerinden kuruldu; oyuncu sakatlıklarının maç kadrosuna etkisi ayrıca varsayılmadı.",
+      "originalFindings": [],
+      "limitations": "TFF’nin erişilen HTML puan cetveli, Başakşehir-Galatasaray maçının tamamlanmış sonucu sayfaya işlenmeden önceki görünümü taşıyor ve Galatasaray’ı üç maçta 7 puanla gösteriyor. Bu nedenle 10 puanlık güncel toplam, kulübün resmî maç raporu ile bağımsız maç haberleri ve sağlanan güncel veri özeti birlikte değerlendirilerek kullanıldı. Sporting karşılaşmasının sonucu ve Galatasaray’ın Avrupa’daki gerçek performansı henüz bilinmiyor; savunma dengesine ilişkin sonuçlar maç verisinin izin verdiği ölçüde, nedensellik iddiası kurulmadan aktarılmıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:05:34.000Z",
+      "discoveredAt": "2026-09-04T23:05:34.558Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray, Başakşehir deplasmanında Sara'nın frikiğiyle kazandı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?macTuru=2&pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Champions League league phase fixtures by team",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "2c55170633043f66",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’nin 6 puanı şimdi değişen hücum planıyla okunacak",
+      "summary": "Fenerbahçe, Süper Lig’de 3 maçta 6 puan ve +3 averajla 4. sırada yer alıyor. Beşiktaş derbisi öncesinde Anderson Talisca ile yolların ayrılması ve Marco Asensio’nun sakatlığı, İsmail Kartal’ın hücum rotasyonunu yeniden sınırlandırıyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe’nin 6 puanı değişen hücum planıyla okunacak",
+      "seoDescription": "Fenerbahçe’nin 6 puanlık lig başlangıcı, Talisca’nın ayrılığı ve Asensio’nun sakatlığı sonrası Beşiktaş derbisi öncesi yeni bir kadro sorusuna dönüştü.",
+      "focusKeyword": "Fenerbahçe 6 puan",
+      "originalAngle": "Fenerbahçe’nin 4. sıradaki konumunu yalnızca puan cetveliyle değil, son üç maçta üretilen hücum sürekliliğinin Talisca’nın ayrılığı ve Asensio’nun sakatlığı sonrasında korunup korunamayacağıyla birlikte değerlendirmek gerekiyor. GOLHAT’ın özgün bakışı, derbinin sadece sıralama testi değil, teknik ekibin değişen hücum seçeneklerini nasıl yeniden dağıtacağını gösterecek ilk maç olmasıdır.",
+      "keyFindings": [
+        "TFF verisine göre Fenerbahçe, 3 maç sonunda 2 galibiyet ve 1 mağlubiyetle 6 puan, +3 averaj ve 4. sırada bulunuyor.",
+        "Fenerbahçe, ligdeki son iki maçında Konyaspor’u 4-2, Samsunspor’u 2-0 mağlup ederek iki karşılaşmada 6 gol attı; bu form, Beşiktaş derbisindeki hücum tercihleriyle ilk kez doğrudan sınanacak.",
+        "Anderson Talisca’nın sözleşmesi 3 Eylül 2026’da karşılıklı anlaşmayla feshedildi; aynı dönemde Marco Asensio’nun sakatlığı ve Kerem Aktürkoğlu’nun oynama durumunun belirsizliği, Kartal’ın hücum rotasyonundaki kullanılabilir seçenekleri azaltıyor.",
+        "Fenerbahçe-Beşiktaş karşılaşması 5 Eylül 2026 Cumartesi günü saat 20.00’de Kadıköy’de oynanacak; maçın sonucu Fenerbahçe’nin 6 puanının üst sıralarla arasındaki mesafeyi değil, değişen hücum planının rekabet seviyesindeki karşılığını gösterecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin 2026-2027 Süper Lig puan cetveli ve fikstür bilgisi; Beşiktaş’ın maç merkezi duyurusu; DHA’nın Fenerbahçe antrenman haberi; Talisca’nın sözleşme feshi için DHA ve beIN SPORTS haberleri birlikte kontrol edildi. Kulüp formu, yaklaşan derbi ve kadro durumu aynı değerlendirme çerçevesinde ele alındı.",
+      "originalFindings": [],
+      "limitations": "Fenerbahçe’nin kesin maç kadrosu ve ilk 11’i 4 Eylül 2026 itibarıyla açıklanmadı. Kerem Aktürkoğlu’nun oynama durumu bağımsız kaynaklarda kesinleşmiş değil; bu nedenle olası tercih veya performans sonucu hakkında hüküm kurulmadı. Talisca’nın ayrılığının saha içi etkisi, henüz yeni maç örneklemi oluşmadığı için yalnızca kadro planlaması düzeyinde değerlendirildi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:05:34.000Z",
+      "discoveredAt": "2026-09-04T23:05:34.558Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Default.aspx?hafta=15&hafta=18&hafta=2&hafta=21&hafta=22&hafta=23&hafta=28&hafta=34&hafta=35&hafta=37&hafta=38&hafta=4&hafta=6&hafta=7&hafta=9&pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe, Beşiktaş derbisinin hazırlıklarını sürdürdü",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/amp/spor/fenerbahce-besiktas-derbisinin-hazirliklarini-surdurdu-2938667",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe, Anderson Talisca’nın sözleşmesini feshetti",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/fenerbahce-anderson-taliscanin-sozlesmesini-f-2938726",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe Anderson Talisca’nın sözleşmesini feshetti",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahce-anderson-taliscanin-sozlesmesini-feshetti",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "e37e40cf48658c4a",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ın yükselişi 6-2’de değil, derbi öncesi kadro dengesinde ölçülecek",
+      "summary": "Beşiktaş, TFF puan cetvelinde 6 puanla üçüncü sırada ve son maçında Çorum FK’yı 6-2 yendi. Ancak Fenerbahçe deplasmanı, Vincenzo Italiano’nun takımında skor üretiminin yanı sıra savunma konsantrasyonu ve kadro sürekliliğinin de gerçek ölçüsünü gösterecek.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Beşiktaş’ta derbi öncesi asıl ölçü: Kadro dengesi",
+      "seoDescription": "Beşiktaş’ın 6 puanlık başlangıcı ve Çorum galibiyeti, Fenerbahçe derbisi öncesi kadro dengesi, savunma konsantrasyonu ve Vlahovic etkisiyle analiz ediliyor.",
+      "focusKeyword": "Beşiktaş Fenerbahçe derbisi 2026",
+      "originalAngle": "Beşiktaş’ın ilk üç haftadaki puan üretimini yalnızca 6-2’lik Çorum FK galibiyetiyle açıklamak yerine, bu skorun derbi seviyesine taşınırken hangi yapısal sınavlarla karşılaşacağını inceliyoruz. GOLHAT’ın özgün bakışı, Italiano’nun bizzat işaret ettiği ritim ve konsantrasyon düşüşünü, yeni golcü Dusan Vlahovic’in hücum katkısı ile takımın savunma sürekliliği arasındaki denge üzerinden okumaktır.",
+      "keyFindings": [
+        "Beşiktaş, TFF’nin 4 Eylül 2026 tarihli puan görünümünde 3 maç sonunda 2 galibiyet, 1 mağlubiyet ve 6 puanla üçüncü sırada yer alıyor; averajı artı 4.",
+        "Siyah-beyazlı takım son lig maçında Çorum FK’yı 6-2 yendi. Vincenzo Italiano, galibiyete rağmen takımın ritim ve konsantrasyon düşüşlerinde rakibe pozisyon vermesini eleştirdi.",
+        "5 Eylül 2026’da Fenerbahçe deplasmanında oynanacak maç, Beşiktaş’ın skor üretme kapasitesinden çok bu savunma zaafını ve kadro sürekliliğini daha yüksek rekabet seviyesinde sınayacak.",
+        "Vlahovic’in gelişi hücumun merkezine doğrulanmış bir bitiricilik seçeneği ekledi; ancak tek bir forvet katkısının takım savunmasındaki konsantrasyon sorununu kendiliğinden çözdüğü söylenemez.",
+        "Bağımsız maç kaynağında Beşiktaş için doğrulanmış isim bazlı sakat veya cezalı listesi bulunmadığı için kadro eksikleri üzerinden kesin bir sonuç kurulmadı."
+      ],
+      "originalityBasis": "original_data_analysis",
+      "methodology": "TFF’nin güncel puan cetveli ve 4. hafta fikstürü; Beşiktaş’ın resmi maç merkezi ve teknik direktör açıklaması; bağımsız Mackolik maç sayfasındaki derbi, hakem ve kadro durumu verileri karşılaştırıldı. Analiz, doğrulanan sonuçları puan tablosu, son maç performansı ve yaklaşan derbinin rekabet seviyesiyle birlikte değerlendirdi.",
+      "originalFindings": [
+        "Beşiktaş’ın 6 puanı, puan cetvelinde üçüncülük için yeterli olsa da Galatasaray’ın 10 puanlık liderliği karşısında erken sezon marjının sınırlı olduğunu gösteriyor.",
+        "6-2’lik galibiyet hücum tavanını ortaya koydu; Italiano’nun açıklaması ise aynı maçın savunma sürekliliği bakımından tamamlanmamış bir performans olduğunu gösteriyor.",
+        "Derbinin temel sorusu Beşiktaş’ın gol atıp atamayacağı değil, hücumdaki yeni kaliteyi savunma ritmi bozulmadan ne kadar süre taşıyabileceği olacak."
+      ],
+      "limitations": "TFF sayfasında Beşiktaş’ın puan ve fikstür bilgisi doğrulandı; ancak kulübün sakat oyuncu listesini isim bazında yayımlayan güncel resmi bir açıklama bulunamadı. Bu nedenle canlı veri özetindeki toplam sakatlık bilgisi haberde isimlendirilmedi ve kadro eksikleri hakkında kesin nedensellik kurulmadı. Derbi henüz oynanmadığı için sonuç veya performans etkisi öngörü olarak sunulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:05:34.000Z",
+      "discoveredAt": "2026-09-04T23:05:34.558Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli TFF",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Teknik Direktörümüz Vincenzo Italiano’dan Açıklamalar",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/95013/teknik-direktorumuz-vincenzo-italianodan-aciklamalar.html",
+          "publishedAt": "2026-09-01",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe vs Beşiktaş, 05.09.2026, Trendyol Süper Lig",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/mac/fenerbah%C3%A7e-vs-be%C5%9Fikta%C5%9F/cdyo4xx8bljqywpx61pb6309g",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "d71902d3c927ff7e",
       "role": "fenerbahce",
@@ -8659,56 +8856,6 @@
           "publisher": "beIN SPORTS Türkiye",
           "url": "https://beinsports.com.tr/haber/galatasarayin-yeni-transferi-istanbula-geldi-iste-ilk-sozleri",
           "publishedAt": "2026-09-02T05:32:00Z"
-        }
-      ]
-    },
-    {
-      "id": "f5444451d8d50cf9",
-      "role": "avrupa_kupalari",
-      "page": "avrupa.html",
-      "headline": "Enzo Fernandez, Manchester City'ye transfer oldu",
-      "summary": "Manchester City, Chelsea'nin Arjantinli orta saha oyuncusu Enzo Fernandez'i 125 milyon sterlin karşılığında kadrosuna kattı. Beş yıllık sözleşme imzalayan Fernandez'in transferi, Premier Lig tarihindeki en yüksek bedelli operasyonlardan biri olarak kayda geçti.",
-      "tag": "Kesinleşti",
-      "importance": 90,
-      "publishedAt": "2026-09-01T21:30:00.000Z",
-      "discoveredAt": "2026-09-02T09:18:17.888Z",
-      "sources": [
-        {
-          "title": "Manchester City anuncia a contratação de Enzo Fernández",
-          "publisher": "ge.globo",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/01/manchester-city-contrata-enzo-fernandez-agora-ex-chelsea-por-r-870-milhoes.ghtml",
-          "publishedAt": "2026-09-01T19:32:00-03:00"
-        },
-        {
-          "title": "Enzo Fernandez Leaves Chelsea As Man City Transfer Fee & Terms Revealed",
-          "publisher": "Reuters/Yahoo Sports",
-          "url": "https://ca.sports.yahoo.com/news/enzo-fernandez-leaves-chelsea-man-223713535.html",
-          "publishedAt": "2026-09-01T22:37:00Z"
-        }
-      ]
-    },
-    {
-      "id": "9cd4ad0dce5fcdac",
-      "role": "avrupa_kupalari",
-      "page": "avrupa.html",
-      "headline": "Gabriel Jesus, Barcelona'nın yeni forveti oldu",
-      "summary": "Barcelona, Arsenal'den Brezilyalı santrfor Gabriel Jesus'i üç sezonluğuna transfer etti. Kulübün resmi açıklamasına göre sözleşme 30 Haziran 2029'a kadar geçerli olacak; bağımsız AP haberi de transferi doğruladı.",
-      "tag": "Kesinleşti",
-      "importance": 80,
-      "publishedAt": "2026-09-01T12:45:00.000Z",
-      "discoveredAt": "2026-09-02T09:18:17.888Z",
-      "sources": [
-        {
-          "title": "Gabriel Jesus signs for FC Barcelona",
-          "publisher": "FC Barcelona",
-          "url": "https://www.fcbarcelona.com/en/news/4570072/gabriel-jesus-signs-for-fc-barcelona/amp",
-          "publishedAt": "2026-09-01T12:45:00Z"
-        },
-        {
-          "title": "Barcelona completes transfer deadline day deal for Gabriel Jesus from Arsenal",
-          "publisher": "Associated Press/Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/barcelona-completes-transfer-deadline-day-133444551.html",
-          "publishedAt": "2026-09-01T13:34:00Z"
         }
       ]
     }
