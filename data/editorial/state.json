@@ -1,7 +1,208 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T15:43:51.068Z",
+  "updatedAt": "2026-09-04T16:18:35.501Z",
   "stories": [
+    {
+      "id": "bc89c7bdf57a2377",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Gaziantep FK, Mirel Radoi’nin ardından Orhan Ak’la anlaştı",
+      "summary": "Gaziantep FK, Mirel Radoi ile yolların ayrılmasının ardından teknik direktörlük görevine Orhan Ak’ı getirdi. Yeni teknik adam sezon sonuna kadar sözleşme imzalarken, takımın ilk üç haftadaki 4 puanlık başlangıcının ardından teknik yönetim değişti.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Gaziantep FK’de Orhan Ak dönemi başladı",
+      "seoDescription": "Gaziantep FK, Mirel Radoi’nin ayrılığı sonrası Orhan Ak’ı sezon sonuna kadar teknik direktörlük görevine getirdi; değişimin arka planı burada.",
+      "focusKeyword": "Gaziantep FK Orhan Ak",
+      "originalAngle": "Gaziantep FK’nin teknik direktör değişikliği, sezonun henüz üçüncü haftası tamamlanmadan geldi. GOLHAT’ın dikkat çektiği nokta, kulübün puan tablosundan çok kısa vadede yeni teknik ekibin oyun planını ve Radoi döneminde oluşan başlangıç ivmesini koruyup koruyamayacağıdır.",
+      "keyFindings": [
+        "Gaziantep FK, Mirel Radoi ile yollarını ayırdı ve Orhan Ak ile sezon sonuna kadar anlaştı.",
+        "Gaziantep FK, 2026-2027 Süper Lig sezonunun ilk üç haftasında Alanyaspor ile berabere kaldı, Eyüpspor’u yendi ve Çaykur Rizespor’a mağlup oldu.",
+        "Orhan Ak’ın ilk sınavı, teknik değişikliğin takımın sezon başındaki puan üretimine ve oyun düzenine etkisini gösterecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Kulübün teknik direktörlük anlaşmasına ilişkin açıklaması, Sahadan’ın haber metni ve Cumhuriyet’in bağımsız haber sunumuyla karşılaştırıldı. Radoi dönemi ve ilk üç haftadaki sonuçlar ayrıca haber kaynaklarındaki ortak bilgiler üzerinden kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Orhan Ak’ın sözleşmesinin mali şartları ve teknik ekibin tamamı doğrulanmış kaynaklarda açıklanmadı. Değişikliğin sportif başarısını ölçmek için henüz yeni maç verisi bulunmuyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T11:30:00.000Z",
+      "discoveredAt": "2026-09-04T16:18:35.501Z",
+      "sources": [
+        {
+          "title": "Gaziantep FK'nin yeni teknik direktörü Orhan Ak",
+          "publisher": "Sahadan",
+          "url": "https://www.sahadan.com/haberler/futbol/gaziantep-fknin-yeni-teknik-direktoru-orhan-ak/92bedcb5-dfa3-43b0-92a1-fc54270ca786",
+          "publishedAt": "2026-09-04T14:30:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gaziantep FK'de Orhan Ak dönemi",
+          "publisher": "Cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Gaziantep FK'de Orhan Ak dönemi",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/takim/gaziantep-fk",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "2c7c6fba493664ae",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Gençlerbirliği’nin genç oyuncusu Diabate Newcastle United’a transfer oldu",
+      "summary": "Gençlerbirliği, 18 yaşındaki Ousmane Diabate’nin Newcastle United’a transferi konusunda anlaşma sağlandığını açıkladı. İngiliz kulübüne geçen oyuncu, 2026-2027 sezonunun sonuna kadar Ankara temsilcisinde kiralık olarak forma giymeye devam edecek.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Gençlerbirliği’nden Newcastle’a Diabate transferi",
+      "seoDescription": "Gençlerbirliği, 18 yaşındaki Ousmane Diabate’nin Newcastle United’a transferini açıkladı; oyuncu sezon sonuna kadar Ankara’da kiralık kalacak.",
+      "focusKeyword": "Ousmane Diabate Newcastle United",
+      "originalAngle": "Transferin ayırt edici tarafı yalnızca Diabate’nin Premier Lig’e gitmesi değil, Gençlerbirliği’nin oyuncuyu sezon sonuna kadar kadrosunda tutmasıdır. Böylece Ankara temsilcisi hem genç futbolcusunun Avrupa’ya çıkışını gerçekleştirdi hem de kısa vadeli sportif kullanımını korudu.",
+      "keyFindings": [
+        "Ousmane Diabate’nin Newcastle United’a transferi konusunda Gençlerbirliği ile İngiliz kulübü anlaşmaya vardı.",
+        "18 yaşındaki Gineli oyuncu, transfer tamamlandıktan sonra 2026-2027 sezonunun sonuna kadar Gençlerbirliği’nde kiralık kalacak.",
+        "Transfer, Gençlerbirliği’nin genç oyuncu geliştirme ve üst düzey Avrupa kulüplerine oyuncu kazandırma kapasitesi açısından kulüp gündeminin öne çıkan gelişmesi oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gençlerbirliği’nin resmî açıklaması, Sahadan’ın haber metni ve Ajansspor’un Newcastle açıklamasına dayandırdığı bağımsız haber karşılaştırıldı. Oyuncunun yaşı ve kiralık kalacağı bilgisi iki haber kaynağındaki ortak unsurlar üzerinden kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Bonservis bedeli konusunda kaynaklarda farklı bilgiler bulunduğundan haber metnine doğrulanmamış rakam eklenmedi. Newcastle’ın sözleşme süresi ve ödeme planına ilişkin resmî ayrıntılar açık kaynaklarda tam olarak yer almıyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T13:32:00.000Z",
+      "discoveredAt": "2026-09-04T16:18:35.501Z",
+      "sources": [
+        {
+          "title": "Ousmane Diabate, Newcastle United'da",
+          "publisher": "Sahadan",
+          "url": "https://www.sahadan.com/haberler/futbol/ousmane-diabate-newcastle-unitedda/c36fdacc-e787-4c6f-ac41-b996371f5cab",
+          "publishedAt": "2026-09-04T13:50:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Newcastle, Gençlerbirliği’nden Diabate transferini resmen açıkladı",
+          "publisher": "Ajansspor",
+          "url": "https://ajansspor.com/haber/newcastle-genclerbirliginden-diabate-transferini-resmen-acikladi-iste-bonservisi-734118",
+          "publishedAt": "2026-09-04T16:32:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Süper Lig'de transferin son günü",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/index.php/futbol/haber/super-ligde-transferin-son-gunu/04d7002b-5b75-40e6-b489-73229751a157",
+          "publishedAt": "2026-09-04T17:20:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "d312232ab7b335ca",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Çekdar Orhan, Şanlıurfaspor’a transfer oldu",
+      "summary": "Amedspor’dan ayrılan Çekdar Orhan’ın Şanlıurfaspor’a transferi 4 Eylül 2026’da TFF lisans kaydıyla resmileşti. Orhan’ın yeni kulübüyle bir yıllık sözleşme imzaladığı bildirildi.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Çekdar Orhan Şanlıurfaspor’a transfer oldu",
+      "seoDescription": "Çekdar Orhan’ın Şanlıurfaspor transferi TFF lisans kaydıyla resmileşti. Oyuncunun sözleşme süresi ve yeni takımındaki konumu haberimizde.",
+      "focusKeyword": "Çekdar Orhan Şanlıurfaspor transferi",
+      "originalAngle": "Transferin haber değeri yalnızca yeni takım bilgisinde değil, 4 Eylül 2026’da sona eren Türkiye transfer döneminin son gününde TFF lisans kaydıyla tamamlanmış olmasında. Böylece daha önce gündeme gelen görüşme, resmî oyuncu kaydına dönüşmüş oldu.",
+      "keyFindings": [
+        "Çekdar Orhan’ın Şanlıurfaspor’a transferi TFF lisans kaydıyla resmiyet kazandı.",
+        "Bağımsız haber kaynakları oyuncunun Şanlıurfaspor ile bir yıllık sözleşme imzaladığını aktardı.",
+        "Oyuncu, Amedspor’dan ayrılığının ardından Şanlıurfaspor’un 2026-2027 sezonu kadrosuna dahil oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’deki oyuncu ve lisans kaydı, transferi duyuran iki farklı yerel spor yayınının haberleriyle karşılaştırıldı. Sözleşme süresi, bağımsız haberlerde ortak aktarılan bilgi olarak kullanıldı.",
+      "originalFindings": [],
+      "limitations": "Şanlıurfaspor’un kulüp internet sitesinde veya resmî sosyal medya hesaplarında ayrıca yayımlanmış bir transfer duyurusu doğrulanamadı; bonservis ve ücret bilgisi mevcut kaynaklarda yer almıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T10:14:00.000Z",
+      "discoveredAt": "2026-09-04T16:18:35.501Z",
+      "sources": [
+        {
+          "title": "Çekdar Orhan’ın transferi resmileşti",
+          "publisher": "Amida Haber",
+          "url": "https://amidahaber.com/sanliurfa/cekdar-orhanin-transferi-resmilesti-235444h",
+          "publishedAt": "2026-09-04T13:01:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Çekdar Orhan'ın yeni takımı belli oldu: Lisansı çıkartıldı!",
+          "publisher": "Mücadele Gazetesi",
+          "url": "https://www.mucadelegazetesi.com.tr/cekdar-orhanin-yeni-takimi-belli-oldu-lisansi-cikartildi",
+          "publishedAt": "2026-09-04T13:14:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Çekdar Orhan istatistikleri ve reytingleri",
+          "publisher": "Sofascore",
+          "url": "https://www.sofascore.com/tr/football/player/cekdar-orhan/992598",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "19c526bf1e1ddcc4",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "FIFA’nın UEFA’ya mahkeme yanıtı, futbol ekonomisinde asıl açığın denetim olduğunu gösteriyor",
+      "summary": "FIFA’nın, Dünya Kupası ve diğer ticari hakların özel sermayeye açılması planı nedeniyle UEFA’nın ABD’de yürüttüğü delil toplama girişimine “karalama kampanyası” itirazıyla karşılık vermesi, tartışmayı rafa kalkmış bir yatırım projesinden çıkarıp futbol ekonomisinde denetim ve hesap verme meselesine taşıdı. Yeni dosya, karar süreçlerinin nasıl işletildiği sorusunu büyütüyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "FIFA-UEFA krizinde asıl mesele: Futbol ekonomisinde denetim",
+      "seoDescription": "FIFA’nın UEFA’ya mahkeme yanıtı, Dünya Kupası ticari hakları tartışmasını yatırım planından çıkarıp futbol ekonomisinde denetim sorununa taşıyor.",
+      "focusKeyword": "FIFA UEFA hukuki kriz",
+      "originalAngle": "Yeni hukuki başvuru, iptal edilen ticari haklar planının ekonomik sonucundan çok karar alma zincirinin şeffaflığını tartışmaya açıyor; GOLHAT’ın tezi, futbolun küresel gelirlerini büyütme iddiasının bağımsız denetim ve paydaş onayı olmadan kurumsal güven üretemeyeceği yönünde.",
+      "keyFindings": [
+        "FIFA, 3 Eylül 2026 tarihli ABD mahkemesi dosyasında UEFA’nın, Dünya Kupası ve diğer organizasyonların ticari haklarının özel sermayeye açılması planıyla ilgili delil toplama taleplerine karşı çıktı ve bu girişimi “karalama kampanyası” olarak niteledi.",
+        "UEFA’nın başvuruları, planın yalnızca geri çekilmiş bir finansman modeli olarak kalmadığını; karar sürecinin nasıl yürütüldüğüne dair belge ve tanıklık arayışının sürdüğünü gösteriyor.",
+        "Bu tablo, futbol ekonomisinde gelir artışı hedefinin tek başına yeterli olmadığını ortaya koyuyor: Hakların kime, hangi yetkiyle ve hangi denetim mekanizmasıyla açılacağı sorusu artık planın finansal cazibesi kadar belirleyici."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "3-4 Eylül 2026 tarihli AP ve Reuters kaynaklı haberler karşılaştırıldı; haberlerde aktarılan ABD mahkemesi süreci, FIFA’nın itirazı ve UEFA’nın delil toplama girişimi ayrıştırıldı. Yorum, bu doğrulanmış gelişmelerin futbol yönetişimi ve ticari hakların denetimi bakımından anlamı üzerine kurulmuştur.",
+      "originalFindings": [
+        "Kriz, planın geri çekilmesine rağmen sona ermedi; hukuki süreç, ticari model tartışmasını kurumsal sorumluluk tartışmasına dönüştürdü.",
+        "FIFA’nın savunma dili ile UEFA’nın delil arayışı arasındaki gerilim, tarafların aynı olay için farklı meşruiyet çerçeveleri kurduğunu gösteriyor.",
+        "Bundan sonraki belirleyici eşik, planın yeniden canlanıp canlanmayacağından önce, süreçte hangi belgelerin ve karar zincirinin kamuoyuna açıklanacağıdır."
+      ],
+      "limitations": "Mahkeme süreci devam ediyor; tarafların iddiaları henüz nihai bir yargı kararıyla doğrulanmış değil. Ticari planın ayrıntıları ve karar alma sürecindeki tüm belgeler kamuya açık olmadığı için yorum, mevcut mahkeme dosyaları ve bağımsız haberlerde doğrulanan olgularla sınırlıdır.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "GOLHAT-YORUM-20260904-FIFA-UEFA-001",
+      "authorName": "Mizan 90",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T16:18:35.501Z",
+      "sources": [
+        {
+          "title": "FIFA accuses European body UEFA of 'smear campaign' in filing related to World Cup sell-off plan",
+          "publisher": "The Associated Press",
+          "url": "https://apnews.com/article/32200e4e3d7874f66bb99025a2c7e36e",
+          "publishedAt": "2026-09-03T22:09:06Z",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Soccer-FIFA accuses UEFA of 'smear campaign' in fight over Infantino plan",
+          "publisher": "Reuters via Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/international/3972289-soccer-fifa-accuses-uefa-of-smear-campaign-in-fight-over-infantino-plan",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "4c890f8c727bcd42",
       "role": "besiktas",
