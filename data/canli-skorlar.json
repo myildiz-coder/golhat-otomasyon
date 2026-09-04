@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:38:38.279Z",
+  "updatedAt": "2026-09-04T18:49:48.008Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 8,
-    "live": 4,
-    "upcoming": 4,
+    "live": 5,
+    "upcoming": 3,
     "finished": 0
   },
   "matches": [
@@ -40,8 +40,8 @@
       "home": "Başakşehir",
       "away": "Galatasaray",
       "homeScore": 2,
-      "awayScore": 2,
-      "minute": 81,
+      "awayScore": 3,
+      "minute": 92,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,10 +95,10 @@
       "away": "Como",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 3,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881159,
@@ -113,7 +113,7 @@
       "away": "1. FC Köln",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Auxerre",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 77,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "PEC Zwolle",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 38,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
