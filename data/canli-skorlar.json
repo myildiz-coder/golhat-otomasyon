@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:58:39.526Z",
+  "updatedAt": "2026-09-04T19:11:57.905Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 8,
-    "live": 3,
-    "upcoming": 3,
+    "live": 6,
+    "upcoming": 0,
     "finished": 2
   },
   "matches": [
@@ -58,11 +58,11 @@
       "home": "Ipswich Town",
       "away": "Liverpool",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 2,
+      "minute": 12,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868043,
@@ -77,10 +77,10 @@
       "away": "Real Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749665,
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Genoa",
       "away": "Como",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "VfB Stuttgart",
       "away": "1. FC Köln",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "Monaco",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781738,
@@ -167,7 +167,7 @@
       "away": "PEC Zwolle",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
