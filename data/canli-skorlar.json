@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T17:35:42.360Z",
+  "updatedAt": "2026-09-04T17:45:41.333Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Galatasaray",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 36,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Lyon",
       "away": "Auxerre",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 36,
+      "awayScore": 1,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
