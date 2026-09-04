@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T19:11:57.905Z",
+  "updatedAt": "2026-09-04T19:24:54.685Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Liverpool",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 12,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Real Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Genoa",
       "away": "Como",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 25,
+      "awayScore": 2,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "1. FC Köln",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 40,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Monaco",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 20,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "PEC Zwolle",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 55,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
