@@ -1,7 +1,210 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T22:47:03.486Z",
+  "updatedAt": "2026-09-04T22:57:35.687Z",
   "stories": [
+    {
+      "id": "d71902d3c927ff7e",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’nin 6 puanı iki farklı takvimin kesişiminde ölçülecek",
+      "summary": "Fenerbahçe, Süper Lig’de 6 puanla 4. sıradayken Samsunspor galibiyeti ve Lyon zaferiyle iki kulvarda ilerliyor. 5 Eylül’de Beşiktaş, 10 Eylül’de Roma karşısına çıkacak sarı-lacivertliler için asıl soru, mevcut kadronun derbi sertliği ile Şampiyonlar Ligi temposunu arka arkaya taşıyıp taşıyamayacağı.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe’nin 6 puanı iki farklı takvimde ölçülecek",
+      "seoDescription": "Fenerbahçe’nin 6 puanlık lig başlangıcı, Samsunspor ve Lyon galibiyetleri sonrası Beşiktaş derbisi ile Roma maçında kadro derinliği üzerinden sınanacak.",
+      "focusKeyword": "Fenerbahçe 6 puan kadro derinliği",
+      "originalAngle": "Fenerbahçe’nin tablodaki 4. sırasını tek başına yorumlamak eksik kalıyor. Sarı-lacivertliler üç lig maçında 6 puan toplarken aynı dönemde Lyon engelini aşarak Şampiyonlar Ligi lig aşamasına çıktı. Bu nedenle 5 Eylül’deki Beşiktaş derbisi yalnızca puan yarışı açısından değil, 10 Eylül’deki Roma maçına dört gün kala teknik ekibin kadro ve enerji yönetimini nasıl kuracağı açısından da önem taşıyor. GOLHAT’ın özgün bakışı, Fenerbahçe’nin mevcut formunu sonuç serisinden çok iki farklı maç yoğunluğunda aynı omurgayı koruyabilme kapasitesiyle ölçmek.",
+      "keyFindings": [
+        "TFF canlı verisine göre Fenerbahçe, 3 maç sonunda 2 galibiyet, 1 mağlubiyet, 6 puan ve +3 averajla 4. sırada bulunuyor; lider Galatasaray’ın 10 puan gerisinde, 2. sıradaki Gençlerbirliği’nin 1 puan altında yer alıyor.",
+        "Fenerbahçe, 30 Ağustos 2026’da Samsunspor’u deplasmanda 2-0 yendi; beIN SPORTS maç kaydında gollerin Vedat Muriqi ve Oğuz Aydın’dan geldiği, galibiyetle puanın 6’ya yükseldiği belirtiliyor.",
+        "TFF, 26 Ağustos 2026’da Lyon’un deplasmanda 2-1 yenildiğini ve Fenerbahçe’nin toplamda 3-2’lik eşleşme sonucuyla Şampiyonlar Ligi lig aşamasına yükseldiğini doğruluyor.",
+        "Bir sonraki lig maçı 5 Eylül 2026’da sahasında Beşiktaş’a karşı oynanacak; UEFA’nın resmî fikstüründe ise 10 Eylül 2026’da Fenerbahçe-Roma karşılaşması yer alıyor.",
+        "Samsunspor maçında Muriqi, Oğuz Aydın, Greenwood, İrfan Can Kahveci, Guendouzi ve diğer ana rotasyon oyuncularının kullanılması, teknik ekibin iki kulvarı aynı kadro omurgasıyla yürüttüğünü gösteriyor; ancak mevcut veriler sakat oyuncuların dönüş takvimini açıklamadığı için derbi ve Roma öncesi tam kadro durumuna dair kesin hüküm kurulamıyor."
+      ],
+      "originalityBasis": "original_data_analysis",
+      "methodology": "TFF’nin güncel puan cetveli ve resmî Fenerbahçe-Lyon maç kaydı; beIN SPORTS’un Samsunspor-Fenerbahçe maç raporu; Beşiktaş kulübünün derbi bilgisi ve UEFA’nın 2026/27 Şampiyonlar Ligi fikstürüyle karşılaştırıldı. Değerlendirme, puan durumu, son iki galibiyet, doğrulanmış maç kadrosu ve 5-10 Eylül arasındaki takvim birlikte okunarak yapıldı.",
+      "originalFindings": [
+        "Fenerbahçe’nin ligdeki 6 puanı, Avrupa’daki tur başarısından bağımsız bir başlangıç verisi değil; takımın aynı hafta içinde lig derbisi ve Şampiyonlar Ligi maçını oynayacağı yoğun takvimin ilk aşaması olarak anlam kazanıyor.",
+        "Samsunspor galibiyetinde skor erken bulunmasına rağmen maç kadrosunun ana hücum ve orta saha omurgası yoğun biçimde kullanıldı. Bu durum, Beşiktaş-Roma aralığında rotasyon kararlarını haber değerinin merkezine taşıyor.",
+        "Beşiktaş karşılaşmasının ardından yalnızca dört gün sonra Roma ile oynanacak maç, Fenerbahçe’nin puan tablosundaki konumundan daha açıklayıcı bir ölçüm sunacak: aynı oyun planı mı korunacak, yoksa Avrupa maçı için rol ve oyuncu dağılımı mı değişecek?"
+      ],
+      "limitations": "TFF’nin web arayüzünde güncel puan tablosu metin olarak tam açılmadığı için sıralama ve puan bilgisi sağlanan canlı TFF veri özetiyle, maç sonuçları ise bağımsız kaynaklarla birlikte değerlendirildi. Kulübün 4 Eylül 2026 tarihli ayrıntılı sakatlık ve dönüş raporu doğrulanamadığından kadro eksikleri hakkında isim ve süre bazlı kesinlik kurulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:57:35.000Z",
+      "discoveredAt": "2026-09-04T22:57:35.687Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "GENİŞ ÖZET | Samsunspor 0-2 Fenerbahçe",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/samsunspor-fenerbahce-3",
+          "publishedAt": "2026-08-30",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "1377c6fbbf39901b",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ın Çorum galibiyeti Kadıköy’e taşınacak mı? 6 puanın gerçek karşılığı derbide belli olacak",
+      "summary": "Beşiktaş, Çorum FK karşısındaki 6-2’lik galibiyetin ardından TFF puan cetvelinde 6 puanla üçüncü sırada bulunuyor. Siyah-beyazlıların 5 Eylül 2026’daki Fenerbahçe deplasmanında çözmesi gereken temel mesele, farklı kazandığı maçtaki hücum üretimini daha yüksek baskı ve daha güçlü rakip karşısında sürdürebilmek.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Beşiktaş’ın 6 puanı Fenerbahçe derbisinde ne anlatacak?",
+      "seoDescription": "Beşiktaş’ın Çorum FK galibiyeti ve 6 puanlık lig başlangıcı, Fenerbahçe deplasmanında hücum gücü ve kadro dayanıklılığı açısından analiz ediliyor.",
+      "focusKeyword": "Beşiktaş Fenerbahçe derbisi 2026",
+      "originalAngle": "Beşiktaş’ın sezon başlangıcı yalnızca puan cetvelindeki üçüncülükle değil, Çorum FK karşısında üretilen hücum seviyesinin Kadıköy’de tekrarlanıp tekrarlanamayacağıyla okunmalı. Çorum maçındaki geniş skor, Vlahovic’in üç gollü başlangıcı ve takımın hücumdaki çeşitliliği olumlu işaretler verdi; ancak bu verilerin ligdeki ilk yüksek baskılı deplasman sınavında savunma dengesi ve oyun sürekliliğiyle birlikte doğrulanması gerekiyor.",
+      "keyFindings": [
+        "Beşiktaş, 31 Ağustos 2026’da Çorum FK’yı 6-2 yenerek ligdeki üçüncü maçında ikinci galibiyetini aldı ve TFF’nin 4 Eylül tarihli cetvelinde 6 puanla üçüncü sırada yer aldı.",
+        "Çorum FK karşılaşmasında Dusan Vlahovic’in hat-trick yapması, Vaclav Cerny, İlhan Fakılı ve Michael Murillo’nun da skor üretmesi Beşiktaş’ın hücum katkısını tek oyuncuya bağlı bırakmadığını gösterdi.",
+        "Beşiktaş’ın 5 Eylül 2026 saat 20.00’de Fenerbahçe’ye konuk olacağı derbi öncesinde kulüp, hazırlıklarını tamamladığını açıkladı; bağımsız haberlerde siyah-beyazlılarda sakat veya cezalı oyuncu bulunmadığı bildirildi.",
+        "Bu tablo, Beşiktaş’a sezonun ilk üç haftasına göre daha geniş bir kullanım alanı sunuyor; fakat Çorum karşısındaki 6-2’lik skorun derbide aynı hücum verimliliğine dönüşeceği henüz kanıtlanmış değil.",
+        "Derbiden sonra Beşiktaş’ın ligdeki ilk sonraki sınavı, mevcut fikstür verisine göre puan yarışındaki konumunu koruma ve deplasman performansını sürdürme sorusu üzerinden değerlendirilecek; derbi sonucu 6 puanın anlamını doğrudan değiştirecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin 2026-2027 Süper Lig puan cetveli ve fikstür bilgileri, Beşiktaş’ın resmî maç merkezi ve kulüp açıklamalarıyla karşılaştırıldı. Çorum FK maçı ve derbi hazırlıkları beIN SPORTS, AA ve A Spor haberleriyle çapraz kontrol edildi. Analitik sonuçlar yalnızca doğrulanan skor, puan, fikstür ve kadro bilgileri üzerinden kuruldu.",
+      "originalFindings": [],
+      "limitations": "Beşiktaş’ın sezon toplamı için ayrıntılı oyuncu bazlı performans ve resmî sakatlık raporu yayımlanmadığından, kadro derinliği veya oyuncuların fiziksel hazır oluşu hakkında kesin hüküm kurulmadı. Derbinin sonucu ve oyun içi eşleşmeleri haber yayını sırasında bilinmiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:57:35.000Z",
+      "discoveredAt": "2026-09-04T22:57:35.687Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe maçı hazırlıkları tamamlandı",
+          "publisher": "Beşiktaş JK",
+          "url": "https://bjk.com.tr/tr/haber/95041/fenerbahce-maci-hazirliklari-tamamlandi.html",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş - Çorum FK geniş özet",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/besiktas-arca-corum-fk",
+          "publishedAt": "2026-08-31",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisi öncesi Beşiktaş’ta eksik yok",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/besiktas/2026/09/04/besiktas-super-ligde-fenerbahceye-konuk-oluyor",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "c1d7a82e94c0ef66",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor’da sorun yalnızca 4 puan değil: Gençlerbirliği maçı kadro ve savunma testine dönüşüyor",
+      "summary": "Trabzonspor, Süper Lig’in ilk üç haftasında 4 puanla 11. sırada yer alırken Gençlerbirliği 7 puan topladı. Bordo-mavililerin 6 Eylül’deki Papara Park maçında puan tablosundan önce savunma istikrarını ve eksiklerin etkisini çözmesi gerekiyor.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Trabzonspor-Gençlerbirliği maçı öncesi puan ve kadro analizi",
+      "seoDescription": "Trabzonspor’un 4 puanlık başlangıcı, Gençlerbirliği’nin 7 puanı ve olası eksikler 6 Eylül maçı öncesinde savunma istikrarı üzerinden değerlendiriliyor.",
+      "focusKeyword": "Trabzonspor Gençlerbirliği maçı",
+      "originalAngle": "Trabzonspor’un mevcut tablosunu yalnızca puan sırasıyla değil, ilk üç haftadaki puan üretimi ile Gençlerbirliği’nin başlangıç ivmesi arasındaki fark üzerinden okumak gerekiyor. Bordo-mavililer için belirleyici soru, Papara Park’taki maçın kazanılıp kazanılmayacağından önce; savunmada son dönemde görülen dalgalanmanın ve kadro belirsizliğinin bu karşılaşmada nasıl yönetileceği.",
+      "keyFindings": [
+        "TFF’nin 4 Eylül 2026 tarihli canlı puan cetveli özetine göre Trabzonspor, 3 maçta 1 galibiyet, 1 beraberlik ve 1 mağlubiyetle 4 puanla 11. sırada bulunuyor; gol averajı sıfır.",
+        "Trabzonspor’un bağımsız maç form verisinde son beş karşılaşma; Kasımpaşa karşısında 1-1, Ferencvaros karşısında 0-1 ve 0-4 mağlubiyetler, Başakşehir karşısında 2-1 galibiyet ve Amed deplasmanında 1-2 mağlubiyet şeklinde görünüyor.",
+        "Gençlerbirliği, ligdeki ilk üç maçında 2 galibiyet ve 1 beraberlikle 7 puan topladı; bu nedenle Trabzonspor’un karşısındaki rakip, puan cetvelinde bordo-mavililerden üç puan önde ve yenilgisiz durumda.",
+        "6 Eylül 2026’da Papara Park’ta oynanacak maçın saati ve stat bilgisi Trabzonspor’un resmî maç merkezinde 20.00 ve Papara Park olarak yer alıyor; TFF fikstürü de karşılaşmayı 4. hafta maçı olarak listeliyor.",
+        "Kadro durumu bakımından resmî Trabzonspor haber akışında Noah Saviolo’nun sağlık durumuna ilişkin açıklama bulunuyor; bağımsız maç veri kaynağı ise bazı oyuncular için sakatlık bilgileri listelese de aynı sayfanın maç detay bölümünde sakat ve cezalı verisinin mevcut olmadığını belirtiyor. Bu nedenle kesinleşmiş ilk 11 veya tam eksik listesi yayımlı",
+        "Trabzonspor’un bu maçı kazanması hâlinde yalnızca puanını artırması değil, sezonun ilk bölümündeki negatif ivmeyi durdurduğunu göstermesi gerekecek; beraberlik ya da mağlubiyet ise erken haftalarda puan kaybının yapısal bir probleme dönüşüp dönüşmediği sorusunu büyütecek."
+      ],
+      "originalityBasis": "original_data_analysis",
+      "methodology": "TFF’nin 2026-2027 sezonu fikstür ve puan cetveli, Trabzonspor’un resmî maç merkezi ve haber akışı ile bağımsız Mackolik maç-form verisi karşılaştırıldı. Puan, maç tarihi, rakibin formu ve geçmiş karşılaşma bilgileri ayrı kaynaklardan kontrol edildi; resmî olarak doğrulanmayan kadro kesinlikleri metinde sınırlı tutuldu.",
+      "originalFindings": [
+        "Trabzonspor’un 4 puanı, tek başına düşük bir toplamdan çok; üç maç sonunda gol averajının sıfırda kalması ve Gençlerbirliği’nin aynı aşamada 7 puana ulaşmasıyla anlam kazanıyor.",
+        "Son beş maç verisi, Trabzonspor’un savunma performansında belirgin dalgalanma bulunduğunu gösteriyor: takım bu periyotta dört gol yediği bir Avrupa maçı ve üç gol yediği Amed deplasmanı dahil olmak üzere farklı kulvarlarda istikrar sağlayamadı.",
+        "Gençlerbirliği karşılaşması, Trabzonspor’un sezon başındaki puan kaybını telafi etme fırsatından ziyade, yeni teknik düzenin savunma güvenliği ve hücum sürekliliği bakımından ilk kapsamlı iç saha sınavı niteliğinde."
+      ],
+      "limitations": "TFF canlı veri özetinde Trabzonspor’un tam kadro listesi, teknik kadro ayrıntıları ve sakat oyuncuların resmî son durumu yer almıyor. Kulübün resmî sağlık açıklamaları ile bağımsız veri kaynağının sakatlık ekranı arasında kapsam farkı bulunduğu için kesin eksik sayısı ve ilk 11 öngörüsü yapılmadı. Maç henüz oynanmadığından sonuç veya teknik etkinin kesin hükmü kurulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:57:35.000Z",
+      "discoveredAt": "2026-09-04T22:57:35.687Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli TFF",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxt=1&pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor-Gençlerbirliği maç merkezi",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/en/match-area/Trabzonspor-Gen%C3%A7lerbirli%C4%9Fi-cc2qfwzez7zba2t960ixuc4yc-e00dq6lfzgc7vo631cz8ktc0k?tab=galeri",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor Kulübü futbol A takım haberleri",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler?category=futbol-a-takim",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor vs Gençlerbirliği, Takım Form",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/mac/trabzonspor-vs-gen%C3%A7lerbirli%C4%9Fi/karsilastirma/cc2qfwzez7zba2t960ixuc4yc",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trabzonspor vs Gençlerbirliği, maç bilgisi",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/mac/trabzonspor-vs-gen%C3%A7lerbirli%C4%9Fi/cc2qfwzez7zba2t960ixuc4yc",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "5840775eb541d908",
       "role": "galatasaray",
