@@ -1,7 +1,102 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:19:13.252Z",
+  "updatedAt": "2026-09-04T18:43:46.713Z",
   "stories": [
+    {
+      "id": "fc2d169d0eb3405a",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş, Elan Ricardo’yu 2026-27 sezonu için ETO Futball’a kiraladı",
+      "summary": "Beşiktaş, profesyonel futbolcusu Elan Ricardo’nun 2026-27 sezonu sonuna kadar Macaristan temsilcisi ETO Futball Kft.’ye geçici transfer edildiğini açıkladı. Gelişme, transfer döneminin son gününde kadro planlamasında bir ayrılığı daha kesinleştirdi.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Elan Ricardo’yu ETO Futball’a kiraladı",
+      "seoDescription": "Beşiktaş, Elan Ricardo’nun 2026-27 sezonu sonuna kadar ETO Futball’a kiralandığını açıkladı; gelişmenin kadro planlamasındaki karşılığı haberimizde.",
+      "focusKeyword": "Elan Ricardo Beşiktaş",
+      "originalAngle": "Transfer döneminin son gününde gerçekleşen bu ayrılık, Beşiktaş’ın genç oyuncu rotasyonunu sezon boyunca farklı bir takımda değerlendirme tercihine işaret ediyor; ancak kiralama kararının sportif gerekçesi kulüp açıklamasında belirtilmedi.",
+      "keyFindings": [
+        "Beşiktaş, Elan Ricardo’nun ETO Futball Kft.’ye 2026-27 sezonu için geçici transfer edildiğini resmi olarak duyurdu.",
+        "İkinci kaynak da transferin sezon sonuna kadar kiralık gerçekleştiğini doğruluyor.",
+        "Kulüp açıklamasında kiralama bedeli, satın alma opsiyonu veya oyuncunun yeni takımındaki kullanım planına ilişkin bilgi paylaşılmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmi kulüp açıklaması, ikinci bir haber kaynağındaki bağımsız doğrulamayla karşılaştırıldı; tarih, oyuncu ve transfer türü eşleştirildi.",
+      "originalFindings": [],
+      "limitations": "Kiralama bedeli, satın alma opsiyonu ve sözleşmenin diğer mali şartları kamuya açık kaynaklarda yer almıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T15:02:00.000Z",
+      "discoveredAt": "2026-09-04T18:43:46.713Z",
+      "sources": [
+        {
+          "title": "Elan Ricardo, ETO Futball Kft.’ye Geçici Transfer Oldu",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/95038/elan-ricardo-eto-futball-kftye-gecici-transfer-oldu.html",
+          "publishedAt": "2026-09-04T18:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş Elan Ricardo’yu Gönderdi! ETO Futball Kft. Transferi Açıklandı",
+          "publisher": "Devlet.TC",
+          "url": "https://devlet.tc/tr/haber/besiktasta-ayrilik-resmilesti-elan-ricardo-macaristan-yolcusu",
+          "publishedAt": "2026-09-04T16:11:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "489581c74665ac84",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "TFF duyurdu: Süper Lig maçları öncesi 1 dakikalık saygı duruşu yapılacak",
+      "summary": "Türkiye Futbol Federasyonu, son dönemde yaşanan gemi kazalarında hayatını kaybeden vatandaşlar için 4-7 Eylül 2026 tarihleri arasında oynanacak tüm profesyonel müsabakalar öncesinde 1 dakikalık saygı duruşu yapılacağını açıkladı. Kulüpler, talep etmeleri halinde siyah kol bandı da takabilecek.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "TFF duyurdu: Süper Lig maçları öncesi saygı duruşu",
+      "seoDescription": "TFF, 4-7 Eylül 2026 tarihleri arasındaki Süper Lig maçları öncesinde gemi kazalarında hayatını kaybedenler için saygı duruşu yapılacağını açıkladı.",
+      "focusKeyword": "TFF saygı duruşu 4 Eylül 2026",
+      "originalAngle": "Karar, 4. hafta fikstürünün başladığı 4 Eylül Cuma günü yürürlüğe giriyor; böylece Süper Lig gündeminde yalnız maç programı değil, hafta sonundaki tüm profesyonel karşılaşmaların ortak anma uygulaması da belirlenmiş oldu.",
+      "keyFindings": [
+        "TFF, 4-7 Eylül 2026 tarihleri arasında oynanacak tüm profesyonel müsabakalar öncesinde 1 dakikalık saygı duruşu yapılacağını açıkladı.",
+        "Kararın gerekçesi, son dönemde yaşanan gemi kazalarında hayatını kaybeden vatandaşların anılması olarak duyuruldu.",
+        "Kulüplerin talep etmeleri halinde karşılaşmalara siyah kol bandıyla çıkabileceği belirtildi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin 4 Eylül 2026 tarihli resmi duyurusu incelendi; kararın dayandığı güncel gemi kazaları Anadolu Ajansı’nın aynı tarihli haberleriyle kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "TFF duyurusu, saygı duruşunun hangi Süper Lig karşılaşmalarında hangi seremoni akışıyla uygulanacağını ayrıca detaylandırmıyor; kulüplerin siyah kol bandı kullanımı ise zorunlu değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T21:00:00.000Z",
+      "discoveredAt": "2026-09-04T18:43:46.713Z",
+      "sources": [
+        {
+          "title": "Profesyonel Lig Müsabakaları Öncesinde Saygı Duruşunda Bulunulacak",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51274&pageID=687",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Turkish authorities locate ship that sank after collision off coast of Istanbul’s Silivri",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/en/turkiye/turkish-authorities-locate-ship-that-sank-after-collision-off-coast-of-istanbul-s-silivri/4047364",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Türkiye's TCG Alemdar leads deep-sea search for 16 missing after passenger ship sinks off Girne",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/en/turkiye/turkiyes-tcg-alemdar-leads-deep-sea-search-for-16-missing-after-passenger-ship-sinks-off-girne/4047334",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "17d8710bf4357501",
       "role": "avrupa",
