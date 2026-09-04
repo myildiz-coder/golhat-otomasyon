@@ -1,7 +1,203 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T21:29:52.472Z",
+  "updatedAt": "2026-09-04T21:42:06.167Z",
   "stories": [
+    {
+      "id": "2709753f1dfb91d2",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisinde sarı-lacivertlilerden dört isim ilk heyecanını yaşayabilir",
+      "summary": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinde toplam 18 futbolcu bu rekabette ilk kez forma giyme ihtimali taşıyor. Fenerbahçe tarafında dört yeni oyuncu, görev verilmesi hâlinde Kadıköy’deki derbi atmosferini ilk kez yaşayacak.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinde dört yeni isim ilk kez sahne alabilir",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisinde dört sarı-lacivertli oyuncu bu rekabette ilk kez forma giyebilir. Derbinin kadro deneyimi ayrıntıları GOLHAT’ta.",
+      "focusKeyword": "Fenerbahçe-Beşiktaş derbisi",
+      "originalAngle": "Derbi öncesi öne çıkan yalnızca maçın sonucu değil, Fenerbahçe kadrosundaki deneyim eşiği. Dört oyuncunun olası katılımı, sezon başındaki kadro yenilenmesinin doğrudan rekabet sınavına taşınacağı anlamına geliyor; ancak forma ihtimali kesin kadro tercihi olarak sunulmamalı.",
+      "keyFindings": [
+        "Fenerbahçe-Beşiktaş karşılaşmasında toplam 18 futbolcu, oynamaları hâlinde bu rekabette ilk kez görev yapacak.",
+        "Fenerbahçe kadrosunda dört oyuncu, süre almaları durumunda sarı-lacivertli formayla Beşiktaş’a karşı ilk derbisine çıkacak.",
+        "Bu tablo, Fenerbahçe’nin sezon başındaki kadro değişiminin ilk büyük derbide deneyim açısından test edileceğini gösteriyor; oyuncuların tamamının sahaya çıkacağı kesinleşmiş değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli Anadolu Ajansı haberindeki toplam 18 futbolcu bilgisi, aynı gün Habertürk Spor’un derbi ön izlemesiyle karşılaştırıldı. Fenerbahçe tarafındaki dört oyuncuya ilişkin ayrıntı Ekonomim’deki bağımsız haberle kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Muhtemel ilk 11 ve maç kadrosu kesinleşmediği için dört oyuncunun tamamının forma giyeceği söylenemez. Haber, yalnızca oynama ihtimalini ve derbi deneyimi bağlamını aktarır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T11:42:00.000Z",
+      "discoveredAt": "2026-09-04T21:42:06.167Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinde 18 futbolcu ilk derbi heyecanını yaşayacak",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-besiktas-derbisinde-18-futbolcu-ilk-derbi-heyecanini-yasayacak/4047121",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinde 18 futbolcu ilki yaşayacak!",
+          "publisher": "Habertürk Spor",
+          "url": "https://www.haberturk.com/spor/fenerbahce-besiktas-derbisinde-18-futbolcu-ilki-yasayacak-3910273",
+          "publishedAt": "2026-09-04T14:42:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe'de 4 futbolcu ilk kez derbi heyecanı yaşayacak",
+          "publisher": "Ekonomim",
+          "url": "https://www.ekonomim.com/spor/fenerbahcede-4-futbolcu-ilk-kez-derbi-heyecani-yasayacak-haberi-915965",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "d7ff281c6cb3ee83",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray, Başakşehir deplasmanında son bölümde kazandı ve liderliğini korudu",
+      "summary": "Galatasaray, Süper Lig’in 4. haftasında Başakşehir’i deplasmanda 3-2 mağlup etti. Victor Osimhen, Lucas Torreira ve Gabriel Sara’nın golleriyle kazanan sarı-kırmızılılar puanını 10’a yükselterek liderliğini ve galibiyet serisini sürdürdü.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray, Başakşehir’i 3-2 yenerek liderliğini korudu",
+      "seoDescription": "Galatasaray, Başakşehir’i deplasmanda 3-2 yendi. Gabriel Sara’nın son bölümdeki frikiğiyle gelen galibiyet, sarı-kırmızılıları 10 puana taşıdı.",
+      "focusKeyword": "Başakşehir Galatasaray maçı",
+      "originalAngle": "Galatasaray’ın Başakşehir karşısındaki galibiyeti yalnızca üç puan getirmedi; iki kez öne geçtiği maçta skorun 2-2’ye gelmesinin ardından son bölümde yeniden üstünlük kurarak liderlik yarışındaki konumunu güçlendirdi. Haber değerini belirleyen ayrıntı, galibiyetin rahat bir oyunla değil, maçın son bölümündeki değişim ve duran top etkisiyle gelmesi.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 mağlup etti.",
+        "Victor Osimhen 16. dakikada, Lucas Torreira 71. dakikada ve Gabriel Sara 90. dakikada Galatasaray adına gol attı.",
+        "Başakşehir’in gollerini Eldor Shomurodov penaltıdan, Davinson Sanchez ise kendi kalesine attı.",
+        "Galatasaray bu sonuçla puanını 10’a yükseltti ve ligde üst üste üçüncü galibiyetini aldı.",
+        "Takımın bundan sonraki kritik sorusu, 9 Eylül 2026’daki Sporting CP deplasmanı öncesinde bu yoğun maçın ve yaşanan sakatlıkların kadro planını nasıl etkileyeceği olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu ve gol dakikaları Galatasaray’ın resmi maç raporuyla, skor ve karşılaşma özeti Anadolu Ajansı’nın bağımsız haberiyle çapraz kontrol edildi. Canlı veri özetindeki 10 puan ve liderlik bilgisi resmi kulüp raporundaki puan bilgisiyle uyumlu bulundu.",
+      "originalFindings": [],
+      "limitations": "Victor Osimhen ve Mario Lemina’nın sağlık durumları hakkında maç sonu itibarıyla resmi ayrıntılı sağlık raporu bulunmadığından, bu haber sakatlıkların süresi veya sonraki maça etkisi konusunda kesin hüküm içermiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:02:00.000Z",
+      "discoveredAt": "2026-09-04T21:42:06.167Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "a2a17eadffe38e66",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Çaykur Rizespor, Gennaro Borrelli’yi kiralık olarak kadrosuna kattı",
+      "summary": "Çaykur Rizespor, Cagliari’nin İtalyan forveti Gennaro Borrelli’yi 2026-2027 sezonu sonuna kadar kiraladı. Anlaşmada satın alma opsiyonu da bulunuyor.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Çaykur Rizespor, Gennaro Borrelli transferini tamamladı",
+      "seoDescription": "Çaykur Rizespor, Cagliari forveti Gennaro Borrelli’yi satın alma opsiyonuyla kiraladı. Transferin sözleşme ve kariyer bağlamı GOLHAT’ta.",
+      "focusKeyword": "Gennaro Borrelli Çaykur Rizespor transferi",
+      "originalAngle": "Transferin ayırt edici tarafı, Rizespor’un İtalya’dan doğrudan kiraladığı Borrelli için sezon sonu satın alma opsiyonu elde etmesi. Bu hamle, kulübün yalnızca kısa vadeli forvet takviyesi değil, oyuncuyu kalıcı olarak değerlendirme imkânı da kurduğunu gösteriyor; ancak opsiyonun bedeli ve kullanım şartları kamuya açıklanmış değil.",
+      "keyFindings": [
+        "Cagliari, Gennaro Borrelli’nin Çaykur Rizespor’a 2026-2027 sezonu sonuna kadar kiralandığını resmen duyurdu.",
+        "Anlaşmada satın alma opsiyonu bulunuyor ve transfer, Borrelli’nin kariyerindeki ilk yurt dışı deneyimi olarak açıklandı.",
+        "Bağımsız İtalyan kaynakları, oyuncunun Rizespor’a geçişi konusunda kulüpler arasındaki anlaşmayı ve kiralık formülü önceden doğruladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Cagliari’nin resmî kulüp açıklaması, İtalyan futbol haber kaynaklarındaki bağımsız transfer bilgisiyle karşılaştırıldı. Oyuncunun kiralık statüsü, süre ve satın alma opsiyonu iki kaynak hattında kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Satın alma opsiyonunun mali tutarı ve diğer sözleşme şartları resmî açıklamada yer almıyor. Oyuncunun Rizespor’daki kullanım planı veya ilk maç tarihi konusunda doğrulanmış ek bilgi bulunmuyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T21:42:06.167Z",
+      "sources": [
+        {
+          "title": "Borrelli joins Caykur Rizespor",
+          "publisher": "Cagliari Calcio",
+          "url": "https://cagliaricalcio.com/en/news/borrelli-joins-caykur-rizespor",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Borrelli ai saluti, c’è l’accordo con il Caykur Rizespor per il prestito dell’attaccante",
+          "publisher": "Cagliari News 24",
+          "url": "https://www.cagliarinews24.com/borrelli-rizespor-prestito-cagliari",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "219e64441c8a67f7",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisi, erken liderlik yarışında skorun ötesindeki ilk ölçü olacak",
+      "summary": "Fenerbahçe ile Beşiktaş, 5 Eylül 2026’daki derbiye üçüncü hafta galibiyetleriyle çıkıyor. Fenerbahçe Samsunspor’u deplasmanda 2-0, Beşiktaş ise Çorum FK’yı 6-2 yendi. Bu tablo iki takımın hücum gücünü gösterse de derbinin asıl sorusu, yüksek tempoyu kimin daha uzun süre kontrol edeceği olacak. İlk dört haftada alınacak sonuç, zirve yarışının psikolojik yönünü de belirleyebilir.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisi erken yarışın ilk büyük testi",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisinin, iki takımın erken sezon hücum gücünü değil tempo kontrolünü ve yarış dengesini nasıl sınayacağı ele alınıyor.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi 2026",
+      "originalAngle": "İki takımın üçüncü haftadaki farklı skorları hücum kapasitesine işaret ediyor; ancak 5 Eylül derbisinin gerçek değeri, Fenerbahçe ile Beşiktaş’ın baskı, tempo ve oyunun zor anlarını yönetme kapasitesini ilk kez aynı sahada ölçmesinde yatıyor.",
+      "keyFindings": [
+        "Fenerbahçe, 30 Ağustos 2026’da Samsunspor’u deplasmanda 2-0 yendi; Beşiktaş da üçüncü hafta maçında Çorum FK karşısında 6-2’lik galibiyet aldı.",
+        "Derbi 5 Eylül 2026 Cumartesi günü saat 20.00’de Fenerbahçe Şükrü Saracoğlu Spor Kompleksi’nde oynanacak ve karşılaşmayı Halil Umut Meler yönetecek.",
+        "Bu sonuçlar iki takımın skor üretme ivmesini gösteriyor; fakat derbide belirleyici ölçü, rakibin ilk baskısını kırdıktan sonra oyunun ritmini kimin belirleyeceği olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "5 Eylül 2026 tarihli derbi için Fenerbahçe ve Beşiktaş’ın resmi maç bilgileri, TFF fikstür verisi ve son lig karşılaşmalarına ilişkin bağımsız haber kaynakları karşılaştırıldı. Yorum, doğrulanmış maç sonuçları ve fikstür bilgisi üzerine kurulmuştur; kaynaklarda bulunmayan kadro tercihi veya taktik kesinlik ileri sürülmemiştir.",
+      "originalFindings": [
+        "Derbinin erken haftalarda oynanması, puan tablosundaki küçük farklardan çok iki takımın oyun kimliğinin ilk doğrudan karşılaştırmasını öne çıkarıyor.",
+        "Fenerbahçe’nin deplasmandaki kontrollü 2-0’ı ile Beşiktaş’ın 6-2’lik yüksek skorlu galibiyeti aynı sonucu üretse de farklı maç ritimlerine işaret ediyor; bu fark derbide tempo yönetimini temel izleme başlığı haline getiriyor.",
+        "Maçın sonucu tek başına şampiyonluk yarışını belirlemeyecek, fakat erken dönemde hangi takımın baskı altında oyun planını koruyabildiğine dair güçlü bir referans sunacak."
+      ],
+      "limitations": "Mevcut kaynaklar maç öncesi ilk 11’leri, sakatlıkların ayrıntılı durumunu ve iki teknik heyetin derbiye özel oyun planını kesin biçimde ortaya koymuyor. Bu nedenle yazı, muhtemel diziliş veya bireysel eşleşme tahmini yapmadan doğrulanmış sonuçlar ve fikstür bağlamıyla sınırlıdır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "editorial-web-2026-09-04-derbi-01",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T18:42:06.000Z",
+      "discoveredAt": "2026-09-04T21:42:06.167Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe deplasmanda Samsunspor’u mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-deplasmanda-samsunsporu-maglup-etti/4041987",
+          "publishedAt": "2026-08-30",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi ve resmi karşılaşma bilgileri",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trendyol Süper Lig fikstürü ve puan cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
     {
       "id": "b908ed09e1e9ec1a",
       "role": "galatasaray",
