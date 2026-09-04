@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T14:31:13.438Z",
+  "updatedAt": "2026-09-04T14:44:18.008Z",
   "stories": [
+    {
+      "id": "320be3d5eb1ab4ad",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Mustafa Hekimoğlu’nun Samsunspor transferi son anda gerçekleşmedi",
+      "summary": "Samsunspor, Beşiktaşlı Mustafa Hekimoğlu ile sözleşme şartlarında anlaşılmasına rağmen transferin tamamlanmadığını açıkladı. Kulüp, oyuncunun 3 Eylül’de Samsun’a geldiğini ve sonradan 2 milyon TL artı KDV kiralama bedeli talep edildiğini bildirdi.",
+      "tag": "Gelişme",
+      "importance": 80,
+      "contentType": "news",
+      "seoTitle": "Mustafa Hekimoğlu’nun Samsunspor transferi iptal oldu",
+      "seoDescription": "Samsunspor, Beşiktaşlı Mustafa Hekimoğlu’nun transferinin neden tamamlanamadığını açıkladı; süreçteki son dakika değişikliğinin ayrıntıları burada.",
+      "focusKeyword": "Mustafa Hekimoğlu Samsunspor transferi",
+      "originalAngle": "Transfer döneminin son gününde dosyanın dikkat çeken tarafı yalnızca anlaşmanın bozulması değil, oyuncunun Samsun’a geldikten sonra yeni bir kiralama bedeli talebinin gündeme gelmesi. Bu gelişme, imza öncesi kulüpler arası mutabakatın resmî sözleşmeye dönüşmeden bozulabileceğini gösteriyor.",
+      "keyFindings": [
+        "Samsunspor, Mustafa Hekimoğlu transferinin gerçekleşmediğini resmî açıklamayla duyurdu.",
+        "Kulübün açıklamasına göre oyuncu, sözleşme görüşmeleri için 3 Eylül 2026’da Samsun’a geldi ve taraflar oyuncuyla sözleşme şartlarında anlaşmaya vardı.",
+        "Samsunspor, daha sonra 2 milyon TL artı KDV tutarında kiralama bedeli talep edildiğini; bu bedeli kabul etmesine rağmen transferin tamamlanmadığını bildirdi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Samsunspor’un açıklamasını aktaran DHA ve beIN SPORTS Türkiye haberleri karşılaştırıldı; transferin gerçekleşmediği ve sürecin kulüp açıklamasıyla duyurulduğu iki farklı alan adından doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Beşiktaş tarafından aynı gelişmeye ilişkin bağımsız ve ayrıntılı bir resmî açıklama bu taramada bulunmadı. Bu nedenle kiralama bedeli ve süreçteki sorumluluk Samsunspor’un açıklamasına atfedilerek aktarılmalıdır.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T12:38:00.000Z",
+      "discoveredAt": "2026-09-04T14:44:18.008Z",
+      "sources": [
+        {
+          "title": "Samsunspor’dan iptal olan Mustafa Hekimoğlu açıklaması",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/samsun/samsunspordan-iptal-olan-mustafa-hekimoglu-aci-2939159",
+          "publishedAt": "2026-09-04T15:38:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Samsunspor’dan Beşiktaş ve Mustafa Hekimoğlu açıklaması",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/samsunspordan-besiktas-ve-mustafa-hekimoglu-aciklamasi",
+          "publishedAt": "2026-09-04T11:48:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "7a63c8e7f82aec34",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Mustafa Hekimoğlu dosyası, genç oyuncu planının son imzaya bırakılamayacağını gösterdi",
+      "summary": "Mustafa Hekimoğlu’nun Samsunspor’a kiralık transferi, taraflar şartlarda uzlaşmasına rağmen son aşamada gerçekleşmedi. Samsunspor’un açıklaması ve bağımsız haber doğrulaması, meselenin yalnızca kaçan bir transfer olmadığını gösteriyor. Beşiktaş’ın genç oyuncuyu hangi ortamda oynatacağı kadar, kiralama süreçlerini ne kadar erken ve net yönettiği de sezon planının parçası olmalı.",
+      "tag": "Yorum",
+      "importance": 78,
+      "contentType": "analysis",
+      "seoTitle": "Mustafa Hekimoğlu dosyası Beşiktaş’ın genç oyuncu planını sorgulatıyor",
+      "seoDescription": "Mustafa Hekimoğlu’nun Samsunspor’a kiralık transferinin iptali, Beşiktaş’ta genç oyuncu planlaması ve süreç yönetimi açısından ne anlatıyor?",
+      "focusKeyword": "Mustafa Hekimoğlu Samsunspor transferi",
+      "originalAngle": "Bu olayın asıl önemi transferin gerçekleşmemesi değil, genç oyuncunun gelişim planının kulüpler arasındaki son dakika pazarlığına ne ölçüde bağımlı kaldığını göstermesidir. Beşiktaş açısından soru, Hekimoğlu’nun gönderilip gönderilmemesi değil; oynama garantisi, rol tanımı ve mali şartları sezon başlamadan önce neden aynı çerçevede netleştirilemediğidir.",
+      "keyFindings": [
+        "Samsunspor, Mustafa Hekimoğlu’nun transferi için oyuncuyla sözleşme şartlarında anlaşmaya varıldığını ve Beşiktaş’ın sonradan talep ettiği kiralama bedelinin kabul edildiğini açıkladı.",
+        "Bağımsız haber doğrulamalarına göre oyuncu görüşmeleri tamamlamak üzere Samsun’a gitmesine rağmen resmi imza atılmadan süreç iptal edildi.",
+        "Bu tablo, genç oyuncu kiralamalarının yalnızca kadroda yer açma işlemi olmadığını; oyun rolü, süre beklentisi ve mali koşulların önceden bağlanmasını gerektiren bir kadro mühendisliği kararı olduğunu gösteriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Samsunspor’un 4 Eylül 2026 tarihli açıklaması beIN SPORTS Türkiye ve Hedef Halk tarafından karşılaştırıldı. Yorum, yalnızca açıklamada ve bağımsız haber doğrulamalarında yer alan süreç bilgileri üzerinden kurulmuştur; Beşiktaş’ın ayrıca yayımlanmış bir karşı açıklaması bulunmadığı için kulübün niyeti hakkında kesin hüküm kurulmamıştır.",
+      "originalFindings": [
+        "Son dakika değişen mali şartlar, genç oyuncu kiralamalarında sportif planın ekonomik pazarlık kadar belirleyici olduğunu görünür kıldı.",
+        "Hekimoğlu’nun Samsun’a gitmiş olması, sürecin yalnızca basına yansıyan bir temas düzeyinde kalmadığını; ancak resmi imza olmadan transferin tamamlanmış sayılmayacağını ortaya koydu.",
+        "Beşiktaş’ın bundan sonraki kritik kararı, oyuncuyu kadroda tutmak ya da başka bir kulübe göndermekten önce, oynama ve gelişim planını yazılı ve erken biçimde netleştirmek olmalıdır."
+      ],
+      "limitations": "Beşiktaş’ın transferin neden gerçekleşmediğine ilişkin bağımsız ve ayrıntılı resmi açıklaması bu taramada bulunmadı. Kiralama bedelinin miktarı yalnızca bazı haberlerde iddia olarak yer aldığı için yazının merkezine alınmadı. Hekimoğlu’nun sezon içindeki olası rolü hakkında mevcut verilerle kesin öngörü kurulamaz.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "GOLHAT-20260904-YORUM-HEKIMOGLU-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-04T08:50:00.000Z",
+      "discoveredAt": "2026-09-04T14:44:18.008Z",
+      "sources": [
+        {
+          "title": "Samsunspor’dan Beşiktaş ve Mustafa Hekimoğlu açıklaması",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/samsunspordan-besiktas-ve-mustafa-hekimoglu-aciklamasi",
+          "publishedAt": "2026-09-04T11:48:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Samsunspor’da Mustafa Erhan Hekimoğlu transferi son anda iptal",
+          "publisher": "Hedef Halk",
+          "url": "https://www.hedefhalk.com/samsunsporda-mustafa-erhan-hekimoglu-transferi-son-anda-iptal-4bbvz/1830030",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "9d4e2bde478c32ad",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Adana Demirspor’un -24 puanı, borcun sahaya yansıyan son faturası oldu",
+      "summary": "TFF, FIFA Disiplin Komitesi kararı doğrultusunda Adana Demirspor’a dört dosya üzerinden toplam 24 puan silme cezası uygulandığını duyurdu. Ceza, yeni sezon başlamadan kulübün sportif hedeflerini ağır biçimde değiştirdi. Buradaki asıl ders, puan tablosundaki eksi haneden önce geliyor: Finansal yükümlülükler ertelendiğinde yönetim sorunu sonunda teknik kadronun ve futbolcunun taşıdığı bir saha problemine dönüşüyor.",
+      "tag": "Yorum",
+      "importance": 86,
+      "contentType": "analysis",
+      "seoTitle": "Adana Demirspor’un 24 puan cezası yönetim sorumluluğunu büyütüyor",
+      "seoDescription": "Adana Demirspor’a verilen 24 puan silme cezası, FIFA yaptırımının ötesinde kulüp yönetimi ve finansal sürdürülebilirlik sorununu gösteriyor.",
+      "focusKeyword": "Adana Demirspor 24 puan cezası",
+      "originalAngle": "Adana Demirspor’un aldığı 24 puanlık ceza, yalnızca bir disiplin yaptırımı olarak okunamaz; kulüp yönetiminde vadesi gelen borçların sportif planın önüne geçmesinin somut sonucudur. Yeni sezona ekside başlamak, teknik direktörün çözebileceği bir oyun problemi değildir. Asıl soru, kulübün bundan sonra puan toplamaktan önce yükümlülüklerini yönetebilecek bir yapı kurup kuramayacağıdır.",
+      "keyFindings": [
+        "TFF, FIFA Disiplin Komitesi tarafından Adana Demirspor’a toplam dört dosyadan 24 puan tenzili cezası uygulandığını açıkladı.",
+        "Anadolu Ajansı, cezanın 2026-2027 sezonu öncesinde Adana Demirspor’un lige -24 puanla başlayacağı anlamına geldiğini doğruladı.",
+        "Bu karar, puan tablosunda sezon başlamadan oluşan açığın sportif rekabetten değil, kulübün geçmiş mali yükümlülüklerinden kaynaklandığını gösteriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin resmi duyurusu birincil kaynak olarak incelendi; Anadolu Ajansı haberiyle kararın kapsamı ve sezona etkisi çapraz doğrulandı. Yorum, cezanın hukuki gerekçesini genişletmeden, doğrulanmış puan kesintisinin kulüp yönetimi ve sportif plan üzerindeki etkisine odaklanmaktadır.",
+      "originalFindings": [
+        "24 puanlık kesinti, sezon hedefini yalnızca zorlaştırmıyor; kulübün her maçını normal puan yarışından farklı bir hayatta kalma hesabına çeviriyor.",
+        "Sportif kadro değişikliği, borç ve yaptırım döngüsü kırılmadan tek başına kalıcı çözüm üretemez.",
+        "Adana Demirspor örneğinde izlenmesi gereken temel gösterge, yeni puanların sayısından önce FIFA dosyalarının kapanıp kapanmadığı ve kulübün mali yükümlülüklerini düzenli biçimde yönetip yönetemeyeceğidir."
+      ],
+      "limitations": "TFF duyurusunda dört dosyanın alacaklıları, toplam borç tutarı ve ödeme takvimi ayrıntılı biçimde açıklanmadı. Bu nedenle cezanın kulübün toplam mali tablosundaki payı hakkında hesap yapılmadı. Yönetimsel nedensellik, resmi kararın doğrudan açıkladığı bir hüküm değil; doğrulanmış puan kesintisi ve mali yaptırım bağlamından çıkarılan sınırlı bir yorumdur.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "GOLHAT-20260904-YORUM-ADANเพA-01",
+      "authorName": "Mizan 90",
+      "publishedAt": "2026-09-01T21:00:00.000Z",
+      "discoveredAt": "2026-09-04T14:44:18.008Z",
+      "sources": [
+        {
+          "title": "FIFA Disiplin Komitesi’nden Adana Demirspor Kulübü’ne Puan Tenzili Cezası",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51256&pageID=687",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "FIFA’dan Adana Demirspor’a 24 puan silme cezası",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fifadan-adana-demirspora-24-puan-silme-cezasi/4045422",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "7997fe326278679a",
       "role": "besiktas",
