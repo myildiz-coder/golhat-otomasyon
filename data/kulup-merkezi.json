@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T06:37:45.537Z",
+  "updatedAt": "2026-09-04T08:34:43.503Z",
   "sources": [
     {
       "name": "FotMob",
@@ -20,8 +20,8 @@
       "coach": "Ismail Kartal",
       "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
       "squad": {
-        "total": 33,
-        "injured": 5
+        "total": 32,
+        "injured": 2
       },
       "nextMatches": [
         {
@@ -241,7 +241,7 @@
       "stadium": "RAMS Park",
       "squad": {
         "total": 32,
-        "injured": 1
+        "injured": 0
       },
       "nextMatches": [
         {
@@ -681,7 +681,7 @@
       "stadium": "Papara Park",
       "squad": {
         "total": 31,
-        "injured": 4
+        "injured": 5
       },
       "nextMatches": [
         {
