@@ -1,7 +1,139 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T15:31:49.824Z",
+  "updatedAt": "2026-09-04T15:43:51.068Z",
   "stories": [
+    {
+      "id": "4c890f8c727bcd42",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ta Mustafa Hekimoğlu’nun Samsunspor transferi son anda iptal oldu",
+      "summary": "Beşiktaş’ın genç forveti Mustafa Erhan Hekimoğlu’nun Samsunspor’a kiralık transferi, oyuncunun imza için Samsun’a gitmesinin ardından gerçekleşmedi. Samsunspor, süreçte sonradan iletilen mali şartların kabul edilmesine rağmen transferin tamamlanmadığını açıkladı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş’ta Mustafa Hekimoğlu transferi iptal oldu",
+      "seoDescription": "Mustafa Hekimoğlu’nun Samsunspor’a kiralık transferi son aşamada iptal edildi. Samsunspor açıklamasının ardından oyuncunun Beşiktaş’a döndüğü doğrulandı.",
+      "focusKeyword": "Mustafa Hekimoğlu Beşiktaş Samsunspor transferi",
+      "originalAngle": "Gelişmenin ayırt edici tarafı, transferin yalnızca görüşme aşamasında kalmaması; Hekimoğlu’nun Samsun’a gitmesine rağmen imzadan önce sürecin tersine dönmesi. Bu durum Beşiktaş’ın genç forvet rotasyonundaki planını yeniden gündeme taşıyor.",
+      "keyFindings": [
+        "Mustafa Erhan Hekimoğlu’nun Samsunspor’a kiralık transferi tamamlanmadı.",
+        "Samsunspor, transfer sürecinde Beşiktaş tarafından sonradan iletilen mali şartların kabul edildiğini ancak anlaşmanın yine de sonuçlanmadığını duyurdu.",
+        "Bağımsız yerel haber aktarımına göre oyuncu Samsun’dan İstanbul’a döndü; Hekimoğlu’nun Beşiktaş kadrosundaki rolüyle ilgili kulüpten ayrıca resmi açıklama yapılmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Samsunspor’un süreçle ilgili açıklamasını aktaran beIN SPORTS haberi, oyuncunun İstanbul’a döndüğünü bildiren Hedef Halk haberiyle karşılaştırıldı. Yalnızca iki farklı alan adında ortaklaşan olgular kullanıldı.",
+      "originalFindings": [],
+      "limitations": "Transferin neden son aşamada iptal edildiğine ilişkin tarafların aktardığı ayrıntılar arasında mali şartların niteliği bakımından farklılıklar bulunuyor. Beşiktaş yönetiminin konuya ilişkin ayrı bir resmi açıklaması bulunmadığı için kulübün nihai gerekçesi kesinleştirilemedi.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T08:48:00.000Z",
+      "discoveredAt": "2026-09-04T15:43:51.068Z",
+      "sources": [
+        {
+          "title": "Samsunspor’dan Beşiktaş ve Mustafa Hekimoğlu açıklaması",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/samsunspordan-besiktas-ve-mustafa-hekimoglu-aciklamasi",
+          "publishedAt": "2026-09-04T11:48:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Samsunspor’da Mustafa Erhan Hekimoğlu transferi son anda iptal",
+          "publisher": "Hedef Halk",
+          "url": "https://www.hedefhalk.com/samsunsporda-mustafa-erhan-hekimoglu-transferi-son-anda-iptal-4bbvz/1830030",
+          "publishedAt": "2026-09-04T14:15:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "a1b4bb6d37e5aa28",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor’un genç forveti René Mitongo, Estrela da Amadora’ya kiralandı",
+      "summary": "Trabzonspor’un yaz transfer döneminde Standard Liège’den kadrosuna kattığı 18 yaşındaki René Mitongo, sezon sonuna kadar Portekiz temsilcisi Estrela da Amadora’ya kiralık gönderildi. Mitongo, bordo-mavili formayla bu sezon resmi maça çıkmadan ayrıldı.",
+      "tag": "Gelişme",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "René Mitongo, Trabzonspor’dan Estrela’ya kiralandı",
+      "seoDescription": "Trabzonspor’un genç forveti René Mitongo, sezon sonuna kadar Estrela da Amadora’ya kiralandı. Oyuncunun yeni takımındaki rolü ve süreç burada.",
+      "focusKeyword": "René Mitongo Trabzonspor",
+      "originalAngle": "Gelişmenin kritik tarafı yalnızca kiralama değil, Trabzonspor’un yaklaşık bir ay önce kadrosuna kattığı genç forveti resmi maçta kullanmadan gelişimi için farklı bir rekabet ortamına göndermesi. Bundan sonraki soru, Mitongo’nun Portekiz’de düzenli süre alıp alamayacağı ve sezon sonunda Trabzonspor’un planlamasına hangi seviyede döneceği.",
+      "keyFindings": [
+        "René Mitongo, Trabzonspor’dan Estrela da Amadora’ya sezon sonuna kadar kiralandı.",
+        "18 yaşındaki Belçikalı forvet, Trabzonspor’un yaz transfer döneminde Standard Liège’den kadrosuna kattığı bir oyuncuydu.",
+        "Mitongo, bordo-mavili takımda bu sezon resmi maçta forma giymeden kiralık olarak ayrıldı; transferin oyuncuya düzenli oynama imkânı sağlayıp sağlamayacağı sezon içindeki kullanımına bağlı olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, Estrela da Amadora’nın anlaşmayı duyurduğunu aktaran A Bola haberi ile aynı gün yayımlanan beIN SPORTS Türkiye haberinde karşılaştırıldı. Oyuncunun Trabzonspor’da resmi maçta süre almadığı bilgisi iki haberin ortak bağlamıyla kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kiralama sözleşmesinin satın alma opsiyonu, maaş paylaşımı ve diğer mali şartları doğrulanmış kaynaklarda açıklanmadı. Trabzonspor’un kendi internet sitesinde bu işlem için ayrıca yayımlanmış bir açıklama tespit edilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T11:41:00.000Z",
+      "discoveredAt": "2026-09-04T15:43:51.068Z",
+      "sources": [
+        {
+          "title": "Mercado oficial: Estrela da Amadora recebe avançado belga por empréstimo",
+          "publisher": "A Bola",
+          "url": "https://www.abola.pt/noticias/mercado-oficial-estrela-da-amadora-recebe-avancado-belga-por-emprestimo-2026090414344694206",
+          "publishedAt": "2026-09-04T15:34:00+01:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Maç bile çıkmadan Trabzonspor'dan ayrıldı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/mac-bile-cikmadan-trabzonspordan-ayrildi",
+          "publishedAt": "2026-09-04T14:41:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "d579b4e7f2f7f68f",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Beşiktaş, Yakup Arda Kılıç’ı Kırklarelispor’a gönderdi",
+      "summary": "Beşiktaş, profesyonel futbolcusu Yakup Arda Kılıç’ın Kırklarelispor’a nihai transfer olduğunu açıkladı. TFF kayıtlarında da oyuncunun 2 Eylül 2026’dan itibaren Beşiktaş sözleşmesinin sona erdiği ve 3 Eylül’de Kırklarelispor’a yurt içi transfer edildiği görülüyor.",
+      "tag": "Kesinleşti",
+      "importance": 58,
+      "contentType": "news",
+      "seoTitle": "Yakup Arda Kılıç Kırklarelispor’a transfer oldu",
+      "seoDescription": "Beşiktaş, Yakup Arda Kılıç’ın Kırklarelispor’a nihai transferini açıkladı. TFF kayıtları oyuncunun yeni kulübünü doğruluyor.",
+      "focusKeyword": "Yakup Arda Kılıç Kırklarelispor transferi",
+      "originalAngle": "Beşiktaş’ın akademi kökenli oyuncusu için yeni adım, yalnızca kulüp duyurusuyla değil TFF’deki sözleşme ve yurt içi transfer kaydıyla da görünür hale geldi.",
+      "keyFindings": [
+        "Beşiktaş, Yakup Arda Kılıç’ın Kırklarelispor’a nihai transfer edildiğini duyurdu.",
+        "TFF kayıtlarında Beşiktaş sözleşmesinin 2 Eylül 2026’da sona erdiği ve Kırklarelispor’a transferin 3 Eylül 2026’da işlendiği yer alıyor.",
+        "Transfer, oyuncunun Beşiktaş A takımındaki sınırlı sürecinin ardından kariyerine Kırklarelispor’da devam edeceği anlamına geliyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın 4 Eylül 2026 tarihli resmi açıklaması, TFF Futbol Bilgi Bankası’ndaki sözleşme ve transfer kayıtlarıyla karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli, sözleşme süresi ve Kırklarelispor’un resmi açıklaması kamuya açık kaynaklarda tespit edilemedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T12:43:51.000Z",
+      "discoveredAt": "2026-09-04T15:43:51.068Z",
+      "sources": [
+        {
+          "title": "Yakup Arda Kılıç, Kırklarelispor’a Transfer Oldu",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95043",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "ÜMİT AKDAĞ - Futbolcu Bilgileri TFF",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Default.aspx?kisiId=2312869&pageId=30",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "e1e74fd9be5b3f6e",
       "role": "trabzonspor",
