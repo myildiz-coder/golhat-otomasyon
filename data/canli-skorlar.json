@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:09:22.929Z",
+  "updatedAt": "2026-09-04T18:25:11.473Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Başakşehir",
       "away": "Galatasaray",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 52,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -129,9 +129,9 @@
       "venue": "",
       "home": "Lyon",
       "away": "Auxerre",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1,
-      "minute": 48,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -165,9 +165,9 @@
       "venue": "",
       "home": "Sparta Rotterdam",
       "away": "PEC Zwolle",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 9,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
