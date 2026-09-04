@@ -1,7 +1,63 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T05:53:17.958Z",
+  "updatedAt": "2026-09-04T08:50:55.711Z",
   "stories": [
+    {
+      "id": "5fec289aae41939b",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "UEFA’nın mali eşiği yüzde 80’den yüzde 70’e indi: Beşiktaş dosyasında denetim dönemi kapandı",
+      "summary": "UEFA’nın 2025-2026 sezonundan itibaren kalıcı olarak uyguladığı yüzde 70’lik kadro maliyeti sınırı ile Beşiktaş’ın KAP’a bildirdiği uzlaşma anlaşması tamamlanma kararını birlikte inceleyen GOLHAT, kulüpler üzerindeki mali denetimin hangi aşamada sertleştiğini ortaya koyuyor.",
+      "tag": "Dosya",
+      "importance": 82,
+      "contentType": "dossier",
+      "seoTitle": "UEFA kadro maliyeti sınırı yüzde 70’e indi: Beşiktaş dosyası",
+      "seoDescription": "UEFA’nın kadro maliyeti eşiğini yüzde 70’e indiren takvim ile Beşiktaş’ın uzlaşma anlaşmasının tamamlanmasını belgeler üzerinden karşılaştırıyoruz.",
+      "focusKeyword": "UEFA kadro maliyeti sınırı",
+      "originalAngle": "GOLHAT’ın sorusu, UEFA’nın kadro maliyeti kuralındaki geçiş döneminin Türk kulüpleri açısından ne zaman kalıcı denetime dönüştüğünü belirlemek. UEFA düzenlemesi, 2024-2025’te yüzde 80 olan geçiş eşiğinin 2025-2026’dan itibaren yüzde 70’e indiğini gösteriyor; Beşiktaş’ın KAP bildirimi ise kulübün 2025-2026 sezonu itibarıyla 31 Ağustos 2022 tarihli uzlaşma anlaşmasındaki temel yükümlülüklerini yerine getirdiğini bildiriyor. Bu iki belge, uyum sürecinin bitmesi ile yeni mali eşiğin gevşemediğini aynı anda ortaya koyuyor.",
+      "keyFindings": [
+        "UEFA, kadro maliyeti kuralını 2023-2024 sezonunda yüzde 90, 2024-2025 sezonunda yüzde 80 ve 2025-2026’dan itibaren kalıcı olarak yüzde 70 eşik üzerinden uyguluyor.",
+        "Beşiktaş, KAP’a yaptığı 17 Haziran 2026 tarihli bildirimde 31 Ağustos 2022’de imzalanan uzlaşma anlaşması kapsamındaki temel yükümlülüklerini 2025-2026 sezonu itibarıyla yerine getirdiğini açıkladı.",
+        "GOLHAT’ın karşılaştırmasına göre Beşiktaş’ın uzlaşma döneminin tamamlandığı sezon, UEFA kadro maliyeti kuralının geçiş döneminden çıkıp yüzde 70’lik kalıcı eşiğe geçtiği sezonla aynı döneme denk geliyor.",
+        "Bu eşzamanlılık, uzlaşma anlaşmasının tamamlanmasının kulübü UEFA’nın yeni mali çerçevesinden muaf tuttuğu anlamına gelmiyor; ancak kamuya açık belgeler, Beşiktaş’ın geçmiş uzlaşma yükümlülükleri ile yeni genel kuralın farklı denetim katmanları olduğunu gösteriyor."
+      ],
+      "originalityBasis": "public_document_analysis",
+      "methodology": "Birincil belgeler olarak UEFA’nın finansal sürdürülebilirlik düzenlemesindeki sezonluk kadro maliyeti eşikleri ve Beşiktaş’ın 17 Haziran 2026 tarihli KAP bildirimi kullanıldı. Eşikler sezon sırasına göre yüzde 90, yüzde 80 ve yüzde 70 olarak zaman çizelgesine yerleştirildi. KAP bildirimindeki 2025-2026 sezonu tamamlanma tarihi UEFA’nın yüzde 70’lik kalıcı eşiğinin yürürlüğe girdiği sezonla eşleştirildi. Karşılaştırma, uzlaşma anlaşmasının tamamlanması ile genel kadro maliyeti kuralının aynı hukuki sonuç olmadığını ayıracak şekilde yapıldı.",
+      "originalFindings": [
+        "Beşiktaş’ın uzlaşma anlaşması kapsamındaki temel yükümlülüklerini tamamladığını bildirdiği sezon, UEFA’nın kadro maliyeti eşiğini yüzde 80’den yüzde 70’e indirdiği sezonla çakışıyor.",
+        "UEFA eşiği 2024-2025’ten 2025-2026’ya 10 yüzde puanı sıkılaştı; dolayısıyla geçmiş uzlaşma döneminin tamamlanması, kulüp maliyetlerinin yeni kalıcı eşik bakımından otomatik olarak uygun olduğu sonucunu doğurmuyor.",
+        "Kamuya açık belgeler iki ayrı denetim mantığını ayırıyor: KAP bildirimi belirli bir uzlaşma anlaşmasının yükümlülüklerine, UEFA kuralı ise UEFA müsabakalarına katılan kulüpler için genel kadro maliyeti oranına ilişkin."
+      ],
+      "limitations": "KAP bildirimi Beşiktaş’ın yüzde 70’lik kadro maliyeti oranını açıkladığı anlamına gelmiyor; yalnızca uzlaşma anlaşmasındaki temel yükümlülüklerin yerine getirildiğini bildiriyor. Bu dosya, Beşiktaş’ın yeni eşik bakımından ihlal yaptığı veya yapmadığı sonucunu kurmuyor. UEFA’nın 2025-2026 izleme kararında kulüp bazlı tüm oranlar kamuya açık değilse, hesaplama kulübün gerçek kadro maliyeti oranını belirleyemez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GH-DOSYA-2026-0904-02",
+      "authorName": "GOLHAT Araştırma Kurulu",
+      "publishedAt": "2026-09-04T05:50:55.000Z",
+      "discoveredAt": "2026-09-04T08:50:55.711Z",
+      "sources": [
+        {
+          "title": "Financial sustainability",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/running-competitions/integrity/financial-sustainability",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "UEFA Club Licensing and Financial Sustainability Regulations – Article 80",
+          "publisher": "UEFA Documents",
+          "url": "https://documents.uefa.com/r/UEFA-Club-Licensing-and-Financial-Sustainability-Regulations-2026/Article-80-Scope-of-application-and-exemption-Online?contentId=g8W5m_x9OEYCi6GCyTxKdA",
+          "publishedAt": "2026-06-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş JK’nın UEFA uzlaşma anlaşması yükümlülüklerini yerine getirmesi hakkında bildirim",
+          "publisher": "Kamuyu Aydınlatma Platformu",
+          "url": "https://www.kap.org.tr/tr/Bildirim/1618335",
+          "publishedAt": "2026-06-17",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "0e3f920b84e14982",
       "role": "yorum",
