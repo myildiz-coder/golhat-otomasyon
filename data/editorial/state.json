@@ -1,7 +1,204 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T20:44:25.725Z",
+  "updatedAt": "2026-09-04T21:16:25.605Z",
   "stories": [
+    {
+      "id": "b908ed09e1e9ec1a",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray’da Victor Osimhen sakatlık nedeniyle Başakşehir maçına devam edemedi",
+      "summary": "Galatasaray’ın Başakşehir deplasmanında golünü atan Victor Osimhen, karşılaşmanın 33. dakikasında yaşadığı sakatlık sonrası oyundan çıktı. Oyuncunun sağlık durumu ve sahalardan uzak kalıp kalmayacağı henüz açıklanmadı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray’da Osimhen sakatlanarak oyundan çıktı",
+      "seoDescription": "Galatasaray’ın Başakşehir maçında sakatlanan Victor Osimhen, 33. dakikada oyundan çıktı. Galatasaray’ın resmi sağlık açıklaması bekleniyor.",
+      "focusKeyword": "Victor Osimhen sakatlık",
+      "originalAngle": "Gelişmenin haber değeri yalnızca Osimhen’in oyundan çıkmasında değil, Galatasaray’ın Başakşehir karşılaşması sürerken hücum planını maç içinde değiştirmek zorunda kalmasında yatıyor. Ancak oyuncunun sakatlığının niteliği ve dönüş süresi bilinmediği için sportif etkisi şu aşamada ölçülemiyor.",
+      "keyFindings": [
+        "Victor Osimhen, Başakşehir karşılaşmasının 33. dakikasında oyundan çıktı.",
+        "Osimhen maçın ilk bölümünde Galatasaray’ın golünü attı.",
+        "Sakatlığın teşhisi, ciddiyeti ve oyuncunun sonraki maçlarda forma giyip giyemeyeceği konusunda resmi açıklama bulunmuyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Oyuncunun oyundan çıkışı Mackolik, FOTOMAÇ, Cumhuriyet ve Gerçek Gündem tarafından ayrı ayrı kontrol edildi. Kaynaklar oyundan çıkış dakikası ve sakatlık nedeniyle devam edemediği konusunda örtüşüyor; kulübün resmi sağlık açıklaması ayrıca tarandı.",
+      "originalFindings": [],
+      "limitations": "Osimhen’in sakatlık bölgesi, teşhisi ve tahmini dönüş tarihi doğrulanmış değil. Bu nedenle haber, oyuncunun oyundan çıkışıyla sınırlı tutuldu; sakatlığın maç sonucuna veya sonraki karşılaşmalara etkisi hakkında çıkarım yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T17:36:00.000Z",
+      "discoveredAt": "2026-09-04T21:16:25.605Z",
+      "sources": [
+        {
+          "title": "Victor Osimhen oyuna devam edemedi",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/futbol/haber/victor-osimhen-oyuna-devam-edemedi/e713768a-8498-4095-8cd8-b755c5e45cc5",
+          "publishedAt": "2026-09-04T20:36:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray’a Osimhen şoku!",
+          "publisher": "FOTOMAÇ",
+          "url": "https://www.fotomac.com.tr/galatasaray/2026/09/04/galatasaraya-osimhen-soku",
+          "publishedAt": "2026-09-04T20:33:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray’a kötü haber: Osimhen karşılaşmaya devam edemedi",
+          "publisher": "Cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/galatasaray-a-kotu-haber-osimhen-karsilasmaya-devam-edemedi-2534958",
+          "publishedAt": "2026-09-04T20:37:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "59d4f99bc66892af",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Galatasaray, Başakşehir deplasmanında 3-2 kazandı; Osimhen sakatlanarak çıktı",
+      "summary": "Süper Lig'in 4. haftasında Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup etti. Sarı-kırmızılı ekip 10 puana yükselirken Victor Osimhen sakatlığı nedeniyle oyuna devam edemedi; Başakşehir'den Umut Bozok kırmızı kart gördü.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray Başakşehir'i 3-2 yendi: Osimhen sakatlandı",
+      "seoDescription": "Galatasaray, Süper Lig 4. haftasında Başakşehir'i 3-2 yendi ve 10 puana çıktı. Maçta Osimhen sakatlandı, Umut Bozok kırmızı kart gördü.",
+      "focusKeyword": "Başakşehir Galatasaray maç sonucu",
+      "originalAngle": "Galatasaray'ın 3-2'lik galibiyeti yalnızca puan tablosundaki yükselişle değil, Osimhen'in sakatlık nedeniyle erken çıkması ve maçın son bölümündeki disiplin-VAR kararlarıyla birlikte okunmalı. Bundan sonraki temel soru, Osimhen'in sakatlığının Avrupa ve lig fikstürüne etkisinin ne olacağıdır.",
+      "keyFindings": [
+        "Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup ederek ligde üst üste üçüncü galibiyetini aldı ve puanını 10'a yükseltti.",
+        "Victor Osimhen 33. dakikada sakatlanarak oyundan çıktı; Mario Lemina da ikinci yarıya devam edemedi.",
+        "Başakşehir'de Umut Bozok 79. dakikada direkt kırmızı kart gördü; Galatasaray'ın 83. dakikadaki golü ofsayt gerekçesiyle VAR incelemesi sonrası iptal edildi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu, gol dakikaları, sakatlıklar ve kart bilgileri A Spor'un karşılaşma raporuyla; hakem, kadro ve maç notları DHA'nın bağımsız saha haberiyle çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Osimhen ve Lemina'nın sakatlıklarının tıbbi tanısı ve sahalardan uzak kalma süresi maç sonu kaynaklarında açıklanmadı. Bu nedenle dönüş tarihi hakkında öngörüde bulunulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:15:00.000Z",
+      "discoveredAt": "2026-09-04T21:16:25.605Z",
+      "sources": [
+        {
+          "title": "Galatasaray, 5 gol çıkan Başakşehir deplasmanından galip ayrıldı!",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/spor-toto-super-lig/2026/09/04/galatasaray-5-gol-cikan-basaksehir-deplasmanindan-galip-ayrildi",
+          "publishedAt": "2026-09-04T22:15:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray maçından notlar",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-macindan-notlar-2939329",
+          "publishedAt": "2026-09-04T20:05:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "eef4a40894df5efc",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Liverpool, Isak’ın erken dublesiyle Ipswich deplasmanında kazandı",
+      "summary": "Premier League’in 4 Eylül 2026 tarihli maçında Liverpool, Alexander Isak’ın ilk 10 dakikadaki iki golüyle Ipswich Town’ı 2-0 mağlup etti. Sonuç, Andoni Iraola yönetimindeki Liverpool’un ligdeki ilk galibiyeti oldu.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Liverpool, Isak’ın dublesiyle Ipswich’i 2-0 yendi",
+      "seoDescription": "Liverpool, Alexander Isak’ın erken iki golüyle Ipswich Town’ı 2-0 geçti. Gelişme, Andoni Iraola dönemindeki ilk lig galibiyetini getirdi.",
+      "focusKeyword": "Ipswich Town Liverpool maçı",
+      "originalAngle": "Liverpool’un galibiyetini yalnız skor üzerinden değil, Iraola döneminin ilk lig zaferi ve Isak’ın hücum hattındaki doğrudan etkisi üzerinden okumak gerekiyor. Maçın belirleyici ayrıntısı, iki golün de karşılaşmanın ilk 10 dakikasında gelmesi oldu.",
+      "keyFindings": [
+        "Liverpool, Ipswich Town deplasmanından 2-0 galip ayrıldı.",
+        "Alexander Isak iki golü de karşılaşmanın ilk 10 dakikasında attı.",
+        "Sonuç, Andoni Iraola yönetimindeki Liverpool’un ligdeki ilk galibiyeti olarak öne çıktı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu önce AS’ın karşılaşma raporuyla, ardından Liverpool’un resmi maç günü kadro duyurusu ve bağımsız maç akışı kayıtlarıyla karşılaştırıldı. Gol sayısı, oyuncu ve sonuç bilgileri kaynaklar arasında tutarlı bulundu.",
+      "originalFindings": [],
+      "limitations": "Liverpool’un puan tablosundaki kesin sıralaması ve diğer maçların sonuçlarına bağlı etkisi bu haberin yayımlandığı anda ayrıca değerlendirilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:58:07.000Z",
+      "discoveredAt": "2026-09-04T21:16:25.605Z",
+      "sources": [
+        {
+          "title": "Víctor impresiona, Isak gana los puntos",
+          "publisher": "Diario AS",
+          "url": "https://as.com/futbol/internacional/victor-impresiona-isak-gana-los-puntos-f202609-n",
+          "publishedAt": "2026-09-04T20:58:07Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Post-Match Thread: Ipswich Town 0-2 Liverpool",
+          "publisher": "Reddit / r/soccer",
+          "url": "https://www.reddit.com/r/soccer/comments/1w7glyq/post_match_thread_ipswich_town_02_liverpool",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Confirmed Liverpool line-up v Ipswich Town",
+          "publisher": "Liverpool FC",
+          "url": "https://www.liverpoolfc.com/news/confirmed-liverpool-line-v-ipswich-town-1?amp=1",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "a6a01dd3a1932d58",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Real Betis, Real Madrid’in namağlup başlangıcını 1-0’la bitirdi",
+      "summary": "LaLiga’nın 4. haftasında Real Betis, La Cartuja’da Real Madrid’i 1-0 yenerek rakibine sezonun ilk lig mağlubiyetini yaşattı. Madrid ekibi, Jose Mourinho yönetiminde ligdeki kusursuz başlangıcını sürdüremedi.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Real Betis, Real Madrid’i 1-0 mağlup etti",
+      "seoDescription": "Real Betis, LaLiga’nın 4. haftasında Real Madrid’i 1-0 yendi. Madrid ekibi böylece sezonun ilk lig mağlubiyetini aldı.",
+      "focusKeyword": "Real Betis Real Madrid maçı",
+      "originalAngle": "La Cartuja’daki sonuç, Real Betis’in üç galibiyetli Real Madrid başlangıcını durdurmasından daha fazlasını ifade ediyor: Madrid ekibi ligde ilk kez puan kaybederken, zirve yarışındaki erken denge de değişti. Bundan sonraki temel soru, mağlubiyetin tek maçlık bir sapma mı yoksa yoğun fikstür öncesi ilk kırılma mı olacağıdır.",
+      "keyFindings": [
+        "Real Betis, Real Madrid’i 1-0 mağlup etti.",
+        "Real Madrid bu sonuçla 2026-27 LaLiga sezonundaki ilk lig yenilgisini aldı.",
+        "Karşılaşma, Madrid’in dört maçlık lig başlangıcındaki kusursuz serisini sona erdirdi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Sonuç ve skor, Cadena SER’in maç raporu ile Diario AS’ın maç sonrası haberinde karşılaştırıldı; LaLiga’nın resmi maç sayfası karşılaşmanın 4. hafta takvimini ve 1-0 sonucu destekleyen kayıt olarak kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kazandıran golün oyuncusu ve maçın ayrıntılı istatistikleri, doğrulanan temel sonuç haberine eklenmeden önce yeterli sayıda bağımsız kaynakta teyit edilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T21:06:42.000Z",
+      "discoveredAt": "2026-09-04T21:16:25.605Z",
+      "sources": [
+        {
+          "title": "Betis 1-0 Real Madrid: resumen, resultado y goles del partido de la jornada 4",
+          "publisher": "Cadena SER",
+          "url": "https://cadenaser.com/nacional/2026/09/04/betis-1-0-real-madrid-resumen-resultado-y-goles-del-partido-de-la-jornada-4-de-laliga-ea-sports-cadena-ser",
+          "publishedAt": "2026-09-04T21:06:42Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Próximo partido del Real Madrid: fecha, rival, horario y contra quién juega",
+          "publisher": "Diario AS",
+          "url": "https://as.com/futbol/real-madrid/proximo-partido-del-real-madrid-fecha-rival-horario-y-contra-quien-juega-el-equipo-de-mourinho-f202609-n",
+          "publishedAt": "2026-09-04T21:06:29Z",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Real Betis vs Real Madrid - LALIGA EA SPORTS",
+          "publisher": "LaLiga",
+          "url": "https://www.laliga.com/en-NL/match/temporada-2026-2027-laliga-ea-sports-real-betis-real-madrid-4",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "0878df7271534ffb",
       "role": "yorum",
