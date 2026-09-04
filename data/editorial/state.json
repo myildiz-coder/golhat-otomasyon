@@ -1,7 +1,227 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T22:10:12.667Z",
+  "updatedAt": "2026-09-04T22:16:26.224Z",
   "stories": [
+    {
+      "id": "984ef101e66df824",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Kocaelispor’da kadro revizyonu: Umut Can Aslan ayrıldı, Esat Yusuf Narin kiralandı",
+      "summary": "Kocaelispor, Umut Can Aslan’ın sözleşmesini karşılıklı anlaşmayla feshetti; genç orta saha Esat Yusuf Narin’i sezon sonuna kadar Yalova FK 77’ye kiraladı.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Kocaelispor’da Umut Can Aslan ayrıldı, Esat Yusuf Narin kiralandı",
+      "seoDescription": "Kocaelispor, Umut Can Aslan ile yollarını ayırdı; Esat Yusuf Narin’i sezon sonuna kadar Yalova FK 77’ye kiraladı. Kadro planlamasının etkisi haberimizde.",
+      "focusKeyword": "Kocaelispor Umut Can Aslan Esat Yusuf Narin",
+      "originalAngle": "Transfer döneminin son gününde Kocaelispor iki genç oyuncu için farklı yollar seçti: Umut Can Aslan’la sözleşme sona ererken Esat Yusuf Narin, düzenli süre bulması amacıyla kiralık gönderildi. Böylece kulübün genç oyuncu havuzunda sözleşme sonlandırma ile gelişim odaklı kiralama ayrımı netleşti.",
+      "keyFindings": [
+        "Kocaelispor, Umut Can Aslan’ın sözleşmesini karşılıklı anlaşmayla feshetti.",
+        "Esat Yusuf Narin, sezon sonuna kadar TFF 3. Lig ekibi Yalova FK 77’ye kiralandı.",
+        "Narin geçen sezon Kocaelispor formasıyla Süper Lig’de iki maçta toplam 21 dakika süre aldı; bundan sonraki temel soru, kiralık dönemde düzenli oynayarak Kocaelispor’a daha hazır dönüp dönemeyeceği."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Kocaelispor’un açıklamasını aktaran beIN SPORTS haberi ile Esat Yusuf Narin’in Yalova FK 77’ye kiralandığını ayrıca doğrulayan Ajansspor karşılaştırıldı. Transfer döneminin 4 Eylül 2026’da sona erdiği TFF belgesiyle kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Umut Can Aslan’ın sonraki kulübüne ilişkin bilgiler yerel kaynaklarda geçse de kulübün doğrulanmış açıklamasında yalnızca sözleşme feshi kesinleşiyor; bu nedenle yeni takım bilgisi haberin merkezine alınmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T13:53:00.000Z",
+      "discoveredAt": "2026-09-04T22:16:26.224Z",
+      "sources": [
+        {
+          "title": "Kocaelispor çifte ayrılığı açıkladı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/kocaelispor-cifte-ayriligi-acikladi",
+          "publishedAt": "2026-09-04T15:11:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Kocaelispor’un genç on numarası Yalova FK 77’ye kiralandı",
+          "publisher": "Ajansspor",
+          "url": "https://ajansspor.com/haber/kocaelisporun-genc-on-numarasi-yalova-fk-77ye-kiralandi-734122",
+          "publishedAt": "2026-09-04T16:53:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "2026-2027 Futbol Sezonu İlan Edilmesi Gereken Hususlar",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Resources/TFF/Auto/7acd06ee8e2d4835a3d22776a8cc7c76.pdf",
+          "publishedAt": "2026-05-14T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "10a982220bd46a56",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisinde Halil Umut Meler düdük çalacak",
+      "summary": "Süper Lig’in 4. haftasındaki Fenerbahçe-Beşiktaş derbisinde hakem Halil Umut Meler görev yapacak. Karşılaşmanın yardımcıları İbrahim Çağlar Uyarcan ve Abdullah Bora Özkara, dördüncü hakemi ise Batuhan Kolak olacak.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinin hakemi Halil Umut Meler",
+      "seoDescription": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinin hakem ekibi belli oldu. Halil Umut Meler’in görev yapacağı maçın atamalarını okuyun.",
+      "focusKeyword": "Fenerbahçe-Beşiktaş derbisi hakemi",
+      "originalAngle": "Derbinin hakem ataması yalnız maç yönetimini değil, Süper Lig’in 4. haftasında zirve takibini etkileyebilecek yüksek baskılı karşılaşmanın yönetim çerçevesini de netleştiriyor. GOLHAT’ın odak noktası, atamanın resmileşmesiyle birlikte tartışmanın tahminden çıkıp görev ve sorumluluk başlıklarına taşınmasıdır.",
+      "keyFindings": [
+        "Halil Umut Meler, 5 Eylül 2026’da oynanacak Fenerbahçe-Beşiktaş derbisinin hakemi olarak görevlendirildi.",
+        "İbrahim Çağlar Uyarcan ile Abdullah Bora Özkara yardımcı hakem, Batuhan Kolak dördüncü hakem olarak açıklandı.",
+        "Fenerbahçe 3 maçta 6, Beşiktaş ise 3 maçta 6 puanla derbiye çıkacak; atama, iki takımın zirve takibindeki kritik karşılaşma öncesinde kesinleşti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Hakem ataması TFF’nin maç kayıtları ve Beşiktaş’ın resmi maç merkezi sayfası üzerinden kontrol edildi; DHA’nın bağımsız haberiyle çapraz doğrulandı. Maç tarihi ve saat bilgisi resmi kulüp kaydıyla karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Atama bilgisi hakemin maç içindeki performansı veya kararlarının niteliği hakkında önceden sonuç çıkarmaz. Karşılaşmanın sonucu ve olası hakem tartışmaları maç sonrasında ayrıca değerlendirilmelidir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:16:26.000Z",
+      "discoveredAt": "2026-09-04T22:16:26.224Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe - Beşiktaş",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe – Beşiktaş derbisini Halil Umut Meler yönetecek",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/spor/fenerbahce-besiktas-derbisini-halil-umut-meler-yonetecek-2938520",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş rekabetinde 365. randevu",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-besiktas-rekabetinde-365-randevu/4047156",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "e8182c53e443daef",
+      "role": "sampiyonlar_ligi",
+      "page": "sampiyonlar-ligi.html",
+      "headline": "Fenerbahçe’de Guendouzi, Şampiyonlar Ligi’nde Roma ve Aston Villa maçlarını kaçıracak",
+      "summary": "UEFA, Lyon maçındaki olaylar nedeniyle Matteo Guendouzi’ye toplam dört Avrupa kupası maçı ceza verdi; iki maçlık kesin bölüm nedeniyle oyuncu Roma ve Aston Villa karşılaşmalarında forma giyemeyecek. Mason Greenwood’un bir maçlık cezası ise bir yıl denetimli olarak ertelendi. Fenerbahçe, kararlara itiraz edeceğini açıkladı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe’de Guendouzi Roma ve Aston Villa maçlarında yok",
+      "seoDescription": "UEFA, Guendouzi’ye dört maç ceza verdi. Fenerbahçe oyuncusu Roma ve Aston Villa maçlarında forma giyemeyecek; kulüp karara itiraz edecek.",
+      "focusKeyword": "Guendouzi UEFA cezası",
+      "originalAngle": "Kararın Fenerbahçe açısından belirleyici noktası toplam dört maçlık ceza değil, iki maçın hemen uygulanacak olmasıdır. Bu durum, Şampiyonlar Ligi’ne 18 yıl sonra dönen takımın lig aşamasındaki ilk iki karşılaşmasında orta saha planını doğrudan değiştiriyor. İtiraz sürecinin cezanın uygulanmasına etkisi ise bundan sonraki temel soru olacak.",
+      "keyFindings": [
+        "UEFA, Matteo Guendouzi’ye toplam dört UEFA kulüp organizasyonu maçı men ve 50 bin avro para cezası verdi; cezanın iki maçı bir yıllık deneme süresine bağlandı.",
+        "Guendouzi, mevcut karar yürürlükte kaldığı sürece Fenerbahçe’nin Roma ve Aston Villa ile oynayacağı ilk iki Şampiyonlar Ligi lig aşaması maçında forma giyemeyecek.",
+        "Mason Greenwood’a bir maç men ve 30 bin avro para cezası verildi; bir maçlık men cezası bir yıllık deneme süresince ertelendi.",
+        "Fenerbahçe’ye piroteknik kullanımı, seyirci olayları ve genel davranış kurallarının ihlali gerekçeleriyle toplam 95 bin avro para cezası uygulandı.",
+        "Fenerbahçe, UEFA Temyiz Kurulu nezdinde gerekli başvuru ve itiraz yollarını kullanacağını açıkladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA kararının içeriği Anadolu Ajansı ve beIN SPORTS Türkiye’nin 4 Eylül 2026 tarihli haberleriyle karşılaştırıldı; cezanın toplam süresi, ertelenen bölümü, ilk iki maça etkisi ve kulübün itiraz açıklaması çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın karar metninin doğrudan bağlantısı arama sonuçlarında bağımsız bir sayfa olarak açılmadı; haberlerde aktarılan karar ayrıntıları ve Fenerbahçe’nin itiraz açıklaması esas alındı. İtirazın cezaların uygulanmasına etkisi henüz kesinleşmiş değil.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T17:18:00.000Z",
+      "discoveredAt": "2026-09-04T22:16:26.224Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe to appeal UEFA sanctions on Guendouzi, Greenwood",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/en/sports/fenerbahce-to-appeal-uefa-sanctions-on-guendouzi-greenwood/4047779",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "UEFA'dan Matteo Guendouzi ve Mason Greenwood'a ceza!",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/uefadan-matteo-guendouzi-ve-mason-greenwooda-ceza",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "b9282bbbc2cafb5b",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray’ın Başakşehir galibiyeti, puandan önce kadro derinliğini sınadı",
+      "summary": "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yenerek Süper Lig’de 10 puana çıktı. Ancak maçın asıl işareti liderlik tablosundan çok, Avrupa takvimi yaklaşırken verilen kadro kararlarında saklıydı: Barış Alper Yılmaz ve Abdülkerim Bardakcı riske edilmedi, Victor Osimhen sakatlanarak çıktı, Rafael Leão ilk kez oynadı ve Gabriel Sara geç gelen frikikle sonucu belirledi. Sporting maçı öncesi soru artık yıldız sayısı değil, bu kadronun yükü nasıl paylaşacağıdır.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray Başakşehir galibiyetinde kadro derinliği sınavı",
+      "seoDescription": "Galatasaray’ın Başakşehir’i 3-2 yendiği maç, Sporting öncesi kadro rotasyonu ve yük paylaşımı açısından kritik bir sınav ortaya koydu.",
+      "focusKeyword": "Galatasaray Başakşehir 3-2",
+      "originalAngle": "Galatasaray’ın Başakşehir karşısındaki 3-2’lik galibiyeti, savunma tartışmasının ötesinde Avrupa fikstürü öncesi kadro derinliğinin nasıl kullanılacağını gösterdi: Buruk’un dinlendirme kararları, Osimhen’in erken çıkışı ve Leão’nun ilk katkısı, takımın yıldızlara değil görev paylaşımına ne ölçüde dayanabildiğini gündeme taşıyor.",
+      "keyFindings": [
+        "Galatasaray, Başakşehir’i deplasmanda 3-2 yenerek dört hafta sonunda 10 puana ulaştı; galibiyet serisi üç maça çıktı.",
+        "Okan Buruk, Göztepe maçının ilk 11’ine göre üç değişiklik yaptı; Barış Alper Yılmaz ile Abdülkerim Bardakcı Sporting maçı öncesi riske edilmedi, Wilfried Singo ve Günay Güvenç ise kadroda yer almadı.",
+        "Victor Osimhen 16. dakikada gol attıktan sonra kasığındaki rahatsızlık nedeniyle oyundan çıktı; Rafael Leão 68. dakikada Galatasaray formasıyla ilk kez sahaya girdi.",
+        "Başakşehir’in penaltıyla eşitliği yakaladığı ve Davinson Sanchez’in kendi kalesine attığı golle skorun yeniden 2-2 olduğu maçta Gabriel Sara, geç bölümde frikikten galibiyet golünü attı.",
+        "Galatasaray’ın Sporting karşılaşmasına birkaç gün kala aldığı üç puan, rotasyon tercihlerinin sonuçtan kopmadan uygulanabildiğini gösterdi; fakat bu planın Avrupa temposunda sürdürülebilir olup olmadığı henüz bilinmiyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli Galatasaray kulüp maç raporu; Anadolu Ajansı’nın karşılaşma haberi; Demirören Haber Ajansı’nın ilk 11, eksikler, rotasyon ve transfer oyuncularının kullanımına ilişkin maç önü bilgileri karşılaştırıldı. Skor, goller, oyuncu değişiklikleri ve puan bilgisi yalnızca birden fazla kaynağın örtüştüğü ölçüde kullanıldı.",
+      "originalFindings": [
+        "Galatasaray’ın bu maçtaki kadro planı, sonuçtan bağımsız bir rotasyon denemesi değil; Sporting maçı öncesinde sakatlık riski ve yeni transferlerin entegrasyonunu aynı anda yönetme girişimiydi.",
+        "Rafael Leão’nun oyuna girdikten sonra Torreira’nın golüne uzanan hücum zincirinde yer alması, yeni transferin katkısının yalnız bireysel şut veya gol beklentisiyle ölçülemeyeceğini gösterdi.",
+        "Sara’nın geç frikik golü üç puanı getirdi; ancak maçın bütünü, Galatasaray’ın skor üstünlüğünü koruma konusunda hâlâ maç içi dalgalanmalara açık olduğunu da ortaya koydu.",
+        "Bu nedenle Sporting maçı öncesi temel ölçüt, Galatasaray’ın ilk 11’inin gücü değil, Osimhen ve diğer ana parçalar eksildiğinde oyunun görev dağılımını ne kadar hızlı yeniden kurabildiği olacak."
+      ],
+      "limitations": "Maçın ayrıntılı opta verileri, tam saha pres yoğunluğu, beklerin konumlanması ve teknik direktörlerin maç sonu taktik değerlendirmeleri doğrulanmış kaynaklarda yeterli kapsamda yer almıyor. Bu nedenle belirli diziliş, xG, oyuncu puanı veya hakem kararının sonucu kesin biçimde değiştirdiği yönünde hüküm kurulmadı. Penaltı ve kırmızı kart bilgileri için mevcut açık kaynaklarda olayın tüm görüntüsel bağlamı bulunmadığından hakem performansı yorumu yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "2026-09-04-gs-basaksehir-kadro-derinligi",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T19:16:26.000Z",
+      "discoveredAt": "2026-09-04T22:16:26.224Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray maçından notlar",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-macindan-notlar-2939329",
+          "publishedAt": "2026-09-04T20:05:00+03:00",
+          "sourceRole": "context"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04T22:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
     {
       "id": "f63c57b767692fba",
       "role": "galatasaray",
