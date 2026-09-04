@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T01:14:11.868Z",
+  "updatedAt": "2026-09-04T01:43:09.972Z",
   "stories": [
+    {
+      "id": "99596f60b20baec0",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor’da Denis Draguş dönemi karşılıklı fesihle sona erdi",
+      "summary": "Trabzonspor, Rumen forvet Denis Draguş’un 30 Haziran 2028’e kadar süren sözleşmesini 3 Eylül 2026’da karşılıklı olarak feshetti. Ayrılık, transfer döneminin son bölümündeki kadro değişikliklerine eklendi.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor’da Denis Draguş ile yollar ayrıldı",
+      "seoDescription": "Trabzonspor, Denis Draguş’un sözleşmesini karşılıklı feshetti. Ayrılığın kadro planlamasındaki yeri ve bilinen sözleşme ayrıntıları haberde.",
+      "focusKeyword": "Denis Draguş Trabzonspor",
+      "originalAngle": "Gelişmenin önemi yalnızca bir oyuncu ayrılığı olması değil; Trabzonspor’un transfer döneminin son günlerinde devam eden kadro sadeleştirmesinin yeni bir adımı olarak resmileşmesi. Bundan sonraki temel soru, Draguş’un ayrılığı sonrası hücum rotasyonunun nasıl şekilleneceği.",
+      "keyFindings": [
+        "Trabzonspor ile Denis Mihai Draguş arasındaki profesyonel futbolcu sözleşmesi karşılıklı olarak feshedildi.",
+        "KAP kaydında sözleşmenin başlangıç tarihi 1 Temmuz 2024, bitiş tarihi 30 Haziran 2028 olarak yer aldı.",
+        "Kulüp tarafından fesih bedeli, tazminat veya oyuncunun yeni adresi hakkında ek mali ayrıntı açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, KAP bildirimindeki 3 Eylül 2026 tarihli sözleşme feshi kaydıyla kontrol edildi; Anadolu Ajansı ve Mackolik’te yayımlanan bağımsız haberlerle fesih metni ve sözleşme tarihleri karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Fesih anlaşmasının mali şartları ve Denis Draguş’un kariyerine hangi kulüpte devam edeceği doğrulanmış kaynaklarda açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T16:16:00.000Z",
+      "discoveredAt": "2026-09-04T01:43:09.972Z",
+      "sources": [
+        {
+          "title": "KAP Bildirim Sorgu Sonuçları",
+          "publisher": "Kamuyu Aydınlatma Platformu",
+          "url": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
+          "publishedAt": "2026-09-03T19:16:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor'da Denis Draguş'un sözleşmesi feshedildi",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/trabzonsporda-denis-dragusun-sozlesmesi-feshedildi/4046877",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trabzonspor'da Denis Draguş ile yollar ayrıldı",
+          "publisher": "Mackolik",
+          "url": "https://arsiv.mackolik.com/Haber/269543/Dragus-ile-yollar-ayrildi",
+          "publishedAt": "2026-09-03T19:25:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "bd84c3e34baf21f9",
       "role": "yorum",
