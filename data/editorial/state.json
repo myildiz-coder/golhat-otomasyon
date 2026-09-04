@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T19:13:49.373Z",
+  "updatedAt": "2026-09-04T20:17:17.287Z",
   "stories": [
+    {
+      "id": "777645ae59c903d2",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Göztepe, Torino’dan Tino Anjorin’i satın alma opsiyonuyla kiraladı",
+      "summary": "Göztepe, transfer döneminin son gününde Torino’nun İngiliz orta saha oyuncusu Faustino Anjorin’i satın alma opsiyonuyla kiralık olarak kadrosuna kattı. Operasyon Torino ve Göztepe’nin resmî açıklamalarıyla doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Göztepe, Tino Anjorin transferini resmen açıkladı",
+      "seoDescription": "Göztepe, Torino’dan Tino Anjorin’i satın alma opsiyonuyla kiraladı. Transferin formülü ve resmî doğrulaması Transfer Hattı’nda.",
+      "focusKeyword": "Tino Anjorin Göztepe transferi",
+      "originalAngle": "Transfer, Türkiye’de yaz dönemi tescil süresinin sona erdiği 4 Eylül 2026 gününde tamamlandı. Göztepe orta sahaya Serie A deneyimi bulunan bir oyuncu eklerken, Torino Anjorin’i satın alma opsiyonlu kiralama modeliyle gönderdi.",
+      "keyFindings": [
+        "Göztepe, Faustino Anjorin’i Torino’dan satın alma opsiyonuyla kiralık olarak kadrosuna kattı.",
+        "Torino, transferi 4 Eylül 2026 tarihli resmî açıklamasıyla duyurdu; Göztepe de aynı gün oyuncunun transferini kendi sitesinden ilan etti.",
+        "Anjorin’in Göztepe’ye katılması, İzmir temsilcisinin transfer döneminin kapanış günündeki orta saha hamlesi olarak öne çıktı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Transfer bilgisi önce Torino ve Göztepe’nin resmî kulüp açıklamalarından kontrol edildi; transferin formülü ve tarafları iki ayrı kulüp kaynağıyla çapraz doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Kulüplerin resmî açıklamalarında satın alma opsiyonunun bedeli ve sözleşmenin diğer mali şartları paylaşılmadı; bu nedenle doğrulanmayan rakamlar habere eklenmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T20:17:17.287Z",
+      "sources": [
+        {
+          "title": "Anjorin al Göztepe",
+          "publisher": "Torino FC",
+          "url": "https://www.torinofc.it/news/04/09/2026/anjorin-al-goztepe_44688",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "TINO ANJORIN GÖZTEPE'MİZDE!",
+          "publisher": "Göztepe Spor Kulübü",
+          "url": "https://goztepe.org.tr/Futbol/haberler",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "18c2283d13c68d49",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Fenerbahçe’de Talisca ayrılığı, golcüyü değil hücum düzenini eksiltti",
+      "summary": "Fenerbahçe, Anderson Talisca’nın sözleşmesini karşılıklı anlaşmayla feshetti. Brezilyalı oyuncu geçen sezon 45 resmi maçta 27 gol ve 5 asist üretmişti. Ayrılığın asıl etkisi yalnızca bu skor katkısının kaybı olmayacak; teknik heyet, merkezdeki yaratıcı rolü ve ceza sahası çevresindeki bitiriciliği yeni kadro dengesi içinde yeniden kurmak zorunda kalacak.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe’de Talisca ayrılığı hücum planını nasıl değiştirir?",
+      "seoDescription": "Fenerbahçe’nin Talisca ile yollarını ayırması, geçen sezonki skor katkısının ötesinde hücumdaki yaratıcı rolün nasıl paylaşılacağı sorusunu doğurdu.",
+      "focusKeyword": "Fenerbahçe Talisca ayrılığı",
+      "originalAngle": "Talisca’nın ayrılığı, Fenerbahçe’nin yalnızca 27 gollük bir üretimi kaybetmesi olarak okunmamalı; asıl mesele, onun merkezde topladığı yaratıcı ve bitirici sorumluluğun takım içinde hangi profillere dağıtılacağıdır. Kadro planlamasının başarısı, yeni bir yıldız isminden önce bu rol paylaşımının ne kadar dengeli kurulacağıyla ölçülecek.",
+      "keyFindings": [
+        "Fenerbahçe, 3 Eylül 2026 tarihinde Anderson Talisca’nın sözleşmesinin karşılıklı anlaşmayla feshedildiğini duyurdu.",
+        "Talisca, Anadolu Ajansı’nın aktardığı kulüp ve sezon verilerine göre geçen sezon Fenerbahçe formasıyla 45 resmi maçta 27 gol ve 5 asist üretti.",
+        "Bu ayrılık, takımın merkezdeki yaratıcı bağlantısını ve ceza sahası çevresindeki skor tehdidini yeniden dağıtmasını gerektiriyor; bunun sahadaki karşılığı yeni sezon maçlarında görülecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Kulübün karşılıklı fesih açıklaması, 3-4 Eylül 2026 tarihli Anadolu Ajansı ve DHA haberleriyle çapraz kontrol edildi. Talisca’nın geçen sezonki maç, gol ve asist verileri Anadolu Ajansı haberindeki doğrulanabilir bilgilerle sınırlandı. Taktik sonuçlar, bu olgular üzerinden yorum olarak ayrıştırıldı.",
+      "originalFindings": [
+        "Talisca’nın ayrılığı, tek bir oyuncunun rotasyondan çıkmasından çok, hücumdaki sorumluluk merkezinin değişmesi anlamına geliyor.",
+        "Yeni transfer aramak kadar, mevcut kadroda yaratıcı pas, ikinci forvet koşusu ve ceza sahası bitiriciliğinin hangi oyuncular arasında paylaşılacağı da belirleyici olacak.",
+        "Fenerbahçe’nin kısa vadeli başarısı, Talisca’nın sayılarını bire bir kimin tekrar edeceğinden ziyade takımın bu üretimi daha dengeli biçimde bölüp bölemeyeceğine bağlı görünüyor."
+      ],
+      "limitations": "Kulübün fesih anlaşmasının mali şartları ve Talisca’nın yerine düşünülen resmi bir oyuncu açıklanmadı. Bu nedenle ekonomik sonuçlar veya yeni kadro rol dağılımı hakkında kesin hüküm kurulamaz; yazı, doğrulanmış ayrılık ve geçmiş performans verilerinden hareket eden yorum niteliğindedir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260904-YORUM-TALISCA-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-04T17:17:17.000Z",
+      "discoveredAt": "2026-09-04T20:17:17.287Z",
+      "sources": [
+        {
+          "title": "Fenerbahce part ways with Anderson Talisca",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/en/sports/fenerbahce-part-ways-with-anderson-talisca/4046943",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe, Anderson Talisca’nın sözleşmesini feshetti",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/fenerbahce-anderson-taliscanin-sozlesmesini-f-2938726",
+          "publishedAt": "2026-09-03T22:30:00+03:00",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
     {
       "id": "25fb8bda71d5259c",
       "role": "transfer",
