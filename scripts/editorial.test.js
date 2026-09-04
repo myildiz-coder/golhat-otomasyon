@@ -546,6 +546,21 @@ test('baş editör gündem puanını kullanır ve 1 numarayı en fazla 12 saat t
   assert.ok(homepageAgendaScore(ordinaryNew, NOW) > homepageAgendaScore(stale, NOW));
 });
 
+test('altyaş haberleri ana sayfa seçimine giremez', () => {
+  const primary = validStory();
+  const youth = {
+    ...primary,
+    id: 'youth-story',
+    page: 'galatasaray.html',
+    headline: 'Galatasaray U19 Başakşehir deplasmanında mağlup oldu',
+    summary: 'Galatasaray U19 takımı, altyapı ligindeki karşılaşmada Başakşehir deplasmanında mağlup oldu ve maç sonucu doğrulandı.',
+    importance: 99,
+    publishedAt: new Date(NOW.getTime() - 30 * 60_000).toISOString()
+  };
+  assert.equal(selectHomepagePrimary(primary, [primary, youth], NOW).id, primary.id);
+  assert.equal(selectHomepageStories(primary, [primary, youth], NOW, 10).some((item) => item.id === youth.id), false);
+});
+
 test('kalıcı haber sayfası canonical, NewsArticle ve özgün GOLHAT katmanını içerir', () => {
   const story = validStory();
   const related = validStory({

@@ -277,6 +277,15 @@ function assertStoryPageRelevance(page, headline, summary) {
   }
 }
 
+// Altyaş ve akademi karşılaşmaları kendi sayfalarında yayımlanabilir; ancak
+// A takım gündeminin yerine ana sayfa manşetine taşınmaz.
+function isYouthTeamStory(story) {
+  const text = [story?.headline, story?.summary, story?.seoTitle, story?.focusKeyword]
+    .map((value) => String(value || ''))
+    .join(' ');
+  return /\b(?:u[- ]?(?:10|11|12|13|14|15|16|17|18|19|20|21|23)|altyapı|akademi|gelişim ligi|rezerv takım)\b/iu.test(text);
+}
+
 
 function validateStory(raw, context) {
   const now = context.now || new Date();
@@ -876,8 +885,8 @@ function assertHomepageIntegrity(html, story) {
 
 function selectHomepageStories(primary, stories, now, limit = HOMEPAGE_SLOT_COUNT) {
   const recentThreshold = new Date(now).getTime() - 7 * 24 * 3_600_000;
-  const eligiblePrimary = primary && primary.page !== 'yorum.html' ? primary : null;
-  const pool = [eligiblePrimary, ...(stories || [])].filter((story, index, items) => story && story.page !== 'yorum.html' && items.findIndex((item) => item && item.id === story.id) === index && storyMatchesPage(story.page, story.headline, story.summary) && new Date(story.publishedAt).getTime() >= recentThreshold);
+  const eligiblePrimary = primary && primary.page !== 'yorum.html' && !isYouthTeamStory(primary) ? primary : null;
+  const pool = [eligiblePrimary, ...(stories || [])].filter((story, index, items) => story && story.page !== 'yorum.html' && !isYouthTeamStory(story) && items.findIndex((item) => item && item.id === story.id) === index && storyMatchesPage(story.page, story.headline, story.summary) && new Date(story.publishedAt).getTime() >= recentThreshold);
   pool.sort((left, right) =>
     new Date(right.publishedAt) - new Date(left.publishedAt) ||
     new Date(right.discoveredAt || right.publishedAt) - new Date(left.discoveredAt || left.publishedAt) ||
@@ -916,6 +925,7 @@ function selectHomepagePrimary(currentStory, stories, now) {
     .filter((story, index, items) =>
       story &&
       story.page !== 'yorum.html' &&
+      !isYouthTeamStory(story) &&
       items.findIndex((item) => item && item.id === story.id) === index &&
       storyMatchesPage(story.page, story.headline, story.summary) &&
       story.importance >= HOMEPAGE_MIN_IMPORTANCE &&
@@ -1361,6 +1371,7 @@ module.exports = {
   storyIsDuplicate,
   storyMatchesPage,
   assertStoryPageRelevance,
+  isYouthTeamStory,
   validateStory,
   assertEditorialLanguage,
   existingHeadlines,
