@@ -1,7 +1,104 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T02:43:15.751Z",
+  "updatedAt": "2026-09-04T03:43:24.984Z",
   "stories": [
+    {
+      "id": "21a9cdd6b4e758a3",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "PFDK kararları açıklandı: Bardhi 2 maç men edildi, Süper Lig kulüplerine çeşitli cezalar verildi",
+      "summary": "TFF Profesyonel Futbol Disiplin Kurulu, 3 Eylül 2026 tarihli toplantısında Süper Lig kulüpleri ve futbolcular hakkında kararlarını açıkladı. Enis Bardhi 2 resmi müsabakadan men edilirken Konyaspor, Fenerbahçe, Trabzonspor, Galatasaray ve diğer bazı kulüplere para, tribün blokesi veya ihtar cezaları uygulandı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "PFDK kararları: Bardhi 2 maç men edildi",
+      "seoDescription": "TFF PFDK, 3 Eylül kararlarını açıkladı. Enis Bardhi 2 maç men edilirken Süper Lig kulüplerine para ve tribün cezaları verildi.",
+      "focusKeyword": "PFDK kararları 3 Eylül 2026",
+      "originalAngle": "Gelişmenin farkı yeni bir sevk listesi değil, üçüncü hafta maçlarının disiplin dosyalarının karara bağlanmasıdır. Özellikle Bardhi’nin iki maçlık men cezası ile tribün blokeleri, dördüncü hafta öncesinde bazı kulüplerin sportif ve organizasyonel planlarını doğrudan etkiliyor.",
+      "keyFindings": [
+        "TFF PFDK, 3 Eylül 2026 tarihli 5 sayılı toplantısının kararlarını yayımladı.",
+        "Konyasporlu Enis Bardhi, Kocaelispor maçındaki ciddi faulü nedeniyle 2 resmi müsabakadan men edildi; Konyaspor’a ayrıca 280 bin TL para cezası ve tribün blokesi uygulandı.",
+        "Fenerbahçe’ye 200 bin TL para cezası ve 280 bin TL talimatlara aykırılık cezası verilirken, Trabzonspor’a 200 bin TL ve 280 bin TL para cezası uygulandı; Galatasaray’ın belirli tribün blokları için bloke kararı alındı.",
+        "Samsunspor Başkanı Yüksel Yıldırım’a 100 bin TL para cezası verildi; Eyüpspor teknik sorumlusu Özhan Pulat ile Alanyaspor görevlisi Mevlüthan Çavuşoğlu’na birer maç soyunma odası ve yedek kulübesine giriş yasağı ile 100’er bin TL para cezası verildi.",
+        "Kararların dördüncü hafta öncesinde en somut sportif etkisi, Bardhi’nin iki maçlık men cezasının Konyaspor’un kadro planlamasına yansıması olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin 3 Eylül 2026 tarihli resmi PFDK karar metni incelendi; Bardhi cezası ve kulüplere uygulanan başlıca yaptırımlar Konhaber’in aynı tarihli haberindeki aktarım ile karşılaştırıldı. Yalnız iki kaynakta örtüşen ve resmi metinde açıkça yer alan bilgiler kullanıldı.",
+      "originalFindings": [],
+      "limitations": "TFF karar metninde bazı yaptırımların hangi maçta uygulanacağı ayrıntılı tribün blokları üzerinden belirtiliyor; kulüplerin olası itirazları veya Tahkim Kurulu süreçleri bu haberin yayımlandığı anda bilinmiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T03:43:24.984Z",
+      "sources": [
+        {
+          "title": "PFDK Kararları - 03.09.2026",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51254&pageID=246",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "PFDK’dan Konyaspor’a ceza! Bardhi 2 maç men edildi",
+          "publisher": "Konhaber",
+          "url": "https://www.konhaber.com/spor/pfdk_dan_konyaspor_a_ceza_bardhi_2_mac_men_edildi-2008306h",
+          "publishedAt": "2026-09-03T21:37:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "5b92d09d89e25da5",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Galatasaray, Victor Nelsson ile sözleşmesini karşılıklı feshetti",
+      "summary": "Galatasaray, Victor Enok Nelsson ile arasındaki sözleşmenin 2 Eylül 2026 tarihinde karşılıklı anlaşmayla sona erdirildiğini KAP’a bildirdi. Oyuncunun yeni adresi ve fesih gerekçesine ilişkin ek ayrıntı açıklanmadı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray, Victor Nelsson ile sözleşmesini feshetti",
+      "seoDescription": "Galatasaray, Victor Nelsson’un sözleşmesini karşılıklı anlaşmayla sona erdirdi. KAP bildiriminin ayrıntıları ve transfer sürecindeki son durum burada.",
+      "focusKeyword": "Victor Nelsson Galatasaray sözleşme feshi",
+      "originalAngle": "Gelişmenin ayırt edici tarafı yeni bir transfer imzası değil, Galatasaray’ın kadro planlamasında Nelsson dönemini karşılıklı fesih yoluyla kapatmasıdır. KAP kaydında oyuncunun yeni kulübü, transfer bedeli veya fesih tazminatı açıklanmadığı için haber bu sınır içinde tutulmalıdır.",
+      "keyFindings": [
+        "Galatasaray, Victor Enok Nelsson ile sözleşmesini karşılıklı olarak sona erdirdiğini 2 Eylül 2026 saat 22.00’de KAP’a bildirdi.",
+        "Anadolu Ajansı ve DHA, ayrılığı ve sözleşmenin karşılıklı anlaşmayla feshedildiğini bağımsız olarak doğruladı.",
+        "Resmî kayıtlarda Nelsson’un yeni adresi, transfer bedeli veya fesih tazminatıyla ilgili bilgi yer almadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "KAP’taki resmî sözleşme feshi bildirimi, Anadolu Ajansı ve DHA haberleriyle karşılaştırıldı. Üç kaynakta ortaklaşan olgular kullanıldı; doğrulanmamış yeni kulüp ve gerekçe iddiaları dışarıda bırakıldı.",
+      "originalFindings": [],
+      "limitations": "KAP bildirimi fesih dışında oyuncunun sonraki kulübünü, ayrılığın sportif veya kişisel nedenini ve taraflar arasındaki mali şartları açıklamıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-02T19:00:00.000Z",
+      "discoveredAt": "2026-09-04T03:43:24.984Z",
+      "sources": [
+        {
+          "title": "Profesyonel Futbolcumuz Victor Enok Nelsson'un Sözleşme Feshi Hakkında",
+          "publisher": "Kamuyu Aydınlatma Platformu",
+          "url": "https://kap.org.tr/en/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
+          "publishedAt": "2026-09-02T22:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray'da Victor Nelsson ile yollar ayrıldı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/galatasarayda-victor-nelsson-ile-yollar-ayrildi/4045649",
+          "publishedAt": "2026-09-02",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Galatasaray, Victor Nelsson ile yollarını ayırdı",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/galatasaray-victor-nelsson-ile-yollarini-ayird-2938055",
+          "publishedAt": "2026-09-02T22:06:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "c045c186f8c86210",
       "role": "trabzonspor",
