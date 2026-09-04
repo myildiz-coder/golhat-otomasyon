@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T11:17:21.232Z",
+  "updatedAt": "2026-09-04T12:49:00.598Z",
   "stories": [
+    {
+      "id": "c9a66e294a34756f",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ta 13 futbolcu Fenerbahçe derbisinde bir ilki bekliyor",
+      "summary": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinde, Vincenzo Italiano’nun görev vermesi halinde 13 Beşiktaşlı futbolcu bu rekabette ilk kez sahaya çıkacak. Rıdvan Yılmaz ve Milot Rashica ise siyah-beyazlıların derbi deneyimi en yüksek isimleri olarak öne çıkıyor.",
+      "tag": "Gelişme",
+      "importance": 74,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş’ta 13 futbolcu Fenerbahçe derbisinde ilk peşinde",
+      "seoDescription": "Beşiktaş’ta 13 futbolcu, 5 Eylül’deki Fenerbahçe derbisinde ilk kez bu rekabette forma giyebilir; Rıdvan ve Rashica deneyimleriyle öne çıkıyor.",
+      "focusKeyword": "Beşiktaş Fenerbahçe derbisi 2026",
+      "originalAngle": "Derbi öncesi öne çıkan başlık yalnızca yeni transferlerin sahaya çıkması değil; Beşiktaş kadrosunun önemli bölümünün Fenerbahçe rekabetindeki ilk sınavına hazırlanması. 13 oyunculuk grup, Italiano’nun tercihleriyle birlikte siyah-beyazlıların derbi tecrübesi dağılımını doğrudan etkileyebilir.",
+      "keyFindings": [
+        "Beşiktaş’ta Leandro Trossard, Kassoum Ouattara, Alexander Nübel, Ernest Poku, İlhan Fakılı, Fabio Miretti, Salih Özcan, Doğan Alemdar, Dusan Vlahovic, Ümit Akdağ, Ahmet Sami Bircan, Taylan Bulut ve Yasin Özcan forma giymeleri halinde Fenerbahçe’ye karşı ilk kez oynayacak.",
+        "Rıdvan Yılmaz ve Milot Rashica, Beşiktaş formasıyla Fenerbahçe’ye karşı beşer maçla takımın en deneyimli isimleri olarak gösteriliyor.",
+        "Orkun Kökçü ve Vaclav Cerny üçer, Emirhan Topçu, Mustafa Hekimoğlu ve Wilfred Ndidi ikişer derbi deneyimine sahip.",
+        "Bu tablo, Beşiktaş’ın derbi kadrosunda bireysel deneyim ile yeni oyuncuların ilk rekabet sınavının aynı anda bulunacağını gösteriyor; ilk 11 ve süre dağılımı henüz kesinleşmiş değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli Anadolu Ajansı haberi, aynı gün yayımlanan Haberler.com aktarımıyla karşılaştırıldı. Beşiktaş’ın resmi maç sayfasından karşılaşmanın 5 Eylül 2026 saat 20.00’de oynanacağı kontrol edildi; oyuncuların derbi deneyimine ilişkin sayılar iki haber kaynağındaki ortak bilgiler üzerinden kullanıldı.",
+      "originalFindings": [],
+      "limitations": "Oyuncuların derbide forma giyip giymeyeceği ve ilk 11 tercihleri maç öncesinde kesinleşmiş değil. Haber, yayımlanmış kadro deneyimi verisini aktarır; teknik tercih veya maç sonucu öngörüsü içermez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T08:20:00.000Z",
+      "discoveredAt": "2026-09-04T12:49:00.598Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinde gözler yıldız golcülerde",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-besiktas-derbisinde-gozler-yildiz-golculerde/4047109",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Derbide 18 yeni yüz: Fenerbahçe-Beşiktaş'ta ilkler sahneye çıkacak",
+          "publisher": "Haberler.com",
+          "url": "https://www.haberler.com/spor/fenerbahce-besiktas-derbisinde-18-futbolcu-ilk-20206019-haberi",
+          "publishedAt": "2026-09-04T11:20:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "e0afa319b637173c",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Süper Lig kulüpleri için transferde son gün: Birinci tescil dönemi bugün kapanıyor",
+      "summary": "TFF’nin 2026-2027 sezonu takvimine göre Süper Lig kulüplerinin birinci transfer ve tescil dönemi 4 Eylül 2026’da sona eriyor. Günün ardından kulüplerin yeni oyuncu hamleleri için devre arasını beklemesi gerekecek.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Süper Lig’de transfer dönemi bugün sona eriyor",
+      "seoDescription": "TFF takvimine göre Süper Lig’de 2026-2027 sezonunun birinci transfer ve tescil dönemi 4 Eylül’de kapanıyor; kulüpler için son günün ayrıntıları.",
+      "focusKeyword": "Süper Lig transfer dönemi 4 Eylül 2026",
+      "originalAngle": "Gelişmenin haber değeri yalnızca son başvuru tarihinden ibaret değil: Transfer penceresinin kapanması, Süper Lig kulüplerinin mevcut kadro planlarını sezonun ilk bölümünde sabitlemesi ve olası eksikleri devre arasına ertelemesi anlamına geliyor. Bundan sonraki temel soru, kulüplerin tescil süresi sona ermeden hangi hamleleri resmileştireceği.",
+      "keyFindings": [
+        "TFF, 2026-2027 sezonunun birinci transfer ve tescil dönemini 22 Haziran-4 Eylül 2026 tarihleri arasında belirledi.",
+        "TFF’nin resmi metnine göre dönem 4 Eylül 2026’da sona eriyor; ikinci transfer ve tescil dönemi 1 Ocak-5 Şubat 2027 tarihleri arasında yapılacak.",
+        "Transfer penceresinin kapanması, Süper Lig kulüplerinin yeni oyuncu tescili bakımından bir sonraki resmi döneme kadar sınırlı kalacağı anlamına geliyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin resmi sezon duyurusu, DHA’nın 4 Eylül 2026 tarihli spor gündemiyle karşılaştırıldı. Her iki kaynak da birinci transfer ve tescil döneminin 4 Eylül 2026’da sona erdiğini doğruluyor.",
+      "originalFindings": [],
+      "limitations": "Kaynaklar kapanış saatini ayrıca belirtmiyor; bu nedenle haber, gün içindeki kesin son başvuru saatini ileri sürmeden yalnızca resmi kapanış tarihini aktarıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T09:49:00.000Z",
+      "discoveredAt": "2026-09-04T12:49:00.598Z",
+      "sources": [
+        {
+          "title": "2026-2027 Futbol Sezonu İlan Edilmesi Gereken Hususlar",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Resources/TFF/Documents/TFF/Lisanslama/2026-2027-ilan-edilmesi-gereken-hususlar.pdf",
+          "publishedAt": "2026-05-14",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "4 Eylül Cuma DHA Spor Gündemi",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/4-eylul-cuma-dha-spor-gundemi-2938809",
+          "publishedAt": "2026-09-04T09:57:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "2facd99b93f867e6",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Lyon’un sahibi Eagle Football Group, yeniden Olympique Lyonnais Groupe adını gündeme aldı",
+      "summary": "Olympique Lyonnais’in sahibi Eagle Football Group, 16 Ekim’deki genel kurulda şirket adının Olympique Lyonnais Groupe olarak değiştirilmesini ve Euronext Paris’ten Euronext Growth’a geçişi oylamaya sunacak.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Eagle Football Group, Olympique Lyonnais Groupe adını oylatacak",
+      "seoDescription": "Lyon’un sahibi Eagle Football Group, şirket adını Olympique Lyonnais Groupe olarak değiştirmeyi ve Euronext Growth’a geçişi 16 Ekim’de oylatacak.",
+      "focusKeyword": "Eagle Football Group Olympique Lyonnais Groupe",
+      "originalAngle": "Gelişmenin sportif kadrodan çok kulübün mülkiyet ve şirket yapılanmasını ilgilendirmesi, Lyon’da yeni yönetim döneminin kurumsal çerçevesinin de yeniden kurulmaya başladığını gösteriyor. Ancak isim değişikliği ve borsa geçişi henüz genel kurul onayına bağlı.",
+      "keyFindings": [
+        "Eagle Football Group yönetimi, 16 Ekim 2026’da yapılacak genel kurulda şirket adının Olympique Lyonnais Groupe olarak değiştirilmesini önerecek.",
+        "Aynı toplantıda hisselerin Euronext Paris’ten Euronext Growth’a taşınması da oylanacak; işlem yeni hisse ihracı olmadan mevcut payların aktarılması şeklinde planlanıyor.",
+        "Kararlar kabul edilirse Lyon’un sahibi şirket, kulübün Olympique Lyonnais kimliğini kurumsal adında yeniden öne çıkaracak; fakat öneriler henüz kesinleşmiş değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Eagle Football Group’un resmî düzenleyici duyurusu, bağımsız bir finans haber kaynağındaki haberle karşılaştırıldı. Genel kurul tarihi, önerilen şirket adı ve borsa geçişi iki farklı alan adında aynı şekilde doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Genel kurul henüz yapılmadığı için şirket adının ve borsa geçişinin kesinleştiği söylenemez. Bu gelişmenin Olympique Lyonnais’in sportif bütçesine veya transfer politikasına doğrudan etkisi konusunda resmî bir açıklama bulunmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T08:30:00.000Z",
+      "discoveredAt": "2026-09-04T12:49:00.598Z",
+      "sources": [
+        {
+          "title": "Proposed Transfer of Listing to Euronext Growth",
+          "publisher": "Olympique Lyonnais / Eagle Football Group",
+          "url": "https://finance.ol.fr/en/financial-information/regulatory-information",
+          "publishedAt": "2026-09-04T08:30:00Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Eagle Football Group convoque une AG pour changer de nom et rejoindre Euronext Growth",
+          "publisher": "Investing.com",
+          "url": "https://fr.investing.com/news/global-filings/eagle-football-group-convoque-une-ag-pour-changer-de-nom-et-rejoindre-euronext-growth-93CH-3584245",
+          "publishedAt": "2026-09-04T11:32:00Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "275b50196b2a3738",
       "role": "fenerbahce",
