@@ -162,7 +162,14 @@ test('puan değişikliği öncelikli maç masasını ve baş editörü tetikler'
   assert.match(editorialWorkflow, /priority_matchdesk/);
   assert.match(editorialWorkflow, /editorial-bas-editor\.yml/);
   assert.match(runner, /--priority-matchdesk/);
-  assert.match(runner, /\['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig'\]/);
+  assert.match(runner, /\['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig', 'yorum'\]/);
+});
+
+test('Mustafa YILDIZ önemli maçları tarafsız ve kanıta bağlı yorumlar', () => {
+  assert.match(GOLHAT_COMMENTARY_VOICE, /Mustafa YILDIZ, GOLHAT'ın sürekli baş yazarıdır/);
+  assert.match(GOLHAT_COMMENTARY_VOICE, /skorun veya kırılma anının nedeni/);
+  assert.match(GOLHAT_COMMENTARY_VOICE, /somut hakem kararlarının oyun\/sonuç etkisi/);
+  assert.match(GOLHAT_COMMENTARY_VOICE, /Kulüp taraftarlığı/);
 });
 
 test('yayın iş akışları haber site haritasını commit kapsamına alır', () => {

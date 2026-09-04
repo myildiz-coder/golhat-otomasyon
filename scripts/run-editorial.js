@@ -197,10 +197,14 @@ function liveDataSourceSignatures(role) {
   return signatures;
 }
 
-function categoryRequest(role, now, model) {
+function categoryRequest(role, now, model, options = {}) {
   const assignment = String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim();
   const leadWriter = role.columnists?.find((writer) => writer.lead) || role.columnists?.[0] || null;
   const liveDataSnapshot = buildLiveDataSnapshot(role);
+  const priorityMatchBrief = options.priorityMatchdesk && role.key === 'yorum' ? [
+    'Bu öncelikli maç masası görevidir. Önemli yerli maç yorumunu Mustafa YILDIZ imzasıyla üret; author_name alanı tam olarak Mustafa YILDIZ olmalı.',
+    'Yalnız doğrulanabilen skor/kırılma, taktik tercih, oyuncu etkisi, hakem/VAR kararı, teknik direktör tercihi ve puan tablosu etkisini işle; kaynakta olmayan unsurları limitations alanında açıkça sınırla.'
+  ] : [];
   const assignmentBrief = assignment ? [
     'ÖZEL YAYIN GÖREVİ: ' + assignment,
     ...(leadWriter ? [
@@ -275,6 +279,7 @@ function categoryRequest(role, now, model) {
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
       ...productionBrief,
+      ...priorityMatchBrief,
       ...assignmentBrief,
       GOLHAT_PUBLISHER_EXPERIENCE,
       GOLHAT_SEO_PLAYBOOK,
@@ -335,7 +340,7 @@ function refreshRolePages(role, state, now) {
 async function runCategory(roleName, state, options, apiKey, model, now) {
   const role = { ...EDITOR_ROLES[roleName], key: roleName };
   console.log('\n[' + role.label + '] araştırma başladı');
-  const response = await requestOpenAI(categoryRequest(role, now, model), apiKey);
+  const response = await requestOpenAI(categoryRequest(role, now, model, options), apiKey);
   const result = parseStructuredResponse(response);
   const citedUrls = collectCitedUrls(response);
   for (const signature of liveDataSourceSignatures(role)) citedUrls.add(signature);
@@ -358,6 +363,9 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
         allowedPages: role.pages,
         citedUrls
       });
+      if (options.priorityMatchdesk && roleName === 'yorum' && story.authorName !== 'Mustafa YILDIZ') {
+        throw new Error('Öncelikli yerli maç yorumu Mustafa YILDIZ imzasını taşımalı');
+      }
       const comparison = knownHeadlines.concat(accepted.map((item) => item.headline));
       if (storyIsDuplicate(story.headline, comparison)) {
         console.warn('[' + role.label + '] yinelenen haber atlandı: ' + story.headline);
@@ -458,7 +466,7 @@ async function main() {
   const roles = options.all
     ? Object.keys(EDITOR_ROLES).filter((role) => role !== 'ozel_haber')
     : options.priorityMatchdesk
-      ? ['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig']
+      ? ['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig', 'yorum']
       : [options.role];
   let failures = 0;
   let accepted = 0;
