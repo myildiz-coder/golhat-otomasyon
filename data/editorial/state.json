@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T14:44:18.008Z",
+  "updatedAt": "2026-09-04T15:18:08.513Z",
   "stories": [
+    {
+      "id": "e1e74fd9be5b3f6e",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor, Ali Habeşoğlu transferinde Bodrum FK ile prensip anlaşmasına vardı",
+      "summary": "Trabzonspor, transfer döneminin son gününde Bodrum FK’nın 22 yaşındaki santrforu Ali Habeşoğlu için hem oyuncu hem kulübüyle anlaşma sağladı. Oyuncunun sağlık kontrolü ve resmi imza süreci tamamlanmadan transfer kesinleşmiş sayılmayacak.",
+      "tag": "Gelişme",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor, Ali Habeşoğlu transferinde prensip anlaşmasına vardı",
+      "seoDescription": "Trabzonspor, Bodrum FK’nın genç santrforu Ali Habeşoğlu için prensip anlaşmasına vardı. Transferin sağlık kontrolü ve imza süreci bekleniyor.",
+      "focusKeyword": "Ali Habeşoğlu Trabzonspor transferi",
+      "originalAngle": "Gelişmenin haber değeri yalnızca genç bir forvetin gündeme gelmesi değil, Trabzonspor’un transfer döneminin kapanış saatlerinde hücum hattına yerli ve gelişim potansiyeli taşıyan bir alternatif eklemeye yönelmesidir. Bundan sonraki kritik soru, prensip anlaşmasının resmi sözleşmeye ve KAP bildirimine dönüşüp dönüşmeyeceğidir.",
+      "keyFindings": [
+        "Trabzonspor ile Bodrum FK’nın Ali Habeşoğlu transferi için prensip anlaşmasına vardığı iki ayrı spor kaynağında yer aldı.",
+        "22 yaşındaki santrforun sağlık kontrolü ve resmi işlemler için 4 Eylül 2026’da Trabzon’a gelmesinin beklendiği bildirildi.",
+        "Resmi kulüp veya KAP açıklaması henüz bulunmadığı için transfer tamamlanmış olarak sunulamaz."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme; beIN SPORTS Türkiye’nin 4 Eylül 2026 tarihli haberi ile GDH Dijital’in aynı gün yayımladığı haber karşılaştırılarak çapraz kontrol edildi. Trabzonspor’un resmi haber akışı ve KAP kayıtları ayrıca tarandı; resmi doğrulama bulunmadığı için kesinlik seviyesi sınırlı tutuldu.",
+      "originalFindings": [],
+      "limitations": "Transferin bonservis bedeli, sözleşme süresi ve resmi tescil durumu doğrulanmış değildir. Sağlık kontrolü ve imza tamamlanmadan anlaşma kesin transfer olarak değerlendirilemez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T14:26:00.000Z",
+      "discoveredAt": "2026-09-04T15:18:08.513Z",
+      "sources": [
+        {
+          "title": "Trabzonspor'a Bodrum FK'dan golcü! Anlaşma tamam",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/trabzonspora-bodrum-fkdan-golcu-anlasma-tamam",
+          "publishedAt": "2026-09-04T10:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trabzonspor Bodrum FK ile el sıkıştı",
+          "publisher": "GDH Dijital",
+          "url": "https://gdhdijital.com/haber/trabzonspor-bodrum-fk-ile-el-sikisti-8r65c3bjhnf",
+          "publishedAt": "2026-09-04T14:26:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "3bc113de353b38da",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gençlerbirliği’nin 18 yaşındaki oyuncusu Ousmane Diabate Newcastle United’a transfer oldu",
+      "summary": "Gençlerbirliği, 18 yaşındaki Gineli futbolcu Ousmane Diabate’nin Newcastle United’a transferinin tamamlandığını açıkladı. Diabate, 2026-2027 sezonunun sonuna kadar Gençlerbirliği’nde kiralık forma giyecek.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Ousmane Diabate Newcastle United’a transfer oldu",
+      "seoDescription": "Gençlerbirliği’nin 18 yaşındaki futbolcusu Ousmane Diabate, Newcastle United’a transfer oldu ve sezon sonuna kadar Ankara ekibinde kiralık kalacak.",
+      "focusKeyword": "Ousmane Diabate Newcastle United transferi",
+      "originalAngle": "Transferin dikkat çekici tarafı yalnızca Diabate’nin Premier Lig’e geçişi değil, Newcastle’ın genç oyuncuyu bu sezon Gençlerbirliği’nde bırakarak gelişimini Türkiye’de sürdürme modelini tercih etmesi.",
+      "keyFindings": [
+        "Gençlerbirliği, Ousmane Diabate’nin Newcastle United’a transferinin tamamlandığını duyurdu.",
+        "18 yaşındaki futbolcu, 2026-2027 sezonu sonuna kadar Gençlerbirliği’nde kiralık oynayacak.",
+        "Böylece oyuncunun kulüp değişikliği gerçekleşirken kısa vadeli sportif sürekliliği de korunmuş oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gençlerbirliği açıklamasını Anadolu Ajansı haberiyle çapraz kontrol ettik; transferin tamamlandığı ve sezon sonuna kadar kiralık kalacağı bilgisi iki farklı alan adındaki kaynakta aynı şekilde yer alıyor.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli ve Newcastle United ile imzalanan sözleşmenin süresi kaynaklarda açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T15:00:00.000Z",
+      "discoveredAt": "2026-09-04T15:18:08.513Z",
+      "sources": [
+        {
+          "title": "Gençlerbirliği'nden Newcastle United'a transfer",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/genclerbirliginden-newcastle-uniteda-transfer/4047503",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Süper Lig'de transferin son günü",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/index.php/futbol/haber/super-ligde-transferin-son-gunu/04d7002b-5b75-40e6-b489-73229751a157",
+          "publishedAt": "2026-09-04T17:20:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "320be3d5eb1ab4ad",
       "role": "transfer",
