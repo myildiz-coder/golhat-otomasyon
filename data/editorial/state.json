@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T10:44:23.472Z",
+  "updatedAt": "2026-09-04T11:17:21.232Z",
   "stories": [
+    {
+      "id": "275b50196b2a3738",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’nin Beşiktaş derbisi öncesi üç eksiği var",
+      "summary": "Fenerbahçe, 5 Eylül 2026 Cumartesi günü Kadıköy’de oynanacak Beşiktaş derbisine Marco Asensio, Jayden Oosterwolde ve cezalı Mert Hakan Yandaş’tan yoksun çıkacak. Sarı-lacivertlilerde hücum yükünün Vedat Muriqi ve Mason Greenwood’a kalması bekleniyor.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe’nin Beşiktaş derbisi öncesi üç eksiği var",
+      "seoDescription": "Fenerbahçe, 5 Eylül’deki Beşiktaş derbisinde Asensio, Oosterwolde ve Mert Hakan’dan yararlanamayacak; hücumda Muriqi ve Greenwood öne çıkıyor.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi eksikler",
+      "originalAngle": "Derbi öncesi asıl değişim hakem atamasında değil, Fenerbahçe’nin kadro seçeneklerinde yaşanıyor: Üç eksik, özellikle hücum üretiminin Vedat Muriqi ve Mason Greenwood çevresinde şekillenmesini zorunlu kılıyor.",
+      "keyFindings": [
+        "Marco Asensio ve Jayden Oosterwolde sakatlıkları, Mert Hakan Yandaş ise cezası nedeniyle Beşiktaş karşısında forma giyemeyecek.",
+        "Fenerbahçe ile Beşiktaş, 5 Eylül 2026 Cumartesi günü saat 20.00’de Chobani Stadyumu’nda karşılaşacak.",
+        "AA’nın derbi öncesi değerlendirmesine göre Fenerbahçe’nin sezon boyunca attığı gollerde Vedat Muriqi ve Mason Greenwood öne çıkan hücum oyuncuları arasında bulunuyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "DHA’nın 4 Eylül 2026 tarihli maç önü haberindeki eksik listesi, Anadolu Ajansı’nın aynı gün yayımladığı derbi ve hücum oyuncuları değerlendirmesiyle karşılaştırıldı. Maç tarihi ve saati ayrıca kaynaklar arasında kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kulübün bu üç oyuncuya ilişkin derbi kadro durumunu ayrıca duyuran yeni bir resmi açıklamasına rastlanmadı; mevcut bilgi maç önü haberlerinde yer alan sakatlık ve ceza durumuna dayanıyor. İlk 11 tercihi maç saatine kadar kesinleşmiş değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T08:23:00.000Z",
+      "discoveredAt": "2026-09-04T11:17:21.232Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe’nin derbi maçta konuğu Beşiktaş",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/fenerbahcenin-derbi-macta-konugu-besiktas-2938935",
+          "publishedAt": "2026-09-04T11:23:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinde gözler yıldız golcülerde",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-besiktas-derbisinde-gozler-yildiz-golculerde/4047109",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "58df106b5755559d",
       "role": "super_lig",
