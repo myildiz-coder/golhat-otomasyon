@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T04:18:00.190Z",
+  "updatedAt": "2026-09-04T04:44:00.920Z",
   "stories": [
+    {
+      "id": "0e3f920b84e14982",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray’ın 9 gollü başlangıcı, Başakşehir deplasmanında başka bir hücum sınavına giriyor",
+      "summary": "Galatasaray, Süper Lig’in ilk üç haftasında 9 gol ve artı 5 averajla 4 Eylül 2026’da Başakşehir deplasmanına çıkacak. Resmi maç önü verileri, sarı-kırmızılıların üretkenliğini ortaya koyuyor; ancak deplasmanda asıl ölçü gol sayısını korumak değil, rakibin merkez savunmasını bozarken hücum genişliğini sürdürebilmek olacak. Bu karşılaşma, yüksek skor başlangıcının kalıcı bir oyun alışkanlığına dönüşüp dönüşmediğini gösterecek.",
+      "tag": "Yorum",
+      "importance": 72,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray’ın 9 gollü başlangıcı Başakşehir deplasmanında sınanacak",
+      "seoDescription": "Galatasaray’ın ilk üç haftadaki 9 gollü hücum performansı, Başakşehir deplasmanında oyun genişliği ve merkez üretimi açısından yorumlanıyor.",
+      "focusKeyword": "Galatasaray Başakşehir deplasmanı",
+      "originalAngle": "Galatasaray’ın erken dönemdeki gol üretimi tek başına hücum gücünü kanıtlamıyor; asıl yeni soru, bu üretkenliğin Başakşehir’in merkezde daralan savunmasına karşı kenar-merkez bağlantısını koruyup koruyamayacağıdır.",
+      "keyFindings": [
+        "Galatasaray, kulübün resmi maç önü bilgisine göre Süper Lig’deki ilk üç karşılaşmasında 9 gol attı ve artı 5 averaj elde etti.",
+        "4 Eylül 2026’daki Başakşehir deplasmanı, takımın iç sahadaki üretken başlangıcını farklı bir saha ve rakip savunma düzeninde sınayacak.",
+        "Bu nedenle karşılaşmanın taktik ağırlık noktası yalnızca bitiricilik değil, hücum genişliğinin korunması ve merkezde üçüncü adam bağlantılarının kurulması olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Yorum, Galatasaray’ın 3 Eylül 2026 tarihli resmi maç önü içeriğinde yer alan gol ve averaj verileri ile karşılaşma tarihini temel alıyor. Maç sonucu, muhtemel ilk 11, sakatlık durumu veya doğrulanmamış transfer bilgileri kullanılmadı. Taktik değerlendirme, doğrulanmış bu olguların oyun planına muhtemel etkisiyle sınırlı tutuldu.",
+      "originalFindings": [
+        "Galatasaray’ın ilk üç haftadaki gol üretimi, erken sezon verisi olarak güçlü bir hücum başlangıcına işaret ediyor.",
+        "Başakşehir deplasmanı, aynı üretimin rakibin saha koşulları ve savunma yerleşimi değiştiğinde sürdürülebilir olup olmadığını ölçmek için ilk somut testlerden biri.",
+        "İzlenmesi gereken temel soru, Galatasaray’ın rakip merkez kapandığında oyunu yalnızca bireysel kaliteyle mi yoksa kenar-merkez sürekliliğiyle mi ilerleteceği."
+      ],
+      "limitations": "Başakşehir’in güncel savunma performansına, iki takımın doğrulanmış muhtemel kadrolarına ve maç içi eşleşmelere dair son 12 saat içinde yeterli birincil veri bulunmadığından değerlendirme öngörü değil, doğrulanmış hücum verisi üzerinden kurulmuş taktik bir çerçevedir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GH-YORUM-20260904-GS-BSK-01",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T04:44:00.920Z",
+      "discoveredAt": "2026-09-04T04:44:00.920Z",
+      "sources": [
+        {
+          "title": "Maça Doğru | Başakşehir - Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/maca-dogru-basaksehir-galatasaray/60885",
+          "publishedAt": "2026-09-03T18:18:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "İddaa Programı - 4 Eylül 2026",
+          "publisher": "Mackolik",
+          "url": "https://arsiv.mackolik.com/Program/Program.aspx",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "3233bdebb9bd7cce",
       "role": "transfer",
