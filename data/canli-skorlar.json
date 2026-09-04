@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T16:54:05.259Z",
+  "updatedAt": "2026-09-04T17:07:32.375Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 8,
-    "live": 0,
-    "upcoming": 8,
+    "live": 2,
+    "upcoming": 6,
     "finished": 0
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Galatasaray",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795441,
@@ -131,10 +131,10 @@
       "away": "Auxerre",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802925,
