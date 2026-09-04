@@ -1,7 +1,63 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T20:17:17.287Z",
+  "updatedAt": "2026-09-04T20:44:25.725Z",
   "stories": [
+    {
+      "id": "0878df7271534ffb",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Başakşehir deplasmanı Galatasaray’a liderlikten fazlasını verdi: Kazanırken savunma sorusunu büyüttü",
+      "summary": "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yenerek Süper Lig’de dört maç sonunda 10 puana ulaştı ve liderliğini korudu. Ancak bu galibiyet, sarı-kırmızılıların hücum sürekliliği kadar savunma dengesini de gündeme taşıdı. Okan Buruk’un takımı kazanma alışkanlığını sürdürüyor; önündeki asıl sınav, bu üretkenliği daha kontrollü bir oyunla birleştirmek olacak.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Başakşehir 2-3 Galatasaray: Galibiyetin büyüttüğü savunma sorusu",
+      "seoDescription": "Galatasaray’ın Başakşehir’i 3-2 yenerek lider kaldığı maç, hücum gücü ile savunma dengesi arasındaki kritik soruyu yeniden gündeme taşıdı.",
+      "focusKeyword": "Başakşehir 2-3 Galatasaray",
+      "originalAngle": "Galatasaray’ın Başakşehir deplasmanındaki 3-2’lik galibiyeti, yalnızca liderliği pekiştiren bir sonuç değil; takımın yüksek hücum üretimini savunma kontrolüne dönüştürüp dönüştüremeyeceğini gösteren ilk ciddi eşik olarak okunmalı.",
+      "keyFindings": [
+        "Başakşehir karşısında alınan 3-2’lik galibiyet, Galatasaray’ın dört maç sonunda 10 puanla lider kalmasını sağladı. Sonuç tablosu, sarı-kırmızılıların sezon başlangıcında puan kaybını sınırladığını ve yarışın erken bölümünde avantajı elinde tuttuğunu gösteriyor.",
+        "Galatasaray’ın ilk dört lig maçında attığı 12 gol, takımın skor üretme kapasitesinin sürdüğünü ortaya koyuyor. Buna karşılık kalesinde gördüğü 6 gol, hücumdaki canlılığın henüz aynı ölçüde savunma istikrarına dönüşmediğini gösteren temel veri.",
+        "Başakşehir’in dört hafta sonunda 4 puanda kalması, bu maçın ev sahibi açısından yalnızca bir yenilgi değil, üst sıralara yaklaşma fırsatının da kaçması anlamına geliyor. Galatasaray ise sonucu alırken rakibinin oyuna ortak olabildiği bölümlerde daha kontrollü savunma yapması gerektiğini gördü."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Yorum; TFF’nin 2026-2027 Süper Lig puan cetveli ve 4. hafta fikstürü, Galatasaray’ın resmi maç önü içeriği ve maç sonrası bağımsız haber kaydı çapraz kontrol edilerek hazırlandı. Taktik çıkarımlar yalnızca doğrulanmış skor, puan durumu, sezon sonuçları ve yaklaşan fikstür üzerinden kuruldu; doğrulanmayan oyuncu rolleri, dakika bilgileri ve maç içi pozisyon ayrıntıları kullanılmadı.",
+      "originalFindings": [
+        "Maçın en önemli kırılması skorun kendisinden çok Galatasaray’ın iki farklı ihtiyacı aynı anda taşımasıdır: Rakip ceza alanında üretken kalmak ve oyunu rakibin geri dönüş ihtimalini azaltacak kadar kontrol etmek. 3-2’lik sonuç, ilk hedefin gerçekleştiğini; ikinci hedefin ise hâlâ geliştirilmesi gerektiğini düşündürüyor.",
+        "Galatasaray’ın önceki lig sonuçları da aynı resmi destekliyor: Arca Çorum FK karşısında 2-2, Erzurumspor FK karşısında 4-0 ve Göztepe karşısında 3-2. Bu dizi, takımın hücumda farklı maç senaryolarına cevap verebildiğini gösterirken, iki maçta üçer gol yenmesi savunma konsantrasyonunun sezonun ana takip başlıklarından biri olacağını ortaya koyuyor.",
+        "Başakşehir galibiyetinin sonraki etkisi puan cetvelinde açık: Galatasaray 10 puanla zirvede, en yakın takipçisi Gençlerbirliği ise üç maçta 7 puanda. Fakat bu fark henüz sezonun yönünü belirleyecek ölçekte değil. Galatasaray’ın bir sonraki lig maçı Kocaelispor karşısında olacak; o karşılaşma, Başakşehir’deki yüksek tempolu kazanma biçiminin daha düşük riskli bir oyunla desteklenip desteklenemeyece",
+        "Bence Galatasaray’ın bu maçtan çıkaracağı ders, daha fazla gol atmak değil, gol attıktan sonra oyunun iplerini rakibe bırakmamaktır. Şampiyonluk yarışları çoğu zaman hücum gücüyle başlar, savunma alışkanlığıyla devam eder. Başakşehir deplasmanı sarı-kırmızılılara liderliği korudu; Kocaelispor maçı ise bu liderliğin hangi oyun standardına dayanacağını gösterecek."
+      ],
+      "limitations": "TFF kaydı skor, puan cetveli ve fikstürü doğruluyor; ancak kamuya açık ve bağımsız biçimde doğrulanabilen ayrıntılı olay akışı, oyuncu bazlı taktik harita ve sakatlık listesi bu taramada yeterli güvenilirlikte bulunamadı. Bu nedenle yorumda belirli oyunculara, dakikalara veya kesin nedensellik iddialarına yer verilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260904-YORUM-BSK-GS-01",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T17:44:25.000Z",
+      "discoveredAt": "2026-09-04T20:44:25.725Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Maça Doğru | Başakşehir - Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/maca-dogru-basaksehir-galatasaray/60885",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "context"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray maçından notlar",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-macindan-notlar-2939329",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "777645ae59c903d2",
       "role": "transfer",
