@@ -1,7 +1,140 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T13:44:38.960Z",
+  "updatedAt": "2026-09-04T14:17:08.900Z",
   "stories": [
+    {
+      "id": "7997fe326278679a",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş, Doruk Tuğrul’u FK Željezničar’a gönderdi",
+      "summary": "Beşiktaş, genç futbolcusu Doruk Tuğrul’un nihai transferi için FK Željezničar ile anlaşmaya varıldığını açıkladı. Bosna-Hersek kulübü de transferi doğruladı.",
+      "tag": "Kesinleşti",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "Doruk Tuğrul, FK Željezničar’a transfer oldu",
+      "seoDescription": "Beşiktaş, genç futbolcu Doruk Tuğrul’un FK Željezničar’a nihai transferini açıkladı. Bosna-Hersek kulübünün doğrulaması ve ayrıntılar haberde.",
+      "focusKeyword": "Doruk Tuğrul FK Željezničar transferi",
+      "originalAngle": "Transfer, Beşiktaş’ın genç oyuncu hareketliliğinde yeni bir ayrılığı kesinleştiriyor. Doruk Tuğrul’un kiralık değil nihai transferle ayrılması, kulübün oyuncu planlamasında bonservisli çıkışların da gündemde olduğunu gösteriyor; ancak anlaşmanın mali ayrıntıları açıklanmadı.",
+      "keyFindings": [
+        "Beşiktaş, Doruk Tuğrul’un nihai transferi için FK Željezničar ile anlaşmaya varıldığını resmi olarak duyurdu.",
+        "FK Željezničar da 4 Eylül 2026’da Türk futbolcunun kadroya katıldığını doğruladı.",
+        "Transfer bedeli, sözleşme süresi ve Beşiktaş’ın sonraki satış payı konusunda kamuya açık ayrıntı paylaşılmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmi kulüp açıklaması, FK Željezničar’ın transferi doğrulayan duyurusuyla iki farklı alan adı üzerinden karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Resmi açıklamalarda transferin mali şartları ve sözleşme süresi yer almadığı için bu ayrıntılar haber kapsamına alınmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T14:17:08.900Z",
+      "sources": [
+        {
+          "title": "Doruk Tuğrul, FK Zeljeznicar’a Transfer Oldu",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95042",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Željezničar doveo talentovanog Turčina iz Bešiktaša",
+          "publisher": "Nezavisne novine",
+          "url": "https://www.nezavisne.com/sport/fudbal/Zeljeznicar-doveo-talentovanog-Turcina-iz-Besiktasa/980711",
+          "publishedAt": "2026-09-04T09:28:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "b38f58c3bf7c7ad5",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Samsunspor’da Mustafa Hekimoğlu transferi son anda iptal oldu",
+      "summary": "Samsunspor, Beşiktaş’tan Mustafa Erhan Hekimoğlu’nun kiralık transferi için anlaşmaya varılmasına rağmen sürecin son aşamada iptal edildiğini açıkladı. Oyuncu 3 Eylül’de Samsun’a gelmişti.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Samsunspor’da Mustafa Hekimoğlu transferi iptal oldu",
+      "seoDescription": "Samsunspor, Beşiktaş’tan Mustafa Hekimoğlu için yürütülen kiralık transferin son aşamada iptal edildiğini açıkladı; sürecin ayrıntıları burada.",
+      "focusKeyword": "Mustafa Hekimoğlu Samsunspor transferi",
+      "originalAngle": "Gelişmenin ayırt edici tarafı, transfer görüşmesinin yalnızca bir iddia aşamasında kalmaması; oyuncunun Beşiktaş’tan izin alarak 3 Eylül’de Samsun’a gitmesine rağmen anlaşmanın transfer döneminin son gününde bozulmasıdır. Bu durum Samsunspor’un forvet planlamasında, yeni bir oyuncu için kalan zamanın kritik hale geldiğini gösteriyor.",
+      "keyFindings": [
+        "Samsunspor, Mustafa Erhan Hekimoğlu’nun transferinin gerçekleşmediğini ve sürecin son aşamada iptal edildiğini duyurdu.",
+        "Kulübün açıklamasına göre Hekimoğlu, seyahat ve sözleşme görüşmeleri için Beşiktaş’tan izin alarak 3 Eylül 2026’da Samsun’a geldi.",
+        "Samsunspor, transfer sürecinde sonradan gündeme gelen 2 milyon TL artı KDV tutarındaki kiralama bedelini kabul ettiğini ancak buna rağmen transferin tamamlanmadığını bildirdi.",
+        "Bundan sonraki temel soru, Samsunspor’un 4 Eylül’de sona eren transfer döneminde forvet rotasyonundaki boşluğu doldurup dolduramayacağıdır."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Samsunspor’un açıklamasını aktaran beIN SPORTS Türkiye ve DHA haberleri karşılaştırıldı. Oyuncunun 3 Eylül’de Samsun’a geldiği ve transferin son aşamada iptal edildiği bilgileri iki farklı alan adında doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Beşiktaş’ın transferin neden iptal edildiğine ilişkin aynı kapsamda ayrıntılı resmi açıklaması bu taramada bulunamadı. Mali talep ve görüşme sürecine dair ayrıntılar Samsunspor’un açıklamasına dayanmaktadır.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T11:15:00.000Z",
+      "discoveredAt": "2026-09-04T14:17:08.900Z",
+      "sources": [
+        {
+          "title": "Samsunspor’dan Beşiktaş ve Mustafa Hekimoğlu açıklaması",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/samsunspordan-besiktas-ve-mustafa-hekimoglu-aciklamasi",
+          "publishedAt": "2026-09-04T11:50:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Samsunspor’dan iptal olan Mustafa Hekimoğlu açıklaması",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/yerel-haberler/samsun/samsunspordan-iptal-olan-mustafa-hekimoglu-aci-2939159",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "0c62b8b8be5fb1d6",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Çorum FK-Eyüpspor maçında dördüncü hakem değişti",
+      "summary": "TFF, 6 Eylül Pazar günü oynanacak Arca Çorum FK-Eyüpspor karşılaşmasında dördüncü hakem değişikliğine gitti. Ayberk Demirbaş'ın yerine Direnç Tonusluoğlu görevlendirildi.",
+      "tag": "Gelişme",
+      "importance": 58,
+      "contentType": "news",
+      "seoTitle": "Çorum FK-Eyüpspor maçında dördüncü hakem değişti",
+      "seoDescription": "TFF, Çorum FK-Eyüpspor maçında dördüncü hakemi değiştirdi. Ayberk Demirbaş'ın yerine Direnç Tonusluoğlu atanırken gerekçe açıklanmadı.",
+      "focusKeyword": "Çorum FK Eyüpspor dördüncü hakem değişikliği",
+      "originalAngle": "Değişiklik, Süper Lig'in 4. haftasındaki maç görevlendirmelerinde müsabaka öncesi yapılan son düzenleme olarak öne çıkıyor; ancak TFF gerekçeyi açıklamadığı için haber değeri yalnızca atama değişikliğiyle sınırlı tutulmalı.",
+      "keyFindings": [
+        "TFF, 6 Eylül 2026 Pazar günü saat 17.00'de oynanacak Arca Çorum FK-Eyüpspor maçında dördüncü hakem değişikliğini duyurdu.",
+        "Ayberk Demirbaş'ın yerine Direnç Tonusluoğlu görevlendirildi.",
+        "TFF açıklamasında değişikliğin nedeni ve maçın diğer hakem kadrosunda bir değişiklik olup olmadığına dair ek bilgi yer almadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF'nin 4 Eylül 2026 tarihli resmi duyurusu, bağımsız bir Çorum yerel spor kaynağındaki haberle karşılaştırıldı. İki kaynakta maç, görev değişikliği ve yeni dördüncü hakem bilgileri örtüşüyor.",
+      "originalFindings": [],
+      "limitations": "Değişikliğin gerekçesi resmi açıklamada belirtilmedi. Bu nedenle sakatlık, görevlendirme planı veya başka bir nedensellik hakkında çıkarım yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T14:17:08.900Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig'de 4. Hakem Değişikliği",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51267&pageID=248",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Çorum FK-Eyüpspor Maçının Hakemini Değişti",
+          "publisher": "Kesin Karar",
+          "url": "https://www.kesinkarar.com/spor/corum-fk-eyupspor-macinin-hakemini-degisti-nedeni-herkesi-sasirtti/625513",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "3153bf69efe2adde",
       "role": "fenerbahce",
