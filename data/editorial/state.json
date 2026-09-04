@@ -1,7 +1,102 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T16:42:37.114Z",
+  "updatedAt": "2026-09-04T17:15:49.641Z",
   "stories": [
+    {
+      "id": "983b2c86527c7e79",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’de Marco Asensio ameliyat iddialarını yalanladı: Derbi öncesi dönüş sinyali",
+      "summary": "Fenerbahçe ve Marco Asensio, oyuncunun dizinden ameliyat olacağı yönündeki iddiaları reddetti. Asensio saha çalışmalarına başladığını açıklarken, Beşiktaş derbisinde oynayıp oynamayacağı henüz netleşmedi.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe’de Marco Asensio ameliyat iddialarını yalanladı",
+      "seoDescription": "Fenerbahçe ve Marco Asensio, ameliyat iddialarını reddetti. İspanyol oyuncunun saha çalışmalarına başladığı ve derbi durumunun belirsiz kaldığı aktarıldı.",
+      "focusKeyword": "Marco Asensio Fenerbahçe sakatlık açıklaması",
+      "originalAngle": "Gelişmenin asıl etkisi yalnızca bir sağlık iddiasının yalanlanması değil; Fenerbahçe’nin Beşiktaş derbisi öncesinde Asensio’nun dönüş takvimini yeniden gündeme almasıdır. Ancak oyuncunun derbide forma giyip giymeyeceği açıklığa kavuşmadığı için haber, kesin dönüş değil belirsizliğin sınırlarının daralması olarak okunmalıdır.",
+      "keyFindings": [
+        "Fenerbahçe, Marco Asensio’nun ciddi diz bağ problemi yaşadığı ve ameliyat talebinde bulunduğu yönündeki iddiaları resmi açıklamayla reddetti.",
+        "Asensio, 3 Eylül’de yayımlanan mesajında ameliyat olmayacağını, kademeli saha çalışmalarına başladığını ve kısa süre içinde takımla çalışmayı hedeflediğini söyledi.",
+        "Kulübün daha önce açıkladığı sol üst adale zorlanmasının tedavisi sürerken, oyuncunun 5 Eylül 2026’daki Beşiktaş derbisinde oynayıp oynamayacağı kesinleşmedi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Fenerbahçe’nin resmi açıklamasındaki ifadeler, Marco Asensio’nun kulüp kanallarında yayımlanan mesajı ve Sporx, beIN SPORTS Türkiye ile İspanya merkezli Cadena SER haberleri karşılaştırıldı. Derbi tarihi ve oyuncunun maç durumu ayrıca kaynaklar arasında kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kulüp ve oyuncu ameliyat iddiasını reddetse de Asensio’nun Beşiktaş derbisinde forma giyip giymeyeceğine dair kesin bir bilgi paylaşılmadı. Oyuncunun önceki sağlık açıklamasında belirtilen kas zorlanmasının tedavi süreci devam ediyor.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T10:44:00.000Z",
+      "discoveredAt": "2026-09-04T17:15:49.641Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe'den Asensio iddialarına yanıt",
+          "publisher": "Sporx",
+          "url": "https://m.sporx.com/fenerbahce-den-asensio-iddialarina-yanit-SXHBQ1174673SXQ",
+          "publishedAt": "2026-09-03T20:08:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Marco Asensio desmiente las 'fake news' sobre su estado de salud",
+          "publisher": "Cadena SER",
+          "url": "https://cadenaser.com/nacional/2026/09/04/marco-asensio-desmiente-las-fakes-news-sobre-su-estado-salud-cadena-ser?primarySection=/deportes/futbol",
+          "publishedAt": "2026-09-04T12:44:00+02:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Marco Asensio'dan sakatlık açıklaması! Bizzat kendisi duyurdu",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/marco-asensio-sakatlik-aciklamasi-bizzat-kendisi-duyurdu",
+          "publishedAt": "2026-09-03T18:28:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "e4c80c3a5dad747c",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "PSG, Monaco maçı kadrosunu açıkladı: Lucas Digne listede yok",
+      "summary": "Paris Saint-Germain, 4 Eylül 2026'da Monaco ile oynayacağı Ligue 1 karşılaşmasının kadrosunu duyurdu. Nuno Mendes cezası nedeniyle yokken, antrenmana katılan Lucas Digne de kadroya alınmadı.",
+      "tag": "Gelişme",
+      "importance": 62,
+      "contentType": "news",
+      "seoTitle": "PSG-Monaco maçı öncesi Lucas Digne kararı",
+      "seoDescription": "PSG'nin Monaco maçı kadrosu açıklandı. Nuno Mendes'in cezası sürerken Lucas Digne'nin de listede olmaması, sol bek planını değiştirdi.",
+      "focusKeyword": "PSG Monaco Lucas Digne",
+      "originalAngle": "Gelişmenin asıl etkisi, Nuno Mendes'in cezalı olduğu gecede PSG'nin sol bek seçeneğini daraltmasıdır. Digne'nin antrenmana katılmış olmasına rağmen kadro dışında kalması, Luis Enrique'nin Monaco karşısında bu bölgede farklı bir çözüm kullanacağını gösteriyor; ancak teknik tercihin nedeni kulüp tarafından açıklanmadı.",
+      "keyFindings": [
+        "PSG, 4 Eylül 2026 tarihli Monaco karşılaşması için 21 oyunculuk kadrosunu resmî olarak açıkladı.",
+        "Nuno Mendes cezası nedeniyle kadroda yer almadı; Lucas Digne de açıklanan listede bulunmadı.",
+        "Digne'nin yokluğu, PSG'nin sol bek bölgesindeki maç planını etkiliyor ancak oyuncunun neden kadro dışında bırakıldığı resmen açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "PSG'nin resmî kadro duyurusu, oyuncu listesini doğrulamak için kullanıldı; Foot Mercato'nun aynı gün yayımladığı haberle Digne'nin yokluğu, Mendes'in cezası ve antrenman durumu çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "PSG, Lucas Digne'nin kadro dışında bırakılma gerekçesini açıklamadı. İlk 11 tercihi ve Digne'nin sağlık durumu hakkında doğrulanmış ek bilgi bulunmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T08:04:00.000Z",
+      "discoveredAt": "2026-09-04T17:15:49.641Z",
+      "sources": [
+        {
+          "title": "Le groupe parisien pour la réception de Monaco",
+          "publisher": "Paris Saint-Germain",
+          "url": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Le PSG avec une absence inattendue face à Monaco",
+          "publisher": "Foot Mercato",
+          "url": "https://www.footmercato.net/a8289873187612009106-le-psg-avec-une-absence-inattendue-face-a-monaco",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "eea8e9166aaf7026",
       "role": "anadolu",
