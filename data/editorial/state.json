@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T17:41:22.032Z",
+  "updatedAt": "2026-09-04T18:19:13.252Z",
   "stories": [
+    {
+      "id": "17d8710bf4357501",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Richarlison, Tottenham’ın Premier League kadrosuna alınmadı",
+      "summary": "Tottenham, Richarlison’ı 2026-27 Premier League sezonunun 25 kişilik kadrosu dışında bıraktı. Karar, Everton’a dönüş görüşmelerinin sonuçsuz kalmasının ardından Brezilyalı oyuncunun geleceğini belirsizleştirdi.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Richarlison Tottenham’ın Premier League kadrosu dışında kaldı",
+      "seoDescription": "Tottenham, Richarlison’ı Premier League kadrosuna almadı. Kararın ardından oyuncunun Türkiye veya Suudi Arabistan’a transfer ihtimali yeniden gündeme geldi.",
+      "focusKeyword": "Richarlison Tottenham Premier League kadrosu",
+      "originalAngle": "Gelişmenin asıl etkisi yalnızca bir kadro tercihi değil: Tottenham, sezonun ilk bölümünde en önemli gol kaynaklarından birini sportif planının dışında bıraktı. İngiltere transfer dönemi kapanmış olsa da oyuncunun geleceği, Türkiye ve Suudi Arabistan’daki açık pencereler nedeniyle henüz kapanmış değil.",
+      "keyFindings": [
+        "Richarlison, Tottenham’ın 2026-27 Premier League için bildirdiği 25 kişilik kadroda yer almadı.",
+        "Teknik direktör Roberto De Zerbi, oyuncunun sezon başından beri ayrılmak istediğini söyledi; Everton’a dönüş görüşmeleri ise sonuçlanmadı.",
+        "Türkiye ve Suudi Arabistan transfer pencerelerinin açık kalması, Richarlison’ın Tottenham’dan ayrılması için sınırlı da olsa yeni bir zaman aralığı oluşturuyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, The National’ın 4 Eylül tarihli haberi ile The Guardian’ın aynı gün güncellenen canlı haber akışında karşılaştırıldı. Kadrodan çıkarılma bilgisi ve Everton görüşmelerinin sonuçsuz kaldığı iki ayrı alan adı üzerinden doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Tottenham’ın kulüp kanallarında kadro listesini doğrudan doğrulayan ayrı bir açıklamaya bu taramada ulaşılamadı. Trabzonspor’a olası transfer konusunda haberlerde yer alan bilgiler kesinleşmiş transfer olarak sunulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-04T18:19:13.252Z",
+      "sources": [
+        {
+          "title": "Richarlison left out of Tottenham's Premier League squad as clock counts down on proposed move to Trabzonspor",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/sport/football/2026/09/04/richarlison-left-out-of-tottenhams-premier-league-squad-as-clock-counts-down-on-proposed-move-to-trabzonspor",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Former referees’ boss says Dean ‘in fantasy land’; Richarlison axed; away fans banned from Old Firm games – live",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live?page=with:block-6a9a8a538f0865844a4bd8a6",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "67778ccefcb273c8",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "UEFA’nın ilk hakemlik ortağı, futbolun görünmeyen maliyetini de tartışmaya açtı",
+      "summary": "UEFA, hakemlik alanındaki ilk resmî ortaklık anlaşmasını STRAUSS ile yaptı; üç yıllık iş birliği forma, VAR ekranları ve hakem gelişim fonunu kapsıyor. Anlaşmanın asıl önemi marka görünürlüğünden çok, Avrupa futbolunun hakem eğitimini ve kamuoyuna hesap verme biçimini kurumsal bir yatırım başlığına taşımasıdır.",
+      "tag": "Yorum",
+      "importance": 70,
+      "contentType": "analysis",
+      "seoTitle": "UEFA-STRAUSS anlaşması hakemlik ekonomisini değiştirir mi?",
+      "seoDescription": "UEFA’nın STRAUSS ile hakemlik ortaklığı, forma sponsorluğundan öte eğitim, VAR görünürlüğü ve futbol ekonomisinde yeni bir hesap verebilirlik alanı açıyor.",
+      "focusKeyword": "UEFA STRAUSS hakemlik ortaklığı",
+      "originalAngle": "UEFA-STRAUSS anlaşması, hakemliği yalnızca maç günü kararlarının tartışıldığı bir alan olmaktan çıkarıp eğitim, teknoloji ve kurumsal görünürlük bütçesi gerektiren stratejik bir futbol yönetimi başlığına dönüştürüyor; asıl sınav, sponsorluk görünürlüğünün karar kalitesine ve hakem gelişimine ölçülebilir katkı sağlayıp sağlamayacağıdır.",
+      "keyFindings": [
+        "UEFA, 4 Eylül 2026’da STRAUSS ile hakemlik alanındaki ilk resmî ortaklığını duyurdu; anlaşma üç yıl sürecek ve UEFA hakemlerinin maç ile antrenman formalarında marka görünürlüğü sağlayacak.",
+        "Ortaklık yalnızca forma alanıyla sınırlı değil; VAR ekranları, UEFA’nın Video Operasyon Merkezi, hakem eğitim fonu, altyapıdaki hakemlik girişimleri ve taraftara yönelik bilgilendirici içerikler de anlaşmanın parçası.",
+        "Bu çerçeve, hakemliğin futbol ekonomisinde genellikle kriz anlarında hatırlanan bir hizmet değil, sürekli yatırım isteyen bir uzmanlık alanı olarak ele alınmaya başladığını gösteriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın 4 Eylül 2026 tarihli resmî medya açıklaması ile STRAUSS’un aynı gün yayımlanan kurumsal duyurusu karşılaştırıldı. Yorum, açıklanan ortaklık kapsamı üzerinden kurulmuş; anlaşmanın sportif sonuç doğurduğu ileri sürülmemiştir.",
+      "originalFindings": [
+        "Anlaşmanın yenilikçi tarafı yalnızca hakem formasındaki marka alanı değil, hakem gelişimi ve taraftar bilgilendirmesini aynı ticari çerçevede birleştirmesidir.",
+        "UEFA’nın hakemlikte görünürlük arayışı, VAR döneminde teknik kararların arkasındaki insan emeğini anlatma ihtiyacının da kurumsal bir kabulü olarak okunabilir.",
+        "Bu modelin başarısı, marka görünürlüğüyle değil; eğitim, hakem tutundurma ve karar süreçlerinin anlaşılabilirliği konusunda açıklanacak somut çıktılarla ölçülmelidir."
+      ],
+      "limitations": "Kaynaklar anlaşmanın mali değerini, hakem gelişim fonunun bütçesini veya performans ölçütlerini açıklamıyor. Bu nedenle ortaklığın hakem karar kalitesini artıracağı ya da UEFA gelirlerinde belirli bir sonuç doğuracağı söylenemez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260904-YORUM-UEFA-STRAUSS-01",
+      "authorName": "Mizan 90",
+      "publishedAt": "2026-09-04T15:19:13.000Z",
+      "discoveredAt": "2026-09-04T18:19:13.252Z",
+      "sources": [
+        {
+          "title": "UEFA and STRAUSS partner to elevate refereeing across European football",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/news-media/news/02a9-21828b4cd787-b50cab064e71-1000--uefa-and-strauss-partner-to-elevate-refereeing-across-eu",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "STRAUSS becomes UEFA’s first-ever Official Partner of UEFA Refereeing",
+          "publisher": "STRAUSS",
+          "url": "https://de.linkedin.com/company/strauss-works",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "7a80277a24dd4a04",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Liverpool’un N’Guessan hamlesi, genç transferde imzadan sonrasını öne çıkarıyor",
+      "summary": "Liverpool, Saint-Etienne’den 18 yaşındaki Djylian N’Guessan ile anlaşırken oyuncunun ocak ayına kadar Stade Brestois’ye kiralanacağını açıkladı. Bu tercih, genç yetenek transferinde asıl planın imza anında değil, oyuncunun gelişim ortamı, oynama ihtimali ve kulübe katılım zamanlaması birlikte tasarlandığında başladığını gösteriyor.",
+      "tag": "Yorum",
+      "importance": 68,
+      "contentType": "analysis",
+      "seoTitle": "Liverpool’un Djylian N’Guessan planı ne anlatıyor?",
+      "seoDescription": "Liverpool’un 18 yaşındaki Djylian N’Guessan’ı alıp ocak ayına kadar kiralaması, genç transferde imzadan sonraki gelişim planını öne çıkarıyor.",
+      "focusKeyword": "Djylian N’Guessan Liverpool",
+      "originalAngle": "Liverpool’un Djylian N’Guessan transferindeki belirleyici tercih, genç oyuncuyu hemen kadroda tutmak yerine ocak ayına kadar Ligue 1’de kiralık oynatmasıdır; kulübün kadro mühendisliğinde değer yalnızca yeteneği satın almakla değil, o yeteneğin doğru rekabet ortamında dakikaya çevrilmesiyle oluşuyor.",
+      "keyFindings": [
+        "Liverpool, 4 Eylül 2026’da Saint-Etienne’den 18 yaşındaki Fransız hücum oyuncusu Djylian N’Guessan ile anlaşmaya vardığını duyurdu.",
+        "N’Guessan’ın Liverpool’a resmî katılımı ocak ayında gerçekleşecek; oyuncu sezonun ilk bölümünü Ligue 1 ekibi Stade Brestois’de kiralık geçirecek.",
+        "Liverpool’un resmî açıklamasına göre oyuncu Saint-Etienne A takımında 13 kez forma giydi; ayrıca Fransa’nın 2025 U20 Dünya Kupası kadrosunda yedi maça çıktı ve U17 Avrupa Şampiyonası’nın turnuva takımında yer aldı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Liverpool’un resmî transfer duyurusu, Liverpool.com’un aynı gün yayımlanan haberindeki sözleşme ve kiralık planı bilgileriyle karşılaştırıldı. Değerlendirme, açıklanan gelişim planına dayanıyor; oyuncunun gelecekteki sportif seviyesine ilişkin tahmin yapılmadı.",
+      "originalFindings": [
+        "Transferin merkezi unsuru oyuncunun yaşı veya geçmiş turnuva dereceleri değil, Liverpool’a katılım tarihinin kiralık dönemle birlikte planlanmış olmasıdır.",
+        "Bu model, genç oyuncunun büyük kulüp kadrosunda sınırlı dakika beklemesi yerine düzenli rekabet içinde gelişmesini hedefleyen bir kadro mühendisliği tercihi olarak okunabilir.",
+        "Planın gerçek değeri, N’Guessan’ın Brestois’de ne kadar süre ve hangi rolde oynayacağıyla ölçülecek; büyük kulübe erken imza tek başına gelişim garantisi değildir."
+      ],
+      "limitations": "Kaynaklar kiralık dönemin garanti edilen forma süresini, oyuncunun Brestois’deki rolünü veya Liverpool’un ocak ayındaki kadro planını açıklamıyor. Bu nedenle transferin kesin sportif başarı sağlayacağı ileri sürülemez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260904-YORUM-NGUESSAN-01",
+      "authorName": "Sessiz Tahta",
+      "publishedAt": "2026-09-04T15:19:13.000Z",
+      "discoveredAt": "2026-09-04T18:19:13.252Z",
+      "sources": [
+        {
+          "title": "Liverpool agree deal to sign Djylian N’Guessan",
+          "publisher": "Liverpool FC",
+          "url": "https://www.liverpoolfc.com/news/liverpool-agree-deal-sign-djylian-nguessan?amp=1",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Liverpool finally confirms new signing days after transfer window closed",
+          "publisher": "Liverpool.com",
+          "url": "https://www.liverpool.com/liverpool-fc-news/transfer-news/breaking-liverpool-djylian-nguessan-confirmed-34565599.amp",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "cd45594cf0742cc6",
       "role": "galatasaray",
