@@ -1,7 +1,299 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T23:29:06.819Z",
+  "updatedAt": "2026-09-04T23:39:38.370Z",
   "stories": [
+    {
+      "id": "6d249030b082778c",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray, Başakşehir deplasmanında 90+ dakikada kazandı",
+      "summary": "Galatasaray, Süper Lig’in 4. haftasında Başakşehir’i deplasmanda 3-2 mağlup etti. Gabriel Sara’nın uzatma dakikalarındaki golüyle gelen galibiyet, 9 Eylül’deki Sporting CP karşılaşması öncesinde sarı-kırmızılı ekibi 10 puanla lider tuttu.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray Başakşehir’i 90+ dakikada yendi",
+      "seoDescription": "Galatasaray, Başakşehir’i 3-2 yenerek 10 puanla liderliğini korudu. Gabriel Sara’nın uzatma golü, Sporting maçı öncesi galibiyeti getirdi.",
+      "focusKeyword": "Başakşehir Galatasaray 2-3",
+      "originalAngle": "Galatasaray’ın 3-2’lik galibiyeti yalnızca liderliği korumadı; takım iki kez skor üstünlüğünü kaybettikten sonra maçı 90+ dakikada yeniden çevirdi. Sporting CP maçı öncesindeki asıl değişim, sonuca ulaşma becerisinin sürmesi kadar savunma kaynaklı kırılganlığın da görünür hale gelmesi oldu.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 mağlup etti.",
+        "Victor Osimhen ve Lucas Torreira’nın gollerine karşılık Başakşehir skoru iki kez dengeledi; galibiyet golünü uzatma dakikalarında Gabriel Sara attı.",
+        "Bu sonuçla Galatasaray 4 maç sonunda 3 galibiyet ve 1 beraberlikle 10 puana ulaştı; sıradaki resmi maç 9 Eylül 2026’da Sporting CP deplasmanında oynanacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Galatasaray’ın resmî maç raporu, Anadolu Ajansı’nın maç haberi ve DHA’nın karşılaşma sonucu haberi karşılaştırıldı. Skor, gol sıralaması ve maç tarihi üç kaynakta kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Maç sonucu ve gol bilgileri doğrulandı; savunmadaki sorunların nedenine ilişkin teknik veya oyuncu bazlı kesin bir nedensellik kurulmadı. Sporting CP maçındaki kadro tercihlerinin bu sonuçtan nasıl etkileneceği henüz bilinmiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:29:00.000Z",
+      "discoveredAt": "2026-09-04T23:39:38.370Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04T22:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Şampiyonlar Ligi fikstürümüz belli oldu",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/sampiyonlar-ligi-fiksturumuz-belli-oldu/60836",
+          "publishedAt": "2026-08-29T14:34:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "db96fa0bc56bbd6b",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş, Elan Ricardo’yu sezon sonuna kadar Macaristan’a kiraladı",
+      "summary": "Beşiktaş, Kolombiyalı orta saha Elan Ricardo’nun 2026-27 sezonu sonuna kadar Macaristan ekibi ETO Futball Kft’ye geçici transfer edildiğini açıkladı. Karar, genç oyuncunun siyah-beyazlılarda düzenli forma bulamadığı dönemde kadro planlamasında yeni bir ayrılığı kesinleştirdi.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Elan Ricardo’yu ETO Futball Kft’ye kiraladı",
+      "seoDescription": "Beşiktaş, Elan Ricardo’nun sezon sonuna kadar ETO Futball Kft’ye kiralandığını açıkladı; transferin genç orta saha rotasyonuna etkisi haberimizde.",
+      "focusKeyword": "Elan Ricardo Beşiktaş kiralık transferi",
+      "originalAngle": "Yeni gelişmenin değeri yalnızca bir ayrılıkta değil, Beşiktaş’ın genç orta saha oyuncusunu üçüncü kez kiralık göndererek gelişim planını yeniden dışarıda kurmasında yatıyor.",
+      "keyFindings": [
+        "Beşiktaş, Elan Ricardo’nun 2026-27 sezonu sonuna kadar ETO Futball Kft’ye geçici transfer edildiğini resmen duyurdu.",
+        "Ricardo için bu karar, siyah-beyazlı takımda kalıcı rol oluşmadığını ve oyuncunun gelişiminin yeniden kiralık modeline bağlandığını gösteriyor.",
+        "Beşiktaş açısından bundan sonraki temel soru, oyuncunun Macaristan’da düzenli süre alıp alamayacağı ve sezon sonunda kadro planına hangi statüyle döneceği olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmi açıklaması, Habertürk’ün aynı gün yayımladığı haberle karşılaştırıldı; iki kaynak da transferin ETO Futball Kft’ye sezon sonuna kadar kiralık olduğunu doğruluyor.",
+      "originalFindings": [],
+      "limitations": "Kulüp açıklamasında kiralama bedeli, satın alma opsiyonu veya oyuncunun yeni takımındaki forma planı belirtilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T15:32:00.000Z",
+      "discoveredAt": "2026-09-04T23:39:38.370Z",
+      "sources": [
+        {
+          "title": "Elan Ricardo, ETO Futball Kft.’ye Geçici Transfer Oldu",
+          "publisher": "Beşiktaş JK",
+          "url": "https://bjk.com.tr/tr/haber/95038/elan-ricardo-eto-futball-kftye-gecici-transfer-oldu.html",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş'ta Elan Ricardo ile yollar ayrıldı!",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/spor/son-dakika-besiktas-ta-elan-ricardo-ile-yollar-ayrildi-3910335",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "7473de32b8d892b2",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Galatasaray Başakşehir deplasmanından da çıktı: Süper Lig’de liderlik 10 puanda kaldı",
+      "summary": "Galatasaray, Süper Lig’in 4. haftasında Başakşehir’i deplasmanda 3-2 yenerek puanını 10’a yükseltti. Gabriel Sara’nın 90. dakikadaki frikik golü, sarı-kırmızılıları derbi öncesi lider tuttu; Başakşehir ise dördüncü hafta sonunda 4 puanda kaldı.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray Başakşehir’i 3-2 yendi, liderliğini korudu",
+      "seoDescription": "Galatasaray, Başakşehir’i 3-2 yenerek Süper Lig’de puanını 10’a çıkardı. Gabriel Sara’nın son bölümdeki frikik golü ve lig tablosuna etkisi burada.",
+      "focusKeyword": "Galatasaray Başakşehir 3-2",
+      "originalAngle": "Galatasaray’ın 3-2’lik galibiyeti yalnızca liderliği korumadı; maçın son bölümünde iki kez eşitlenen skorun ardından gelen frikik golü, 4. haftanın ilk tamamlanan maçında zirve üzerindeki baskıyı Fenerbahçe-Beşiktaş derbisine taşıdı. Haber değeri, liderin dört maçta puan kaybetmeden yoluna devam etmesinden çok, Başakşehir deplasmanında üstünlüğün kalıcı hale gelmesinin 90. dakikayı bulmasında yatıyor.",
+      "keyFindings": [
+        "Galatasaray, Başakşehir’i 3-2 mağlup ederek dört maç sonunda 10 puana ulaştı ve Süper Lig liderliğini sürdürdü.",
+        "Victor Osimhen, Lucas Torreira ve Gabriel Sara Galatasaray adına gol attı; Başakşehir’in golleri Eldor Shomurodov ve Davinson Sanchez’in kendi kalesine attığı golle geldi.",
+        "Başakşehir iki kez skoru dengelemesine rağmen Gabriel Sara’nın 90. dakikadaki frikik golüne yanıt veremedi; takımın dört hafta sonunda 4 puanı bulunuyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu ve gol bilgileri Galatasaray’ın resmi maç raporundan kontrol edildi; skor, puan etkisi ve maçın belirleyici anları Anadolu Ajansı’nın bağımsız maç haberiyle çapraz doğrulandı. TFF’nin Süper Lig haber ve fikstür sayfası lig bağlamını kontrol etmek için kullanıldı.",
+      "originalFindings": [],
+      "limitations": "TFF’nin erişilen haber sayfasında maçın ayrıntılı güncel puan cetveli görünmediği için puan ve sıralama bilgisi canlı veri özeti ile resmi kulüp raporundaki 10 puan bilgisi üzerinden kullanıldı. Maçın hakem kararlarına ilişkin bağımsız ve yeterli doğrulama bulunmadığından bu konu habere dahil edilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:39:38.000Z",
+      "discoveredAt": "2026-09-04T23:39:38.370Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trendyol Süper Lig Haberleri",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=182",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "209d6231f7b798bb",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gençlerbirliği, Modena’dan Pedro Mendes’i iki yıllığına transfer etti",
+      "summary": "Gençlerbirliği, Modena forması giyen Portekizli santrfor Pedro Mendes ile iki yıllık sözleşme imzaladı. Transfer, hem Gençlerbirliği hem de Modena kaynaklı açıklamalarla doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Gençlerbirliği, Pedro Mendes transferini tamamladı",
+      "seoDescription": "Gençlerbirliği, Modena’dan Portekizli santrfor Pedro Mendes’i iki yıllığına kadrosuna kattı. Transferin kulüpler ve bağımsız kaynaklarla doğrulanan ayrıntıları.",
+      "focusKeyword": "Pedro Mendes Gençlerbirliği transferi",
+      "originalAngle": "Transferin ayırt edici tarafı yalnızca oyuncunun Gençlerbirliği’ne gelişi değil, anlaşmanın Türkiye’deki transfer penceresinin Avrupa’daki birçok lige göre daha geç kapanmasının sağladığı zaman farkında tamamlanmasıdır. Mendes’in iki yıllık sözleşmesi, hamlenin kısa vadeli bir kadro takviyesinden daha uzun planlandığını gösteriyor; ancak mali şartların tamamı resmi kaynaklarda açıklanmadı.",
+      "keyFindings": [
+        "Gençlerbirliği, Pedro Mendes ile iki yıllık sözleşme imzaladığını duyurdu.",
+        "Mendes, transfer öncesinde İtalya Serie B ekiplerinden Modena’nın oyuncusuydu.",
+        "Modena ve İtalyan yerel kaynakları transferin bonservisli gerçekleştiğini doğruladı; bedel konusunda kaynaklarda yaklaşık 600 bin avro bilgisi yer alsa da kulüpler resmi rakam açıklamadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gençlerbirliği ve Modena kulüplerine ilişkin resmi açıklamalar, beIN SPORTS Türkiye haberi ve Modena merkezli bağımsız İtalyan kaynaklarla karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli ve ödeme planı kulüpler tarafından resmi olarak açıklanmadı; bu nedenle yaklaşık bedel kesin bilgi olarak kullanılmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T18:00:00.000Z",
+      "discoveredAt": "2026-09-04T23:39:38.370Z",
+      "sources": [
+        {
+          "title": "İşte Gençlerbirliği'nin yeni forveti",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/iste-genclerbirligiin-yeni-forveti",
+          "publishedAt": "2026-09-04T16:48:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Il Modena ha ceduto Pedro Mendes",
+          "publisher": "La Pressa",
+          "url": "https://www.lapressa.it/articoli/sport/il-modena-ha-ceduto-pedro-mendes",
+          "publishedAt": "2026-09-04T18:31:00+02:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Pedro Mendes va in Turchia e il Modena guarda gli svincolati",
+          "publisher": "Gazzetta di Modena",
+          "url": "https://gazzettadimodena-prd.saegroup.abinsula.com/sport/2026/09/04/news/pedro-mendes-vola-in-turchia-al-modena-circa-600mila-euro-1.100913725",
+          "publishedAt": "2026-09-04T11:49:00+02:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "706de01682c5bed2",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Konyaspor, eski oyuncusu Ahmet Oğuz’u yeniden kadrosuna kattı",
+      "summary": "Konyaspor, daha önce forma giyen sağ bek Ahmet Oğuz ile bir yıllık sözleşme imzaladı. 34 yaşındaki futbolcu, Kocaelispor’daki sözleşmesinin ardından yeniden yeşil-beyazlı takıma döndü.",
+      "tag": "Kesinleşti",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "Konyaspor, Ahmet Oğuz transferini açıkladı",
+      "seoDescription": "Konyaspor, Kocaelispor’dan ayrılan eski oyuncusu Ahmet Oğuz ile bir yıllık sözleşme imzaladı. Resmi açıklamanın transfer bağlamı ve oyuncunun dönüşü.",
+      "focusKeyword": "Ahmet Oğuz Konyaspor transferi",
+      "originalAngle": "Konyaspor’un hamlesi, kulübün daha önce tanıdığı bir oyuncuyu kısa süreli sözleşmeyle geri getirmesi bakımından dikkat çekiyor. Ahmet Oğuz’un dönüşü, sağ bek rotasyonuna deneyim ekliyor; ancak kulübün transferin kadro planındaki rolüne ilişkin daha ayrıntılı açıklaması bulunmuyor.",
+      "keyFindings": [
+        "Konyaspor, Ahmet Oğuz ile bir yıllık sözleşme imzaladığını resmi olarak duyurdu.",
+        "Oğuz daha önce Konyaspor forması giymiş, son olarak Kocaelispor’da görev yapmıştı.",
+        "Transferin sözleşme süresi resmi açıklamada yer alıyor; mali şartlar açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Konyaspor’un resmi duyurusu, yerel bağımsız spor haberi ve oyuncunun son kulübüne ilişkin bağımsız kaynaklar karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Transferin mali şartları ve oyuncunun lisans işlemlerinin tamamlanma zamanı açıklanmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T16:30:00.000Z",
+      "discoveredAt": "2026-09-04T23:39:38.370Z",
+      "sources": [
+        {
+          "title": "Hoş geldin Ahmet Oğuz!",
+          "publisher": "TÜMOSAN Konyaspor",
+          "url": "https://konyaspor.org.tr/haber/hos-geldin-ahmet-oguz-42",
+          "publishedAt": "2026-09-04T19:11:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Konyaspor transferi bitirdi! Eski oyuncu yeniden kadroda",
+          "publisher": "Konya Postası",
+          "url": "https://www.konyapostasi.com.tr/spor/konyaspor-transferi-bitirdi-eski-oyuncu-yeniden-kadroda/781220",
+          "publishedAt": "2026-09-04T14:17:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "06bacd0457ffd1e6",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Beşiktaş, Cumali Gürsel’i sezon sonuna kadar Bandırmaspor’a kiraladı",
+      "summary": "Beşiktaş, profesyonel futbolcusu Cumali Gürsel’in 2026-2027 sezonu sonuna kadar Bandırmaspor’a geçici transfer olduğunu açıkladı.",
+      "tag": "Kesinleşti",
+      "importance": 58,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Cumali Gürsel’i Bandırmaspor’a kiraladı",
+      "seoDescription": "Beşiktaş, Cumali Gürsel’in 2026-2027 sezonu sonuna kadar Bandırmaspor’a kiralandığını açıkladı. Transferin resmi ayrıntıları ve doğrulama kaynakları.",
+      "focusKeyword": "Cumali Gürsel Bandırmaspor transferi",
+      "originalAngle": "Beşiktaş’ın hamlesi, genç savunma oyuncusunun sezon boyunca düzenli süre alabileceği bir kulübe gönderilmesi anlamına geliyor. Ancak kulüp açıklaması kiralama sözleşmesinde satın alma opsiyonu veya özel şart bulunup bulunmadığını belirtmiyor.",
+      "keyFindings": [
+        "Beşiktaş, Cumali Gürsel’in Bandırmaspor’a 2026-2027 sezonu sonuna kadar kiralandığını duyurdu.",
+        "Transfer kalıcı satış değil, geçici transfer olarak açıklandı.",
+        "Kiralama bedeli, satın alma opsiyonu ve oyuncunun Bandırmaspor’daki forma numarası hakkında resmi ayrıntı paylaşılmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmi açıklaması, güncel transfer veri kaydı ve bağımsız transfer derlemesi karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "İkinci kaynak transferin ana olgusunu listelese de sözleşme ayrıntılarını açıklamıyor; resmi açıklamadaki bilgilerle sınırlı kalındı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T17:30:00.000Z",
+      "discoveredAt": "2026-09-04T23:39:38.370Z",
+      "sources": [
+        {
+          "title": "Cumali Gürsel, Bandırmaspor’a Geçici Transfer Oldu",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95045",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Football Transfer News",
+          "publisher": "SportsGambler",
+          "url": "https://www.sportsgambler.com/transfer-news/football",
+          "publishedAt": "2026-09-04T14:01:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "218502fe49999ec3",
       "role": "galatasaray",
@@ -9160,156 +9452,6 @@
           "publisher": "beIN SPORTS Türkiye",
           "url": "https://beinsports.com.tr/haber/fenerbahce-ayriligi-resmen-duyurdu-kiralik-gitti",
           "publishedAt": "2026-09-01T14:47:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "fc583037957919b7",
-      "role": "fenerbahce",
-      "page": "fenerbahce.html",
-      "headline": "Fenerbahçe’de Jayden Oosterwolde ameliyat edildi: Dönüş için aralık ayını işaret etti",
-      "summary": "Fenerbahçe, sol bacak arka adalesindeki sakatlığı bulunan Jayden Oosterwolde’nin Finlandiya’da ameliyat edildiğini duyurdu. Oyuncu ise tedavi sürecinin ardından aralık ayı başında Kadıköy’de sahalara dönmeyi beklediğini açıkladı.",
-      "tag": "Gelişme",
-      "importance": 78,
-      "publishedAt": "2026-09-01T12:33:00.000Z",
-      "discoveredAt": "2026-09-02T18:53:50.239Z",
-      "sources": [
-        {
-          "title": "Fenerbahçe’nin Hollandalı futbolcusu Oosterwolde, ameliyat edildi",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/tr/spor/fenerbahcenin-hollandali-futbolcusu-oosterwolde-ameliyat-edildi/4044002",
-          "publishedAt": "2026-09-01T00:00:00+03:00"
-        },
-        {
-          "title": "Oosterwolde’den paylaşım: Tekrar görüşeceğiz!",
-          "publisher": "Habertürk",
-          "url": "https://www.haberturk.com/spor/oosterwolde-den-sakatlik-paylasimi-3909550",
-          "publishedAt": "2026-09-01T15:33:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "a2c3b36390008f96",
-      "role": "besiktas",
-      "page": "besiktas.html",
-      "headline": "Beşiktaş’ta Joao Mario dönemi sona erdi",
-      "summary": "Beşiktaş, Portekizli futbolcu Joao Mario Naval Da Costa Eduardo’nun sözleşmesinin karşılıklı anlaşmayla sonlandırıldığını açıkladı. Siyah-beyazlı kulüp, 2 Eylül 2026 tarihli duyurusunda oyuncuya hizmetleri için teşekkür etti. Anadolu Ajansı da ayrılığı kulübün resmi açıklamasına dayanarak duyurdu.",
-      "tag": "Kesinleşti",
-      "importance": 72,
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "discoveredAt": "2026-09-02T18:53:50.239Z",
-      "sources": [
-        {
-          "title": "Joao Mario Naval Da Costa Eduardo ile Yollarımız Ayrıldı",
-          "publisher": "Beşiktaş JK",
-          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95027",
-          "publishedAt": "2026-09-02"
-        },
-        {
-          "title": "Beşiktaş'ta Portekizli futbolcu Joao Mario ile yollar ayrıldı",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/tr/spor/besiktasta-portekizli-futbolcu-joao-mario-ile-yollar-ayrildi/4045442",
-          "publishedAt": "2026-09-02"
-        }
-      ]
-    },
-    {
-      "id": "029ac234868c3754",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Borussia Dortmund, Arsenal’in genç yıldızı Ethan Nwaneri’yi sezon sonuna kadar kiraladı",
-      "summary": "Borussia Dortmund, Arsenal’in 19 yaşındaki orta saha oyuncusu Ethan Nwaneri’yi 2026-27 sezonunun sonuna kadar kiralık olarak kadrosuna kattı. Bundesliga kulübü, transferi Giannis Konstantelias’ın sakatlığı sonrası kadro takviyesi olarak açıkladı. Nwaneri’nin Dortmund’daki kiralık sözleşmesinde satın alma opsiyonu bulunduğuna dair doğrulanmış bilgi paylaşılmadı.",
-      "tag": "Kesinleşti",
-      "importance": 78,
-      "publishedAt": "2026-09-01T18:00:00.000Z",
-      "discoveredAt": "2026-09-02T18:53:50.239Z",
-      "sources": [
-        {
-          "title": "BVB signs Ethan Nwaneri on loan",
-          "publisher": "Borussia Dortmund",
-          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/1/BVB-signs-Ethan-Nwaneri-on-loan.html",
-          "publishedAt": "2026-09-01T18:00:00Z"
-        },
-        {
-          "title": "Arsenal teenager Ethan Nwaneri joins Borussia Dortmund on loan",
-          "publisher": "Bundesliga",
-          "url": "https://www.bundesliga.com/en/bundesliga/news/arsenal-ethan-nwaneri-borussia-dortmund-loan-deal-injury-ole-book-38938",
-          "publishedAt": "2026-09-01T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "6a7d7602fe0729c4",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Galatasaray, El-Chadaille Bitshiabu transferini tamamladı",
-      "summary": "Galatasaray, RB Leipzig'in 20 yaşındaki stoperi El-Chadaille Bitshiabu'yu 2026-2027 sezonu sonuna kadar satın alma opsiyonuyla kiraladığını açıkladı. Kiralama bedeli 2 milyon euro, satın alma opsiyonu ise 28 milyon euro olarak duyuruldu.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "publishedAt": "2026-09-02T18:02:00.000Z",
-      "discoveredAt": "2026-09-02T18:53:50.239Z",
-      "sources": [
-        {
-          "title": "El-Chadaille Bitshiabu Galatasaray'da",
-          "publisher": "Galatasaray",
-          "url": "https://www.galatasaray.org/haber/gs-sportif-a-s/el-chadaille-bitshiabu-galatasarayda/60877",
-          "publishedAt": "2026-09-02T21:02:00+03:00"
-        },
-        {
-          "title": "Galatasaray bir transferi daha KAP'a bildirdi! İşte ilk sözleri",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://www.beinsports.com.tr/haber/galatasaray-bir-transferi-daha-kapa-bildirdi-2",
-          "publishedAt": "2026-09-02T05:30:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "33e31893be7f5187",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Trabzonspor, Folarin Balogun için Monaco ile temas kurdu",
-      "summary": "Trabzonspor'un, Everton'a gerçekleşmeyen transferinin ardından Monaco'da kalan Folarin Balogun'un şartlarını sorduğu ve Fransız kulübüyle temas başlattığı ileri sürüldü. Resmi teklif veya anlaşma açıklanmadı; Monaco'nun kararını teklifin mali gücüne göre vereceği aktarılıyor.",
-      "tag": "İddia",
-      "importance": 70,
-      "publishedAt": "2026-09-02T13:40:00.000Z",
-      "discoveredAt": "2026-09-02T18:53:50.239Z",
-      "sources": [
-        {
-          "title": "Trabzonspor Folarin Balogun'un şartlarını sordu",
-          "publisher": "61saat",
-          "url": "https://www.61saat.com/trabzonspor-folarin-balogunun-sartlarini-sordu",
-          "publishedAt": "2026-09-02T16:40:00+03:00"
-        },
-        {
-          "title": "Club move to take advantage after Everton deadline day drama – Transfer depends on ‘strength’ of offer",
-          "publisher": "Sport Witness",
-          "url": "https://sportwitness.co.uk/club-move-to-take-advantage-after-everton-deadline-day-drama-transfer-depends-on-strength-of-offer",
-          "publishedAt": "2026-09-02T13:16:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "052e44ee7cb9a71a",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Manchester City, Everton’dan Iliman Ndiaye’yi beş yıllığına kadrosuna kattı",
-      "summary": "Manchester City, Senegal Millî Takımı oyuncusu Iliman Ndiaye’nin Everton’dan transfer edildiğini açıkladı. 26 yaşındaki hücum oyuncusu, 2031 yazına kadar geçerli beş yıllık sözleşmeye imza attı. Sky Sports, anlaşmanın transfer döneminin son gününde tamamlandığını ve oyuncunun City’ye kalıcı olarak katıldığını bildirdi.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "publishedAt": "2026-09-02T15:00:00.000Z",
-      "discoveredAt": "2026-09-02T18:34:09.648Z",
-      "sources": [
-        {
-          "title": "Ndiaye signs for City",
-          "publisher": "Manchester City",
-          "url": "https://www.mancity.com/news/mens/iliman-ndiaye-signs-for-city-63923887",
-          "publishedAt": "2026-09-01T00:00:00+03:00"
-        },
-        {
-          "title": "Man City confirm £65m Ndiaye signing as Grealish joins Everton",
-          "publisher": "Sky Sports",
-          "url": "https://www.skysports.com/football",
-          "publishedAt": "2026-09-02T00:00:00+03:00"
         }
       ]
     }
