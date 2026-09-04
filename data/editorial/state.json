@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T15:18:08.513Z",
+  "updatedAt": "2026-09-04T15:31:49.824Z",
   "stories": [
     {
       "id": "e1e74fd9be5b3f6e",
@@ -4616,7 +4616,7 @@
     }
   ],
   "homepage": {
-    "storyId": "b38f58c3bf7c7ad5",
+    "storyId": "3bc113de353b38da",
     "changes": [
       {
         "at": "2026-09-02T10:10:30.630Z",
@@ -4665,6 +4665,10 @@
       {
         "at": "2026-09-04T14:31:13.438Z",
         "storyId": "b38f58c3bf7c7ad5"
+      },
+      {
+        "at": "2026-09-04T15:31:49.824Z",
+        "storyId": "3bc113de353b38da"
       }
     ]
   }
