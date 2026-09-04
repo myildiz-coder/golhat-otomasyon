@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T23:41:31.037Z",
+  "updatedAt": "2026-09-04T01:14:11.868Z",
   "stories": [
+    {
+      "id": "bd84c3e34baf21f9",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Rekor transfer piyasasında son gün hamlesi, kulüplerin planını değil risk iştahını gösterir",
+      "summary": "FIFA’nın 2026 yaz dönemine ilişkin verileri erkek futbolunda uluslararası transfer harcamasının 9,89 milyar dolara çıktığını gösteriyor. Türkiye’de transfer ve tescil dönemi 4 Eylül’de kapanırken asıl sınav, kulüplerin bu küresel fiyat baskısına son dakika refleksiyle mi yoksa sezon planını koruyarak mı cevap vereceği. Son günün gerçek ölçüsü yeni isim sayısı değil, alınan riskin kadro dengesine uyup uymadığıdır.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Rekor transfer piyasasında Türkiye için son gün sınavı",
+      "seoDescription": "FIFA’nın rekor transfer verileri ve TFF’nin 4 Eylül son tarihi, Türkiye’de kulüplerin son gün kararlarını kadro riski açısından yeniden düşündürüyor.",
+      "focusKeyword": "2026 yaz transfer dönemi FIFA transfer harcaması",
+      "originalAngle": "Küresel transfer harcamasındaki rekor, Türkiye’de son gün yapılan hamleleri başarı göstergesi olmaktan çıkarıp kulüplerin risk yönetimi ve kadro planına sadakat testi hâline getiriyor.",
+      "keyFindings": [
+        "FIFA’nın 1 Haziran-2 Eylül 2026 dönemine ilişkin uluslararası transfer görünümünde erkek futbolunda 12.500’ün üzerinde transfer ve 9,89 milyar dolarlık harcama kaydedildi.",
+        "TFF’nin 2026-2027 sezonu takvimine göre Türkiye’de birinci transfer ve tescil dönemi 22 Haziran’da başladı ve 4 Eylül 2026’da sona eriyor.",
+        "Bu iki olgu birlikte okunduğunda, Türkiye’de transfer döneminin son gününde ölçülmesi gereken temel unsurun piyasanın hızına kapılmak değil, hamlenin sezonluk kadro mühendisliğiyle tutarlı olup olmadığı olduğu görülüyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "FIFA’nın 3 Eylül 2026 tarihli uluslararası transfer görünümü açıklaması ile TFF’nin 2026-2027 sezonu transfer ve tescil takvimini karşılaştırarak, küresel piyasa büyüklüğü ile Türkiye’deki son gün karar baskısını aynı çerçevede değerlendirdim. Yorum bölümü, kaynaklarda yer almayan bir transfer iddiası veya kulüp özelinde kesin hüküm kurmadan, doğrulanmış takvim ve ekonomik verinin kadro planlamasına etkisini tartışıyor.",
+      "originalFindings": [
+        "Transfer piyasasının büyümesi, kulüpler açısından yalnızca daha fazla seçenek değil, yanlış kararın maliyetinin de yükselmesi anlamına geliyor.",
+        "Türkiye’de son gün baskısı, kulüpleri küresel fiyat hareketlerine kısa vadeli cevap vermeye itebilir; fakat bunun sportif karşılığı ancak kadro dengesi ve sözleşme yüküyle birlikte ölçülebilir.",
+        "Bu nedenle son gün transferi kendi başına başarı göstergesi sayılamaz; kararın değeri sezon boyunca kullanılabilirlik ve planla uyum üzerinden ortaya çıkar."
+      ],
+      "limitations": "FIFA verisi küresel transfer toplamını gösteriyor; Türkiye kulüplerinin bu toplam içindeki payını, kulüp bazında net harcama dengesini veya belirli transfer görüşmelerinin sonucunu ortaya koymuyor. TFF takvimi son tarihi doğruluyor ancak kulüplerin son gün stratejileri hakkında tek başına kanıt sunmuyor. Bu nedenle yazı kulüp özelinde niyet, bütçe veya transfer sonucu iddiası içermiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-YORUM-20260904-001",
+      "authorName": "Mizan 90",
+      "publishedAt": "2026-09-03T22:14:11.000Z",
+      "discoveredAt": "2026-09-04T01:14:11.868Z",
+      "sources": [
+        {
+          "title": "FIFA World Cup 2026™ impact felt in mid-year transfer window",
+          "publisher": "FIFA",
+          "url": "https://vod.fifa.com/transfer-system/media-releases/world-cup-2026-impact-mid-year-transfer-window",
+          "publishedAt": "2026-09-03T13:45:00Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "2026-2027 FUTBOL SEZONU İLAN EDİLMESİ GEREKEN HUSUSLAR",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Resources/TFF/Auto/7acd06ee8e2d4835a3d22776a8cc7c76.pdf",
+          "publishedAt": "2026-06-04T00:00:00Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Where is the transfer window still open? Nine countries Premier League clubs can still sell to",
+          "publisher": "FourFourTwo",
+          "url": "https://www.fourfourtwo.com/transfer/which-football-leagues-have-open-transfer-windows",
+          "publishedAt": "2026-09-02T16:19:41Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "b42aa8d3bd69bb48",
       "role": "avrupa",
