@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:46:51.513Z",
+  "updatedAt": "2026-09-04T20:56:07.062Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 8,
-    "live": 3,
+    "live": 2,
     "upcoming": 0,
-    "finished": 5
+    "finished": 6
   },
   "matches": [
     {
@@ -59,10 +59,10 @@
       "away": "Liverpool",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868043,
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Real Betis",
       "away": "Real Madrid",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 80,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Monaco",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 83,
+      "minute": 92,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
