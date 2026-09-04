@@ -1,7 +1,262 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T23:39:38.370Z",
+  "updatedAt": "2026-09-04T23:46:42.547Z",
   "stories": [
+    {
+      "id": "37db701793d2a30a",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray liderliği korudu, fakat Sporting öncesi asıl sınav maç içi dayanıklılık",
+      "summary": "Galatasaray, Başakşehir'i 3-2 yenerek 4 maç sonunda 10 puanla lider kaldı. Osimhen ve Lemina'nın sakatlık nedeniyle oyundan çıkması, Sporting maçı öncesi puan üstünlüğünden daha kritik bir kadro sorusunu öne taşıdı.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray lider ama Sporting öncesi kadro dayanıklılığı sınanıyor",
+      "seoDescription": "Galatasaray, Başakşehir galibiyetiyle liderliğini korudu; Osimhen ve Lemina'nın durumları Sporting maçı öncesi kadro planını belirleyecek.",
+      "focusKeyword": "Galatasaray Sporting maçı kadro durumu",
+      "originalAngle": "Galatasaray'ın 10 puanlık başlangıcını yalnızca galibiyet serisi olarak değil, Avrupa takvimine geçerken maç içinde iki önemli oyuncusunu kaybetmesine rağmen sonucu koruyabilme kapasitesi üzerinden okumak gerekiyor. Başakşehir karşılaşması, Okan Buruk'un planının artık sadece ilk 11 tercihiyle değil, kritik oyuncuların eksilmesi halinde takımın oyunu nasıl sürdüreceğiyle ölçüleceğini gösterdi.",
+      "keyFindings": [
+        "Galatasaray, Başakşehir'i 3-2 yenerek 4. hafta sonunda 10 puanla liderliğini sürdürdü; bu sonuç takımın ligdeki yenilmez başlangıcını korudu.",
+        "Kulübün resmî maç raporuna göre Victor Osimhen, Lucas Torreira ve Gabriel Sara Galatasaray adına gol attı; Başakşehir karşısında alınan galibiyet üç maçlık seriyi dört lig maçında üç galibiyete taşıdı.",
+        "Victor Osimhen ile Mario Lemina'nın maç içinde oyundan çıkması ve Okan Buruk'un iki oyuncunun durumunun henüz kesinleşmediğini belirtmesi, 9 Eylül 2026'daki Sporting CP karşılaşması öncesinde kadro sürekliliğini ana soru haline getirdi.",
+        "Galatasaray'ın liderliği matematiksel olarak güçlü olsa da Sporting maçı, takımın Başakşehir karşılaşmasındaki gibi değişen şartlara cevap verebilme gücünü daha yüksek rekabet seviyesinde test edecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF'nin 2026-2027 Süper Lig puan cetveli, Galatasaray'ın resmî Başakşehir maç raporu, Anadolu Ajansı'nın bağımsız maç sonucu haberi ve Galatasaray ile UEFA'nın Sporting CP karşılaşmasına ilişkin fikstür bilgisi karşılaştırıldı. Oyuncuların maç içindeki durumları için kulübün Okan Buruk açıklaması esas alındı.",
+      "originalFindings": [],
+      "limitations": "Galatasaray, Osimhen ve Lemina'nın Sporting CP maçında oynayıp oynayamayacağına ilişkin kesin sağlık raporu veya resmî kadro açıklaması henüz yayımlanmadı. Bu nedenle değerlendirme, mevcut sakatlık belirsizliği üzerinden yapılmıştır; oyuncuların yokluğu kesinmiş gibi sunulmamıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:46:42.000Z",
+      "discoveredAt": "2026-09-04T23:46:42.547Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxt=1&pageID=198",
+          "publishedAt": "",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir'i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Teknik Direktörümüz Okan Buruk'tan açıklamalar",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/teknik-direktorumuz-okan-buruktan-aciklamalar/60896",
+          "publishedAt": "2026-09-04T22:42:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "2026/27 Champions League: League phase fixtures by team",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "1778b78b2880c7dc",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’nin 6 puanı üç günde kadro esnekliğini ölçüye çevirecek",
+      "summary": "Fenerbahçe, Süper Lig’de 3 maç sonunda 6 puan ve +3 averajla dördüncü sırada. Sarı-lacivertliler 5 Eylül’de Beşiktaş’ı ağırladıktan yalnızca beş gün sonra Roma karşısına çıkacak. 32 kişilik kadro ve bildirilen iki sakat oyuncu, İsmail Kartal’ın önündeki asıl soruyu sonuçtan çok hangi oyuncuların iki farklı tempoyu taşıyabileceği noktasına taşıyor.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe’de 6 puanın asıl sınavı: Kadro esnekliği",
+      "seoDescription": "Fenerbahçe’nin 6 puanlık lig başlangıcı, Beşiktaş ve Roma maçları arasındaki kısa aralıkta kadro esnekliği ve teknik tercihleriyle sınanacak.",
+      "focusKeyword": "Fenerbahçe kadro rotasyonu",
+      "originalAngle": "Fenerbahçe’nin mevcut tablosu yalnızca 6 puan ve dördüncü sıra üzerinden okunamaz. Gençlerbirliği yenilgisinin ardından Konyaspor ve Samsunspor galibiyetleriyle toparlanan takım, şimdi 5 Eylül’deki Beşiktaş derbisinden 10 Eylül’deki Roma maçına geçecek. GOLHAT’ın özgün bakışı, bu takvimin sonucu değil kadro esnekliğini ölçmesi: 32 kişilik yapı kâğıt üzerinde geniş görünse de iki sakatlık ve iki yüksek yoğunluklu maç, gerçek rotasyon kapasitesini ortaya çıkaracak.",
+      "keyFindings": [
+        "Fenerbahçe, TFF’nin yayımladığı puan cetvelinde üç maçta iki galibiyet ve bir mağlubiyetle 6 puan, 7-4 gol averajı ve dördüncü sırada bulunuyor. Bu başlangıç, takımın ilk haftadaki Gençlerbirliği yenilgisinden sonra iki maçlık galibiyet serisiyle toparlandığını gösteriyor.",
+        "Sarı-lacivertlilerin yakın takviminde 5 Eylül 2026’da Beşiktaş derbisi, 10 Eylül 2026’da ise UEFA Şampiyonlar Ligi lig aşamasında Roma maçı var. İki karşılaşma arasındaki beş günlük süre, teknik ekibin ilk 11 tercihi kadar maç içi oyuncu kullanımını da önemli hâle getiriyor.",
+        "Canlı kulüp verisinde Fenerbahçe kadrosu 32 oyuncu ve iki sakatlıkla gösteriliyor. Bu nedenle geniş kadro sayısı tek başına güvence değil; derbi ile Roma arasında hangi mevkilerde gerçek alternatif bulunduğu, takımın 6 puanlık başlangıcının sürdürülebilirliğini belirleyecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin puan cetveli ve fikstür sayfası; Beşiktaş’ın maç merkezi duyurusu; UEFA’nın Fenerbahçe 2026-2027 Şampiyonlar Ligi fikstürü ve bağımsız maç/sonuç listesi karşılaştırıldı. Kadro toplamı ve sakat oyuncu sayısı, sağlanan GOLHAT canlı kulüp verisinden alınarak analiz bağlamında kullanıldı.",
+      "originalFindings": [],
+      "limitations": "TFF’nin açılan puan cetveli sayfasında 4. hafta maçları henüz tamamlanmamış görünmektedir; bu nedenle değerlendirme Fenerbahçe’nin derbi öncesi üç maçlık lig tablosuna dayandırılmıştır. Sakat oyuncuların isimleri ve dönüş tarihleri için bağımsız, güncel bir resmî açıklama doğrulanmadığından bu noktada yalnızca kadro durumu göstergesi kullanılmıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:46:42.000Z",
+      "discoveredAt": "2026-09-04T23:46:42.547Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Default.aspx?macId=283710&pageId=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe | UEFA Şampiyonlar Ligi 2026/27 maçları",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/clubs/52692/matches",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe fikstürü ve maç sonuçları",
+          "publisher": "Sporx",
+          "url": "https://www.sporx.com/fenerbahce-fiksturu-ve-mac-sonuclari",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "50d3282c7bb7eb35",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Süper Lig’de liderlik puandan çok kadro sürekliliğine bağlandı: Galatasaray önde, derbi takip hattını yeniden kuracak",
+      "summary": "Galatasaray, Başakşehir deplasmanındaki 3-2’lik galibiyetle 10 puana yükselerek lider kaldı. Ancak Victor Osimhen’in maç içinde kasık rahatsızlığı yaşaması ve Fenerbahçe-Beşiktaş derbisinin 6 puanlık takip hattını yeniden şekillendirecek olması, zirve yarışında puandan önce kadro sürekliliğini öne çıkarıyor.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Süper Lig’de liderlik hesabı: Galatasaray önde, derbi belirleyici",
+      "seoDescription": "Galatasaray Başakşehir’i 3-2 yenerek 10 puanla lider kaldı. Osimhen’in durumu ve Fenerbahçe-Beşiktaş derbisi zirve takibini yeniden şekillendirecek.",
+      "focusKeyword": "Süper Lig puan durumu 2026 Galatasaray Fenerbahçe Beşiktaş",
+      "originalAngle": "Galatasaray’ın dört haftada topladığı 10 puan liderlik için güçlü bir zemin oluşturdu; fakat Başakşehir maçında Osimhen’in sakatlanma ihtimali ve takip grubundaki Fenerbahçe-Beşiktaş derbisi, yarışın artık yalnızca puan tablosuyla değil, oyuncu sürekliliği ve fikstür sıralamasıyla okunmasını gerektiriyor. GOLHAT’ın özgün katkısı, liderin puan avantajını maç yükü ve doğrulanmış kadro gelişmesiyle birlikte değerlendirmek.",
+      "keyFindings": [
+        "Galatasaray, 4. haftada Başakşehir’i deplasmanda 3-2 yenerek 10 puanla liderliğini sürdürdü; galibiyet serisi üç maça çıktı.",
+        "TFF canlı puan cetveli özetinde Galatasaray 10 puanla ilk sırada, Gençlerbirliği 7 puanla ikinci; Beşiktaş ve Fenerbahçe üçer maç sonunda 6’şar puanda görünüyor.",
+        "Başakşehir maçında Victor Osimhen 16. dakikada gol attı ancak kasık rahatsızlığı nedeniyle oyundan çıktı. Bu gelişme, Galatasaray’ın 9 Eylül’deki Sporting CP ve 13 Eylül’deki Kocaelispor maçları öncesinde takip edilmesi gereken kadro başlığıdır.",
+        "5 Eylül’deki Fenerbahçe-Beşiktaş derbisi, iki takımın da 6 puanla başladığı takip hattında yalnızca puan değil, sıralama ve ikili rekabet etkisi oluşturacak.",
+        "Galatasaray’ın mevcut avantajı iki maç fazlası değil, rakiplerinin derbi nedeniyle birbirlerinin puan kaybı ihtimalini doğrudan artırmasıdır; bu nedenle 4. hafta sonunda liderlikteki asıl değişken derbinin sonucu olacaktır."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin Süper Lig fikstür ve puan cetveli sayfası, Galatasaray’ın resmi Başakşehir maç raporu ve Anadolu Ajansı’nın bağımsız maç haberi karşılaştırıldı. Derbi tarihi, saati ve hakem bilgisi Beşiktaş’ın resmi maç merkezi üzerinden ayrıca kontrol edildi. Kadro değerlendirmesinde yalnızca web kaynaklarında doğrulanabilen Osimhen’in maç içindeki rahatsızlığı kullanıldı.",
+      "originalFindings": [],
+      "limitations": "TFF sayfası puan cetvelini dinamik olarak sunduğu için web görünümünde tüm satırlar metin olarak ayrıntılı okunamadı; sıralama ve puanlar sağlanan canlı TFF özetiyle birlikte değerlendirildi. Fenerbahçe’nin canlı özette yer alan sakat oyuncu sayısı bağımsız bir web kaynağıyla doğrulanamadığından analize dahil edilmedi. Osimhen’in sakatlığının kesin tanısı ve dönüş tarihi açıklanmış değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:46:42.000Z",
+      "discoveredAt": "2026-09-04T23:46:42.547Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli TFF",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir’i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "9fc613832ec3d042",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray liderliği aldı, yarışın yönünü şimdi Kadıköy derbisi belirleyecek",
+      "summary": "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yenerek 10 puanla Süper Lig liderliğini korudu. Ancak TFF cetvelindeki asıl ayrıntı, Fenerbahçe ile Beşiktaş’ın 5 Eylül’de birbirleriyle oynayacak olması. Galatasaray’ın zorlanarak aldığı galibiyet, zirvede puan kadar rakiplerin birbirini nasıl frenleyeceğinin de belirleyici olduğunu gösteriyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray liderliği aldı, yarışı Kadıköy derbisi belirleyecek",
+      "seoDescription": "Galatasaray’ın Başakşehir galibiyeti ve 10 puanla liderliği, Fenerbahçe-Beşiktaş derbisinin zirve yarışına etkisiyle birlikte değerlendiriliyor.",
+      "focusKeyword": "Galatasaray Başakşehir 3-2",
+      "originalAngle": "Galatasaray’ın liderliğini asıl değerli kılan fark, dört haftada topladığı 10 puandan çok, rakiplerinin birbirleriyle karşılaşacağı haftada yarışın kontrolünü elinde tutmasıdır; ancak Başakşehir karşısındaki savunma kırılganlığı, bu avantajın henüz güvenli bir üstünlük olmadığını gösteriyor.",
+      "keyFindings": [
+        "Galatasaray, TFF’nin 4. hafta cetvelinde dört maç sonunda üç galibiyet ve bir beraberlikle 10 puanla ilk sırada yer alıyor; Başakşehir deplasmanındaki 3-2’lik sonuç bu liderliği korudu.",
+        "Galatasaray’ın 3-2 kazandığı maçta Victor Osimhen, Lucas Torreira ve Gabriel Sara skor üretirken Başakşehir’in golleri penaltı ve kendi kalesine atılan gol üzerinden geldi. Maçın son bölümündeki VAR incelemesiyle Davinson Sanchez’in golü iptal edildi.",
+        "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisi, iki takımın da üç maç sonunda altışar puanda bulunması nedeniyle Galatasaray’ın puan avantajını artırabileceği veya rakiplerinden birinin zirveye yaklaşacağı bir eşik oluşturuyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin resmî puan cetveli ve fikstürü; Galatasaray’ın maç raporu; Anadolu Ajansı’nın bağımsız maç haberi; Beşiktaş’ın resmî maç merkezi birlikte karşılaştırıldı. Yorum, yalnızca bu kaynaklarda doğrulanabilen skor, gol akışı, VAR kararı ve puan tablosu verileri üzerine kuruldu.",
+      "originalFindings": [
+        "Başakşehir karşısında Galatasaray’ın galibiyeti rahat bir oyun üstünlüğünden çok, maçın son bölümünde sonucu değiştiren anlara dayanıyor. Galatasaray 16. dakikada Osimhen’le öne geçti; Başakşehir’in penaltı golüyle eşitlik geldi, Torreira’nın golüyle sarı-kırmızılılar yeniden öne geçti. Davinson Sanchez’in kendi kalesine attığı gol skoru tekrar dengeledi ve Gabriel Sara’nın 90+1’deki serbest vuruş",
+        "Galatasaray’ın bugün kazandığı şey yalnızca üç puan değil, derbi öncesi psikolojik ve matematiksel mesafe. TFF cetvelinde Galatasaray 10 puanda; Beşiktaş ve Fenerbahçe ise üçer maç sonunda altı puanda. Aradaki fark, derbide çıkacak sonuca göre ya korunacak ya da büyüyecek. Bu nedenle 5 Eylül akşamı oynanacak maç, Galatasaray’ın sahaya çıkmadığı hâlde liderlik hesabını etkileyen bir karşılaşma nit­",
+        "Yine de Başakşehir maçı, liderin çözmesi gereken soruyu da açık biçimde bıraktı: Galatasaray öne geçtiğinde oyunu neden daha erken kontrol edemedi? Kaynaklarda ayrıntılı diziliş ve topa sahip olma verileri bulunmadığı için teknik şemanın kesin hükmü kurulamaz. Fakat doğrulanmış skor akışı, Galatasaray’ın iki kez öne geçmesine rağmen rakibini oyunda tuttuğunu ve galibiyetin son dakikaya kaldığını",
+        "Okan Buruk’un önündeki mesele, 9 Eylül 2026’da Sporting deplasmanında başlayacak Şampiyonlar Ligi fikstürüyle birlikte daha da ağırlaşacak. Galatasaray’ın Avrupa maçı öncesinde ligde lider kalması önemli bir avantaj; fakat bu avantajı sürdürebilmek için savunma geçişlerini ve duran top sonrası yerleşimini daha istikrarlı hâle getirmesi gerekecek. Bu cümle bir kaynak alıntısı değil, doğrulanmış maç",
+        "Bugünün tablosunda hüküm net: Galatasaray yarışa en iyi başlayan takım ve rakiplerinin birbirleriyle oynayacağı haftaya lider giriyor. Ancak Başakşehir karşısındaki 3-2, farkın büyüklüğünü değil, liderliğin henüz ne kadar hassas olduğunu anlatıyor. Bundan sonra bakılması gereken soru, Galatasaray’ın kazanıp kazanmayacağı kadar, öne geçtiği maçları ne kadar erken kendi kontrolüne alacağıdır."
+      ],
+      "limitations": "TFF, kulüp açıklamaları ve bağımsız maç haberleri kadro toplamı ile sakat oyuncu sayısını bu yayın için doğrulamıyor; bu nedenle canlı veri özetindeki kadro ve sakatlık bilgileri kullanılmadı. Kaynaklarda ayrıntılı taktik diziliş, oyuncu takip verileri ve teknik direktörlerin maç sonrası değerlendirmeleri bulunmadığı için bu alanlarda kesin performans veya şema hükmü kurulmadı. Galatasaray’ın 9 Eylül 2026’daki Sporting maçı yaklaşan fikstür olarak doğrulandı; maçın sonucuna ilişkin yorum yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "tff-2026-09-04-super-lig-week4-gs-leader-derby-context",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T20:46:42.000Z",
+      "discoveredAt": "2026-09-04T23:46:42.547Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir’i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray’ın Şampiyonlar Ligi rakipleri belli oldu",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/galatasarayin-sampiyonlar-ligi-rakipleri-belli-oldu/60827",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "6d249030b082778c",
       "role": "galatasaray",
@@ -9352,106 +9607,6 @@
           "publisher": "Foot Mercato",
           "url": "https://www.footmercato.net/a7999579117447351445-lajax-officialise-larrivee-de-simon-adingra",
           "publishedAt": "2026-09-02T20:04:00+02:00"
-        }
-      ]
-    },
-    {
-      "id": "f7ef5234bfd73261",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Manchester City, Iliman Ndiaye transferini beş yıllık sözleşmeyle tamamladı",
-      "summary": "Manchester City, Everton forması giyen Senegal Millî Takımı oyuncusu Iliman Ndiaye'yi kadrosuna kattığını açıkladı. Kulüp, 26 yaşındaki hücum oyuncusuyla beş yıllık sözleşme imzalandığını duyurdu; transferin son gününde gerçekleşen anlaşma 2031 yazına kadar geçerli olacak.",
-      "tag": "Kesinleşti",
-      "importance": 88,
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "discoveredAt": "2026-09-02T19:24:34.895Z",
-      "sources": [
-        {
-          "title": "Ndiaye signs for City",
-          "publisher": "Manchester City",
-          "url": "https://www.mancity.com/news/mens/iliman-ndiaye-signs-for-city-63923887",
-          "publishedAt": "2026-09-02"
-        },
-        {
-          "title": "Oficial: City, 76M€ por Ndiaye",
-          "publisher": "AS",
-          "url": "https://as.com/futbol/internacional/oficial-city-76m-por-ndiaye-f202609-n",
-          "publishedAt": "2026-09-02"
-        }
-      ]
-    },
-    {
-      "id": "8dc6a1fc44ac57f5",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Jonathan David, Juventus'tan Atlético Madrid'e kiralandı",
-      "summary": "Atlético Madrid ile Juventus, Kanadalı santrfor Jonathan David'in 2026-27 sezonu için kiralanması konusunda anlaşmaya vardı. Her iki kulüp de transferi resmî kanallarından duyurdu; David, Madrid ekibine geçmeden önce sağlık kontrolünden geçti.",
-      "tag": "Kesinleşti",
-      "importance": 84,
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "discoveredAt": "2026-09-02T19:24:34.895Z",
-      "sources": [
-        {
-          "title": "Welcome, Jonathan David!",
-          "publisher": "Atlético de Madrid",
-          "url": "https://en.atleticodemadrid.com/noticias/welcome-jonathan-david",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "Jonathan David joins Atletico Madrid on loan",
-          "publisher": "Juventus",
-          "url": "https://www.juventus.com/en/news/articles/jonathan-david-joins-atletico-madrid-on-loan-01-09-26",
-          "publishedAt": "2026-09-01"
-        }
-      ]
-    },
-    {
-      "id": "6bebdc825312e88a",
-      "role": "ozel_haber",
-      "page": "ozel-haber.html",
-      "headline": "Adana Demirspor sezona eksi 24 puanla başlayacak: FIFA kararının kulübe ve 2. Lig dengesine etkisi",
-      "summary": "Türkiye Futbol Federasyonu, FIFA Disiplin Komitesi’nin Adana Demirspor’a dört ayrı dosya kapsamında toplam 24 puan tenzili cezası uyguladığını açıkladı. Kararla birlikte Adana temsilcisi 2026-2027 sezonuna -24 puanla başlayacak. Kulübün ilk haftadaki puan açığını kapatmak için 24 puanlık dezavantajı telafi etmesi gerekecek; karar, Adana Demirspor’un ligde kalma ve rekabet hedeflerini sezon başlamadan doğrudan etkiliyor. Mevcut doğrulanmış açıklamalarda dosyaların tarafları ve itiraz sürecine ilişkin ayrıntı yer almıyor.",
-      "tag": "Gelişme",
-      "importance": 82,
-      "publishedAt": "2026-09-02T13:26:00.000Z",
-      "discoveredAt": "2026-09-02T19:24:34.895Z",
-      "sources": [
-        {
-          "title": "FIFA Disiplin Komitesi'nden Adana Demirspor Kulübü'ne Puan Tenzili Cezası",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/default.aspx?ftxtID=51256&pageID=687",
-          "publishedAt": "2026-09-02"
-        },
-        {
-          "title": "FIFA'dan ağır ceza: Türk kulübünün 24 puanı silindi",
-          "publisher": "Yeni Şafak",
-          "url": "https://www.yenisafak.com/amphtml/spor/fifadan-agir-ceza-turk-kulubunun-24-puani-silindi-4852673",
-          "publishedAt": "2026-09-02T16:26:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "e3fd0387f3c1db3e",
-      "role": "fenerbahce",
-      "page": "fenerbahce.html",
-      "headline": "Fenerbahçe’de Diego Carlos ayrılığı resmileşti: Parma’ya bir yıllığına kiralandı",
-      "summary": "Fenerbahçe, Brezilyalı stoper Diego Carlos’un İtalya Serie A ekibi Parma Calcio’ya bir yıllığına kiralandığını açıkladı. Ayrılık, kulübün resmi duyurusu ve bağımsız spor kaynaklarının haberleriyle doğrulandı.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "publishedAt": "2026-09-01T14:49:00.000Z",
-      "discoveredAt": "2026-09-02T18:53:50.239Z",
-      "sources": [
-        {
-          "title": "Fenerbahçe’den ayrılık açıklaması!",
-          "publisher": "A Spor",
-          "url": "https://www.aspor.com.tr/fenerbahce/2026/09/01/fenerbahceden-ayrilik-aciklamasi",
-          "publishedAt": "2026-09-01T17:49:00+03:00"
-        },
-        {
-          "title": "Fenerbahçe, Diego Carlos’u Parma’ya kiraladı",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/fenerbahce-ayriligi-resmen-duyurdu-kiralik-gitti",
-          "publishedAt": "2026-09-01T14:47:00+03:00"
         }
       ]
     }
