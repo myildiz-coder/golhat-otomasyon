@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T14:10:22.752Z",
+  "updatedAt": "2026-09-04T19:09:07.125Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -11,14 +11,14 @@
     {
       "rank": 1,
       "team": "GALATASARAY A.Ş.",
-      "played": 3,
-      "won": 2,
+      "played": 4,
+      "won": 3,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 9,
-      "goalsAgainst": 4,
-      "goalDifference": 5,
-      "points": 7,
+      "goalsFor": 12,
+      "goalsAgainst": 6,
+      "goalDifference": 6,
+      "points": 10,
       "form": ""
     },
     {
@@ -115,13 +115,13 @@
     {
       "rank": 9,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
-      "goalDifference": 1,
+      "lost": 2,
+      "goalsFor": 6,
+      "goalsAgainst": 6,
+      "goalDifference": 0,
       "points": 4,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317813,
-      "date": "2026-09-04T17:00:00.000Z",
-      "timestamp": 1788541200,
-      "round": "4. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "İSTANBUL BAŞAKŞEHİR FK",
-      "away": "GALATASARAY A.Ş."
-    },
     {
       "id": 317819,
       "date": "2026-09-05T14:00:00.000Z",
