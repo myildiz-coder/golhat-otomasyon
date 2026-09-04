@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:49:48.008Z",
+  "updatedAt": "2026-09-04T18:58:39.526Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 8,
-    "live": 5,
+    "live": 3,
     "upcoming": 3,
-    "finished": 0
+    "finished": 2
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Galatasaray",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795441,
@@ -95,7 +95,7 @@
       "away": "Como",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 12,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "1. FC Köln",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 18,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Auxerre",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802925,
