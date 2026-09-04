@@ -81,11 +81,10 @@ const PAGE_TOPIC_RULES = Object.freeze({
 });
 
 const COMMENTARY_WRITERS = Object.freeze([
-  Object.freeze({ name: 'Mustafa YILDIZ', slug: 'mustafa-yildiz', initials: 'MY', focus: 'Taktik, oyun planı, yarış dengesi ve maç içi kırılmalar', lead: true, penName: false }),
-  Object.freeze({ name: 'Sessiz Tahta', slug: 'sessiz-tahta', initials: 'ST', focus: 'Transfer, kadro mühendisliği ve teknik yapılanma', penName: true }),
-  Object.freeze({ name: 'Deplasman Defteri', slug: 'deplasman-defteri', initials: 'DD', focus: 'Tribün kültürü, Anadolu futbolu ve şehir-kulüp ilişkisi', penName: true }),
-  Object.freeze({ name: 'Mizan 90', slug: 'mizan-90', initials: 'M90', focus: 'Futbol ekonomisi, yönetim, KAP ve kamu belgeleri', penName: true })
+  Object.freeze({ name: 'Mustafa YILDIZ', slug: 'mustafa-yildiz', initials: 'MY', focus: 'Taktik, oyun planı, yarış dengesi ve maç içi kırılmalar', lead: true, penName: false })
 ]);
+
+const COMMENTARY_COLUMNS = Object.freeze(['Editör Günlüğü', 'Sessiz Tahta', 'Deplasman Defteri', 'Mizan 90']);
 
 
 const EDITOR_ROLES = Object.freeze({
@@ -257,6 +256,7 @@ module.exports = {
   PAGE_OWNERS,
   EDITOR_ROLES,
   COMMENTARY_WRITERS,
+  COMMENTARY_COLUMNS,
   ALLOWED_TAGS,
   PAGE_TOPIC_RULES,
   SOURCE_RULES,

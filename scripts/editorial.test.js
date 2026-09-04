@@ -158,7 +158,7 @@ test('yorum masası yalnız kayıtlı yazar imzalı ve açıkça yorum etiketli 
     summary: 'Son transfer gelişmelerini doğrulanmış açıklamalar üzerinden okuyan bu yorum, bir imzanın değerini kulübün kadro dengesi ve teknik ihtiyacıyla birlikte tartışıyor.',
     tag: 'Yorum',
     content_type: 'analysis',
-    author_name: COMMENTARY_WRITERS[1].name,
+    author_name: COMMENTARY_WRITERS[0].name,
     original_angle: 'Transfer haberi yalnız oyuncunun adını ve bonservis bedelini anlatınca eksik kalır; asıl ölçü, yeni oyuncunun mevcut kadrodaki rol çatışmasını çözüp çözmediği ve teknik planın hangi eksiğine cevap verdiğidir.',
     seo_title: 'Transferde imzadan önce kadro dengesi neden önemlidir?',
     seo_description: 'GOLHAT yorum masası, transfer kararını doğrulanmış gelişmeler, kadro dengesi ve teknik ihtiyaç üzerinden kaynaklı biçimde değerlendiriyor.',
@@ -171,7 +171,7 @@ test('yorum masası yalnız kayıtlı yazar imzalı ve açıkça yorum etiketli 
     citedUrls: collectCitedUrls(citedResponse())
   };
   const story = validateStory(base, context);
-  assert.equal(story.authorName, 'Sessiz Tahta');
+  assert.equal(story.authorName, 'Mustafa YILDIZ');
   assert.equal(story.contentType, 'analysis');
   assert.equal(selectHomepagePrimary(story, [story], NOW), null);
   assert.equal(selectHomepageStories(validStory(), [story], NOW, 10).some((item) => item.id === story.id), false);

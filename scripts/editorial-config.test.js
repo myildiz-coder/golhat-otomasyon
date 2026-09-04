@@ -28,21 +28,21 @@ test('her içerik editörü yalnızca tek sayfadan sorumludur', () => {
   assert.equal(Object.keys(EDITOR_ROLES).length, editorialPages.length);
 });
 
-test('yorum masası gerçek isimli baş yazar ve benzersiz müstear yazarlardan oluşur', () => {
+test('yorum masası Mustafa YILDIZ imzası ve dört köşe başlığıyla çalışır', () => {
   const names = COMMENTARY_WRITERS.map((writer) => writer.name);
-  assert.equal(names.length, 4);
+  assert.equal(names.length, 1);
   assert.equal(new Set(names).size, names.length);
   assert.equal(COMMENTARY_WRITERS.filter((writer) => writer.lead).length, 1);
   const leadWriter = COMMENTARY_WRITERS.find((writer) => writer.lead);
   assert.equal(leadWriter.name, 'Mustafa YILDIZ');
   assert.equal(leadWriter.penName, false);
-  assert.equal(COMMENTARY_WRITERS.filter((writer) => !writer.lead).every((writer) => writer.penName), true);
   assert.deepEqual(EDITOR_ROLES.yorum.columnists, COMMENTARY_WRITERS);
   const page = fs.readFileSync(path.resolve(__dirname, '..', 'yorum.html'), 'utf8');
   for (const writer of COMMENTARY_WRITERS) {
     assert.match(page, new RegExp(writer.name));
   }
   assert.match(page, /Mustafa YILDIZ baş yazardır/);
+  assert.match(page, /Editör Günlüğü, Sessiz Tahta, Deplasman Defteri ve Mizan 90/);
   const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
   assert.match(runner, /buildLiveDataSnapshot/);
   assert.match(runner, /liveDataSourceSignatures/);
