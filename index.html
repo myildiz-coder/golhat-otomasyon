@@ -1657,4 +1657,17 @@
 })();
 </script>
 </body>
+<script id="golhat-live-score-feed">
+(function(){
+  var rank={'Super Lig':0,'Premier League':1,'LaLiga':2,'Serie A':3,'Bundesliga':4,'Ligue 1':5};
+  function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function refresh(){fetch('/data/canli-skorlar.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw Error();return r.json();}).then(function(data){
+    var games=(data.matches||[]).filter(function(m){return m.kind==='live'||m.kind==='finished';}).sort(function(a,b){return(a.kind==='live'?0:1)-(b.kind==='live'?0:1)||(rank[a.league]||99)-(rank[b.league]||99);}).slice(0,5);
+    var strip=document.querySelector('.scorestrip-inner');if(!strip||!games.length)return;
+    strip.setAttribute('aria-live','polite');strip.innerHTML=games.map(function(m){var state=m.kind==='live'?'CANLI · '+esc(m.league)+(m.minute?' · '+esc(m.minute)+'. dk':''):'TAMAMLANDI · '+esc(m.league);return '<div class="score-chip"><span class="score-chip-label">'+state+'</span><span class="score-chip-value">'+esc(m.home)+' <strong>'+esc(m.homeScore)+'–'+esc(m.awayScore)+'</strong> '+esc(m.away)+'</span></div>';}).join('');
+    var time=new Intl.DateTimeFormat('tr-TR',{timeZone:'Europe/Istanbul',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(data.updatedAt));var stamp=document.getElementById('masthead-updated');if(stamp)stamp.textContent=time;var credit=document.querySelector('.scorestrip-credit a');if(credit){credit.href=data.sourceUrl||'/skor.html';credit.textContent='Canlı skor verisi: '+(data.source||'GOLHAT Skor Merkezi')+' · '+time+' →';}
+  }).catch(function(){/* Son doğrulanan görünüm korunur. */});}
+  refresh();setInterval(refresh,60000);
+}());
+</script>
 </html>
