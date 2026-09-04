@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T16:18:35.501Z",
+  "updatedAt": "2026-09-04T16:42:37.114Z",
   "stories": [
+    {
+      "id": "eea8e9166aaf7026",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Gençlerbirliği, Zan Zuzek ile yollarını ayırdı",
+      "summary": "Süper Lig ekiplerinden Gençlerbirliği, Sloven savunma oyuncusu Zan Zuzek ile karşılıklı anlaşarak yollarını ayırdığını açıkladı. Zuzek, başkent ekibinde 75 resmi maçta görev yaptı.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Gençlerbirliği, Zan Zuzek ile yollarını ayırdı",
+      "seoDescription": "Gençlerbirliği, savunma oyuncusu Zan Zuzek ile karşılıklı anlaşarak ayrıldı. Sloven futbolcunun Başkent ekibindeki resmi maç sayısı haberde.",
+      "focusKeyword": "Gençlerbirliği Zan Zuzek ayrılığı",
+      "originalAngle": "Zuzek’in ayrılığı yalnızca bir kadro değişikliği değil; Gençlerbirliği’nin 1. Lig şampiyonluğu sonrası Süper Lig kadrosunu yeniden şekillendirdiği transfer döneminin son hamlelerinden biri. Oyuncunun 75 resmi maçlık dönemi, ayrılığın kulüp üzerindeki sportif bağını gösteriyor.",
+      "keyFindings": [
+        "Gençlerbirliği, Zan Zuzek ile karşılıklı anlaşarak yollarını ayırdığını resmi olarak duyurdu.",
+        "Sloven savunmacı, kulüp formasıyla 75 resmi müsabakada 4 gol ve 2 asistlik katkı verdi.",
+        "Ayrılık, transfer döneminin sona erdiği 4 Eylül 2026 tarihindeki kadro planlaması sürecinde gerçekleşti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gençlerbirliği’nin resmi açıklaması A Spor haberiyle karşılaştırıldı; ayrılık kararı, oyuncunun maç sayısı ve kulüp geçmişi iki farklı alan adından kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Zuzek’in yeni kulübü ve ayrılığın mali şartları açıklanmadı. Gençlerbirliği’nin savunmadaki yerini kimin dolduracağı konusunda doğrulanmış bir bilgi bulunmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T08:16:00.000Z",
+      "discoveredAt": "2026-09-04T16:42:37.114Z",
+      "sources": [
+        {
+          "title": "TEŞEKKÜRLER ZAN ZUZEK",
+          "publisher": "Gençlerbirliği Spor Kulübü",
+          "url": "https://genclerbirligi.org.tr/haberler/tesekkurler-zan-zuzek-04-eylul-2026",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "TRANSFER HABERİ: Gençlerbirliği, Zan Zuzek ile yollarını ayırdı!",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/genclerbirligi/2026/09/04/transfer-haberi-genclerbirligi-zan-zuzek-ile-yollarini-ayirdi",
+          "publishedAt": "2026-09-04T11:16:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "5b0f8d7fe48a0f8e",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisinde 18 futbolcu ilk kez sahne alabilir",
+      "summary": "Süper Lig’in 4. haftasındaki 5 Eylül 2026 tarihli Fenerbahçe-Beşiktaş derbisinde, iki takım kadrosundan toplam 18 futbolcu forma giymeleri hâlinde bu rekabette ilk kez görev yapacak. Bu isimlerin 5’i Fenerbahçe, 13’ü Beşiktaş kadrosunda bulunuyor.",
+      "tag": "Gelişme",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinde 18 futbolcu ilk kez sahne alabilir",
+      "seoDescription": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinde 18 futbolcu bu rekabette ilk kez oynayabilir; iki takım kadrolarındaki deneyim farkı öne çıkıyor.",
+      "focusKeyword": "Fenerbahçe-Beşiktaş derbisi 18 futbolcu",
+      "originalAngle": "Derbinin dikkat çekici tarafı yalnızca maçın sonucu değil, iki takımın kadro dönüşümünün rekabet deneyimine yansıması. Beşiktaş’ta 13, Fenerbahçe’de 5 oyuncunun bu eşleşmede ilk kez forma ihtimali, özellikle yeni transferlerin derbiye doğrudan dahil olabileceğini gösteriyor.",
+      "keyFindings": [
+        "5 Eylül 2026 Cumartesi günü saat 20.00’de oynanacak derbide toplam 18 futbolcu, forma şansı bulmaları hâlinde Fenerbahçe-Beşiktaş rekabetinde ilk kez görev yapacak.",
+        "İlk kez sahaya çıkabilecek oyuncu sayısı Fenerbahçe’de 5, Beşiktaş’ta 13 olarak veriliyor.",
+        "Fenerbahçe kadrosunda bu rekabette en fazla deneyime sahip isim İsmail Yüksek, Beşiktaş’ta ise Rıdvan Yılmaz ve Milot Rashica öne çıkıyor.",
+        "Gelişmenin sahadaki etkisi, söz konusu futbolcuların maç kadrosunda yer alıp süre almasına bağlı olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, aynı gün yayımlanan beIN SPORTS ve ABC Gazetesi haberleriyle karşılaştırıldı; derbinin tarih ve saati Beşiktaş’ın resmi maç merkezi üzerinden ayrıca kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "18 futbolcunun tamamının kadroda yer alacağı veya oynayacağı kesin değil. Kadro tercihleri ve maç içi süreler teknik direktör kararlarına bağlı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T13:42:37.000Z",
+      "discoveredAt": "2026-09-04T16:42:37.114Z",
+      "sources": [
+        {
+          "title": "Dev derbide 18 futbolcu bir ilki yaşayacak",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/dev-derbide-18-futbolcu-bir-ilki-yasayacak",
+          "publishedAt": "2026-09-04T09:19:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Derbide 18 futbolcu bir ilki yaşayacak! İşte dikkat çeken isimler!",
+          "publisher": "ABC Gazetesi",
+          "url": "https://abcgazetesi.com.tr/spor/derbide-18-futbolcu-bir-ilki-yasayacak-iste-dikkat-ceken-isimler-871549",
+          "publishedAt": "2026-09-04T12:51:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe-Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "8cf3ff9e4ad58467",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Beşiktaş, Elan Ricardo’yu ETO FC’ye kiraladı",
+      "summary": "Beşiktaş, Kolombiyalı orta saha Elan Ricardo’nun 2026-2027 sezonu sonuna kadar Macaristan ekibi ETO FC’ye geçici transfer olduğunu açıkladı. Ricardo’nun Beşiktaş A takımında resmi maç oynayamadan yeniden kiralanması, kulübün kadro planlamasındaki son değişikliklerden biri oldu.",
+      "tag": "Kesinleşti",
+      "importance": 68,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Elan Ricardo’yu ETO FC’ye kiraladı",
+      "seoDescription": "Beşiktaş, Elan Ricardo’nun ETO FC’ye kiralandığını açıkladı. Kolombiyalı orta sahanın yeni adresi ve üçüncü kiralık ayrılığı doğrulanmış bilgilerle inceleniyor.",
+      "focusKeyword": "Elan Ricardo ETO FC transferi",
+      "originalAngle": "Elan Ricardo’nun yeni adresi ETO FC oldu; gelişmenin ayırt edici tarafı, Beşiktaş’ın oyuncuyu 2026-2027 sezonu sonuna kadar yeniden kiralaması ve bunun kulüpten üçüncü geçici ayrılık olarak kayda geçmesidir.",
+      "keyFindings": [
+        "Beşiktaş, Elan Ricardo’nun ETO FC’ye 2026-2027 sezonu sonuna kadar geçici transferi konusunda anlaşma sağlandığını duyurdu.",
+        "Bağımsız haber doğrulaması, Ricardo’nun Beşiktaş’tan daha önce Athletico Paranaense ve Deportes Tolima’ya da kiralandığını aktarıyor.",
+        "Bu işlem, oyuncunun Beşiktaş kadrosunda kalıcı rol bulamadığını gösteren doğrulanmış bir kadro planlaması gelişmesidir; teknik tercih ile transfer arasındaki doğrudan nedensellik ise resmi açıklamayla kurulmuş değildir."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmi transfer duyurusu, aynı gün yayımlanan bağımsız Türkçe haber ve kulübün oyuncuya ilişkin önceki açıklamaları karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Kiralama bedeli, satın alma opsiyonu ve ETO FC’deki sözleşme ayrıntıları resmi açıklamada yer almıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T15:02:00.000Z",
+      "discoveredAt": "2026-09-04T16:42:37.114Z",
+      "sources": [
+        {
+          "title": "Elan Ricardo, ETO Futball Kft.’ye Geçici Transfer Oldu",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95038",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş’ta forma giyemeyen Elan Ricardo, ETO FC’ye kiralandı",
+          "publisher": "TR Haberleri",
+          "url": "https://www.trtv.net/2026/09/04/besiktas-elan-ricardo-eto-fc-kiralik",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "bc89c7bdf57a2377",
       "role": "anadolu",
