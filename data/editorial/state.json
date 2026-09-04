@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T12:49:00.598Z",
+  "updatedAt": "2026-09-04T13:44:38.960Z",
   "stories": [
+    {
+      "id": "3153bf69efe2adde",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe, Adil Demirbağ iddialarını resmen yalanladı",
+      "summary": "Fenerbahçe, Konyasporlu Adil Demirbağ için sözlü anlaşma ve yeni teklif yapıldığı yönündeki haberlerin gerçeği yansıtmadığını açıkladı.",
+      "tag": "Gelişme",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe’den Adil Demirbağ açıklaması",
+      "seoDescription": "Fenerbahçe, Adil Demirbağ transferiyle ilgili sözlü anlaşma ve yeni teklif iddialarını yalanladı; kulüp resmi kanallar dışındaki bilgilere karşı uyardı.",
+      "focusKeyword": "Fenerbahçe Adil Demirbağ açıklaması",
+      "originalAngle": "Transfer döneminin son saatlerinde farklı kaynaklarda teklif yapıldığı ileri sürülürken Fenerbahçe’nin resmi yalanlaması, oyuncunun sarı-lacivertli kadroya katıldığı veya anlaşmaya yaklaşıldığı yönündeki iddiaların doğrulanmadığını ortaya koyuyor. GOLHAT açısından kritik ayrıntı, gündemin transferin tamamlanmasından değil, kulübün iddialara müdahale etmesinden ibaret olmasıdır.",
+      "keyFindings": [
+        "Fenerbahçe, Adil Demirbağ için sözlü anlaşmaya varıldığı ve Konyaspor’la final görüşmesi yapılacağı yönündeki haberleri yalanladı.",
+        "Kulüp, 3 milyon avro seviyesinde son teklif sunulacağı iddiasının da gerçeği yansıtmadığını bildirdi.",
+        "Fenerbahçe, transfer süreçlerinde resmi kanallar dışındaki doğrulanmamış bilgilere itibar edilmemesini istedi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Fenerbahçe’nin kulüp açıklamasını aktaran Mackolik haberi, aynı gün yayımlanan Yeni Şafak haberiyle karşılaştırıldı. Her iki kaynak da yalanlamanın kulübün resmi açıklamasına dayandığını bildiriyor.",
+      "originalFindings": [],
+      "limitations": "Kulübün açıklamasında Konyaspor’a herhangi bir teklif yapılıp yapılmadığına ilişkin daha geniş müzakere geçmişi paylaşılmadı; yalnızca kamuoyuna yansıyan belirli iddialar yalanlandı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T12:06:00.000Z",
+      "discoveredAt": "2026-09-04T13:44:38.960Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe'den Adil Demirbağ açıklaması",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/futbol/haber/fenerbahceden-adil-demirbag-aciklamasi/a9c94ca7-8df0-4e42-b87e-0d058893e203",
+          "publishedAt": "2026-09-04T15:06:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe'den Adil Demirbağ açıklaması geldi",
+          "publisher": "Yeni Şafak",
+          "url": "https://www.yenisafak.com/spor/futbol",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "c9a66e294a34756f",
       "role": "besiktas",
