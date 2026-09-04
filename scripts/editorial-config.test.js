@@ -44,8 +44,8 @@ test('yorum masası gerçek isimli baş yazar ve benzersiz müstear yazarlardan 
   }
   assert.match(page, /Mustafa YILDIZ baş yazardır/);
   const runner = fs.readFileSync(path.resolve(__dirname, 'run-editorial.js'), 'utf8');
-  assert.match(runner, /buildAssignmentSnapshot/);
-  assert.match(runner, /assignmentSourceSignatures/);
+  assert.match(runner, /buildLiveDataSnapshot/);
+  assert.match(runner, /liveDataSourceSignatures/);
   assert.match(runner, /league\.sourceUrl/);
   assert.match(runner, /club\.officialUrl, club\.sourceUrl/);
   assert.match(runner, /ageHours <= 168/);
@@ -150,6 +150,19 @@ test('kategori editörleri saatte iki kez, baş editör her 15 dakikada 7/24 ça
   );
   assert.match(workflow, /cron: '5,35 \* \* \* \*'/);
   assert.match(headWorkflow, /cron: '\*\/15 \* \* \* \*'/);
+});
+
+test('puan değişikliği öncelikli maç masasını ve baş editörü tetikler', () => {
+  const root = path.resolve(__dirname, '..');
+  const standingsWorkflow = fs.readFileSync(path.join(root, '.github', 'workflows', 'super-lig-veri.yml'), 'utf8');
+  const editorialWorkflow = fs.readFileSync(path.join(root, '.github', 'workflows', 'editorial-kategoriler.yml'), 'utf8');
+  const runner = fs.readFileSync(path.join(__dirname, 'run-editorial.js'), 'utf8');
+  assert.match(standingsWorkflow, /cron: '\*\/5 9-23 \* \* \*'/);
+  assert.match(standingsWorkflow, /priority_matchdesk/);
+  assert.match(editorialWorkflow, /priority_matchdesk/);
+  assert.match(editorialWorkflow, /editorial-bas-editor\.yml/);
+  assert.match(runner, /--priority-matchdesk/);
+  assert.match(runner, /\['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig'\]/);
 });
 
 test('yayın iş akışları haber site haritasını commit kapsamına alır', () => {

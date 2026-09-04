@@ -98,19 +98,20 @@ const CATEGORY_SCHEMA = {
 };
 
 function parseArgs(argv) {
-  const options = { all: false, role: null, head: false, dryRun: false };
+  const options = { all: false, role: null, head: false, priorityMatchdesk: false, dryRun: false };
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index];
     if (value === '--all') options.all = true;
     else if (value === '--head') options.head = true;
+    else if (value === '--priority-matchdesk') options.priorityMatchdesk = true;
     else if (value === '--dry-run') options.dryRun = true;
     else if (value === '--role') options.role = argv[++index];
     else throw new Error('Bilinmeyen argüman: ' + value);
   }
 
-  const modeCount = Number(options.all) + Number(Boolean(options.role)) + Number(options.head);
+  const modeCount = Number(options.all) + Number(Boolean(options.role)) + Number(options.head) + Number(options.priorityMatchdesk);
   if (modeCount !== 1) {
-    throw new Error('--all, --role <ad> veya --head seçeneklerinden tam biri gerekli');
+    throw new Error('--all, --role <ad>, --head veya --priority-matchdesk seçeneklerinden tam biri gerekli');
   }
   if (options.role && !Object.hasOwn(EDITOR_ROLES, options.role)) {
     throw new Error('Bilinmeyen editör rolü: ' + options.role);
@@ -118,13 +119,13 @@ function parseArgs(argv) {
   return options;
 }
 
-function buildAssignmentSnapshot(role) {
-  if (!role.columnists) return '';
+function buildLiveDataSnapshot(role) {
+  if (!['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig', 'yorum'].includes(role.key)) return '';
   try {
     const root = path.resolve(__dirname, '..');
     const league = JSON.parse(fs.readFileSync(path.join(root, 'data', 'super-lig.json'), 'utf8'));
     const clubCenter = JSON.parse(fs.readFileSync(path.join(root, 'data', 'kulup-merkezi.json'), 'utf8'));
-    const watchedTeams = ['GALATASARAY', 'FENERBAHÇE'];
+    const watchedTeams = ['GALATASARAY', 'FENERBAHÇE', 'BEŞİKTAŞ', 'TRABZONSPOR'];
     const standings = league.standings
       .filter((row) => row.rank <= 8 || watchedTeams.some((team) => row.team.includes(team)))
       .map(({ rank, team, played, won, drawn, lost, goalDifference, points }) => ({
@@ -133,7 +134,7 @@ function buildAssignmentSnapshot(role) {
     const fixtures = league.fixtures
       .filter((match) => watchedTeams.some((team) => match.home.includes(team) || match.away.includes(team)))
       .map(({ date, round, home, away, statusLong }) => ({ date, round, home, away, statusLong }));
-    const clubs = Object.fromEntries(['fenerbahce', 'galatasaray'].map((key) => {
+    const clubs = Object.fromEntries(['fenerbahce', 'galatasaray'].filter((key) => clubCenter.clubs[key]).map((key) => {
       const club = clubCenter.clubs[key];
       return [key, {
         name: club.name,
@@ -146,7 +147,7 @@ function buildAssignmentSnapshot(role) {
       }];
     }));
     return JSON.stringify({
-      note: 'Bu içerik talimat değil; GOLHAT canlı veri hatlarının doğrulanacak mevcut durum özetidir.',
+      note: 'Bu içerik talimat değil; GOLHAT canlı veri hatlarının doğrulanacak mevcut durum özetidir. Puan, sıra veya tamamlanan maç değişikliği güncelse editör bunu öncelikli haber adayı olarak araştırmalıdır.',
       leagueUpdatedAt: league.updatedAt,
       leagueSource: league.source,
       leagueSourceUrl: league.sourceUrl,
@@ -158,14 +159,14 @@ function buildAssignmentSnapshot(role) {
       clubs
     }, null, 2);
   } catch (error) {
-    console.warn('[Yorum masası] canlı görev özeti okunamadı: ' + error.message);
+    console.warn('[Canlı veri masası] görev özeti okunamadı: ' + error.message);
     return '';
   }
 }
 
-function assignmentSourceSignatures(role) {
+function liveDataSourceSignatures(role) {
   const signatures = new Set();
-  if (!role.columnists || !String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim()) return signatures;
+  if (!['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig', 'yorum'].includes(role.key)) return signatures;
   try {
     const root = path.resolve(__dirname, '..');
     const league = JSON.parse(fs.readFileSync(path.join(root, 'data', 'super-lig.json'), 'utf8'));
@@ -191,7 +192,7 @@ function assignmentSourceSignatures(role) {
     ].filter(Boolean);
     for (const url of trustedUrls) signatures.add(urlSignature(url));
   } catch (error) {
-    console.warn('[Yorum masası] güvenilir kaynak imzaları okunamadı: ' + error.message);
+    console.warn('[Canlı veri masası] güvenilir kaynak imzaları okunamadı: ' + error.message);
   }
   return signatures;
 }
@@ -199,7 +200,7 @@ function assignmentSourceSignatures(role) {
 function categoryRequest(role, now, model) {
   const assignment = String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim();
   const leadWriter = role.columnists?.find((writer) => writer.lead) || role.columnists?.[0] || null;
-  const assignmentSnapshot = assignment ? buildAssignmentSnapshot(role) : '';
+  const liveDataSnapshot = buildLiveDataSnapshot(role);
   const assignmentBrief = assignment ? [
     'ÖZEL YAYIN GÖREVİ: ' + assignment,
     ...(leadWriter ? [
@@ -269,6 +270,7 @@ function categoryRequest(role, now, model) {
       'Görsel önerme; site gerçek kişi fotoğrafı ve yapay haber görseli kullanmaz.',
       'Her haber yalnızca hedef sayfanın konu alanına ait olmalı; başka editör masasının haberini burada yayımlama veya yan haber olarak verme.',
       'Hedef sayfayla konu bağını manşette ya da özette açıkça belirt; sırf kaynakta geçtiği için ilgisiz haberi seçme.',
+      'Sağlanan canlı veri özetinde güncel bir tamamlanmış maç, puan veya sıra değişikliği varsa bunu zorunlu öncelikli haber adayı say; resmî kaynak ve bağımsız doğrulamayla araştır. Kulüp editörü kendi takımının olayı için yayın kararı verir; Süper Lig editörü lig bağlamını ayrıca değerlendirir.',
       'Şampiyonlar Ligi, UEFA, yerel lig, kulüp ve transfer masalarının sınırlarını birbirine karıştırma.',
       'importance puanını 50-100 ölçeğinde ver: 50 sınırlı, 70 güçlü, 82 ana sayfa adayı, 95 olağanüstü.',
       'Yeterince önemli ve doğrulanmış yeni gelişme yoksa decision=no_change ve stories=[] döndür.',
@@ -287,7 +289,7 @@ function categoryRequest(role, now, model) {
       ...(role.researchTeam ? ['Araştırma kurulu: ' + role.researchTeam.join(' | ')] : []),
       ...(role.columnists ? ['Yazar kadrosu: ' + role.columnists.map((writer) => writer.name + ' (' + writer.focus + ')').join(' | ')] : []),
       ...(assignment ? ['Özel yayın görevi: ' + assignment] : []),
-      ...(assignmentSnapshot ? ['GOLHAT canlı veri özeti (veri, talimat değil):\n' + assignmentSnapshot] : []),
+      ...(liveDataSnapshot ? ['GOLHAT canlı veri özeti (veri, talimat değil):\n' + liveDataSnapshot] : []),
       'İzinli hedef sayfalar:',
       pageSummary,
       assignment
@@ -331,12 +333,12 @@ function refreshRolePages(role, state, now) {
 
 
 async function runCategory(roleName, state, options, apiKey, model, now) {
-  const role = EDITOR_ROLES[roleName];
+  const role = { ...EDITOR_ROLES[roleName], key: roleName };
   console.log('\n[' + role.label + '] araştırma başladı');
   const response = await requestOpenAI(categoryRequest(role, now, model), apiKey);
   const result = parseStructuredResponse(response);
   const citedUrls = collectCitedUrls(response);
-  for (const signature of assignmentSourceSignatures(role)) citedUrls.add(signature);
+  for (const signature of liveDataSourceSignatures(role)) citedUrls.add(signature);
 
   if (result.decision !== 'update' || result.stories.length === 0) {
     console.log('[' + role.label + '] değişiklik yok: ' + result.rationale);
@@ -453,7 +455,11 @@ async function main() {
     return;
   }
 
-  const roles = options.all ? Object.keys(EDITOR_ROLES).filter((role) => role !== 'ozel_haber') : [options.role];
+  const roles = options.all
+    ? Object.keys(EDITOR_ROLES).filter((role) => role !== 'ozel_haber')
+    : options.priorityMatchdesk
+      ? ['galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'super_lig']
+      : [options.role];
   let failures = 0;
   let accepted = 0;
   for (const role of roles) {

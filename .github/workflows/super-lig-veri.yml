@@ -2,12 +2,15 @@ name: Süper Lig Puan ve Fikstür
 
 on:
   schedule:
-    # Türkiye saati: 07:05, 12:05, 17:05, 22:05 (UTC+3)
-    - cron: '5 4,9,14,19 * * *'
+    # GitHub Actions'ın izin verdiği en sık aralık: maç saatlerinde beş dakikada bir.
+    - cron: '*/5 9-23 * * *'
+    # Gece/sabah düşük trafikte yarım saatlik denetim yeterlidir.
+    - cron: '*/30 0-8 * * *'
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: golhat-content-writer
@@ -34,6 +37,7 @@ jobs:
         run: node scripts/fetch-super-lig-tff.js
 
       - name: Değişiklik varsa commit et ve gönder
+        id: publish
         shell: bash
         run: |
           set -euo pipefail
@@ -42,8 +46,22 @@ jobs:
           git add data/super-lig.json
           if git diff --cached --quiet; then
             echo "Süper Lig verisinde değişiklik yok."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Süper Lig puan ve fikstür güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase origin main
           git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Puan değişikliğini öncelikli maç masasına gönder
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh workflow run editorial-kategoriler.yml --ref main \
+            -f role=priority_matchdesk \
+            -f dry_run=false \
+            -f assignment="TFF canlı verisinde puan/sıra veya maç sonucu değişti. İlgili kulüp ve Süper Lig gelişmesini resmî TFF verisi ve bağımsız kaynakla doğrula; haber değeri varsa gecikmeden yayımla."

@@ -25,6 +25,7 @@ on:
           - transfer
           - yorum
           - ozel_haber
+          - priority_matchdesk
       dry_run:
         description: Yalnızca araştır ve doğrula; dosyaları değiştirme
         required: true
@@ -38,6 +39,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: golhat-content-writer
@@ -78,7 +80,9 @@ jobs:
           fi
 
           args=(--all)
-          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && -n "${SELECTED_ROLE:-}" && "$SELECTED_ROLE" != "all" ]]; then
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${SELECTED_ROLE:-}" == "priority_matchdesk" ]]; then
+            args=(--priority-matchdesk)
+          elif [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && -n "${SELECTED_ROLE:-}" && "$SELECTED_ROLE" != "all" ]]; then
             args=(--role "$SELECTED_ROLE")
           fi
           if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${DRY_RUN:-true}" == "true" ]]; then
@@ -119,6 +123,7 @@ jobs:
           retention-days: 14
 
       - name: Değişiklik varsa commit et ve gönder
+        id: publish
         if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
         shell: bash
         run: |
@@ -129,8 +134,19 @@ jobs:
           if [[ -d haber ]]; then git add haber; fi
           if git diff --cached --quiet; then
             echo "Yayınlanacak değişiklik yok."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Editoryal güncelleme $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase origin main
           git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Öncelikli maç haberini baş editöre gönder
+        if: inputs.role == 'priority_matchdesk' && steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh workflow run editorial-bas-editor.yml --ref main -f dry_run=false
