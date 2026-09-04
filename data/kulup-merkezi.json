@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:33:49.368Z",
+  "updatedAt": "2026-09-04T20:32:55.959Z",
   "sources": [
     {
       "name": "FotMob",
@@ -245,20 +245,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904733,
-          "date": "2026-09-04T17:00:00.000Z",
-          "timestamp": 1788541200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Başakşehir",
-          "away": "Galatasaray",
-          "homeScore": 1,
-          "awayScore": 1,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 6106280,
           "date": "2026-09-09T19:00:00.000Z",
           "timestamp": 1788980400,
@@ -327,9 +313,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904771,
+          "date": "2026-10-18T17:00:00.000Z",
+          "timestamp": 1792342800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Gençlerbirliği",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904733,
+          "date": "2026-09-04T17:00:00.000Z",
+          "timestamp": 1788541200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Başakşehir",
+          "away": "Galatasaray",
+          "homeScore": 2,
+          "awayScore": 3,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904728,
           "date": "2026-08-29T18:30:00.000Z",
@@ -385,20 +399,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5981399,
-          "date": "2026-08-02T18:00:00.000Z",
-          "timestamp": 1785693600,
-          "tournament": "Club Friendlies",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Rennes",
-          "homeScore": 3,
-          "awayScore": 3,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
         }
       ],
       "officialUrl": "https://www.galatasaray.org/haberler/futbol/43",
@@ -628,6 +628,13 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a241a25fcb0141a276cda10189",
         "disclosures": [
           {
+            "id": 1659249,
+            "date": "2026-09-04T22:45:25+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcumuz Emrecan Uzunhan'ın transferi konusunda anlaşma sağlanmıştır",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1659249"
+          },
+          {
             "id": 1655996,
             "date": "2026-08-30T21:15:07+03:00",
             "type": "Sözleşme Feshi",
@@ -661,13 +668,6 @@
             "type": "Transfer Görüşmeleri",
             "summary": "Profesyonel Futbolcu Dusan Vlahovic Hakkında ",
             "url": "https://www.kap.org.tr/tr/Bildirim/1648818"
-          },
-          {
-            "id": 1633941,
-            "date": "2026-07-15T20:00:11+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "Profesyonel Futbolcu Leandro Trossard'ın Transferi Konusunda Kulübü ve Kendisi ile Anlaşmaya Varılmıştır.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1633941"
           }
         ]
       }
@@ -848,6 +848,20 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
         "disclosures": [
           {
+            "id": 1659251,
+            "date": "2026-09-04T23:02:54+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Ali Habeşoğlu Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1659251"
+          },
+          {
+            "id": 1659250,
+            "date": "2026-09-04T23:01:45+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Rene Mitongo Muteba Geçici Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1659250"
+          },
+          {
             "id": 1657703,
             "date": "2026-09-02T23:51:50+03:00",
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
@@ -874,20 +888,6 @@
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
             "summary": "Salih Malkoçoğlu Kesin Transferi Hakkında.",
             "url": "https://www.kap.org.tr/tr/Bildirim/1646171"
-          },
-          {
-            "id": 1643233,
-            "date": "2026-08-04T23:32:19+03:00",
-            "type": "Transfer Görüşmeleri",
-            "summary": "Mohamed Salah Transferi Hakkında.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1643233"
-          },
-          {
-            "id": 1638915,
-            "date": "2026-07-29T18:30:04+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "Rene Mitongo Muteba Transferi Hakkında.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1638915"
           }
         ]
       }
