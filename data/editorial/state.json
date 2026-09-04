@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T08:57:17.085Z",
+  "updatedAt": "2026-09-04T10:44:23.472Z",
   "stories": [
+    {
+      "id": "58df106b5755559d",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisi öncesi Asensio forma giyemeyecek",
+      "summary": "Fenerbahçe, 5 Eylül 2026 Cumartesi günü Beşiktaş'ı konuk edeceği Süper Lig derbisine Marco Asensio'dan yoksun çıkacak. Sarı-lacivertli ekipte derbi öncesi tek eksik olarak açıklanan oyuncunun yokluğu, takımın hücum rotasyonunu doğrudan etkiliyor.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinde Asensio yok",
+      "seoDescription": "Fenerbahçe, 5 Eylül'deki Beşiktaş derbisine Marco Asensio'dan yoksun çıkacak. Derbi öncesi son kadro durumunu ve hücum rotasyonuna etkisini okuyun.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi Asensio",
+      "originalAngle": "Gelişmenin haber değeri yalnızca Asensio'nun yokluğu değil; Fenerbahçe'nin derbi öncesi eksik listesinin tek isimle sınırlı kalması ve bu ismin hücum planındaki rolü. Bundan sonraki temel soru, teknik heyetin Asensio'nun yokluğunu hangi oyuncu ve görev dağılımıyla karşılayacağı.",
+      "keyFindings": [
+        "Marco Asensio, 5 Eylül 2026 Cumartesi günü oynanacak Fenerbahçe-Beşiktaş derbisinde forma giyemeyecek.",
+        "Fenerbahçe'nin derbi öncesi açıklanan tek eksiği Asensio olarak aktarıldı; Kerem Aktürkoğlu ve Mert Günok'un oynayabileceği belirtildi.",
+        "Asensio'nun yokluğu, Fenerbahçe'nin hücumdaki yaratıcı oyuncu rotasyonunda teknik tercih gerektirecek; bu tercihin ilk 11'e nasıl yansıyacağı henüz açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli beIN SPORTS haberindeki kadro ve sakatlık bilgisi, aynı gün Anadolu Ajansı'nın derbi öncesi haberindeki bilgilerle çapraz kontrol edildi. Derbinin tarihi ve saati kulüp duyurusu ile TFF müsabaka görevlileri bilgileriyle uyumlu biçimde değerlendirildi.",
+      "originalFindings": [],
+      "limitations": "Fenerbahçe'nin resmi maç kadrosu ve Asensio'nun sakatlığının tıbbi ayrıntıları bu taramada ayrıca yayımlanmış bir kulüp sağlık raporuyla doğrulanmadı. Oyuncunun yerine kimin başlayacağı kesinleşmiş değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T05:07:00.000Z",
+      "discoveredAt": "2026-09-04T10:44:23.472Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe'de derbi öncesi tek eksik",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahcede-derbi-oncesi-tek-eksik-2",
+          "publishedAt": "2026-09-04T08:07:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe derbide yarın Beşiktaş'ı konuk edecek",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-derbide-yarin-besiktasi-konuk-edecek/4046985",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Deplasmandaki Fenerbahçe maçının biletleri hakkında bilgilendirme",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/haber/95029/deplasmandaki-fenerbahce-macinin-biletleri-hakkinda-bilgilendirme.html",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "5fec289aae41939b",
       "role": "ozel_haber",
