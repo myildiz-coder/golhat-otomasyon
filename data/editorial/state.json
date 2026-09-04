@@ -1,7 +1,96 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T17:15:49.641Z",
+  "updatedAt": "2026-09-04T17:41:22.032Z",
   "stories": [
+    {
+      "id": "cd45594cf0742cc6",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray U19, Başakşehir deplasmanında 3-1 mağlup oldu",
+      "summary": "Galatasaray U19, U19 PAF Ligi 2026-2027 sezonunun 4. haftasında İstanbul Başakşehir U19'a deplasmanda 3-1 yenildi. Sarı-kırmızılıların tek golünü 90+2. dakikada Arda Tagay penaltıyla attı.",
+      "tag": "Maç Sonucu",
+      "importance": 55,
+      "contentType": "news",
+      "seoTitle": "Galatasaray U19, Başakşehir'e 3-1 yenildi",
+      "seoDescription": "Galatasaray U19, Başakşehir deplasmanında 3-1 kaybetti. Maçın skorunu, gol detayını ve takımın sıradaki rakibini GOLHAT'ta okuyun.",
+      "focusKeyword": "Galatasaray U19 Başakşehir U19 maçı",
+      "originalAngle": "Galatasaray U19'un A takımın Başakşehir deplasmanıyla aynı gün oynadığı karşılaşmada skor, ilk yarıdaki golsüz dengeden sonra ikinci yarıda değişti. GOLHAT açısından dikkat çeken ayrıntı, Galatasaray'ın gol için 90+2. dakikayı beklemesi ve puan alamadan sahadan ayrılmasıdır.",
+      "keyFindings": [
+        "Galatasaray U19, 4 Eylül 2026'da İstanbul Başakşehir U19'a 3-1 mağlup oldu.",
+        "İlk yarı 0-0 sona erdi; Başakşehir ikinci yarıda üç gol buldu.",
+        "Galatasaray'ın tek golünü Arda Tagay 90+2. dakikada penaltıdan attı ve takımın bir sonraki rakibi Kocaelispor U19 olarak açıklandı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Galatasaray'ın resmi maç duyurusu, Flashscore'daki karşılaşma kaydıyla skor ve tarih bakımından çapraz kontrol edildi. Resmî kulüp kaynağındaki gol ve maç akışı esas alındı.",
+      "originalFindings": [],
+      "limitations": "Karşılaşmanın ayrıntılı oyuncu istatistikleri ve puan tablosundaki güncel sıralama bu doğrulama kapsamında ayrıca değerlendirilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T15:14:00.000Z",
+      "discoveredAt": "2026-09-04T17:41:22.032Z",
+      "sources": [
+        {
+          "title": "İstanbul Başakşehir U19 3-1 Galatasaray U19",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol-akademisi/istanbul-basaksehir-u19-3-1-galatasaray-u19/60889",
+          "publishedAt": "2026-09-04T18:14:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Başakşehir U19 - Galatasaray U19 04/09/2026",
+          "publisher": "Flashscore Türkiye",
+          "url": "https://www.flashscore.com.tr/mac/futbol/buyuksehir-QaQNTUA9/galatasaray-SYRDOckH/puan-durumu?mid=ATZzMARQ",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "d95ac6fc92623d29",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Carrick’ten Manchester United için temkinli iyimserlik: “Tek transfer dönemiyle her şey düzelmez”",
+      "summary": "Manchester United Teknik Direktörü Michael Carrick, yaz transfer döneminde kadronun güçlendiğini ancak tek bir pencerenin tüm sorunları çözemeyeceğini söyledi. Orta saha takviyelerine rağmen sol bekte deneyimli seçenek eksikliği ve kadro derinliği, Premier League ile Şampiyonlar Ligi sezonunun temel soruları olarak öne çıkıyor.",
+      "tag": "Gelişme",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Carrick: Manchester United için tek transfer dönemi yetmez",
+      "seoDescription": "Michael Carrick, Manchester United’ın yaz transferleriyle güçlendiğini ancak kadronun tek dönemde tamamen çözülemeyeceğini açıkladı; eksik bölgeler gündemde.",
+      "focusKeyword": "Michael Carrick Manchester United kadro değerlendirmesi",
+      "originalAngle": "Carrick’in açıklaması yalnızca transfer memnuniyeti değil, Manchester United’ın yeni sezonda hangi eksikleri mevcut kadroyla yönetmek zorunda kalacağını gösteriyor. Kulüp orta sahayı yeniden kurarken sol bek takviyesi yapamadı; bu nedenle yaz hamlelerinin gerçek karşılığı, sezon ilerledikçe savunma rotasyonunda ölçülecek.",
+      "keyFindings": [
+        "Michael Carrick, Manchester United’ın transfer dönemi sonunda geçen sezona göre daha güçlü bir kadroya sahip olduğunu söyledi.",
+        "Kulüp Youri Tielemans, Andrey Santos ve Carlos Baleba ile orta sahaya yatırım yaptı; Sky Sports bu üç transferi yeniden yapılanmanın merkezindeki hamleler olarak aktardı.",
+        "The Guardian’ın aktardığı değerlendirmeye göre Manchester United sol bek takviyesi yapamadı ve Luke Shaw bu pozisyondaki tek kıdemli seçenek olarak kaldı.",
+        "Bu tablo, United’ın kısa vadeli performansında orta saha kazanımından çok savunma derinliği ve oyuncu esnekliğinin belirleyici olabileceğine işaret ediyor; bunun sahadaki sonucu henüz kanıtlanmış değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Carrick’in 4 Eylül 2026 tarihli değerlendirmesi Sky Sports ve The Guardian haberleri karşılaştırılarak doğrulandı. Transfer isimleri, kadro yapısı ve sol bek eksikliği iki ayrı editoryal kaynakta kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Carrick’in olumlu kadro değerlendirmesi teknik direktörün görüşüdür; takımın güçlenip güçlenmediği henüz yeterli maç örneklemiyle ölçülemez. Kulübün ilerleyen dönemlerde serbest oyuncu veya yeni transfer seçeneklerini kullanıp kullanmayacağı bilinmiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T14:58:00.000Z",
+      "discoveredAt": "2026-09-04T17:41:22.032Z",
+      "sources": [
+        {
+          "title": "Michael Carrick happy with transfer business and convinced that his squad has improved after summer window",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11667/13580994/manchester-united-latest-michael-carrick-happy-with-transfer-business-and-convinced-that-his-squad-has-improved-after-summer-window",
+          "publishedAt": "2026-09-04T08:01:00+01:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Premier League news: Carrick warns no quick fix, Emery has ‘hard’ Harwood-Bellis chat",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/2026/sep/04/premier-league-news-manchester-united-everton-aston-villa-manchester-city-tottenham",
+          "publishedAt": "2026-09-04T14:58:00Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "983b2c86527c7e79",
       "role": "fenerbahce",
