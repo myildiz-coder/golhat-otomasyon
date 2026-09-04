@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T01:43:09.972Z",
+  "updatedAt": "2026-09-04T02:43:15.751Z",
   "stories": [
+    {
+      "id": "c045c186f8c86210",
+      "role": "trabzonspor",
+      "page": "trabzonspor.html",
+      "headline": "Trabzonspor’un Konferans Ligi kadrosu belli oldu: Franculino Dju ve Muhammed Salah listede",
+      "summary": "Trabzonspor, UEFA Konferans Ligi lig aşaması için bildirdiği kadroda yeni transfer Franculino Dju ile Muhammed Salah’a da yer verdi. Liste, bordo-mavililerin Avrupa rotasyonunda hangi hücum seçeneklerine güvendiğini gösteriyor.",
+      "tag": "Gelişme",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor’un Konferans Ligi kadrosu belli oldu",
+      "seoDescription": "Trabzonspor’un UEFA Konferans Ligi kadrosu açıklandı. Franculino Dju ve Muhammed Salah listede yer alırken Avrupa rotasyonu netleşti.",
+      "focusKeyword": "Trabzonspor Konferans Ligi kadrosu",
+      "originalAngle": "Kadronun dikkat çeken tarafı yalnızca yeni isimlerin listeye eklenmesi değil; Trabzonspor’un Avrupa’da Franculino Dju, Muhammed Salah, Paul Onuachu ve Aral Şimşir’den oluşan geniş hücum havuzuna güvenmesi. Ancak bu listenin oyuncuların ilk 11’de başlayacağı anlamına gelmediği özellikle ayrıştırılmalı.",
+      "keyFindings": [
+        "Trabzonspor, UEFA Konferans Ligi lig aşaması için kadro bildirimini yaptı.",
+        "Franculino Dju ve Muhammed Salah, bildirilen hücum hattında yer aldı.",
+        "Kadrodaki diğer hücum seçenekleri Paul Onuachu, Aral Şimşir ve Noah Saviolo olarak açıklandı; liste Avrupa maçlarındaki tercihleri kesinleştirmiyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Kadro bilgisi, 3 Eylül 2026 tarihli A Spor ve beIN SPORTS Türkiye haberleri karşılaştırılarak doğrulandı. İki kaynakta kaleci, savunma, orta saha ve hücum listeleri büyük ölçüde aynı biçimde aktarılıyor.",
+      "originalFindings": [],
+      "limitations": "Trabzonspor’un resmi kulüp sitesinde bu taramada doğrudan kadro duyurusu bulunamadı. UEFA’ya bildirilen listenin maç günü kadrosu veya ilk 11 tercihi olmadığı dikkate alınmalı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T19:48:00.000Z",
+      "discoveredAt": "2026-09-04T02:43:15.751Z",
+      "sources": [
+        {
+          "title": "Trabzonspor, Konferans Ligi kadrosunu açıkladı!",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/trabzonspor/2026/09/03/trabzonspor-konferans-ligi-kadrosunu-acikladi",
+          "publishedAt": "2026-09-03T22:48:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor UEFA Konferans Ligi kadrosunu açıkladı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/trabzonspor-uefa-konferans-ligi-kadrosunu-acikladi-2",
+          "publishedAt": "2026-09-03T19:16:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "99596f60b20baec0",
       "role": "trabzonspor",
