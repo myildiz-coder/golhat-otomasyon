@@ -1,7 +1,204 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T02:16:58.340Z",
+  "updatedAt": "2026-09-05T02:43:07.767Z",
   "stories": [
+    {
+      "id": "d65f29348bb73c87",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Başakşehir, 2-0 öne geçtiği Galatasaray maçında 3-2 kaybetti",
+      "summary": "İstanbul Başakşehir FK, Trendyol Süper Lig’in 4. haftasında sahasında Galatasaray’a 3-2 yenildi. Başakşehir’in iki kez öne geçemediği maçta Galatasaray son bölümde bulduğu golle üç puanı aldı.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Başakşehir, Galatasaray’a 3-2 mağlup oldu",
+      "seoDescription": "Başakşehir, Süper Lig’in 4. haftasında Galatasaray’a 3-2 yenildi. İstanbul ekibinin maç içindeki skor üstünlüğü galibiyet için yeterli olmadı.",
+      "focusKeyword": "Başakşehir Galatasaray maç sonucu",
+      "originalAngle": "Başakşehir’in sahasında Galatasaray karşısında skor üretmesine rağmen galibiyeti koruyamaması, maçın sonucundan daha belirgin tablo oldu: İstanbul ekibi savunma direncini son bölümde sürdüremedi ve 4. hafta mücadelesinden puansız ayrıldı.",
+      "keyFindings": [
+        "Başakşehir, 4 Eylül 2026’da oynanan Süper Lig 4. hafta maçında Galatasaray’a 3-2 yenildi.",
+        "Galatasaray’ın gollerini Victor Osimhen, Lucas Torreira ve Gabriel Sara; Başakşehir’in gollerini Eldor Shomurodov ve Davinson Sanchez’in kendi kalesine attığı gol oluşturdu.",
+        "Karşılaşmanın son golü 90. dakikada Gabriel Sara’dan geldi; Başakşehir’in bundan sonraki temel sorusu, son bölüm savunmasını nasıl istikrarlı hale getireceği olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu ve gol dakikaları İstanbul Başakşehir FK-Galatasaray karşılaşmasına ilişkin Anadolu Ajansı haberi ile Galatasaray’ın resmi maç raporu karşılaştırılarak doğrulandı. İki kaynakta skor ve temel olay akışı birbiriyle uyumlu.",
+      "originalFindings": [],
+      "limitations": "Başakşehir’in güncel puan tablosundaki kesin sırası ve teknik değerlendirmeler bu haberin kapsamına alınmadı; yalnızca doğrulanmış maç sonucu ve karşılaşmanın belirleyici olayları aktarıldı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:29:00.000Z",
+      "discoveredAt": "2026-09-05T02:43:07.767Z",
+      "sources": [
+        {
+          "title": "Galatasaray, Başakşehir’i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "bb1a5daee757d1b8",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Çaykur Rizespor, Can Bozdoğan ile iki yıllık sözleşme imzaladı",
+      "summary": "Çaykur Rizespor, Utrecht’ten ayrılan orta saha oyuncusu Can Bozdoğan’ı iki yıllığına kadrosuna kattı. Transfer, kulübün resmi açıklaması ve bağımsız haber kaynağıyla doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 75,
+      "contentType": "news",
+      "seoTitle": "Çaykur Rizespor Can Bozdoğan transferini açıkladı",
+      "seoDescription": "Çaykur Rizespor, Utrecht’ten ayrılan Can Bozdoğan ile iki yıllık sözleşme imzaladı. Transferin kadro planlamasındaki karşılığı GOLHAT’ta.",
+      "focusKeyword": "Can Bozdoğan Çaykur Rizespor",
+      "originalAngle": "Transfer, Rizespor’un orta saha rotasyonuna yalnızca yeni bir isim eklemesinden ibaret değil; Bozdoğan’ın Utrecht ve Avrupa Ligi deneyimi, kulübün yerli ve gelişime açık merkez oyuncu arayışını daha görünür hâle getiriyor.",
+      "keyFindings": [
+        "Çaykur Rizespor, Can Bozdoğan ile iki yıllık sözleşme imzaladığını duyurdu.",
+        "Bozdoğan, geçen sezon Utrecht formasıyla Eredivisie’de 18, UEFA Avrupa Ligi’nde 6 karşılaşmada görev yaptı.",
+        "Transfer, Rizespor’un merkez orta saha seçeneklerini Avrupa deneyimi bulunan bir oyuncuyla genişletiyor; oyuncunun ilk 11’deki rolü ise teknik tercihlere bağlı olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Çaykur Rizespor’un 4 Eylül 2026 tarihli resmi açıklaması, bağımsız Rize Haber haberi ve Anadolu Ajansı’nın aynı transferi aktaran futbol gündemi birlikte karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Bonservis bedeli ve oyuncunun sözleşmedeki özel şartları resmi açıklamada paylaşılmadı. Bozdoğan’ın takım içindeki kesin rolü henüz belirlenmiş değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T18:42:00.000Z",
+      "discoveredAt": "2026-09-05T02:43:07.767Z",
+      "sources": [
+        {
+          "title": "Can Bozdoğan Çaykur Rizespor’da",
+          "publisher": "Çaykur Rizespor",
+          "url": "https://www.caykurrizespor.org.tr/haber/can-bozdogan-caykur-rizespor-da-6373",
+          "publishedAt": "2026-09-04T21:42:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Çaykur Rizespor, Can Bozdoğan’ı kadrosuna kattı",
+          "publisher": "Rize Haber",
+          "url": "https://www.cayhaber.net/caykur-rizespor-can-bozdogani-kadrosuna-katti",
+          "publishedAt": "2026-09-04T22:24:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Spor",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/h",
+          "publishedAt": "2026-09-04T23:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "8b98c6da346e82ba",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Çağlar Söyüncü, Arca Çorum FK ile iki yıllık sözleşme imzaladı",
+      "summary": "Arca Çorum FK, Fenerbahçe’den ayrılan millî savunmacı Çağlar Söyüncü’yü iki yıllığına kadrosuna kattı. Kulüp açıklaması bağımsız spor kaynaklarınca da doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 88,
+      "contentType": "news",
+      "seoTitle": "Çağlar Söyüncü Arca Çorum FK’ye transfer oldu",
+      "seoDescription": "Arca Çorum FK, Fenerbahçe’den ayrılan Çağlar Söyüncü ile iki yıllık sözleşme imzaladı. Transferin Süper Lig dengelerine etkisi GOLHAT’ta.",
+      "focusKeyword": "Çağlar Söyüncü Arca Çorum FK",
+      "originalAngle": "Söyüncü’nün transferi, Arca Çorum FK’nin Süper Lig’deki ilk sezonunda savunma hattını deneyimle güçlendirme tercihini ortaya koyuyor. Fenerbahçe’den ayrılığın ardından oyuncunun yeni takımındaki liderlik rolü, gelişmenin asıl takip başlığı olacak.",
+      "keyFindings": [
+        "Arca Çorum FK, Çağlar Söyüncü ile iki yıllık sözleşme imzaladığını açıkladı.",
+        "Söyüncü, Altınordu, Freiburg, Leicester City, Atlético Madrid ve Fenerbahçe formaları giydi.",
+        "Transfer, Çorum temsilcisinin üst düzey lig ve millî takım deneyimine sahip bir stoperi kadrosuna eklediğini gösteriyor; oyuncunun fiziksel ve sportif katkısı sezon içinde ölçülecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Arca Çorum FK’nin resmi açıklamasını aktaran Habertürk haberi, A Spor’un transferin tamamlandığına ilişkin yayını ve Anadolu Ajansı’nın futbol gündemi karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Transferin mali şartları ve Fenerbahçe ile yapılan fesih anlaşmasının ayrıntıları açıklanmadı. Söyüncü’nün ilk maç tarihi ve kaptanlık rolü kesinleşmiş değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:22:00.000Z",
+      "discoveredAt": "2026-09-05T02:43:07.767Z",
+      "sources": [
+        {
+          "title": "Çorum FK, Çağlar Söyüncü’yü renklerine bağladı",
+          "publisher": "Habertürk",
+          "url": "https://www.haberturk.com/spor/corum-fk-caglar-soyuncu-yu-renklerine-bagladi-3910372",
+          "publishedAt": "2026-09-04T22:22:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "SON DAKİKA TRANSFER HABERİ: Fenerbahçe Çağlar Söyüncü için Çorum FK ile anlaşmaya vardı",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/fenerbahce/2026/09/04/son-dakika-transfer-haberi-fenerbahcede-caglar-soyuncu-corum-fkda",
+          "publishedAt": "2026-09-04T18:53:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Spor",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/h",
+          "publishedAt": "2026-09-04T23:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "3bfc23168f425303",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gaziantep FK, Ataberk Dadakdeniz’i sezon sonuna kadar kadrosuna kattı",
+      "summary": "Gaziantep FK, kaleci Ataberk Dadakdeniz ile sezon sonuna kadar geçerli resmi sözleşme imzaladı. Kulübün açıklaması Anadolu Ajansı ve bağımsız spor kaynaklarıyla doğrulandı.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Gaziantep FK Ataberk Dadakdeniz transferini açıkladı",
+      "seoDescription": "Gaziantep FK, kaleci Ataberk Dadakdeniz’i sezon sonuna kadar kadrosuna kattı. Transferin kaleci rotasyonuna etkisi ve doğrulanan ayrıntılar burada.",
+      "focusKeyword": "Ataberk Dadakdeniz Gaziantep FK",
+      "originalAngle": "Gaziantep FK’nin son gün hamlesi, kaleci rotasyonundaki ihtiyaca doğrudan cevap veriyor. Dadakdeniz’in sezon sonuna kadar imzalanması, kulübün uzun vadeli yatırım yerine mevcut sezon için deneyimli bir seçenek tercih ettiğini gösteriyor.",
+      "keyFindings": [
+        "Gaziantep FK, Ataberk Dadakdeniz ile sezon sonuna kadar sözleşme imzaladı.",
+        "Kulüp açıklamasında imza töreninin başkan Memik Yılmaz’ın katılımıyla gerçekleştirildiği belirtildi.",
+        "Transfer, Gaziantep FK’nin kaleci seçeneklerini kısa vadeli bir sözleşmeyle güçlendiriyor; oyuncunun forma rekabetindeki konumu henüz netleşmiş değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gaziantep FK’nin resmi duyurusu, Anadolu Ajansı’nın transfer haberi ve Ajansspor’un aynı gün yayımladığı transfer süreci haberi karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Sözleşmenin mali şartları ve oyuncunun takım içindeki sıralaması açıklanmadı. Ajansspor’un ilk haberindeki prensip anlaşması, kulüp imzasıyla kesinleşmiş oldu.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T18:00:00.000Z",
+      "discoveredAt": "2026-09-05T02:43:07.767Z",
+      "sources": [
+        {
+          "title": "TRANSFER | ATABERK DADAKDENİZ GAZİANTEP’TE!",
+          "publisher": "Gaziantep FK",
+          "url": "https://www.gaziantepfk.org/haberler/transfer-ataberk-dadakdeni-z-gazi-antep-te",
+          "publishedAt": "2026-09-04T21:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gaziantep FK, kaleci Ataberk Dadakdeniz’i kadrosuna kattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/futbol/futbol",
+          "publishedAt": "2026-09-04T22:00:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Gaziantep FK, Ataberk Dadakdeniz ile anlaşmaya vardı",
+          "publisher": "Ajansspor",
+          "url": "https://ajansspor.com/haber/gaziantep-fk-ataberk-dadakdeniz-ile-anlasmaya-vardi-734130",
+          "publishedAt": "2026-09-04T18:06:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "1fa90c91361c8212",
       "role": "anadolu",
@@ -9496,279 +9693,6 @@
           "publisher": "DHA",
           "url": "https://www.dha.com.tr/yerel-haberler/trabzon/trabzonspor-forvet-transferini-duyurdu-2938092",
           "publishedAt": "2026-09-03T00:29:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "9f91a4eda5c28107",
-      "role": "trabzonspor",
-      "page": "trabzonspor.html",
-      "headline": "Ertuğrul Doğan: Yeni teknik direktörümüz yabancı olacak gibi görünüyor",
-      "summary": "Trabzonspor Başkanı Ertuğrul Doğan, Fatih Terim, Antonio Conte, Abdullah Avcı, Şenol Güneş ve Arda Turan’la ilgili bir görüşme yapılmadığını açıkladı; yeni teknik direktörün yabancı olmasının muhtemel olduğunu söyledi.",
-      "tag": "Gelişme",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Trabzonspor’da teknik direktör arayışında yabancı hoca sinyali",
-      "seoDescription": "Trabzonspor Başkanı Ertuğrul Doğan, öne çıkan yerli ve yabancı isimlerle görüşmediklerini açıkladı; yeni teknik direktörün yabancı olabileceğini söyledi.",
-      "focusKeyword": "Trabzonspor yabancı teknik direktör",
-      "originalAngle": "Trabzonspor’un teknik direktör arayışında önceki gün öne çıkan yerli aday başlıkları zayıflarken yönetim ilk kez tercih yönüne dair açık bir sinyal verdi. Ancak bu açıklama anlaşma sağlandığını değil, değerlendirme sürecinin yabancı teknik adamlara kaydığını gösteriyor.",
-      "keyFindings": [
-        "Ertuğrul Doğan, Antonio Conte ve Fatih Terim’le görüşmediklerini açıkladı.",
-        "Başkan, Abdullah Avcı ve Şenol Güneş’in gündemlerinde olmadığını, Arda Turan’ın da sözleşmeli olması nedeniyle değerlendirilmediğini belirtti.",
-        "Doğan, yeni teknik direktörün yabancı olmasının muhtemel olduğunu söyledi.",
-        "Trabzonspor’da teknik direktör kararı henüz resmileşmedi; yönetim değerlendirme sürecini sürdürüyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Başkan Ertuğrul Doğan’ın A Spor’a verdiği açıklama, Trabzonspor’un teknik direktörlük göreviyle ilgili resmi duyurusu ve bağımsız haber aktarımıyla karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Yeni teknik direktörün adı, sözleşme süresi ve göreve başlama tarihi açıklanmadı; yabancı teknik direktör ifadesi kesinleşmiş anlaşma anlamına gelmiyor.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "publishedAt": "2026-09-02T21:20:00.000Z",
-      "discoveredAt": "2026-09-03T08:27:12.156Z",
-      "sources": [
-        {
-          "title": "Ertuğrul Doğan'dan teknik direktör açıklaması: Terim, Conte, Turan, Avcı ve Güneş",
-          "publisher": "A Spor",
-          "url": "https://www.aspor.com.tr/trabzonspor/2026/09/02/ertugrul-dogandan-teknik-direktor-aciklamasi-terim-conte-turan-avci-ve-gunes",
-          "publishedAt": "2026-09-03T00:15:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Kamuoyuna Açıklama",
-          "publisher": "Trabzonspor Kulübü",
-          "url": "https://www.trabzonspor.org.tr/tr/haberler/kamuoyuna-aciklama-5-01-09-2026",
-          "publishedAt": "2026-09-01T19:51:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Ertuğrul Doğan'dan teknik direktör açıklaması: Terim, Conte, Turan, Avcı ve Güneş",
-          "publisher": "A Spor",
-          "url": "https://www.aspor.com.tr/webtv/trabzonspor/ertugrul-dogandan-teknik-direktor-aciklamasi-terim-conte-turan-avci-ve-gunes",
-          "publishedAt": "2026-09-03T00:15:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "4ed572e0062a6446",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Manchester City, Enzo Fernández’i Chelsea’den İngiliz rekorunu egale eden bedelle aldı",
-      "summary": "Manchester City, Chelsea’nin Arjantinli orta saha oyuncusu Enzo Fernández’i 125 milyon sterlinlik bedelle kadrosuna kattı. Kulüp, 25 yaşındaki futbolcuyla beş yıllık sözleşme imzalandığını açıkladı; transfer İngiltere rekorunu egale etti.",
-      "tag": "Kesinleşti",
-      "importance": 95,
-      "contentType": "news",
-      "seoTitle": "Manchester City Enzo Fernández transferini tamamladı: 125 milyon sterlin",
-      "seoDescription": "Manchester City, Chelsea’den Enzo Fernández’i 125 milyon sterlin karşılığında transfer etti. Arjantinli orta saha oyuncusu 2031 yazına kadar sözleşme imzaladı.",
-      "focusKeyword": "Enzo Fernández Manchester City transferi",
-      "originalAngle": "Transferi yalnızca yüksek bedeliyle değil, Manchester City’nin orta saha yapılanması ve Chelsea’nin son gün kadro planlaması açısından doğrulanmış bilgilerle ele almak.",
-      "keyFindings": [
-        "Manchester City, Enzo Fernández transferini resmen tamamladı.",
-        "Fernández, City ile beş yıllık sözleşme imzaladı ve sözleşmesi 2031 yazına kadar geçerli.",
-        "Sky Sports transfer bedelini 125 milyon sterlin olarak verdi.",
-        "Transfer, İngiltere futbolundaki mevcut rekor bedeli egale etti."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Manchester City’nin resmi açıklaması Chelsea’nin resmi transfer duyurusu ve Sky Sports’un bağımsız haberindeki sözleşme ile bedel bilgileri karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Kulüplerin resmi açıklamalarında transfer bedelinin tüm ödeme kalemleri ve olası bonus ayrıntıları yer almadı; bu nedenle yalnızca bağımsız doğrulanan toplam bedel kullanıldı.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "editorialReview": {
-        "tahkik": {
-          "score": 97,
-          "note": "Manchester City ve Chelsea’nin resmi açıklamaları, Sky Sports’un bedel ve sözleşme bilgileriyle çaprazlandı."
-        },
-        "adalet": {
-          "score": 92,
-          "note": "City’nin transferi aktarılırken Chelsea’nin oyuncuyu kaybettiği ve yerine yapılması planlanan hamlenin gerçekleşmediğine ilişkin bağımsız bağlam abartılmadan verildi."
-        },
-        "musbet_hareket": {
-          "score": 86,
-          "note": "Haber, transferin sportif ve kadro planlama boyutunu aktarıyor; kulüplere veya yöneticilere yönelik hakaret ya da tahrik içermiyor."
-        },
-        "uhuvvet_sefkat": {
-          "score": 88,
-          "note": "Oyuncu ve kulüpler hakkında kişiselleştirilmiş suçlayıcı dil kullanılmadı; taraftar gruplarını hedef alan ifade yok."
-        },
-        "public_interest": {
-          "score": 96,
-          "note": "İngiltere futbolunun en yüksek profilli son gün transferlerinden biri ve Avrupa ligleri açısından doğrudan önemli."
-        },
-        "newsCommentSeparated": true
-      },
-      "publishedAt": "2026-09-02T06:30:00.000Z",
-      "discoveredAt": "2026-09-02T21:25:56.751Z",
-      "sources": [
-        {
-          "title": "City complete Enzo Fernández signing from Chelsea",
-          "publisher": "Manchester City",
-          "url": "https://www.mancity.com/news/mens/enzo-fernandez-signs-for-city-63923893",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Enzo Fernandez transfer news: Man City sign midfielder from Chelsea in British-record-equalling £125m deal",
-          "publisher": "Sky Sports",
-          "url": "https://www.skysports.com/transfer/news/11679/13579972/enzo-fernandez-transfer-news-man-city-sign-midfielder-from-chelsea-in-british-record-equalling-125m-deal",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Enzo Fernández leaves on permanent transfer",
-          "publisher": "Chelsea FC",
-          "url": "https://www.chelseafc.com/en/news/article/enzo-fernandez-leaves--chelsea-on-permanent-transfer",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "primary_evidence"
-        }
-      ]
-    },
-    {
-      "id": "b334709b39d0c035",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Barcelona, Arsenal’den Gabriel Jesus’u 2029’a kadar kadrosuna kattı",
-      "summary": "Barcelona, Arsenal’in Brezilyalı forveti Gabriel Jesus ile anlaşmaya vardığını açıkladı. Oyuncu, 30 Haziran 2029’a kadar Barcelona’ya bağlandı; Sky Sports transfer bedelini 10 milyon euro olarak bildirdi.",
-      "tag": "Kesinleşti",
-      "importance": 84,
-      "contentType": "news",
-      "seoTitle": "Gabriel Jesus Barcelona’ya transfer oldu: Sözleşme 2029’a kadar",
-      "seoDescription": "Barcelona, Arsenal’den Gabriel Jesus’u transfer etti. Brezilyalı forvet, İspanyol kulübüyle 30 Haziran 2029’a kadar sözleşme imzaladı.",
-      "focusKeyword": "Gabriel Jesus Barcelona transferi",
-      "originalAngle": "Barcelona’nın santrfor hamlesini, Arsenal’den ayrılık ve oyuncunun sözleşme süresiyle sınırlı, doğrulanmış bilgiler üzerinden aktarmak.",
-      "keyFindings": [
-        "Barcelona ile Arsenal, Gabriel Jesus’un transferi için anlaşmaya vardı.",
-        "Brezilyalı forvet Barcelona ile 30 Haziran 2029’a kadar sözleşme imzaladı.",
-        "Sky Sports transfer bedelini 10 milyon euro olarak bildirdi.",
-        "Jesus, Arsenal’de 123 maçta 32 gol kaydetti."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Barcelona’nın resmi duyurusu, Sky Sports’un transfer haberi ve sözleşme süresi ile bedel bilgileri karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Barcelona’nın resmi duyurusunda transfer bedelinin ayrıntıları yer almadı; bedel bilgisi bağımsız spor kaynağına atfedilerek kullanıldı.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "editorialReview": {
-        "tahkik": {
-          "score": 96,
-          "note": "Barcelona’nın resmi transfer duyurusu, Arsenal’den gelen oyuncu bilgisi ve Sky Sports’un 10 milyon euroluk bedel haberini doğruluyor."
-        },
-        "adalet": {
-          "score": 90,
-          "note": "Oyuncunun Arsenal’deki katkısı ve son dönemdeki sınırlı ilk 11 rolü birlikte aktarıldı; taraflardan biri küçümsenmedi."
-        },
-        "musbet_hareket": {
-          "score": 85,
-          "note": "Transfer, kariyer ve kadro ihtiyacı çerçevesinde sakin bir dille verildi; spekülatif sportif hüküm kurulmadı."
-        },
-        "uhuvvet_sefkat": {
-          "score": 88,
-          "note": "Oyuncunun geçmiş sakatlığı yalnızca kaynakta yer alan kariyer bağlamı ölçüsünde kullanıldı; sağlık durumu üzerinden sansasyon yapılmadı."
-        },
-        "public_interest": {
-          "score": 82,
-          "note": "Barcelona ve Arsenal gibi iki büyük kulübü ilgilendiren, son transfer gününün doğrulanmış Avrupa gelişmesi."
-        },
-        "newsCommentSeparated": true
-      },
-      "publishedAt": "2026-09-01T14:14:00.000Z",
-      "discoveredAt": "2026-09-02T21:25:56.751Z",
-      "sources": [
-        {
-          "title": "Gabriel Jesus signs for FC Barcelona",
-          "publisher": "FC Barcelona",
-          "url": "https://www.fcbarcelona.com/en/news/4570072/gabriel-jesus-signs-for-fc-barcelona/amp",
-          "publishedAt": "2026-09-01",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Gabriel Jesus: Arsenal forward completes Barcelona transfer in £8.6m deal on Deadline Day",
-          "publisher": "Sky Sports",
-          "url": "https://www.skysports.com/football/news/11833/13579275/gabriel-jesus-arsenal-forward-completes-barcelona-transfer-in-lb8-6m-deal-on-deadline-day",
-          "publishedAt": "2026-09-01",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Gabriel Jesus ficha por el FC Barcelona",
-          "publisher": "FC Barcelona Español",
-          "url": "https://www.fcbarcelona.es/es/futbol/primer-equip/noticies/4570072/gabriel-jesus-fitxa-pel-fc-barcelona",
-          "publishedAt": "2026-09-01",
-          "sourceRole": "primary_evidence"
-        }
-      ]
-    },
-    {
-      "id": "5193a34dd79b33ec",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Leeds United, Eintracht Frankfurt’tan Jean-Mattéo Bahoya’yı kiraladı",
-      "summary": "Leeds United, Eintracht Frankfurt’ın 21 yaşındaki hücum oyuncusu Jean-Mattéo Bahoya’yı satın alma opsiyonuyla kiraladığını açıkladı. Transfer, İngiltere’de kapanan yaz penceresinin ardından 2 Eylül’de duyurulan son gün işlemleri arasında yer aldı.",
-      "tag": "Kesinleşti",
-      "importance": 72,
-      "contentType": "news",
-      "seoTitle": "Leeds United, Jean-Mattéo Bahoya transferini açıkladı",
-      "seoDescription": "Leeds United, Eintracht Frankfurt’tan Jean-Mattéo Bahoya’yı satın alma opsiyonuyla kiraladı. Fransız hücum oyuncusu İngiliz ekibinin yaz dönemindeki son transferi oldu.",
-      "focusKeyword": "Jean-Mattéo Bahoya Leeds United",
-      "originalAngle": "Transferi, Bundesliga’dan Premier League’e gerçekleşen son gün geçişi ve Leeds’in hücum rotasyonuna eklenen genç oyuncu perspektifiyle sunmak.",
-      "keyFindings": [
-        "Leeds United, Jean-Mattéo Bahoya’yı Eintracht Frankfurt’tan kiraladı.",
-        "Anlaşmada satın alma opsiyonu bulunuyor.",
-        "Bahoya, Leeds’in yaz transfer dönemindeki yedinci takviyesi oldu.",
-        "Leeds, transferi 2 Eylül 2026’da resmi olarak duyurdu."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Leeds United’ın resmi duyurusu, Bundesliga’nın transfer merkezi ve Premier League’in son gün özetindeki bilgiler karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Satın alma opsiyonunun bedeli ve kullanım şartları resmi açıklamada paylaşılmadı.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "editorialReview": {
-        "tahkik": {
-          "score": 95,
-          "note": "Leeds’in resmi açıklaması Bundesliga transfer merkezi ve Premier League’in son gün derlemesiyle çapraz doğrulandı."
-        },
-        "adalet": {
-          "score": 88,
-          "note": "Leeds ve Frankfurt’un transferdeki rolleri dengeli biçimde aktarıldı; oyuncunun performansı hakkında doğrulanmamış beklenti kurulmadı."
-        },
-        "musbet_hareket": {
-          "score": 84,
-          "note": "Haber, genç oyuncunun kariyer geçişini ve transfer formatını bilgi odaklı biçimde veriyor."
-        },
-        "uhuvvet_sefkat": {
-          "score": 87,
-          "note": "Oyuncunun gelişim süreci üzerinden küçültücü veya baskı kuran bir dil kullanılmadı."
-        },
-        "public_interest": {
-          "score": 73,
-          "note": "Leeds’in Avrupa liglerinden yaptığı doğrulanmış son gün takviyesi, Avrupa futbolu sayfası için sınırlı fakat anlamlı bir gelişme."
-        },
-        "newsCommentSeparated": true
-      },
-      "publishedAt": "2026-09-01T23:00:00.000Z",
-      "discoveredAt": "2026-09-02T21:25:56.751Z",
-      "sources": [
-        {
-          "title": "Jean-Mattéo Bahoya becomes our final summer signing!",
-          "publisher": "Leeds United",
-          "url": "https://www.leedsunited.com/en/news/jean-matteo-bahoya-becomes-our-final-summer-signing",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Official Bundesliga transfer centre: Summer 2026",
-          "publisher": "Bundesliga",
-          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "The Wrap: What happened on Transfer Deadline Day",
-          "publisher": "Premier League",
-          "url": "https://www.premierleague.com/en/news/4705808/the-wrap-what-happened-on-transfer-deadline-day",
-          "publishedAt": "2026-09-02",
           "sourceRole": "independent_verification"
         }
       ]
