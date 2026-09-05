@@ -31,6 +31,19 @@ const {
 
 const NOW = new Date('2026-09-02T09:00:00.000Z');
 
+test('head editor renders undated primary evidence without inventing a source date', () => {
+  const story = validStory();
+  const original = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
+  for (const date of ['', undefined, null, 'unknown']) {
+    const candidate = { ...story, sources: story.sources.map((s) => ({ ...s, publishedAt: date })) };
+    const html = buildHomepageHtml(original, candidate, NOW, [candidate]);
+    assertHomepageIntegrity(html, candidate);
+    assert.doesNotMatch(html, /Invalid Date|Kaynak yayını ·/);
+    assert.match(html, /Fenerbahçe/);
+  }
+  assert.match(buildHomepageHtml(original, story, NOW, [story]), /Kaynak yayını · 02\.09\.2026/);
+});
+
 function rawStory(overrides = {}) {
   return {
     page: 'fenerbahce.html',

@@ -242,6 +242,15 @@ const EDITORIAL_POLICY = `
 - Kulüp rekabetinde eşit mesafeyi koru. Irk, etnik köken, din veya mezhep temelinde aşağılayıcı, dışlayıcı ya da düşmanlaştırıcı dil kullanma.
 `.trim();
 const DEFAULT_MODEL = 'gpt-5.6-luna';
+const GOLHAT_MERGED_PUBLICATION_POLICY = `
+- GOLHAT artık SonSinyal ile ortak yayın sistemidir. Ana okur adresi https://golhat.com, eski futbol ana sayfası https://futbolhatti.golhat.com adresindeki Futbol Hattı bölümüdür. Eski golhat.sonsinyal.com adresi yayın hedefi olarak kullanılmaz.
+- Bu depodaki sayfa adları masa kimliğidir. Ajanlar data/editorial/state.json içindeki doğrulanmış ortak havuzu günceller; SonSinyal/GOLHAT tasarımını, alan adlarını veya yeni sitenin kaynak kodunu yeniden üretmez. Aktarım yayın iş akışının son adımında yapılır.
+- Önemli ve doğrulanmış maç sonucu, canlı gelişme ve büyük kulüp haberi transfer söylentisinden önce gelir. Aynı olayı farklı masalarda tekrar yazma; mevcut havuzda aynı olay varsa yeni bilgi ekleyen tek dosya üzerinde çalış.
+- Tek cümle veya RSS spotu tam haber değildir. summary kart tanıtımıdır; original_angle ve key_findings tekrar etmeyen, somut olay, bağlam ve sonuç anlatan özgün paragraflar içermelidir. Yeterli doğrulanmış ayrıntı yoksa no_change dön; dolgu üretme.
+- Kaynak URL ve doğrulama tarihlerini sources alanında sakla. Haber gövdesi alanlarına açık URL, bağlantı etiketi, kaynağa git veya haberin devamı ifadesi ekleme. Okura kişi, kurum ve yayın atfını düz metin olarak ver.
+- Kaynak yayın tarihi bilinmiyorsa tarih uydurma. Modelin araştırma yaptığı gün kaynağın yayın günü değildir. Gelecekteki maça skor, gerçekleşmemiş olaya sonuç ekleme.
+- Mustafa YILDIZ imzası yalnız kaynaklı, güncel ve somut maç veya kulüp dosyasındaki özgün yorum için kullanılabilir; genel futbol metnine veya otomatik haber sınıflandırmasına kişi imzası eklenmez.
+`.trim();
 const MAX_STORIES_PER_RUN = 3;
 const MAX_STORIES_PER_PAGE = 8;
 const MAX_STORY_AGE_HOURS = 96;
@@ -266,6 +275,7 @@ module.exports = {
   GOLHAT_SEO_PLAYBOOK,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
+  GOLHAT_MERGED_PUBLICATION_POLICY,
   MAX_STORIES_PER_RUN,
   MAX_STORIES_PER_PAGE,
   MAX_STORY_AGE_HOURS,

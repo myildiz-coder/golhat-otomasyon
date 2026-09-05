@@ -16,6 +16,7 @@ const {
   GOLHAT_SEO_PLAYBOOK,
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
+  GOLHAT_MERGED_PUBLICATION_POLICY,
   MAX_STORIES_PER_RUN,
   MAX_STORIES_PER_PAGE
 } = require('./editorial-config');
@@ -285,7 +286,8 @@ function categoryRequest(role, now, model, options = {}) {
       GOLHAT_SEO_PLAYBOOK,
       SOURCE_RULES,
       ...(role.researchTeam ? [GOLHAT_ORIGINAL_JOURNALISM_POLICY] : []),
-      EDITORIAL_POLICY
+      EDITORIAL_POLICY,
+      GOLHAT_MERGED_PUBLICATION_POLICY
     ].join('\n'),
     input: [
       'Editör: ' + role.label,

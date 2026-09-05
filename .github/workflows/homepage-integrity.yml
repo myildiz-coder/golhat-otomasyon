@@ -11,6 +11,7 @@ permissions:
 
 concurrency:
   group: golhat-content-writer
+  queue: max
   cancel-in-progress: false
 
 jobs:
@@ -48,3 +49,7 @@ jobs:
           git commit -m "Ana sayfa bütünlük onarımı $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Birleşik GOLHAT yayınını doğrula ve eşitle
+        if: ${{ success() }}
+        run: node scripts/publication-sync.js

@@ -17,6 +17,7 @@ permissions:
 
 concurrency:
   group: golhat-content-writer
+  queue: max
   cancel-in-progress: false
 
 env:
@@ -68,10 +69,7 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Ortak GOLHAT yayın arşivini eşitle
-        if: ${{ always() && (github.event_name == 'schedule' || inputs.dry_run == false) }}
-        shell: bash
-        run: |
-          curl --fail --silent --show-error --retry 4 --retry-all-errors \
-            --connect-timeout 10 --max-time 30 --request POST \
-            https://golhat.sonsinyal.com/api/golhat/sync
+
+      - name: Birleşik GOLHAT yayınını doğrula ve eşitle
+        if: ${{ success() && (github.event_name == 'schedule' || inputs.dry_run == false) }}
+        run: node scripts/publication-sync.js
