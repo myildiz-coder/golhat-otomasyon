@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:43:46.827Z",
+  "updatedAt": "2026-09-05T18:54:36.653Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 3,
-    "upcoming": 5,
+    "live": 6,
+    "upcoming": 2,
     "finished": 20
   },
   "matches": [
@@ -59,7 +59,7 @@
       "away": "Beşiktaş",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 84,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,10 +293,10 @@
       "away": "Atalanta",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881152,
@@ -437,10 +437,10 @@
       "away": "Brest",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802924,
@@ -455,10 +455,10 @@
       "away": "Le Mans",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781737,
@@ -508,8 +508,8 @@
       "home": "Ajax",
       "away": "PSV Eindhoven",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 43,
+      "awayScore": 2,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
