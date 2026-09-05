@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:54:11.982Z",
+  "updatedAt": "2026-09-05T16:08:41.891Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
-    "upcoming": 12,
-    "finished": 11
+    "live": 4,
+    "upcoming": 11,
+    "finished": 13
   },
   "matches": [
     {
@@ -95,10 +95,10 @@
       "away": "Sunderland",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795437,
@@ -131,10 +131,10 @@
       "away": "Crystal Palace",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795442,
@@ -203,7 +203,7 @@
       "away": "Atlético Madrid",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 73,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,10 +275,10 @@
       "away": "Napoli",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749660,
@@ -419,7 +419,7 @@
       "away": "Lorient",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 39,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -472,8 +472,8 @@
       "home": "NEC Nijmegen",
       "away": "Feyenoord",
       "homeScore": 1,
-      "awayScore": 2,
-      "minute": 64,
+      "awayScore": 3,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
