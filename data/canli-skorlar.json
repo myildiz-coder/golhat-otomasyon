@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T20:48:52.027Z",
+  "updatedAt": "2026-09-05T20:57:34.491Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 2,
+    "live": 0,
     "upcoming": 0,
-    "finished": 25
+    "finished": 27
   },
   "matches": [
     {
@@ -239,10 +239,10 @@
       "away": "Deportivo A Coruña",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749663,
@@ -527,10 +527,10 @@
       "away": "Excelsior",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
