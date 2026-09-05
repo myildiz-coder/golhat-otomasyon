@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T16:21:51.040Z",
+  "updatedAt": "2026-09-05T16:37:03.205Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 3,
-    "upcoming": 11,
-    "finished": 14
+    "live": 5,
+    "upcoming": 8,
+    "finished": 15
   },
   "matches": [
     {
@@ -185,10 +185,10 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868042,
@@ -220,11 +220,11 @@
       "home": "Rayo Vallecano",
       "away": "Racing Santander",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868050,
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,10 +401,10 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802921,
@@ -418,8 +418,8 @@
       "home": "Lens",
       "away": "Lorient",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 49,
+      "awayScore": 1,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,10 +473,10 @@
       "away": "Feyenoord",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781733,
