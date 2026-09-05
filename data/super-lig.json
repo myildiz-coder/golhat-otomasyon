@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:57:35.414Z",
+  "updatedAt": "2026-09-05T19:04:42.514Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -23,6 +23,19 @@
     },
     {
       "rank": 2,
+      "team": "BEŞİKTAŞ A.Ş.",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 9,
+      "goalsAgainst": 4,
+      "goalDifference": 5,
+      "points": 9,
+      "form": ""
+    },
+    {
+      "rank": 3,
       "team": "GENÇLERBİRLİĞİ",
       "played": 3,
       "won": 2,
@@ -35,28 +48,15 @@
       "form": ""
     },
     {
-      "rank": 3,
-      "team": "BEŞİKTAŞ A.Ş.",
-      "played": 3,
-      "won": 2,
-      "drawn": 0,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 3,
-      "goalDifference": 4,
-      "points": 6,
-      "form": ""
-    },
-    {
       "rank": 4,
       "team": "FENERBAHÇE A.Ş.",
-      "played": 3,
+      "played": 4,
       "won": 2,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 4,
-      "goalDifference": 3,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
+      "goalDifference": 2,
       "points": 6,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317817,
-      "date": "2026-09-05T17:00:00.000Z",
-      "timestamp": 1788627600,
-      "round": "4. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "FENERBAHÇE A.Ş.",
-      "away": "BEŞİKTAŞ A.Ş."
-    },
     {
       "id": 317812,
       "date": "2026-09-06T14:00:00.000Z",
