@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T08:06:19.649Z",
+  "updatedAt": "2026-09-05T08:17:35.090Z",
   "stories": [
+    {
+      "id": "932d03aa2f52ac03",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gençlerbirliği’nin genç orta sahası Ousmane Diabaté, Newcastle United’a transfer oldu",
+      "summary": "Newcastle United, Gençlerbirliği’nin 18 yaşındaki Gineli orta saha oyuncusu Ousmane Diabaté’yi kadrosuna kattığını açıkladı. Diabaté, 2026-2027 sezonunda gelişimini Gençlerbirliği’nde kiralık olarak sürdürecek.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Ousmane Diabaté Newcastle United’a transfer oldu",
+      "seoDescription": "Newcastle United, Gençlerbirliği’nin 18 yaşındaki orta sahası Ousmane Diabaté’yi transfer etti; oyuncu sezonu Ankara ekibinde kiralık geçirecek.",
+      "focusKeyword": "Ousmane Diabaté Newcastle United transferi",
+      "originalAngle": "Transferin dikkat çeken tarafı yalnızca oyuncunun Premier Lig’e geçişi değil, Newcastle’ın Diabaté’yi hemen kadroda tutmak yerine 2026-2027 sezonu için Gençlerbirliği’nde bırakmasıdır. Bu yapı, transferin kısa vadeli bir kadro hamlesinden çok oyuncunun gelişim planına dayandığını gösteriyor.",
+      "keyFindings": [
+        "Newcastle United, Ousmane Diabaté’nin transferini resmen duyurdu.",
+        "18 yaşındaki Gineli orta saha oyuncusu 2026-2027 sezonunda Gençlerbirliği’nde kiralık kalacak.",
+        "Diabaté, Gençlerbirliği’nde Süper Lig ve Türkiye Kupası’nda toplam yedi üst düzey maça çıktı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Newcastle United’ın resmî açıklaması, Anadolu Ajansı’nın transfer haberindeki Gençlerbirliği açıklamasıyla karşılaştırıldı; oyuncunun kiralık dönüşü ve kulüplerin tarafları çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli ve sözleşmenin mali ayrıntıları doğrulanmış kaynaklarda açıklanmadı; bu nedenle habere eklenmedi.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-05T08:17:35.090Z",
+      "sources": [
+        {
+          "title": "Newcastle United sign midfielder Ousmane Diabaté",
+          "publisher": "Newcastle United",
+          "url": "https://www.newcastleunited.com/en/news/newcastle-united-sign-midfielder-ousmane-diabate",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Newcastle United sign Guinea midfielder Ousmane Diabate from Genclerbirligi",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/en/sports/newcastle-united-sign-guinea-midfielder-ousmane-diabate-from-genclerbirligi/4047579",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "30c9328c679967bf",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gaziantep FK, Efe Sarıkaya’yı Grenoble’dan kalıcı olarak transfer etti",
+      "summary": "Gaziantep FK, 20 yaşındaki savunma oyuncusu Efe Sarıkaya ile iki yıllık sözleşme imzaladığını açıkladı. Grenoble Foot 38 de oyuncunun Gaziantep FK’ya transferini resmen duyurdu.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Efe Sarıkaya Gaziantep FK’ya transfer oldu",
+      "seoDescription": "Gaziantep FK, genç savunmacı Efe Sarıkaya’yı Grenoble’dan kadrosuna kattı; iki yıllık sözleşmenin kulüplerce açıklanan ayrıntıları burada.",
+      "focusKeyword": "Efe Sarıkaya Gaziantep FK transferi",
+      "originalAngle": "Efe Sarıkaya’nın transferi, oyuncunun Türkiye’ye dönüşünden ibaret değil: Gaziantep FK, Grenoble’daki sözleşme sürecinin ardından genç savunmacıyı bu kez kalıcı anlaşmayla kadrosuna aldı. Böylece geçen sezonki Türkiye deneyimi, yeni kulübünde uzun vadeli bir planın parçasına dönüştü.",
+      "keyFindings": [
+        "Gaziantep FK, Efe Sarıkaya’nın Grenoble’dan kalıcı transfer edildiğini açıkladı.",
+        "Kulüp, 20 yaşındaki savunmacıyla iki yıllık resmî sözleşme imzaladı.",
+        "Grenoble Foot 38 de transferi ayrı bir kulüp açıklamasıyla doğruladı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gaziantep FK’nın imza duyurusu, Grenoble Foot 38’in transfer açıklamasıyla karşılaştırıldı; transferin kalıcı niteliği, oyuncunun pozisyonu ve sözleşme süresi yalnızca kulüp kaynaklarında doğrulanan bilgilerle sınırlandı.",
+      "originalFindings": [],
+      "limitations": "Bonservis bedeli ve ödeme planı iki kulübün açıklamalarında yer almadı; mali ayrıntılar hakkında tahmin yapılmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-05T08:17:35.090Z",
+      "sources": [
+        {
+          "title": "TRANSFER | EFE SARIKAYA GAZİANTEP’TE!",
+          "publisher": "Gaziantep FK",
+          "url": "https://www.gaziantepfk.org/haberler/transfer-efe-sarikaya-gazi-antep-te",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Efe Sarıkaya est transféré à Gaziantep FK !",
+          "publisher": "Grenoble Foot 38",
+          "url": "https://gf38.fr/efe-sarikaya-est-transfere-a-gaziantep-fk-d1-turque",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "80508625cf386d62",
       "role": "galatasaray",
@@ -9908,102 +9996,6 @@
           "publisher": "Türkgün",
           "url": "https://www.turkgun.com/futbol/kocaelispordan-ayrilan-samet-yalcinin-yeni-takimi-belli-oldu-antalyaspora-transfer-oldu/396865",
           "publishedAt": "2026-09-03T19:36:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "0d94997b58fb80b1",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Antalyaspor, Fotis Pseftis’i Lugano’dan kiraladı",
-      "summary": "Antalyaspor, 23 yaşındaki Yunan kaleci Fotis Pseftis’i Lugano’dan kiralık olarak kadrosuna kattığını duyurdu. Transfer, kulübün açıklaması ve bağımsız spor kaynakları tarafından doğrulandı.",
-      "tag": "Kesinleşti",
-      "importance": 52,
-      "contentType": "news",
-      "seoTitle": "Antalyaspor, Fotis Pseftis’i kiralık olarak transfer etti",
-      "seoDescription": "Antalyaspor, 23 yaşındaki Yunan kaleci Fotis Pseftis’i Lugano’dan kiraladı. Transferin doğrulanmış ayrıntıları ve oyuncunun kariyer rotası burada.",
-      "focusKeyword": "Fotis Pseftis Antalyaspor transferi",
-      "originalAngle": "Transferin ayırt edici tarafı, Antalyaspor’un kaleci rotasyonuna genç bir isim eklemesinden çok Pseftis’in Lugano’dan üst üste ikinci sezon kiralanarak düzenli oynama arayışını sürdürmesi. Bundan sonraki temel soru, oyuncunun Antalyaspor’da ne kadar süre alacağı ve sezon sonunda Lugano’ya hangi rolle döneceği.",
-      "keyFindings": [
-        "Antalyaspor, Fotis Pseftis’in transferini 3 Eylül 2026’da duyurdu.",
-        "23 yaşındaki kaleci, Lugano’dan Antalyaspor’a kiralık olarak geçti.",
-        "Pseftis geçen sezon Almanya’da Alemannia Aachen formasıyla kiralık oynadı; bağımsız kaynaklar 18 maç ve dört gol yemeden tamamlanan karşılaşma bilgilerini aktardı.",
-        "Transferin kalıcı satış içerip içermediği ve kiralama süresinin mali şartları kamuya açık kaynaklarda açıklanmadı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Antalyaspor’un transfer duyurusu, beIN SPORTS Türkiye’nin haber metni ve Novasports’un bağımsız doğrulaması karşılaştırıldı. Kiralama bilgisi ile oyuncunun geçmiş sezon verileri yalnızca iki kaynakta ortaklaşan unsurlar çerçevesinde kullanıldı.",
-      "originalFindings": [],
-      "limitations": "Kulübün duyurusunda sözleşmenin süresi, kiralama bedeli veya satın alma opsiyonu açıklanmadı. Bu nedenle mali şartlar ve sezon sonrasına ilişkin sonuç çıkarılmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T10:31:00.000Z",
-      "discoveredAt": "2026-09-03T19:15:12.764Z",
-      "sources": [
-        {
-          "title": "Antalyaspor, kaleci Fotis Pseftis'i kadrosuna kattı",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/antalyaspor-kaleci-fotis-pseftisi-kadrosuna-katti",
-          "publishedAt": "2026-09-03T13:31:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Στην Αντάλιασπορ ο Φώτης Ψεύτης",
-          "publisher": "Novasports",
-          "url": "https://www.novasports.gr/sport/podosfairo/event/super-lig/article/15081107/stin-antaliaspor-o-fotis-pseytis",
-          "publishedAt": "2026-09-03T19:08:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "00fb59e10191b535",
-      "role": "galatasaray",
-      "page": "galatasaray.html",
-      "headline": "Galatasaray’ın Şampiyonlar Ligi kadrosu açıklandı: Kaan Ayhan ve Arda Ünyay listede yok",
-      "summary": "Galatasaray, UEFA Şampiyonlar Ligi 2026-2027 sezonu lig aşaması için 24 kişilik oyuncu listesini bildirdi. Kaan Ayhan, Arda Ünyay, Kazımcan Karataş, Eyüp Aydın ve Can Armando Güner kadroda yer almadı.",
-      "tag": "Gelişme",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Galatasaray’ın Şampiyonlar Ligi kadrosu açıklandı",
-      "seoDescription": "Galatasaray’ın UEFA Şampiyonlar Ligi kadrosu belli oldu; 24 kişilik listede Kaan Ayhan ve Arda Ünyay yer almadı. Detaylar ve ilk maç takvimi burada.",
-      "focusKeyword": "Galatasaray Şampiyonlar Ligi kadrosu",
-      "originalAngle": "Kadronun açıklanması yalnızca oyuncu listesini değil, Galatasaray’ın Avrupa rotasyonunda hangi isimlere öncelik verdiğini de ortaya koyuyor. Özellikle Kaan Ayhan ve Arda Ünyay’ın dışarıda kalması, savunma rotasyonunun lig ile Avrupa arasında nasıl yönetileceği sorusunu gündeme taşıyor.",
-      "keyFindings": [
-        "Galatasaray, UEFA Şampiyonlar Ligi 2026-2027 sezonu lig aşaması için 24 futbolcudan oluşan listesini UEFA’ya iletti.",
-        "Kaan Ayhan, Arda Ünyay, Kazımcan Karataş, Eyüp Aydın ve Can Armando Güner listede yer almadı.",
-        "Victor Osimhen, Rafael Leao, Leroy Sane ve Deniz Gül kadroda bulunuyor; Galatasaray’ın ilk Şampiyonlar Ligi maçı 9 Eylül 2026’da Sporting CP deplasmanında oynanacak."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Önce Galatasaray’ın 3 Eylül 2026 tarihli resmi kulüp açıklaması kontrol edildi. Kadro ve liste dışında kalan oyuncular, aynı gün yayımlanan DHA ve beIN SPORTS haberleriyle farklı alan adlarından çapraz doğrulandı.",
-      "originalFindings": [],
-      "limitations": "UEFA’ya bildirilen listenin maç günü değişiklikleri veya UEFA’nın nihai kayıt ekranındaki olası teknik güncellemeler ayrıca doğrulanmadı. Liste dışında kalan oyuncuların neden kadroya alınmadığına ilişkin resmi gerekçe açıklanmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T16:56:00.000Z",
-      "discoveredAt": "2026-09-03T18:20:59.376Z",
-      "sources": [
-        {
-          "title": "Galatasarayımızın Şampiyonlar Ligi oyuncu listesi belli oldu",
-          "publisher": "Galatasaray Spor Kulübü",
-          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/galatasarayimizin-sampiyonlar-ligi-oyuncu-listesi-belli-oldu/60886",
-          "publishedAt": "2026-09-03T19:56:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Galatasaray’ın Şampiyonlar Ligi kadrosu belli oldu",
-          "publisher": "DHA",
-          "url": "https://www.dha.com.tr/spor/galatasarayin-sampiyonlar-ligi-kadrosu-belli-oldu-2938654",
-          "publishedAt": "2026-09-03T19:53:00+03:00",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Galatasaray’ın Şampiyonlar Ligi kadrosu açıklandı",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/galatasarayin-sampiyonlar-ligi-kadrosu-aciklandi",
-          "publishedAt": "2026-09-03T16:33:00+03:00",
           "sourceRole": "independent_verification"
         }
       ]
