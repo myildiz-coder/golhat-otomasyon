@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T16:32:44.528Z",
+  "updatedAt": "2026-09-05T18:34:52.336Z",
   "sources": [
     {
       "name": "FotMob",
@@ -32,10 +32,10 @@
           "stage": "",
           "home": "Fenerbahçe",
           "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 1,
+          "awayScore": 2,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
@@ -472,10 +472,10 @@
           "stage": "",
           "home": "Fenerbahçe",
           "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 1,
+          "awayScore": 1,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
