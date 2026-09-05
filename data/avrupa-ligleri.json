@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:23:01.117Z",
+  "updatedAt": "2026-09-05T00:32:36.484Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -317,7 +317,7 @@
       "fixtures": [
         {
           "id": 5795443,
-          "date": "2026-09-05T11:30:00Z",
+          "date": "2026-09-05T11:30:00.000Z",
           "timestamp": 1788607800,
           "round": "3",
           "status": "NS",
@@ -331,7 +331,7 @@
         },
         {
           "id": 5795436,
-          "date": "2026-09-05T14:00:00Z",
+          "date": "2026-09-05T14:00:00.000Z",
           "timestamp": 1788616800,
           "round": "3",
           "status": "NS",
@@ -345,7 +345,7 @@
         },
         {
           "id": 5795437,
-          "date": "2026-09-05T14:00:00Z",
+          "date": "2026-09-05T14:00:00.000Z",
           "timestamp": 1788616800,
           "round": "3",
           "status": "NS",
@@ -359,7 +359,7 @@
         },
         {
           "id": 5795439,
-          "date": "2026-09-05T14:00:00Z",
+          "date": "2026-09-05T14:00:00.000Z",
           "timestamp": 1788616800,
           "round": "3",
           "status": "NS",
@@ -373,7 +373,7 @@
         },
         {
           "id": 5795442,
-          "date": "2026-09-05T14:00:00Z",
+          "date": "2026-09-05T14:00:00.000Z",
           "timestamp": 1788616800,
           "round": "3",
           "status": "NS",
@@ -387,7 +387,7 @@
         },
         {
           "id": 5795444,
-          "date": "2026-09-05T14:00:00Z",
+          "date": "2026-09-05T14:00:00.000Z",
           "timestamp": 1788616800,
           "round": "3",
           "status": "NS",
@@ -401,7 +401,7 @@
         },
         {
           "id": 5795440,
-          "date": "2026-09-05T16:30:00Z",
+          "date": "2026-09-05T16:30:00.000Z",
           "timestamp": 1788625800,
           "round": "3",
           "status": "NS",
@@ -494,21 +494,6 @@
       "standings": [
         {
           "rank": 1,
-          "teamId": 8633,
-          "team": "Real Madrid",
-          "played": 4,
-          "won": 3,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 10,
-          "goalsAgainst": 2,
-          "goalDifference": 8,
-          "points": 10,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 2,
           "teamId": 8634,
           "team": "Barcelona",
           "played": 3,
@@ -523,7 +508,37 @@
           "description": "#2AD572"
         },
         {
+          "rank": 2,
+          "teamId": 8633,
+          "team": "Real Madrid",
+          "played": 4,
+          "won": 3,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 3,
+          "goalDifference": 7,
+          "points": 9,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
           "rank": 3,
+          "teamId": 8603,
+          "team": "Real Betis",
+          "played": 4,
+          "won": 3,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 5,
+          "goalDifference": 0,
+          "points": 9,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 9906,
           "team": "Atlético Madrid",
           "played": 3,
@@ -538,7 +553,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": 9866,
           "team": "Deportivo Alavés",
           "played": 3,
@@ -550,10 +565,10 @@
           "goalDifference": 4,
           "points": 7,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 8371,
           "team": "Osasuna",
           "played": 3,
@@ -563,21 +578,6 @@
           "goalsFor": 3,
           "goalsAgainst": 1,
           "goalDifference": 2,
-          "points": 7,
-          "form": "",
-          "description": "#0046A7"
-        },
-        {
-          "rank": 6,
-          "teamId": 8603,
-          "team": "Real Betis",
-          "played": 4,
-          "won": 2,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 4,
-          "goalsAgainst": 5,
-          "goalDifference": -1,
           "points": 7,
           "form": "",
           "description": "#02CCF0"
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868042,
-          "date": "2026-09-05T14:15:00Z",
+          "date": "2026-09-05T14:15:00.000Z",
           "timestamp": 1788617700,
           "round": "4",
           "status": "NS",
@@ -810,7 +810,7 @@
         },
         {
           "id": 5868048,
-          "date": "2026-09-05T16:30:00Z",
+          "date": "2026-09-05T16:30:00.000Z",
           "timestamp": 1788625800,
           "round": "4",
           "status": "NS",
@@ -824,7 +824,7 @@
         },
         {
           "id": 5868050,
-          "date": "2026-09-05T19:00:00Z",
+          "date": "2026-09-05T19:00:00.000Z",
           "timestamp": 1788634800,
           "round": "4",
           "status": "NS",
@@ -979,9 +979,9 @@
           "won": 2,
           "drawn": 1,
           "lost": 0,
-          "goalsFor": 6,
+          "goalsFor": 7,
           "goalsAgainst": 3,
-          "goalDifference": 3,
+          "goalDifference": 4,
           "points": 7,
           "form": "",
           "description": "#2AD572"
@@ -1250,8 +1250,8 @@
           "drawn": 0,
           "lost": 3,
           "goalsFor": 1,
-          "goalsAgainst": 6,
-          "goalDifference": -5,
+          "goalsAgainst": 7,
+          "goalDifference": -6,
           "points": 0,
           "form": "",
           "description": "#FF4646"
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749663,
-          "date": "2026-09-05T13:00:00Z",
+          "date": "2026-09-05T13:00:00.000Z",
           "timestamp": 1788613200,
           "round": "3",
           "status": "NS",
@@ -1289,7 +1289,7 @@
         },
         {
           "id": 5749666,
-          "date": "2026-09-05T16:00:00Z",
+          "date": "2026-09-05T16:00:00.000Z",
           "timestamp": 1788624000,
           "round": "3",
           "status": "NS",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": 5749660,
-          "date": "2026-09-05T18:45:00Z",
+          "date": "2026-09-05T18:45:00.000Z",
           "timestamp": 1788633900,
           "round": "3",
           "status": "NS",
@@ -1452,6 +1452,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 9829,
+          "team": "Monaco",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": 4,
+          "points": 9,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 9748,
           "team": "Lyon",
           "played": 3,
@@ -1466,7 +1481,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "teamId": 8639,
           "team": "Lille",
           "played": 3,
@@ -1475,21 +1490,6 @@
           "lost": 0,
           "goalsFor": 5,
           "goalsAgainst": 2,
-          "goalDifference": 3,
-          "points": 7,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 3,
-          "teamId": 9829,
-          "team": "Monaco",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
           "goalDifference": 3,
           "points": 7,
           "form": "",
@@ -1572,21 +1572,6 @@
         },
         {
           "rank": 9,
-          "teamId": 9847,
-          "team": "Paris Saint-Germain",
-          "played": 3,
-          "won": 0,
-          "drawn": 3,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
-          "points": 3,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 10,
           "teamId": 8121,
           "team": "Angers",
           "played": 2,
@@ -1601,7 +1586,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 10,
           "teamId": 9848,
           "team": "Strasbourg",
           "played": 2,
@@ -1616,7 +1601,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 11,
           "teamId": 8521,
           "team": "Brest",
           "played": 2,
@@ -1626,6 +1611,21 @@
           "goalsFor": 4,
           "goalsAgainst": 4,
           "goalDifference": 0,
+          "points": 2,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
+          "teamId": 9847,
+          "team": "Paris Saint-Germain",
+          "played": 3,
+          "won": 0,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1,
           "points": 2,
           "form": "",
           "description": ""
@@ -1724,7 +1724,7 @@
       "fixtures": [
         {
           "id": 5802921,
-          "date": "2026-09-05T15:15:00Z",
+          "date": "2026-09-05T15:15:00.000Z",
           "timestamp": 1788621300,
           "round": "3",
           "status": "NS",
@@ -1738,7 +1738,7 @@
         },
         {
           "id": 5802920,
-          "date": "2026-09-05T18:45:00Z",
+          "date": "2026-09-05T18:45:00.000Z",
           "timestamp": 1788633900,
           "round": "3",
           "status": "NS",
@@ -1752,7 +1752,7 @@
         },
         {
           "id": 5802924,
-          "date": "2026-09-05T18:45:00Z",
+          "date": "2026-09-05T18:45:00.000Z",
           "timestamp": 1788633900,
           "round": "3",
           "status": "NS",
@@ -2173,7 +2173,7 @@
       "fixtures": [
         {
           "id": 5881152,
-          "date": "2026-09-05T13:30:00Z",
+          "date": "2026-09-05T13:30:00.000Z",
           "timestamp": 1788615000,
           "round": "2",
           "status": "NS",
@@ -2187,7 +2187,7 @@
         },
         {
           "id": 5881153,
-          "date": "2026-09-05T13:30:00Z",
+          "date": "2026-09-05T13:30:00.000Z",
           "timestamp": 1788615000,
           "round": "2",
           "status": "NS",
@@ -2201,7 +2201,7 @@
         },
         {
           "id": 5881156,
-          "date": "2026-09-05T13:30:00Z",
+          "date": "2026-09-05T13:30:00.000Z",
           "timestamp": 1788615000,
           "round": "2",
           "status": "NS",
@@ -2215,7 +2215,7 @@
         },
         {
           "id": 5881157,
-          "date": "2026-09-05T13:30:00Z",
+          "date": "2026-09-05T13:30:00.000Z",
           "timestamp": 1788615000,
           "round": "2",
           "status": "NS",
@@ -2229,7 +2229,7 @@
         },
         {
           "id": 5881160,
-          "date": "2026-09-05T13:30:00Z",
+          "date": "2026-09-05T13:30:00.000Z",
           "timestamp": 1788615000,
           "round": "2",
           "status": "NS",
@@ -2243,7 +2243,7 @@
         },
         {
           "id": 5881158,
-          "date": "2026-09-05T16:30:00Z",
+          "date": "2026-09-05T16:30:00.000Z",
           "timestamp": 1788625800,
           "round": "2",
           "status": "NS",
@@ -2622,7 +2622,7 @@
       "fixtures": [
         {
           "id": 5781737,
-          "date": "2026-09-05T14:30:00Z",
+          "date": "2026-09-05T14:30:00.000Z",
           "timestamp": 1788618600,
           "round": "5",
           "status": "NS",
@@ -2636,7 +2636,7 @@
         },
         {
           "id": 5781733,
-          "date": "2026-09-05T16:45:00Z",
+          "date": "2026-09-05T16:45:00.000Z",
           "timestamp": 1788626700,
           "round": "5",
           "status": "NS",
@@ -2650,7 +2650,7 @@
         },
         {
           "id": 5781735,
-          "date": "2026-09-05T18:00:00Z",
+          "date": "2026-09-05T18:00:00.000Z",
           "timestamp": 1788631200,
           "round": "5",
           "status": "NS",
@@ -2664,7 +2664,7 @@
         },
         {
           "id": 5781739,
-          "date": "2026-09-05T19:00:00Z",
+          "date": "2026-09-05T19:00:00.000Z",
           "timestamp": 1788634800,
           "round": "5",
           "status": "NS",
