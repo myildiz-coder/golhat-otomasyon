@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T02:52:49.787Z",
+  "updatedAt": "2026-09-05T03:16:56.877Z",
   "stories": [
+    {
+      "id": "15c4e67fc8884aa0",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Beşiktaş, Emrecan Uzunhan’ın İstanbulspor’a kesin transferini açıkladı",
+      "summary": "Beşiktaş, savunma oyuncusu Emrecan Uzunhan’ın İstanbulspor’a kesin transferi konusunda anlaşmaya varıldığını 4 Eylül 2026 Cuma günü duyurdu. Transfer, kulübün resmî açıklaması ve bağımsız haber doğrulamasıyla kesinleşti.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Emrecan Uzunhan’ın İstanbulspor’a transferini açıkladı",
+      "seoDescription": "Beşiktaş, Emrecan Uzunhan’ın İstanbulspor’a kesin transferini duyurdu. Gelişmenin resmî açıklama ve bağımsız doğrulama ayrıntıları burada.",
+      "focusKeyword": "Emrecan Uzunhan İstanbulspor transferi",
+      "originalAngle": "Transfer döneminin son gününde Beşiktaş kadrosundan ayrılan isim netleşti; gelişmenin yeni oyuncu katılımından ziyade savunma rotasyonundaki bir ayrılığı kesinleştirmesi haber değerini taşıyor.",
+      "keyFindings": [
+        "Beşiktaş, Emrecan Uzunhan’ın İstanbulspor’a kesin transferi için anlaşma sağlandığını açıkladı.",
+        "Kulübün 4 Eylül 2026 tarihli duyurusu, transferin kiralık değil kesin transfer olarak gerçekleştiğini belirtiyor.",
+        "Bağımsız haber doğrulaması İstanbulspor’un da oyuncuyu yeniden kadrosuna kattığını duyurduğunu aktarıyor; ancak transfer bedeli ve sözleşme süresi kaynaklarda açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmî kulüp açıklaması, transferin niteliğini belirleyen birincil kaynak olarak incelendi; haber tarihi ve transferin kesin niteliği Anadolu Ajansı kaynaklı Habertürk Spor haberiyle çapraz kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli, oyuncunun İstanbulspor ile sözleşme süresi ve ödeme koşulları doğrulanmış kaynaklarda açıklanmadığı için habere eklenmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:13:00.000Z",
+      "discoveredAt": "2026-09-05T03:16:56.877Z",
+      "sources": [
+        {
+          "title": "Emrecan Uzunhan, İstanbulspor’a Transfer Oldu",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95051",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Emrecan Uzunhan, İstanbulspor’a transfer oldu!",
+          "publisher": "Habertürk Spor",
+          "url": "https://www.haberturk.com/spor/emrecan-uzunhan-istanbulspor-a-transfer-oldu-3910379",
+          "publishedAt": "2026-09-04T23:13:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "d65f29348bb73c87",
       "role": "anadolu",
@@ -9642,57 +9686,6 @@
           "publisher": "Topps Ripped",
           "url": "https://ripped.topps.com/uk/introducing-the-uefa-champions-league-debut-patch",
           "publishedAt": "2026-08-27",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "d451858e21a000b6",
-      "role": "trabzonspor",
-      "page": "trabzonspor.html",
-      "headline": "Trabzonspor, Franculino Dju transferini resmileştirdi",
-      "summary": "Trabzonspor, Midtjylland’ın 22 yaşındaki forveti Franculino Gludo Dju ile 4+1 yıllık sözleşme imzaladı. Transfer için 17 milyon avro bonservis ve şarta bağlı bonuslar ödenecek.",
-      "tag": "Kesinleşti",
-      "importance": 95,
-      "contentType": "news",
-      "seoTitle": "Trabzonspor Franculino Dju transferini resmileştirdi",
-      "seoDescription": "Trabzonspor, Franculino Dju’yu 4+1 yıllığına kadrosuna kattı. Midtjylland’a ödenecek bonservis ve sözleşme ayrıntılarıyla transferin etkisini inceleyin.",
-      "focusKeyword": "Franculino Dju Trabzonspor",
-      "originalAngle": "Trabzonspor’un transferi yalnızca yeni bir santrfor hamlesi değil; kulübün yüksek bonservisli genç oyuncu yatırım modelini sürdürdüğünü gösteren en somut adımlardan biri. Haber değerini artıran ayrıntı, 17 milyon avroluk bedelin sekiz taksite yayılması ve sonraki satıştan Midtjylland’a yüzde 15 pay verilmesi.",
-      "keyFindings": [
-        "Trabzonspor, Franculino Gludo Dju’nun kesin transferi için Midtjylland ile anlaşmaya vardı.",
-        "Oyuncuyla 4+1 yıllık sözleşme imzalandı; garanti ücret yıllık 2 milyon 125 bin avro olarak açıklandı.",
-        "Midtjylland’a 17 milyon avro bonservis sekiz taksitte ödenecek ve sonraki satıştan yüzde 15 pay verilecek.",
-        "Transferin sportif karşılığı, Trabzonspor’un forvet rotasyonunu güçlendirmesi ve genç yaşta yüksek yatırım yapılan bir hücum oyuncusunu kadroya katması olacak."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Trabzonspor’un resmi duyurusu, KAP’a dayanan Anadolu Ajansı haberi ve DHA’nın bağımsız aktarımı karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Oyuncunun Trabzonspor formasıyla ilk maç tarihi, ilk 11 rolü ve performans etkisi henüz bilinmiyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "publishedAt": "2026-09-02T21:29:00.000Z",
-      "discoveredAt": "2026-09-03T08:27:12.156Z",
-      "sources": [
-        {
-          "title": "Kamuoyuna Duyuru",
-          "publisher": "Trabzonspor Kulübü",
-          "url": "https://www.trabzonspor.org.tr/tr/haberler/kamuoyuna-duyuru-76-02-09-2026",
-          "publishedAt": "2026-09-02T23:53:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Trabzonspor, Franculino Gludo Dju'yu renklerine bağladı",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/tr/spor/trabzonspor-franculino-gludo-djuyu-renklerine-bagladi/4045833",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Trabzonspor, forvet transferini duyurdu",
-          "publisher": "DHA",
-          "url": "https://www.dha.com.tr/yerel-haberler/trabzon/trabzonspor-forvet-transferini-duyurdu-2938092",
-          "publishedAt": "2026-09-03T00:29:00+03:00",
           "sourceRole": "independent_verification"
         }
       ]
