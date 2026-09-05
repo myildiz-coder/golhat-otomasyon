@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:32:59.677Z",
+  "updatedAt": "2026-09-05T12:50:01.686Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "AFC Bournemouth",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": null,
+      "minute": 61,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
