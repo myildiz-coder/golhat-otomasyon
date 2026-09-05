@@ -1,7 +1,102 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T04:35:58.420Z",
+  "updatedAt": "2026-09-05T05:15:27.638Z",
   "stories": [
+    {
+      "id": "2e11e718e2e5d2f9",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Çaykur Rizespor, Can Bozdoğan ve Gennaro Borrelli’yi kadrosuna kattı",
+      "summary": "Çaykur Rizespor, transfer döneminin son gününde orta saha oyuncusu Can Bozdoğan ile iki yıllık anlaşma imzalarken Cagliari’den santrfor Gennaro Borrelli’yi de kadrosuna kattı.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Çaykur Rizespor’dan son günde iki transfer",
+      "seoDescription": "Çaykur Rizespor, Can Bozdoğan ve Gennaro Borrelli transferlerini açıkladı. İki oyuncunun Rizespor kadrosundaki olası rolü haberimizde.",
+      "focusKeyword": "Çaykur Rizespor Can Bozdoğan Gennaro Borrelli",
+      "originalAngle": "Rizespor’un iki farklı bölgeye yaptığı takviye, transfer döneminin son gününde kadro derinliğini artırma hamlesi olarak öne çıkıyor: Bozdoğan orta sahaya, Borrelli ise santrfor hattına eklendi. Bundan sonraki soru, iki oyuncunun takımın ligdeki hücum planına ne zaman dahil edileceği.",
+      "keyFindings": [
+        "Çaykur Rizespor, Can Bozdoğan ile iki yıllık sözleşme imzaladı.",
+        "Kulüp, Cagliari’de forma giyen Gennaro Borrelli’yi de kadrosuna kattığını açıkladı.",
+        "İki transfer de kulübün resmî sitesi üzerinden duyuruldu; bonservis ve sözleşme ayrıntıları kamuya açıklanmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Çaykur Rizespor’un resmî duyuruları, Anadolu Ajansı’nın transfer akışı ve kulüp haber sayfasındaki yayın tarihleri karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Borrelli’nin sözleşme süresi ile her iki transferin mali koşulları açıklanmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T05:15:27.638Z",
+      "discoveredAt": "2026-09-05T05:15:27.638Z",
+      "sources": [
+        {
+          "title": "Can Bozdoğan Çaykur Rizespor’da",
+          "publisher": "Çaykur Rizespor",
+          "url": "https://www.caykurrizespor.org.tr/haber/can-bozdogan-caykur-rizespor-da-6373",
+          "publishedAt": "2026-09-04T21:42:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Çaykur Rizespor Kulübü Resmi Web Sitesi",
+          "publisher": "Çaykur Rizespor",
+          "url": "https://www.caykurrizespor.org.tr/Haber/ISMAIL-KARTAL-BASIN-TOPLANTISI-4550.html",
+          "publishedAt": "2026-09-04T22:01:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Çaykur Rizespor, Can Bozdoğan'ı renklerine bağladı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/futbol/ziraat-",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "f55463c97a35cd06",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Trabzonspor, Ali Habeşoğlu ile 3+1 yıllık sözleşme imzaladı",
+      "summary": "Trabzonspor, Bodrum FK’dan 22 yaşındaki forvet Ali Habeşoğlu’nun kesin transferini tamamladı. Bordo-mavililer, oyuncu için 1 milyon 650 bin avroluk fesih bedelini beş taksitte ödeyecek.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Trabzonspor, Ali Habeşoğlu transferini tamamladı",
+      "seoDescription": "Trabzonspor, Bodrum FK’dan Ali Habeşoğlu ile 3+1 yıllık sözleşme imzaladı. Transferin bedeli ve ücret yapısının ayrıntıları burada.",
+      "focusKeyword": "Ali Habeşoğlu Trabzonspor transferi",
+      "originalAngle": "Transferin son gününde tamamlanan anlaşmanın haber değeri yalnızca genç forvetin kadroya katılması değil; Trabzonspor’un oyuncuyu uzun vadeli sözleşme ve satış payı modeliyle yatırım dosyasına dönüştürmesi. Bundan sonraki temel soru, Habeşoğlu’nun ilk takım rotasyonunda ne kadar süre alacağıdır.",
+      "keyFindings": [
+        "Trabzonspor, Ali Habeşoğlu’nun kesin transferi için Bodrum FK ile anlaşmaya vardı ve oyuncuyla 3+1 yıllık sözleşme imzaladı.",
+        "Bodrum FK’ya ödenecek 1 milyon 650 bin avroluk fesih bedeli beş taksite bölündü; sonraki satıştan doğacak bedelin belirli kısmı için de anlaşma yapıldı.",
+        "Oyuncuya ilk üç sezon için 16, 19 ve 22 milyon lira garanti ücret ödenecek; Trabzonspor opsiyonu kullanırsa dördüncü sezon ücreti 25 milyon lira olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Transfer, Trabzonspor’un KAP bildirimini aktaran finans-haber kaynağı ile Anadolu Ajansı’nın bağımsız haberinde karşılaştırıldı. Sözleşme süresi, fesih bedeli ve ücret kalemleri iki kaynakta da aynı çerçevede doğrulandı.",
+      "originalFindings": [],
+      "limitations": "KAP bildiriminde yer alan mali şartlar doğrulandı; ancak oyuncunun Trabzonspor’un maç kadrosundaki rolü ve ilk takımda alacağı süre henüz bilinmiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T20:23:00.000Z",
+      "discoveredAt": "2026-09-05T05:15:27.638Z",
+      "sources": [
+        {
+          "title": "TRABZONSPOR - KAP Haberleri - 2026-09-04 tarihli",
+          "publisher": "Bloomberg HT",
+          "url": "https://www.bloomberght.com/borsa/hisse/trabzonspor/kap-haberi/348644",
+          "publishedAt": "2026-09-04T23:23:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Trabzonspor, Ali Habeşoğlu'nu kadrosuna kattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/trabzonspor-ali-habesoglunu-kadrosuna-katti/4047841",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "d1dda8b0209e2e04",
       "role": "galatasaray",
@@ -9697,123 +9792,6 @@
           "publisher": "Habertürk Spor",
           "url": "https://www.haberturk.com/spor/son-dakika-fenerbahce-besiktas-derbisinin-hakemi-belli-oldu-3910045",
           "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "ae5b82eb8264f450",
-      "role": "yorum",
-      "page": "yorum.html",
-      "headline": "Zirve aynı puanda, yük aynı değil: Fenerbahçe-Galatasaray yarışında ilk eşik",
-      "summary": "3 Eylül 2026 itibarıyla Galatasaray, üç haftada topladığı 7 puan ve +5 averajla lider; Fenerbahçe ise 6 puanla dördüncü sırada. İki takımın son üç maçtaki üretimi güçlü görünse de Fenerbahçe’nin beş sakatlıkla daha daralan kadrosu ve 10 Eylül’de başlayacak Şampiyonlar Ligi lig aşaması, yarışın erken bölümünde takvim yönetimini belirleyici hâle getiriyor. Galatasaray’ın Başakşehir deplasmanı ve Fenerbahçe’nin Beşiktaş derbisi öncesindeki temel soru, kimin daha iyi olduğu değil, yoğun fikstürün kimden daha az bedel alacağı.",
-      "tag": "Yorum",
-      "importance": 82,
-      "contentType": "analysis",
-      "seoTitle": "Fenerbahçe-Galatasaray yarışında ilk güç dengesi",
-      "seoDescription": "Fenerbahçe ve Galatasaray’ın 3 Eylül 2026’daki puan, form, kadro ve Avrupa takvimini karşılaştıran tarafsız güç dengesi analizi.",
-      "focusKeyword": "Fenerbahçe Galatasaray güç dengesi 2026-27",
-      "originalAngle": "Erken puan tablosu iki büyük takım arasında yalnızca iki puanlık bir fark gösteriyor; fakat asıl ayrım sonuçlarda değil, bu sonuçların hangi kadro ve takvim koşullarında üretildiğinde ortaya çıkıyor. Galatasaray liderliği daha düşük sakatlık yüküyle korumaya çalışırken Fenerbahçe, Avrupa elemelerinden lig aşamasına geçişin fiziksel ve taktik maliyetini yönetmek zorunda.",
-      "keyFindings": [
-        "TFF’nin 3 Eylül 2026 tarihli cetvelinde Galatasaray üç maç sonunda 7 puan ve +5 averajla lider; Fenerbahçe 6 puan ve +3 averajla dördüncü sırada yer alıyor. İki takım arasındaki fark iki puan.",
-        "Fenerbahçe ligde Gençlerbirliği’ne karşı 1-2 yenilginin ardından Konyaspor’u 4-2 ve Samsunspor’u 2-0 mağlup etti; ayrıca 26 Ağustos’ta Lyon deplasmanında 2-1 kazanarak Avrupa elemelerindeki son maçını geçti.",
-        "Galatasaray ilk üç lig maçında Çorum FK ile 2-2 berabere kaldı, Erzurumspor FK’yı 4-0 ve Göztepe’yi 3-2 yendi. Bu seri, takımın hücum üretimini gösterirken Göztepe karşısında kalesinde iki gol görmesi savunma tarafında kusursuzluk olmadığını da ortaya koyuyor.",
-        "Canlı kadro özetinde Fenerbahçe’nin 33 kişilik kadrosunda 5 sakat, Galatasaray’ın 32 kişilik kadrosunda 1 sakat oyuncu bulunuyor. Bu veri, mevcut anda Galatasaray’ın rotasyon sürekliliği bakımından daha elverişli bir tabloya sahip olduğuna işaret ediyor; ancak sakat oyuncuların kimlikleri ve dönüş tarihleri bu çalışmada doğrulanmadı.",
-        "4 Eylül’de Başakşehir-Galatasaray, 5 Eylül’de Fenerbahçe-Beşiktaş oynanacak. Fenerbahçe 10 Eylül’de Roma’yı, Galatasaray ise 9 Eylül’de Sporting CP’yi konuk olacakları Şampiyonlar Ligi lig aşaması maçlarıyla karşılaşacak.",
-        "UEFA’nın 2026-27 lig aşaması fikstürü, iki takımın da eylül ayını yalnızca lig içi rekabetle değil, Avrupa seviyesinde yüksek tempolu rakiplerle birlikte yürütmek zorunda olduğunu doğruluyor. Bu nedenle ilk haftalardaki güç dengesi, tek maçlık kalite farkından çok kadro devamlılığı ve maçlar arası toparlanma kapasitesiyle şekillenecek."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "TFF’nin resmî puan cetveli ve 4. hafta fikstürü; kulüplerin ve maç veri sağlayıcısının yayımladığı takım, sonuç, kadro ve yaklaşan maç bilgileri; UEFA’nın 2026-27 Şampiyonlar Ligi lig aşaması ve eşleşme duyuruları karşılaştırıldı. Yorum, yalnızca aynı tarih aralığında doğrulanabilen puan, sonuç, fikstür ve kadro özeti verileri üzerine kuruldu. Transfer söylentileri ve kaynağı bağımsız biçimde doğrulanamayan iddialar kullanılmadı.",
-      "originalFindings": [
-        "Galatasaray’ın iki puanlık liderliği, üç haftalık örneklemde tek başına kalıcı bir kalite üstünlüğü kanıtlamıyor; ancak +5 averaj ve yalnızca bir sakatlıkla başlangıç yapması, kısa vadeli istikrar bakımından Fenerbahçe’ye göre daha rahat bir zemin oluşturuyor.",
-        "Fenerbahçe’nin son üç maçtaki üç galibiyeti, Avrupa eleme başarısıyla birlikte sonuç üretme kapasitesini gösteriyor. Buna karşılık beş sakatlık ve Roma maçı öncesindeki Beşiktaş derbisi, teknik heyetin ilk sınavını oyun kalitesinden önce rotasyon yönetimine taşıyor.",
-        "Galatasaray’ın Başakşehir deplasmanı, liderliği koruma; Fenerbahçe-Beşiktaş derbisi ise altı puanlı iki takım arasındaki doğrudan güç ölçümü niteliğinde. Bu iki maçın sonuçları, dördüncü hafta sonunda puan tablosundaki erken kümelenmeyi yeniden biçimlendirebilir.",
-        "Şampiyonlar Ligi’nde iki kulübün de lig aşamasına kalması, Türkiye’deki yarışın prestijini artırırken lig performansı üzerindeki takvim baskısını da yükseltiyor. Bu sezonun kritik stratejik sorusu, yıldız oyuncu kalitesinden ziyade Avrupa haftalarında ilk 11 seviyesini ne kadar koruyabilecekleri olacak."
-      ],
-      "limitations": "TFF puan cetveli ve fikstür doğrulandı; ancak iki kulübün 3 Eylül 2026 tarihinde yayımladığı ayrıntılı antrenman, sakatlık teşhisi, oyuncu dönüş takvimi ve muhtemel ilk 11 bilgileri bu çalışmada bağımsız biçimde doğrulanamadı. Bu nedenle sakatlık sayıları yalnızca canlı veri özetindeki takım verisi olarak kullanıldı; oyuncu bazlı sonuç çıkarılmadı. Sezonun henüz üçüncü hafta sonunda olması nedeniyle güç dengesi hükmü erken dönem fotoğrafıdır, kesin şampiyonluk öngörüsü değildir.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "GOLHAT-2026-09-03-YORUM-FB-GS-GUC-DENGESI",
-      "authorName": "Mustafa YILDIZ",
-      "publishedAt": "2026-09-03T10:09:46.000Z",
-      "discoveredAt": "2026-09-03T13:09:46.945Z",
-      "sources": [
-        {
-          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/default.aspx?pageID=198",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Fenerbahçe - fixtures, team info and top players",
-          "publisher": "FotMob",
-          "url": "https://www.fotmob.com/teams/8695/overview/fenerbahce",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Galatasaray - fixtures, team info and top players",
-          "publisher": "FotMob",
-          "url": "https://www.fotmob.com/teams/8637/overview/galatasaray",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "2026/27 Champions League: All the league phase fixtures",
-          "publisher": "UEFA",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000",
-          "publishedAt": "2026-08-29",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Champions League league phase fixtures by team",
-          "publisher": "UEFA",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team",
-          "publishedAt": "2026-08-29",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "831975d7a54d9e5b",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Panathinaikos, Azzedine Ounahi’yi dört yıllığına kadrosuna kattı",
-      "summary": "Panathinaikos, Girona’dan ayrılan Azzedine Ounahi’nin bonservisiyle transfer edildiğini ve Faslı orta saha oyuncusuyla dört yıllık sözleşme imzalandığını açıkladı. Gelişme, kulübün 2024-2025 sezonundaki kiralık dönemden sonra oyuncuyu yeniden kadroya katması bakımından dikkat çekiyor.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Panathinaikos, Azzedine Ounahi transferini açıkladı",
-      "seoDescription": "Panathinaikos, Girona’dan Azzedine Ounahi’yi bonservisiyle aldı ve Faslı orta saha oyuncusuyla dört yıllık sözleşme imzaladı.",
-      "focusKeyword": "Azzedine Ounahi Panathinaikos transferi",
-      "originalAngle": "Panathinaikos’un Ounahi’yi yeniden kiralamak yerine bonservisiyle alması, 2024-2025 sezonundaki kiralık katkının kalıcı kadro planına dönüştüğünü gösteriyor; bundan sonraki temel soru, oyuncunun orta saha düzenindeki rolünün nasıl şekilleneceği.",
-      "keyFindings": [
-        "Panathinaikos, Azzedine Ounahi’nin Girona’dan bonservisiyle transfer edildiğini resmi olarak duyurdu.",
-        "26 yaşındaki Faslı orta saha oyuncusu dört yıllık sözleşmeye imza attı.",
-        "Ounahi, 2024-2025 sezonunda Panathinaikos’ta kiralık olarak forma giymişti; yeni anlaşma oyuncunun kulübe kalıcı dönüşünü sağladı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Panathinaikos’un 3 Eylül 2026 tarihli resmi transfer açıklaması, aynı gün yayımlanan Gazzetta haberindeki transfer ve sözleşme bilgileriyle karşılaştırıldı. Her iki kaynak da oyuncunun Girona’dan Panathinaikos’a geçtiğini ve dört yıllık sözleşme imzaladığını doğruluyor.",
-      "originalFindings": [],
-      "limitations": "Transfer bedeli resmi kulüp açıklamasında paylaşılmadı. Gazzetta’nın ücret ve bonservisle ilgili aktardığı ayrıntılar bu nedenle haberin merkezine alınmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-02T22:58:00.000Z",
-      "discoveredAt": "2026-09-03T12:48:48.287Z",
-      "sources": [
-        {
-          "title": "Azzedine Ounahi returns to Panathinaikos",
-          "publisher": "Panathinaikos FC",
-          "url": "https://www.pao.gr/en/transfer/azzedine-ounahi-returns-to-panathinaikos",
-          "publishedAt": "2026-09-03T01:58:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Ουναΐ: Αυτό είναι το νούμερο που θα φοράει στον Παναθηναϊκό",
-          "publisher": "Gazzetta Greece",
-          "url": "https://www.gazzetta.gr/football/superleague/2566107/oynai-ayto-einai-noymero-poy-tha-foraei-ston-panathinaiko",
-          "publishedAt": "2026-09-03T11:17:00+03:00",
           "sourceRole": "independent_verification"
         }
       ]
