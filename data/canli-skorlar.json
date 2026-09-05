@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:21:12.058Z",
+  "updatedAt": "2026-09-05T15:35:25.610Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 14,
+    "live": 9,
     "upcoming": 12,
-    "finished": 2
+    "finished": 7
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Konyaspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 62,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Brentford",
       "away": "Sunderland",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 56,
+      "minute": 70,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "Brighton & Hove Albion",
       "away": "Leeds United",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 63,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Crystal Palace",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 60,
+      "minute": 75,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Coventry City",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 63,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Tottenham Hotspur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Athletic Club",
       "away": "Atlético Madrid",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,10 +311,10 @@
       "away": "Union Berlin",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881153,
@@ -328,11 +328,11 @@
       "home": "Borussia Mönchengladbach",
       "away": "Elversberg",
       "homeScore": 3,
-      "awayScore": 3,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 4,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881156,
@@ -347,10 +347,10 @@
       "away": "Borussia Dortmund",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881157,
@@ -365,10 +365,10 @@
       "away": "Freiburg",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881160,
@@ -382,11 +382,11 @@
       "home": "Werder Bremen",
       "away": "RB Leipzig",
       "homeScore": 3,
-      "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881158,
@@ -419,7 +419,7 @@
       "away": "Lorient",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
