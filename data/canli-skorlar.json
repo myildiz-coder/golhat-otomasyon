@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T16:46:03.811Z",
+  "updatedAt": "2026-09-05T16:54:48.566Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -185,7 +185,7 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 16,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -219,9 +219,9 @@
       "venue": "",
       "home": "Rayo Vallecano",
       "away": "Racing Santander",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 16,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 45,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 16,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Lorient",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 73,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 1,
+      "minute": 10,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
