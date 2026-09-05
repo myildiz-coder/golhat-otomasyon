@@ -1,7 +1,215 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T09:01:08.777Z",
+  "updatedAt": "2026-09-05T09:17:21.496Z",
   "stories": [
+    {
+      "id": "ae3f7e58429b1155",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Çaykur Rizespor, Cagliari santrforu Gennaro Borrelli’yi kiraladı",
+      "summary": "Çaykur Rizespor, Cagliari’nin 2000 doğumlu santrforu Gennaro Borrelli’yi 2026-27 sezonu sonuna kadar kiralık olarak kadrosuna kattı; anlaşmada satın alma opsiyonu bulunuyor.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Çaykur Rizespor, Gennaro Borrelli’yi kiraladı",
+      "seoDescription": "Çaykur Rizespor, Cagliari santrforu Gennaro Borrelli’yi satın alma opsiyonuyla kiraladı. Transferin sözleşme süresi ve kapsamı burada.",
+      "focusKeyword": "Gennaro Borrelli Çaykur Rizespor transferi",
+      "originalAngle": "Çaykur Rizespor’un aynı gün Can Bozdoğan’dan sonra yaptığı ikinci hamle, orta saha takviyesini tamamlayan doğrudan santrfor rotasyonu yatırımı olarak öne çıkıyor; haberin kritik ayrıntısı kiralama anlaşmasındaki satın alma opsiyonu.",
+      "keyFindings": [
+        "Çaykur Rizespor, Gennaro Borrelli ile Cagliari arasındaki transfer anlaşmasını resmen duyurdu.",
+        "Borrelli, 2026-27 sezonu sonuna kadar kiralık olarak forma giyecek ve anlaşmada satın alma opsiyonu bulunuyor.",
+        "Transfer, Rizespor’un transfer döneminin son gününde hem orta saha hem santrfor bölgesine yaptığı çift yönlü takviyenin parçası oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Çaykur Rizespor ve Cagliari’nin resmî açıklamaları, bağımsız Türk spor haberiyle karşılaştırıldı; kiralama süresi ve satın alma opsiyonu iki ayrı kulüp kaynağında kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Satın alma opsiyonunun mali tutarı ve diğer sözleşme şartları kulüplerin açıklamalarında paylaşılmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T19:01:00.000Z",
+      "discoveredAt": "2026-09-05T09:17:21.496Z",
+      "sources": [
+        {
+          "title": "Gennaro Borrelli Çaykur Rizespor’da",
+          "publisher": "Çaykur Rizespor",
+          "url": "https://www.caykurrizespor.org.tr/Haber/ISMAIL-KARTAL-BASIN-TOPLANTISI-4550.html",
+          "publishedAt": "2026-09-04T22:01:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Borrelli joins Caykur Rizespor",
+          "publisher": "Cagliari Calcio",
+          "url": "https://cagliaricalcio.com/en/news/borrelli-joins-caykur-rizespor",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Çaykur Rizespor, İtalyan Borrelli'yi kadrosuna kattı",
+          "publisher": "A Spor",
+          "url": "https://www.aspor.com.tr/rizespor/2026/09/04/caykur-rizespor-italyan-borrelliyi-kadrosuna-katti",
+          "publishedAt": "2026-09-05T00:52:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "7f060fe75d685383",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gençlerbirliği, Pedro Mendes ve Rafael Luís’i aynı gün kadrosuna kattı",
+      "summary": "Gençlerbirliği, Modena’dan Pedro Mendes ile Benfica’dan Rafael Luís’i transfer etti. Mendes’le iki yıllık sözleşme imzalanırken Rafael Luís’in bonservisi Benfica’dan alındı.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Gençlerbirliği’nden Pedro Mendes ve Rafael Luís hamlesi",
+      "seoDescription": "Gençlerbirliği, Pedro Mendes ve Rafael Luís transferlerini tamamladı. İki Portekizlinin sözleşme ve bonservis ayrıntıları haberimizde.",
+      "focusKeyword": "Gençlerbirliği Pedro Mendes Rafael Luís transferi",
+      "originalAngle": "Transfer döneminin son gününde Gençlerbirliği yalnızca kadroyu genişletmedi; biri doğrudan santrfor, diğeri merkez orta saha olmak üzere iki farklı ihtiyaca aynı anda müdahale etti. Rafael Luís anlaşmasının Benfica’ya geri alım imkânı bırakması da işlemin dikkat çeken ayrıntısı.",
+      "keyFindings": [
+        "Gençlerbirliği, Modena forması giyen 27 yaşındaki Pedro Mendes’i kadrosuna kattı ve oyuncuyla iki yıllık sözleşme imzaladı.",
+        "Benfica, 21 yaşındaki Rafael Luís’in Gençlerbirliği’ne bonservisiyle transfer olduğunu duyurdu.",
+        "Benfica açıklamasına göre Portekiz kulübü oyuncunun bonservisinde payını korudu ve geri alma hakkı elde etti."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Anadolu Ajansı haberi, Benfica’nın resmî transfer duyurusu ve bağımsız Portekiz spor kaynağıyla karşılaştırıldı; iki oyuncunun transfer biçimleri ayrı ayrı kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Pedro Mendes transferinin mali şartları ve Benfica’nın Rafael Luís için belirttiği geri alım maddesinin bedeli açıklanmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T18:50:00.000Z",
+      "discoveredAt": "2026-09-05T09:17:21.496Z",
+      "sources": [
+        {
+          "title": "Gençlerbirliği, Pedro Mendes ile Rafael Luis'i kadrosuna kattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/genclerbirligi-pedro-mendes-ile-rafael-luisi-kadrosuna-katti/4047661",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Rafael Luís transferido",
+          "publisher": "SL Benfica",
+          "url": "https://media.slbenfica.pt/pt-pt/agora/noticias/2026/09/04/futebol-benfica-rafael-luis-transferido-genclerbirligi",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gençlerbirliği, segundo classificado da liga turca, contrata dois portugueses",
+          "publisher": "Zerozero",
+          "url": "https://www.zerozero.pt/noticias/genclerbirli-i-segundo-classificado-da-liga-turca-contrata-dois-portugueses/1193870",
+          "publishedAt": "2026-09-04T17:55:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "07c717001efd7064",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Türkiye’de 2026-27 yaz transfer dönemi sona erdi",
+      "summary": "22 Haziran’da başlayan Türkiye’deki birinci transfer ve tescil dönemi 5 Eylül 2026’nın ilk saatlerinde kapandı. İkinci dönem 1 Ocak 2027’de başlayacak.",
+      "tag": "Kesinleşti",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Türkiye’de yaz transfer dönemi sona erdi",
+      "seoDescription": "Türkiye’de 2026-27 sezonunun birinci transfer ve tescil dönemi kapandı. Ara transfer döneminin başlangıç ve bitiş tarihleri belli oldu.",
+      "focusKeyword": "2026-27 Türkiye yaz transfer dönemi",
+      "originalAngle": "Transfer hattı açısından son günün anlamı yalnızca pencerenin kapanması değil; kulüplerin mevcut kadrolarını sezon ortasına kadar büyük ölçüde sabitlemiş olmasıdır. Bundan sonraki ana soru, serbest oyuncu statüsündeki hamlelerin ve kış dönemine kalan ihtiyaçların nasıl yönetileceğidir.",
+      "keyFindings": [
+        "Türkiye’de 2026-27 sezonunun birinci transfer ve tescil dönemi 4 Eylül’ü 5 Eylül’e bağlayan gece sona erdi.",
+        "Yaz dönemi 22 Haziran 2026’da başlamıştı.",
+        "İkinci transfer ve tescil dönemi 1 Ocak 2027’de başlayacak ve 5 Şubat 2027’de sona erecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Anadolu Ajansı’nın güncel duyurusu, TFF’nin 2026-27 sezonu transfer dönemlerine ilişkin resmî takvim belgesiyle karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Transfer döneminin kapanması, kulüplerin tüm kadro planlamasının tamamlandığı anlamına gelmez; serbest oyuncu statüsü ve federasyon kayıt şartlarına ilişkin özel durumlar bu haberin kapsamı dışındadır.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T21:00:00.000Z",
+      "discoveredAt": "2026-09-05T09:17:21.496Z",
+      "sources": [
+        {
+          "title": "Futbolda 'yaz transfer dönemi' sona erdi",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/futbolda-yaz-transfer-donemi-sona-erdi/4047864",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "2026-2027 Futbol Sezonu İlan Edilmesi Gereken Hususlar",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Resources/TFF/Auto/7acd06ee8e2d4835a3d22776a8cc7c76.pdf",
+          "publishedAt": "2026-06-2026",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "e4d8db5ebd6a995f",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Osimhen çıktı, Galatasaray’ın hücum planı ilk kez gerçek sınavını verdi",
+      "summary": "Galatasaray, Başakşehir deplasmanında 3-2 kazanarak 10 puanla liderliğini korudu; ancak Victor Osimhen’in 33. dakikada kasık rahatsızlığı nedeniyle oyundan çıkması, galibiyetin ötesinde bir kadro sorusu doğurdu. Rafael Leão’nun ilk maçta etkili olması umut verdi, fakat Sporting maçı öncesinde asıl mesele yıldız golcünün yokluğunda hücum düzeninin ne kadar sürdürülebileceğidir.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Osimhen çıktı, Galatasaray’ın hücum planı sınandı",
+      "seoDescription": "Galatasaray’ın Başakşehir galibiyeti sonrası Osimhen’in sakatlığı ve Leão’nun ilk maçının hücum planına etkisini taktik açıdan inceliyoruz.",
+      "focusKeyword": "Galatasaray Osimhen sakatlığı",
+      "originalAngle": "Başakşehir galibiyetinin asıl yeni verisi skor değil, Osimhen’in erken çıkışından sonra Galatasaray’ın hücum üretimini hangi mekanizmalarla sürdürdüğüdür. Leão’nun oyuna girdikten sonra Torreira golündeki bağlantıya katkısı, Okan Buruk’un elinde alternatif bulunduğunu gösteriyor; ancak tek maçlık etki, Osimhen’in rolünün kalıcı biçimde ikame edildiğini kanıtlamıyor.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yendi ve ligde 10 puana yükseldi. Osimhen 16. dakikada gol attıktan sonra 33. dakikada kasık rahatsızlığı nedeniyle oyundan çıktı.",
+        "Osimhen’in çıkışından sonra Galatasaray skor üretmeyi sürdürdü. Rafael Leão 68. dakikada oyuna girdi; Leão’nun Barış Alper Yılmaz’la geliştirdiği hücumun devamında Torreira 71. dakikada gol attı.",
+        "Galatasaray’ın önündeki soru, Osimhen’in sağlık durumundan bağımsız olarak, Sporting CP karşılaşması ve sonraki lig maçlarında hücum merkezini tek oyuncuya bağlı bırakmadan aynı tehdit seviyesini koruyup koruyamayacağıdır."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli Galatasaray kulüp maç raporu, beIN SPORTS maç özeti ve DHA karşılaşma akışı karşılaştırıldı. Osimhen’in sağlık durumuna ilişkin resmî kontrol sonucu bulunmadığı için sakatlığın derecesi hakkında çıkarım yapılmadı; yorum yalnızca doğrulanmış oyundan çıkış, skor akışı ve oyuncu değişikliklerine dayandırıldı.",
+      "originalFindings": [
+        "Galatasaray’ın galibiyet golü, Osimhen’in oyundan çıkmasından sonra geldi; bu durum takımın yalnızca santrfor bitiriciliğine değil, duran top ve ikinci bölgeden gelen bağlantılara da başvurabildiğini gösteriyor.",
+        "Leão’nun ilk maçında doğrudan skor üretmemesine rağmen Torreira golünün gelişiminde yer alması, yeni transferin hücum rotasyonundaki olası rolünü tartışmaya açıyor.",
+        "Başakşehir karşısında kazanılan üç puan liderliği korudu; fakat Sporting CP maçı öncesinde kadro planlamasının merkezine sonuçtan çok Osimhen’in belirsizliği yerleşti."
+      ],
+      "limitations": "Galatasaray’ın sağlık ekibinden Osimhen’in sakatlığının derecesi, kontrollerin sonucu veya Sporting CP maçında oynayıp oynayamayacağına ilişkin resmî açıklama bulunmuyor. Bu nedenle yazı, oyuncunun yokluğunu kesin kabul etmiyor. Leão’nun ilk maçındaki etkisi de tek karşılaşmayla uzun vadeli performans göstergesi sayılamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-2026-09-05-YORUM-OSIMHEN-001",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-05T06:17:21.000Z",
+      "discoveredAt": "2026-09-05T09:17:21.496Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray.org",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "GENİŞ ÖZET | Başakşehir 2-3 Galatasaray",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/basaksehir-galatasaray-2",
+          "publishedAt": "2026-09-05T05:03:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04T22:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Başakşehir - Galatasaray maçında sakatlanan Osimhen’den ilk açıklama geldi",
+          "publisher": "Ajansspor",
+          "url": "https://ajansspor.com/haber/basaksehir-galatasaray-macinda-sakatlanan-osimhenden-ilk-aciklama-geldi-734165",
+          "publishedAt": "2026-09-04T22:57:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "11330554b45e0e99",
       "role": "galatasaray",
@@ -9888,208 +10096,6 @@
           "publisher": "UEFA",
           "url": "https://www.uefa.com/uefachampionsleague/clubs/50067/matches",
           "publishedAt": "2026-09-03",
-          "sourceRole": "context"
-        }
-      ]
-    },
-    {
-      "id": "a25bed74f950ae3b",
-      "role": "yorum",
-      "page": "yorum.html",
-      "headline": "Deplasman yasağında Avrupa’nın yeni ölçüsü: Cezanın adresi tribünün tamamı olamaz",
-      "summary": "UEFA, Avrupa Kulüpleri, Football Supporters Europe ve European Leagues; deplasman taraftarlarına yönelik toplu yasakların rutin güvenlik tedbirine dönüşmemesi gerektiğini açıkladı. Avrupa Konseyi’nin tavsiyesiyle uyumlu bu yaklaşım, tribün kültüründe yeni bir soruyu öne çıkarıyor: Güvenliği sağlarken masum taraftarın deplasman hakkı nasıl korunacak?",
-      "tag": "Yorum",
-      "importance": 82,
-      "contentType": "analysis",
-      "seoTitle": "Deplasman yasağında Avrupa’nın yeni ölçüsü",
-      "seoDescription": "UEFA ve Avrupa futbol paydaşları toplu deplasman yasaklarını sınırlıyor; kararların tribün kültürü ve taraftar hakkına etkisini inceliyoruz.",
-      "focusKeyword": "deplasman taraftarlarına toplu yasak",
-      "originalAngle": "Avrupa futbolunun 3 Eylül 2026 tarihli ortak tutumu, deplasman yasağını güvenlik kararından önce bir yönetim kalitesi testine çeviriyor: Gerçek sorumluları ayırmadan bütün tribünü cezalandırmak kolay, fakat sürdürülebilir tribün düzeni ancak bireysel sorumluluk, erken iletişim ve itiraz hakkıyla kurulabilir.",
-      "keyFindings": [
-        "UEFA, Avrupa Kulüpleri, Football Supporters Europe ve European Leagues 1-2 Eylül 2026’da Madrid’de yapılan güvenlik konferansının ardından toplu deplasman yasaklarının rutin bir uygulamaya dönüşmemesi gerektiğini açıkladı.",
-        "Ortak açıklamada, şiddet veya düzensizlikten sorumlu kişilere odaklanılması; toplu yasağın ise ancak açık, güncel ve nesnel kanıtlarla başka önlemlerin yetersiz kaldığı istisnai durumlarda uygulanması gerektiği belirtildi.",
-        "Avrupa Konseyi’nin Rec(2025)1 tavsiyesi; kararların erken duyurulmasını, ilgili paydaşlarla istişareyi, gerekçelerin açıklanmasını ve uygun itiraz yollarının bulunmasını öne çıkarıyor.",
-        "Bu çerçeve, deplasman tribününü yalnızca güvenlik riski olarak gören anlayışla, tribünün futbol atmosferi ve kültürel kimlikteki rolünü birlikte değerlendiren yaklaşım arasındaki farkı görünür kılıyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "3 Eylül 2026 tarihli UEFA ortak açıklaması; UEFA’nın Madrid’deki güvenlik konferansına ilişkin resmi metni ve Avrupa Konseyi’nin toplu deplasman yasakları hakkındaki resmi tavsiye sayfasıyla karşılaştırıldı. Yorum, yalnızca bu belgelerde doğrulanan ilkeler üzerinden kurulmuştur.",
-      "originalFindings": [
-        "Yeni gelişmenin ağırlık noktası yalnızca yasakların sınırlandırılması değil, karar alma sürecinin de değişmesi talebidir.",
-        "Bireysel sorumluluk ilkesi, kulüpler ve kamu makamları için tribün yönetiminde daha ayrıntılı kanıt, daha erken iletişim ve daha ölçülü yaptırım zorunluluğu doğurabilecek bir standart ortaya koyuyor.",
-        "Yayınlanması gereken temel soru, bu tavsiyelerin farklı ülkelerde ve kulüpler düzeyinde bağlayıcı uygulamaya dönüşüp dönüşmeyeceğidir."
-      ],
-      "limitations": "Açıklama ortak bir ilke ve tavsiye çerçevesi ortaya koyuyor; tek başına ulusal mevzuatı veya kulüplerin mevcut deplasman uygulamalarını değiştiren bağlayıcı bir karar niteliğinde olduğu gösterilmiyor. Türkiye’deki uygulamaya doğrudan etkisi için TFF, kulüpler ve kamu makamlarının sonraki kararları izlenmelidir.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "GOLHAT-2026-09-03-YORUM-TRIBUN-001",
-      "authorName": "Deplasman Defteri",
-      "publishedAt": "2026-09-03T19:17:04.000Z",
-      "discoveredAt": "2026-09-03T22:17:04.187Z",
-      "sources": [
-        {
-          "title": "European football unites to limit collective bans against away supporters",
-          "publisher": "UEFA",
-          "url": "https://www.uefa.com/news-media/news/02a9-2180f7cdc802-f243aeefab46-1000--european-football-unites-to-limit-collective-bans-against-",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Adopted texts on Safety, Security and Service Approach at Sports Events",
-          "publisher": "Council of Europe",
-          "url": "https://www.coe.int/en/web/sport/adopted-texts-on-safety-security-and-service-approach-at-sports-events",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "The Council of Europe adopted new recommendations on collective bans against travelling fans – it is now up to national governments to follow them",
-          "publisher": "Football Supporters Europe",
-          "url": "https://www.fanseurope.org/news/the-council-of-europe-adopted-new-recommendations-on-collective-bans-against-travelling-fans-it-is-now-up-to-national-governments",
-          "publishedAt": "2026-01-28",
-          "sourceRole": "context"
-        }
-      ]
-    },
-    {
-      "id": "ee9466e64763ecda",
-      "role": "anadolu",
-      "page": "anadolu.html",
-      "headline": "Bodrum FK ile Esenler Erokspor golsüz berabere kaldı",
-      "summary": "Trendyol 1. Lig’in 5. haftasında Bodrum FK, sahasında Esenler Erokspor ile 0-0 berabere kaldı. Bodrum FK böylece son üç maçını aynı skorla tamamladı.",
-      "tag": "Maç Sonucu",
-      "importance": 68,
-      "contentType": "news",
-      "seoTitle": "Bodrum FK-Esenler Erokspor maçı 0-0 bitti",
-      "seoDescription": "Bodrum FK, 1. Lig’in 5. haftasında Esenler Erokspor ile 0-0 berabere kaldı. Bodrum’un golsüz serisi ve maçın sonucu GOLHAT’ta.",
-      "focusKeyword": "Bodrum FK Esenler Erokspor 0-0",
-      "originalAngle": "Bodrum FK’nin Erokspor karşısındaki golsüz beraberliği, son üç maçın da 0-0 bitmesi nedeniyle tek maçlık sonuçtan daha geniş bir form göstergesine işaret ediyor; ancak bu serinin nedenine dair kaynaklarda kanıt bulunmuyor.",
-      "keyFindings": [
-        "Bodrum FK ile Esenler Erokspor, 3 Eylül 2026’da 0-0 berabere kaldı.",
-        "Karşılaşma Bodrum FK’nin sahasında, Trendyol 1. Lig’in 5. haftasında oynandı.",
-        "DHA’nın maç haberine göre Bodrum FK son üç karşılaşmasını da 0-0 tamamladı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "DHA’nın maç sonrası haberi, Esenler Erokspor’un resmi futbol sayfasındaki puan ve maç bilgileriyle karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Golsüz sonuç serisinin taktik veya kadro kaynaklı nedeni, mevcut kaynaklarda doğrulanmadığı için nedensellik kurulmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T19:01:00.000Z",
-      "discoveredAt": "2026-09-03T21:42:03.795Z",
-      "sources": [
-        {
-          "title": "Bodrum FK - Turka Esenler Erokspor: 0-0",
-          "publisher": "DHA",
-          "url": "https://www.dha.com.tr/yerel-haberler/mugla/bodrum-fk-turka-esenler-erokspor-0-0-2938710",
-          "publishedAt": "2026-09-03T22:01:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Esenler Erokspor - Futbol",
-          "publisher": "Esenler Erokspor",
-          "url": "https://www.eroksporfk.com/futbol",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "a2f6ecc7a85d869e",
-      "role": "uefa",
-      "page": "uefa.html",
-      "headline": "Beşiktaş’ın Avrupa Ligi listesinde Rashica ve Mustafa Hekimoğlu yok",
-      "summary": "Beşiktaş, UEFA Avrupa Ligi lig aşaması için 32 kişilik kadrosunu bildirdi. UEFA kaydı ve DHA’nın aktardığı listede Milot Rashica ile Mustafa Hekimoğlu yer almadı; siyah-beyazlılar ilk maçını 17 Eylül’de Marsilya’ya karşı oynayacak.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Beşiktaş’ın Avrupa Ligi kadrosu: Rashica ve Mustafa Hekimoğlu yok",
-      "seoDescription": "Beşiktaş’ın UEFA Avrupa Ligi kadrosu açıklandı. 32 kişilik listede Rashica ve Mustafa Hekimoğlu bulunmuyor; ilk rakip Marsilya.",
-      "focusKeyword": "Beşiktaş UEFA Avrupa Ligi kadrosu",
-      "originalAngle": "Yeni gelişmenin değeri yalnızca listenin açıklanması değil, Beşiktaş’ın sezon planında iki tanınan oyuncunun lig aşaması kadrosu dışında kalmasıdır. UEFA’daki resmi kayıt, kulübün Avrupa rotasyonunda hangi isimlere güvendiğini gösteriyor.",
-      "keyFindings": [
-        "Beşiktaş, UEFA Avrupa Ligi lig aşaması için 32 kişilik kadro bildirdi.",
-        "Milot Rashica ve Mustafa Hekimoğlu listede yer almadı; UEFA kaydında genç oyuncular B Listesi altında gösterildi.",
-        "Beşiktaş, lig aşamasındaki ilk maçında 17 Eylül 2026’da Marsilya’yı konuk edecek."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "UEFA’nın 3 Eylül tarihli lig aşaması kadro duyurusu ve Beşiktaş’ın resmi UEFA kadro sayfası, DHA’nın aynı gün yayımladığı kadro haberiyle karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Kadro dışında kalan oyuncuların teknik veya idari gerekçeleri kaynaklarda açıklanmadı; bu nedenle neden-sonuç yorumu yapılmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T20:17:00.000Z",
-      "discoveredAt": "2026-09-03T21:42:03.795Z",
-      "sources": [
-        {
-          "title": "Europa League squads: League phase selections confirmed",
-          "publisher": "UEFA",
-          "url": "https://www.uefa.com/uefaeuropaleague/news/02a9-21815eb7babc-62eab180d6e2-1000--europa-league-squads-league-phase-selections-confirmed",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Beşiktaş | Squad | UEFA Europa League 2026/27",
-          "publisher": "UEFA",
-          "url": "https://www.uefa.com/uefaeuropaleague/clubs/50157--besiktas/squad",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Beşiktaş Avrupa Ligi kadrosunu duyurdu",
-          "publisher": "DHA",
-          "url": "https://www.dha.com.tr/amp/spor/besiktas-avrupa-ligi-kadrosunu-duyurdu-2938740",
-          "publishedAt": "2026-09-03T23:17:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "d9ecee502e47276c",
-      "role": "uefa",
-      "page": "uefa.html",
-      "headline": "Trabzonspor’un Konferans Ligi kadrosu bildirildi: Üç oyuncu listede yok",
-      "summary": "Trabzonspor, UEFA Konferans Ligi lig aşaması için kadrosunu UEFA’ya bildirdi. Mackolik ve Haber61’in aktardığı listelerde Metehan Mimaroğlu, Melih Kabasakal ve Onuralp Çevikkan yer almadı.",
-      "tag": "Gelişme",
-      "importance": 78,
-      "contentType": "news",
-      "seoTitle": "Trabzonspor’un Konferans Ligi kadrosu: Üç oyuncu listede yok",
-      "seoDescription": "Trabzonspor’un UEFA Konferans Ligi kadrosu bildirildi. Metehan Mimaroğlu, Melih Kabasakal ve Onuralp Çevikkan listede yer almadı.",
-      "focusKeyword": "Trabzonspor UEFA Konferans Ligi kadrosu",
-      "originalAngle": "Trabzonspor için yeni tablo, yalnızca Avrupa kadrosunun tamamlanması değil; lig aşamasında hangi oyuncu grubunun kullanılacağının netleşmesi anlamına geliyor. Özellikle genç kaleci Onuralp Çevikkan’ın listede bulunmaması, kadro tercihinin dikkat çeken ayrıntısı olarak öne çıkıyor.",
-      "keyFindings": [
-        "Trabzonspor, UEFA Konferans Ligi lig aşaması için kadro bildirimini yaptı.",
-        "Metehan Mimaroğlu, Melih Kabasakal ve Onuralp Çevikkan aktarılan UEFA listesinde yer almadı.",
-        "Trabzonspor’un lig aşamasındaki ilk maçı 15 Ekim 2026’da deplasmanda KuPS karşısında oynanacak."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Mackolik’in aynı gün yayımladığı kadro haberindeki liste, Haber61’in UEFA kadro haberinde belirttiği liste dışı isimlerle karşılaştırıldı; maç takvimi önceki UEFA ve kulüp duyurularıyla kontrol edildi.",
-      "originalFindings": [],
-      "limitations": "Trabzonspor’un resmi internet sitesinde bu kadro bildirimine ilişkin doğrudan bir kulüp açıklaması tespit edilmedi. Oyuncuların liste dışında bırakılma gerekçeleri kaynaklarda açıklanmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T19:51:00.000Z",
-      "discoveredAt": "2026-09-03T21:42:03.795Z",
-      "sources": [
-        {
-          "title": "Trabzonspor’un Konferans Ligi kadrosu açıklandı",
-          "publisher": "Mackolik",
-          "url": "https://arsiv.mackolik.com/Haber/269549/Trabzonsporun-Konferans-Ligi-kadrosu",
-          "publishedAt": "2026-09-03T22:51:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "UEFA kadrosunda büyük sürpriz! 3 isim listede yok",
-          "publisher": "Haber61",
-          "url": "https://www.haber61.net/trabzonspor/uefa-kadrosunda-buyuk-surpriz-3-isim-listede-yok/642495",
-          "publishedAt": "2026-09-03T23:01:00+03:00",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "UEFA Konferans Ligi maç programımız belli oldu",
-          "publisher": "Trabzonspor",
-          "url": "https://www.trabzonspor.org.tr/tr/haberler/uefa-konferans-ligi-mac-programimiz-belli-oldu-29-08-2026",
-          "publishedAt": "2026-08-29T22:09:00+03:00",
           "sourceRole": "context"
         }
       ]
