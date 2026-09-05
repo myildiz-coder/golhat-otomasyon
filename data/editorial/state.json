@@ -1,7 +1,158 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T00:08:47.248Z",
+  "updatedAt": "2026-09-05T00:48:16.334Z",
   "stories": [
+    {
+      "id": "64e71bd19057c166",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş, Fenerbahçe derbisi öncesi hazırlıklarını tamamladı",
+      "summary": "Beşiktaş, Süper Lig’in 4. haftasında 5 Eylül 2026 Cumartesi günü saat 20.00’de deplasmanda oynayacağı Fenerbahçe derbisinin hazırlıklarını 4 Eylül’de tamamladı. Siyah-beyazlı takımın maç öncesi son saha çalışması BJK Nevzat Demir Tesisleri’nde yapıldı.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Beşiktaş, Fenerbahçe derbisi hazırlıklarını tamamladı",
+      "seoDescription": "Beşiktaş, 5 Eylül’de Fenerbahçe ile oynayacağı Süper Lig derbisi öncesi hazırlıklarını tamamladı; maçın son durumu ve programı burada.",
+      "focusKeyword": "Beşiktaş Fenerbahçe derbisi",
+      "originalAngle": "Beşiktaş’ın hazırlık sürecindeki son eşik tamamlandı; bundan sonraki temel soru, teknik ekibin antrenman dönemindeki planını Kadıköy’deki ilk düdükle nasıl sahaya yansıtacağı.",
+      "keyFindings": [
+        "Beşiktaş, Fenerbahçe karşılaşması öncesindeki son antrenmanını 4 Eylül 2026’da yaptı.",
+        "Derbi 5 Eylül 2026 Cumartesi günü saat 20.00’de Fenerbahçe’nin sahasında oynanacak.",
+        "Hazırlıkların tamamlanması maç kadrosu veya ilk 11’in kesinleştiği anlamına gelmiyor; kulüp bu konuda resmi bir kadro açıklaması yapmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Beşiktaş’ın resmi kulüp açıklaması, bağımsız bir haber kaynağının aynı tarihli haberiyle karşılaştırıldı; maç tarihi ve saati kulüp kaynaklarından kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kulübün açıklamasında maç kadrosu, ilk 11, sakatlık durumu veya teknik tercih bilgisi yer almıyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T12:06:00.000Z",
+      "discoveredAt": "2026-09-05T00:48:16.334Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe Maçı Hazırlıkları Tamamlandı",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/haber/95041/fenerbahce-maci-hazirliklari-tamamlandi.html",
+          "publishedAt": "2026-09-04T15:06:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş'ta Fenerbahçe hazırlıkları tamamlandı",
+          "publisher": "Star",
+          "url": "https://www.star.com.tr/spor/besiktasta-fenerbahce-hazirliklari-tamamlandi-haber-2038061",
+          "publishedAt": "2026-09-04T16:32:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "3630abc7f67e0e19",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Süper Lig’de Çorum FK-Eyüpspor maçının dördüncü hakemi değişti",
+      "summary": "TFF, 6 Eylül 2026’daki Arca Çorum FK-Eyüpspor karşılaşmasında dördüncü hakem değişikliğine gidildiğini duyurdu. Ayberk Demirbaş’ın yerine Direnç Tonusluoğlu görevlendirildi.",
+      "tag": "Gelişme",
+      "importance": 58,
+      "contentType": "news",
+      "seoTitle": "Çorum FK-Eyüpspor maçında dördüncü hakem değişti",
+      "seoDescription": "TFF, Çorum FK-Eyüpspor maçında dördüncü hakem değişikliğini açıkladı; Ayberk Demirbaş’ın yerine Direnç Tonusluoğlu görevlendirildi.",
+      "focusKeyword": "Çorum FK Eyüpspor dördüncü hakem değişikliği",
+      "originalAngle": "Değişiklik, Süper Lig’in 4. haftasında müsabaka görevlilerinin maç öncesi yeniden düzenlendiğini gösteriyor; ancak TFF duyurusunda atamanın gerekçesi açıklanmadı.",
+      "keyFindings": [
+        "TFF, 6 Eylül 2026 Pazar günü saat 17.00’de oynanacak Arca Çorum FK-Eyüpspor maçının dördüncü hakemini değiştirdi.",
+        "Ayberk Demirbaş’ın yerine Direnç Tonusluoğlu görevlendirildi.",
+        "TFF açıklaması atama değişikliğini doğruluyor ancak kararın nedenine ilişkin ayrıntı vermiyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin MHK duyurusu, bağımsız bir haber kaynağındaki aktarım ile karşılaştırıldı; iki farklı alan adında aynı hakem değişikliği doğrulandı.",
+      "originalFindings": [],
+      "limitations": "TFF, Ayberk Demirbaş’ın görevden alınma gerekçesini açıklamadı. Bu nedenle değişikliğin belirli bir pozisyon veya önceki maçtaki kararla bağlantısı kurulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T09:39:00.000Z",
+      "discoveredAt": "2026-09-05T00:48:16.334Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig'de 4. Hakem Değişikliği",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51267&pageID=248",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Çorum FK - Eyüpspor Maçının 4. Hakemi Değişti",
+          "publisher": "Devlet.TC",
+          "url": "https://devlet.tc/tr/haber/trendyol-super-ligde-surpriz-hakem-degisikligi-corum-fk-eyupspor-macina-yeni-atama",
+          "publishedAt": "2026-09-04T12:39:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "b81cc1825fd4af24",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Kadıköy derbisi kupayı değil, iki takımın oyun aklını tartacak",
+      "summary": "Fenerbahçe ile Beşiktaş, 5 Eylül 2026’da Kadıköy’de karşılaşırken iki takım da üç maçta 6 puanda bulunuyor. Galatasaray’ın Başakşehir deplasmanındaki 3-2’lik galibiyetle 10 puana çıkması derbinin baskısını artırdı; ancak bu maçın asıl değeri erken bir şampiyonluk hükmü vermesinde değil, iki teknik ekibin gerilim altında oyunu ne kadar kontrollü kurabildiğini göstermesinde yatıyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisi iki takımın oyun aklını tartacak",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisi, puan yarışından önce iki takımın oyun planı ve baskı altında karar verme gücü için önemli bir ölçüm olacak.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi 5 Eylül 2026",
+      "originalAngle": "Derbinin haber değeri yalnızca iki rakibin karşılaşmasında değil, Fenerbahçe ve Beşiktaş’ın Galatasaray’ın 10 puanla kurduğu erken baskıya hangi oyun aklıyla cevap vereceğinde. Bu nedenle maç, şampiyonluk hükmü değil, iki takımın yüksek gerilimli oyunda kontrolü kimin elinde tutacağını gösterecek ilk ciddi sınav olarak okunmalı.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’da Başakşehir’i 3-2 yenerek dört maç sonunda 10 puana ulaştı ve galibiyet serisini üç maça çıkardı.",
+        "Fenerbahçe ile Beşiktaş, 5 Eylül 2026’daki derbi öncesinde üçer maçta 6 puanda bulunuyor; karşılaşma Ülker Stadyumu’nda saat 20.00’de oynanacak.",
+        "Beşiktaş’ın son lig maçında Çorum FK’yı 6-2 yenmesi, derbi öncesindeki hücum ivmesine dair doğrulanmış bir veri sunuyor; fakat Kadıköy’deki oyun üstünlüğünü tek başına garanti etmiyor.",
+        "Derbide sonucu belirleyecek temel soru, iki takımın ilk baskı kırıldığında savunma güvenliğini ve topa sahip olma düzenini ne kadar koruyacağı olacak."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Galatasaray’ın Başakşehir galibiyeti kulübün resmî maç raporundan; derbinin tarihi, saati, hakem bilgisi ve Beşiktaş’ın son lig sonucu Beşiktaş’ın resmî maç merkezi ile kulüp açıklamalarından; Galatasaray’ın sonraki Avrupa maçı UEFA’nın fikstür sayfasından çapraz kontrol edildi. Yorum bölümü, doğrulanmış bu olaylardan hareketle kurulmuş; yayımlanmamış kadro, formasyon, oyuncu performansı veya maç sonucu varsayımı kullanılmamıştır.",
+      "originalFindings": [
+        "Galatasaray’ın 3-2’lik galibiyetinde Osimhen’in 16. dakikadaki golü, Torreira’nın 71. dakikadaki golü ve Sara’nın 90. dakikadaki golü; Başakşehir’in ise penaltı ve kendi kalesine golle skor ürettiği resmî maç raporunda yer alıyor.",
+        "Galatasaray, 9 Eylül 2026’da Sporting CP deplasmanına çıkacak; Fenerbahçe ise 10 Eylül 2026’da Roma’yı ağırlayacak. Bu Avrupa fikstürü, derbiyi izleyen günlerde iki takımın toparlanma ve kadro yönetimi kapasitesini de önemli hâle getiriyor.",
+        "Beşiktaş’ın derbi öncesi son antrenmanında kondisyon, taktik ve duran top çalışmaları yaptığı kulübün resmî açıklamasında belirtildi; bu bilgi belirli bir ilk 11 veya kesin oyun planı anlamına gelmiyor."
+      ],
+      "limitations": "Derbi 5 Eylül 2026 saat 20.00’de oynanacağı için bu yazı maç öncesi yorumdur; skor, maç içi kırılma, oyuncu performansı ve hakem kararlarının sonucu hakkında hüküm kurulamaz. Fenerbahçe’nin son antrenman ayrıntıları ve iki takımın kesin kadroları için bu taramada yeterli, doğrudan ve bağımsız doğrulama bulunmadığından bu alanlarda değerlendirme yapılmamıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-2026-09-05-YORUM-FB-BJK-001",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T21:48:16.000Z",
+      "discoveredAt": "2026-09-05T00:48:16.334Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-05T00:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe Maçı Hazırlıkları Tamamlandı",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/95041/fenerbahce-maci-hazirliklari-tamamlandi.html",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000",
+          "publishedAt": "2026-09-03T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "56552415feed353e",
       "role": "fenerbahce",
@@ -9603,116 +9754,6 @@
           "publisher": "beIN SPORTS",
           "url": "https://beinsports.com.tr/lig/tff-1-lig/fikstur",
           "publishedAt": "2026-09-02"
-        }
-      ]
-    },
-    {
-      "id": "ae9cfb102d72ee09",
-      "role": "super_lig",
-      "page": "super-lig.html",
-      "headline": "TFF açıkladı: Süper Lig'den 13 kulüp PFDK'ya sevk edildi",
-      "summary": "TFF Hukuk Müşavirliği, Süper Lig'in 3. haftasında yaşanan çeşitli disiplin ihlalleri nedeniyle 13 kulübü PFDK'ya gönderdi. Konyasporlu Enis Bardhi ile Samsunspor Başkanı Yüksel Yıldırım da sevk edilen isimler arasında yer aldı; nihai cezalar henüz açıklanmadı.",
-      "tag": "Gelişme",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Süper Lig'den 13 kulüp PFDK'ya sevk edildi",
-      "seoDescription": "TFF, Süper Lig'in 3. haftası sonrası 13 kulübü ve bazı kulüp yetkililerini PFDK'ya sevk etti.",
-      "focusKeyword": "Süper Lig PFDK sevkleri",
-      "originalAngle": "Üçüncü hafta maçlarının ardından disiplin gündemini kulüpler, yöneticiler ve sevk gerekçeleri üzerinden toplu biçimde ortaya koymak.",
-      "keyFindings": [
-        "TFF Hukuk Müşavirliği, 1 Eylül 2026 tarihinde Süper Lig'den 13 kulübü PFDK'ya sevk etti.",
-        "Konyaspor futbolcusu Enis Bardhi, 29 Ağustos 2026 tarihli Konyaspor-Kocaelispor maçındaki kural dışı hareketi nedeniyle tedbirli olarak sevk edildi.",
-        "Göztepe Kulübü ve Başkanı Rasmus Froekiaer Ankersen, Galatasaray maçı sonrası yapılan resmi sosyal medya paylaşımı nedeniyle sevk edildi.",
-        "Samsunspor Başkanı Yüksel Yıldırım, Fenerbahçe maçındaki hakaret gerekçesiyle tedbirli olarak PFDK'ya gönderildi.",
-        "Konyaspor, Kocaelispor, Galatasaray, Göztepe, Gaziantep FK, Çaykur Rizespor, Eyüpspor, Corendon Alanyaspor, Samsunspor, Fenerbahçe, Amed Sportif Faaliyetler, Trabzonspor ve Beşiktaş sevk edilen kulüpler oldu.",
-        "PFDK'nın nihai kararları ve uygulanacak cezalar henüz açıklanmadı."
-      ],
-      "publishedAt": "2026-09-01T14:07:00.000Z",
-      "discoveredAt": "2026-09-02T20:27:55.155Z",
-      "sources": [
-        {
-          "title": "TFF, PFDK sevklerini açıkladı",
-          "publisher": "Star",
-          "url": "https://www.star.com.tr/spor/tff-pfdk-sevklerini-acikladi-haber-2037492",
-          "publishedAt": "2026-09-01T17:07:00+03:00"
-        },
-        {
-          "title": "Süper Lig’de Çaykur Rizespor Dahil 13 Takım PFDK’ya Sevk Edildi!",
-          "publisher": "Olay53",
-          "url": "https://www.olay53.com/service/amp/haber/super-ligde-caykur-rizespor-dahil-13-takim-pfdkya-sevk-edildi-1525700.htm",
-          "publishedAt": "2026-09-01T18:22:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "798fa8a711e8fab0",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Sunderland, Lyon’un Belçikalı kanadı Malick Fofana’yı Crystal Palace’ın önünde kadrosuna kattı",
-      "summary": "Sunderland, transfer döneminin son saatlerinde Lyon’un 21 yaşındaki kanat oyuncusu Malick Fofana’nın transferini tamamladı. Olympique Lyonnais Groupe işlemi 2 Eylül 2026 saat 01.15’te duyururken, The Guardian da oyuncunun Sunderland’i tercih ettiğini aktardı.",
-      "tag": "Kesinleşti",
-      "importance": 78,
-      "contentType": "news",
-      "seoTitle": "Sunderland, Malick Fofana transferini tamamladı",
-      "seoDescription": "Sunderland, Lyon kanat oyuncusu Malick Fofana’yı transfer döneminin son saatlerinde Crystal Palace’ın önünde kadrosuna kattı.",
-      "focusKeyword": "Malick Fofana Sunderland transferi",
-      "originalAngle": "Transfer yarışını kazanan Sunderland, İngiltere’de kapanan pencerenin en dikkat çekici son dakika hamlelerinden birine imza attı.",
-      "keyFindings": [
-        "Malick Fofana’nın Lyon’dan Sunderland’e transferi Olympique Lyonnais Groupe tarafından resmi olarak duyuruldu.",
-        "Transfer açıklaması 2 Eylül 2026 saat 01.15’te yayımlandı.",
-        "The Guardian, Sunderland’in Crystal Palace’ı geride bırakarak oyuncuyu kadrosuna kattığını bildirdi.",
-        "İşlem, mevcut Avrupa Futbolu manşetlerinde yer alan Crystal Palace transferlerinden ayrı ve yeni bir gelişmedir."
-      ],
-      "publishedAt": "2026-09-01T22:20:00.000Z",
-      "discoveredAt": "2026-09-02T20:27:55.155Z",
-      "sources": [
-        {
-          "title": "TRANSFERT DE MALICK FOFANA A SUNDERLAND",
-          "publisher": "Olympique Lyonnais Groupe",
-          "url": "https://finance.ol.fr/communiques",
-          "publishedAt": "2026-09-02T01:15:00+03:00"
-        },
-        {
-          "title": "War chests, deal sheets and online meltdowns: anatomy of a deadline day",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/sep/02/football-daily-newsletter-anatomy-of-a-deadline-day",
-          "publishedAt": "2026-09-02T17:57:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "ab48e075718c48c9",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Newcastle United, Lille’den Matias Fernandez-Pardo’yu 51 milyon sterlin karşılığında aldı",
-      "summary": "Newcastle United, transfer döneminin kapanış saatlerinde Lille’in 21 yaşındaki hücum oyuncusu Matias Fernandez-Pardo ile uzun süreli sözleşme imzaladı. Premier League ve Newcastle United, transferin tamamlandığını doğruladı; Premier League bedeli 51 milyon sterlin olarak verdi.",
-      "tag": "Kesinleşti",
-      "importance": 76,
-      "contentType": "news",
-      "seoTitle": "Newcastle United, Matias Fernandez-Pardo transferini tamamladı",
-      "seoDescription": "Newcastle United, Lille’in genç hücum oyuncusu Matias Fernandez-Pardo’yu 51 milyon sterlinlik bedelle kadrosuna kattı.",
-      "focusKeyword": "Matias Fernandez-Pardo Newcastle",
-      "originalAngle": "Newcastle, deneyimli yıldızlar yerine genç ve çok yönlü hücum oyuncusuna yatırım yapan transfer politikasını sürdürdü.",
-      "keyFindings": [
-        "Newcastle United, Matias Fernandez-Pardo’nun transferini resmi kulüp kanallarında duyurdu.",
-        "Oyuncu Newcastle ile uzun süreli sözleşme imzaladı.",
-        "Premier League, transfer bedelini 51 milyon sterlin olarak aktardı.",
-        "Fernandez-Pardo 21 yaşında ve Lille’de forvet, 10 numara ve sol kanat rollerinde oynayabiliyor."
-      ],
-      "publishedAt": "2026-09-02T07:01:00.000Z",
-      "discoveredAt": "2026-09-02T20:27:55.155Z",
-      "sources": [
-        {
-          "title": "Newcastle United sign Matias Fernandez-Pardo",
-          "publisher": "Newcastle United",
-          "url": "https://www.newcastleunited.com/en/news/win-a-newcastle-united-shirt-signed-by-new-signing-matias-fernandez-pardo",
-          "publishedAt": "2026-09-02T10:01:00+03:00"
-        },
-        {
-          "title": "The Wrap: What happened on Transfer Deadline Day",
-          "publisher": "Premier League",
-          "url": "https://www.premierleague.com/en/news/4705808/the-wrap-what-happened-on-transfer-deadline-day",
-          "publishedAt": "2026-09-02T00:00:00+03:00"
         }
       ]
     }
