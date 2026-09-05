@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T13:54:29.335Z",
+  "updatedAt": "2026-09-05T14:09:00.464Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 6,
-    "upcoming": 21,
+    "live": 12,
+    "upcoming": 15,
     "finished": 1
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Konyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904737,
@@ -94,11 +94,11 @@
       "home": "Brentford",
       "away": "Sunderland",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795437,
@@ -113,10 +113,10 @@
       "away": "Leeds United",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795439,
@@ -131,10 +131,10 @@
       "away": "Crystal Palace",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795442,
@@ -149,10 +149,10 @@
       "away": "Coventry City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795444,
@@ -167,10 +167,10 @@
       "away": "Tottenham Hotspur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795440,
@@ -309,9 +309,9 @@
       "venue": "",
       "home": "Bayer Leverkusen",
       "away": "Union Berlin",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Borussia Mönchengladbach",
       "away": "Elversberg",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 23,
+      "awayScore": 1,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -364,8 +364,8 @@
       "home": "Paderborn",
       "away": "Freiburg",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 25,
+      "awayScore": 1,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "RB Leipzig",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 23,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
