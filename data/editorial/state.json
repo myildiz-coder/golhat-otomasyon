@@ -1,7 +1,109 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T16:02:23.944Z",
+  "updatedAt": "2026-09-05T16:41:26.382Z",
   "stories": [
+    {
+      "id": "f7fb991ca06bcdd2",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Torino, Fiorentina deplasmanında 2-1 kazanarak geri döndü",
+      "summary": "Torino, Serie A’nın üçüncü haftasında Fiorentina karşısında 1-0 geriye düştü ancak Mandragora ve Adams’ın golleriyle deplasmandan üç puan çıkardı.",
+      "tag": "Maç Sonucu",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "Torino, Fiorentina deplasmanında 2-1’lik galibiyet aldı",
+      "seoDescription": "Torino, Fiorentina karşısında 1-0 geriye düştüğü maçı 2-1 kazandı. Serie A’daki geri dönüşün teknik ve puan tablosu bağlamı haberde.",
+      "focusKeyword": "Fiorentina Torino 1-2",
+      "originalAngle": "Torino’nun galibiyeti, Fiorentina’nın evinde öne geçmesine rağmen maçı koruyamaması üzerinden önem kazanıyor. Mandragora’nın uzaktan şutu ve Adams’ın 82. dakikadaki golü, Torino’ya yalnızca üç puan değil, deplasmanda oyun planını değiştirebildiğini gösteren bir sonuç verdi.",
+      "keyFindings": [
+        "Torino, Fiorentina’yı deplasmanda 2-1 mağlup etti.",
+        "Fiorentina ikinci yarıda 1-0 öne geçti; Torino Mandragora’nın golüyle eşitliği sağladı.",
+        "Che Adams, 82. dakikada Torino’ya galibiyeti getiren golü attı; Fiorentina sezonun üçüncü haftasında puansız kaldı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu ve skor LiveScore kaydıyla, geri dönüşün gelişimi, gol atan oyuncular ve maçın üçüncü hafta bağlamı AS maç raporuyla çapraz doğrulandı.",
+      "originalFindings": [],
+      "limitations": "Karşılaşmanın ayrıntılı takım istatistikleri ve güncel puan tablosu iki doğrulama kaynağında aynı kapsamda sunulmadığı için habere eklenmedi. Sonucun sezon geneline etkisi için daha fazla maç gerekiyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T15:23:21.000Z",
+      "discoveredAt": "2026-09-05T16:41:26.382Z",
+      "sources": [
+        {
+          "title": "La Fiore de Mastantuono no levanta cabeza",
+          "publisher": "AS",
+          "url": "https://as.com/futbol/internacional/la-fiore-de-mastantuono-no-levanta-cabeza-f202609-n",
+          "publishedAt": "2026-09-05T15:23:21Z",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Football Live Scores - 5 September 2026",
+          "publisher": "LiveScore",
+          "url": "https://www.livescores.com/football/2026-09-05",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fiorentina-Torino, numeri e curiosità",
+          "publisher": "Torino FC",
+          "url": "https://www.torinofc.it/news/05/09/2026/fiorentina-torino-numeri-e-curiosita_44692",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "eba58beb8cd73115",
+      "role": "uefa",
+      "page": "uefa.html",
+      "headline": "UEFA, Kızıl Yıldız’a 98 bin 250 avro ceza verdi: Lugano deplasmanında taraftar yok",
+      "summary": "Kızıl Yıldız, Avrupa Ligi play-off’unda Viktoria Plzen maçındaki taraftar ve takım davranışları nedeniyle UEFA’dan toplam 98 bin 250 avro ceza aldı; kulüp, Konferans Ligi’ndeki Lugano deplasmanına organize taraftar götüremeyecek.",
+      "tag": "Gelişme",
+      "importance": 76,
+      "contentType": "news",
+      "seoTitle": "UEFA’dan Kızıl Yıldız’a 98 bin 250 avro ceza",
+      "seoDescription": "UEFA, Kızıl Yıldız’a Plzen maçındaki olaylar nedeniyle 98 bin 250 avro ceza verdi. Kulüp, Lugano deplasmanında taraftar desteğinden mahrum kalacak.",
+      "focusKeyword": "Kızıl Yıldız UEFA cezası",
+      "originalAngle": "Kararın haber değeri yalnızca para cezasında değil; UEFA’nın uyguladığı yaptırım, Kızıl Yıldız’ın Avrupa sezonundaki bir sonraki deplasmanını, yani Konferans Ligi’ndeki Lugano maçını doğrudan etkiliyor. Kulüp cezasının yanında Osman Bukari’ye verilen üç maçlık Avrupa meninin sportif etkisi de takip edilmesi gereken ikinci başlık.",
+      "keyFindings": [
+        "UEFA disiplin kayıtlarında 4 Eylül 2026 tarihli kararla FK Crvena zvezda için Avrupa kulüp müsabakalarındaki bir sonraki deplasmanda taraftar bileti satışı yasağı yer aldı.",
+        "Bağımsız kaynaklar kulübe verilen toplam para cezasını 98 bin 250 avro olarak bildirdi; yaptırımın Viktoria Plzen karşılaşmasındaki uygunsuz, ırkçı ve ayrımcı davranışlarla bağlantılı olduğu aktarıldı.",
+        "Karar, Kızıl Yıldız’ın UEFA Konferans Ligi’nde Lugano’ya yapacağı deplasmanda organize taraftar desteği alamaması anlamına geliyor; ayrıca Osman Bukari üç Avrupa maçından men edildi."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "UEFA’nın resmi disiplin kayıtları kontrol edildi; kararın içeriği AP ve RTS gibi iki bağımsız editoryal kaynakla karşılaştırıldı. Para cezası, deplasman taraftarı yasağı ve Bukari’nin men bilgileri çapraz doğrulandı.",
+      "originalFindings": [],
+      "limitations": "UEFA’nın kamuya açık disiplin kayıt özetinde yaptırım başlıkları yer alırken, her ceza kaleminin ayrıntılı dağılımı bağımsız kaynaklardaki karar aktarımından alınmıştır. Kulübün itiraz edip etmeyeceğine ilişkin doğrulanmış bir açıklama bulunmamaktadır.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T08:59:37.000Z",
+      "discoveredAt": "2026-09-05T16:41:26.382Z",
+      "sources": [
+        {
+          "title": "Disciplinary matters",
+          "publisher": "UEFA",
+          "url": "https://disciplinary.uefa.com/",
+          "publishedAt": "2026-09-04T16:40:00Z",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Serbian club Red Star Belgrade fined by UEFA for fan chants in honor of war criminal Ratko Mladic",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/c29722246f75fd27834af9c83a06dd67",
+          "publishedAt": "2026-09-05T08:59:37Z",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Uefa kaznila Crvenu zvezdu: Bukari suspendovan na tri utakmice, bez navijača u Luganu",
+          "publisher": "RTS",
+          "url": "https://www.rts.rs/lat/sport/fudbal/liga_sampiona/6032808/.html?print=true",
+          "publishedAt": "2026-09-04T20:56:00Z",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "2253c483044351f4",
       "role": "galatasaray",
@@ -10733,102 +10835,6 @@
           "url": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live?page=with:block-6a9a8a538f0865844a4bd8a6",
           "publishedAt": "2026-09-04",
           "sourceRole": "primary_evidence"
-        }
-      ]
-    },
-    {
-      "id": "67778ccefcb273c8",
-      "role": "yorum",
-      "page": "yorum.html",
-      "headline": "UEFA’nın ilk hakemlik ortağı, futbolun görünmeyen maliyetini de tartışmaya açtı",
-      "summary": "UEFA, hakemlik alanındaki ilk resmî ortaklık anlaşmasını STRAUSS ile yaptı; üç yıllık iş birliği forma, VAR ekranları ve hakem gelişim fonunu kapsıyor. Anlaşmanın asıl önemi marka görünürlüğünden çok, Avrupa futbolunun hakem eğitimini ve kamuoyuna hesap verme biçimini kurumsal bir yatırım başlığına taşımasıdır.",
-      "tag": "Yorum",
-      "importance": 70,
-      "contentType": "analysis",
-      "seoTitle": "UEFA-STRAUSS anlaşması hakemlik ekonomisini değiştirir mi?",
-      "seoDescription": "UEFA’nın STRAUSS ile hakemlik ortaklığı, forma sponsorluğundan öte eğitim, VAR görünürlüğü ve futbol ekonomisinde yeni bir hesap verebilirlik alanı açıyor.",
-      "focusKeyword": "UEFA STRAUSS hakemlik ortaklığı",
-      "originalAngle": "UEFA-STRAUSS anlaşması, hakemliği yalnızca maç günü kararlarının tartışıldığı bir alan olmaktan çıkarıp eğitim, teknoloji ve kurumsal görünürlük bütçesi gerektiren stratejik bir futbol yönetimi başlığına dönüştürüyor; asıl sınav, sponsorluk görünürlüğünün karar kalitesine ve hakem gelişimine ölçülebilir katkı sağlayıp sağlamayacağıdır.",
-      "keyFindings": [
-        "UEFA, 4 Eylül 2026’da STRAUSS ile hakemlik alanındaki ilk resmî ortaklığını duyurdu; anlaşma üç yıl sürecek ve UEFA hakemlerinin maç ile antrenman formalarında marka görünürlüğü sağlayacak.",
-        "Ortaklık yalnızca forma alanıyla sınırlı değil; VAR ekranları, UEFA’nın Video Operasyon Merkezi, hakem eğitim fonu, altyapıdaki hakemlik girişimleri ve taraftara yönelik bilgilendirici içerikler de anlaşmanın parçası.",
-        "Bu çerçeve, hakemliğin futbol ekonomisinde genellikle kriz anlarında hatırlanan bir hizmet değil, sürekli yatırım isteyen bir uzmanlık alanı olarak ele alınmaya başladığını gösteriyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "UEFA’nın 4 Eylül 2026 tarihli resmî medya açıklaması ile STRAUSS’un aynı gün yayımlanan kurumsal duyurusu karşılaştırıldı. Yorum, açıklanan ortaklık kapsamı üzerinden kurulmuş; anlaşmanın sportif sonuç doğurduğu ileri sürülmemiştir.",
-      "originalFindings": [
-        "Anlaşmanın yenilikçi tarafı yalnızca hakem formasındaki marka alanı değil, hakem gelişimi ve taraftar bilgilendirmesini aynı ticari çerçevede birleştirmesidir.",
-        "UEFA’nın hakemlikte görünürlük arayışı, VAR döneminde teknik kararların arkasındaki insan emeğini anlatma ihtiyacının da kurumsal bir kabulü olarak okunabilir.",
-        "Bu modelin başarısı, marka görünürlüğüyle değil; eğitim, hakem tutundurma ve karar süreçlerinin anlaşılabilirliği konusunda açıklanacak somut çıktılarla ölçülmelidir."
-      ],
-      "limitations": "Kaynaklar anlaşmanın mali değerini, hakem gelişim fonunun bütçesini veya performans ölçütlerini açıklamıyor. Bu nedenle ortaklığın hakem karar kalitesini artıracağı ya da UEFA gelirlerinde belirli bir sonuç doğuracağı söylenemez.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "GOLHAT-20260904-YORUM-UEFA-STRAUSS-01",
-      "authorName": "Mizan 90",
-      "publishedAt": "2026-09-04T15:19:13.000Z",
-      "discoveredAt": "2026-09-04T18:19:13.252Z",
-      "sources": [
-        {
-          "title": "UEFA and STRAUSS partner to elevate refereeing across European football",
-          "publisher": "UEFA",
-          "url": "https://www.uefa.com/news-media/news/02a9-21828b4cd787-b50cab064e71-1000--uefa-and-strauss-partner-to-elevate-refereeing-across-eu",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "STRAUSS becomes UEFA’s first-ever Official Partner of UEFA Refereeing",
-          "publisher": "STRAUSS",
-          "url": "https://de.linkedin.com/company/strauss-works",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "7a80277a24dd4a04",
-      "role": "yorum",
-      "page": "yorum.html",
-      "headline": "Liverpool’un N’Guessan hamlesi, genç transferde imzadan sonrasını öne çıkarıyor",
-      "summary": "Liverpool, Saint-Etienne’den 18 yaşındaki Djylian N’Guessan ile anlaşırken oyuncunun ocak ayına kadar Stade Brestois’ye kiralanacağını açıkladı. Bu tercih, genç yetenek transferinde asıl planın imza anında değil, oyuncunun gelişim ortamı, oynama ihtimali ve kulübe katılım zamanlaması birlikte tasarlandığında başladığını gösteriyor.",
-      "tag": "Yorum",
-      "importance": 68,
-      "contentType": "analysis",
-      "seoTitle": "Liverpool’un Djylian N’Guessan planı ne anlatıyor?",
-      "seoDescription": "Liverpool’un 18 yaşındaki Djylian N’Guessan’ı alıp ocak ayına kadar kiralaması, genç transferde imzadan sonraki gelişim planını öne çıkarıyor.",
-      "focusKeyword": "Djylian N’Guessan Liverpool",
-      "originalAngle": "Liverpool’un Djylian N’Guessan transferindeki belirleyici tercih, genç oyuncuyu hemen kadroda tutmak yerine ocak ayına kadar Ligue 1’de kiralık oynatmasıdır; kulübün kadro mühendisliğinde değer yalnızca yeteneği satın almakla değil, o yeteneğin doğru rekabet ortamında dakikaya çevrilmesiyle oluşuyor.",
-      "keyFindings": [
-        "Liverpool, 4 Eylül 2026’da Saint-Etienne’den 18 yaşındaki Fransız hücum oyuncusu Djylian N’Guessan ile anlaşmaya vardığını duyurdu.",
-        "N’Guessan’ın Liverpool’a resmî katılımı ocak ayında gerçekleşecek; oyuncu sezonun ilk bölümünü Ligue 1 ekibi Stade Brestois’de kiralık geçirecek.",
-        "Liverpool’un resmî açıklamasına göre oyuncu Saint-Etienne A takımında 13 kez forma giydi; ayrıca Fransa’nın 2025 U20 Dünya Kupası kadrosunda yedi maça çıktı ve U17 Avrupa Şampiyonası’nın turnuva takımında yer aldı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Liverpool’un resmî transfer duyurusu, Liverpool.com’un aynı gün yayımlanan haberindeki sözleşme ve kiralık planı bilgileriyle karşılaştırıldı. Değerlendirme, açıklanan gelişim planına dayanıyor; oyuncunun gelecekteki sportif seviyesine ilişkin tahmin yapılmadı.",
-      "originalFindings": [
-        "Transferin merkezi unsuru oyuncunun yaşı veya geçmiş turnuva dereceleri değil, Liverpool’a katılım tarihinin kiralık dönemle birlikte planlanmış olmasıdır.",
-        "Bu model, genç oyuncunun büyük kulüp kadrosunda sınırlı dakika beklemesi yerine düzenli rekabet içinde gelişmesini hedefleyen bir kadro mühendisliği tercihi olarak okunabilir.",
-        "Planın gerçek değeri, N’Guessan’ın Brestois’de ne kadar süre ve hangi rolde oynayacağıyla ölçülecek; büyük kulübe erken imza tek başına gelişim garantisi değildir."
-      ],
-      "limitations": "Kaynaklar kiralık dönemin garanti edilen forma süresini, oyuncunun Brestois’deki rolünü veya Liverpool’un ocak ayındaki kadro planını açıklamıyor. Bu nedenle transferin kesin sportif başarı sağlayacağı ileri sürülemez.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "GOLHAT-20260904-YORUM-NGUESSAN-01",
-      "authorName": "Sessiz Tahta",
-      "publishedAt": "2026-09-04T15:19:13.000Z",
-      "discoveredAt": "2026-09-04T18:19:13.252Z",
-      "sources": [
-        {
-          "title": "Liverpool agree deal to sign Djylian N’Guessan",
-          "publisher": "Liverpool FC",
-          "url": "https://www.liverpoolfc.com/news/liverpool-agree-deal-sign-djylian-nguessan?amp=1",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Liverpool finally confirms new signing days after transfer window closed",
-          "publisher": "Liverpool.com",
-          "url": "https://www.liverpool.com/liverpool-fc-news/transfer-news/breaking-liverpool-djylian-nguessan-confirmed-34565599.amp",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "independent_verification"
         }
       ]
     }
