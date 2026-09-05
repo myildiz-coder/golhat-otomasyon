@@ -14,6 +14,7 @@ permissions:
 
 concurrency:
   group: golhat-content-writer
+  queue: max
   cancel-in-progress: false
 
 jobs:
@@ -34,6 +35,7 @@ jobs:
         run: npm test
 
       - name: Puan cetveli ve sıradaki haftayı çek
+        id: standings
         run: node scripts/fetch-super-lig-tff.js
 
       - name: Değişiklik varsa commit et ve gönder
@@ -55,7 +57,7 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Puan değişikliğini öncelikli maç masasına gönder
-        if: steps.publish.outputs.changed == 'true'
+        if: steps.publish.outputs.changed == 'true' && steps.standings.outputs.semantic_changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash

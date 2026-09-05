@@ -1,0 +1,50 @@
+name: GOLHAT Birleşik Otomasyon Kontrolü
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+      - 'typography-tuning.css'
+      - 'docs/EDITORIAL_AUTOMATION.md'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+      - 'typography-tuning.css'
+      - 'docs/EDITORIAL_AUTOMATION.md'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: golhat-automation-health-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Bütün otomasyon regresyon testleri
+        run: npm test
+      - name: Baş editörün gerçek havuzla güvenli denemesi
+        run: node scripts/run-editorial.js --head --dry-run
+      - name: Arşiv ve yeni sayfaların mizanpaj kontrolü
+        run: node scripts/layout-audit.js --all --report layout-report.json --screenshots layout-artifacts
+      - name: Doğrulama raporunu sakla
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: automation-health-${{ github.run_id }}
+          path: |
+            layout-report.json
+            layout-artifacts
+          if-no-files-found: ignore
+          retention-days: 7

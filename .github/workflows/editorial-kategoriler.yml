@@ -43,6 +43,7 @@ permissions:
 
 concurrency:
   group: golhat-content-writer
+  queue: max
   cancel-in-progress: false
 
 env:
@@ -150,3 +151,7 @@ jobs:
         run: |
           set -euo pipefail
           gh workflow run editorial-bas-editor.yml --ref main -f dry_run=false
+
+      - name: Birleşik GOLHAT yayınını doğrula ve eşitle
+        if: ${{ success() && (github.event_name == 'schedule' || inputs.dry_run == false) }}
+        run: node scripts/publication-sync.js
