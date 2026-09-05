@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T17:39:52.437Z",
+  "updatedAt": "2026-09-05T17:48:53.528Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Beşiktaş",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 40,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 53,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -219,9 +219,9 @@
       "venue": "",
       "home": "Rayo Vallecano",
       "away": "Racing Santander",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 2,
-      "minute": 47,
+      "minute": 56,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -273,9 +273,9 @@
       "venue": "",
       "home": "Inter",
       "away": "Napoli",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 78,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 51,
+      "minute": 60,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
