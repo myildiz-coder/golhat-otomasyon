@@ -189,7 +189,11 @@ function writeJsonAtomic(file, value) {
 async function main() {
   const html = await fetchTffPage();
   const output = { updatedAt: new Date().toISOString(), ...parseTffPage(html) };
+  let previous = null;
+  try { previous = JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8')); } catch { /* Initial fetch. */ }
+  const changed = require('./standings-change').standingsChanged(previous, output);
   writeJsonAtomic(OUTPUT_PATH, output);
+  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, 'semantic_changed=' + changed + '\n');
   console.log(
     'TFF Super Lig verisi yazildi: ' + output.standings.length +
     ' takim, ' + output.fixtures.length + ' oynanacak mac, ' + output.roundLabel

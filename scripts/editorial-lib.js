@@ -802,7 +802,9 @@ function renderHomepageSources(story) {
     '          </div>',
     '        </div>',
     '        <p class="voice-quote">' + htmlEscape(source.title) + '</p>',
-    '        <p class="voice-context">Kaynak yayını · ' + htmlEscape(formatIstanbulDate(source.publishedAt)) + '</p>',
+    Number.isFinite(Date.parse(source.publishedAt))
+      ? '        <p class="voice-context">Kaynak yayını · ' + htmlEscape(formatIstanbulDate(source.publishedAt)) + '</p>'
+      : '',
     '        <a class="voice-source" href="' + htmlEscape(source.url) + '" target="_blank" rel="noopener">Orijinal haberi aç →</a>',
     '      </article>'
   ].join('\n')).join('\n');
@@ -1165,7 +1167,7 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     'h2{font:700 2rem/1.1 Impact,sans-serif;margin-top:36px}',
     '.angle{border-left:5px solid var(--red);padding:18px 22px;background:#fff}',
     '.findings{padding-left:22px}.findings li{margin:12px 0}',
-    '.column-prose{margin:26px 0}.column-prose p{font-size:1.08rem;line-height:1.78;margin:0 0 1.25em}.column-conclusion{padding-top:8px;border-top:1px solid var(--line)}',
+    '.column-prose{margin:26px 0;overflow-wrap:anywhere}.column-prose p{font-size:1.08rem;line-height:1.78;margin:0 0 1.25em}.column-conclusion{padding-top:8px;border-top:1px solid var(--line)}',
     '.method{padding:18px;border:1px solid var(--line);font:.78rem/1.6 monospace}',
     '.sources{list-style:none;padding:0}.sources li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}',
     '.sources span{font:600 .7rem monospace;color:var(--red)}.sources a{font-weight:700}.sources p{margin:4px 0;font-size:.9rem}',
