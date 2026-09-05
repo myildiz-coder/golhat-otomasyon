@@ -1,7 +1,70 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T05:41:14.031Z",
+  "updatedAt": "2026-09-05T06:20:49.616Z",
   "stories": [
+    {
+      "id": "7d5870671a3cfb62",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray Başakşehir’de skoru değil, ikinci planını kazandı",
+      "summary": "Galatasaray’ın Başakşehir deplasmanındaki 3-2’lik galibiyeti, kusursuz bir savunma performansından çok maç içinde değişen şartlara cevap verebilme gücünü gösterdi. Osimhen’in çıkışı, iki kez gelen beraberlik ve VAR müdahaleleri oyunun yönünü değiştirdi; Okan Buruk’un hamleleriyle Gabriel Sara’nın duran top kalitesi sonucu belirledi. Şimdi asıl soru, bu çözüm üretme becerisinin Sporting deplasmanına taşınıp taşınamayacağıdır.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray Başakşehir maçında ikinci planını nasıl kullandı?",
+      "seoDescription": "Galatasaray’ın Başakşehir’i 3-2 yendiği maçta değişen oyun planını, teknik hamleleri ve Gabriel Sara’nın belirleyici duran top katkısını inceliyoruz.",
+      "focusKeyword": "Galatasaray Başakşehir maçı",
+      "originalAngle": "Galatasaray’ın Başakşehir karşısındaki asıl kazanımı savunmada kusursuzluk değil, maç planı bozulduğunda farklı yollarla sonuca gidebilmesi oldu. Osimhen’in sakatlık nedeniyle çıkmasıyla başlayan belirsizlik, Rafael Leao’nun oyuna girişi, Torreira’nın ceza sahasına zamanlaması ve Sara’nın duran top tehdidiyle başka bir dengeye dönüştü. Bu galibiyet, lider takımın yalnızca ilk planına bağlı olmadığını gösteriyor; ancak iki gol ve savunma kaynaklı kırılmalar, Avrupa seviyesinde daha kontrollü bir geçiş savunması gerekeceğini de hatırlatıyor.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’daki Süper Lig 4. hafta maçında Başakşehir’i deplasmanda 3-2 yendi ve 10 puana yükseldi. Galibiyet golünü Gabriel Sara 90+1’de serbest vuruştan attı.",
+        "Galatasaray’ın ilk planı Victor Osimhen’in 31. dakika civarında yaşadığı sakatlıkla değişti. Osimhen’in yerine Barış Alper Yılmaz girerken, ikinci yarıda Rafael Leao’nun oyuna dahil olması hücumun biçimini değiştirdi.",
+        "Başakşehir’in penaltıyla 1-1’i, Davinson Sanchez’in kendi kalesine attığı golle de 2-2’yi bulmasına rağmen Galatasaray iki kez yeniden öne geçti. Bu akış, sonucun tek bir üstünlük bölümünden değil, maç içindeki cevaplardan çıktığını gösterdi.",
+        "83. dakikada VAR incelemesiyle Galatasaray’ın bir golü iptal edildi; 79. dakikada Umut Bozok kırmızı kart gördü. Hakem ve VAR kararları oyunun son bölümünü doğrudan etkileyen doğrulanmış kırılma anları oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 Başakşehir-Galatasaray maçının resmi kulüp raporu, DHA maç haberi ve FotMob karşılaşma verisi karşılaştırıldı. Yorum yalnızca bu kaynaklarda ortaklaşan skor, kadro, gol, değişiklik, VAR ve kart bilgileri üzerine kuruldu; doğrulanmayan performans veya taktik ayrıntıları kullanılmadı.",
+      "originalFindings": [
+        "Galatasaray’ın hücum üretimi, maçın başındaki ön alan baskısından ikinci yarıdaki Leao-Torreira bağlantısına ve son bölümde Sara’nın duran topuna kadar farklı kanallara yayıldı.",
+        "Okan Buruk’un ilk 11 tercihi ve ikinci yarı değişiklikleri, Osimhen’in oyundan çıkması sonrası planın tamamen dağılmasını engelledi; ancak savunmanın penaltı ve kendi kalesine golle iki kez kırılması, oyunun kontrolünün sürekli Galatasaray’da olmadığını gösterdi.",
+        "Başakşehir karşısında alınan üç puan liderliği korudu fakat 9 Eylül 2026’daki Sporting deplasmanı öncesinde daha önemli ölçüt, Galatasaray’ın geriye düştüğü veya planı bozulduğu anlarda savunma mesafelerini ne kadar koruyacağı olacak."
+      ],
+      "limitations": "Resmi maç raporu ve bağımsız maç anlatımlarında ayrıntılı takım istatistikleri, topa sahip olma oranları ve tüm oyuncuların bireysel performans ölçümleri aynı kapsamda verilmediği için bu alanlarda kesin hüküm kurulmadı. Penaltı ve iptal edilen golün teknik doğruluğu hakkında bağımsız hakem değerlendirmesi bulunmadığından kararların doğruluğu değil, oyuna etkisi ele alındı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "2026-09-05-YORUM-GS-BSK-01",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-05T03:20:49.000Z",
+      "discoveredAt": "2026-09-05T06:20:49.616Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04T22:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Başakşehir - Galatasaray canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/tr/matches/istanbul-basaksehir-vs-galatasaray/x9mhg",
+          "publishedAt": "2026-09-04T17:00:00+00:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-05T06:06:24+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "5ac0f3a4bafe295a",
       "role": "anadolu",
@@ -9748,50 +9811,6 @@
           "publisher": "Deutscher Fußball-Bund",
           "url": "https://www.dfb.de/news/nach-fruehem-rueckstand-fc-bayern-dreht-auftaktpartie-in-osnabrueck",
           "publishedAt": "2026-09-02",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "4f43c9a228cba252",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Schalke’nin golcüsü Edin Džeko, Bosna-Hersek millî takımını bırakacağını açıkladı",
-      "summary": "Bundesliga’ya Schalke formasıyla dönen 40 yaşındaki Edin Džeko, Bosna-Hersek adına son maçına 2 Ekim 2026’da İsveç karşısında çıkacağını duyurdu.",
-      "tag": "Gelişme",
-      "importance": 74,
-      "contentType": "news",
-      "seoTitle": "Edin Džeko, Bosna-Hersek millî takımını bırakıyor",
-      "seoDescription": "Schalke forveti Edin Džeko, Bosna-Hersek formasını 2 Ekim 2026’daki İsveç maçından sonra bırakacağını açıkladı; kariyerindeki yeni dönem haberde.",
-      "focusKeyword": "Edin Džeko Bosna-Hersek millî takımını bırakıyor",
-      "originalAngle": "Džeko’nun kararı, 2026/27 sezonunda Bundesliga’ya dönen tecrübeli forvetin kulüp kariyerini sürdürürken millî takım yükünü bırakması anlamına geliyor. Schalke’de yeniden Bundesliga sahnesine çıkan Džeko için bundan sonraki temel soru, uluslararası vedanın kulüp düzeyindeki rolünü ve sezon planını nasıl etkileyeceği olacak.",
-      "keyFindings": [
-        "Edin Džeko, Bosna-Hersek millî takımındaki kariyerini 2 Ekim 2026’da İsveç karşılaşmasının ardından sonlandıracağını açıkladı.",
-        "Džeko, Bosna-Hersek formasıyla 151 maça çıktı ve 73 gol attı.",
-        "40 yaşındaki futbolcu, Schalke’nin Bundesliga’ya yükselmesinin ardından yeni sezonda Almanya’nın en üst ligine geri döndü."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Karar, Bundesliga’nın Džeko ve Schalke bağlantısını aktaran haberi ile beIN SPORTS Türkiye’nin aynı gün yayımladığı haber karşılaştırılarak doğrulandı. Son maç tarihi, millî takım vedası ve oyuncunun Schalke’deki Bundesliga dönüşü iki farklı alan adından kontrol edildi. ([bundesliga.com](https://www.bundesliga.com/en/bundesliga/news/edin-dzeko-announces-bosnia-herzegovina-retirement-schalke-world-cup-39006))",
-      "originalFindings": [],
-      "limitations": "Džeko’nun kulüp kariyerini ne zaman sonlandıracağı veya Schalke’deki forma rolünün değişip değişmeyeceği konusunda doğrulanmış yeni bir açıklama bulunmuyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T10:45:04.000Z",
-      "discoveredAt": "2026-09-03T13:45:04.900Z",
-      "sources": [
-        {
-          "title": "Schalke striker Edin Džeko announces Bosnia & Herzegovina retirement",
-          "publisher": "Bundesliga",
-          "url": "https://www.bundesliga.com/en/bundesliga/news/edin-dzeko-announces-bosnia-herzegovina-retirement-schalke-world-cup-39006",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Edin Dzeko milli takım kariyerini noktalayacağını açıkladı",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/edin-dzeko-milli-takim-kariyerini-noktalayacagini-acikladi",
-          "publishedAt": "2026-09-03",
           "sourceRole": "independent_verification"
         }
       ]
