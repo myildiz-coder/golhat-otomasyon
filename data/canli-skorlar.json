@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:29:58.071Z",
+  "updatedAt": "2026-09-05T18:43:46.827Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 4,
+    "live": 3,
     "upcoming": 5,
-    "finished": 19
+    "finished": 20
   },
   "matches": [
     {
@@ -58,8 +58,8 @@
       "home": "Fenerbahçe",
       "away": "Beşiktaş",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 71,
+      "awayScore": 2,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,10 +221,10 @@
       "away": "Racing Santander",
       "homeScore": 3,
       "awayScore": 2,
-      "minute": 97,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868050,
@@ -491,7 +491,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 88,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "PSV Eindhoven",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 29,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
