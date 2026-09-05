@@ -1,7 +1,114 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T15:16:25.521Z",
+  "updatedAt": "2026-09-05T15:41:46.441Z",
   "stories": [
+    {
+      "id": "56daf01c5b015946",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Bundesliga’da beş maç tamamlandı: Dortmund deplasmanda kazandı, Leverkusen dört gol attı",
+      "summary": "Borussia Dortmund, Hoffenheim’ı 3-2 yenerken Bayer Leverkusen Union Berlin’i 4-0 mağlup etti. Werder Bremen de RB Leipzig karşısında 3-1 kazandı.",
+      "tag": "Maç Sonucu",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Bundesliga’da Dortmund, Leverkusen ve Werder Bremen kazandı",
+      "seoDescription": "Bundesliga’da 5 Eylül maçlarında Dortmund Hoffenheim’ı, Leverkusen Union Berlin’i, Werder Bremen ise Leipzig’i mağlup etti; sonuçların lig bağlamı.",
+      "focusKeyword": "Bundesliga 5 Eylül 2026 maç sonuçları",
+      "originalAngle": "Bundesliga’nın ikinci hafta cumartesi kuşağında sonuçlar yalnızca galibiyetlerden ibaret değil: Dortmund’un Hoffenheim deplasmanındaki 3-2’lik zaferi, Leverkusen’in 4-0’ı ve Werder Bremen’in Leipzig karşısındaki 3-1’i üst sıralardaki erken yarışın farklı profillerini ortaya çıkardı. Özellikle Leverkusen’in savunmada gol yemeden aldığı farklı galibiyet ile Dortmund’un deplasmanda üç gole rağmen kalesinde iki gol görmesi, takımların maç kontrolündeki ayrışmayı gösteriyor; puan tablosundaki kesin etkiler günün tüm maçları tamamlandığında netleşecek.",
+      "keyFindings": [
+        "Bayer Leverkusen, Union Berlin’i 4-0 mağlup etti.",
+        "Borussia Dortmund, Hoffenheim deplasmanından 3-2’lik galibiyetle ayrıldı.",
+        "Werder Bremen, RB Leipzig’i 3-1 yendi; Paderborn-Freiburg ve Mönchengladbach-Elversberg maçları da tamamlandı.",
+        "Sonuçlar, 5 Eylül 2026 Bundesliga fikstüründe aynı maç gününün parçası olarak iki ayrı skor kaynağında yer alıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Sky Sports’un tamamlanmış maç skorları, LiveScores’un 5 Eylül 2026 sonuç akışıyla karşılaştırıldı; Bundesliga’nın resmi fikstür sayfasından karşılaşmaların aynı maç gününe ait olduğu kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Sky Sports ve LiveScores sonuçları maç skorlarını doğruluyor; ancak bu tarama anında Bundesliga’nın resmi maç raporlarında karşılaşmaların ayrıntılı olay dökümü görünür değildi. Bu nedenle gol dakikaları, oyuncu performansları ve güncellenmiş puan tablosu habere eklenmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T15:41:46.441Z",
+      "discoveredAt": "2026-09-05T15:41:46.441Z",
+      "sources": [
+        {
+          "title": "Football Scores & Fixtures - Today's Schedule of Football Matches",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-09-05",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Football Live Scores - 5 September 2026",
+          "publisher": "LiveScores",
+          "url": "https://www.livescores.com/football/2026-09-05",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fixtures - Bundesliga",
+          "publisher": "Bundesliga",
+          "url": "https://products.bundesliga.com/fixtures",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "4082c5b1c6e4b641",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Fenerbahçe-Beşiktaş derbisinde ilk sınav yalnız sahada değil, tribünde de verilecek",
+      "summary": "Fenerbahçe ile Beşiktaş, 5 Eylül 2026’da Kadıköy’de Süper Lig’in dördüncü haftasında karşılaşacak. Derbi öncesi sportif gerilim kadar tribün disiplininin sınırları da gündemde: PFDK’nın Alanyaspor maçındaki tezahüratlar nedeniyle bazı Beşiktaş taraftarlarına uyguladığı blokaj, büyük maç atmosferinin kulüpler için yalnız destek değil sorumluluk da taşıdığını gösteriyor.",
+      "tag": "Yorum",
+      "importance": 78,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinde tribün disiplini sınavı",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisi öncesi maçın tribün boyutunu, PFDK kararının etkisini ve kulüplerin atmosfer yönetimi sorumluluğunu inceliyoruz.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi 5 Eylül 2026",
+      "originalAngle": "Derbinin sportif sonucu henüz bilinmezken, PFDK’nın Beşiktaş taraftarlarının bir bölümüne uyguladığı giriş blokesi büyük maç kültürünün temel çelişkisini görünür kılıyor: Tribün desteği oyunun parçası, fakat kontrolsüz tezahürat kulübün maç günündeki gücünü azaltan doğrudan bir maliyete dönüşebiliyor.",
+      "keyFindings": [
+        "Fenerbahçe-Beşiktaş derbisi 5 Eylül 2026 Cumartesi günü saat 20.00’de Fenerbahçe’nin sahasında oynanacak; karşılaşmayı Halil Umut Meler yönetecek.",
+        "TFF PFDK, 23 Ağustos 2026’daki Corendon Alanyaspor-Beşiktaş maçında çirkin ve kötü tezahürat nedeniyle bazı Beşiktaş misafir tribünü bloklarındaki elektronik biletleri bir sonraki deplasman maçına bloke etti.",
+        "Bu karar, derbi atmosferinin yalnızca yüksek ses ve baskı üretme meselesi olmadığını; kulüplerin tribün davranışını yönetemediğinde sportif gündemin yanında doğrudan taraftar erişimi sorunu da yaşadığını gösteriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "5 Eylül 2026 tarihli resmi kulüp maç bilgileri, TFF PFDK kararı ve maç öncesi bağımsız spor haberi karşılaştırıldı. Maç henüz oynanmadığı için skor, taktik sonuç, oyuncu performansı ve puan etkisi hakkında çıkarım yapılmadı.",
+      "originalFindings": [
+        "Derbi öncesi doğrulanabilen en somut yeni başlık, Beşiktaş deplasman tribününün bazı bloklarına yönelik PFDK kaynaklı giriş kısıtlamasıdır.",
+        "Resmi maç kaydında karşılaşmanın 5 Eylül 2026 saat 20.00’de Kadıköy’de oynanacağı ve hakemin Halil Umut Meler olduğu doğrulanmaktadır.",
+        "Bu tablo, derbi hazırlığını yalnız kadro ve oyun planı üzerinden okumanın eksik kalacağını; tribün organizasyonunun da kulüp yönetiminin maç performansını etkileyen sorumluluklarından biri olduğunu düşündürüyor."
+      ],
+      "limitations": "Karşılaşma henüz başlamadığı için maçın taktik akışı, hakem kararlarının etkisi, oyuncu performansları ve puan tablosundaki sonucu değerlendirilemez. Tribün blokajının derbi atmosferine fiilî etkisi de maç sonrasında gözlemlenebilir.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "golhat-2026-09-05-yorum-fb-bjk-tribun-disiplini",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-05T12:41:46.000Z",
+      "discoveredAt": "2026-09-05T15:41:46.441Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "PFDK Kararları - 27.08.2026",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Default.aspx?ftxtId=51222&pageId=200",
+          "publishedAt": "2026-08-27",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe’de derbi öncesi tek eksik",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahcede-derbi-oncesi-tek-eksik-2",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "a60adb63718f2a46",
       "role": "transfer",
@@ -10599,101 +10706,6 @@
           "publisher": "Beşiktaş JK",
           "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
           "publishedAt": "2026-09-04T00:00:00+03:00",
-          "sourceRole": "context"
-        }
-      ]
-    },
-    {
-      "id": "8cf3ff9e4ad58467",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Beşiktaş, Elan Ricardo’yu ETO FC’ye kiraladı",
-      "summary": "Beşiktaş, Kolombiyalı orta saha Elan Ricardo’nun 2026-2027 sezonu sonuna kadar Macaristan ekibi ETO FC’ye geçici transfer olduğunu açıkladı. Ricardo’nun Beşiktaş A takımında resmi maç oynayamadan yeniden kiralanması, kulübün kadro planlamasındaki son değişikliklerden biri oldu.",
-      "tag": "Kesinleşti",
-      "importance": 68,
-      "contentType": "news",
-      "seoTitle": "Beşiktaş, Elan Ricardo’yu ETO FC’ye kiraladı",
-      "seoDescription": "Beşiktaş, Elan Ricardo’nun ETO FC’ye kiralandığını açıkladı. Kolombiyalı orta sahanın yeni adresi ve üçüncü kiralık ayrılığı doğrulanmış bilgilerle inceleniyor.",
-      "focusKeyword": "Elan Ricardo ETO FC transferi",
-      "originalAngle": "Elan Ricardo’nun yeni adresi ETO FC oldu; gelişmenin ayırt edici tarafı, Beşiktaş’ın oyuncuyu 2026-2027 sezonu sonuna kadar yeniden kiralaması ve bunun kulüpten üçüncü geçici ayrılık olarak kayda geçmesidir.",
-      "keyFindings": [
-        "Beşiktaş, Elan Ricardo’nun ETO FC’ye 2026-2027 sezonu sonuna kadar geçici transferi konusunda anlaşma sağlandığını duyurdu.",
-        "Bağımsız haber doğrulaması, Ricardo’nun Beşiktaş’tan daha önce Athletico Paranaense ve Deportes Tolima’ya da kiralandığını aktarıyor.",
-        "Bu işlem, oyuncunun Beşiktaş kadrosunda kalıcı rol bulamadığını gösteren doğrulanmış bir kadro planlaması gelişmesidir; teknik tercih ile transfer arasındaki doğrudan nedensellik ise resmi açıklamayla kurulmuş değildir."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Beşiktaş’ın resmi transfer duyurusu, aynı gün yayımlanan bağımsız Türkçe haber ve kulübün oyuncuya ilişkin önceki açıklamaları karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Kiralama bedeli, satın alma opsiyonu ve ETO FC’deki sözleşme ayrıntıları resmi açıklamada yer almıyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-04T15:02:00.000Z",
-      "discoveredAt": "2026-09-04T16:42:37.114Z",
-      "sources": [
-        {
-          "title": "Elan Ricardo, ETO Futball Kft.’ye Geçici Transfer Oldu",
-          "publisher": "Beşiktaş JK",
-          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95038",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Beşiktaş’ta forma giyemeyen Elan Ricardo, ETO FC’ye kiralandı",
-          "publisher": "TR Haberleri",
-          "url": "https://www.trtv.net/2026/09/04/besiktas-elan-ricardo-eto-fc-kiralik",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "bc89c7bdf57a2377",
-      "role": "anadolu",
-      "page": "anadolu.html",
-      "headline": "Gaziantep FK, Mirel Radoi’nin ardından Orhan Ak’la anlaştı",
-      "summary": "Gaziantep FK, Mirel Radoi ile yolların ayrılmasının ardından teknik direktörlük görevine Orhan Ak’ı getirdi. Yeni teknik adam sezon sonuna kadar sözleşme imzalarken, takımın ilk üç haftadaki 4 puanlık başlangıcının ardından teknik yönetim değişti.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Gaziantep FK’de Orhan Ak dönemi başladı",
-      "seoDescription": "Gaziantep FK, Mirel Radoi’nin ayrılığı sonrası Orhan Ak’ı sezon sonuna kadar teknik direktörlük görevine getirdi; değişimin arka planı burada.",
-      "focusKeyword": "Gaziantep FK Orhan Ak",
-      "originalAngle": "Gaziantep FK’nin teknik direktör değişikliği, sezonun henüz üçüncü haftası tamamlanmadan geldi. GOLHAT’ın dikkat çektiği nokta, kulübün puan tablosundan çok kısa vadede yeni teknik ekibin oyun planını ve Radoi döneminde oluşan başlangıç ivmesini koruyup koruyamayacağıdır.",
-      "keyFindings": [
-        "Gaziantep FK, Mirel Radoi ile yollarını ayırdı ve Orhan Ak ile sezon sonuna kadar anlaştı.",
-        "Gaziantep FK, 2026-2027 Süper Lig sezonunun ilk üç haftasında Alanyaspor ile berabere kaldı, Eyüpspor’u yendi ve Çaykur Rizespor’a mağlup oldu.",
-        "Orhan Ak’ın ilk sınavı, teknik değişikliğin takımın sezon başındaki puan üretimine ve oyun düzenine etkisini gösterecek."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Kulübün teknik direktörlük anlaşmasına ilişkin açıklaması, Sahadan’ın haber metni ve Cumhuriyet’in bağımsız haber sunumuyla karşılaştırıldı. Radoi dönemi ve ilk üç haftadaki sonuçlar ayrıca haber kaynaklarındaki ortak bilgiler üzerinden kontrol edildi.",
-      "originalFindings": [],
-      "limitations": "Orhan Ak’ın sözleşmesinin mali şartları ve teknik ekibin tamamı doğrulanmış kaynaklarda açıklanmadı. Değişikliğin sportif başarısını ölçmek için henüz yeni maç verisi bulunmuyor.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-04T11:30:00.000Z",
-      "discoveredAt": "2026-09-04T16:18:35.501Z",
-      "sources": [
-        {
-          "title": "Gaziantep FK'nin yeni teknik direktörü Orhan Ak",
-          "publisher": "Sahadan",
-          "url": "https://www.sahadan.com/haberler/futbol/gaziantep-fknin-yeni-teknik-direktoru-orhan-ak/92bedcb5-dfa3-43b0-92a1-fc54270ca786",
-          "publishedAt": "2026-09-04T14:30:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Gaziantep FK'de Orhan Ak dönemi",
-          "publisher": "Cumhuriyet",
-          "url": "https://www.cumhuriyet.com.tr/",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Gaziantep FK'de Orhan Ak dönemi",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/takim/gaziantep-fk",
-          "publishedAt": "2026-09-04",
           "sourceRole": "context"
         }
       ]
