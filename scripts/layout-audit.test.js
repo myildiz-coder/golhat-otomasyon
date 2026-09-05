@@ -66,7 +66,9 @@ test('kalıcı haber şablonu geniş ekranda dengeli başlık ve yayın alanı k
   const source = fs.readFileSync(path.resolve(__dirname, 'editorial-lib.js'), 'utf8');
   assert.match(source, /width:min\(1180px,calc\(100% - 48px\)\)/);
   assert.match(source, /clamp\(2\.8rem,5vw,4\.6rem\)/);
-  assert.match(source, /max-width:26ch/);
+  assert.match(source, /max-width:min\(34ch,100%\)/);
+  const tuning = fs.readFileSync(path.resolve(__dirname, "..", "typography-tuning.css"), "utf8");
+  assert.match(tuning, /\.article-head > h1[\s\S]*max-width: min\(34ch, 100%\)/);
   assert.match(source, /text-wrap:balance/);
   assert.doesNotMatch(source, /clamp\(2\.7rem,8vw,5\.7rem\)/);
 });

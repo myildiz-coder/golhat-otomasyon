@@ -1159,7 +1159,7 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
     '.breadcrumb{padding-top:24px;font:600 .7rem/1.5 monospace}',
     '.article-head{padding:34px 0 32px;border-bottom:1px solid var(--line)}',
     '.kicker,.meta{font:600 .72rem monospace;letter-spacing:.08em;text-transform:uppercase}.kicker{color:var(--red)}',
-    'h1{font:900 clamp(2.8rem,5vw,4.6rem)/1 Impact,sans-serif;letter-spacing:-.012em;max-width:26ch;margin:15px 0;text-wrap:balance}',
+    'h1{font:900 clamp(2.8rem,5vw,4.6rem)/1 Impact,sans-serif;letter-spacing:-.012em;max-width:min(34ch,100%);margin:15px 0;text-wrap:balance}',
     '.standfirst{font-size:clamp(1.05rem,1.35vw,1.2rem);line-height:1.55;max-width:78ch}.meta{color:#626761}',
     '.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,340px);gap:clamp(32px,4.5vw,64px);padding:40px 0 44px}.grid>*{min-width:0}',
     'h2{font:700 2rem/1.1 Impact,sans-serif;margin-top:36px}',
