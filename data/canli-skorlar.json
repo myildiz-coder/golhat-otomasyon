@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T14:24:03.972Z",
+  "updatedAt": "2026-09-05T14:35:30.857Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 13,
-    "upcoming": 14,
+    "live": 14,
+    "upcoming": 13,
     "finished": 1
   },
   "matches": [
@@ -41,7 +41,7 @@
       "away": "Konyaspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Sunderland",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 23,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Leeds United",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 24,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Crystal Palace",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -147,9 +147,9 @@
       "venue": "",
       "home": "Manchester City",
       "away": "Coventry City",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 23,
+      "minute": 34,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Tottenham Hotspur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Torino",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 60,
+      "minute": 72,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Union Berlin",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Freiburg",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,10 +473,10 @@
       "away": "Feyenoord",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781733,
