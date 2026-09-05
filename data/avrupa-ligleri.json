@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T08:22:43.953Z",
+  "updatedAt": "2026-09-05T12:27:52.437Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -105,21 +105,6 @@
         },
         {
           "rank": 7,
-          "teamId": 10261,
-          "team": "Newcastle United",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 2,
-          "goalDifference": 2,
-          "points": 4,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 8,
           "teamId": 8668,
           "team": "Everton",
           "played": 2,
@@ -129,6 +114,21 @@
           "goalsFor": 3,
           "goalsAgainst": 1,
           "goalDifference": 2,
+          "points": 4,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 8,
+          "teamId": 10261,
+          "team": "Newcastle United",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 4,
+          "goalDifference": 1,
           "points": 4,
           "form": "",
           "description": ""
@@ -150,6 +150,21 @@
         },
         {
           "rank": 10,
+          "teamId": 8678,
+          "team": "AFC Bournemouth",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0,
+          "points": 4,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 11,
           "teamId": 10204,
           "team": "Brighton & Hove Albion",
           "played": 2,
@@ -164,7 +179,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "teamId": 10260,
           "team": "Manchester United",
           "played": 2,
@@ -179,7 +194,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "teamId": 8472,
           "team": "Sunderland",
           "played": 2,
@@ -194,7 +209,7 @@
           "description": ""
         },
         {
-          "rank": 13,
+          "rank": 14,
           "teamId": 9902,
           "team": "Ipswich Town",
           "played": 3,
@@ -205,21 +220,6 @@
           "goalsAgainst": 8,
           "goalDifference": -4,
           "points": 3,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 14,
-          "teamId": 8678,
-          "team": "AFC Bournemouth",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "goalDifference": -1,
-          "points": 1,
           "form": "",
           "description": ""
         },
@@ -315,20 +315,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5795443,
-          "date": "2026-09-05T11:30:00.000Z",
-          "timestamp": 1788607800,
-          "round": "3",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Newcastle United",
-          "away": "AFC Bournemouth",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5795436,
           "date": "2026-09-05T14:00:00.000Z",
@@ -479,6 +465,20 @@
           "venue": "",
           "home": "Chelsea",
           "away": "Hull City",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5795449,
+          "date": "2026-09-12T14:00:00Z",
+          "timestamp": 1789221600,
+          "round": "4",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Crystal Palace",
+          "away": "Ipswich Town",
           "started": false,
           "finished": false,
           "cancelled": false
