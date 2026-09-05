@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T13:26:36.641Z",
+  "updatedAt": "2026-09-05T13:36:30.781Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 1,
-    "upcoming": 26,
+    "live": 6,
+    "upcoming": 21,
     "finished": 1
   },
   "matches": [
@@ -257,7 +257,7 @@
       "away": "Torino",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -309,12 +309,12 @@
       "venue": "",
       "home": "Bayer Leverkusen",
       "away": "Union Berlin",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881153,
@@ -329,10 +329,10 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881156,
@@ -347,10 +347,10 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881157,
@@ -365,10 +365,10 @@
       "away": "Freiburg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881160,
@@ -381,12 +381,12 @@
       "venue": "",
       "home": "Werder Bremen",
       "away": "RB Leipzig",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881158,
