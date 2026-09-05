@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T04:05:27.357Z",
+  "updatedAt": "2026-09-05T04:16:51.343Z",
   "stories": [
+    {
+      "id": "d73aa16253246c83",
+      "role": "galatasaray",
+      "page": "galatasaray.html",
+      "headline": "Galatasaray’da Sporting öncesi Osimhen ve Lemina belirsizliği: İki oyuncu ilk yarıda çıktı",
+      "summary": "Galatasaray Teknik Direktörü Okan Buruk, Başakşehir maçında Victor Osimhen ile Mario Lemina’nın ilk yarıda oyundan çıktığını açıkladı. Kulüp, 9 Eylül 2026’daki Sporting CP karşılaşması öncesi oyuncuların sağlık durumuna ilişkin henüz ayrıntılı rapor yayımlamadı.",
+      "tag": "Gelişme",
+      "importance": 82,
+      "contentType": "news",
+      "seoTitle": "Galatasaray’da Osimhen ve Lemina için Sporting öncesi belirsizlik",
+      "seoDescription": "Galatasaray’da Osimhen ve Lemina’nın Başakşehir maçında ilk yarıda çıkması, Sporting karşılaşması öncesi kadro planını belirsiz hale getirdi.",
+      "focusKeyword": "Galatasaray Osimhen Lemina Sporting",
+      "originalAngle": "Başakşehir galibiyetinin hemen ardından Galatasaray’ın önündeki asıl yeni soru skor değil, iki kilit oyuncunun 9 Eylül’de Sporting CP karşısında kullanılabilir olup olmadığıdır. Buruk’un açıklaması oyuncuların erken çıktığını doğruluyor; ancak kulüp henüz sakatlığın niteliğini veya Avrupa maçına yetişme durumunu açıklamadı.",
+      "keyFindings": [
+        "Victor Osimhen ve Mario Lemina, Başakşehir karşılaşmasının ilk yarısında oyundan çıktı.",
+        "Okan Buruk, maç sonrası açıklamasında iki oyuncunun değişikliğini doğruladı ve takımın önünde Sporting CP karşılaşması bulunduğunu belirtti.",
+        "Galatasaray’ın 9 Eylül 2026’daki Sporting CP maçı öncesi oyuncuların sağlık durumuna ilişkin resmi ayrıntılı rapor henüz yayımlanmadı; bu nedenle forma giyip giyemeyecekleri kesinleşmiş değil."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Galatasaray’ın resmi maç sonrası teknik direktör açıklaması, bağımsız spor basınındaki maç sonrası sakatlık haberleriyle karşılaştırıldı. Oyuncuların sağlık durumuna ilişkin yalnızca doğrulanabilen bilgiler kullanıldı.",
+      "originalFindings": [],
+      "limitations": "Kulübün ayrıntılı sağlık raporu bulunmadığı için Osimhen ve Lemina’nın sakatlıklarının niteliği, süresi ve Sporting CP maçındaki durumları kesin olarak söylenemez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T01:16:51.000Z",
+      "discoveredAt": "2026-09-05T04:16:51.343Z",
+      "sources": [
+        {
+          "title": "Teknik Direktörümüz Okan Buruk'tan açıklamalar",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/teknik-direktorumuz-okan-buruktan-aciklamalar/60896",
+          "publishedAt": "2026-09-04T22:42:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Okan Buruk’tan Osimhen açıklaması! Sporting maçında...",
+          "publisher": "Fotomaç",
+          "url": "https://www.fotomac.com.tr/galatasaray/2026/09/04/okan-buruktan-sakatlik-aciklamasi-osimhen-ve-lemina",
+          "publishedAt": "2026-09-04T22:34:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "9ad9f8ef3b35d58d",
       "role": "galatasaray",
@@ -9718,57 +9762,6 @@
           "publisher": "Fotomaç",
           "url": "https://www.fotomac.com.tr/besiktas/2026/09/03/yeni-kartal-umit-akdag",
           "publishedAt": "2026-09-03 06:50",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "c537dfc7a01fd53b",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Carlos Martín, Atlético Madrid’den Hajduk Split’e kiralandı",
-      "summary": "Atlético Madrid ve Hajduk Split, Carlos Martín’in 2026-27 sezonu sonuna kadar sürecek kiralık transferi için anlaşmaya vardı. İspanyol forvet, Almería’ya yetişmeyen evrakların ardından kariyerine Hırvatistan’da devam edecek.",
-      "tag": "Kesinleşti",
-      "importance": 70,
-      "contentType": "news",
-      "seoTitle": "Carlos Martín, Atlético Madrid’den Hajduk Split’e kiralandı",
-      "seoDescription": "Atlético Madrid, Carlos Martín’in Hajduk Split’e sezon sonuna kadar kiralandığını açıkladı. Transferin Almería süreci sonrası nasıl gerçekleştiği burada.",
-      "focusKeyword": "Carlos Martín Hajduk Split transferi",
-      "originalAngle": "Carlos Martín’in transferi, kapanan İspanya penceresinde Almería’ya yetişmeyen evrakların ardından aynı oyuncu için yeni bir çıkış yolu açıldığını gösteriyor; gelişmenin ayırt edici noktası transferin son gün sonrası tamamlanması.",
-      "keyFindings": [
-        "Atlético Madrid, Carlos Martín’in 2026-27 sezonu için Hajduk Split’e kiralandığını duyurdu.",
-        "Hajduk Split de 24 yaşındaki forvetle bir yıllık kiralık anlaşma yapıldığını açıkladı.",
-        "Bağımsız İspanyol ve Hırvat kaynaklar, Almería transferinin evrak süresi nedeniyle tamamlanamadığını ve oyuncunun ardından Hajduk’a yöneldiğini aktardı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Atlético Madrid ve Hajduk Split’in resmî açıklamaları, bağımsız İspanyol ve Hırvat spor kaynaklarıyla çapraz kontrol edildi. Almería sürecine ilişkin ayrıntılar yalnızca bağımsız kaynakların ortak aktardığı çerçevede kullanıldı.",
-      "originalFindings": [],
-      "limitations": "Kiralık anlaşmanın mali şartları ve satın alma opsiyonu doğrulanmış kaynaklarda açıklanmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T00:25:00.000Z",
-      "discoveredAt": "2026-09-03T10:42:58.899Z",
-      "sources": [
-        {
-          "title": "Agreement with Hajduk Split for the loan of Carlos Martín",
-          "publisher": "Atlético de Madrid",
-          "url": "https://en.atleticodemadrid.com/noticias/agreement-with-hajduk-split-for-the-loan-of-carlos-martin",
-          "publishedAt": "2026-09-03 00:25",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Carlos Martín novi je igrač Hajduka!",
-          "publisher": "HNK Hajduk Split",
-          "url": "https://hajduk.hr/vijest/carlos-martin-novi-je-igrac-hajduka-/18505",
-          "publishedAt": "2026-09-03 00:22",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Oficial: Carlos Martín se marcha cedido al Hajduk Split",
-          "publisher": "Mundo Deportivo",
-          "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260903/1004222824/oficial-carlos-martin-marcha-cedido-hajduk-split.html?facet=amp",
-          "publishedAt": "2026-09-03 09:18",
           "sourceRole": "independent_verification"
         }
       ]
