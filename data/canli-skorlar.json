@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:01:04.228Z",
+  "updatedAt": "2026-09-05T12:15:41.677Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Newcastle United",
       "away": "AFC Bournemouth",
-      "homeScore": 0,
-      "awayScore": 1,
-      "minute": 31,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
