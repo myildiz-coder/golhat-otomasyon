@@ -1,7 +1,113 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T15:08:50.548Z",
+  "updatedAt": "2026-09-05T15:16:25.521Z",
   "stories": [
+    {
+      "id": "a60adb63718f2a46",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Kasımpaşa, Crystal Palace’tan Jesurun Rak-Sakyi’yi kadrosuna kattı",
+      "summary": "Kasımpaşa, Crystal Palace oyuncusu Jesurun Rak-Sakyi’nin transferini imza töreniyle duyurdu. İngiliz kanat oyuncusu, daha önce Çaykur Rizespor’da kiralık forma giymişti.",
+      "tag": "Kesinleşti",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "Kasımpaşa, Jesurun Rak-Sakyi transferini açıkladı",
+      "seoDescription": "Kasımpaşa, Crystal Palace’tan Jesurun Rak-Sakyi’yi kadrosuna kattı. Transferin resmî duyurusu ve oyuncunun Türkiye geçmişi haberde.",
+      "focusKeyword": "Jesurun Rak-Sakyi Kasımpaşa transferi",
+      "originalAngle": "Transferin gündem değeri yalnızca yeni imzada değil, Rak-Sakyi’nin Türkiye futbolunu ve Kasımpaşa’yı daha önce tanıyan bir oyuncu olarak kadroya katılmasında bulunuyor. Kasımpaşa böylece uyum sürecini kısaltabilecek bir kanat profiline yöneldi; ancak sözleşmenin mali ve sportif ayrıntıları kamuya açık duyuruda yer almadı.",
+      "keyFindings": [
+        "Kasımpaşa, Jesurun Rak-Sakyi’nin kulübe katıldığını resmî hesabından duyurdu ve oyuncunun imza töreniyle sözleşme yaptığını açıkladı.",
+        "Rak-Sakyi’nin bonservis veya kiralık transfer biçimine ilişkin ayrıntılar mevcut resmî duyuruda açıklanmadı.",
+        "Oyuncu daha önce 2025-2026 sezonunda Çaykur Rizespor forması giymişti; bu nedenle Türkiye’ye ve Süper Lig’e yabancı olmayan bir isim olarak kadroya katılıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Kasımpaşa’nın resmî sosyal medya duyurusu, kulübün açıklamasını aktaran bağımsız haber metniyle karşılaştırıldı; oyuncunun Türkiye geçmişi TFF kayıtlarıyla kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Transferin bonservis bedeli, sözleşme süresi ve oyuncunun statüsü için kulüp veya Crystal Palace tarafından yayımlanmış ayrıntılı sözleşme bilgisi bulunamadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T21:10:00.000Z",
+      "discoveredAt": "2026-09-05T15:16:25.521Z",
+      "sources": [
+        {
+          "title": "Kasımpaşa resmî hesabı: Jesurun Rak-Sakyi Kasımpaşamızda",
+          "publisher": "Kasımpaşa Sportif Faaliyetler A.Ş. resmî hesabı",
+          "url": "https://site.twstalker.com/kasimpasa",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Kasımpaşa, Crystal Palace’tan Jesurun Rak-Sakyi’yi transfer etti",
+          "publisher": "Haber Sunum",
+          "url": "https://www.habersunum.com/kasimpasa-crystal-palace-tan-jesurun-rak-sakyi-yi-transfer-etti-39788",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Jesurun Rak-Sakyi oyuncu detayları",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Default.aspx?kisiId=2828311&pageId=526",
+          "publishedAt": "",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "ea1235d9e8f783c2",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray Başakşehir’de maçı tek yıldızla değil, üç ayrı hücum katkısıyla kazandı",
+      "summary": "Galatasaray’ın Başakşehir’i 3-2 yendiği maç, lider takımın hücum üretimini tek bir oyuncuya bırakmadığını gösterdi. Victor Osimhen’in erken golü başlangıcı sağlarken Lucas Torreira ve Gabriel Sara’nın katkıları, oyunun farklı bölümlerinde başka çözüm yollarının da devreye girdiğini ortaya koydu. Asıl soru, bu çeşitliliğin yoğun Avrupa takviminde ne kadar sürdürülebileceği.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray Başakşehir maçında hücum çeşitliliği öne çıktı",
+      "seoDescription": "Galatasaray’ın Başakşehir’i 3-2 yendiği maçta üç farklı golcünün katkısı, lider takımın hücum planındaki çeşitliliği ve yeni sınavını gösterdi.",
+      "focusKeyword": "Galatasaray Başakşehir 3-2",
+      "originalAngle": "Galatasaray’ın 3-2’lik Başakşehir galibiyetinin asıl anlamı, Osimhen’in skor katkısından çok, takımın maçı üç farklı hücum kaynağıyla taşıyabilmesi. Bu çeşitlilik liderliğin bugünkü sonucundan ziyade, 9 Eylül’de başlayacak Şampiyonlar Ligi takvimi öncesinde kadro ve oyun planının hangi ölçüde paylaşılabildiğini gösteren temel ölçü haline geliyor.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yenerek ligde 10 puana ulaştı ve galibiyet serisini üç maça çıkardı.",
+        "Gollerin Victor Osimhen, Lucas Torreira ve Gabriel Sara’dan gelmesi, skor üretiminin tek bir oyuncuya bağlı kalmadığını gösterdi.",
+        "Başakşehir’in iki golüne rağmen Galatasaray’ın maçı kazanması, öne geçtikten sonra rakibin karşılık verdiği bölümlerde yeniden skor bulabilmenin önemini ortaya koydu; ancak bu durum savunma istikrarı sorusunu da tamamen ortadan kaldırmadı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Galatasaray ve Başakşehir kulüplerinin resmî maç kayıtları, DHA’nın bağımsız maç haberi ve UEFA’nın 2026-27 Şampiyonlar Ligi fikstür bilgisi karşılaştırıldı. Yorum yalnız doğrulanabilen skor, gol dağılımı, puan durumu ve yaklaşan Avrupa takvimi üzerine kuruldu.",
+      "originalFindings": [
+        "Galatasaray’ın üç golünün üç farklı oyuncudan gelmesi, erken öne geçiş ile maçın ilerleyen bölümünde yeniden skor üretme arasında doğrudan bir hücum çeşitliliği olduğunu gösteriyor.",
+        "Torreira ve Sara’nın skor katkısı, orta saha ve ikinci hat oyuncularının yalnızca destek rolünde kalmadığı bir maç tablosu oluşturdu.",
+        "Bu galibiyet, 9 Eylül 2026’daki Sporting CP deplasmanı öncesinde Galatasaray’ın yalnızca ilk 11 yıldızlarına değil, farklı bölgelerden gelen skor katkısına da ihtiyaç duyacağını hatırlatıyor."
+      ],
+      "limitations": "Kaynaklarda ayrıntılı ve bağımsız bir taktik veri seti, topa sahip olma oranı, pres başarısı veya oyuncu ikili mücadele istatistiği bulunmadığı için belirli diziliş ve bireysel performans hükümleri kurulmadı. Başakşehir’in iki golünün savunma organizasyonuna etkisi görünür olsa da bunun kalıcı bir sorun olduğu sonucuna varılamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "20260905-yorum-galatasaray-basaksehir-hucum-cesitliligi",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-05T12:16:25.000Z",
+      "discoveredAt": "2026-09-05T15:16:25.521Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04T22:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Champions League league phase fixtures by team",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team",
+          "publishedAt": "2026-09-03T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "93a1561faa304668",
       "role": "galatasaray",
@@ -10589,108 +10695,6 @@
           "url": "https://beinsports.com.tr/takim/gaziantep-fk",
           "publishedAt": "2026-09-04",
           "sourceRole": "context"
-        }
-      ]
-    },
-    {
-      "id": "2c7c6fba493664ae",
-      "role": "anadolu",
-      "page": "anadolu.html",
-      "headline": "Gençlerbirliği’nin genç oyuncusu Diabate Newcastle United’a transfer oldu",
-      "summary": "Gençlerbirliği, 18 yaşındaki Ousmane Diabate’nin Newcastle United’a transferi konusunda anlaşma sağlandığını açıkladı. İngiliz kulübüne geçen oyuncu, 2026-2027 sezonunun sonuna kadar Ankara temsilcisinde kiralık olarak forma giymeye devam edecek.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Gençlerbirliği’nden Newcastle’a Diabate transferi",
-      "seoDescription": "Gençlerbirliği, 18 yaşındaki Ousmane Diabate’nin Newcastle United’a transferini açıkladı; oyuncu sezon sonuna kadar Ankara’da kiralık kalacak.",
-      "focusKeyword": "Ousmane Diabate Newcastle United",
-      "originalAngle": "Transferin ayırt edici tarafı yalnızca Diabate’nin Premier Lig’e gitmesi değil, Gençlerbirliği’nin oyuncuyu sezon sonuna kadar kadrosunda tutmasıdır. Böylece Ankara temsilcisi hem genç futbolcusunun Avrupa’ya çıkışını gerçekleştirdi hem de kısa vadeli sportif kullanımını korudu.",
-      "keyFindings": [
-        "Ousmane Diabate’nin Newcastle United’a transferi konusunda Gençlerbirliği ile İngiliz kulübü anlaşmaya vardı.",
-        "18 yaşındaki Gineli oyuncu, transfer tamamlandıktan sonra 2026-2027 sezonunun sonuna kadar Gençlerbirliği’nde kiralık kalacak.",
-        "Transfer, Gençlerbirliği’nin genç oyuncu geliştirme ve üst düzey Avrupa kulüplerine oyuncu kazandırma kapasitesi açısından kulüp gündeminin öne çıkan gelişmesi oldu."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Gençlerbirliği’nin resmî açıklaması, Sahadan’ın haber metni ve Ajansspor’un Newcastle açıklamasına dayandırdığı bağımsız haber karşılaştırıldı. Oyuncunun yaşı ve kiralık kalacağı bilgisi iki haber kaynağındaki ortak unsurlar üzerinden kontrol edildi.",
-      "originalFindings": [],
-      "limitations": "Bonservis bedeli konusunda kaynaklarda farklı bilgiler bulunduğundan haber metnine doğrulanmamış rakam eklenmedi. Newcastle’ın sözleşme süresi ve ödeme planına ilişkin resmî ayrıntılar açık kaynaklarda tam olarak yer almıyor.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-04T13:32:00.000Z",
-      "discoveredAt": "2026-09-04T16:18:35.501Z",
-      "sources": [
-        {
-          "title": "Ousmane Diabate, Newcastle United'da",
-          "publisher": "Sahadan",
-          "url": "https://www.sahadan.com/haberler/futbol/ousmane-diabate-newcastle-unitedda/c36fdacc-e787-4c6f-ac41-b996371f5cab",
-          "publishedAt": "2026-09-04T13:50:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Newcastle, Gençlerbirliği’nden Diabate transferini resmen açıkladı",
-          "publisher": "Ajansspor",
-          "url": "https://ajansspor.com/haber/newcastle-genclerbirliginden-diabate-transferini-resmen-acikladi-iste-bonservisi-734118",
-          "publishedAt": "2026-09-04T16:32:00+03:00",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Süper Lig'de transferin son günü",
-          "publisher": "Mackolik",
-          "url": "https://www.mackolik.com/index.php/futbol/haber/super-ligde-transferin-son-gunu/04d7002b-5b75-40e6-b489-73229751a157",
-          "publishedAt": "2026-09-04T17:20:00+03:00",
-          "sourceRole": "context"
-        }
-      ]
-    },
-    {
-      "id": "d312232ab7b335ca",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Çekdar Orhan, Şanlıurfaspor’a transfer oldu",
-      "summary": "Amedspor’dan ayrılan Çekdar Orhan’ın Şanlıurfaspor’a transferi 4 Eylül 2026’da TFF lisans kaydıyla resmileşti. Orhan’ın yeni kulübüyle bir yıllık sözleşme imzaladığı bildirildi.",
-      "tag": "Kesinleşti",
-      "importance": 70,
-      "contentType": "news",
-      "seoTitle": "Çekdar Orhan Şanlıurfaspor’a transfer oldu",
-      "seoDescription": "Çekdar Orhan’ın Şanlıurfaspor transferi TFF lisans kaydıyla resmileşti. Oyuncunun sözleşme süresi ve yeni takımındaki konumu haberimizde.",
-      "focusKeyword": "Çekdar Orhan Şanlıurfaspor transferi",
-      "originalAngle": "Transferin haber değeri yalnızca yeni takım bilgisinde değil, 4 Eylül 2026’da sona eren Türkiye transfer döneminin son gününde TFF lisans kaydıyla tamamlanmış olmasında. Böylece daha önce gündeme gelen görüşme, resmî oyuncu kaydına dönüşmüş oldu.",
-      "keyFindings": [
-        "Çekdar Orhan’ın Şanlıurfaspor’a transferi TFF lisans kaydıyla resmiyet kazandı.",
-        "Bağımsız haber kaynakları oyuncunun Şanlıurfaspor ile bir yıllık sözleşme imzaladığını aktardı.",
-        "Oyuncu, Amedspor’dan ayrılığının ardından Şanlıurfaspor’un 2026-2027 sezonu kadrosuna dahil oldu."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "TFF’deki oyuncu ve lisans kaydı, transferi duyuran iki farklı yerel spor yayınının haberleriyle karşılaştırıldı. Sözleşme süresi, bağımsız haberlerde ortak aktarılan bilgi olarak kullanıldı.",
-      "originalFindings": [],
-      "limitations": "Şanlıurfaspor’un kulüp internet sitesinde veya resmî sosyal medya hesaplarında ayrıca yayımlanmış bir transfer duyurusu doğrulanamadı; bonservis ve ücret bilgisi mevcut kaynaklarda yer almıyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-04T10:14:00.000Z",
-      "discoveredAt": "2026-09-04T16:18:35.501Z",
-      "sources": [
-        {
-          "title": "Çekdar Orhan’ın transferi resmileşti",
-          "publisher": "Amida Haber",
-          "url": "https://amidahaber.com/sanliurfa/cekdar-orhanin-transferi-resmilesti-235444h",
-          "publishedAt": "2026-09-04T13:01:00+03:00",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Çekdar Orhan'ın yeni takımı belli oldu: Lisansı çıkartıldı!",
-          "publisher": "Mücadele Gazetesi",
-          "url": "https://www.mucadelegazetesi.com.tr/cekdar-orhanin-yeni-takimi-belli-oldu-lisansi-cikartildi",
-          "publishedAt": "2026-09-04T13:14:00+03:00",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Çekdar Orhan istatistikleri ve reytingleri",
-          "publisher": "Sofascore",
-          "url": "https://www.sofascore.com/tr/football/player/cekdar-orhan/992598",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "primary_evidence"
         }
       ]
     }
