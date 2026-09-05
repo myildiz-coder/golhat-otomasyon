@@ -1,7 +1,61 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T06:20:49.616Z",
+  "updatedAt": "2026-09-05T06:45:04.732Z",
   "stories": [
+    {
+      "id": "2e25b301452c8aa1",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Kadıköy derbisinde ilk kez sahneye çıkacak 18 oyuncu oyunun ritmini belirleyebilir",
+      "summary": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinde 18 futbolcunun bu eşleşmede ilk kez forma giyme ihtimali bulunuyor. Bu ayrıntı, maçın yalnızca puan hesabıyla değil, deneyim ve karar verme baskısıyla da şekilleneceğini gösteriyor. Fenerbahçe ev sahibi olmanın ritim avantajını ararken Beşiktaş, geniş yeni kadrosundaki oyuncuları derbi gerilimine ne kadar hızlı sokabildiğiyle sınanacak. Asıl soru, ilk düdükten sonra kimin oyunu sakinleştireceği.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinde 18 oyuncunun deneyim sınavı",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisinde ilk kez bu eşleşmede oynayabilecek 18 futbolcunun, maç ritmi ve karar kalitesi üzerindeki etkisini analiz ediyoruz.",
+      "focusKeyword": "Fenerbahçe-Beşiktaş derbisi 18 futbolcu",
+      "originalAngle": "Derbinin gözden kaçan taktik meselesi, yeni oyuncuların sayısından çok bu oyuncuların yüksek baskı altında ilk doğru kararı ne kadar erken vereceği olacak. Ev sahibi Fenerbahçe atmosferi oyunun temposuna çevirmek isteyecek; Beşiktaş ise yeni isimlerinin heyecanını kontrollü enerjiye dönüştürmek zorunda kalacak.",
+      "keyFindings": [
+        "Anadolu Ajansı’nın 4 Eylül 2026 tarihli haberine göre iki takımda toplam 18 futbolcu, forma giymeleri hâlinde Fenerbahçe-Beşiktaş rekabetinde ilk kez sahaya çıkacak.",
+        "Beşiktaş’ın resmî maç merkezi karşılaşmanın 5 Eylül 2026 saat 20.00’de Kadıköy’de oynanacağını ve Halil Umut Meler’in görev yapacağını doğruluyor.",
+        "Bu tablo, teknik adamların yalnızca en iyi ilk 11’i değil, derbi baskısını oyunun akışını bozmadan taşıyabilecek değişiklik planını da doğru kurmasını zorunlu kılıyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli Anadolu Ajansı haberindeki ilk derbi deneyimi verisi, Beşiktaş’ın resmî maç merkezi ve kamuya açık derbi bilgileriyle karşılaştırıldı. Yorum, doğrulanmış kadro-deneyim verisinden taktik ve maç yönetimi çıkarımı yapıyor; kesinleşmiş ilk 11 veya oyuncu performansı varsaymıyor.",
+      "originalFindings": [
+        "18 kişilik deneyim başlığının, derbinin sonucundan önce karar kalitesi ve oyunun ilk bölümündeki risk yönetimi açısından okunması gerektiği değerlendirildi.",
+        "İlk derbi deneyiminin özellikle maçın başlangıç ritmi, top kaybı sonrası reaksiyon ve teknik adamların hamle zamanlaması üzerinde belirleyici olabileceği; bunun ise maç öncesi kesin bir sonuç değil, izlenmesi gereken taktik değişken olduğu ortaya kondu."
+      ],
+      "limitations": "İlk 11’ler, oyuncuların kesin forma giyip giymeyeceği, maç içindeki bireysel performanslar ve somut taktik dizilişler bu aşamada doğrulanmış değil. Bu nedenle yazı, 18 oyuncunun derbide kesin oynayacağı veya belirli bir oyuncunun sonucu değiştireceği iddiasını kurmuyor.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260905-YORUM-FB-BJK-18DERBI-DENEYIMI",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-05T03:45:04.000Z",
+      "discoveredAt": "2026-09-05T06:45:04.732Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinde 18 futbolcu ilk derbi heyecanını yaşayacak",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-besiktas-derbisinde-18-futbolcu-ilk-derbi-heyecanini-yasayacak/4047121",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş derbisini Halil Umut Meler yönetecek",
+          "publisher": "Mackolik",
+          "url": "https://www.mackolik.com/diger/haber/derbinin-hakemi-belli-oldu/09479144-0c25-485a-879b-62965b3e376c",
+          "publishedAt": "2026-09-03",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "7d5870671a3cfb62",
       "role": "yorum",
@@ -9767,50 +9821,6 @@
           "publisher": "beIN SPORTS",
           "url": "https://beinsports.com.tr/lig/sampiyonlar-ligi/fikstur",
           "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "7b2bbb020bb26753",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Bayern Münih, Osnabrück deplasmanında geriden gelip DFB-Pokal’da tur atladı",
-      "summary": "Son şampiyon Bayern Münih, DFB-Pokal ilk turunda Osnabrück karşısında erken geriye düşmesine rağmen Harry Kane’in iki golüyle 4-1 kazanarak ikinci tura yükseldi.",
-      "tag": "Maç Sonucu",
-      "importance": 78,
-      "contentType": "news",
-      "seoTitle": "Bayern Münih, Osnabrück’ü yenerek DFB-Pokal’da tur atladı",
-      "seoDescription": "Bayern Münih, Osnabrück karşısında 4-1 kazanıp DFB-Pokal’da ikinci tura yükseldi. Harry Kane’in iki golü ve maçın kırılma anları haberde.",
-      "focusKeyword": "Bayern Münih Osnabrück DFB-Pokal",
-      "originalAngle": "Bayern Münih’in sonucu yalnızca tur geçişi değil, Bundesliga sezonuna 5-1’lik galibiyetle başlayan takımın kupa açılışında erken gol yedikten sonra oyunu nasıl yeniden kontrol ettiğini gösteriyor. Osnabrück’ün maçı 73. dakikaya kadar tek farkta tutması, skorun rahat görünmesine rağmen karşılaşmanın uzun bölümünde tamamen kopmadığını ortaya koyuyor.",
-      "keyFindings": [
-        "Bayern Münih, 2 Eylül 2026’da Osnabrück’ü deplasmanda 4-1 yenerek DFB-Pokal’da ikinci tura çıktı.",
-        "Robin Meißner’in 5. dakikadaki golüne Harry Kane 18. ve 86. dakikalarda, Tom Bischof 24. dakikada, Michael Olise ise 73. dakikada karşılık verdi.",
-        "Bayern, 2026/27 Bundesliga sezonuna Stuttgart karşısında aldığı 5-1’lik galibiyetin ardından kupada da yoluna devam etti."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Maç sonucu ve gol dakikaları FC Bayern’in resmî maç raporu ile Almanya Futbol Federasyonu’nun karşılaşma haberinde karşılaştırıldı; skor, tur bilgisi ve olay akışı iki ayrı alan adında aynı şekilde doğrulandı. ([fcbayern.com](https://fcbayern.com/en/news/matchreports/2026/09/match-report-vfl-osnabrueck-v-fc-bayern-020916))",
-      "originalFindings": [],
-      "limitations": "Bu haber maç sonucu ve doğrulanabilir olay akışıyla sınırlıdır; Bayern’in sonraki turdaki rakibi ve kura sonucu henüz bu haberin kapsamına alınmamıştır.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T10:45:04.000Z",
-      "discoveredAt": "2026-09-03T13:45:04.900Z",
-      "sources": [
-        {
-          "title": "Match report: DFB Cup first round, VfL Osnabrück v FC Bayern",
-          "publisher": "FC Bayern München",
-          "url": "https://fcbayern.com/en/news/matchreports/2026/09/match-report-vfl-osnabrueck-v-fc-bayern-020916",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Nach frühem Rückstand: FC Bayern dreht Auftaktpartie in Osnabrück",
-          "publisher": "Deutscher Fußball-Bund",
-          "url": "https://www.dfb.de/news/nach-fruehem-rueckstand-fc-bayern-dreht-auftaktpartie-in-osnabrueck",
-          "publishedAt": "2026-09-02",
           "sourceRole": "independent_verification"
         }
       ]
