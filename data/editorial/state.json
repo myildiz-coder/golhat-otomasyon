@@ -1,7 +1,71 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T01:15:24.023Z",
+  "updatedAt": "2026-09-05T01:42:35.818Z",
   "stories": [
+    {
+      "id": "751e7cfdf57b8033",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray Başakşehir’de kazandı, fakat savunma alarmını susturamadı",
+      "summary": "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yenerek Süper Lig’de 10 puana ulaştı. Victor Osimhen, Lucas Torreira ve Gabriel Sara’nın golleri galibiyeti getirdi; ancak sarı-kırmızılı ekip iki kez rakibinin geri dönmesine izin verdi. Bu tablo, Okan Buruk’un takımında hücum çeşitliliğinin öne çıktığını, savunma güvenliğinin ise özellikle Avrupa fikstürü öncesinde çözülmesi gereken temel başlık olduğunu gösteriyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray Başakşehir’de kazandı, savunma alarmı sürüyor",
+      "seoDescription": "Galatasaray’ın Başakşehir galibiyetini, 3-2’lik skorun arkasındaki hücum gücü ve savunma zaafı üzerinden değerlendiren taktik yorum.",
+      "focusKeyword": "Galatasaray Başakşehir maçı",
+      "originalAngle": "Galatasaray’ın Başakşehir’de üç puanı alması, liderlik tartışmasından çok daha somut bir soruyu öne çıkardı: Takım, hücumdaki çözüm zenginliğini savunmadaki kırılganlığı azaltmadan Avrupa ve lig yarışını birlikte taşıyabilir mi? Bu maçın özgün tarafı, galibiyetin üretkenlikten geldiği kadar rakibe verilen geri dönüş imkânlarını da görünür kılmasıdır.",
+      "keyFindings": [
+        "Galatasaray, Başakşehir karşısında 3-2 kazandı; Victor Osimhen, Lucas Torreira ve Gabriel Sara skor üreten isimler olurken ev sahibi ekip Eldor Shomurodov’un penaltısı ve Davinson Sanchez’in kendi kalesine attığı golle karşılık verdi.",
+        "Sarı-kırmızılı takım 16. dakikada öne geçti, 66. dakikada penaltıyla eşitliği gördü, 71. dakikada yeniden üstünlük kurdu, 76. dakikada skor tekrar dengelendi ve 90. dakikada Gabriel Sara’nın golüyle maçı kazandı.",
+        "Sonuç Galatasaray’ı 4 hafta sonunda 10 puanla lider tuttu. Buna karşın iki farklı üstünlüğün korunamaması, puan tablosundan bağımsız olarak savunma yerleşimi ve maç kontrolünün geliştirilmesi gerektiğine işaret ediyor.",
+        "Teknik tercihlerin ve oyuncu performanslarının ayrıntılı etkisini değerlendirmek için kamuya açık doğrulanmış maç verisi sınırlı; bu nedenle yorum, skor akışı ve resmî maç bilgileriyle sınırlı tutulmalıdır."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "4 Eylül 2026 tarihli maçın resmî Galatasaray karşılaşma kaydı, Anadolu Ajansı haberi ve Demirören Haber Ajansı maç raporu karşılaştırıldı. Skor, gol dakikaları, puan durumu ve maç takvimi yalnızca birden fazla kaynakta doğrulanabilen bilgiler üzerinden değerlendirildi. Taktik sonuçlar, doğrulanmış skor akışından çıkarılan sınırlı ve açıkça yorum olarak sunulan değerlendirmelerdir.",
+      "originalFindings": [
+        "Galatasaray’ın galibiyeti, maç boyunca skor üstünlüğünü koruyamamasına rağmen son bölümde yeniden çözüm üretebildiğini gösterdi.",
+        "Torreira ve Sara’nın skor katkısı, merkez orta saha oyuncularının hücum sorumluluğunun arttığını ortaya koyuyor; ancak bu durumun savunma dengesi üzerindeki etkisi için daha ayrıntılı performans verisi gerekiyor.",
+        "Başakşehir karşısında iki gol yenmesi, Galatasaray’ın 10 puanlık liderliğinin otomatik bir oyun kontrolü anlamına gelmediğini gösteren erken sezon uyarısıdır.",
+        "9 Eylül 2026’da Sporting CP deplasmanında oynanacak Şampiyonlar Ligi maçı öncesinde izlenecek ana konu, Galatasaray’ın hücum üretkenliğini korurken geçiş savunmasındaki açıkları azaltıp azaltamayacağıdır."
+      ],
+      "limitations": "Kaynaklarda ayrıntılı takım dizilişleri, topa sahip olma oranları, şut kalitesi, oyuncu eşleşmeleri ve bütün hakem kararlarının oyuna etkisini açıklayan doğrulanmış kapsamlı veri bulunmuyor. Bu nedenle belirli bir taktik şemanın kesin olarak işe yaradığını veya bir oyuncunun bireysel performansının sonucu doğrudan belirlediğini söylemek mümkün değil. Penaltı ve kendi kalesine gol olaylarının pozisyon ayrıntıları bağımsız biçimde yeterince doğrulanamadığı için yorumda nedensellik kurulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GH-20260905-YK-001",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T22:42:35.000Z",
+      "discoveredAt": "2026-09-05T01:42:35.818Z",
+      "sources": [
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04T22:02:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray, Başakşehir’i deplasmanda 3-2 mağlup etti",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/-galatasaray-basaksehiri-deplasmanda-3-2-maglup-etti/4047711",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "Demirören Haber Ajansı",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04T22:29:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/Default.aspx?hafta=28&hafta=33&kulupID=3678&pageId=198",
+          "publishedAt": "2026-09-05T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "0da41010612075ee",
       "role": "fenerbahce",
@@ -9728,73 +9792,6 @@
           "publisher": "BBC Sport via Yahoo Sports",
           "url": "https://ca.sports.yahoo.com/news/every-done-deal-transfer-deadline-074504216.html",
           "publishedAt": "2026-09-02T12:17:00Z",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "1034b05e52f2b32e",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Victor Nelsson, Galatasaray’dan ayrılıp FC Nordsjælland’a döndü",
-      "summary": "FC Nordsjælland, Galatasaray’dan ayrılan Victor Nelsson ile dört yıllık sözleşme imzalandığını açıkladı. Galatasaray’ın sözleşmeyi karşılıklı anlaşmayla sona erdirdiği gelişmesi de Türkiye’de bağımsız bir kaynak tarafından doğrulandı.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Victor Nelsson Galatasaray’dan ayrıldı, FC Nordsjælland’a döndü",
-      "seoDescription": "Galatasaray ile sözleşmesi sona eren Victor Nelsson, altyapısından yetiştiği FC Nordsjælland’a dört yıllık sözleşmeyle geri döndü.",
-      "focusKeyword": "Victor Nelsson FC Nordsjælland transferi",
-      "originalAngle": "Galatasaray’daki sözleşme feshi ile oyuncunun yetiştiği FC Nordsjælland’a dönüşünü aynı transfer dosyasında, iki kulübün açıklamaları üzerinden netleştirmek.",
-      "keyFindings": [
-        "FC Nordsjælland, Victor Nelsson’un Galatasaray’dan transfer edildiğini açıkladı.",
-        "Danimarkalı stoperle 2030 yazına kadar geçerli dört yıllık sözleşme imzalandı.",
-        "Galatasaray’ın Nelsson’la sözleşmesini karşılıklı anlaşmayla sona erdirdiği bildirildi.",
-        "FC Nordsjælland açıklamasında transfer bedeline yer verilmedi."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "FC Nordsjælland’ın resmî transfer duyurusu incelendi; Galatasaray’ın sözleşme feshi ve oyuncunun yeni kulübü hakkındaki Türkiye kaynaklı bağımsız haberle çapraz doğrulama yapıldı.",
-      "originalFindings": [],
-      "limitations": "Galatasaray ile FC Nordsjælland arasındaki mali şartlar resmî açıklamada açıklanmadı.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "",
-      "editorialReview": {
-        "tahkik": {
-          "score": 96,
-          "note": "Yeni kulübün resmî açıklaması sözleşme süresini doğruluyor; Galatasaray’ın fesih bildirimi bağımsız bir Türkçe kaynakta ayrıca aktarılıyor."
-        },
-        "adalet": {
-          "score": 94,
-          "note": "Galatasaray’ın ayrılık süreci ve oyuncunun yeni kulübü birlikte veriliyor; kulüplerden biri lehine veya aleyhine spekülasyon yapılmıyor."
-        },
-        "musbet_hareket": {
-          "score": 90,
-          "note": "Haber, sözleşme ve kulüp değişikliğiyle sınırlı tutuldu; teknik tercih veya kişisel çatışma iddiası kesin gerçek gibi yazılmadı."
-        },
-        "uhuvvet_sefkat": {
-          "score": 91,
-          "note": "Nelsson’un eski kulübünden ayrılışı ve yetiştiği takıma dönüşü, oyuncunun haysiyetini koruyan nötr bir dille aktarılıyor."
-        },
-        "public_interest": {
-          "score": 86,
-          "note": "Galatasaray’ın önemli bir savunma oyuncusuyla yollarını ayırması ve oyuncunun Danimarka’ya dönüşü Türkiye transfer gündemi açısından yüksek önem taşıyor."
-        },
-        "newsCommentSeparated": true
-      },
-      "publishedAt": "2026-09-02T17:01:00.000Z",
-      "discoveredAt": "2026-09-02T21:25:56.751Z",
-      "sources": [
-        {
-          "title": "Victor Nelsson vender hjem til FC Nordsjælland",
-          "publisher": "FC Nordsjælland",
-          "url": "https://www.fcn.dk/nyheder/2026/september/victor-nelsson-vender-hjem-til-fc-nordsjaelland",
-          "publishedAt": "2026-09-02T19:01:00+02:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Nelsson ile yollar ayrıldı! Ülkesine döndü",
-          "publisher": "Habertürk",
-          "url": "https://www.haberturk.com/spor/son-dakika-galatasaray-victor-nelsson-ile-yollarin-ayrildigini-tff-ye-bildirdi-3909845",
-          "publishedAt": "2026-09-02T19:27:00+03:00",
           "sourceRole": "independent_verification"
         }
       ]
