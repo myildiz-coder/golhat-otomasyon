@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T11:24:28.172Z",
+  "updatedAt": "2026-09-05T11:31:02.690Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 0,
-    "upcoming": 28,
+    "live": 1,
+    "upcoming": 27,
     "finished": 0
   },
   "matches": [
@@ -77,10 +77,10 @@
       "away": "AFC Bournemouth",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 1,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795436,
