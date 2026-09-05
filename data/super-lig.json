@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:55:48.916Z",
+  "updatedAt": "2026-09-05T16:02:08.258Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -179,6 +179,19 @@
     },
     {
       "rank": 14,
+      "team": "ERZURUMSPOR FK",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
+      "goalDifference": -6,
+      "points": 4,
+      "form": ""
+    },
+    {
+      "rank": 15,
       "team": "EYÜPSPOR",
       "played": 3,
       "won": 1,
@@ -191,7 +204,7 @@
       "form": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "team": "GÖZTEPE A.Ş.",
       "played": 3,
       "won": 0,
@@ -204,7 +217,7 @@
       "form": ""
     },
     {
-      "rank": 16,
+      "rank": 17,
       "team": "ARCA ÇORUM FK",
       "played": 3,
       "won": 0,
@@ -217,44 +230,20 @@
       "form": ""
     },
     {
-      "rank": 17,
-      "team": "ERZURUMSPOR FK",
-      "played": 3,
-      "won": 0,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 1,
-      "goalsAgainst": 8,
-      "goalDifference": -7,
-      "points": 1,
-      "form": ""
-    },
-    {
       "rank": 18,
       "team": "TÜMOSAN KONYASPOR",
-      "played": 3,
+      "played": 4,
       "won": 0,
       "drawn": 0,
-      "lost": 3,
+      "lost": 4,
       "goalsFor": 3,
-      "goalsAgainst": 7,
-      "goalDifference": -4,
+      "goalsAgainst": 8,
+      "goalDifference": -5,
       "points": 0,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317819,
-      "date": "2026-09-05T14:00:00.000Z",
-      "timestamp": 1788616800,
-      "round": "4. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ERZURUMSPOR FK",
-      "away": "TÜMOSAN KONYASPOR"
-    },
     {
       "id": 317817,
       "date": "2026-09-05T17:00:00.000Z",
