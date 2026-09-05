@@ -1,7 +1,275 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T09:29:53.982Z",
+  "updatedAt": "2026-09-05T09:37:32.607Z",
   "stories": [
+    {
+      "id": "9d5c20c23f0a0576",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’nin 6 puanında yeni ölçü: Derbi öncesi hücum sürekliliği ve Asensio boşluğu",
+      "summary": "Fenerbahçe, Süper Lig’de 3 maç sonunda 6 puanla dördüncü sırada bulunuyor. Samsunspor deplasmanındaki 2-0 galibiyetle toparlanan sarı-lacivertliler, 5 Eylül’de Beşiktaş derbisinde puan tablosundaki yerini güçlendirmeye çalışacak. Marco Asensio’nun yokluğu ve 10 Eylül’deki Roma maçı, İsmail Kartal’ın mevcut hücum düzenini ne ölçüde koruyabileceğini öne çıkarıyor.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe’nin 6 puanında yeni ölçü: Hücum sürekliliği",
+      "seoDescription": "Fenerbahçe’nin 6 puanı, Beşiktaş derbisi öncesi Asensio eksikliği ve Roma maçıyla birlikte hücum sürekliliği açısından değerlendiriliyor.",
+      "focusKeyword": "Fenerbahçe 6 puan Beşiktaş derbisi",
+      "originalAngle": "Fenerbahçe’nin mevcut tablosunu yalnızca puan sıralamasıyla değil, ilk üç maçta üretilen hücum ivmesinin Marco Asensio’nun yokluğunda korunup korunamayacağı üzerinden okumak gerekiyor. Takımın 6 puanı, lider Galatasaray’ın dört maçta topladığı 10 puanın gerisinde olsa da asıl yeni soru, Kadıköy’deki derbiden dört gün sonra Roma karşısında aynı hücum omurgasının ne kadar sürdürülebileceği değil; Asensio’nun yokluğunun bu omurgayı daha ilk sınavda ne ölçüde değiştireceğidir.",
+      "keyFindings": [
+        "TFF canlı puan cetveline göre Fenerbahçe, 3 maçta 2 galibiyet ve 1 mağlubiyetle 6 puan topladı; averajı +3 ve sırası dördüncü.",
+        "Fenerbahçe’nin doğrulanan son lig maçında Samsunspor’u deplasmanda 2-0 yenmesi, takımın erken sezon formunda yeniden galibiyet üretmeye başladığını gösteriyor.",
+        "5 Eylül 2026’da Beşiktaş ile oynanacak derbi öncesinde Marco Asensio’nun sakatlığı nedeniyle forma giyemeyeceği bildirildi; bu durum, hücum rotasyonunu doğrudan etkileyen güncel kadro başlığı.",
+        "UEFA’nın açıkladığı fikstüre göre Fenerbahçe, derbiden yalnızca beş gün sonra 10 Eylül 2026’da Şampiyonlar Ligi lig aşamasında Roma’yı ağırlayacak.",
+        "Bu nedenle derbinin sonucu kadar, Asensio’nun yokluğunda Fenerbahçe’nin üretim biçimini koruyup koruyamayacağı ve Roma maçına hangi fiziksel-hücumsal kapasiteyle çıkacağı izlenmesi gereken temel soru."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin puan cetveli ve fikstür bilgisi; FotMob’un takım formu, puan ve son maç verileri; beIN SPORTS’un derbi programı ve Fenerbahçe’nin eksik oyuncu bilgisi; UEFA’nın 2026/27 Şampiyonlar Ligi fikstürü karşılaştırıldı. Yorum, bu doğrulanmış verilerin zaman çizelgesi ve kadro etkisi birlikte okunarak oluşturuldu.",
+      "originalFindings": [],
+      "limitations": "Fenerbahçe’nin Beşiktaş karşısındaki ilk 11’i ve maç sonucu bu yayın anında kesinleşmiş değildir. Asensio’nun yokluğu doğrulanmış olsa da bu eksikliğin oyun planına ve Roma maçındaki dakika dağılımına etkisi maç içinde gözlemlenmeden kesin nedensellik kurulamaz.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T06:37:32.000Z",
+      "discoveredAt": "2026-09-05T09:37:32.607Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - fixtures, team info and top players",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/teams/8695/overview/fenerbahce",
+          "publishedAt": "",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe de derbi öncesi tek eksik",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahcede-derbi-oncesi-tek-eksik-2",
+          "publishedAt": "2026-09-04T08:09:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe Beşiktaş derbisinin tarihi açıklandı",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/fenerbahce-besiktas-derbisinin-tarihi-aciklandi",
+          "publishedAt": "2026-08-29T11:57:00+03:00",
+          "sourceRole": "context"
+        },
+        {
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000",
+          "publishedAt": "2026-09-03T00:00:00+03:00",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "18a3e28d978b96df",
+      "role": "besiktas",
+      "page": "besiktas.html",
+      "headline": "Beşiktaş’ın 6 puanı artık skor değil, kadro mühendisliği sınavı",
+      "summary": "Beşiktaş, Süper Lig’in ilk üç haftasında 6 puan ve artı 4 averajla 5 Eylül 2026’daki Fenerbahçe derbisine çıkıyor. Çorum FK karşısındaki 6-2’lik galibiyet hücum kapasitesini gösterirken, Ümit Akdağ’ın katıldığı ve bazı genç oyuncuların kiralandığı hareketli kadro yapısı sezon planının asıl sorusunu ortaya çıkarıyor: Vincenzo Italiano, derbi temposu ile uzun lig maratonunu aynı kadro içinde dengeleyebilecek mi?",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Beşiktaş’ın 6 puanı kadro planının ilk gerçek sınavı",
+      "seoDescription": "Beşiktaş’ın 6 puanlık başlangıcını Fenerbahçe derbisi, 6-2’lik Çorum galibiyeti ve kadro hareketliliği üzerinden analiz ediyoruz.",
+      "focusKeyword": "Beşiktaş 6 puan kadro planı",
+      "originalAngle": "Beşiktaş’ın ilk üç haftadaki puanından çok, bu puanı hangi kadro düzeniyle sürdürebileceği önem kazanıyor. Çorum FK karşısındaki geniş hücum üretimi ile derbi öncesi kadro hareketliliği birlikte okunduğunda, 5 Eylül’deki maç yalnızca iki takımın puan mücadelesi değil; Italiano’nun yeni kadroyu ne kadar hızlı işletebildiğini gösterecek ilk yüksek yoğunluklu test olarak öne çıkıyor.",
+      "keyFindings": [
+        "Beşiktaş, TFF’nin 4. hafta öncesi puan cetvelinde 3 maçta 2 galibiyet ve 6 puanla üçüncü sırada bulunuyor; averajı artı 4.",
+        "Siyah-beyazlı takım, üçüncü haftada Çorum FK’yı 6-2 yenerek hücum üretimi bakımından güçlü bir sonuç aldı; ancak bu performansın derbi seviyesinde tekrarlanıp tekrarlanamayacağı henüz bilinmiyor.",
+        "Kulübün resmî kadro sayfasında Vincenzo Italiano teknik direktör olarak yer alıyor; Ümit Akdağ’ın takıma katıldığı, Elan Ricardo ile birlikte bazı genç oyuncuların geçici transferlerinin açıklandığı görülüyor.",
+        "5 Eylül 2026’da Fenerbahçe deplasmanında oynanacak maç, Beşiktaş’ın 6 puanını zirve yarışında anlamlı bir başlangıca mı yoksa erken sezon ivmesine mi dönüştüreceğini gösterecek ilk doğrudan ölçüm olacak.",
+        "Bundan sonraki temel soru, Beşiktaş’ın derbide alacağı sonuçtan önce, aynı oyun yoğunluğunu farklı rakip profillerine ve uzun sezon fikstürüne taşıyıp taşıyamayacağıdır."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin güncel fikstür ve puan cetveli, Beşiktaş’ın resmî maç merkezi ve kulübün resmî futbol/kadro sayfaları birlikte incelendi; derbi öncesi kadro durumu için bağımsız Türk spor basınındaki güncel sakatlık bilgileriyle karşılaştırma yapıldı. Doğrulanamayan iddialar analize alınmadı.",
+      "originalFindings": [],
+      "limitations": "Beşiktaş’ın 5 Eylül 2026 itibarıyla tüm oyunculara ilişkin resmî, ayrıntılı sakatlık listesi açık kaynaklarda yayımlanmış değil. Bu nedenle kadro dayanıklılığı konusunda kesin oyuncu bazlı sonuç kurulmadı; değerlendirme resmî transfer ve kadro hareketleriyle sınırlandırıldı. Derbi henüz oynanmadığı için maç sonucuna veya saha içi performansa dair hüküm verilemez.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T06:37:32.000Z",
+      "discoveredAt": "2026-09-05T09:37:32.607Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş futbol haberleri ve resmî transfer duyuruları",
+          "publisher": "Beşiktaş JK",
+          "url": "https://www.bjk.com.tr/tr/haber_listesi/1",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Beşiktaş futbol kadrosu ve teknik ekip",
+          "publisher": "Beşiktaş JK",
+          "url": "https://bjk.com.tr/tr/brans/1/futbol.html?fromMobile=true",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Marco Asensio’nun derbi öncesi sakatlık durumu",
+          "publisher": "Türkiye Gazetesi",
+          "url": "https://www.turkiyegazetesi.com.tr/haberler/marco-asensio-besiktas-macinda-oynayacak-mi-asensio-son-sakatlik-durumu-1813739",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "369eed8785cf200a",
+      "role": "super_lig",
+      "page": "super-lig.html",
+      "headline": "Süper Lig’de zirvenin ölçüsü değişiyor: Derbi puan kadar kadro rotasyonunu da belirleyecek",
+      "summary": "Galatasaray, Başakşehir deplasmanındaki 3-2’lik galibiyetle 10 puanla lider kaldı. Ancak Fenerbahçe-Beşiktaş derbisinin hemen ardından iki takımın Avrupa maçına çıkacak olması, Süper Lig yarışında puan hesabını kadro sürekliliği ve fikstür yüküyle birlikte değerlendirmeyi zorunlu kılıyor.",
+      "tag": "Analiz",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Süper Lig’de zirve için yeni ölçü: Derbi ve Avrupa fikstürü",
+      "seoDescription": "Galatasaray 10 puanla lider. Fenerbahçe-Beşiktaş derbisi ve Avrupa maçları, Süper Lig zirvesinde puan kadar kadro sürekliliğini de belirleyecek.",
+      "focusKeyword": "Süper Lig puan durumu 2026-2027",
+      "originalAngle": "Bu hafta sonunun asıl sonucu yalnızca derbinin kimin hanesine üç puan yazacağı olmayacak. Galatasaray’ın 4. haftayı tamamlayarak liderliği koruması, Fenerbahçe ile Beşiktaş’ın derbiye 6’şar puanla girmesi ve iki İstanbul takımının hemen ardından Şampiyonlar Ligi maçına çıkacak olması, zirve yarışında yeni ölçünün ortaya çıktığını gösteriyor: Takımların ilk 11’i kadar, Avrupa-Süper Lig geçişinde hangi kadro derinliğini koruyabildikleri.",
+      "keyFindings": [
+        "Galatasaray, 4 Eylül 2026’da Başakşehir’i deplasmanda 3-2 yenerek dört haftada 10 puana ulaştı ve mevcut TFF tablosunda liderliğini sürdürdü.",
+        "Fenerbahçe-Beşiktaş karşılaşması öncesinde iki takım da üç maçta 6 puanda bulunuyor; derbi sonucu, Galatasaray’ın arkasındaki takip hattını doğrudan yeniden sıralayacak.",
+        "Fenerbahçe 10 Eylül’de Roma’yı, Galatasaray ise 9 Eylül’de Sporting CP’yi konuk değil deplasmanda karşılayacak; bu kısa aralık, derbi sonrası lig performansında rotasyon ve toparlanma kapasitesini öne çıkarıyor.",
+        "Galatasaray’ın Başakşehir karşısında üç gol üretmesine rağmen iki gol yemesi, liderliğin yalnız hücum verimliliğiyle değil savunma sürekliliğiyle de sınanacağını gösteriyor.",
+        "Bu nedenle 5-6 Eylül haftasının ardından sorulması gereken temel soru, derbiyi kimin kazandığından çok, kazanan veya kaybeden takımın Avrupa maçından sonra Süper Lig temposunu hangi kadroyla sürdürebileceği olacak."
+      ],
+      "originalityBasis": "original_data_analysis",
+      "methodology": "TFF’nin puan cetveli ve fikstür verisi, Galatasaray’ın resmî Başakşehir maç raporu, DHA’nın bağımsız maç haberi ve UEFA’nın 2026-2027 Şampiyonlar Ligi fikstürüyle karşılaştırıldı. Puan farkı, oynanan maç sayısı, tamamlanan son maç ve takip eden Avrupa karşılaşmaları aynı zaman çizelgesinde değerlendirildi.",
+      "originalFindings": [
+        "Galatasaray’ın liderliği, rakiplerinden daha fazla maç oynamış olmasının da etkisiyle mutlak bir puan üstünlüğünden çok erken tamamlanan maç avantajı taşıyor.",
+        "Derbi öncesi Fenerbahçe ve Beşiktaş’ın eşit puanda olması, karşılaşmayı yalnızca rekabet maçı değil, Galatasaray’ın arkasındaki takip hattını şekillendiren doğrudan bir sıralama karşılaşması hâline getiriyor.",
+        "Avrupa fikstürünün derbi haftasına hemen eklenmesi, ligde alınacak sonucun etkisini bir sonraki hafta kadro tercihleri ve fiziksel süreklilik üzerinden büyütebilir."
+      ],
+      "limitations": "TFF canlı cetvelindeki bazı kulüplerin tam kadro ve sakatlık ayrıntıları açık kaynaklarda aynı kapsamda doğrulanamadı. Bu nedenle belirli oyuncuların sakatlığı veya teknik tercihleri hakkında kesin nedensellik kurulmadı; analiz fikstür, resmî sonuç ve doğrulanabilir puan verisiyle sınırlı tutuldu.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-05T06:37:32.000Z",
+      "discoveredAt": "2026-09-05T09:37:32.607Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxt=1&pageID=198",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "İstanbul Başakşehir FK - Galatasaray: 2-3",
+          "publisher": "DHA",
+          "url": "https://www.dha.com.tr/spor/istanbul-basaksehir-fk-galatasaray-2-3-2939390",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "ad798064d26e0b8e",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Galatasaray’ın 10 puanı liderlikten çok hata maliyetini büyütüyor",
+      "summary": "Galatasaray, Başakşehir deplasmanında 3-2 kazanarak 4. hafta sonunda 10 puanla lider kaldı. Ancak savunmada verilen iki gol, Okan Buruk’un takımının hâlâ maçları koparmadan kazanabildiğini gösterdi. Fenerbahçe-Beşiktaş derbisi takip grubunu yeniden sıralarken, Sporting deplasmanı liderliğin artık yalnızca skorla değil kadro ve takvim yönetimiyle korunacağını ortaya koyacak.",
+      "tag": "Yorum",
+      "importance": 82,
+      "contentType": "analysis",
+      "seoTitle": "Galatasaray’ın 10 puanı liderlikten çok hata maliyetini büyütüyor",
+      "seoDescription": "Galatasaray’ın Başakşehir galibiyeti sonrası oluşan 10 puanlık liderlik, derbi ve Sporting deplasmanı öncesi takvim yönetimiyle birlikte değerlendiriliyor.",
+      "focusKeyword": "Galatasaray 10 puan liderlik",
+      "originalAngle": "Galatasaray’ın erken liderliği henüz yarışta kopuş anlamına gelmiyor; asıl değişim, Başakşehir karşısında kazanırken savunma güvenliğini koruyamaması ve hemen ardından Fenerbahçe-Beşiktaş derbisi ile Sporting deplasmanına girecek olmasıdır. Bu tablo, puan farkından çok hata maliyetini ve kadro yönetiminin önemini büyütüyor.",
+      "keyFindings": [
+        "Galatasaray, TFF’nin 4. hafta puan cetvelinde 4 maçta 3 galibiyet ve 1 beraberlikle 10 puanla lider durumda bulunuyor; en yakın takipçisi Gençlerbirliği’nin 7 puanı var.",
+        "Başakşehir karşısında Galatasaray’ın gollerini Victor Osimhen, Lucas Torreira ve Gabriel Sara attı; Başakşehir’in iki golü penaltı ve kendi kalesine atılan gol sonucunda geldi. Maç 3-2 tamamlandı.",
+        "5 Eylül’deki Fenerbahçe-Beşiktaş derbisi, iki takımın da 3 maç sonunda 6 puanda bulunması nedeniyle liderin arkasındaki puan grubunu doğrudan etkileyecek. Galatasaray ise 9 Eylül’de Sporting deplasmanına çıkacak.",
+        "Galatasaray’ın mevcut avantajı puan cetvelinde açık olsa da Başakşehir karşısında iki gol yemesi, liderliğin savunma istikrarıyla birlikte değerlendirilmesi gerektiğini gösteriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin resmî 2026-2027 Süper Lig puan cetveli ve fikstürü, Galatasaray’ın resmî maç kaydı, bağımsız beIN SPORTS maç özeti ve Beşiktaş’ın derbi öncesi resmî duyurusu karşılaştırıldı. Yorum yalnızca bu doğrulanmış skor, puan, fikstür ve maç akışı üzerine kuruldu.",
+      "originalFindings": [
+        "Galatasaray’ın Başakşehir karşısında 3-2 kazanması, liderliği puan bakımından güçlendirdi; fakat maçın iki taraflı skor akışı takımın henüz rakiplerini erken koparan bir düzen kurmadığını gösteriyor. Buradaki hüküm, savunma zaafının kalıcı olduğu iddiası değil, mevcut maç verisinin ortaya koyduğu risk okumasıdır.",
+        "Fenerbahçe-Beşiktaş maçı, lideri doğrudan sahada olmayan bir yarışın merkezine yerleştiriyor. Derbiyi kimin kazanacağından bağımsız olarak, takip grubundaki 6 puanlı takımlardan birinin geride kalması Galatasaray’ın kısa vadeli puan avantajını daha görünür hâle getirecek.",
+        "Galatasaray’ın 9 Eylül’de Sporting deplasmanına çıkması, Başakşehir galibiyetini tek başına değerlendirmeyi yetersiz kılıyor. Önümüzdeki soru, takımın liderliği koruyup koruyamayacağından önce, yoğun fikstürde aynı oyun güvenliğini ve savunma disiplinini sürdürebilip sürdüremeyeceğidir."
+      ],
+      "limitations": "Fenerbahçe-Beşiktaş derbisi 5 Eylül 2026 saat 20.00 itibarıyla henüz oynanmadığı için maç sonucu, oyuncu performansı, teknik tercih, hakem kararı ve puan tablosuna kesin etkisi bu yazıya dahil edilmedi. Galatasaray ve Fenerbahçe kadrolarındaki sakatlık sayıları canlı veri özetinde yer alsa da bu bilgilerin kulüp açıklamalarıyla yeterli bağımsız doğrulaması bulunmadığından yorumda kullanılmadı. Başakşehir-Galatasaray maçındaki hakem ve VAR kararları için doğrulanmış ayrıntılı resmî rapor bulunmadığından bu başlıkta hüküm kurulmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-2026-09-05-SL4-GS-LEAD-DERBY",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-05T06:37:32.000Z",
+      "discoveredAt": "2026-09-05T09:37:32.607Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "publishedAt": "2026-09-05",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Başakşehir 2-3 Galatasaray",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/basaksehir-2-3-galatasaray/60892",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "GENİŞ ÖZET | Başakşehir 2-3 Galatasaray",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/basaksehir-galatasaray-2",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Fenerbahçe maçı hazırlıkları tamamlandı",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/95041/fenerbahce-maci-hazirliklari-tamamlandi.html",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        },
+        {
+          "title": "Şampiyonlar Ligi fikstürümüz belli oldu",
+          "publisher": "Galatasaray Spor Kulübü",
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/sampiyonlar-ligi-fiksturumuz-belli-oldu/60836",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
     {
       "id": "d6a766f70d2dd877",
       "role": "galatasaray",
@@ -9955,207 +10223,6 @@
           "publisher": "Konhaber",
           "url": "https://www.konhaber.com/spor/pfdk_dan_konyaspor_a_ceza_bardhi_2_mac_men_edildi-2008306h",
           "publishedAt": "2026-09-03T21:37:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "5b92d09d89e25da5",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Galatasaray, Victor Nelsson ile sözleşmesini karşılıklı feshetti",
-      "summary": "Galatasaray, Victor Enok Nelsson ile arasındaki sözleşmenin 2 Eylül 2026 tarihinde karşılıklı anlaşmayla sona erdirildiğini KAP’a bildirdi. Oyuncunun yeni adresi ve fesih gerekçesine ilişkin ek ayrıntı açıklanmadı.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Galatasaray, Victor Nelsson ile sözleşmesini feshetti",
-      "seoDescription": "Galatasaray, Victor Nelsson’un sözleşmesini karşılıklı anlaşmayla sona erdirdi. KAP bildiriminin ayrıntıları ve transfer sürecindeki son durum burada.",
-      "focusKeyword": "Victor Nelsson Galatasaray sözleşme feshi",
-      "originalAngle": "Gelişmenin ayırt edici tarafı yeni bir transfer imzası değil, Galatasaray’ın kadro planlamasında Nelsson dönemini karşılıklı fesih yoluyla kapatmasıdır. KAP kaydında oyuncunun yeni kulübü, transfer bedeli veya fesih tazminatı açıklanmadığı için haber bu sınır içinde tutulmalıdır.",
-      "keyFindings": [
-        "Galatasaray, Victor Enok Nelsson ile sözleşmesini karşılıklı olarak sona erdirdiğini 2 Eylül 2026 saat 22.00’de KAP’a bildirdi.",
-        "Anadolu Ajansı ve DHA, ayrılığı ve sözleşmenin karşılıklı anlaşmayla feshedildiğini bağımsız olarak doğruladı.",
-        "Resmî kayıtlarda Nelsson’un yeni adresi, transfer bedeli veya fesih tazminatıyla ilgili bilgi yer almadı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "KAP’taki resmî sözleşme feshi bildirimi, Anadolu Ajansı ve DHA haberleriyle karşılaştırıldı. Üç kaynakta ortaklaşan olgular kullanıldı; doğrulanmamış yeni kulüp ve gerekçe iddiaları dışarıda bırakıldı.",
-      "originalFindings": [],
-      "limitations": "KAP bildirimi fesih dışında oyuncunun sonraki kulübünü, ayrılığın sportif veya kişisel nedenini ve taraflar arasındaki mali şartları açıklamıyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-02T19:00:00.000Z",
-      "discoveredAt": "2026-09-04T03:43:24.984Z",
-      "sources": [
-        {
-          "title": "Profesyonel Futbolcumuz Victor Enok Nelsson'un Sözleşme Feshi Hakkında",
-          "publisher": "Kamuyu Aydınlatma Platformu",
-          "url": "https://kap.org.tr/en/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
-          "publishedAt": "2026-09-02T22:00:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Galatasaray'da Victor Nelsson ile yollar ayrıldı",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/tr/spor/galatasarayda-victor-nelsson-ile-yollar-ayrildi/4045649",
-          "publishedAt": "2026-09-02",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Galatasaray, Victor Nelsson ile yollarını ayırdı",
-          "publisher": "Demirören Haber Ajansı",
-          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/galatasaray-victor-nelsson-ile-yollarini-ayird-2938055",
-          "publishedAt": "2026-09-02T22:06:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "c045c186f8c86210",
-      "role": "trabzonspor",
-      "page": "trabzonspor.html",
-      "headline": "Trabzonspor’un Konferans Ligi kadrosu belli oldu: Franculino Dju ve Muhammed Salah listede",
-      "summary": "Trabzonspor, UEFA Konferans Ligi lig aşaması için bildirdiği kadroda yeni transfer Franculino Dju ile Muhammed Salah’a da yer verdi. Liste, bordo-mavililerin Avrupa rotasyonunda hangi hücum seçeneklerine güvendiğini gösteriyor.",
-      "tag": "Gelişme",
-      "importance": 72,
-      "contentType": "news",
-      "seoTitle": "Trabzonspor’un Konferans Ligi kadrosu belli oldu",
-      "seoDescription": "Trabzonspor’un UEFA Konferans Ligi kadrosu açıklandı. Franculino Dju ve Muhammed Salah listede yer alırken Avrupa rotasyonu netleşti.",
-      "focusKeyword": "Trabzonspor Konferans Ligi kadrosu",
-      "originalAngle": "Kadronun dikkat çeken tarafı yalnızca yeni isimlerin listeye eklenmesi değil; Trabzonspor’un Avrupa’da Franculino Dju, Muhammed Salah, Paul Onuachu ve Aral Şimşir’den oluşan geniş hücum havuzuna güvenmesi. Ancak bu listenin oyuncuların ilk 11’de başlayacağı anlamına gelmediği özellikle ayrıştırılmalı.",
-      "keyFindings": [
-        "Trabzonspor, UEFA Konferans Ligi lig aşaması için kadro bildirimini yaptı.",
-        "Franculino Dju ve Muhammed Salah, bildirilen hücum hattında yer aldı.",
-        "Kadrodaki diğer hücum seçenekleri Paul Onuachu, Aral Şimşir ve Noah Saviolo olarak açıklandı; liste Avrupa maçlarındaki tercihleri kesinleştirmiyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Kadro bilgisi, 3 Eylül 2026 tarihli A Spor ve beIN SPORTS Türkiye haberleri karşılaştırılarak doğrulandı. İki kaynakta kaleci, savunma, orta saha ve hücum listeleri büyük ölçüde aynı biçimde aktarılıyor.",
-      "originalFindings": [],
-      "limitations": "Trabzonspor’un resmi kulüp sitesinde bu taramada doğrudan kadro duyurusu bulunamadı. UEFA’ya bildirilen listenin maç günü kadrosu veya ilk 11 tercihi olmadığı dikkate alınmalı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T19:48:00.000Z",
-      "discoveredAt": "2026-09-04T02:43:15.751Z",
-      "sources": [
-        {
-          "title": "Trabzonspor, Konferans Ligi kadrosunu açıkladı!",
-          "publisher": "A Spor",
-          "url": "https://www.aspor.com.tr/trabzonspor/2026/09/03/trabzonspor-konferans-ligi-kadrosunu-acikladi",
-          "publishedAt": "2026-09-03T22:48:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Trabzonspor UEFA Konferans Ligi kadrosunu açıkladı",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/trabzonspor-uefa-konferans-ligi-kadrosunu-acikladi-2",
-          "publishedAt": "2026-09-03T19:16:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "99596f60b20baec0",
-      "role": "trabzonspor",
-      "page": "trabzonspor.html",
-      "headline": "Trabzonspor’da Denis Draguş dönemi karşılıklı fesihle sona erdi",
-      "summary": "Trabzonspor, Rumen forvet Denis Draguş’un 30 Haziran 2028’e kadar süren sözleşmesini 3 Eylül 2026’da karşılıklı olarak feshetti. Ayrılık, transfer döneminin son bölümündeki kadro değişikliklerine eklendi.",
-      "tag": "Gelişme",
-      "importance": 72,
-      "contentType": "news",
-      "seoTitle": "Trabzonspor’da Denis Draguş ile yollar ayrıldı",
-      "seoDescription": "Trabzonspor, Denis Draguş’un sözleşmesini karşılıklı feshetti. Ayrılığın kadro planlamasındaki yeri ve bilinen sözleşme ayrıntıları haberde.",
-      "focusKeyword": "Denis Draguş Trabzonspor",
-      "originalAngle": "Gelişmenin önemi yalnızca bir oyuncu ayrılığı olması değil; Trabzonspor’un transfer döneminin son günlerinde devam eden kadro sadeleştirmesinin yeni bir adımı olarak resmileşmesi. Bundan sonraki temel soru, Draguş’un ayrılığı sonrası hücum rotasyonunun nasıl şekilleneceği.",
-      "keyFindings": [
-        "Trabzonspor ile Denis Mihai Draguş arasındaki profesyonel futbolcu sözleşmesi karşılıklı olarak feshedildi.",
-        "KAP kaydında sözleşmenin başlangıç tarihi 1 Temmuz 2024, bitiş tarihi 30 Haziran 2028 olarak yer aldı.",
-        "Kulüp tarafından fesih bedeli, tazminat veya oyuncunun yeni adresi hakkında ek mali ayrıntı açıklanmadı."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Gelişme, KAP bildirimindeki 3 Eylül 2026 tarihli sözleşme feshi kaydıyla kontrol edildi; Anadolu Ajansı ve Mackolik’te yayımlanan bağımsız haberlerle fesih metni ve sözleşme tarihleri karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Fesih anlaşmasının mali şartları ve Denis Draguş’un kariyerine hangi kulüpte devam edeceği doğrulanmış kaynaklarda açıklanmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T16:16:00.000Z",
-      "discoveredAt": "2026-09-04T01:43:09.972Z",
-      "sources": [
-        {
-          "title": "KAP Bildirim Sorgu Sonuçları",
-          "publisher": "Kamuyu Aydınlatma Platformu",
-          "url": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
-          "publishedAt": "2026-09-03T19:16:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Trabzonspor'da Denis Draguş'un sözleşmesi feshedildi",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/tr/spor/trabzonsporda-denis-dragusun-sozlesmesi-feshedildi/4046877",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Trabzonspor'da Denis Draguş ile yollar ayrıldı",
-          "publisher": "Mackolik",
-          "url": "https://arsiv.mackolik.com/Haber/269543/Dragus-ile-yollar-ayrildi",
-          "publishedAt": "2026-09-03T19:25:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "bd84c3e34baf21f9",
-      "role": "yorum",
-      "page": "yorum.html",
-      "headline": "Rekor transfer piyasasında son gün hamlesi, kulüplerin planını değil risk iştahını gösterir",
-      "summary": "FIFA’nın 2026 yaz dönemine ilişkin verileri erkek futbolunda uluslararası transfer harcamasının 9,89 milyar dolara çıktığını gösteriyor. Türkiye’de transfer ve tescil dönemi 4 Eylül’de kapanırken asıl sınav, kulüplerin bu küresel fiyat baskısına son dakika refleksiyle mi yoksa sezon planını koruyarak mı cevap vereceği. Son günün gerçek ölçüsü yeni isim sayısı değil, alınan riskin kadro dengesine uyup uymadığıdır.",
-      "tag": "Yorum",
-      "importance": 82,
-      "contentType": "analysis",
-      "seoTitle": "Rekor transfer piyasasında Türkiye için son gün sınavı",
-      "seoDescription": "FIFA’nın rekor transfer verileri ve TFF’nin 4 Eylül son tarihi, Türkiye’de kulüplerin son gün kararlarını kadro riski açısından yeniden düşündürüyor.",
-      "focusKeyword": "2026 yaz transfer dönemi FIFA transfer harcaması",
-      "originalAngle": "Küresel transfer harcamasındaki rekor, Türkiye’de son gün yapılan hamleleri başarı göstergesi olmaktan çıkarıp kulüplerin risk yönetimi ve kadro planına sadakat testi hâline getiriyor.",
-      "keyFindings": [
-        "FIFA’nın 1 Haziran-2 Eylül 2026 dönemine ilişkin uluslararası transfer görünümünde erkek futbolunda 12.500’ün üzerinde transfer ve 9,89 milyar dolarlık harcama kaydedildi.",
-        "TFF’nin 2026-2027 sezonu takvimine göre Türkiye’de birinci transfer ve tescil dönemi 22 Haziran’da başladı ve 4 Eylül 2026’da sona eriyor.",
-        "Bu iki olgu birlikte okunduğunda, Türkiye’de transfer döneminin son gününde ölçülmesi gereken temel unsurun piyasanın hızına kapılmak değil, hamlenin sezonluk kadro mühendisliğiyle tutarlı olup olmadığı olduğu görülüyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "FIFA’nın 3 Eylül 2026 tarihli uluslararası transfer görünümü açıklaması ile TFF’nin 2026-2027 sezonu transfer ve tescil takvimini karşılaştırarak, küresel piyasa büyüklüğü ile Türkiye’deki son gün karar baskısını aynı çerçevede değerlendirdim. Yorum bölümü, kaynaklarda yer almayan bir transfer iddiası veya kulüp özelinde kesin hüküm kurmadan, doğrulanmış takvim ve ekonomik verinin kadro planlamasına etkisini tartışıyor.",
-      "originalFindings": [
-        "Transfer piyasasının büyümesi, kulüpler açısından yalnızca daha fazla seçenek değil, yanlış kararın maliyetinin de yükselmesi anlamına geliyor.",
-        "Türkiye’de son gün baskısı, kulüpleri küresel fiyat hareketlerine kısa vadeli cevap vermeye itebilir; fakat bunun sportif karşılığı ancak kadro dengesi ve sözleşme yüküyle birlikte ölçülebilir.",
-        "Bu nedenle son gün transferi kendi başına başarı göstergesi sayılamaz; kararın değeri sezon boyunca kullanılabilirlik ve planla uyum üzerinden ortaya çıkar."
-      ],
-      "limitations": "FIFA verisi küresel transfer toplamını gösteriyor; Türkiye kulüplerinin bu toplam içindeki payını, kulüp bazında net harcama dengesini veya belirli transfer görüşmelerinin sonucunu ortaya koymuyor. TFF takvimi son tarihi doğruluyor ancak kulüplerin son gün stratejileri hakkında tek başına kanıt sunmuyor. Bu nedenle yazı kulüp özelinde niyet, bütçe veya transfer sonucu iddiası içermiyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "GOLHAT-YORUM-20260904-001",
-      "authorName": "Mizan 90",
-      "publishedAt": "2026-09-03T22:14:11.000Z",
-      "discoveredAt": "2026-09-04T01:14:11.868Z",
-      "sources": [
-        {
-          "title": "FIFA World Cup 2026™ impact felt in mid-year transfer window",
-          "publisher": "FIFA",
-          "url": "https://vod.fifa.com/transfer-system/media-releases/world-cup-2026-impact-mid-year-transfer-window",
-          "publishedAt": "2026-09-03T13:45:00Z",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "2026-2027 FUTBOL SEZONU İLAN EDİLMESİ GEREKEN HUSUSLAR",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/Resources/TFF/Auto/7acd06ee8e2d4835a3d22776a8cc7c76.pdf",
-          "publishedAt": "2026-06-04T00:00:00Z",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Where is the transfer window still open? Nine countries Premier League clubs can still sell to",
-          "publisher": "FourFourTwo",
-          "url": "https://www.fourfourtwo.com/transfer/which-football-leagues-have-open-transfer-windows",
-          "publishedAt": "2026-09-02T16:19:41Z",
           "sourceRole": "independent_verification"
         }
       ]
