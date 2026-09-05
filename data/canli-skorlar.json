@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T16:08:41.891Z",
+  "updatedAt": "2026-09-05T16:21:51.040Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 4,
+    "live": 3,
     "upcoming": 11,
-    "finished": 13
+    "finished": 14
   },
   "matches": [
     {
@@ -201,12 +201,12 @@
       "venue": "",
       "home": "Athletic Club",
       "away": "Atlético Madrid",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868048,
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Lorient",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "Feyenoord",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 78,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
