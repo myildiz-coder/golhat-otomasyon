@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:28:34.402Z",
+  "updatedAt": "2026-09-05T19:38:55.915Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -239,7 +239,7 @@
       "away": "Deportivo A Coruña",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 28,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Atalanta",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 42,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Brest",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 44,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -453,9 +453,9 @@
       "venue": "",
       "home": "Nice",
       "away": "Le Mans",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "PSV Eindhoven",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 68,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -526,8 +526,8 @@
       "home": "Willem II",
       "away": "Excelsior",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 29,
+      "awayScore": 2,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
