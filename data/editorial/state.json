@@ -1,7 +1,157 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T00:48:16.334Z",
+  "updatedAt": "2026-09-05T01:15:24.023Z",
   "stories": [
+    {
+      "id": "0da41010612075ee",
+      "role": "fenerbahce",
+      "page": "fenerbahce.html",
+      "headline": "Fenerbahçe’de beş oyuncu Beşiktaş derbisinde ilk kez sahne alabilir",
+      "summary": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisi öncesinde Nathan Aké, Kojo Oppong, Mason Greenwood, Romelu Lukaku ve Mert Günok, forma giymeleri halinde bu rekabette sarı-lacivertli formayla ilk kez görev yapacak.",
+      "tag": "Gelişme",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Fenerbahçe’de beş oyuncu Beşiktaş derbisinde ilk kez sahne alabilir",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisi öncesi beş sarı-lacivertli oyuncu bu rekabette ilk kez forma giyebilir. Kadro deneyiminin ayrıntıları GOLHAT’ta.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi",
+      "originalAngle": "Derbinin sonucu kadar, Fenerbahçe’nin yeni ve deneyimli parçalarının bu rekabeti ilk kez aynı kadro planında taşıması da dikkat çekiyor. Beş oyuncunun olası kullanımı, İsmail Kartal’ın derbi deneyimi ile yeni transferlerin katkısı arasındaki dengeyi görünür kılacak.",
+      "keyFindings": [
+        "Fenerbahçe’de Nathan Aké, Kojo Oppong, Mason Greenwood, Romelu Lukaku ve Mert Günok, oynarlarsa sarı-lacivertli formayla Beşiktaş’a karşı ilk derbilerine çıkacak.",
+        "Bu beş isimden dördü yeni transfer, Mert Günok ise daha önce Beşiktaş forması giymesine rağmen Fenerbahçe formasıyla eski takımına karşı henüz görev yapmadı.",
+        "Bu ayrıntı kesin kadro veya ilk 11 anlamına gelmiyor; oyuncuların derbide süre alıp almayacağı maç kadrosu ve teknik tercih sonrasında netleşecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gelişme, Anadolu Ajansı’nın 4 Eylül 2026 tarihli derbi ön izlemesi ile beIN SPORTS Türkiye’nin aynı gün yayımladığı haber karşılaştırılarak doğrulandı. Fenerbahçe-Beşiktaş maçının 5 Eylül 2026 saat 20.00’de oynanacağı kulüp maç merkezi bilgisiyle ayrıca kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Kaynaklar oyuncuların derbide kesin olarak forma giyeceğini değil, görev almaları halinde bu rekabette ilk kez sahaya çıkacaklarını bildiriyor. Maç kadrosu ve oyuncuların süreleri bu haberin yayımlandığı anda kesinleşmiş değil.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T06:19:00.000Z",
+      "discoveredAt": "2026-09-05T01:15:24.023Z",
+      "sources": [
+        {
+          "title": "Fenerbahçe-Beşiktaş derbisinde 18 futbolcu ilk derbi heyecanını yaşayacak",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-besiktas-derbisinde-18-futbolcu-ilk-derbi-heyecanini-yasayacak/4047121",
+          "publishedAt": "2026-09-04T00:00:00+03:00",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Dev derbide 18 futbolcu bir ilki yaşayacak",
+          "publisher": "beIN SPORTS Türkiye",
+          "url": "https://beinsports.com.tr/haber/dev-derbide-18-futbolcu-bir-ilki-yasayacak",
+          "publishedAt": "2026-09-04T08:22:00+03:00",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe - Beşiktaş maç merkezi",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://www.bjk.com.tr/tr/mac_merkezi/canli/25441",
+          "publishedAt": "2026-09-05T00:00:00+03:00",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "ca66f1f6f569d00e",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "VfB Stuttgart, Köln karşısında 4-1’le sezonun ilk galibiyetini aldı",
+      "summary": "Bundesliga’nın ikinci haftasında VfB Stuttgart, 1. FC Köln’ü 4-1 mağlup etti. Bayern Münih deplasmanındaki 5-1’lik yenilginin ardından gelen sonuç, Stuttgart’ın sezon başlangıcındaki ilk puanlarını getirdi.",
+      "tag": "Maç Sonucu",
+      "importance": 72,
+      "contentType": "news",
+      "seoTitle": "VfB Stuttgart, Köln’ü 4-1 yenerek ilk galibiyetini aldı",
+      "seoDescription": "VfB Stuttgart, Bundesliga’nın ikinci haftasında Köln’ü 4-1 yendi. Maçın sonucu ve Stuttgart’ın ağır yenilgi sonrası verdiği ilk tepki GOLHAT’ta.",
+      "focusKeyword": "VfB Stuttgart Köln 4-1",
+      "originalAngle": "Stuttgart’ın haberdeki asıl değişimi yalnızca farklı kazanması değil, Bayern deplasmanındaki ağır yenilginin hemen ardından iç sahada oyunun kontrolünü ve skor üretimini geri almasıdır. Köln’ün ikinci yarıdaki toparlanmasına rağmen farkı koruyan Stuttgart, sezonun ilk haftasındaki savunma kırılganlığını bu kez daha yüksek hücum verimliliğiyle telafi etti.",
+      "keyFindings": [
+        "VfB Stuttgart, 4 Eylül 2026’da 1. FC Köln’ü 4-1 mağlup etti.",
+        "Stuttgart ilk yarıyı 1-0 önde tamamladı; Köln’ün ikinci yarıdaki baskısına rağmen ev sahibi ekip farkı artırdı.",
+        "Bu sonuç, Stuttgart’ın ilk hafta Bayern Münih’e 5-1 yenilmesinin ardından Bundesliga’daki ilk galibiyeti oldu."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Sonuç, VfB Stuttgart’ın resmî sezon maç raporları ile 1. FC Köln’ün resmî maç değerlendirmesi karşılaştırılarak doğrulandı. Bundesliga’nın resmî maç sayfası da karşılaşmanın tarihini ve fikstür bağlamını teyit etti.",
+      "originalFindings": [],
+      "limitations": "Karşılaşmanın puan tablosuna etkisi, 5 Eylül 2026 sabahındaki diğer maçlar oynanmadan kesin sıralama bağlamında değerlendirilmedi. Haberde yalnızca tamamlanmış maç sonucu ve doğrulanmış maç akışı kullanıldı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-05T01:15:24.023Z",
+      "sources": [
+        {
+          "title": "FC belohnt sich nicht für Leistungssteigerung",
+          "publisher": "1. FC Köln",
+          "url": "https://fc.de/aktuelles/news/fc-belohnt-sich-nicht-fuer-leistungssteigerung",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "VfB Stuttgart | Spielberichte",
+          "publisher": "VfB Stuttgart",
+          "url": "https://www.vfb.de/de/1893/profis/saison/2026-2027/bundesliga/spielberichte",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Bundesliga today: VfB Stuttgart - Cologne",
+          "publisher": "Bundesliga.com",
+          "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/2/vfb-stuttgart-vs-1-fc-koeln/accessibility",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
+    {
+      "id": "feb491c387aefb67",
+      "role": "yorum",
+      "page": "yorum.html",
+      "headline": "Kadıköy derbisinde tribün de maç planının bir parçası olacak",
+      "summary": "5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisi öncesinde Beşiktaş, deplasman taraftarlarının Tüpraş Stadı’ndan otobüslerle Kadıköy’e taşınacağını ve bireysel giriş yapılamayacağını açıkladı. Bu düzenleme, derbi tribününü yalnızca atmosfer üreten bir alan olmaktan çıkarıp kulüplerin güvenlik, disiplin ve organizasyon kapasitesini gösteren bir sınava dönüştürüyor. Asıl ölçü, sesin yüksekliği değil, düzenin korunması olacak.",
+      "tag": "Yorum",
+      "importance": 70,
+      "contentType": "analysis",
+      "seoTitle": "Fenerbahçe-Beşiktaş derbisinde tribün organizasyonu neden önemli?",
+      "seoDescription": "Fenerbahçe-Beşiktaş derbisinde deplasman taraftarlarının toplu taşınması, tribün kültürü ile güvenlik ve kulüp organizasyonu arasındaki ilişkiyi gündeme getiriyor.",
+      "focusKeyword": "Fenerbahçe Beşiktaş derbisi tribün organizasyonu",
+      "originalAngle": "Derbinin yeni ve gözden kaçan tarafı, saha içindeki oyun planından önce tribün planının da kulüpler tarafından yönetilmek zorunda kalmasıdır. Beşiktaş’ın deplasman taraftarlarını belirli bir noktadan otobüslerle taşıma kararı, tribün kültürünü spontane bir güç olmaktan çıkarıp güvenlik, disiplin ve kurumsal koordinasyon başlıklarıyla birlikte değerlendirmeyi gerektiriyor.",
+      "keyFindings": [
+        "Fenerbahçe-Beşiktaş karşılaşması 5 Eylül 2026 Cumartesi günü saat 20.00’de Ülker Stadyumu FB Şükrü Saracoğlu Spor Kompleksi’nde oynanacak.",
+        "Beşiktaş, deplasman tribününden maçı izleyecek taraftarların 5 Eylül’de saat 14.00’ten itibaren Tüpraş Stadı’nda toplanacağını ve otobüslerin saat 15.00’te hareket edeceğini duyurdu.",
+        "Kulüp ayrıca şehir dışından gelecek taraftarların stadyuma bireysel giriş yapamayacağını açıkladı; bu da derbi organizasyonunda tribün yönetiminin sportif gündem kadar görünür hâle geldiğini gösteriyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "5 Eylül 2026 saat 01.15 itibarıyla son 12 saatte erişilebilen resmî kaynaklar tarandı. Maçın programı TFF açıklamasıyla, deplasman taraftarlarının ulaşım ve giriş düzeni Beşiktaş’ın resmî duyurusuyla çapraz kontrol edildi. Yorum, yalnızca bu doğrulanmış organizasyon bilgileri üzerinden kurulmuştur.",
+      "originalFindings": [
+        "Deplasman taraftarlarının ortak bir noktadan toplu biçimde taşınması, derbi atmosferinin kulüpler açısından yalnızca koreografi veya tezahürat meselesi olmadığını ortaya koyuyor.",
+        "Tribün düzeni, maçın sonucunu doğrudan belirleyen bir unsur olarak sunulamaz; ancak derbi gününün güvenlik ve disiplin standardını belirleyen kurumsal bir test niteliği taşıyor.",
+        "Bu uygulamanın başarısı, kulüplerin taraftarla kurduğu iletişimin ne kadar açık ve zamanında olduğunu da görünür kılacak."
+      ],
+      "limitations": "Bu içerik maç oynanmadan hazırlanmıştır. Uygulamanın fiilî katılım sayısı, stadyum içindeki atmosferi, güvenlik sonuçları veya maçın saha içi performansına etkisi henüz doğrulanmış değildir. Fenerbahçe’nin ayrıca yayımladığı eşdeğer bir taraftar ulaşım duyurusu bu taramada bulunmamıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260905-YORUM-TRIBUN-001",
+      "authorName": "Mustafa YILDIZ",
+      "publishedAt": "2026-09-04T22:15:24.000Z",
+      "discoveredAt": "2026-09-05T01:15:24.023Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig'de 4. Hafta Programı Güncellendi",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=51232&pageID=201",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Deplasmandaki Fenerbahçe Maçını Tribünden İzleyecek Taraftarlarımıza Önemli Duyuru",
+          "publisher": "Beşiktaş JK",
+          "url": "https://bjk.com.tr/tr/haber/95040/deplasmandaki-fenerbahce-macini-tribunden-izleyecek-taraftarlarimiza-onemli-duyuru.html",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
     {
       "id": "64e71bd19057c166",
       "role": "besiktas",
@@ -9646,114 +9796,6 @@
           "url": "https://www.haberturk.com/spor/son-dakika-galatasaray-victor-nelsson-ile-yollarin-ayrildigini-tff-ye-bildirdi-3909845",
           "publishedAt": "2026-09-02T19:27:00+03:00",
           "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "3b6a47f9f4936c5a",
-      "role": "besiktas",
-      "page": "besiktas.html",
-      "headline": "Beşiktaş, Ümit Akdağ transferinde anlaşmaya vardı",
-      "summary": "Beşiktaş, savunma hattı için Corendon Alanyaspor forması giyen 22 yaşındaki Ümit Akdağ ve kulübüyle anlaşma sağladı. Transferin resmî işlemlerin tamamlanmasının ardından açıklanması bekleniyor.",
-      "tag": "Gelişme",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Beşiktaş, Ümit Akdağ transferinde Alanyaspor ile anlaştı",
-      "seoDescription": "Beşiktaş, 22 yaşındaki savunmacı Ümit Akdağ’ın transferi için Alanyaspor ve oyuncuyla anlaşmaya vardı.",
-      "focusKeyword": "Ümit Akdağ Beşiktaş",
-      "originalAngle": "Beşiktaş’ın transferin son günlerindeki savunma hamlesi, resmî imza öncesindeki anlaşma aşamasıyla öne çıkıyor.",
-      "keyFindings": [
-        "Beşiktaş, Ümit Akdağ’ın transferi için Corendon Alanyaspor ile anlaşmaya vardı.",
-        "22 yaşındaki savunmacıyla da anlaşma sağlandığı bildirildi.",
-        "Transferin kısa süre içinde resmiyet kazanması bekleniyor.",
-        "Ümit Akdağ, geçen sezon Alanyaspor formasıyla 36 maçta 1 gol ve 3 asist üretti."
-      ],
-      "publishedAt": "2026-09-02T18:54:00.000Z",
-      "discoveredAt": "2026-09-02T20:27:55.155Z",
-      "sources": [
-        {
-          "title": "Beşiktaş Ümit Akdağ transferi için Alanyaspor ile anlaştı",
-          "publisher": "Habertürk Spor",
-          "url": "https://www.haberturk.com/spor/son-dakika-besiktas-umit-akdag-transferi-icin-alanyaspor-ile-anlasti-3909864",
-          "publishedAt": "2026-09-02T21:35:00+03:00"
-        },
-        {
-          "title": "Beşiktaş transferde mutlu sona ulaştı! Flaş gelişme",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/besiktas-transferde-mutlu-sona-ulasti-flas-gelisme",
-          "publishedAt": "2026-09-02T18:37:00+03:00"
-        }
-      ]
-    },
-    {
-      "id": "d8f6bd46148dc7ba",
-      "role": "anadolu",
-      "page": "anadolu.html",
-      "headline": "Sivasspor ile Mardin 1969 Spor yenişemedi: 2-2",
-      "summary": "Trendyol 1. Lig’in 5. haftasında Sivasspor ile Mardin 1969 Spor 2-2 berabere kaldı. Mardin temsilcisi puanını 9’a çıkarırken Sivasspor 3 puana ulaştı.",
-      "tag": "Maç Sonucu",
-      "importance": 68,
-      "contentType": "news",
-      "seoTitle": "Sivasspor 2-2 Mardin 1969 Spor maç sonucu",
-      "seoDescription": "Sivasspor ile Mardin 1969 Spor, 1. Lig 5. hafta karşılaşmasında 2-2 berabere kaldı.",
-      "focusKeyword": "Sivasspor Mardin 1969 Spor",
-      "originalAngle": "Sivas’ta dört gollü denge: İki Anadolu temsilcisi birer puanla sahadan ayrıldı.",
-      "keyFindings": [
-        "Sivasspor ile Mardin 1969 Spor, 2 Eylül 2026’da karşılaştı.",
-        "Karşılaşma 2-2 sona erdi.",
-        "Mardin 1969 Spor puanını 9’a yükseltti.",
-        "Sivasspor 5. hafta sonunda 3 puana ulaştı."
-      ],
-      "publishedAt": "2026-09-02T17:27:55.000Z",
-      "discoveredAt": "2026-09-02T20:27:55.155Z",
-      "sources": [
-        {
-          "title": "Trendyol 1. Lig Puan Cetveli ve Fikstür",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/default.aspx?pageID=142",
-          "publishedAt": "2026-09-02"
-        },
-        {
-          "title": "Trendyol 1. Lig Fikstür ve Maç Sonuçları",
-          "publisher": "beIN SPORTS",
-          "url": "https://beinsports.com.tr/lig/tff-1-lig/fikstur",
-          "publishedAt": "2026-09-02"
-        }
-      ]
-    },
-    {
-      "id": "5d876441f5407139",
-      "role": "anadolu",
-      "page": "anadolu.html",
-      "headline": "Fatih Karagümrük ile Kayserispor puanları paylaştı: 1-1",
-      "summary": "Trendyol 1. Lig’in 5. haftasında Fatih Karagümrük ile Kayserispor 1-1 berabere kaldı. Kayserispor 10 puana yükselirken Fatih Karagümrük 8 puana ulaştı.",
-      "tag": "Maç Sonucu",
-      "importance": 70,
-      "contentType": "news",
-      "seoTitle": "Fatih Karagümrük 1-1 Kayserispor maç sonucu",
-      "seoDescription": "Fatih Karagümrük ile Kayserispor, 1. Lig 5. hafta mücadelesinde 1-1 berabere kaldı.",
-      "focusKeyword": "Fatih Karagümrük Kayserispor",
-      "originalAngle": "İstanbul’da puanlar bölüşüldü: Karagümrük ve Kayserispor zirve yarışında birer puan aldı.",
-      "keyFindings": [
-        "Fatih Karagümrük ile Kayserispor, 2 Eylül 2026’da karşılaştı.",
-        "Karşılaşma 1-1 sona erdi.",
-        "Kayserispor puanını 10’a çıkardı.",
-        "Fatih Karagümrük 8 puana ulaştı."
-      ],
-      "publishedAt": "2026-09-02T17:27:55.000Z",
-      "discoveredAt": "2026-09-02T20:27:55.155Z",
-      "sources": [
-        {
-          "title": "Trendyol 1. Lig Puan Cetveli ve Fikstür",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/default.aspx?pageID=142",
-          "publishedAt": "2026-09-02"
-        },
-        {
-          "title": "Trendyol 1. Lig Fikstür ve Maç Sonuçları",
-          "publisher": "beIN SPORTS",
-          "url": "https://beinsports.com.tr/lig/tff-1-lig/fikstur",
-          "publishedAt": "2026-09-02"
         }
       ]
     }
