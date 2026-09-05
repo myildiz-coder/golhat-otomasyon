@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:34:52.336Z",
+  "updatedAt": "2026-09-05T20:31:52.820Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 2
       },
       "nextMatches": [
-        {
-          "id": 5904737,
-          "date": "2026-09-05T17:00:00.000Z",
-          "timestamp": 1788627600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Beşiktaş",
-          "homeScore": 1,
-          "awayScore": 2,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 6106331,
           "date": "2026-09-10T16:45:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904773,
+          "date": "2026-10-18T17:00:00.000Z",
+          "timestamp": 1792342800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Alanyaspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904737,
+          "date": "2026-09-05T17:00:00.000Z",
+          "timestamp": 1788627600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Beşiktaş",
+          "homeScore": 1,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904730,
           "date": "2026-08-30T18:30:00.000Z",
@@ -165,20 +179,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "D"
-        },
-        {
-          "id": 5904708,
-          "date": "2026-08-15T18:30:00.000Z",
-          "timestamp": 1786818600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Gençlerbirliği",
-          "away": "Fenerbahçe",
-          "homeScore": 2,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
         }
       ],
       "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
@@ -465,20 +465,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904737,
-          "date": "2026-09-05T17:00:00.000Z",
-          "timestamp": 1788627600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Beşiktaş",
-          "homeScore": 1,
-          "awayScore": 1,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904747,
           "date": "2026-09-11T17:00:00.000Z",
           "timestamp": 1789146000,
@@ -547,9 +533,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904767,
+          "date": "2026-10-18T17:00:00.000Z",
+          "timestamp": 1792342800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904737,
+          "date": "2026-09-05T17:00:00.000Z",
+          "timestamp": 1788627600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Beşiktaş",
+          "homeScore": 1,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904729,
           "date": "2026-08-31T18:30:00.000Z",
@@ -601,20 +615,6 @@
           "home": "Beşiktaş",
           "away": "FK Kauno Žalgiris",
           "homeScore": 3,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904711,
-          "date": "2026-08-16T18:30:00.000Z",
-          "timestamp": 1786905000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Eyüpspor",
-          "homeScore": 1,
           "awayScore": 0,
           "status": "FT",
           "kind": "finished",
