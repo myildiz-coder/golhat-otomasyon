@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T20:27:40.709Z",
+  "updatedAt": "2026-09-05T20:39:25.806Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
+    "live": 4,
     "upcoming": 0,
-    "finished": 22
+    "finished": 23
   },
   "matches": [
     {
@@ -237,9 +237,9 @@
       "venue": "",
       "home": "Villarreal",
       "away": "Deportivo A Coruña",
-      "homeScore": 1,
-      "awayScore": 1,
-      "minute": 68,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -291,9 +291,9 @@
       "venue": "",
       "home": "Roma",
       "away": "Atalanta",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 84,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Brest",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 84,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,10 +455,10 @@
       "away": "Le Mans",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 85,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781737,
@@ -527,7 +527,7 @@
       "away": "Excelsior",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 70,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
