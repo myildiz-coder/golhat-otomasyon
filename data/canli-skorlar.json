@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:38:55.915Z",
+  "updatedAt": "2026-09-05T19:48:09.708Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -238,8 +238,8 @@
       "home": "Villarreal",
       "away": "Deportivo A Coruña",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 39,
+      "awayScore": 1,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "PSV Eindhoven",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 78,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Excelsior",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 39,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
