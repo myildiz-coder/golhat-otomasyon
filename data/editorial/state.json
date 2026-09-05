@@ -1,7 +1,146 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T05:15:27.638Z",
+  "updatedAt": "2026-09-05T05:41:14.031Z",
   "stories": [
+    {
+      "id": "5ac0f3a4bafe295a",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Gençlerbirliği, Benfica’dan Rafael Luís’i kadrosuna kattı",
+      "summary": "Gençlerbirliği, Benfica altyapısından yetişen Portekizli orta saha Rafael Luís ile 2 yıllık sözleşme imzaladı. Benfica, transferde geri alma opsiyonu ve payını koruduğunu açıkladı.",
+      "tag": "Kesinleşti",
+      "importance": 74,
+      "contentType": "news",
+      "seoTitle": "Gençlerbirliği, Benfica’dan Rafael Luís’i transfer etti",
+      "seoDescription": "Gençlerbirliği, Benfica’dan Portekizli orta saha Rafael Luís’i transfer etti; iki yıllık sözleşmenin ve Benfica’nın koruduğu hakların ayrıntıları haberimizde.",
+      "focusKeyword": "Rafael Luís Gençlerbirliği",
+      "originalAngle": "Gençlerbirliği’nin hamlesi, yalnızca genç bir orta saha transferi değil; Benfica’nın oyuncu üzerindeki payını ve geri alma hakkını koruduğu, gelişim odaklı bir modelin parçası. Bundan sonraki temel soru Rafael Luís’in Süper Lig’deki rolü olacak.",
+      "keyFindings": [
+        "Gençlerbirliği, 21 yaşındaki Rafael Luís ile 2 yıllık sözleşme imzaladı.",
+        "Benfica, oyuncunun bonservisle ayrıldığını; kulübün oyuncu haklarının bir bölümünü ve geri alma opsiyonunu koruduğunu duyurdu.",
+        "Rafael Luís, geçen sezon Strasbourg’da Ligue 1, UEFA Konferans Ligi ve Fransa Kupası’nda görev yaptı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Benfica’nın resmi transfer açıklaması, Anadolu Ajansı’nın Gençlerbirliği transfer haberiyle karşılaştırıldı. Sözleşme süresi ve transferin niteliği iki farklı alan adından kontrol edildi.",
+      "originalFindings": [],
+      "limitations": "Transfer bedeli ve Benfica’nın geri alma opsiyonunun finansal şartları açıklanmadı.",
+      "rightOfReplyStatus": "response_in_sources",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-03T21:00:00.000Z",
+      "discoveredAt": "2026-09-05T05:41:14.031Z",
+      "sources": [
+        {
+          "title": "Rafael Luís has been transferred",
+          "publisher": "SL Benfica",
+          "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/09/04/futebol-benfica-rafael-luis-transferido-genclerbirligi",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Gençlerbirliği, Pedro Mendes ile Rafael Luis'i kadrosuna kattı",
+          "publisher": "Anadolu Ajansı",
+          "url": "https://www.aa.com.tr/tr/spor/genclerbirligi-pedro-mendes-ile-rafael-luisi-kadrosuna-katti/4047661",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
+    {
+      "id": "16bf1a278e80e147",
+      "role": "avrupa",
+      "page": "avrupa.html",
+      "headline": "Lyon, Auxerre’yi 3-1 yenerek Ligue 1’de zirve yarışını güçlendirdi",
+      "summary": "Olympique Lyonnais, Ligue 1’in 3. haftasında Auxerre’yi 3-1 mağlup etti. Ev sahibi ekip, özellikle ikinci yarıda skor üstünlüğünü koruyarak önemli bir iç saha galibiyeti aldı.",
+      "tag": "Maç Sonucu",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Lyon, Auxerre’yi 3-1 yenerek Ligue 1’de kazandı",
+      "seoDescription": "Olympique Lyonnais, Ligue 1’in 3. haftasında Auxerre’yi 3-1 mağlup etti. GOLHAT, galibiyetin lig yarışındaki etkisini aktarıyor.",
+      "focusKeyword": "Lyon Auxerre 3-1",
+      "originalAngle": "Lyon’un galibiyeti yalnızca üç puan anlamına gelmiyor: sonuç, sezonun erken bölümünde takımın iç sahadaki üretkenliğini ve üst sıralar için kurduğu ivmeyi görünür kılıyor. Bundan sonraki temel soru, bu hücum etkinliğinin güçlü rakiplere karşı da sürüp sürmeyeceği.",
+      "keyFindings": [
+        "Olympique Lyonnais, 4 Eylül 2026’da Auxerre’yi 3-1 mağlup etti.",
+        "Karşılaşma, 2026-27 Ligue 1 sezonunun 3. haftasında oynandı.",
+        "Auxerre’nin resmî maç değerlendirmesi de Lyon’un 3-1’lik galibiyetini ve ikinci yarıdaki skor katkısını doğruluyor."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Maç sonucu L’Équipe’nin karşılaşma kaydı ve AJ Auxerre’nin resmî kulüp açıklaması karşılaştırılarak doğrulandı. Haber, mevcut Avrupa Futbolu manşetleriyle çakışmadığı kontrol edilerek seçildi.",
+      "originalFindings": [],
+      "limitations": "Kaynaklarda maçın lig tablosunda oluşturduğu kesin sıra değişimi bu taramada tam olarak verilmediği için puan veya sıra bilgisi eklenmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-05T05:41:14.031Z",
+      "sources": [
+        {
+          "title": "OL 3-1 Auxerre, Ligue 1 : Convaincant, l’OL prend la tête",
+          "publisher": "L’Équipe",
+          "url": "https://www.lequipe.fr/Football/match-direct/ligue-1/2026-2027/lyon-auxerre-live/690280",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "L’AJA s’incline à Lyon",
+          "publisher": "AJ Auxerre",
+          "url": "https://www.aja.fr/laja-sincline-a-lyon-3",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        }
+      ]
+    },
+    {
+      "id": "c08fcfb2696fefe9",
+      "role": "transfer",
+      "page": "transfer.html",
+      "headline": "Gaziantep FK, Abakar Sylla’yı Strasbourg’dan kalıcı olarak transfer etti",
+      "summary": "Gaziantep FK, Fildişi Sahilli savunmacı Abakar Sylla’nın Strasbourg’dan kalıcı transferi için anlaşmaya varıldığını ve oyuncuyla 2+1 yıllık sözleşme imzalandığını duyurdu.",
+      "tag": "Kesinleşti",
+      "importance": 78,
+      "contentType": "news",
+      "seoTitle": "Gaziantep FK, Abakar Sylla transferini açıkladı",
+      "seoDescription": "Gaziantep FK, Strasbourg’dan Abakar Sylla’yı kalıcı olarak kadrosuna kattı. Fildişi Sahilli savunmacının sözleşme süresi ve transfer bağlamı aktarılıyor.",
+      "focusKeyword": "Abakar Sylla Gaziantep FK transferi",
+      "originalAngle": "Gaziantep FK’nın hamlesi, yalnızca savunmaya yapılan yeni takviye değil; Strasbourg kadrosundan kalıcı olarak alınan 23 yaşındaki uluslararası oyuncuyla stoper rotasyonuna uzun vadeli yatırım anlamı taşıyor. Kulübün duyurduğu 2+1 yıllık sözleşme, işlemin kısa süreli kiralık hamleden farklı olduğunu netleştiriyor.",
+      "keyFindings": [
+        "Gaziantep FK, Abakar Sylla’nın Strasbourg’dan kalıcı transferi için anlaşmaya vardığını açıkladı.",
+        "Oyuncu Gaziantep FK ile 2+1 yıllık sözleşme imzaladı.",
+        "Transfer, kulübün resmî duyurusu ve bağımsız transfer kayıtlarıyla doğrulandı."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "Gaziantep FK’nın resmî transfer açıklaması incelendi; oyuncunun Strasbourg’dan Gaziantep FK’ya geçtiği bağımsız transfer veritabanı ve haber kaynağıyla karşılaştırıldı.",
+      "originalFindings": [],
+      "limitations": "Bonservis bedeli ve ödeme planı resmî açıklamada paylaşılmadı; bu nedenle mali detaylara yer verilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "discoveredAt": "2026-09-05T05:41:14.031Z",
+      "sources": [
+        {
+          "title": "TRANSFER | ABAKAR SYLLA GAZİANTEP'TE!",
+          "publisher": "Gaziantep FK",
+          "url": "https://www.gaziantepfk.org/haberler/transfer-abakar-sylla-gazi-antep-te",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "European Football Transfers 2026/27: Deals & Rumours",
+          "publisher": "Soccernews.com",
+          "url": "https://www.soccernews.com/soccer-transfers/rest-of-europe-transfers",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Sylla'nın vize sorununu Ali Şahin çözdü",
+          "publisher": "Gaziantep27",
+          "url": "https://www.gaziantep27.net/syllanin-vize-sorununu-ali-sahin-cozdu",
+          "publishedAt": "2026-09-04",
+          "sourceRole": "context"
+        }
+      ]
+    },
     {
       "id": "2e11e718e2e5d2f9",
       "role": "anadolu",
@@ -9652,145 +9791,6 @@
           "title": "Edin Dzeko milli takım kariyerini noktalayacağını açıkladı",
           "publisher": "beIN SPORTS Türkiye",
           "url": "https://beinsports.com.tr/haber/edin-dzeko-milli-takim-kariyerini-noktalayacagini-acikladi",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "91efa50d7cd069c2",
-      "role": "yorum",
-      "page": "yorum.html",
-      "headline": "Beşiktaş’ın Ümit Akdağ hamlesi, eksik kapatmaktan çok kadro esnekliği arayışı",
-      "summary": "Beşiktaş, Ümit Akdağ ile dört yıllık sözleşme imzaladı. Bu hamle, savunmaya tek oyuncu eklemekten öte, sezon yoğunluğu ve kadro esnekliği karşısında daha dayanıklı bir yapı kurma arayışını gösteriyor; asıl ölçü ise genç oyuncunun rotasyonda ne kadar erken sorumluluk alacağı.",
-      "tag": "Yorum",
-      "importance": 78,
-      "contentType": "analysis",
-      "seoTitle": "Beşiktaş’ın Ümit Akdağ transferi ne anlatıyor?",
-      "seoDescription": "Beşiktaş’ın Ümit Akdağ transferi, savunma takviyesinden fazlasını anlatıyor: kadro esnekliği, sezon yoğunluğu ve genç oyuncunun rolü.",
-      "focusKeyword": "Beşiktaş Ümit Akdağ transferi",
-      "originalAngle": "Ümit Akdağ transferinin asıl anlamı, Beşiktaş’ın yalnızca savunmadaki sayısal açığı kapatması değil; sezon boyunca farklı maç senaryolarına cevap verebilecek, genç ve çok yönlü bir rotasyon kurmaya yönelmesidir. Ancak bu yatırımın değeri, sözleşmenin uzunluğundan çok oyuncunun kısa vadede gerçek rekabet ve sorumluluk içine sokulup sokulmayacağıyla ölçülecek.",
-      "keyFindings": [
-        "Beşiktaş, Corendon Alanyaspor ile anlaşarak Ümit Akdağ’ı kadrosuna kattı ve oyuncuyla dört yıllık sözleşme imzaladı.",
-        "Ümit Akdağ transferinin 3 Eylül 2026’da, Avrupa listelerinin şekillendiği dönemin son bölümünde resmileşmesi hamlenin zamanlamasını önemli kılıyor.",
-        "Kulüp açıklaması transferin tamamlandığını doğruluyor; bağımsız spor basını ise oyuncunun savunma hattında kullanılmasının ve genç yaşının öne çıktığını aktarıyor.",
-        "Bu veriler, transferin yalnızca mevcut eksik için değil, sezon içindeki rotasyon ve kadro esnekliği için de değerlendirilebileceğine işaret ediyor; bunun sahadaki karşılığı henüz kanıtlanmış değil."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "3 Eylül 2026 tarihinde Beşiktaş’ın resmi kulüp açıklaması ile bağımsız spor basınındaki transfer haberleri karşılaştırıldı. Yorum, doğrulanmış transfer olgusundan hareketle kadro mühendisliği ve zamanlama üzerine kurulmuştur; oyuncunun gelecekteki performansı hakkında kesin hüküm verilmemiştir.",
-      "originalFindings": [
-        "Dört yıllık sözleşme, Beşiktaş’ın transferi kısa vadeli bir yedek hamlesinden ziyade orta vadeli kadro yatırımı olarak konumlandırdığını düşündürüyor; bu bir editoryal çıkarımdır.",
-        "Transferin sezon başlangıcında ve Avrupa listelerinin belirlendiği dönemde yapılması, teknik ekibin savunma rotasyonunu erken genişletme ihtiyacını gündeme getiriyor.",
-        "Bundan sonraki temel soru, Ümit Akdağ’ın yalnızca kadro derinliği olarak mı kalacağı, yoksa kısa sürede düzenli rekabet ve görev alacağıdır."
-      ],
-      "limitations": "Beşiktaş’ın transfer bedeli ve ödeme koşulları kulübün resmi açıklamasında yer almıyor. Oyuncunun hangi sistemde, hangi pozisyonda ve ne sıklıkta kullanılacağı konusunda teknik ekipten doğrulanmış bir açıklama bulunmuyor. Bu nedenle yazı, transferin olası kadro planlama anlamını tartışmakta; performans veya ilk 11 rolü hakkında kesin sonuç ileri sürmemektedir.",
-      "rightOfReplyStatus": "response_in_sources",
-      "evidenceId": "GOLHAT-20260903-YORUM-UMIT-AKDAG-01",
-      "authorName": "Sessiz Tahta",
-      "publishedAt": "2026-09-03T10:45:04.000Z",
-      "discoveredAt": "2026-09-03T13:45:04.900Z",
-      "sources": [
-        {
-          "title": "Beşiktaşımıza Hoş Geldin Ümit Akdağ",
-          "publisher": "Beşiktaş JK",
-          "url": "https://www.bjk.com.tr/tr/mobil/haber?news_id=95031",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Yeni Kartal Ümit Akdağ!",
-          "publisher": "Fotomaç",
-          "url": "https://www.fotomac.com.tr/besiktas/2026/09/03/yeni-kartal-umit-akdag",
-          "publishedAt": "2026-09-03T06:50:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "b983e2b472e7a818",
-      "role": "galatasaray",
-      "page": "galatasaray.html",
-      "headline": "Galatasaray, Başakşehir deplasmanında liderlik koltuğunu korumaya çıkacak",
-      "summary": "Galatasaray, Trendyol Süper Lig’in 4. haftasında 4 Eylül Cuma günü Başakşehir’e konuk olacak. İlk üç maçta 7 puan toplayan sarı-kırmızılı ekip, yeni transferleri Rafael Leão ve Deniz Gül’ün olası ilk maçları öncesinde liderlik yarışındaki yerini korumayı hedefleyecek.",
-      "tag": "Gelişme",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Galatasaray Başakşehir deplasmanında liderlik için sahaya çıkıyor",
-      "seoDescription": "Galatasaray, 4 Eylül’de Başakşehir’e konuk olacak. Sarı-kırmızılıların 7 puanla liderlik yarışındaki konumu ve yeni transferlerin durumu haberde.",
-      "focusKeyword": "Galatasaray Başakşehir maçı",
-      "originalAngle": "Haberin kritik noktası yalnızca maçın tarihi değil; Galatasaray’ın ilk üç haftada topladığı 7 puanla liderlik yarışını sürdürürken Rafael Leão ve Deniz Gül’ün olası ilk maçlarının kadro dengesine ne katacağıdır. Bundan sonraki temel soru, Okan Buruk’un yeni transferleri doğrudan ilk 11’de mi yoksa kontrollü biçimde mi kullanacağı olacak.",
-      "keyFindings": [
-        "Galatasaray, Süper Lig’in 4. haftasında 4 Eylül 2026 Cuma günü saat 20.00’de Başakşehir Fatih Terim Stadı’nda Başakşehir’e konuk olacak.",
-        "Sarı-kırmızılı ekip ilk üç haftada 7 puan topladı ve averajla liderlik yarışının içinde bulunuyor; Başakşehir’in ise 4 puanı var.",
-        "Rafael Leão ve Deniz Gül, teknik direktör Okan Buruk’un görev vermesi halinde Galatasaray formasıyla ilk maçlarına çıkabilecek.",
-        "Galatasaray’ın ligde Başakşehir karşısındaki son sekiz maçını kazanması, karşılaşmanın sportif bağlamını güçlendiriyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Karşılaşmanın tarihi, saati, puan durumu ve yeni transferlerin olası ilk maç durumu 3 Eylül 2026 tarihli beIN SPORTS haberiyle; aynı gün yayımlanan DHA spor gündemiyle maç hazırlıklarının sürdüğü bilgisi çaprazlandı. Kulübün güncel KAP kayıtlarında bu konuya ilişkin yeni bir transfer bildirimi görülmedi.",
-      "originalFindings": [],
-      "limitations": "Maç kadrosu, ilk 11 ve yeni transferlerin kesin oynayıp oynamayacağı henüz resmi olarak açıklanmadı. DHA kaynağı karşılaşmanın ayrıntılı sportif analizini değil, günün programını doğruluyor.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T05:36:00.000Z",
-      "discoveredAt": "2026-09-03T13:18:44.833Z",
-      "sources": [
-        {
-          "title": "Galatasaray, Trendyol Süper Lig'de Başakşehir'e konuk olacak",
-          "publisher": "beIN SPORTS Türkiye",
-          "url": "https://beinsports.com.tr/haber/galatasaray-trendyol-super-ligde-basaksehire-konuk-olacak",
-          "publishedAt": "2026-09-03T08:36:00+03:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "3 Eylül Perşembe DHA Spor Gündemi",
-          "publisher": "DHA",
-          "url": "https://www.dha.com.tr/yerel-haberler/istanbul/3-eylul-persembe-dha-spor-gundemi-2938130",
-          "publishedAt": "2026-09-03T09:33:00+03:00",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "428f861327f19f84",
-      "role": "super_lig",
-      "page": "super-lig.html",
-      "headline": "Fenerbahçe-Beşiktaş derbisini Halil Umut Meler yönetecek",
-      "summary": "Süper Lig’in 4. haftasında 5 Eylül 2026 Cumartesi günü oynanacak Fenerbahçe-Beşiktaş derbisinin hakemi Halil Umut Meler oldu. TFF, haftanın tüm müsabaka görevlilerini açıkladı.",
-      "tag": "Kesinleşti",
-      "importance": 82,
-      "contentType": "news",
-      "seoTitle": "Fenerbahçe-Beşiktaş derbisinin hakemi Halil Umut Meler",
-      "seoDescription": "TFF, 5 Eylül 2026’daki Fenerbahçe-Beşiktaş derbisinin hakemini açıkladı. Halil Umut Meler’in görevlendirmesi ve 4. hafta programı burada.",
-      "focusKeyword": "Fenerbahçe-Beşiktaş derbisi hakemi",
-      "originalAngle": "Atamanın haber değeri yalnızca derbi hakeminin açıklanması değil; Halil Umut Meler’in ligde yaklaşık iki buçuk yıl sonra yeniden bir derbide görev alacak olmasıdır. Bu nedenle 4. hafta, hakem performansının yanı sıra Meler’in derbi yönetimindeki süreklilik ve baskı testi üzerinden izlenecek.",
-      "keyFindings": [
-        "TFF, Trendyol Süper Lig’in 4. haftasındaki müsabaka görevlilerini 3 Eylül 2026’da açıkladı.",
-        "5 Eylül 2026 Cumartesi günü saat 20.00’de oynanacak Fenerbahçe-Beşiktaş maçında hakem Halil Umut Meler olacak.",
-        "Meler, ligde son derbi görevini 17 Mart 2024’teki Trabzonspor-Fenerbahçe karşılaşmasında üstlenmişti.",
-        "4. haftanın diğer öne çıkan görevlendirmeleri arasında Başakşehir-Galatasaray maçında Kadir Sağlam, Trabzonspor-Gençlerbirliği maçında Çağdaş Altay ve Kocaelispor-Samsunspor maçında Reşat Onur Coşkunses bulunuyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Görevlendirme önce TFF’nin 3 Eylül 2026 tarihli resmi müsabaka görevlileri duyurusundan kontrol edildi; ardından Habertürk’ün aynı gün yayımlanan haberindeki maç tarihi, saati ve hakem bilgileriyle çapraz doğrulandı. Fikstür ve 4. hafta maçları ayrıca TFF’nin resmi puan cetveli ve fikstür sayfasından karşılaştırıldı.",
-      "originalFindings": [],
-      "limitations": "Hakem ataması doğrulanmış resmi bilgidir; Meler’in maç yönetimine veya kararlarına ilişkin değerlendirme maç oynanmadan yapılamaz. Atamanın performans ya da maç sonucu üzerindeki etkisi hakkında nedensel sonuç kurulamaz.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T12:29:00.000Z",
-      "discoveredAt": "2026-09-03T13:18:44.833Z",
-      "sources": [
-        {
-          "title": "Trendyol Süper Lig'de 4. Hafta Müsabaka Görevlileri Açıklandı",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/default.aspx?ftxtID=51252&pageID=248",
-          "publishedAt": "2026-09-03",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Fenerbahçe - Beşiktaş derbisinin hakemi belli oldu!",
-          "publisher": "Habertürk Spor",
-          "url": "https://www.haberturk.com/spor/son-dakika-fenerbahce-besiktas-derbisinin-hakemi-belli-oldu-3910045",
           "publishedAt": "2026-09-03",
           "sourceRole": "independent_verification"
         }
