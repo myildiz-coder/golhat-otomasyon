@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T01:42:35.818Z",
+  "updatedAt": "2026-09-05T02:16:58.340Z",
   "stories": [
+    {
+      "id": "1fa90c91361c8212",
+      "role": "anadolu",
+      "page": "anadolu.html",
+      "headline": "Anadolu kulüpleri için yaz transfer dönemi kapandı",
+      "summary": "Türkiye’de 2026-2027 sezonunun birinci transfer ve tescil dönemi 4 Eylül’ü 5 Eylül’e bağlayan gece sona erdi. Süper Lig ve 1. Lig Anadolu kulüpleri için kadro değişikliği sürecinin yeni aşaması başladı; ikinci transfer dönemi 1 Ocak 2027’de açılacak.",
+      "tag": "Kesinleşti",
+      "importance": 70,
+      "contentType": "news",
+      "seoTitle": "Anadolu kulüpleri için yaz transfer dönemi kapandı",
+      "seoDescription": "2026-2027 sezonunun birinci transfer ve tescil dönemi sona erdi. Anadolu kulüplerinde kadro planlaması artık sezon içi performansa dönecek.",
+      "focusKeyword": "Anadolu kulüpleri transfer dönemi",
+      "originalAngle": "Transfer dönemi kulüplerin yeni hamle yapabileceği süreci kapatırken, Anadolu takımlarında sezon başlangıcında oluşan kadro dengesinin artık saha sonuçlarıyla sınanacağı dönemi başlatıyor.",
+      "keyFindings": [
+        "2026-2027 sezonunun birinci transfer ve tescil dönemi 4 Eylül 2026 tarihinde sona erdi.",
+        "TFF takvimine göre ikinci transfer ve tescil dönemi 1 Ocak 2027’de başlayıp 5 Şubat 2027’de tamamlanacak.",
+        "Bu kapanış, Süper Lig ve 1. Lig Anadolu kulüplerinin mevcut kadrolarıyla sezonun ilk bölümünü sürdürmesi anlamına geliyor; kulüplerin sportif etkisi ancak maç performanslarıyla ölçülebilecek."
+      ],
+      "originalityBasis": "reported_event",
+      "methodology": "TFF’nin resmi transfer takvimindeki tarihler, 5 Eylül 2026 saat 00.24’te yayımlanan Habertürk/Anadolu Ajansı haberiyle karşılaştırıldı. Kulüplere ilişkin doğrulanmamış transfer iddiaları kullanılmadı.",
+      "originalFindings": [],
+      "limitations": "Bu gelişme genel transfer takviminin kapanışıdır; tek tek Anadolu kulüplerinin dönem boyunca yaptığı tüm transferlerin bilançosu bu haberde çıkarılmamıştır.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "",
+      "authorName": "GOLHAT Haber Merkezi",
+      "publishedAt": "2026-09-04T21:24:00.000Z",
+      "discoveredAt": "2026-09-05T02:16:58.340Z",
+      "sources": [
+        {
+          "title": "2026-2027 Sezonu Transfer ve Tescil Dönemleri Belirlendi",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/default.aspx?ftxtID=50633&pageID=687",
+          "publishedAt": "2026-05-21",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Futbolda yaz transfer dönemi sona erdi!",
+          "publisher": "Habertürk / Anadolu Ajansı",
+          "url": "https://www.haberturk.com/spor/futbolda-yaz-transfer-donemi-sona-erdi-3910390",
+          "publishedAt": "2026-09-05T00:24:00+03:00",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "751e7cfdf57b8033",
       "role": "yorum",
@@ -9725,73 +9769,6 @@
           "publisher": "Premier League",
           "url": "https://www.premierleague.com/en/news/4705808/the-wrap-what-happened-on-transfer-deadline-day",
           "publishedAt": "2026-09-02",
-          "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "e7f152207c5b92ee",
-      "role": "transfer",
-      "page": "transfer.html",
-      "headline": "Brighton, Femi Azeez transferini dört yıllık sözleşmeyle açıkladı",
-      "summary": "Brighton, Millwall’dan Nijeryalı kanat oyuncusu Femi Azeez’i dört yıllık sözleşmeyle kadrosuna kattığını duyurdu. Kulüp, transfer evraklarının İngiltere’deki son günün uzatılmış süresi içinde tamamlandığını açıkladı; bedel paylaşılmadı.",
-      "tag": "Kesinleşti",
-      "importance": 76,
-      "contentType": "news",
-      "seoTitle": "Brighton, Femi Azeez transferini dört yıllık sözleşmeyle tamamladı",
-      "seoDescription": "Brighton, Millwall’dan Femi Azeez’i dört yıllık sözleşmeyle transfer ettiğini resmen açıkladı. Transfer bedeli duyurulmadı.",
-      "focusKeyword": "Femi Azeez Brighton transferi",
-      "originalAngle": "İngiltere transfer döneminin kapanmasının ardından evrak süreci tamamlanan transferin resmî kulüp açıklamasıyla kesinleştiğini öne çıkarmak.",
-      "keyFindings": [
-        "Brighton, Femi Azeez’in Millwall’dan transfer edildiğini resmen açıkladı.",
-        "Oyuncuyla dört yıllık sözleşme imzalandı.",
-        "Transfer bedeli açıklanmadı.",
-        "Brighton, işlemin uzatılmış transfer süresi içinde tamamlandığını bildirdi."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Brighton’ın resmî açıklaması, transferin dört yıllık sözleşme ve tamamlanma süresine ilişkin birincil kaynak olarak incelendi; bağımsız haber kaynağındaki transfer gündemiyle çapraz kontrol edildi.",
-      "originalFindings": [],
-      "limitations": "Transfer bedeli ve sözleşmenin diğer mali şartları kamuoyuna açıklanmadı.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "editorialReview": {
-        "tahkik": {
-          "score": 94,
-          "note": "Transfer Brighton’ın resmî kulüp açıklamasıyla doğrulanıyor; bağımsız kaynak da aynı imzayı aktarıyor."
-        },
-        "adalet": {
-          "score": 91,
-          "note": "Bedel açıklanmadığı hâlde rakam üretilmedi; oyuncu ve kulüpler hakkında doğrulanmamış değerlendirme kullanılmadı."
-        },
-        "musbet_hareket": {
-          "score": 88,
-          "note": "Haber, transferin tamamlanmasına ve sözleşme süresine odaklanıyor; tahrik edici veya küçültücü dil içermiyor."
-        },
-        "uhuvvet_sefkat": {
-          "score": 90,
-          "note": "Oyuncunun kariyer geçişi saygılı ve ölçülü biçimde aktarılıyor; kişisel hayatına veya taraftar gruplarına ilişkin gereksiz unsur yok."
-        },
-        "public_interest": {
-          "score": 78,
-          "note": "Premier League kulübünün son gün tamamlanan transferi, Türkiye ve Avrupa futbolundaki güncel transfer akışı bakımından kayda değer."
-        },
-        "newsCommentSeparated": true
-      },
-      "publishedAt": "2026-09-02T09:30:00.000Z",
-      "discoveredAt": "2026-09-02T21:25:56.751Z",
-      "sources": [
-        {
-          "title": "Albion sign Femi Azeez from Millwall",
-          "publisher": "Brighton & Hove Albion",
-          "url": "https://www.brightonandhovealbion.com/media-article/mft-transfer-news-femi-azeez-millwall-september-2026",
-          "publishedAt": "2026-09-02T10:30:00+01:00",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Every done deal on transfer deadline day",
-          "publisher": "BBC Sport via Yahoo Sports",
-          "url": "https://ca.sports.yahoo.com/news/every-done-deal-transfer-deadline-074504216.html",
-          "publishedAt": "2026-09-02T12:17:00Z",
           "sourceRole": "independent_verification"
         }
       ]
