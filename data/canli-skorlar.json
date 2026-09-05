@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:54:36.653Z",
+  "updatedAt": "2026-09-05T19:06:31.843Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 28,
     "live": 6,
-    "upcoming": 2,
-    "finished": 20
+    "upcoming": 0,
+    "finished": 21
   },
   "matches": [
     {
@@ -59,10 +59,10 @@
       "away": "Beşiktaş",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795443,
@@ -239,10 +239,10 @@
       "away": "Deportivo A Coruña",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749663,
@@ -293,7 +293,7 @@
       "away": "Atalanta",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 20,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -436,8 +436,8 @@
       "home": "Le Havre",
       "away": "Brest",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 10,
+      "awayScore": 1,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -454,8 +454,8 @@
       "home": "Nice",
       "away": "Le Mans",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 9,
+      "awayScore": 1,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -492,9 +492,9 @@
       "homeScore": 1,
       "awayScore": 3,
       "minute": null,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "status": "PST",
+      "statusLong": "Abandoned",
+      "kind": "other"
     },
     {
       "id": 5781735,
@@ -509,7 +509,7 @@
       "away": "PSV Eindhoven",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,10 +527,10 @@
       "away": "Excelsior",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
