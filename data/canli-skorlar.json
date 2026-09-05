@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T13:13:34.573Z",
+  "updatedAt": "2026-09-05T13:26:36.641Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 2,
+    "live": 1,
     "upcoming": 26,
-    "finished": 0
+    "finished": 1
   },
   "matches": [
     {
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Newcastle United",
       "away": "AFC Bournemouth",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 85,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795436,
@@ -257,7 +257,7 @@
       "away": "Torino",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
