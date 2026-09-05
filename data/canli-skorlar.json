@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:46:54.383Z",
+  "updatedAt": "2026-09-05T15:54:11.982Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 9,
+    "live": 5,
     "upcoming": 12,
-    "finished": 7
+    "finished": 11
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Konyaspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904737,
@@ -94,8 +94,8 @@
       "home": "Brentford",
       "away": "Sunderland",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 82,
+      "awayScore": 1,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,10 +113,10 @@
       "away": "Leeds United",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795439,
@@ -131,7 +131,7 @@
       "away": "Crystal Palace",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 86,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "Coventry City",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795444,
@@ -167,10 +167,10 @@
       "away": "Tottenham Hotspur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795440,
@@ -203,7 +203,7 @@
       "away": "Atlético Madrid",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 65,
+      "minute": 73,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Lorient",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 32,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -472,8 +472,8 @@
       "home": "NEC Nijmegen",
       "away": "Feyenoord",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 56,
+      "awayScore": 2,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
