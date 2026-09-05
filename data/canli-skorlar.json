@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:14:33.561Z",
+  "updatedAt": "2026-09-05T18:29:58.071Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 6,
+    "live": 4,
     "upcoming": 5,
-    "finished": 17
+    "finished": 19
   },
   "matches": [
     {
@@ -59,7 +59,7 @@
       "away": "Beşiktaş",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 55,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,10 +185,10 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868042,
@@ -221,7 +221,7 @@
       "away": "Racing Santander",
       "homeScore": 3,
       "awayScore": 2,
-      "minute": 82,
+      "minute": 97,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,10 +401,10 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802921,
@@ -489,9 +489,9 @@
       "venue": "",
       "home": "FC Utrecht",
       "away": "Go Ahead Eagles",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 3,
-      "minute": null,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -507,9 +507,9 @@
       "venue": "",
       "home": "Ajax",
       "away": "PSV Eindhoven",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 13,
+      "minute": 29,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
