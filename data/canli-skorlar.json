@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T17:19:18.782Z",
+  "updatedAt": "2026-09-05T17:29:20.582Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Beşiktaş",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 19,
+      "minute": 29,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Racing Santander",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 49,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 58,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 35,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
