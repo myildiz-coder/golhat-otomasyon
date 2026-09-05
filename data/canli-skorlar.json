@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T17:29:20.582Z",
+  "updatedAt": "2026-09-05T17:39:52.437Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -58,8 +58,8 @@
       "home": "Fenerbahçe",
       "away": "Beşiktaş",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 29,
+      "awayScore": 1,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Racing Santander",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": null,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 68,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 45,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
