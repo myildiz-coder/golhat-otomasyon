@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T13:36:30.781Z",
+  "updatedAt": "2026-09-05T13:54:29.335Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -257,7 +257,7 @@
       "away": "Torino",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 35,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Union Berlin",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -327,9 +327,9 @@
       "venue": "",
       "home": "Borussia Mönchengladbach",
       "away": "Elversberg",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Freiburg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "RB Leipzig",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
