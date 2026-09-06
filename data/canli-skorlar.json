@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:23:08.490Z",
+  "updatedAt": "2026-09-06T16:37:54.821Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 5,
-    "upcoming": 7,
+    "live": 7,
+    "upcoming": 5,
     "finished": 11
   },
   "matches": [
@@ -131,7 +131,7 @@
       "away": "Chelsea",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,10 +167,10 @@
       "away": "Osasuna",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868047,
@@ -185,10 +185,10 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868045,
@@ -257,7 +257,7 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 23,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -310,8 +310,8 @@
       "home": "Eintracht Frankfurt",
       "away": "Augsburg",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 2,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 48,
+      "minute": 63,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -435,9 +435,9 @@
       "venue": "",
       "home": "ADO Den Haag",
       "away": "Fortuna Sittard",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 3,
-      "minute": 81,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
