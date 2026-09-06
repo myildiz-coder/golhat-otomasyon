@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T15:55:05.449Z",
+  "updatedAt": "2026-09-06T16:08:16.667Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 23,
     "live": 6,
-    "upcoming": 8,
-    "finished": 9
+    "upcoming": 7,
+    "finished": 10
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Amed Sportif",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904736,
@@ -129,9 +129,9 @@
       "venue": "",
       "home": "Arsenal",
       "away": "Chelsea",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 25,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -148,8 +148,8 @@
       "home": "Valencia",
       "away": "Barcelona",
       "homeScore": 0,
-      "awayScore": 3,
-      "minute": 73,
+      "awayScore": 5,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,10 +257,10 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749667,
@@ -311,7 +311,7 @@
       "away": "Augsburg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 40,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -435,9 +435,9 @@
       "venue": "",
       "home": "ADO Den Haag",
       "away": "Fortuna Sittard",
-      "homeScore": 0,
-      "awayScore": 2,
-      "minute": 53,
+      "homeScore": 1,
+      "awayScore": 3,
+      "minute": 66,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
