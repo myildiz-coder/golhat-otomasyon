@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T11:54:02.827Z",
+  "updatedAt": "2026-09-06T12:09:31.825Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 1,
+    "live": 0,
     "upcoming": 22,
-    "finished": 0
+    "finished": 1
   },
   "matches": [
     {
@@ -383,10 +383,10 @@
       "away": "FC Twente",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 80,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781734,
