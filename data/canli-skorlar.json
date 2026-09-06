@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T15:21:22.390Z",
+  "updatedAt": "2026-09-06T15:36:58.263Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 6,
-    "upcoming": 10,
-    "finished": 7
+    "live": 7,
+    "upcoming": 8,
+    "finished": 8
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Amed Sportif",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 61,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Eyüpspor",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 63,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,11 +130,11 @@
       "home": "Arsenal",
       "away": "Chelsea",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868049,
@@ -148,8 +148,8 @@
       "home": "Valencia",
       "away": "Barcelona",
       "homeScore": 0,
-      "awayScore": 2,
-      "minute": null,
+      "awayScore": 3,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,10 +293,10 @@
       "away": "Mainz 05",
       "homeScore": 0,
       "awayScore": 5,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881154,
@@ -309,12 +309,12 @@
       "venue": "",
       "home": "Eintracht Frankfurt",
       "away": "Augsburg",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802927,
@@ -346,8 +346,8 @@
       "home": "Angers",
       "away": "Rennes",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 6,
+      "awayScore": 2,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 36,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
