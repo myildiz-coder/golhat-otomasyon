@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:21:26.137Z",
+  "updatedAt": "2026-09-06T14:36:33.433Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 10,
+    "live": 8,
     "upcoming": 12,
-    "finished": 1
+    "finished": 3
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Amed Sportif",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Çorum FK",
       "away": "Eyüpspor",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 22,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 62,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -148,8 +148,8 @@
       "home": "Valencia",
       "away": "Barcelona",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 4,
+      "awayScore": 1,
+      "minute": 19,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -220,8 +220,8 @@
       "home": "Frosinone",
       "away": "Venezia",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 58,
+      "awayScore": 1,
+      "minute": 73,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Monza",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 61,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Mainz 05",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Strasbourg",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 60,
+      "minute": 75,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,12 +399,12 @@
       "venue": "",
       "home": "Telstar",
       "away": "Cambuur",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781736,
@@ -419,10 +419,10 @@
       "away": "AZ Alkmaar",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781740,
