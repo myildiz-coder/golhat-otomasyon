@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:37:54.821Z",
+  "updatedAt": "2026-09-06T16:47:16.449Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 7,
+    "live": 6,
     "upcoming": 5,
-    "finished": 11
+    "finished": 12
   },
   "matches": [
     {
@@ -129,9 +129,9 @@
       "venue": "",
       "home": "Arsenal",
       "away": "Chelsea",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 46,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Osasuna",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 16,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 37,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Augsburg",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 50,
+      "minute": 60,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 63,
+      "minute": 72,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,10 +437,10 @@
       "away": "Fortuna Sittard",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
