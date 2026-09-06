@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T10:36:57.285Z",
+  "updatedAt": "2026-09-06T10:46:21.860Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -381,9 +381,9 @@
       "venue": "",
       "home": "FC Groningen",
       "away": "FC Twente",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 21,
+      "minute": 30,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
