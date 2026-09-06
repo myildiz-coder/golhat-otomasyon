@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-06T23:54:11.086Z",
+  "updatedAt": "2026-09-06T23:59:34.952Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "5. Hafta",
-  "roundLabel": "5. Hafta",
+  "round": "4. Hafta",
+  "roundLabel": "4. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -248,7 +248,7 @@
       "id": 317814,
       "date": "2026-09-07T17:00:00.000Z",
       "timestamp": 1788800400,
-      "round": "5. Hafta",
+      "round": "4. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -259,7 +259,7 @@
       "id": 317815,
       "date": "2026-09-07T17:00:00.000Z",
       "timestamp": 1788800400,
-      "round": "5. Hafta",
+      "round": "4. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
