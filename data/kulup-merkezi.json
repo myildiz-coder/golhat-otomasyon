@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:32:41.153Z",
+  "updatedAt": "2026-09-06T18:33:48.751Z",
   "sources": [
     {
       "name": "FotMob",
@@ -677,7 +677,7 @@
       "name": "Trabzonspor",
       "season": "2026/2027",
       "league": "Super Lig",
-      "coach": "Fatih Tekke",
+      "coach": "Hüseyin Cimsir",
       "stadium": "Papara Park",
       "squad": {
         "total": 30,
@@ -692,10 +692,10 @@
           "stage": "",
           "home": "Trabzonspor",
           "away": "Gençlerbirliği",
-          "homeScore": 0,
+          "homeScore": 4,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
