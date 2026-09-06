@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:46:01.515Z",
+  "updatedAt": "2026-09-06T14:55:09.158Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Amed Sportif",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 46,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Eyüpspor",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 46,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -112,8 +112,8 @@
       "home": "Everton",
       "away": "Manchester United",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 86,
+      "awayScore": 2,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 28,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -219,9 +219,9 @@
       "venue": "",
       "home": "Frosinone",
       "away": "Venezia",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 2,
-      "minute": 82,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Monza",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 86,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Mainz 05",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 58,
+      "minute": 67,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Troyes",
       "away": "Strasbourg",
       "homeScore": 1,
-      "awayScore": 3,
-      "minute": 84,
+      "awayScore": 6,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 1,
+      "minute": 10,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
