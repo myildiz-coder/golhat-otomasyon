@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:07:50.875Z",
+  "updatedAt": "2026-09-06T20:22:03.996Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -203,7 +203,7 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 48,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -274,8 +274,8 @@
       "home": "Juventus",
       "away": "Milan",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 63,
+      "awayScore": 1,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Paris FC",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 64,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
