@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T08:24:01.285Z",
+  "updatedAt": "2026-09-06T12:26:35.658Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -2425,6 +2425,21 @@
         },
         {
           "rank": 6,
+          "teamId": 8611,
+          "team": "FC Twente",
+          "played": 4,
+          "won": 2,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 9,
+          "goalsAgainst": 5,
+          "goalDifference": 4,
+          "points": 7,
+          "form": "",
+          "description": "#7FAEFF"
+        },
+        {
+          "rank": 7,
           "teamId": 6433,
           "team": "Go Ahead Eagles",
           "played": 4,
@@ -2439,7 +2454,7 @@
           "description": "#7FAEFF"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": 6422,
           "team": "Fortuna Sittard",
           "played": 4,
@@ -2451,25 +2466,25 @@
           "goalDifference": 1,
           "points": 7,
           "form": "",
-          "description": "#7FAEFF"
-        },
-        {
-          "rank": 8,
-          "teamId": 8611,
-          "team": "FC Twente",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 3,
-          "goalDifference": 4,
-          "points": 6,
-          "form": "",
           "description": ""
         },
         {
           "rank": 9,
+          "teamId": 8674,
+          "team": "FC Groningen",
+          "played": 5,
+          "won": 2,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 11,
+          "goalsAgainst": 12,
+          "goalDifference": -1,
+          "points": 7,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 10,
           "teamId": 8464,
           "team": "NEC Nijmegen",
           "played": 4,
@@ -2479,21 +2494,6 @@
           "goalsFor": 9,
           "goalsAgainst": 7,
           "goalDifference": 2,
-          "points": 6,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 10,
-          "teamId": 8674,
-          "team": "FC Groningen",
-          "played": 4,
-          "won": 2,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 10,
-          "goalDifference": -1,
           "points": 6,
           "form": "",
           "description": ""
@@ -2620,20 +2620,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5781732,
-          "date": "2026-09-06T10:15:00.000Z",
-          "timestamp": 1788689700,
-          "round": "5",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "FC Groningen",
-          "away": "FC Twente",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5781736,
           "date": "2026-09-06T12:30:00.000Z",
@@ -2784,6 +2770,20 @@
           "venue": "",
           "home": "Cambuur",
           "away": "NEC Nijmegen",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5781745,
+          "date": "2026-09-13T10:15:00Z",
+          "timestamp": 1789294500,
+          "round": "6",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Excelsior",
+          "away": "FC Utrecht",
           "started": false,
           "finished": false,
           "cancelled": false
