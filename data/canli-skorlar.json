@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:37:19.286Z",
+  "updatedAt": "2026-09-06T20:46:16.543Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 3,
+    "live": 1,
     "upcoming": 0,
-    "finished": 20
+    "finished": 22
   },
   "matches": [
     {
@@ -202,8 +202,8 @@
       "home": "Espanyol",
       "away": "Sevilla",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 78,
+      "awayScore": 1,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -273,12 +273,12 @@
       "venue": "",
       "home": "Juventus",
       "away": "Milan",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881155,
@@ -365,10 +365,10 @@
       "away": "Paris FC",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781732,
