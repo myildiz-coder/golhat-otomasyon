@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:20:33.854Z",
+  "updatedAt": "2026-09-06T17:35:20.563Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 7,
+    "live": 5,
     "upcoming": 3,
-    "finished": 13
+    "finished": 15
   },
   "matches": [
     {
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Gençlerbirliği",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 19,
+      "minute": 34,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Kocaelispor",
       "away": "Samsunspor",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 19,
+      "minute": 34,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Chelsea",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868049,
@@ -167,7 +167,7 @@
       "away": "Osasuna",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 49,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Sassuolo",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 62,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,10 +311,10 @@
       "away": "Augsburg",
       "homeScore": 1,
       "awayScore": 4,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802927,
