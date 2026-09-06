@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T04:22:58.009Z",
+  "updatedAt": "2026-09-06T08:24:01.285Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -2677,6 +2677,20 @@
           "cancelled": false
         },
         {
+          "id": 5781733,
+          "date": "2026-09-08T12:00:00Z",
+          "timestamp": 1788868800,
+          "round": "5",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "FC Utrecht",
+          "away": "Go Ahead Eagles",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
           "id": 5781720,
           "date": "2026-09-08T16:45:00Z",
           "timestamp": 1788885900,
@@ -2770,20 +2784,6 @@
           "venue": "",
           "home": "Cambuur",
           "away": "NEC Nijmegen",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
-          "id": 5781745,
-          "date": "2026-09-13T10:15:00Z",
-          "timestamp": 1789294500,
-          "round": "6",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Excelsior",
-          "away": "FC Utrecht",
           "started": false,
           "finished": false,
           "cancelled": false
