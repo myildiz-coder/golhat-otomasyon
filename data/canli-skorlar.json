@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:08:50.876Z",
+  "updatedAt": "2026-09-06T18:24:16.666Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Gençlerbirliği",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 48,
+      "minute": 63,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 48,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -165,9 +165,9 @@
       "venue": "",
       "home": "Deportivo Alavés",
       "away": "Osasuna",
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 2,
-      "minute": 76,
+      "minute": 92,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 79,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
