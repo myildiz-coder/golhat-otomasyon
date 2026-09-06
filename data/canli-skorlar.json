@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:48:50.801Z",
+  "updatedAt": "2026-09-06T18:57:59.785Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 4,
+    "live": 2,
     "upcoming": 1,
-    "finished": 18
+    "finished": 20
   },
   "matches": [
     {
@@ -77,10 +77,10 @@
       "away": "Gençlerbirliği",
       "homeScore": 5,
       "awayScore": 0,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904738,
@@ -95,10 +95,10 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795438,
@@ -275,7 +275,7 @@
       "away": "Milan",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 4,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -363,9 +363,9 @@
       "venue": "",
       "home": "Marseille",
       "away": "Paris FC",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 4,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
