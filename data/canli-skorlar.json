@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T15:46:21.130Z",
+  "updatedAt": "2026-09-06T15:55:05.449Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 7,
+    "live": 6,
     "upcoming": 8,
-    "finished": 8
+    "finished": 9
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Amed Sportif",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 86,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Çorum FK",
       "away": "Eyüpspor",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904731,
@@ -131,7 +131,7 @@
       "away": "Chelsea",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 16,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 65,
+      "minute": 73,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Augsburg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 17,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -345,9 +345,9 @@
       "venue": "",
       "home": "Angers",
       "away": "Rennes",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 2,
-      "minute": 31,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
