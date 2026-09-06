@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:08:16.667Z",
+  "updatedAt": "2026-09-06T16:23:08.490Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 6,
+    "live": 5,
     "upcoming": 7,
-    "finished": 10
+    "finished": 11
   },
   "matches": [
     {
@@ -131,7 +131,7 @@
       "away": "Chelsea",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 38,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 5,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868041,
@@ -256,8 +256,8 @@
       "home": "Bologna",
       "away": "Sassuolo",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 8,
+      "awayScore": 1,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Augsburg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 38,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 66,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
