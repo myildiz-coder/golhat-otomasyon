@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:36:33.433Z",
+  "updatedAt": "2026-09-06T14:46:01.515Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 8,
-    "upcoming": 12,
+    "live": 9,
+    "upcoming": 11,
     "finished": 3
   },
   "matches": [
@@ -41,7 +41,7 @@
       "away": "Amed Sportif",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 36,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Eyüpspor",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 37,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "Everton",
       "away": "Manchester United",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 77,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -148,8 +148,8 @@
       "home": "Valencia",
       "away": "Barcelona",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 19,
+      "awayScore": 2,
+      "minute": 28,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -220,8 +220,8 @@
       "home": "Frosinone",
       "away": "Venezia",
       "homeScore": 2,
-      "awayScore": 1,
-      "minute": 73,
+      "awayScore": 2,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Monza",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 77,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -292,8 +292,8 @@
       "home": "Hamburger SV",
       "away": "Mainz 05",
       "homeScore": 0,
-      "awayScore": 2,
-      "minute": 48,
+      "awayScore": 3,
+      "minute": 58,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Strasbourg",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 75,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,10 +437,10 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 1,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
