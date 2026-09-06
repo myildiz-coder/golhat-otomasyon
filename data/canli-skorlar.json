@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:55:09.158Z",
+  "updatedAt": "2026-09-06T15:07:20.028Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 9,
+    "live": 5,
     "upcoming": 11,
-    "finished": 3
+    "finished": 7
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Amed Sportif",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Eyüpspor",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,12 +111,12 @@
       "venue": "",
       "home": "Everton",
       "away": "Manchester United",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795435,
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 38,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,10 +221,10 @@
       "away": "Venezia",
       "homeScore": 3,
       "awayScore": 2,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749668,
@@ -239,10 +239,10 @@
       "away": "Monza",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749661,
@@ -293,7 +293,7 @@
       "away": "Mainz 05",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 67,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -327,12 +327,12 @@
       "venue": "",
       "home": "Troyes",
       "away": "Strasbourg",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 6,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802919,
@@ -437,7 +437,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
