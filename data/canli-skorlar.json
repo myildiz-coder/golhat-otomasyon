@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T15:36:58.263Z",
+  "updatedAt": "2026-09-06T15:46:21.130Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -40,8 +40,8 @@
       "home": "Kasımpaşa",
       "away": "Amed Sportif",
       "homeScore": 2,
-      "awayScore": 1,
-      "minute": 77,
+      "awayScore": 2,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Eyüpspor",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 78,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Chelsea",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 7,
+      "minute": 16,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 55,
+      "minute": 65,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Augsburg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Rennes",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 22,
+      "minute": 31,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
