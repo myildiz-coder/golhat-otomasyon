@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:57:59.785Z",
+  "updatedAt": "2026-09-06T19:11:32.751Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 2,
-    "upcoming": 1,
+    "live": 3,
+    "upcoming": 0,
     "finished": 20
   },
   "matches": [
@@ -203,10 +203,10 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749664,
@@ -275,7 +275,7 @@
       "away": "Milan",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -364,8 +364,8 @@
       "home": "Marseille",
       "away": "Paris FC",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 13,
+      "awayScore": 2,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
