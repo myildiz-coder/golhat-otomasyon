@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:38:51.934Z",
+  "updatedAt": "2026-09-06T18:48:50.801Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 2,
-    "upcoming": 3,
+    "live": 4,
+    "upcoming": 1,
     "finished": 18
   },
   "matches": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Gençlerbirliği",
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 0,
-      "minute": 78,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 79,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,10 +275,10 @@
       "away": "Milan",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881155,
@@ -364,11 +364,11 @@
       "home": "Marseille",
       "away": "Paris FC",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781732,
