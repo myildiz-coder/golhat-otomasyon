@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T12:55:42.565Z",
+  "updatedAt": "2026-09-06T13:08:24.934Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 2,
-    "upcoming": 20,
+    "live": 6,
+    "upcoming": 16,
     "finished": 1
   },
   "matches": [
@@ -113,10 +113,10 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795435,
@@ -221,10 +221,10 @@
       "away": "Venezia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749668,
@@ -239,10 +239,10 @@
       "away": "Monza",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749661,
@@ -329,10 +329,10 @@
       "away": "Strasbourg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802919,
@@ -401,7 +401,7 @@
       "away": "Cambuur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -417,9 +417,9 @@
       "venue": "",
       "home": "SC Heerenveen",
       "away": "AZ Alkmaar",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 26,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
