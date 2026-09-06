@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-06T19:04:17.845Z",
+  "updatedAt": "2026-09-06T19:15:13.799Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "4. Hafta",
-  "roundLabel": "4. Hafta",
+  "round": "5. Hafta",
+  "roundLabel": "5. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -36,6 +36,19 @@
     },
     {
       "rank": 3,
+      "team": "KOCAELİSPOR",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 3,
+      "goalDifference": 2,
+      "points": 9,
+      "form": ""
+    },
+    {
+      "rank": 4,
       "team": "TRABZONSPOR A.Ş.",
       "played": 4,
       "won": 2,
@@ -48,7 +61,7 @@
       "form": ""
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 4,
       "won": 2,
@@ -61,7 +74,7 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "GENÇLERBİRLİĞİ",
       "played": 4,
       "won": 2,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "FENERBAHÇE A.Ş.",
       "played": 4,
       "won": 2,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "KASIMPAŞA A.Ş.",
       "played": 4,
       "won": 1,
@@ -95,19 +108,6 @@
       "lost": 0,
       "goalsFor": 5,
       "goalsAgainst": 4,
-      "goalDifference": 1,
-      "points": 6,
-      "form": ""
-    },
-    {
-      "rank": 8,
-      "team": "KOCAELİSPOR",
-      "played": 3,
-      "won": 2,
-      "drawn": 0,
-      "lost": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
       "goalDifference": 1,
       "points": 6,
       "form": ""
@@ -140,19 +140,6 @@
     },
     {
       "rank": 11,
-      "team": "SAMSUNSPOR A.Ş.",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
-      "goalDifference": 0,
-      "points": 4,
-      "form": ""
-    },
-    {
-      "rank": 12,
       "team": "CORENDON ALANYASPOR",
       "played": 3,
       "won": 1,
@@ -165,7 +152,7 @@
       "form": ""
     },
     {
-      "rank": 13,
+      "rank": 12,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 3,
       "won": 1,
@@ -174,6 +161,19 @@
       "goalsFor": 3,
       "goalsAgainst": 3,
       "goalDifference": 0,
+      "points": 4,
+      "form": ""
+    },
+    {
+      "rank": 13,
+      "team": "SAMSUNSPOR A.Ş.",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 5,
+      "goalsAgainst": 6,
+      "goalDifference": -1,
       "points": 4,
       "form": ""
     },
@@ -248,7 +248,7 @@
       "id": 317814,
       "date": "2026-09-07T17:00:00.000Z",
       "timestamp": 1788800400,
-      "round": "4. Hafta",
+      "round": "5. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -259,7 +259,7 @@
       "id": 317815,
       "date": "2026-09-07T17:00:00.000Z",
       "timestamp": 1788800400,
-      "round": "4. Hafta",
+      "round": "5. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
