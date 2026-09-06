@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T10:46:21.860Z",
+  "updatedAt": "2026-09-06T10:55:35.185Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -383,7 +383,7 @@
       "away": "FC Twente",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 30,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
