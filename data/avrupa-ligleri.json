@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T20:22:04.516Z",
+  "updatedAt": "2026-09-06T00:35:10.552Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -317,7 +317,7 @@
       "fixtures": [
         {
           "id": 5795438,
-          "date": "2026-09-06T13:00:00Z",
+          "date": "2026-09-06T13:00:00.000Z",
           "timestamp": 1788699600,
           "round": "3",
           "status": "NS",
@@ -331,7 +331,7 @@
         },
         {
           "id": 5795435,
-          "date": "2026-09-06T15:30:00Z",
+          "date": "2026-09-06T15:30:00.000Z",
           "timestamp": 1788708600,
           "round": "3",
           "status": "NS",
@@ -539,6 +539,21 @@
         },
         {
           "rank": 4,
+          "teamId": 9783,
+          "team": "Deportivo A Coruña",
+          "played": 4,
+          "won": 2,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 5,
+          "goalDifference": 3,
+          "points": 8,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 5,
           "teamId": 9866,
           "team": "Deportivo Alavés",
           "played": 3,
@@ -550,10 +565,10 @@
           "goalDifference": 4,
           "points": 7,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 8371,
           "team": "Osasuna",
           "played": 3,
@@ -565,10 +580,10 @@
           "goalDifference": 2,
           "points": 7,
           "form": "",
-          "description": "#0046A7"
+          "description": "#02CCF0"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "teamId": 9906,
           "team": "Atlético Madrid",
           "played": 4,
@@ -579,21 +594,6 @@
           "goalsAgainst": 6,
           "goalDifference": 1,
           "points": 7,
-          "form": "",
-          "description": "#02CCF0"
-        },
-        {
-          "rank": 7,
-          "teamId": 9783,
-          "team": "Deportivo A Coruña",
-          "played": 4,
-          "won": 1,
-          "drawn": 3,
-          "lost": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 4,
-          "goalDifference": 2,
-          "points": 6,
           "form": "",
           "description": ""
         },
@@ -704,21 +704,6 @@
         },
         {
           "rank": 15,
-          "teamId": 10205,
-          "team": "Villarreal",
-          "played": 4,
-          "won": 0,
-          "drawn": 3,
-          "lost": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 6,
-          "goalDifference": -1,
-          "points": 3,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 16,
           "teamId": 8305,
           "team": "Getafe",
           "played": 3,
@@ -729,6 +714,21 @@
           "goalsAgainst": 4,
           "goalDifference": -3,
           "points": 3,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 16,
+          "teamId": 10205,
+          "team": "Villarreal",
+          "played": 4,
+          "won": 0,
+          "drawn": 2,
+          "lost": 2,
+          "goalsFor": 6,
+          "goalsAgainst": 8,
+          "goalDifference": -2,
+          "points": 2,
           "form": "",
           "description": ""
         },
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868049,
-          "date": "2026-09-06T14:15:00Z",
+          "date": "2026-09-06T14:15:00.000Z",
           "timestamp": 1788704100,
           "round": "4",
           "status": "NS",
@@ -810,7 +810,7 @@
         },
         {
           "id": 5868041,
-          "date": "2026-09-06T16:30:00Z",
+          "date": "2026-09-06T16:30:00.000Z",
           "timestamp": 1788712200,
           "round": "4",
           "status": "NS",
@@ -824,7 +824,7 @@
         },
         {
           "id": 5868047,
-          "date": "2026-09-06T16:30:00Z",
+          "date": "2026-09-06T16:30:00.000Z",
           "timestamp": 1788712200,
           "round": "4",
           "status": "NS",
@@ -838,7 +838,7 @@
         },
         {
           "id": 5868045,
-          "date": "2026-09-06T19:00:00Z",
+          "date": "2026-09-06T19:00:00.000Z",
           "timestamp": 1788721200,
           "round": "4",
           "status": "NS",
@@ -973,6 +973,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 8686,
+          "team": "Roma",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 10,
+          "goalsAgainst": 1,
+          "goalDifference": 9,
+          "points": 9,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 8636,
           "team": "Inter",
           "played": 3,
@@ -982,21 +997,6 @@
           "goalsFor": 8,
           "goalsAgainst": 3,
           "goalDifference": 5,
-          "points": 9,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 2,
-          "teamId": 8524,
-          "team": "Atalanta",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
-          "goalDifference": 3,
           "points": 9,
           "form": "",
           "description": "#2AD572"
@@ -1018,21 +1018,6 @@
         },
         {
           "rank": 4,
-          "teamId": 8686,
-          "team": "Roma",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 8,
-          "goalsAgainst": 1,
-          "goalDifference": 7,
-          "points": 6,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 5,
           "teamId": 8564,
           "team": "Milan",
           "played": 2,
@@ -1044,10 +1029,10 @@
           "goalDifference": 3,
           "points": 6,
           "form": "",
-          "description": "#0046A7"
+          "description": "#2AD572"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "teamId": 9885,
           "team": "Juventus",
           "played": 2,
@@ -1059,10 +1044,10 @@
           "goalDifference": 3,
           "points": 6,
           "form": "",
-          "description": "#02CCF0"
+          "description": "#0046A7"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "teamId": 8543,
           "team": "Lazio",
           "played": 2,
@@ -1072,6 +1057,21 @@
           "goalsFor": 2,
           "goalsAgainst": 0,
           "goalDifference": 2,
+          "points": 6,
+          "form": "",
+          "description": "#02CCF0"
+        },
+        {
+          "rank": 7,
+          "teamId": 8524,
+          "team": "Atalanta",
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 3,
+          "goalDifference": 1,
           "points": 6,
           "form": "",
           "description": ""
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749664,
-          "date": "2026-09-06T13:00:00Z",
+          "date": "2026-09-06T13:00:00.000Z",
           "timestamp": 1788699600,
           "round": "3",
           "status": "NS",
@@ -1289,7 +1289,7 @@
         },
         {
           "id": 5749668,
-          "date": "2026-09-06T13:00:00Z",
+          "date": "2026-09-06T13:00:00.000Z",
           "timestamp": 1788699600,
           "round": "3",
           "status": "NS",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": 5749661,
-          "date": "2026-09-06T16:00:00Z",
+          "date": "2026-09-06T16:00:00.000Z",
           "timestamp": 1788710400,
           "round": "3",
           "status": "NS",
@@ -1317,7 +1317,7 @@
         },
         {
           "id": 5749667,
-          "date": "2026-09-06T18:45:00Z",
+          "date": "2026-09-06T18:45:00.000Z",
           "timestamp": 1788720300,
           "round": "3",
           "status": "NS",
@@ -1504,8 +1504,8 @@
           "drawn": 2,
           "lost": 0,
           "goalsFor": 6,
-          "goalsAgainst": 4,
-          "goalDifference": 2,
+          "goalsAgainst": 5,
+          "goalDifference": 1,
           "points": 5,
           "form": "",
           "description": "#FFD908"
@@ -1632,8 +1632,8 @@
         },
         {
           "rank": 13,
-          "teamId": 8682,
-          "team": "Le Mans",
+          "teamId": 9847,
+          "team": "Paris Saint-Germain",
           "played": 3,
           "won": 0,
           "drawn": 2,
@@ -1647,8 +1647,8 @@
         },
         {
           "rank": 14,
-          "teamId": 9847,
-          "team": "Paris Saint-Germain",
+          "teamId": 8682,
+          "team": "Le Mans",
           "played": 3,
           "won": 0,
           "drawn": 2,
@@ -1677,6 +1677,21 @@
         },
         {
           "rank": 16,
+          "teamId": 9746,
+          "team": "Le Havre",
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 1,
+          "form": "",
+          "description": "#FFA72F"
+        },
+        {
+          "rank": 17,
           "teamId": 9941,
           "team": "Toulouse",
           "played": 3,
@@ -1685,21 +1700,6 @@
           "lost": 2,
           "goalsFor": 2,
           "goalsAgainst": 5,
-          "goalDifference": -3,
-          "points": 1,
-          "form": "",
-          "description": "#FFA72F"
-        },
-        {
-          "rank": 17,
-          "teamId": 9746,
-          "team": "Le Havre",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
           "goalDifference": -3,
           "points": 1,
           "form": "",
@@ -1724,7 +1724,7 @@
       "fixtures": [
         {
           "id": 5802927,
-          "date": "2026-09-06T13:00:00Z",
+          "date": "2026-09-06T13:00:00.000Z",
           "timestamp": 1788699600,
           "round": "3",
           "status": "NS",
@@ -1738,7 +1738,7 @@
         },
         {
           "id": 5802919,
-          "date": "2026-09-06T15:15:00Z",
+          "date": "2026-09-06T15:15:00.000Z",
           "timestamp": 1788707700,
           "round": "3",
           "status": "NS",
@@ -1752,7 +1752,7 @@
         },
         {
           "id": 5802923,
-          "date": "2026-09-06T18:45:00Z",
+          "date": "2026-09-06T18:45:00.000Z",
           "timestamp": 1788720300,
           "round": "3",
           "status": "NS",
@@ -2173,7 +2173,7 @@
       "fixtures": [
         {
           "id": 5881155,
-          "date": "2026-09-06T13:30:00Z",
+          "date": "2026-09-06T13:30:00.000Z",
           "timestamp": 1788701400,
           "round": "2",
           "status": "NS",
@@ -2187,7 +2187,7 @@
         },
         {
           "id": 5881154,
-          "date": "2026-09-06T15:30:00Z",
+          "date": "2026-09-06T15:30:00.000Z",
           "timestamp": 1788708600,
           "round": "2",
           "status": "NS",
@@ -2401,9 +2401,9 @@
           "won": 3,
           "drawn": 0,
           "lost": 1,
-          "goalsFor": 9,
+          "goalsFor": 10,
           "goalsAgainst": 3,
-          "goalDifference": 6,
+          "goalDifference": 7,
           "points": 9,
           "form": "",
           "description": "#7FAEFF"
@@ -2575,21 +2575,6 @@
         },
         {
           "rank": 16,
-          "teamId": 8525,
-          "team": "Willem II",
-          "played": 4,
-          "won": 0,
-          "drawn": 1,
-          "lost": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 12,
-          "goalDifference": -8,
-          "points": 1,
-          "form": "",
-          "description": "#FFA72F"
-        },
-        {
-          "rank": 17,
           "teamId": 9908,
           "team": "FC Utrecht",
           "played": 4,
@@ -2598,6 +2583,21 @@
           "lost": 3,
           "goalsFor": 6,
           "goalsAgainst": 15,
+          "goalDifference": -9,
+          "points": 1,
+          "form": "",
+          "description": "#FFA72F"
+        },
+        {
+          "rank": 17,
+          "teamId": 8525,
+          "team": "Willem II",
+          "played": 4,
+          "won": 0,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 4,
+          "goalsAgainst": 13,
           "goalDifference": -9,
           "points": 1,
           "form": "",
@@ -2622,7 +2622,7 @@
       "fixtures": [
         {
           "id": 5781732,
-          "date": "2026-09-06T10:15:00Z",
+          "date": "2026-09-06T10:15:00.000Z",
           "timestamp": 1788689700,
           "round": "5",
           "status": "NS",
@@ -2636,7 +2636,7 @@
         },
         {
           "id": 5781736,
-          "date": "2026-09-06T12:30:00Z",
+          "date": "2026-09-06T12:30:00.000Z",
           "timestamp": 1788697800,
           "round": "5",
           "status": "NS",
@@ -2650,7 +2650,7 @@
         },
         {
           "id": 5781734,
-          "date": "2026-09-06T12:30:00Z",
+          "date": "2026-09-06T12:30:00.000Z",
           "timestamp": 1788697800,
           "round": "5",
           "status": "NS",
@@ -2664,7 +2664,7 @@
         },
         {
           "id": 5781740,
-          "date": "2026-09-06T14:45:00Z",
+          "date": "2026-09-06T14:45:00.000Z",
           "timestamp": 1788705900,
           "round": "5",
           "status": "NS",
