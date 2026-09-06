@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:46:16.543Z",
+  "updatedAt": "2026-09-06T20:55:31.105Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -203,7 +203,7 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 87,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
