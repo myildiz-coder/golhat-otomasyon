@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:47:16.449Z",
+  "updatedAt": "2026-09-06T16:56:07.219Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -131,7 +131,7 @@
       "away": "Chelsea",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 55,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Osasuna",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 16,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 17,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 47,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -310,8 +310,8 @@
       "home": "Eintracht Frankfurt",
       "away": "Augsburg",
       "homeScore": 1,
-      "awayScore": 2,
-      "minute": 60,
+      "awayScore": 3,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 72,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
