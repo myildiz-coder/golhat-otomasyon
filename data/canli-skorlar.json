@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:07:39.806Z",
+  "updatedAt": "2026-09-06T14:21:26.137Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 9,
-    "upcoming": 13,
+    "live": 10,
+    "upcoming": 12,
     "finished": 1
   },
   "matches": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Kasımpaşa",
       "away": "Amed Sportif",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Eyüpspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 48,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868041,
@@ -221,7 +221,7 @@
       "away": "Venezia",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 58,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -237,9 +237,9 @@
       "venue": "",
       "home": "Parma",
       "away": "Monza",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 48,
+      "minute": 61,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -292,8 +292,8 @@
       "home": "Hamburger SV",
       "away": "Mainz 05",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 38,
+      "awayScore": 2,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Troyes",
       "away": "Strasbourg",
       "homeScore": 1,
-      "awayScore": 2,
-      "minute": 46,
+      "awayScore": 3,
+      "minute": 60,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Cambuur",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 78,
+      "minute": 92,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -418,8 +418,8 @@
       "home": "SC Heerenveen",
       "away": "AZ Alkmaar",
       "homeScore": 2,
-      "awayScore": 2,
-      "minute": 80,
+      "awayScore": 3,
+      "minute": 94,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
