@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T12:28:05.940Z",
+  "updatedAt": "2026-09-06T12:44:02.572Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 23,
-    "live": 0,
-    "upcoming": 22,
+    "live": 2,
+    "upcoming": 20,
     "finished": 1
   },
   "matches": [
@@ -401,10 +401,10 @@
       "away": "Cambuur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 14,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781736,
@@ -418,11 +418,11 @@
       "home": "SC Heerenveen",
       "away": "AZ Alkmaar",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 14,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781740,
