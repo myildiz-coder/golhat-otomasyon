@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:08:30.041Z",
+  "updatedAt": "2026-09-06T17:20:33.854Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 23,
-    "live": 8,
+    "live": 7,
     "upcoming": 3,
-    "finished": 12
+    "finished": 13
   },
   "matches": [
     {
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Gençlerbirliği",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 19,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Samsunspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 19,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Chelsea",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 76,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Osasuna",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 37,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 39,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -255,9 +255,9 @@
       "venue": "",
       "home": "Bologna",
       "away": "Sassuolo",
-      "homeScore": 0,
-      "awayScore": 1,
-      "minute": 50,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -310,8 +310,8 @@
       "home": "Eintracht Frankfurt",
       "away": "Augsburg",
       "homeScore": 1,
-      "awayScore": 3,
-      "minute": 81,
+      "awayScore": 4,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,10 +347,10 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802923,
