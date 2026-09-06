@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:33:48.751Z",
+  "updatedAt": "2026-09-06T20:32:51.381Z",
   "sources": [
     {
       "name": "FotMob",
@@ -685,20 +685,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904731,
-          "date": "2026-09-06T17:00:00.000Z",
-          "timestamp": 1788714000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Gençlerbirliği",
-          "homeScore": 4,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904745,
           "date": "2026-09-12T17:00:00.000Z",
           "timestamp": 1789232400,
@@ -767,9 +753,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112502,
+          "date": "2026-10-22T16:45:00.000Z",
+          "timestamp": 1792687500,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Hearts",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904731,
+          "date": "2026-09-06T17:00:00.000Z",
+          "timestamp": 1788714000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Gençlerbirliği",
+          "homeScore": 5,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904725,
           "date": "2026-08-31T18:30:00.000Z",
@@ -825,20 +839,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5904705,
-          "date": "2026-08-15T16:00:00.000Z",
-          "timestamp": 1786809600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Kasımpaşa",
-          "away": "Trabzonspor",
-          "homeScore": 1,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
         }
       ],
       "officialUrl": "https://www.trabzonspor.org.tr/tr/haberler?team=trabzonspor",
