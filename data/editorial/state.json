@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T16:41:26.382Z",
+  "updatedAt": "2026-09-07T19:36:31.005Z",
   "stories": [
+    {
+      "id": "94bb396c9d90478c",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "Fenerbahçe’nin Avrupa dosyası: Sekiz maçta puan hedefini belirleyecek eşikler",
+      "summary": "Fenerbahçe’nin Şampiyonlar Ligi lig aşamasındaki sekiz maçlık rotası, iki iç saha serisi ile iki deplasman serisini aynı yarış planında yönetmeyi gerektiriyor.",
+      "tag": "Dosya",
+      "importance": 86,
+      "contentType": "dossier",
+      "seoTitle": "Fenerbahçe Şampiyonlar Ligi fikstür dosyası: Sekiz maçın eşiği",
+      "seoDescription": "Fenerbahçe’nin 2026/27 Şampiyonlar Ligi fikstürü; iç saha-deplasman dizilimi, rakip havuzu ve veriyle sınırlı puan hedefi çerçevesinde incelendi.",
+      "focusKeyword": "Fenerbahçe Şampiyonlar Ligi fikstürü 2026/27",
+      "originalAngle": "Bu dosya, rakip isimlerini tek tek sıralamakla yetinmiyor; UEFA tarafından açıklanan sekiz maçlık takvimi iç saha-deplasman dizilimi üzerinden okuyor. Böylece fikstürdeki iki maçlık iç saha ve deplasman kümeleri görünür hale geliyor; puan hedefi için kesin skor yerine, hangi bölümlerin kadro ve maç yönetiminde daha yüksek baskı yaratacağı ayrıştırılıyor.",
+      "keyFindings": [
+        "UEFA fikstürüne göre Fenerbahçe lig aşamasına 10 Eylül’de Roma karşısında iç sahada başlayacak; Aston Villa deplasmanının ardından Slavia Praha ve Liverpool’u İstanbul’da ağırlayacak.",
+        "Takvimin orta bölümü Shakhtar Donetsk ve LASK deplasmanlarından oluşuyor; ocakta Villarreal iç sahada, Atlético de Madrid ise deplasmanda rakip olacak.",
+        "Sekiz maçın saha dizilimi iç saha, deplasman, iç saha, iç saha, deplasman, deplasman, iç saha, deplasman biçiminde ilerliyor; bu nedenle ekim-kasım ile kasım-aralık geçişlerinde art arda iki maçlık kümeler bulunuyor."
+      ],
+      "originalityBasis": "public_document_analysis",
+      "methodology": "UEFA’nın kulüp bazlı lig aşaması fikstürü, UEFA’nın kura torbaları açıklaması ve iki bağımsız maç takvimi kaydı karşılaştırıldı. Her maçın tarihini ve ev sahibi bilgisini ortak kayıtta doğruladıktan sonra, sekiz karşılaşma ev-deplasman dizilimine dönüştürüldü. Bu veri yalnız takvim baskısını açıklar; takım formu, sakatlıklar ve transfer dönemi değişkenleri olmadığı için yüzde veya kesin skor tahmini üretilmedi.",
+      "originalFindings": [
+        "Fikstür, 20 Ekim-4 Kasım arasında iki ardışık iç saha; 25 Kasım-9 Aralık arasında iki ardışık deplasman maçı içeriyor. Bu iki pencere, takvimin en belirgin operasyonel kümeleri olarak ayrışıyor.",
+        "Rakip havuzu Liverpool ve Atlético de Madrid gibi en üst torba temsilcileri ile Roma, Aston Villa, Villarreal, Shakhtar Donetsk, Slavia Praha ve LASK’ı aynı sekiz maçlık hatta topluyor. Bu yüzden değerlendirme tek bir “kolay-zor” etiketiyle değil, maç blokları üzerinden yapılmalı."
+      ],
+      "limitations": "Bu çalışma resmî fikstür ve kamuya açık takvim verisine dayanır. Güncel kadro durumu, sakatlık, form ve maç içi performans ölçütleri bağımsız ve eşzamanlı veriyle doğrulanmadığından puan yüzdesi veya skor öngörüsü verilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260907-FB-UCL-FIXTURE",
+      "authorName": "GOLHAT Araştırma Kurulu",
+      "columnName": "",
+      "publishedAt": "2026-09-07T19:36:31.005Z",
+      "discoveredAt": "2026-09-07T19:36:31.005Z",
+      "sources": [
+        {
+          "title": "Champions League league phase fixtures by team",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team",
+          "publishedAt": "2026-09-07",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Fenerbahçe Scores and Fixtures, Champions League",
+          "publisher": "FBref",
+          "url": "https://fbref.com/en/squads/ae1e2d7d/2026-2027/matchlogs/c8/schedule/Fenerbahce-Scores-and-Fixtures-Champions-League",
+          "publishedAt": "2026-09-07",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Champions League 2026/2027 calendar and results",
+          "publisher": "TNT Sports",
+          "url": "https://www.tntsports.co.uk/football/champions-league/2026-2027/calendar-results.shtml",
+          "publishedAt": "2026-09-07",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "f7fb991ca06bcdd2",
       "role": "avrupa",
@@ -10826,50 +10881,6 @@
           "url": "https://www.aa.com.tr/en/turkiye/turkiyes-tcg-alemdar-leads-deep-sea-search-for-16-missing-after-passenger-ship-sinks-off-girne/4047334",
           "publishedAt": "2026-09-04",
           "sourceRole": "context"
-        }
-      ]
-    },
-    {
-      "id": "17d8710bf4357501",
-      "role": "avrupa",
-      "page": "avrupa.html",
-      "headline": "Richarlison, Tottenham’ın Premier League kadrosuna alınmadı",
-      "summary": "Tottenham, Richarlison’ı 2026-27 Premier League sezonunun 25 kişilik kadrosu dışında bıraktı. Karar, Everton’a dönüş görüşmelerinin sonuçsuz kalmasının ardından Brezilyalı oyuncunun geleceğini belirsizleştirdi.",
-      "tag": "Gelişme",
-      "importance": 72,
-      "contentType": "news",
-      "seoTitle": "Richarlison Tottenham’ın Premier League kadrosu dışında kaldı",
-      "seoDescription": "Tottenham, Richarlison’ı Premier League kadrosuna almadı. Kararın ardından oyuncunun Türkiye veya Suudi Arabistan’a transfer ihtimali yeniden gündeme geldi.",
-      "focusKeyword": "Richarlison Tottenham Premier League kadrosu",
-      "originalAngle": "Gelişmenin asıl etkisi yalnızca bir kadro tercihi değil: Tottenham, sezonun ilk bölümünde en önemli gol kaynaklarından birini sportif planının dışında bıraktı. İngiltere transfer dönemi kapanmış olsa da oyuncunun geleceği, Türkiye ve Suudi Arabistan’daki açık pencereler nedeniyle henüz kapanmış değil.",
-      "keyFindings": [
-        "Richarlison, Tottenham’ın 2026-27 Premier League için bildirdiği 25 kişilik kadroda yer almadı.",
-        "Teknik direktör Roberto De Zerbi, oyuncunun sezon başından beri ayrılmak istediğini söyledi; Everton’a dönüş görüşmeleri ise sonuçlanmadı.",
-        "Türkiye ve Suudi Arabistan transfer pencerelerinin açık kalması, Richarlison’ın Tottenham’dan ayrılması için sınırlı da olsa yeni bir zaman aralığı oluşturuyor."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "Gelişme, The National’ın 4 Eylül tarihli haberi ile The Guardian’ın aynı gün güncellenen canlı haber akışında karşılaştırıldı. Kadrodan çıkarılma bilgisi ve Everton görüşmelerinin sonuçsuz kaldığı iki ayrı alan adı üzerinden doğrulandı.",
-      "originalFindings": [],
-      "limitations": "Tottenham’ın kulüp kanallarında kadro listesini doğrudan doğrulayan ayrı bir açıklamaya bu taramada ulaşılamadı. Trabzonspor’a olası transfer konusunda haberlerde yer alan bilgiler kesinleşmiş transfer olarak sunulamaz.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "discoveredAt": "2026-09-04T18:19:13.252Z",
-      "sources": [
-        {
-          "title": "Richarlison left out of Tottenham's Premier League squad as clock counts down on proposed move to Trabzonspor",
-          "publisher": "The National",
-          "url": "https://www.thenationalnews.com/sport/football/2026/09/04/richarlison-left-out-of-tottenhams-premier-league-squad-as-clock-counts-down-on-proposed-move-to-trabzonspor",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Former referees’ boss says Dean ‘in fantasy land’; Richarlison axed; away fans banned from Old Firm games – live",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live?page=with:block-6a9a8a538f0865844a4bd8a6",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "primary_evidence"
         }
       ]
     }
