@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T16:55:58.060Z",
+  "updatedAt": "2026-09-07T17:08:33.489Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 6,
-    "live": 1,
-    "upcoming": 5,
+    "live": 4,
+    "upcoming": 2,
     "finished": 0
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Alanyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904735,
@@ -58,11 +58,11 @@
       "home": "Göztepe",
       "away": "Gaziantep FK",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868046,
@@ -77,10 +77,10 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868044,
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "Cagliari",
       "away": "Lecce",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
