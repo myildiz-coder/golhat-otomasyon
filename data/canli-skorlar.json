@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T17:23:11.773Z",
+  "updatedAt": "2026-09-07T17:38:00.077Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Alanyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 23,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -58,8 +58,8 @@
       "home": "Göztepe",
       "away": "Gaziantep FK",
       "homeScore": 0,
-      "awayScore": 2,
-      "minute": 23,
+      "awayScore": 3,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Celta Vigo",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 22,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Lecce",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
