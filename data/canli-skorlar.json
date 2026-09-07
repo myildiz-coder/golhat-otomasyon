@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T18:58:59.282Z",
+  "updatedAt": "2026-09-07T19:14:05.259Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 2,
+    "live": 1,
     "upcoming": 1,
-    "finished": 3
+    "finished": 4
   },
   "matches": [
     {
@@ -77,10 +77,10 @@
       "away": "Celta Vigo",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868044,
@@ -131,7 +131,7 @@
       "away": "Lazio",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 29,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
