@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T20:08:11.580Z",
+  "updatedAt": "2026-09-07T20:23:21.470Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -95,7 +95,7 @@
       "away": "Real Sociedad",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 35,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Udinese",
       "away": "Lazio",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 62,
+      "awayScore": 1,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
