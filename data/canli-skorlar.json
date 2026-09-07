@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:22:39.300Z",
+  "updatedAt": "2026-09-07T21:38:14.770Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -22,8 +22,8 @@
     88
   ],
   "summary": {
-    "total": 9,
-    "live": 1,
+    "total": 8,
+    "live": 0,
     "upcoming": 8,
     "finished": 0
   },
@@ -135,24 +135,6 @@
       "status": "NS",
       "statusLong": "",
       "kind": "upcoming"
-    },
-    {
-      "id": 5868044,
-      "leagueId": 140,
-      "league": "LaLiga",
-      "country": "ESP",
-      "round": "4",
-      "date": "2026-09-07T19:30:00.000Z",
-      "timestamp": 1788809400,
-      "venue": "",
-      "home": "Elche",
-      "away": "Real Sociedad",
-      "homeScore": 2,
-      "awayScore": 3,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
     },
     {
       "id": 5781733,
