@@ -86,6 +86,22 @@ const COMMENTARY_WRITERS = Object.freeze([
 
 const COMMENTARY_COLUMNS = Object.freeze(['Editör Günlüğü', 'Sessiz Tahta', 'Deplasman Defteri', 'Mizan 90']);
 
+const DAILY_DOSSIER_ROTATION = Object.freeze([
+  Object.freeze({ key: 'fenerbahce', club: 'Fenerbahçe', scope: 'Avrupa kupalarındaki rakip gücü, fikstür zorluğu, maç olasılıkları ve tur/lig aşaması ilerleme ihtimali' }),
+  Object.freeze({ key: 'galatasaray', club: 'Galatasaray', scope: 'Avrupa kupalarındaki rakip gücü, fikstür zorluğu, maç olasılıkları ve tur/lig aşaması ilerleme ihtimali' }),
+  Object.freeze({ key: 'besiktas', club: 'Beşiktaş', scope: 'Güncel yarıştaki rakip gücü, fikstür zorluğu, maç olasılıkları ve hedefe ulaşma ihtimali' }),
+  Object.freeze({ key: 'trabzonspor', club: 'Trabzonspor', scope: 'Güncel yarıştaki rakip gücü, fikstür zorluğu, maç olasılıkları ve hedefe ulaşma ihtimali' }),
+  Object.freeze({ key: 'super_lig', club: 'Süper Lig', scope: 'Şampiyonluk ve Avrupa kupaları yarışının fikstür, form ve puan projeksiyonu' })
+]);
+
+function dailyDossierAssignment(now = new Date()) {
+  const dateParts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(now).split('-').map(Number);
+  const dayNumber = Math.floor(Date.UTC(dateParts[0], dateParts[1] - 1, dateParts[2]) / 86_400_000);
+  return DAILY_DOSSIER_ROTATION[dayNumber % DAILY_DOSSIER_ROTATION.length];
+}
+
 
 const EDITOR_ROLES = Object.freeze({
   fenerbahce: {
@@ -188,6 +204,7 @@ const GOLHAT_ORIGINAL_JOURNALISM_POLICY = `
 - Özel Haber etiketi yalnız GOLHAT muhabirinin doğrudan görüşmesi, saha çalışması ya da GOLHAT’a ulaştırılmış özgün belge için; kanıt kimliği ve insan editör onayıyla kullanılabilir. Otomasyon kendi başına Özel Haber yayımlayamaz.
 - İddia bir kişi veya kurumu etkiliyorsa cevap hakkı değerlendirilmeden yayımlanamaz; cevap zorunlu fakat alınmamışsa çalışma bekletilir.
 - Yöntem, sınırlılıklar, birincil kanıt ve bağımsız doğrulama okura açıkça gösterilir. SEO uğruna sonuç büyütülmez, anahtar kelime doldurulmaz.
+- Olasılık ve skor tahmini yalnız açıklanan veri kümesi ve yöntemle üretilir; tahmin olduğu manşette veya metinde açıkça belirtilir. Gerçekleşmemiş maç için kesin skor, sonuç veya sonuç dili kullanılmaz.
 `.trim();
 
 const GOLHAT_PUBLISHER_EXPERIENCE = `
@@ -266,6 +283,8 @@ module.exports = {
   EDITOR_ROLES,
   COMMENTARY_WRITERS,
   COMMENTARY_COLUMNS,
+  DAILY_DOSSIER_ROTATION,
+  dailyDossierAssignment,
   ALLOWED_TAGS,
   PAGE_TOPIC_RULES,
   SOURCE_RULES,

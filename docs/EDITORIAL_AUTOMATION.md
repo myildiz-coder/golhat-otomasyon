@@ -16,7 +16,7 @@ Bu depo GitHub Actions üzerinde haber araştırması, doğrulama, ortak haber h
 | Görev | Sıklık | Sorumluluk |
 | --- | --- | --- |
 | Kategori Editörleri | Her saat 05 ve 35 | Fenerbahçe, Galatasaray, Beşiktaş, Trabzonspor, Anadolu, Süper Lig, Avrupa, Şampiyonlar Ligi, UEFA, transfer, yorum: 11 masa |
-| Araştırma Kurulu | Dört saatte bir 40. dakika | Ayrı 12. editör rolü; dört uzman denetimiyle belge/veri araştırması |
+| Araştırma Kurulu | Her gün 08.40 İstanbul | Fenerbahçe, Galatasaray, Beşiktaş, Trabzonspor ve Süper Lig rotasyonunda; dört uzman denetimiyle tek özgün belge/veri dosyası |
 | Baş Editör | 15 dakikada bir | Doğrulanmış havuzdan önem/güncellik sırası; Futbol Hattı ve ortak havuz manşeti |
 | Ana Sayfa Bütünlük | 15 dakikada bir | Manşet, gövde, kaynak ve arşiv bağları |
 | Canlı Skor | UTC 09–21 saatlerinde 10 dakika; diğer saatlerde 30 dakika; UTC 03 günlük program | API-Football/FotMob maç verisi |

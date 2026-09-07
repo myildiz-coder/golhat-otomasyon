@@ -6,7 +6,8 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   EDITORIAL_POLICY, GOLHAT_ORIGINAL_JOURNALISM_POLICY, GOLHAT_PUBLISHER_EXPERIENCE, GOLHAT_COMMENTARY_VOICE, GOLHAT_SEO_PLAYBOOK,
-  COMMENTARY_WRITERS, EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
+  COMMENTARY_WRITERS, COMMENTARY_COLUMNS, DAILY_DOSSIER_ROTATION, dailyDossierAssignment,
+  EDITOR_ROLES, PAGE_LABELS, PAGE_OWNERS, PAGE_TOPIC_RULES
 } = require('./editorial-config');
 
 test('depodaki her HTML sayfasının tek bir sorumlu editörü vardır', () => {
@@ -201,11 +202,18 @@ test('her kategori sayfasında tek bir canlı haber masası durumu görünür', 
 });
 
 
-test('araştırma kurulu dört saatte bir ayrı vardiyada çalışır', () => {
+test('araştırma kurulu her gün tek özgün dosyayı kulüp ve lig rotasyonuyla çalışır', () => {
   const root = path.resolve(__dirname, '..');
   const workflow = fs.readFileSync(path.join(root, '.github', 'workflows', 'editorial-arastirma.yml'), 'utf8');
   const runner = fs.readFileSync(path.join(root, 'scripts', 'run-editorial.js'), 'utf8');
-  assert.match(workflow, /cron: '40 \*\/4 \* \* \*'/);
+  assert.match(workflow, /cron: '40 5 \* \* \*'/);
   assert.match(workflow, /--role ozel_haber/);
+  assert.equal(DAILY_DOSSIER_ROTATION.length, 5);
+  assert.deepEqual(DAILY_DOSSIER_ROTATION.map((item) => item.key), ['fenerbahce', 'galatasaray', 'besiktas', 'trabzonspor', 'super_lig']);
+  const first = dailyDossierAssignment(new Date('2026-09-07T05:40:00Z'));
+  const next = dailyDossierAssignment(new Date('2026-09-08T05:40:00Z'));
+  assert.notEqual(first.key, next.key);
+  assert.match(runner, /Bugün yalnız bir özgün dosya üret/);
+  assert.match(runner, /roleName === 'ozel_haber'/);
   assert.match(runner, /filter\(\(role\) => role !== 'ozel_haber'\)/);
 });

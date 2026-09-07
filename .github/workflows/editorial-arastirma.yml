@@ -2,8 +2,8 @@ name: GOLHAT Araştırma ve Özel Haber Kurulu
 
 on:
   schedule:
-    # Derin araştırma vardiyası: her dört saatte bir özgün dosya fırsatlarını tarar.
-    - cron: '40 */4 * * *'
+    # Her gün 08.40 İstanbul: kulüp/lig rotasyonunda tek özgün dosya.
+    - cron: '40 5 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

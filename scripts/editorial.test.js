@@ -4,7 +4,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { COMMENTARY_WRITERS, PAGE_TOPIC_RULES } = require('./editorial-config');
+const { COMMENTARY_COLUMNS, COMMENTARY_WRITERS, PAGE_TOPIC_RULES } = require('./editorial-config');
 const {
   START_MARKER,
   END_MARKER,
@@ -185,10 +185,11 @@ test('yorum masası yalnız kayıtlı yazar imzalı ve açıkça yorum etiketli 
   };
   const story = validateStory(base, context);
   assert.equal(story.authorName, 'Mustafa YILDIZ');
+  assert.ok(COMMENTARY_COLUMNS.includes(story.columnName));
   assert.equal(story.contentType, 'analysis');
   assert.equal(selectHomepagePrimary(story, [story], NOW), null);
   assert.equal(selectHomepageStories(validStory(), [story], NOW, 10).some((item) => item.id === story.id), false);
-  assert.throws(() => validateStory({ ...base, author_name: 'Rastgele Yazar' }, context), /kayıtlı GOLHAT yazar kadrosundan/);
+  assert.throws(() => validateStory({ ...base, author_name: 'Rastgele Yazar' }, context), /Mustafa YILDIZ imzasını taşımalı/);
   assert.throws(() => validateStory({ ...base, tag: 'Analiz' }, context), /yalnız Yorum etiketli analiz/);
   assert.throws(() => validateStory({ ...base, summary: base.summary.slice(0, -1) }, context), /tamamlanmış bir cümle/);
 

@@ -17,6 +17,8 @@ const {
   EDITORIAL_POLICY,
   DEFAULT_MODEL,
   GOLHAT_MERGED_PUBLICATION_POLICY,
+  COMMENTARY_COLUMNS,
+  dailyDossierAssignment,
   MAX_STORIES_PER_RUN,
   MAX_STORIES_PER_PAGE
 } = require('./editorial-config');
@@ -54,7 +56,7 @@ const CATEGORY_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'author_name', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'sources'],
+        required: ['page', 'headline', 'summary', 'tag', 'published_at', 'importance', 'content_type', 'author_name', 'column_name', 'seo_title', 'seo_description', 'focus_keyword', 'original_angle', 'key_findings', 'originality_basis', 'methodology', 'original_findings', 'limitations', 'right_of_reply_status', 'golhat_evidence_id', 'sources'],
         properties: {
           page: { type: 'string', enum: Object.keys(PAGE_LABELS) },
           headline: { type: 'string', minLength: 20, maxLength: 180 },
@@ -64,6 +66,7 @@ const CATEGORY_SCHEMA = {
           importance: { type: 'integer', minimum: 50, maximum: 100 },
           content_type: { type: 'string', enum: ['news', 'analysis', 'dossier', 'exclusive'] },
           author_name: { type: 'string', minLength: 2, maxLength: 80 },
+          column_name: { type: 'string', enum: ['', ...COMMENTARY_COLUMNS] },
           seo_title: { type: 'string', minLength: 20, maxLength: 110 },
           seo_description: { type: 'string', minLength: 70, maxLength: 180 },
           focus_keyword: { type: 'string', minLength: 2, maxLength: 80 },
@@ -202,6 +205,7 @@ function categoryRequest(role, now, model, options = {}) {
   const assignment = String(process.env.GOLHAT_EDITORIAL_ASSIGNMENT || '').trim();
   const leadWriter = role.columnists?.find((writer) => writer.lead) || role.columnists?.[0] || null;
   const liveDataSnapshot = buildLiveDataSnapshot(role);
+  const dossierAssignment = role.researchTeam ? dailyDossierAssignment(now) : null;
   const priorityMatchBrief = options.priorityMatchdesk && role.key === 'yorum' ? [
     'Bu öncelikli maç masası görevidir. Önemli yerli maç yorumunu Mustafa YILDIZ imzasıyla üret; author_name alanı tam olarak Mustafa YILDIZ olmalı.',
     'Yalnız doğrulanabilen skor/kırılma, taktik tercih, oyuncu etkisi, hakem/VAR kararı, teknik direktör tercihi ve puan tablosu etkisini işle; kaynakta olmayan unsurları limitations alanında açıkça sınırla.'
@@ -220,8 +224,8 @@ function categoryRequest(role, now, model, options = {}) {
   const productionBrief = role.columnists ? [
     'Bu masa haber üretmez; doğrulanmış güncel olgudan hareket eden, açıkça YORUM olarak işaretlenmiş köşe yazısı üretir.',
     'Her içerikte content_type=analysis, tag=Yorum ve originality_basis=reported_event kullan.',
-    'author_name yalnız şu kayıtlı GOLHAT yazarlarından biri olabilir: ' + role.columnists.map((writer) => writer.name + ' — ' + writer.focus).join(' | '),
-    'Yazarı konu uzmanlığına göre seç. Yeni olgu, alıntı veya içeriden bilgi uydurma; yorum ile doğrulanmış olgu arasındaki sınırı görünür tut.',
+    'author_name alanını her yazıda tam olarak Mustafa YILDIZ yaz. ' + COMMENTARY_COLUMNS.join(', ') + ' müstear yazar değildir; column_name alanında kullanılan köşe adlarıdır.',
+    'column_name alanında yazının yaklaşımına en uygun köşe adını seç. Yeni olgu, alıntı veya içeriden bilgi uydurma; yorum ile doğrulanmış olgu arasındaki sınırı görünür tut.',
     'original_angle alanında yazının tek, savunulabilir ve özgün tezini kur; key_findings yalnız bu tezi taşıyan doğrulanmış olguları içersin.',
     GOLHAT_COMMENTARY_VOICE,
     'Kulüp taraftarlığı yapma, kişiye saldırma, kesin hüküm vermeyen kanıtı kesinmiş gibi yazma. Kaynaklardaki haber metnini köşe yazısı diye yeniden paketleme.',
@@ -237,12 +241,14 @@ function categoryRequest(role, now, model, options = {}) {
     'original_findings alanında kaynaklarda hazır cümle olarak bulunmayan, GOLHAT’ın yöntemle çıkardığı en az iki yeni sonucu yaz.',
     'limitations alanında verinin kapsamadığı noktaları açıkla. right_of_reply_status=required_before_publish ise yayımlama; decision=no_change döndür.',
     'SEO alanlarında anahtar kelime doldurma yapma; başlık bulguyu aşmasın.',
-    'author_name alanını tam olarak GOLHAT Araştırma Kurulu yaz.'
+    'author_name alanını tam olarak GOLHAT Araştırma Kurulu, column_name alanını boş yaz.',
+    'Bugün yalnız bir özgün dosya üret. Rotasyon konusu: ' + dossierAssignment.club + ' — ' + dossierAssignment.scope + '.',
+    'Rakip gücünü resmî fikstür/puan verileri ve açıklanmış performans ölçütleriyle karşılaştır. Maç sonucu, skor veya tur ihtimali verirsen bunu kesin bilgi değil olasılık tahmini olarak etiketle; yöntemi, veri tarihini ve belirsizliği açıkla.'
   ] : [
     'Her haber için doğal seo_title, seo_description, focus_keyword, original_angle ve key_findings üret.',
     'Normal haberlerde originality_basis=reported_event, original_findings=[], golhat_evidence_id="" kullan; methodology ile çapraz doğrulama yolunu, limitations ile bilinen sınırı kısaca açıkla.',
     'Her kaynağı primary_evidence, independent_verification veya context olarak sınıflandır.',
-    'author_name alanını tam olarak GOLHAT Haber Merkezi yaz.'
+    'author_name alanını tam olarak GOLHAT Haber Merkezi, column_name alanını boş yaz.'
   ];
   const pageSummary = role.pages
     .map((page) => page + ': ' + PAGE_LABELS[page])
@@ -302,7 +308,7 @@ function categoryRequest(role, now, model, options = {}) {
       assignment
         ? 'Bu özel görevlendirmede mevcut durum fotoğrafını analiz et. TFF puan cetveli ile kulüp formu, kadro durumu ve yaklaşan maçları aynı tezde birleştir; tek yorum yazısı üret.'
         : role.researchTeam
-        ? 'Güncel resmî veri ve belgelerde özgün dosya fırsatlarını araştır. En fazla üç çalışma seç.'
+        ? 'Bugünün rotasyon konusu için güncel resmî veri ve belgeleri araştır. Tam bir veri yöntemi kurulabiliyorsa yalnız bir özgün dosya üret; doğrulanabilir veri yetersizse no_change döndür, tahmin uydurma.'
         : role.columnists
           ? 'Önce son 12 saatin doğrulanmış futbol gündemini tara. Güncel olguya yeni ve kaynakla savunulabilir bir bakış getiren en fazla iki yorum yazısı seç.'
           : 'Önce son 6 saati, ardından son 12 saati tara. Yalnız gündem değeri taşıyan doğrulanmış gelişmeleri seç; eski haberi yeniden ısıtma. En fazla üç haber seç.',
@@ -374,6 +380,7 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
         continue;
       }
       accepted.push(story);
+      if (roleName === 'ozel_haber') break;
     } catch (error) {
       console.warn('[' + role.label + '] doğrulamadan geçmeyen haber atlandı: ' + error.message);
     }

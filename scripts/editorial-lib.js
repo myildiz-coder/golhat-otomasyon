@@ -6,6 +6,7 @@ const path = require('node:path');
 
 const {
   ALLOWED_TAGS,
+  COMMENTARY_COLUMNS,
   COMMENTARY_WRITERS,
   DOSSIER_MIN_SOURCES,
   HOMEPAGE_MIN_IMPORTANCE,
@@ -42,6 +43,7 @@ const ORIGINALITY_BASES = new Set(['reported_event', 'public_document_analysis',
 const SOURCE_ROLES = new Set(['primary_evidence', 'independent_verification', 'context']);
 const RIGHT_OF_REPLY_STATUSES = new Set(['not_applicable', 'response_in_sources', 'required_before_publish']);
 const COMMENTARY_WRITER_NAMES = new Set(COMMENTARY_WRITERS.map((writer) => writer.name));
+const COMMENTARY_COLUMN_NAMES = new Set(COMMENTARY_COLUMNS);
 const EDITORIAL_QUARANTINE_RULES = Object.freeze([
   /Kıbrıs['’]ın kuzeyinde/iu,
   /Kıbrıs['’]ın kuzeyindeki(?:\s+Türk)?\s+yönetim/iu,
@@ -82,6 +84,15 @@ function loadState() {
   for (const story of state.stories) {
     if (Number.isInteger(story.importance) && story.importance >= 1 && story.importance <= 10) {
       story.importance *= 10;
+    }
+    if (story.page === 'yorum.html') {
+      if (COMMENTARY_COLUMN_NAMES.has(story.authorName) && !story.columnName) story.columnName = story.authorName;
+      story.authorName = 'Mustafa YILDIZ';
+      if (!COMMENTARY_COLUMN_NAMES.has(story.columnName)) {
+        const seed = String(story.id || story.headline || 'yorum');
+        const index = Number.parseInt(crypto.createHash('sha256').update(seed).digest('hex').slice(0, 8), 16) % COMMENTARY_COLUMNS.length;
+        story.columnName = COMMENTARY_COLUMNS[index];
+      }
     }
   }
   return state;
@@ -315,8 +326,14 @@ function validateStory(raw, context) {
   const evidenceId = String(raw.golhat_evidence_id || '').trim();
   const requestedAuthorName = String(raw.author_name || '').trim();
   const authorName = context.role === 'yorum'
-    ? requestedAuthorName
+    ? 'Mustafa YILDIZ'
     : context.role === 'ozel_haber' ? 'GOLHAT Araştırma Kurulu' : 'GOLHAT Haber Merkezi';
+  const requestedColumnName = String(raw.column_name || '').trim();
+  const columnName = context.role === 'yorum'
+    ? COMMENTARY_COLUMN_NAMES.has(requestedColumnName)
+      ? requestedColumnName
+      : COMMENTARY_COLUMNS[Number.parseInt(crypto.createHash('sha256').update(headline).digest('hex').slice(0, 8), 16) % COMMENTARY_COLUMNS.length]
+    : '';
 
   assertEditorialLanguage(headline, summary, seoTitle, seoDescription, originalAngle, methodology, limitations, ...keyFindings, ...originalFindings);
   assertStoryPageRelevance(raw.page, headline, summary);
@@ -364,6 +381,9 @@ function validateStory(raw, context) {
     }
     if (!COMMENTARY_WRITER_NAMES.has(authorName)) {
       throw new Error('Yorum yazarı kayıtlı GOLHAT yazar kadrosundan biri olmalı');
+    }
+    if (requestedAuthorName !== 'Mustafa YILDIZ') {
+      throw new Error('Bütün yorum yazıları Mustafa YILDIZ imzasını taşımalı; müstearlar yalnız köşe adıdır');
     }
     if (originalAngle.length < 120) {
       throw new Error('Yorum yazısının özgün tezi en az 120 karakter olmalı');
@@ -456,6 +476,7 @@ function validateStory(raw, context) {
     rightOfReplyStatus,
     evidenceId,
     authorName,
+    columnName,
     publishedAt: publishedAt.toISOString(),
     discoveredAt: now.toISOString(),
     sources: uniqueSources
@@ -523,7 +544,7 @@ function renderArticle(story) {
     })
     .join('\n');
   const author = story.page === 'yorum.html' && story.authorName
-    ? '          <span class="dispatch-author">Yazan: ' + htmlEscape(story.authorName) + '</span>'
+    ? '          <span class="dispatch-author">' + htmlEscape(story.columnName || COMMENTARY_COLUMNS[0]) + ' · Yazan: ' + htmlEscape(story.authorName) + '</span>'
     : '';
 
   return [
@@ -1050,7 +1071,7 @@ function storyJsonLd(story, absoluteUrl, pageLabel, now) {
       logo: { '@type': 'ImageObject', url: 'https://golhat.com/og.png', width: 1200, height: 630 }
     },
     isAccessibleForFree: true,
-    keywords: [story.focusKeyword, pageLabel, story.tag].filter(Boolean).join(', '),
+    keywords: [story.focusKeyword, story.columnName, pageLabel, story.tag].filter(Boolean).join(', '),
     about: story.focusKeyword ? { '@type': 'Thing', name: story.focusKeyword } : undefined
   };
   const breadcrumb = {
@@ -1134,7 +1155,7 @@ function buildStoryPageHtml(story, now = new Date(), allStories = []) {
   const byline = story.authorName || (story.page === 'ozel-haber.html' ? 'GOLHAT Araştırma Kurulu' : 'GOLHAT Haber Merkezi');
   const commentaryWriter = COMMENTARY_WRITERS.find((writer) => writer.name === byline);
   const commentaryRole = commentaryWriter?.lead ? 'GOLHAT Baş Yazarı' : 'GOLHAT editoryal müstearı';
-  const angleHeading = story.page === 'yorum.html' ? byline + ' yazıyor' : 'Dosyanın özgün açısı';
+  const angleHeading = story.page === 'yorum.html' ? (story.columnName || COMMENTARY_COLUMNS[0]) + ' · ' + byline + ' yazıyor' : 'Dosyanın özgün açısı';
   const findingsHeading = 'Doğrulanan bulgular';
   const findingsBlock = story.page === 'yorum.html'
     ? '<div class="column-prose" aria-label="Köşe yazısının devamı">' + commentaryParagraphs + '</div>'
