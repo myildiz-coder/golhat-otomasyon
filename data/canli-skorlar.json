@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T18:33:37.338Z",
+  "updatedAt": "2026-09-07T18:49:43.411Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 6,
     "live": 3,
-    "upcoming": 2,
-    "finished": 1
+    "upcoming": 1,
+    "finished": 2
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Alanyaspor",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 78,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904735,
@@ -59,7 +59,7 @@
       "away": "Gaziantep FK",
       "homeScore": 1,
       "awayScore": 4,
-      "minute": 75,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Celta Vigo",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 69,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Lazio",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
