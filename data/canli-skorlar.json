@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T20:39:02.981Z",
+  "updatedAt": "2026-09-07T20:50:15.051Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 2,
+    "live": 1,
     "upcoming": 0,
-    "finished": 4
+    "finished": 5
   },
   "matches": [
     {
@@ -95,7 +95,7 @@
       "away": "Real Sociedad",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 49,
+      "minute": 60,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Lazio",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
