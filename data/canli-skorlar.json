@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T19:14:05.259Z",
+  "updatedAt": "2026-09-07T19:27:39.090Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -131,7 +131,7 @@
       "away": "Lazio",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 29,
+      "minute": 42,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
