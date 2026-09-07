@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:07:43.671Z",
+  "updatedAt": "2026-09-07T21:22:39.300Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -148,8 +148,8 @@
       "home": "Elche",
       "away": "Real Sociedad",
       "homeScore": 2,
-      "awayScore": 2,
-      "minute": 78,
+      "awayScore": 3,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
