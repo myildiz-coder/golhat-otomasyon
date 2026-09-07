@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-07T18:48:29.233Z",
+  "updatedAt": "2026-09-07T18:56:25.819Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "5. Hafta",
-  "roundLabel": "5. Hafta",
+  "round": "4. Hafta",
+  "roundLabel": "4. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -75,6 +75,19 @@
     },
     {
       "rank": 6,
+      "team": "CORENDON ALANYASPOR",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 3,
+      "goalDifference": 1,
+      "points": 7,
+      "form": ""
+    },
+    {
+      "rank": 7,
       "team": "GENÇLERBİRLİĞİ",
       "played": 4,
       "won": 2,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "FENERBAHÇE A.Ş.",
       "played": 4,
       "won": 2,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "KASIMPAŞA A.Ş.",
       "played": 4,
       "won": 1,
@@ -113,20 +126,20 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 3,
+      "played": 4,
       "won": 2,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 3,
-      "goalsAgainst": 3,
-      "goalDifference": 0,
+      "goalsAgainst": 4,
+      "goalDifference": -1,
       "points": 6,
       "form": ""
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 4,
       "won": 1,
@@ -134,19 +147,6 @@
       "lost": 2,
       "goalsFor": 6,
       "goalsAgainst": 6,
-      "goalDifference": 0,
-      "points": 4,
-      "form": ""
-    },
-    {
-      "rank": 11,
-      "team": "CORENDON ALANYASPOR",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 3,
       "goalDifference": 0,
       "points": 4,
       "form": ""
@@ -245,21 +245,10 @@
   ],
   "fixtures": [
     {
-      "id": 317814,
-      "date": "2026-09-07T17:00:00.000Z",
-      "timestamp": 1788800400,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ÇAYKUR RİZESPOR A.Ş.",
-      "away": "CORENDON ALANYASPOR"
-    },
-    {
       "id": 317815,
       "date": "2026-09-07T17:00:00.000Z",
       "timestamp": 1788800400,
-      "round": "5. Hafta",
+      "round": "4. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
