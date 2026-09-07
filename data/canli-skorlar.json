@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T16:44:19.816Z",
+  "updatedAt": "2026-09-07T16:55:58.060Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -113,7 +113,7 @@
       "away": "Lecce",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
