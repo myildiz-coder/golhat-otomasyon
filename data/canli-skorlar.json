@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T18:15:28.376Z",
+  "updatedAt": "2026-09-07T18:33:37.338Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 4,
+    "live": 3,
     "upcoming": 2,
-    "finished": 0
+    "finished": 1
   },
   "matches": [
     {
@@ -40,8 +40,8 @@
       "home": "Rizespor",
       "away": "Alanyaspor",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 60,
+      "awayScore": 1,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Gaziantep FK",
       "homeScore": 1,
       "awayScore": 4,
-      "minute": 57,
+      "minute": 75,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -76,8 +76,8 @@
       "home": "Getafe",
       "away": "Celta Vigo",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 51,
+      "awayScore": 1,
+      "minute": 69,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,10 +113,10 @@
       "away": "Lecce",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749669,
