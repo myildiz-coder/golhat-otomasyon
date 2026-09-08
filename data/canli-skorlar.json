@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T11:55:49.402Z",
+  "updatedAt": "2026-09-08T12:12:41.900Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 8,
-    "live": 0,
-    "upcoming": 8,
+    "live": 1,
+    "upcoming": 7,
     "finished": 0
   },
   "matches": [
@@ -149,10 +149,10 @@
       "away": "Go Ahead Eagles",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": null,
-      "status": "NS",
+      "minute": 4030,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781720,
