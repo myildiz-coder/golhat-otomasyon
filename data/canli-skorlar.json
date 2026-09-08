@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:43:14.910Z",
+  "updatedAt": "2026-09-08T16:55:40.522Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 8,
-    "live": 0,
-    "upcoming": 7,
+    "live": 3,
+    "upcoming": 4,
     "finished": 1
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106404,
@@ -59,10 +59,10 @@
       "away": "LASK",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106242,
@@ -167,10 +167,10 @@
       "away": "Excelsior",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
