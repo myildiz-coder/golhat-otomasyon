@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T08:26:22.996Z",
+  "updatedAt": "2026-09-08T12:30:16.938Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -2425,6 +2425,21 @@
         },
         {
           "rank": 6,
+          "teamId": 6433,
+          "team": "Go Ahead Eagles",
+          "played": 5,
+          "won": 2,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 14,
+          "goalsAgainst": 12,
+          "goalDifference": 2,
+          "points": 8,
+          "form": "",
+          "description": "#7FAEFF"
+        },
+        {
+          "rank": 7,
           "teamId": 8593,
           "team": "Ajax",
           "played": 4,
@@ -2439,7 +2454,7 @@
           "description": "#7FAEFF"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": 8611,
           "team": "FC Twente",
           "played": 4,
@@ -2449,21 +2464,6 @@
           "goalsFor": 9,
           "goalsAgainst": 5,
           "goalDifference": 4,
-          "points": 7,
-          "form": "",
-          "description": "#7FAEFF"
-        },
-        {
-          "rank": 8,
-          "teamId": 6433,
-          "team": "Go Ahead Eagles",
-          "played": 4,
-          "won": 2,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 11,
-          "goalsAgainst": 9,
-          "goalDifference": 2,
           "points": 7,
           "form": "",
           "description": ""
@@ -2562,14 +2562,14 @@
           "rank": 15,
           "teamId": 9908,
           "team": "FC Utrecht",
-          "played": 4,
+          "played": 5,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 3,
-          "goalsFor": 6,
-          "goalsAgainst": 15,
+          "goalsFor": 9,
+          "goalsAgainst": 18,
           "goalDifference": -9,
-          "points": 1,
+          "points": 2,
           "form": "",
           "description": ""
         },
@@ -2620,20 +2620,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5781733,
-          "date": "2026-09-08T12:00:00.000Z",
-          "timestamp": 1788868800,
-          "round": "5",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "FC Utrecht",
-          "away": "Go Ahead Eagles",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5781720,
           "date": "2026-09-08T16:45:00.000Z",
@@ -2784,6 +2770,20 @@
           "venue": "",
           "home": "PSV Eindhoven",
           "away": "Sparta Rotterdam",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5781718,
+          "date": "2026-09-15T18:00:00Z",
+          "timestamp": 1789495200,
+          "round": "3",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Ajax",
+          "away": "Willem II",
           "started": false,
           "finished": false,
           "cancelled": false
