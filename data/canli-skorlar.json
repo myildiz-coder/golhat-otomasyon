@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:55:40.522Z",
+  "updatedAt": "2026-09-08T17:09:31.783Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Club Brugge",
       "away": "Aston Villa",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 9,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "AEK Athens",
       "away": "LASK",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -165,9 +165,9 @@
       "venue": "",
       "home": "NEC Nijmegen",
       "away": "Excelsior",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
