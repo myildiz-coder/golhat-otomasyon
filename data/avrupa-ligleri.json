@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T20:23:36.353Z",
+  "updatedAt": "2026-09-08T00:34:28.229Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -620,9 +620,9 @@
           "won": 2,
           "drawn": 1,
           "lost": 2,
-          "goalsFor": 5,
-          "goalsAgainst": 6,
-          "goalDifference": -1,
+          "goalsFor": 6,
+          "goalsAgainst": 8,
+          "goalDifference": -2,
           "points": 7,
           "form": "",
           "description": ""
@@ -770,9 +770,9 @@
           "won": 0,
           "drawn": 1,
           "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 11,
-          "goalDifference": -8,
+          "goalsFor": 5,
+          "goalsAgainst": 12,
+          "goalDifference": -7,
           "points": 1,
           "form": "",
           "description": "#FF4646"
@@ -1003,6 +1003,21 @@
         },
         {
           "rank": 3,
+          "teamId": 8543,
+          "team": "Lazio",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 9,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 8564,
           "team": "Milan",
           "played": 3,
@@ -1017,7 +1032,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": 9885,
           "team": "Juventus",
           "played": 3,
@@ -1029,10 +1044,10 @@
           "goalDifference": 3,
           "points": 7,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 10171,
           "team": "Como",
           "played": 3,
@@ -1042,21 +1057,6 @@
           "goalsFor": 7,
           "goalsAgainst": 3,
           "goalDifference": 4,
-          "points": 7,
-          "form": "",
-          "description": "#0046A7"
-        },
-        {
-          "rank": 6,
-          "teamId": 8543,
-          "team": "Lazio",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
           "points": 7,
           "form": "",
           "description": "#02CCF0"
@@ -1108,23 +1108,23 @@
         },
         {
           "rank": 10,
-          "teamId": 8600,
-          "team": "Udinese",
+          "teamId": 7943,
+          "team": "Sassuolo",
           "played": 3,
           "won": 1,
-          "drawn": 2,
-          "lost": 0,
+          "drawn": 1,
+          "lost": 1,
           "goalsFor": 5,
-          "goalsAgainst": 4,
-          "goalDifference": 1,
-          "points": 5,
+          "goalsAgainst": 5,
+          "goalDifference": 0,
+          "points": 4,
           "form": "",
           "description": ""
         },
         {
           "rank": 11,
-          "teamId": 7943,
-          "team": "Sassuolo",
+          "teamId": 8600,
+          "team": "Udinese",
           "played": 3,
           "won": 1,
           "drawn": 1,
@@ -2622,7 +2622,7 @@
       "fixtures": [
         {
           "id": 5781733,
-          "date": "2026-09-08T12:00:00Z",
+          "date": "2026-09-08T12:00:00.000Z",
           "timestamp": 1788868800,
           "round": "5",
           "status": "NS",
@@ -2636,7 +2636,7 @@
         },
         {
           "id": 5781720,
-          "date": "2026-09-08T16:45:00Z",
+          "date": "2026-09-08T16:45:00.000Z",
           "timestamp": 1788885900,
           "round": "3",
           "status": "NS",
