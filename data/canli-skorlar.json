@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T17:48:01.034Z",
+  "updatedAt": "2026-09-08T17:56:53.061Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Aston Villa",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "LASK",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Excelsior",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
