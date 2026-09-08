@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T18:50:50.441Z",
+  "updatedAt": "2026-09-08T19:07:18.441Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 8,
-    "live": 0,
-    "upcoming": 4,
+    "live": 4,
+    "upcoming": 0,
     "finished": 4
   },
   "matches": [
@@ -77,10 +77,10 @@
       "away": "Inter",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106272,
@@ -95,10 +95,10 @@
       "away": "Villarreal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106286,
@@ -113,10 +113,10 @@
       "away": "Manchester City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106311,
@@ -131,10 +131,10 @@
       "away": "Real Betis",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781733,
