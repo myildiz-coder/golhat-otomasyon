@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T12:12:41.900Z",
+  "updatedAt": "2026-09-08T12:37:23.663Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 8,
-    "live": 1,
+    "live": 0,
     "upcoming": 7,
-    "finished": 0
+    "finished": 1
   },
   "matches": [
     {
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "FC Utrecht",
       "away": "Go Ahead Eagles",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 3,
-      "minute": 4030,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781720,
