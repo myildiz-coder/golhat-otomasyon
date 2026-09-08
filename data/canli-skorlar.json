@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T20:25:07.965Z",
+  "updatedAt": "2026-09-08T20:39:40.601Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -76,8 +76,8 @@
       "home": "Real Madrid",
       "away": "Inter",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 64,
+      "awayScore": 1,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Borussia Dortmund",
       "away": "Villarreal",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 64,
+      "awayScore": 1,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Manchester City",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 65,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Real Betis",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 66,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
