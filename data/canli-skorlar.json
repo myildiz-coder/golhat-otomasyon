@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T18:34:10.517Z",
+  "updatedAt": "2026-09-08T18:50:50.441Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 8,
-    "live": 3,
+    "live": 0,
     "upcoming": 4,
-    "finished": 1
+    "finished": 4
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Aston Villa",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106404,
@@ -59,10 +59,10 @@
       "away": "LASK",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106242,
@@ -165,12 +165,12 @@
       "venue": "",
       "home": "NEC Nijmegen",
       "away": "Excelsior",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
