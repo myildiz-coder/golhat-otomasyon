@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:27:21.289Z",
+  "updatedAt": "2026-09-08T20:24:14.456Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1018,6 +1018,21 @@
         },
         {
           "rank": 4,
+          "teamId": 10171,
+          "team": "Como",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 7,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 5,
           "teamId": 8564,
           "team": "Milan",
           "played": 3,
@@ -1029,10 +1044,10 @@
           "goalDifference": 3,
           "points": 7,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 9885,
           "team": "Juventus",
           "played": 3,
@@ -1042,21 +1057,6 @@
           "goalsFor": 4,
           "goalsAgainst": 1,
           "goalDifference": 3,
-          "points": 7,
-          "form": "",
-          "description": "#0046A7"
-        },
-        {
-          "rank": 6,
-          "teamId": 10171,
-          "team": "Como",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 3,
-          "goalDifference": 4,
           "points": 7,
           "form": "",
           "description": "#02CCF0"
@@ -1183,6 +1183,21 @@
         },
         {
           "rank": 15,
+          "teamId": 9857,
+          "team": "Bologna",
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 1,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 16,
           "teamId": 10167,
           "team": "Parma",
           "played": 3,
@@ -1197,7 +1212,7 @@
           "description": ""
         },
         {
-          "rank": 16,
+          "rank": 17,
           "teamId": 6504,
           "team": "Monza",
           "played": 3,
@@ -1207,21 +1222,6 @@
           "goalsFor": 4,
           "goalsAgainst": 8,
           "goalDifference": -4,
-          "points": 1,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 17,
-          "teamId": 9857,
-          "team": "Bologna",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
-          "goalDifference": -2,
           "points": 1,
           "form": "",
           "description": ""
@@ -2395,6 +2395,21 @@
         },
         {
           "rank": 4,
+          "teamId": 10218,
+          "team": "Excelsior",
+          "played": 5,
+          "won": 3,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 12,
+          "goalsAgainst": 5,
+          "goalDifference": 7,
+          "points": 10,
+          "form": "",
+          "description": "#7FAEFF"
+        },
+        {
+          "rank": 5,
           "teamId": 6422,
           "team": "Fortuna Sittard",
           "played": 5,
@@ -2405,21 +2420,6 @@
           "goalsAgainst": 9,
           "goalDifference": 2,
           "points": 10,
-          "form": "",
-          "description": "#7FAEFF"
-        },
-        {
-          "rank": 5,
-          "teamId": 10218,
-          "team": "Excelsior",
-          "played": 4,
-          "won": 3,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 10,
-          "goalsAgainst": 3,
-          "goalDifference": 7,
-          "points": 9,
           "form": "",
           "description": "#7FAEFF"
         },
@@ -2470,6 +2470,21 @@
         },
         {
           "rank": 9,
+          "teamId": 8464,
+          "team": "NEC Nijmegen",
+          "played": 5,
+          "won": 2,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 11,
+          "goalsAgainst": 9,
+          "goalDifference": 2,
+          "points": 7,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 10,
           "teamId": 8674,
           "team": "FC Groningen",
           "played": 5,
@@ -2480,21 +2495,6 @@
           "goalsAgainst": 12,
           "goalDifference": -1,
           "points": 7,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 10,
-          "teamId": 8464,
-          "team": "NEC Nijmegen",
-          "played": 4,
-          "won": 2,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 7,
-          "goalDifference": 2,
-          "points": 6,
           "form": "",
           "description": ""
         },
@@ -2620,20 +2620,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5781720,
-          "date": "2026-09-08T16:45:00.000Z",
-          "timestamp": 1788885900,
-          "round": "3",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "NEC Nijmegen",
-          "away": "Excelsior",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5781722,
           "date": "2026-09-09T16:45:00Z",
@@ -2784,6 +2770,20 @@
           "venue": "",
           "home": "Ajax",
           "away": "Willem II",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5781754,
+          "date": "2026-09-18T18:00:00Z",
+          "timestamp": 1789754400,
+          "round": "7",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "FC Groningen",
+          "away": "PEC Zwolle",
           "started": false,
           "finished": false,
           "cancelled": false
