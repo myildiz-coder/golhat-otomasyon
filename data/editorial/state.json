@@ -1,7 +1,63 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T00:40:40.419Z",
+  "updatedAt": "2026-09-09T23:01:58.552Z",
   "stories": [
+    {
+      "id": "af04e0f3ad813c61",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "Beşiktaş’ın Avrupa dosyası: Sekiz maçlık rotada üç İstanbul gecesi",
+      "summary": "Beşiktaş’ın 2026/27 UEFA Avrupa Ligi lig aşaması fikstürü, eylül–ocak arasında dört iç saha ve dört deplasman maçını dengeli fakat ara aralıklı biçimde bir araya getiriyor.",
+      "tag": "Dosya",
+      "importance": 87,
+      "contentType": "dossier",
+      "seoTitle": "Beşiktaş Avrupa Ligi fikstür dosyası: Sekiz maçlık rota",
+      "seoDescription": "Beşiktaş’ın 2026/27 UEFA Avrupa Ligi fikstürü; iç saha-deplasman dizilimi ve maç blokları üzerinden kaynaklı biçimde incelendi.",
+      "focusKeyword": "Beşiktaş UEFA Avrupa Ligi fikstürü 2026/27",
+      "originalAngle": "Bu dosya Beşiktaş’ın rakip listesini yeniden sıralamak yerine, UEFA ve kulübün açıkladığı sekiz maçlık takvimi saha koşulları ve tarih aralıklarıyla birlikte okur. Böylece başlangıçtaki Marseille iç saha maçı, ekim-kasım deplasman geçişi ve ocaktaki Union SG–Omonia kapanışı aynı planın ayrı eşikleri olarak görünür olur; kesin puan ya da skor değil, yönetilmesi gereken fikstür düzeni ortaya konur.",
+      "keyFindings": [
+        "Beşiktaş lig aşamasına 17 Eylül’de Marseille karşısında Tüpraş Stadyumu’nda başlayacak; Hoffenheim deplasmanından sonra Crystal Palace’ı İstanbul’da ağırlayacak.",
+        "Kasımda Celtic deplasmanı ile Hapoel Beer-Sheva iç saha maçı, aralıkta ise Bayer Leverkusen deplasmanı takvimde yer alıyor.",
+        "Ocak kapanışında Union SG İstanbul’a gelecek, ardından Beşiktaş lig aşamasını Omonia deplasmanında tamamlayacak.",
+        "Sekiz maçın saha dizilimi iç saha, deplasman, iç saha, deplasman, iç saha, deplasman, iç saha, deplasman biçiminde ilerliyor; yani her karşılaşma saha değişimiyle oynanacak."
+      ],
+      "originalityBasis": "public_document_analysis",
+      "methodology": "UEFA’nın 8 Eylül 2026 tarihli lig aşaması takvimi, Beşiktaş’ın 29 Ağustos tarihli resmî fikstür duyurusu ve bağımsız fikstür kaydı karşılaştırıldı. Tarih, rakip, ev sahibi ve maç saati bilgileri ortaklaşan sekiz karşılaşma üzerinden kontrol edildi. Sonra maçlar ev-deplasman dizilimine ayrıldı ve art arda aynı saha türünde maç olup olmadığı incelendi. Bu yöntem yalnız takvim yapısını açıklar; performans, sakatlık ve kadro verisi eşzamanlı karşılaştırılmadığı için puan yüzdesi veya kesin skor tahmini yapılmadı.",
+      "originalFindings": [
+        "Sekiz maçın tamamında saha koşulu bir önceki karşılaşmaya göre değişiyor. Bu, sabit bir iç saha ya da deplasman serisi yerine her Avrupa haftasında ayrı seyahat ve hazırlık düzeni gerektiği anlamına geliyor.",
+        "Dört iç saha maçı eylül, ekim, kasım ve ocak aylarına birer kez yayılıyor. Bu nedenle İstanbul’daki Avrupa gecelerinin hiçbiri aynı ayda iki maça sıkışmıyor; her biri farklı lig ve kadro bağlamında yönetilecek."
+      ],
+      "limitations": "Bu çalışma resmî fikstür ve kamuya açık takvim kayıtlarına dayanır. Güncel form, kadro kullanılabilirliği, sakatlıklar, lig maçlarının kesin saatleri ve seyahat ayrıntıları aynı anda bağımsız kaynaklarla doğrulanmadığından ilerleme olasılığı, puan hedefi veya skor öngörüsü verilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260910-BJK-UEL-FIXTURE",
+      "authorName": "Mustafa YILDIZ",
+      "columnName": "",
+      "publishedAt": "2026-09-09T23:01:58.552Z",
+      "discoveredAt": "2026-09-09T23:01:58.552Z",
+      "sources": [
+        {
+          "title": "2026/27 Europa League: All the league phase fixtures",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures",
+          "publishedAt": "2026-09-08",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "UEFA Avrupa Ligi Lig Aşaması Fikstürümüz Belli Oldu",
+          "publisher": "Beşiktaş Jimnastik Kulübü",
+          "url": "https://bjk.com.tr/tr/haber/94998/uefa-avrupa-ligi-lig-asamasi-fiksturumuz-belli-oldu.html",
+          "publishedAt": "2026-08-29",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Besiktas - Calendrier et résultats Ligue Europa 2026-2027",
+          "publisher": "L’Équipe",
+          "url": "https://www.lequipe.fr/Football/ligue-europa/page-calendrier-general/besiktas",
+          "publishedAt": "2026-09-10",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "7f327fdaec9d5e19",
       "role": "ozel_haber",
@@ -10890,8 +10946,12 @@
     }
   ],
   "homepage": {
-    "storyId": "94bb396c9d90478c",
+    "storyId": "af04e0f3ad813c61",
     "changes": [
+      {
+        "at": "2026-09-09T23:01:58.552Z",
+        "storyId": "af04e0f3ad813c61"
+      },
       {
         "at": "2026-09-02T10:10:30.630Z",
         "storyId": "f5444451d8d50cf9"

@@ -325,9 +325,7 @@ function validateStory(raw, context) {
   const rightOfReplyStatus = String(raw.right_of_reply_status || 'not_applicable').trim();
   const evidenceId = String(raw.golhat_evidence_id || '').trim();
   const requestedAuthorName = String(raw.author_name || '').trim();
-  const authorName = context.role === 'yorum'
-    ? 'Mustafa YILDIZ'
-    : context.role === 'ozel_haber' ? 'GOLHAT Araştırma Kurulu' : 'GOLHAT Haber Merkezi';
+  const authorName = 'Mustafa YILDIZ';
   const requestedColumnName = String(raw.column_name || '').trim();
   const columnName = context.role === 'yorum'
     ? COMMENTARY_COLUMN_NAMES.has(requestedColumnName)
@@ -1060,9 +1058,7 @@ function storyJsonLd(story, absoluteUrl, pageLabel, now) {
     dateModified: modifiedAt,
     inLanguage: 'tr-TR',
     articleSection: pageLabel,
-    author: story.page === 'yorum.html'
-      ? { '@type': 'Person', name: story.authorName || 'GOLHAT Yorum Masası', description: commentaryDescription }
-      : { '@type': 'Organization', name: story.authorName || 'GOLHAT Haber Merkezi', url: 'https://golhat.com/' },
+    author: { '@type': 'Person', name: story.authorName || 'Mustafa YILDIZ', description: story.page === 'yorum.html' ? commentaryDescription : 'GOLHAT editoryal imzası' },
     publisher: {
       '@type': 'NewsMediaOrganization',
       '@id': 'https://golhat.com/#organization',
