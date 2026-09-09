@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T19:12:28.081Z",
+  "updatedAt": "2026-09-09T19:28:22.706Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Paris Saint-Germain",
       "away": "Slovan Bratislava",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Liverpool",
       "away": "Atlético Madrid",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 10,
+      "awayScore": 1,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "Sporting CP",
       "away": "Galatasaray",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 11,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 11,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
