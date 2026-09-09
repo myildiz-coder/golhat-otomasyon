@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T06:39:35.178Z",
+  "updatedAt": "2026-09-09T08:34:29.286Z",
   "sources": [
     {
       "name": "FotMob",
@@ -17,7 +17,7 @@
       "name": "Fenerbahçe",
       "season": "2026/2027",
       "league": "Super Lig",
-      "coach": "Ismail Kartal",
+      "coach": "İsmail Kartal",
       "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
       "squad": {
         "total": 30,
@@ -461,7 +461,7 @@
       "stadium": "Tüpraş Stadyumu",
       "squad": {
         "total": 31,
-        "injured": 0
+        "injured": 1
       },
       "nextMatches": [
         {
