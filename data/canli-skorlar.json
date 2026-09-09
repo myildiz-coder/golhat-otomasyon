@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:10:25.013Z",
+  "updatedAt": "2026-09-09T18:34:04.979Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Barcelona",
       "away": "Feyenoord",
-      "homeScore": 3,
-      "awayScore": 0,
-      "minute": 65,
+      "homeScore": 5,
+      "awayScore": 1,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Viking",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 67,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Telstar",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 67,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
