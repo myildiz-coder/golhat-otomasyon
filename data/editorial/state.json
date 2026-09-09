@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T19:43:26.019Z",
+  "updatedAt": "2026-09-09T00:40:40.419Z",
   "stories": [
+    {
+      "id": "7f327fdaec9d5e19",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "Galatasaray’ın Avrupa dosyası: Sekiz maçlık rotada iki kritik iç saha bloğu",
+      "summary": "Galatasaray’ın Şampiyonlar Ligi lig aşaması fikstürü, Sporting deplasmanıyla başlayıp Barcelona ve Aston Villa eşiklerinde iç saha avantajını doğru kullanmayı gerektiriyor.",
+      "tag": "Dosya",
+      "importance": 86,
+      "contentType": "dossier",
+      "seoTitle": "Galatasaray Şampiyonlar Ligi fikstür dosyası: Sekiz maçın kritik blokları",
+      "seoDescription": "Galatasaray’ın 2026/27 Şampiyonlar Ligi fikstürü; saha dizilimi, rakip havuzu ve takvim blokları üzerinden kaynaklı biçimde incelendi.",
+      "focusKeyword": "Galatasaray Şampiyonlar Ligi fikstürü 2026/27",
+      "originalAngle": "Bu dosya Galatasaray’ın Avrupa rakiplerini yalnız isim düzeyinde sıralamak yerine, UEFA tarafından açıklanan sekiz maçlık takvimi saha dizilimi ve maç blokları üzerinden okur. Böylece Barcelona-Stuttgart-Aston Villa hattındaki iç saha baskısı ile ocaktaki Feyenoord iç saha ve Paris deplasmanı geçişi aynı yarış planında değerlendirilir; kesin skor yerine yönetilmesi gereken takvim eşiği ortaya konur.",
+      "keyFindings": [
+        "UEFA takvimine göre Galatasaray lig aşamasına 9 Eylül’de Sporting CP deplasmanında başlayacak; ardından Barcelona’yı İstanbul’da ağırlayıp Lille deplasmanına çıkacak.",
+        "Kasım hattında Stuttgart ve Aston Villa art arda iç sahada rakip olacak; aralıkta AEK Athens deplasmanından sonra ocakta Feyenoord iç sahada ve Paris deplasmanda karşılaşılacak.",
+        "Sekiz maçın saha dizilimi deplasman, iç saha, deplasman, iç saha, iç saha, deplasman, iç saha, deplasman biçiminde ilerliyor; bu düzen dört iç saha ile dört deplasman maçını dengeli ama bloklu bir takvime yerleştiriyor."
+      ],
+      "originalityBasis": "public_document_analysis",
+      "methodology": "UEFA’nın kulüp bazlı maç sayfası, UEFA’nın sezon fikstür duyurusu ve iki bağımsız maç takvimi kaydı karşılaştırıldı. Tarih, rakip ve ev sahibi bilgisi örtüşen sekiz karşılaşma ev-deplasman dizilimine çevrildi; iki veya daha fazla ardışık aynı saha türündeki maçlar takvim bloğu olarak ayrıştırıldı. Güncel form, sakatlık ve kadro verisi aynı anda doğrulanmadığı için yüzde, puan veya kesin skor tahmini üretilmedi.",
+      "originalFindings": [
+        "13 Ekim Barcelona, 3 Kasım Stuttgart ve 24 Kasım Aston Villa iç saha maçları takvimin erken-orta bölümündeki üç iç saha eşiğini oluşturuyor; Stuttgart-Aston Villa bölümü art arda iki iç saha maçı içeriyor.",
+        "Ocak sonu iki aşamalı kapanışta Feyenoord İstanbul’a gelirken Paris deplasmanı son maç olarak yer alıyor. Bu nedenle ocak planı tek maç değil, iki ayrı saha koşulunun birlikte yönetilmesini gerektiriyor."
+      ],
+      "limitations": "Bu çalışma resmî fikstür ve kamuya açık maç takvimi verisine dayanır. Kadro kullanılabilirliği, sakatlık, güncel form, seyahat ve lig maçlarının kesin tarihleri eşzamanlı bağımsız veriyle doğrulanmadığı için ilerleme olasılığı, puan yüzdesi veya skor tahmini verilmedi.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260909-GS-UCL-FIXTURE",
+      "authorName": "GOLHAT Araştırma Kurulu",
+      "columnName": "",
+      "publishedAt": "2026-09-09T00:40:40.419Z",
+      "discoveredAt": "2026-09-09T00:40:40.419Z",
+      "sources": [
+        {
+          "title": "Galatasaray Matches, UEFA Champions League 2026/27",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/clubs/50067/matches",
+          "publishedAt": "2026-09-09",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Galatasaray Scores and Fixtures, Champions League",
+          "publisher": "FBref",
+          "url": "https://fbref.com/en/squads/ecd11ca2/2026-2027/matchlogs/c8/schedule/Galatasaray-Scores-and-Fixtures-Champions-League",
+          "publishedAt": "2026-09-09",
+          "sourceRole": "independent_verification"
+        },
+        {
+          "title": "Champions League 2026/2027 calendar and results",
+          "publisher": "TNT Sports",
+          "url": "https://www.tntsports.co.uk/football/champions-league/2026-2027/calendar-results.shtml",
+          "publishedAt": "2026-09-09",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "94bb396c9d90478c",
       "role": "ozel_haber",
@@ -10830,57 +10885,6 @@
           "url": "https://devlet.tc/tr/haber/besiktasta-ayrilik-resmilesti-elan-ricardo-macaristan-yolcusu",
           "publishedAt": "2026-09-04T16:11:00+03:00",
           "sourceRole": "independent_verification"
-        }
-      ]
-    },
-    {
-      "id": "489581c74665ac84",
-      "role": "super_lig",
-      "page": "super-lig.html",
-      "headline": "TFF duyurdu: Süper Lig maçları öncesi 1 dakikalık saygı duruşu yapılacak",
-      "summary": "Türkiye Futbol Federasyonu, son dönemde yaşanan gemi kazalarında hayatını kaybeden vatandaşlar için 4-7 Eylül 2026 tarihleri arasında oynanacak tüm profesyonel müsabakalar öncesinde 1 dakikalık saygı duruşu yapılacağını açıkladı. Kulüpler, talep etmeleri halinde siyah kol bandı da takabilecek.",
-      "tag": "Gelişme",
-      "importance": 70,
-      "contentType": "news",
-      "seoTitle": "TFF duyurdu: Süper Lig maçları öncesi saygı duruşu",
-      "seoDescription": "TFF, 4-7 Eylül 2026 tarihleri arasındaki Süper Lig maçları öncesinde gemi kazalarında hayatını kaybedenler için saygı duruşu yapılacağını açıkladı.",
-      "focusKeyword": "TFF saygı duruşu 4 Eylül 2026",
-      "originalAngle": "Karar, 4. hafta fikstürünün başladığı 4 Eylül Cuma günü yürürlüğe giriyor; böylece Süper Lig gündeminde yalnız maç programı değil, hafta sonundaki tüm profesyonel karşılaşmaların ortak anma uygulaması da belirlenmiş oldu.",
-      "keyFindings": [
-        "TFF, 4-7 Eylül 2026 tarihleri arasında oynanacak tüm profesyonel müsabakalar öncesinde 1 dakikalık saygı duruşu yapılacağını açıkladı.",
-        "Kararın gerekçesi, son dönemde yaşanan gemi kazalarında hayatını kaybeden vatandaşların anılması olarak duyuruldu.",
-        "Kulüplerin talep etmeleri halinde karşılaşmalara siyah kol bandıyla çıkabileceği belirtildi."
-      ],
-      "originalityBasis": "reported_event",
-      "methodology": "TFF’nin 4 Eylül 2026 tarihli resmi duyurusu incelendi; kararın dayandığı güncel gemi kazaları Anadolu Ajansı’nın aynı tarihli haberleriyle kontrol edildi.",
-      "originalFindings": [],
-      "limitations": "TFF duyurusu, saygı duruşunun hangi Süper Lig karşılaşmalarında hangi seremoni akışıyla uygulanacağını ayrıca detaylandırmıyor; kulüplerin siyah kol bandı kullanımı ise zorunlu değil.",
-      "rightOfReplyStatus": "not_applicable",
-      "evidenceId": "",
-      "authorName": "GOLHAT Haber Merkezi",
-      "publishedAt": "2026-09-03T21:00:00.000Z",
-      "discoveredAt": "2026-09-04T18:43:46.713Z",
-      "sources": [
-        {
-          "title": "Profesyonel Lig Müsabakaları Öncesinde Saygı Duruşunda Bulunulacak",
-          "publisher": "Türkiye Futbol Federasyonu",
-          "url": "https://www.tff.org/default.aspx?ftxtID=51274&pageID=687",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "primary_evidence"
-        },
-        {
-          "title": "Turkish authorities locate ship that sank after collision off coast of Istanbul’s Silivri",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/en/turkiye/turkish-authorities-locate-ship-that-sank-after-collision-off-coast-of-istanbul-s-silivri/4047364",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "independent_verification"
-        },
-        {
-          "title": "Türkiye's TCG Alemdar leads deep-sea search for 16 missing after passenger ship sinks off Girne",
-          "publisher": "Anadolu Ajansı",
-          "url": "https://www.aa.com.tr/en/turkiye/turkiyes-tcg-alemdar-leads-deep-sea-search-for-16-missing-after-passenger-ship-sinks-off-girne/4047334",
-          "publishedAt": "2026-09-04",
-          "sourceRole": "context"
         }
       ]
     }
