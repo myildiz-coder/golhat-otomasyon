@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:37:10.895Z",
+  "updatedAt": "2026-09-09T20:34:17.413Z",
   "sources": [
     {
       "name": "FotMob",
@@ -252,10 +252,10 @@
           "stage": "",
           "home": "Sporting CP",
           "away": "Galatasaray",
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 3,
+          "awayScore": 1,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
