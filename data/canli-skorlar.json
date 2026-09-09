@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T17:13:15.279Z",
+  "updatedAt": "2026-09-09T17:29:34.062Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Feyenoord",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "VfB Stuttgart",
       "away": "Viking",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1,
-      "minute": 27,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 28,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
