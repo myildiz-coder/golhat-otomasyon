@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T16:26:01.283Z",
+  "updatedAt": "2026-09-09T20:24:13.032Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -2410,6 +2410,21 @@
         },
         {
           "rank": 5,
+          "teamId": 8611,
+          "team": "FC Twente",
+          "played": 5,
+          "won": 3,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 5,
+          "goalDifference": 5,
+          "points": 10,
+          "form": "",
+          "description": "#7FAEFF"
+        },
+        {
+          "rank": 6,
           "teamId": 6422,
           "team": "Fortuna Sittard",
           "played": 5,
@@ -2424,7 +2439,7 @@
           "description": "#7FAEFF"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "teamId": 6433,
           "team": "Go Ahead Eagles",
           "played": 5,
@@ -2439,24 +2454,9 @@
           "description": "#7FAEFF"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": 8593,
           "team": "Ajax",
-          "played": 4,
-          "won": 2,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 9,
-          "goalsAgainst": 5,
-          "goalDifference": 4,
-          "points": 7,
-          "form": "",
-          "description": "#7FAEFF"
-        },
-        {
-          "rank": 8,
-          "teamId": 8611,
-          "team": "FC Twente",
           "played": 4,
           "won": 2,
           "drawn": 1,
@@ -2530,21 +2530,6 @@
         },
         {
           "rank": 13,
-          "teamId": 6414,
-          "team": "Telstar",
-          "played": 4,
-          "won": 1,
-          "drawn": 1,
-          "lost": 2,
-          "goalsFor": 5,
-          "goalsAgainst": 10,
-          "goalDifference": -5,
-          "points": 4,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 14,
           "teamId": 6413,
           "team": "PEC Zwolle",
           "played": 5,
@@ -2554,6 +2539,21 @@
           "goalsFor": 6,
           "goalsAgainst": 10,
           "goalDifference": -4,
+          "points": 4,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 14,
+          "teamId": 6414,
+          "team": "Telstar",
+          "played": 5,
+          "won": 1,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 5,
+          "goalsAgainst": 11,
+          "goalDifference": -6,
           "points": 4,
           "form": "",
           "description": ""
@@ -2620,20 +2620,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5781722,
-          "date": "2026-09-09T16:45:00.000Z",
-          "timestamp": 1788972300,
-          "round": "3",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "FC Twente",
-          "away": "Telstar",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5781742,
           "date": "2026-09-11T18:00:00Z",
@@ -2784,6 +2770,20 @@
           "venue": "",
           "home": "FC Groningen",
           "away": "PEC Zwolle",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5781755,
+          "date": "2026-09-19T14:30:00Z",
+          "timestamp": 1789828200,
+          "round": "7",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "ADO Den Haag",
+          "away": "Cambuur",
           "started": false,
           "finished": false,
           "cancelled": false
