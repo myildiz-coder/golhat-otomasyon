@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:34:04.979Z",
+  "updatedAt": "2026-09-09T18:48:58.652Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 7,
-    "live": 3,
+    "live": 0,
     "upcoming": 4,
-    "finished": 0
+    "finished": 3
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Feyenoord",
       "homeScore": 5,
       "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106400,
@@ -59,10 +59,10 @@
       "away": "Viking",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106237,
@@ -149,10 +149,10 @@
       "away": "Telstar",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
