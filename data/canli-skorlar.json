@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:58:01.748Z",
+  "updatedAt": "2026-09-09T19:12:28.081Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 7,
-    "live": 0,
-    "upcoming": 4,
+    "live": 4,
+    "upcoming": 0,
     "finished": 3
   },
   "matches": [
@@ -77,10 +77,10 @@
       "away": "Slovan Bratislava",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106246,
@@ -95,10 +95,10 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106280,
@@ -112,11 +112,11 @@
       "home": "Sporting CP",
       "away": "Galatasaray",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106318,
@@ -131,10 +131,10 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781722,
