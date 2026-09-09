@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:30:13.695Z",
+  "updatedAt": "2026-09-09T20:46:50.209Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "Slovan Bratislava",
       "homeScore": 5,
       "awayScore": 1,
-      "minute": 70,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Atlético Madrid",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 72,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Galatasaray",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 68,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Napoli",
       "away": "Arsenal",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 70,
+      "awayScore": 1,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
