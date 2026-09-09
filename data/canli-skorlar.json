@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:46:50.209Z",
+  "updatedAt": "2026-09-09T20:55:40.958Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 7,
-    "live": 4,
+    "live": 1,
     "upcoming": 0,
-    "finished": 3
+    "finished": 6
   },
   "matches": [
     {
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Paris Saint-Germain",
       "away": "Slovan Bratislava",
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 1,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106246,
@@ -95,10 +95,10 @@
       "away": "Atlético Madrid",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106280,
@@ -113,7 +113,7 @@
       "away": "Galatasaray",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 84,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781722,
