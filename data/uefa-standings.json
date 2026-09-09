@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T16:30:48.798Z",
+  "updatedAt": "2026-09-09T22:27:18.572Z",
   "source": "UEFA",
   "sourceUrl": "https://standings.uefa.com/",
   "seasonEndYear": 2027,
@@ -12,6 +12,66 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": "52747",
+          "team": "Paris",
+          "code": "PSG",
+          "countryCode": "FRA",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 3
+        },
+        {
+          "rank": 2,
+          "teamId": "50080",
+          "team": "Barcelona",
+          "code": "BAR",
+          "countryCode": "ESP",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": 4,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "teamId": "50149",
+          "team": "Sporting CP",
+          "code": "SPO",
+          "countryCode": "POR",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "teamId": "50107",
+          "team": "Stuttgart",
+          "code": "STU",
+          "countryCode": "GER",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 5,
           "teamId": "52919",
           "team": "Man City",
           "code": "MCI",
@@ -26,7 +86,7 @@
           "points": 3
         },
         {
-          "rank": 2,
+          "rank": 6,
           "teamId": "52683",
           "team": "Aston Villa",
           "code": "AVL",
@@ -41,7 +101,7 @@
           "points": 3
         },
         {
-          "rank": 2,
+          "rank": 6,
           "teamId": "52265",
           "team": "Real Betis",
           "code": "BET",
@@ -56,7 +116,7 @@
           "points": 3
         },
         {
-          "rank": 4,
+          "rank": 8,
           "teamId": "52758",
           "team": "B. Dortmund",
           "code": "BVB",
@@ -71,7 +131,22 @@
           "points": 3
         },
         {
-          "rank": 5,
+          "rank": 9,
+          "teamId": "7889",
+          "team": "Liverpool",
+          "code": "LIV",
+          "countryCode": "ENG",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "points": 3
+        },
+        {
+          "rank": 9,
           "teamId": "50051",
           "team": "Real Madrid",
           "code": "RMA",
@@ -86,7 +161,22 @@
           "points": 3
         },
         {
-          "rank": 6,
+          "rank": 11,
+          "teamId": "52280",
+          "team": "Arsenal",
+          "code": "ARS",
+          "countryCode": "ENG",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 3
+        },
+        {
+          "rank": 12,
           "teamId": "50129",
           "team": "AEK Athens",
           "code": "AEK",
@@ -101,52 +191,7 @@
           "points": 3
         },
         {
-          "rank": 7,
-          "teamId": "52280",
-          "team": "Arsenal",
-          "code": "ARS",
-          "countryCode": "ENG",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "teamId": "50124",
-          "team": "Atleti",
-          "code": "ATM",
-          "countryCode": "ESP",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "teamId": "50080",
-          "team": "Barcelona",
-          "code": "BAR",
-          "countryCode": "ESP",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
+          "rank": 13,
           "teamId": "50037",
           "team": "Bayern München",
           "code": "BAY",
@@ -161,7 +206,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "59333",
           "team": "Bodø/Glimt",
           "code": "BOD",
@@ -176,7 +221,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "79946",
           "team": "Como",
           "code": "COM",
@@ -191,7 +236,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "52692",
           "team": "Fenerbahçe",
           "code": "FEN",
@@ -206,37 +251,7 @@
           "points": 0
         },
         {
-          "rank": 7,
-          "teamId": "52749",
-          "team": "Feyenoord",
-          "code": "FEY",
-          "countryCode": "NED",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "teamId": "50067",
-          "team": "Galatasaray",
-          "code": "GAL",
-          "countryCode": "TUR",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
+          "rank": 13,
           "teamId": "2603790",
           "team": "Leipzig",
           "code": "RBL",
@@ -251,7 +266,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "52277",
           "team": "Lens",
           "code": "LEN",
@@ -266,22 +281,7 @@
           "points": 0
         },
         {
-          "rank": 7,
-          "teamId": "7889",
-          "team": "Liverpool",
-          "code": "LIV",
-          "countryCode": "ENG",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
+          "rank": 13,
           "teamId": "52682",
           "team": "Man Utd",
           "code": "MUN",
@@ -296,37 +296,7 @@
           "points": 0
         },
         {
-          "rank": 7,
-          "teamId": "50136",
-          "team": "Napoli",
-          "code": "NAP",
-          "countryCode": "ITA",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "teamId": "52747",
-          "team": "Paris",
-          "code": "PSG",
-          "countryCode": "FRA",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
+          "rank": 13,
           "teamId": "50062",
           "team": "PSV",
           "code": "PSV",
@@ -341,7 +311,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "50137",
           "team": "Roma",
           "code": "ROM",
@@ -356,22 +326,7 @@
           "points": 0
         },
         {
-          "rank": 7,
-          "teamId": "52797",
-          "team": "S. Bratislava",
-          "code": "SBR",
-          "countryCode": "SVK",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
+          "rank": 13,
           "teamId": "2609356",
           "team": "Sabah",
           "code": "SAB",
@@ -386,7 +341,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "52707",
           "team": "Shakhtar",
           "code": "SHK",
@@ -401,7 +356,7 @@
           "points": 0
         },
         {
-          "rank": 7,
+          "rank": 13,
           "teamId": "52498",
           "team": "Slavia Praha",
           "code": "SLA",
@@ -416,52 +371,7 @@
           "points": 0
         },
         {
-          "rank": 7,
-          "teamId": "50149",
-          "team": "Sporting CP",
-          "code": "SPO",
-          "countryCode": "POR",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "teamId": "50107",
-          "team": "Stuttgart",
-          "code": "STU",
-          "countryCode": "GER",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "teamId": "52319",
-          "team": "Viking",
-          "code": "VFK",
-          "countryCode": "NOR",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0
-        },
-        {
-          "rank": 31,
+          "rank": 25,
           "teamId": "70691",
           "team": "Villarreal",
           "code": "VIL",
@@ -476,7 +386,7 @@
           "points": 0
         },
         {
-          "rank": 32,
+          "rank": 26,
           "teamId": "50043",
           "team": "Club Brugge",
           "code": "BRU",
@@ -491,7 +401,7 @@
           "points": 0
         },
         {
-          "rank": 32,
+          "rank": 26,
           "teamId": "75797",
           "team": "Lille",
           "code": "LIL",
@@ -506,7 +416,22 @@
           "points": 0
         },
         {
-          "rank": 34,
+          "rank": 28,
+          "teamId": "50124",
+          "team": "Atleti",
+          "code": "ATM",
+          "countryCode": "ESP",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 0
+        },
+        {
+          "rank": 28,
           "teamId": "50138",
           "team": "Inter",
           "code": "INT",
@@ -521,7 +446,7 @@
           "points": 0
         },
         {
-          "rank": 35,
+          "rank": 30,
           "teamId": "63405",
           "team": "LASK",
           "code": "LASK",
@@ -536,7 +461,52 @@
           "points": 0
         },
         {
-          "rank": 36,
+          "rank": 30,
+          "teamId": "50136",
+          "team": "Napoli",
+          "code": "NAP",
+          "countryCode": "ITA",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 0
+        },
+        {
+          "rank": 32,
+          "teamId": "50067",
+          "team": "Galatasaray",
+          "code": "GAL",
+          "countryCode": "TUR",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
+          "points": 0
+        },
+        {
+          "rank": 32,
+          "teamId": "52319",
+          "team": "Viking",
+          "code": "VFK",
+          "countryCode": "NOR",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
+          "points": 0
+        },
+        {
+          "rank": 34,
           "teamId": "50064",
           "team": "Porto",
           "code": "POR",
@@ -549,74 +519,44 @@
           "goalsAgainst": 2,
           "goalDifference": -2,
           "points": 0
+        },
+        {
+          "rank": 35,
+          "teamId": "52749",
+          "team": "Feyenoord",
+          "code": "FEY",
+          "countryCode": "NED",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
+          "points": 0
+        },
+        {
+          "rank": 36,
+          "teamId": "52797",
+          "team": "S. Bratislava",
+          "code": "SBR",
+          "countryCode": "SVK",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 6,
+          "goalDifference": -5,
+          "points": 0
         }
       ],
       "nextMatchday": {
         "id": "36598",
         "label": "1. Hafta",
-        "dateFrom": "2026-09-09T16:45:00Z",
+        "dateFrom": "2026-09-10T16:45:00Z",
         "dateTo": "2026-09-10T19:00:00Z",
         "matches": [
-          {
-            "id": "2049561",
-            "date": "2026-09-09T16:45:00Z",
-            "timestamp": 1788972300000,
-            "home": "Barcelona",
-            "away": "Feyenoord",
-            "homeCountry": "ESP",
-            "awayCountry": "NED",
-            "status": "UPCOMING"
-          },
-          {
-            "id": "2049564",
-            "date": "2026-09-09T16:45:00Z",
-            "timestamp": 1788972300000,
-            "home": "Stuttgart",
-            "away": "Viking",
-            "homeCountry": "GER",
-            "awayCountry": "NOR",
-            "status": "UPCOMING"
-          },
-          {
-            "id": "2049559",
-            "date": "2026-09-09T19:00:00Z",
-            "timestamp": 1788980400000,
-            "home": "Paris",
-            "away": "S. Bratislava",
-            "homeCountry": "FRA",
-            "awayCountry": "SVK",
-            "status": "UPCOMING"
-          },
-          {
-            "id": "2049560",
-            "date": "2026-09-09T19:00:00Z",
-            "timestamp": 1788980400000,
-            "home": "Liverpool",
-            "away": "Atleti",
-            "homeCountry": "ENG",
-            "awayCountry": "ESP",
-            "status": "UPCOMING"
-          },
-          {
-            "id": "2049562",
-            "date": "2026-09-09T19:00:00Z",
-            "timestamp": 1788980400000,
-            "home": "Sporting CP",
-            "away": "Galatasaray",
-            "homeCountry": "POR",
-            "awayCountry": "TUR",
-            "status": "UPCOMING"
-          },
-          {
-            "id": "2049563",
-            "date": "2026-09-09T19:00:00Z",
-            "timestamp": 1788980400000,
-            "home": "Napoli",
-            "away": "Arsenal",
-            "homeCountry": "ITA",
-            "awayCountry": "ENG",
-            "status": "UPCOMING"
-          },
           {
             "id": "2049567",
             "date": "2026-09-10T16:45:00Z",
