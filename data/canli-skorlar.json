@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T19:54:23.593Z",
+  "updatedAt": "2026-09-10T20:07:37.514Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -95,7 +95,7 @@
       "away": "Sabah FK",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Lens",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "RB Leipzig",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
