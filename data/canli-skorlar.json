@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:43:42.665Z",
+  "updatedAt": "2026-09-10T16:55:28.383Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 6,
-    "live": 0,
-    "upcoming": 6,
+    "live": 2,
+    "upcoming": 4,
     "finished": 0
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Shakhtar Donetsk",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106331,
@@ -59,10 +59,10 @@
       "away": "Roma",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106240,
