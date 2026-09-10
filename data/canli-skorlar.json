@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T18:13:20.593Z",
+  "updatedAt": "2026-09-10T18:31:49.304Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Shakhtar Donetsk",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 70,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Roma",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 71,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
