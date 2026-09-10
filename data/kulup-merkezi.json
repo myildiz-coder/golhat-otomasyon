@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T18:35:37.174Z",
+  "updatedAt": "2026-09-10T20:33:00.842Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 2
       },
       "nextMatches": [
-        {
-          "id": 6106331,
-          "date": "2026-09-10T16:45:00.000Z",
-          "timestamp": 1789058700,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Roma",
-          "homeScore": 1,
-          "awayScore": 1,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 5904740,
           "date": "2026-09-14T17:00:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6106333,
+          "date": "2026-10-20T16:45:00.000Z",
+          "timestamp": 1792514700,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Slavia Prague",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6106331,
+          "date": "2026-09-10T16:45:00.000Z",
+          "timestamp": 1789058700,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Roma",
+          "homeScore": 1,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
         {
           "id": 5904737,
           "date": "2026-09-05T17:00:00.000Z",
@@ -165,20 +179,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 5987803,
-          "date": "2026-08-18T19:00:00.000Z",
-          "timestamp": 1787079600,
-          "tournament": "Champions League Qualification",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Lyon",
-          "homeScore": 1,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
         }
       ],
       "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
