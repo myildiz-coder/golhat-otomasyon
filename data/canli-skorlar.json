@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:38:15.128Z",
+  "updatedAt": "2026-09-10T20:49:01.090Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Bayern München",
       "away": "Bodø/Glimt",
-      "homeScore": 2,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 76,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Sabah FK",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 79,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "Slavia Prague",
       "away": "Lens",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 78,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "RB Leipzig",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 77,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
