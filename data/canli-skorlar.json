@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T18:59:06.118Z",
+  "updatedAt": "2026-09-10T19:12:57.612Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 6,
-    "live": 0,
-    "upcoming": 4,
+    "live": 4,
+    "upcoming": 0,
     "finished": 2
   },
   "matches": [
@@ -77,10 +77,10 @@
       "away": "Bodø/Glimt",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106293,
@@ -95,10 +95,10 @@
       "away": "Sabah FK",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106392,
@@ -113,10 +113,10 @@
       "away": "Lens",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106411,
@@ -131,10 +131,10 @@
       "away": "RB Leipzig",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
