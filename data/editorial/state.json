@@ -1,7 +1,63 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T23:01:58.552Z",
+  "updatedAt": "2026-09-10T23:20:01.493Z",
   "stories": [
+    {
+      "id": "930426627c13e235",
+      "role": "ozel_haber",
+      "page": "ozel-haber.html",
+      "headline": "Trabzonspor dosyası: Konya deplasmanı öncesi 7 puanın iki ayrı yüzü",
+      "summary": "Trabzonspor, dört haftada 7 puan ve artı 5 averajla dördüncü sırada; 12 Eylül’deki Konyaspor deplasmanı, güçlü sonucun süreklilik testine dönüşüyor.",
+      "tag": "Dosya",
+      "importance": 88,
+      "contentType": "dossier",
+      "seoTitle": "Trabzonspor Konyaspor maçı dosyası: 7 puanın iki yüzü",
+      "seoDescription": "Trabzonspor’un dört haftalık Süper Lig verisi ve Konyaspor deplasmanı, doğrulanmış skor, puan ve maç takvimiyle incelendi.",
+      "focusKeyword": "Trabzonspor Konyaspor maçı 2026",
+      "originalAngle": "Bu dosya Trabzonspor’un ilk dört haftasını yalnız puan tablosundaki yeriyle okumuyor; 9 atılan ve 4 yenilen golü, 5-0’lık son iç saha galibiyetini ve Konyaspor deplasmanına giden iki maçlık takvim eşiğini birlikte değerlendiriyor. Böylece mesele tek maç için skor tahmini değil, 7 puanın hangi performans çizgisinde sürdürülebileceği oluyor.",
+      "keyFindings": [
+        "TFF puan cetvelinde Trabzonspor dört maç sonunda 2 galibiyet, 1 beraberlik ve 1 yenilgiyle 7 puan ve artı 5 averajla dördüncü sırada yer alıyor.",
+        "Kulübün ve TFF’nin maç merkezi kayıtlarına göre Trabzonspor, Süper Lig’in 5. haftasında 12 Eylül Cumartesi günü saat 20.00’de Konyaspor’a konuk olacak.",
+        "Trabzonspor’un doğrulanmış son lig maçında Gençlerbirliği karşısında aldığı 5-0’lık galibiyet, toplam 9 golün beşini tek karşılaşmada getirdi.",
+        "Kulüp maç merkezinde Konyaspor deplasmanını 19 Eylül’de Papara Park’taki Galatasaray karşılaşması izliyor."
+      ],
+      "originalityBasis": "original_data_analysis",
+      "methodology": "TFF’nin güncel 2026/27 puan cetveli ve 5. hafta fikstürü, Trabzonspor’un resmî maç merkezi ile FotMob’un eşleşme sayfası karşılaştırıldı. Puan, sıra, gol farkı, maç tarihi, saat ve stadyum bilgileri ortaklaşan kayıtlar üzerinden alındı. Sonra dört lig maçındaki toplam gol sayısı ile Gençlerbirliği karşısındaki 5-0 sonucu karşılaştırılarak, tek bir büyük galibiyetin erken dönem toplamındaki ağırlığı ayrı gösterildi. Bu analiz tahmin üretmez.",
+      "originalFindings": [
+        "Trabzonspor’un ilk dört haftadaki 9 golünün yüzde 55,6’sı Gençlerbirliği karşısındaki 5-0’lık tek galibiyetten geldi. Bu nedenle toplam gol sayısı tek başına istikrarlı hücum üretimi kanıtı olarak okunamaz.",
+        "Konyaspor deplasmanı ile Galatasaray iç saha maçı arasında yalnız yedi gün var. Takvim, Konya maçını tekil bir deplasman değil, iki farklı saha koşuluna uzanan kısa bir planın ilk ayağı haline getiriyor."
+      ],
+      "limitations": "Bu çalışma TFF, kulüp maç merkezi ve kamuya açık maç verisine dayanır. Oyuncu kullanılabilirliği, maç kadrosu, anlık sakatlık durumu, teknik kararlar ve maç içi performans yalnız resmî açıklama ya da maç günü verisiyle kesinleşeceğinden bunlar üzerinden tahmin yapılmadı.",
+      "rightOfReplyStatus": "not_applicable",
+      "evidenceId": "GOLHAT-20260911-TSL-FORM-FIXTURE",
+      "authorName": "Mustafa YILDIZ",
+      "columnName": "",
+      "publishedAt": "2026-09-10T23:20:01.493Z",
+      "discoveredAt": "2026-09-10T23:20:01.493Z",
+      "sources": [
+        {
+          "title": "Trendyol Süper Lig Fikstürü ve Puan Cetveli",
+          "publisher": "Türkiye Futbol Federasyonu",
+          "url": "https://www.tff.org/?pageID=198",
+          "publishedAt": "2026-09-11",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Konyaspor - Trabzonspor",
+          "publisher": "Trabzonspor Kulübü",
+          "url": "https://www.trabzonspor.org.tr/tr/mac-merkezi/Konyaspor-Trabzonspor-cggu1xkugqpu6r05sy8otjw2c-e00dq6lfzgc7vo631cz8ktc0k?tab=galeri",
+          "publishedAt": "2026-09-11",
+          "sourceRole": "primary_evidence"
+        },
+        {
+          "title": "Konyaspor vs Trabzonspor",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/matches/konyaspor-vs-trabzonspor/2sif0t",
+          "publishedAt": "2026-09-11",
+          "sourceRole": "independent_verification"
+        }
+      ]
+    },
     {
       "id": "af04e0f3ad813c61",
       "role": "ozel_haber",
@@ -10946,8 +11002,12 @@
     }
   ],
   "homepage": {
-    "storyId": "af04e0f3ad813c61",
+    "storyId": "930426627c13e235",
     "changes": [
+      {
+        "at": "2026-09-10T23:20:01.493Z",
+        "storyId": "930426627c13e235"
+      },
       {
         "at": "2026-09-09T23:01:58.552Z",
         "storyId": "af04e0f3ad813c61"
