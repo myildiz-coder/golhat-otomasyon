@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T17:47:40.379Z",
+  "updatedAt": "2026-09-10T17:56:53.649Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "PSV Eindhoven",
       "away": "Shakhtar Donetsk",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Roma",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
