@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T19:45:36.870Z",
+  "updatedAt": "2026-09-10T19:54:23.593Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "Bodø/Glimt",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Manchester United",
       "away": "Sabah FK",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Lens",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 44,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "RB Leipzig",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
