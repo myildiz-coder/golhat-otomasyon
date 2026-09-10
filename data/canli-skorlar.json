@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:49:01.090Z",
+  "updatedAt": "2026-09-10T20:58:35.576Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 4,
+    "live": 0,
     "upcoming": 0,
-    "finished": 2
+    "finished": 6
   },
   "matches": [
     {
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Bayern München",
       "away": "Bodø/Glimt",
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 0,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106293,
@@ -95,10 +95,10 @@
       "away": "Sabah FK",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106392,
@@ -112,11 +112,11 @@
       "home": "Slavia Prague",
       "away": "Lens",
       "homeScore": 2,
-      "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 3,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106411,
@@ -129,12 +129,12 @@
       "venue": "",
       "home": "Como",
       "away": "RB Leipzig",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 1,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
