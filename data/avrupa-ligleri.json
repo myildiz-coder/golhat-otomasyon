@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:22:16.430Z",
+  "updatedAt": "2026-09-11T00:30:50.235Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868059,
-          "date": "2026-09-11T19:00:00Z",
+          "date": "2026-09-11T19:00:00.000Z",
           "timestamp": 1789153200,
           "round": "5",
           "status": "NS",
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749679,
-          "date": "2026-09-11T18:45:00Z",
+          "date": "2026-09-11T18:45:00.000Z",
           "timestamp": 1789152300,
           "round": "4",
           "status": "NS",
@@ -1724,7 +1724,7 @@
       "fixtures": [
         {
           "id": 5802935,
-          "date": "2026-09-11T18:45:00Z",
+          "date": "2026-09-11T18:45:00.000Z",
           "timestamp": 1789152300,
           "round": "4",
           "status": "NS",
@@ -2173,7 +2173,7 @@
       "fixtures": [
         {
           "id": 5881169,
-          "date": "2026-09-11T18:30:00Z",
+          "date": "2026-09-11T18:30:00.000Z",
           "timestamp": 1789151400,
           "round": "3",
           "status": "NS",
@@ -2622,7 +2622,7 @@
       "fixtures": [
         {
           "id": 5781742,
-          "date": "2026-09-11T18:00:00Z",
+          "date": "2026-09-11T18:00:00.000Z",
           "timestamp": 1789149600,
           "round": "6",
           "status": "NS",
