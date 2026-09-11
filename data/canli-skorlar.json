@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T19:10:05.055Z",
+  "updatedAt": "2026-09-11T19:23:18.443Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -76,8 +76,8 @@
       "home": "Venezia",
       "away": "Fiorentina",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 24,
+      "awayScore": 2,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Schalke 04",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 40,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Marseille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Willem II",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 53,
+      "minute": 66,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
