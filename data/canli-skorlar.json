@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T19:36:29.936Z",
+  "updatedAt": "2026-09-11T19:45:54.962Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 34,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Union Berlin",
       "away": "Schalke 04",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 48,
+      "awayScore": 2,
+      "minute": 57,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "AZ Alkmaar",
       "away": "Willem II",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 79,
+      "awayScore": 1,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
