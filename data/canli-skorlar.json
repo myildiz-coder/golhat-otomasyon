@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T17:55:54.684Z",
+  "updatedAt": "2026-09-11T18:10:37.672Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 6,
-    "live": 1,
-    "upcoming": 5,
+    "live": 2,
+    "upcoming": 4,
     "finished": 0
   },
   "matches": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Beşiktaş",
       "away": "Erzurumspor FK",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Willem II",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
