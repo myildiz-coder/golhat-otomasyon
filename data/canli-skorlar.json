@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T17:46:55.927Z",
+  "updatedAt": "2026-09-11T17:55:54.684Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Erzurumspor FK",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 47,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
