@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T20:23:13.746Z",
+  "updatedAt": "2026-09-11T20:38:31.844Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 4,
+    "live": 2,
     "upcoming": 0,
-    "finished": 2
+    "finished": 4
   },
   "matches": [
     {
@@ -59,7 +59,7 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 57,
+      "minute": 73,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Venezia",
       "away": "Fiorentina",
-      "homeScore": 1,
-      "awayScore": 3,
-      "minute": 75,
+      "homeScore": 2,
+      "awayScore": 4,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Union Berlin",
       "away": "Schalke 04",
-      "homeScore": 0,
-      "awayScore": 2,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 1,
+      "awayScore": 3,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802935,
@@ -113,10 +113,10 @@
       "away": "Marseille",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 81,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781742,
