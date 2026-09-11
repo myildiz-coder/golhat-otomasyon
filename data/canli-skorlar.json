@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T20:38:31.844Z",
+  "updatedAt": "2026-09-11T20:50:45.684Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 2,
+    "live": 1,
     "upcoming": 0,
-    "finished": 4
+    "finished": 5
   },
   "matches": [
     {
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Sevilla",
       "away": "Valencia",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 73,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,10 +77,10 @@
       "away": "Fiorentina",
       "homeScore": 2,
       "awayScore": 4,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881169,
