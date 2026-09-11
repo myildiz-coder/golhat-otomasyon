@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T18:47:56.262Z",
+  "updatedAt": "2026-09-11T18:56:54.795Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 5,
+    "live": 4,
     "upcoming": 1,
-    "finished": 0
+    "finished": 1
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Erzurumspor FK",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868059,
@@ -77,7 +77,7 @@
       "away": "Fiorentina",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 2,
+      "minute": 11,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Union Berlin",
       "away": "Schalke 04",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 18,
+      "awayScore": 1,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Marseille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 12,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
