@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:34:25.226Z",
+  "updatedAt": "2026-09-11T18:36:09.944Z",
   "sources": [
     {
       "name": "FotMob",
@@ -465,10 +465,10 @@
           "stage": "",
           "home": "Beşiktaş",
           "away": "Erzurumspor FK",
-          "homeScore": 0,
+          "homeScore": 2,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
