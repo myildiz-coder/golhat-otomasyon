@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T17:06:56.143Z",
+  "updatedAt": "2026-09-11T17:21:25.501Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Beşiktaş",
       "away": "Erzurumspor FK",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
