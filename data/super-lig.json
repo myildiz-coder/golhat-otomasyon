@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T18:51:37.435Z",
+  "updatedAt": "2026-09-11T18:57:06.530Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -10,6 +10,19 @@
   "standings": [
     {
       "rank": 1,
+      "team": "BEŞİKTAŞ A.Ş.",
+      "played": 5,
+      "won": 4,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 4,
+      "goalDifference": 8,
+      "points": 12,
+      "form": ""
+    },
+    {
+      "rank": 2,
       "team": "GALATASARAY A.Ş.",
       "played": 4,
       "won": 3,
@@ -19,19 +32,6 @@
       "goalsAgainst": 6,
       "goalDifference": 6,
       "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 2,
-      "team": "BEŞİKTAŞ A.Ş.",
-      "played": 4,
-      "won": 3,
-      "drawn": 0,
-      "lost": 1,
-      "goalsFor": 9,
-      "goalsAgainst": 4,
-      "goalDifference": 5,
-      "points": 9,
       "form": ""
     },
     {
@@ -193,13 +193,13 @@
     {
       "rank": 15,
       "team": "ERZURUMSPOR FK",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 1,
-      "lost": 2,
+      "lost": 3,
       "goalsFor": 2,
-      "goalsAgainst": 8,
-      "goalDifference": -6,
+      "goalsAgainst": 11,
+      "goalDifference": -9,
       "points": 4,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317827,
-      "date": "2026-09-11T17:00:00.000Z",
-      "timestamp": 1789146000,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "BEŞİKTAŞ A.Ş.",
-      "away": "ERZURUMSPOR FK"
-    },
     {
       "id": 317821,
       "date": "2026-09-12T14:00:00.000Z",
