@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T18:56:54.795Z",
+  "updatedAt": "2026-09-11T19:10:05.055Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 6,
-    "live": 4,
-    "upcoming": 1,
+    "live": 5,
+    "upcoming": 0,
     "finished": 1
   },
   "matches": [
@@ -59,10 +59,10 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749679,
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Venezia",
       "away": "Fiorentina",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 11,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Schalke 04",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 27,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Marseille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Willem II",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
