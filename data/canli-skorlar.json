@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T18:33:01.851Z",
+  "updatedAt": "2026-09-11T18:47:56.262Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 6,
-    "live": 3,
-    "upcoming": 3,
+    "live": 5,
+    "upcoming": 1,
     "finished": 0
   },
   "matches": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Beşiktaş",
       "away": "Erzurumspor FK",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 75,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,10 +77,10 @@
       "away": "Fiorentina",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 2,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881169,
@@ -95,7 +95,7 @@
       "away": "Schalke 04",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,10 +113,10 @@
       "away": "Marseille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 3,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781742,
@@ -129,9 +129,9 @@
       "venue": "",
       "home": "AZ Alkmaar",
       "away": "Willem II",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 32,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
