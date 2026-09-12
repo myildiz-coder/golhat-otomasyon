@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T13:08:02.423Z",
+  "updatedAt": "2026-09-12T13:21:10.163Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 33,
-    "live": 1,
-    "upcoming": 32,
+    "live": 2,
+    "upcoming": 31,
     "finished": 0
   },
   "matches": [
@@ -237,9 +237,9 @@
       "venue": "",
       "home": "Racing Santander",
       "away": "Deportivo Alavés",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 50,
+      "minute": 63,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,10 +311,10 @@
       "away": "Frosinone",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
-      "statusLong": "Delayed",
-      "kind": "upcoming"
+      "minute": 13,
+      "status": "LIVE",
+      "statusLong": "",
+      "kind": "live"
     },
     {
       "id": 5749674,
