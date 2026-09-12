@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:39:04.349Z",
+  "updatedAt": "2026-09-12T15:48:09.251Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Rizespor",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 80,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Çorum FK",
       "homeScore": 1,
       "awayScore": 5,
-      "minute": 80,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Brentford",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 76,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Nottingham Forest",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 78,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Hull City",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 80,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Ipswich Town",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 76,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Fulham",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 83,
+      "minute": 92,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Espanyol",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 67,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "Monaco",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 33,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -563,7 +563,7 @@
       "away": "ADO Den Haag",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 61,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
