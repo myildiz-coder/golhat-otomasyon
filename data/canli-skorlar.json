@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T12:55:40.976Z",
+  "updatedAt": "2026-09-12T13:08:02.423Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -239,7 +239,7 @@
       "away": "Deportivo Alavés",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -313,7 +313,7 @@
       "awayScore": 0,
       "minute": null,
       "status": "NS",
-      "statusLong": "",
+      "statusLong": "Delayed",
       "kind": "upcoming"
     },
     {
