@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T17:20:05.043Z",
+  "updatedAt": "2026-09-12T17:30:38.947Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -76,8 +76,8 @@
       "home": "Alanyaspor",
       "away": "Göztepe",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 20,
+      "awayScore": 1,
+      "minute": 30,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Trabzonspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 20,
+      "minute": 31,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Lazio",
       "away": "Milan",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 60,
+      "awayScore": 2,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -581,7 +581,7 @@
       "away": "FC Groningen",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 34,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
