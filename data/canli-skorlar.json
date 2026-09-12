@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:57:16.411Z",
+  "updatedAt": "2026-09-12T19:09:23.077Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 33,
-    "live": 6,
-    "upcoming": 3,
+    "live": 9,
+    "upcoming": 0,
     "finished": 24
   },
   "matches": [
@@ -221,10 +221,10 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868056,
@@ -293,10 +293,10 @@
       "away": "Rayo Vallecano",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749672,
@@ -346,8 +346,8 @@
       "home": "Atalanta",
       "away": "Cagliari",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 13,
+      "awayScore": 1,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Nice",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "Angers",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Toulouse",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -545,7 +545,7 @@
       "away": "Lyon",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -599,7 +599,7 @@
       "away": "Ajax",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -617,10 +617,10 @@
       "away": "NEC Nijmegen",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
