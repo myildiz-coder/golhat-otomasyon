@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:48:16.450Z",
+  "updatedAt": "2026-09-12T18:57:16.411Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 8,
+    "live": 6,
     "upcoming": 3,
-    "finished": 22
+    "finished": 24
   },
   "matches": [
     {
@@ -77,10 +77,10 @@
       "away": "Göztepe",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904745,
@@ -95,10 +95,10 @@
       "away": "Trabzonspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795445,
@@ -347,7 +347,7 @@
       "away": "Cagliari",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 4,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Nice",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 12,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "Angers",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 12,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Toulouse",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 12,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -545,7 +545,7 @@
       "away": "Lyon",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 4,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -599,7 +599,7 @@
       "away": "Ajax",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 46,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
