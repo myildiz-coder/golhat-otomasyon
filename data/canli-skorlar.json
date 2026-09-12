@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T13:45:01.805Z",
+  "updatedAt": "2026-09-12T13:54:13.218Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -239,7 +239,7 @@
       "away": "Deportivo Alavés",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 87,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Frosinone",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 37,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -364,8 +364,8 @@
       "home": "Augsburg",
       "away": "Bayer Leverkusen",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 15,
+      "awayScore": 1,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Paderborn",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 15,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "Freiburg",
       "away": "Borussia Mönchengladbach",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 15,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "VfB Stuttgart",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 15,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Eintracht Frankfurt",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 15,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
