@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:33:37.861Z",
+  "updatedAt": "2026-09-12T20:35:43.516Z",
   "sources": [
     {
       "name": "FotMob",
@@ -678,20 +678,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904745,
-          "date": "2026-09-12T17:00:00.000Z",
-          "timestamp": 1789232400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Konyaspor",
-          "away": "Trabzonspor",
-          "homeScore": 1,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904749,
           "date": "2026-09-19T17:00:00.000Z",
           "timestamp": 1789837200,
@@ -760,9 +746,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904779,
+          "date": "2026-10-25T18:00:00.000Z",
+          "timestamp": 1792951200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Rizespor",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904745,
+          "date": "2026-09-12T17:00:00.000Z",
+          "timestamp": 1789232400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Konyaspor",
+          "away": "Trabzonspor",
+          "homeScore": 1,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904731,
           "date": "2026-09-06T17:00:00.000Z",
@@ -818,20 +832,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 5987955,
-          "date": "2026-08-20T17:00:00.000Z",
-          "timestamp": 1787245200,
-          "tournament": "Europa League Qualification",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Ferencváros",
-          "homeScore": 0,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
         }
       ],
       "officialUrl": "https://www.trabzonspor.org.tr/tr/haberler?team=trabzonspor",
