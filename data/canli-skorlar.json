@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T13:54:13.218Z",
+  "updatedAt": "2026-09-12T14:06:55.474Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 7,
-    "upcoming": 26,
-    "finished": 0
+    "live": 13,
+    "upcoming": 19,
+    "finished": 1
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Rizespor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904748,
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Samsunspor",
       "away": "Çorum FK",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904742,
@@ -113,10 +113,10 @@
       "away": "Brentford",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795446,
@@ -131,10 +131,10 @@
       "away": "Nottingham Forest",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795447,
@@ -149,10 +149,10 @@
       "away": "Hull City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795449,
@@ -167,10 +167,10 @@
       "away": "Ipswich Town",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795451,
@@ -185,10 +185,10 @@
       "away": "Fulham",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795454,
@@ -239,10 +239,10 @@
       "away": "Deportivo Alavés",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868055,
@@ -311,7 +311,7 @@
       "away": "Frosinone",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 46,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Bayer Leverkusen",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Paderborn",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "Freiburg",
       "away": "Borussia Mönchengladbach",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "VfB Stuttgart",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Eintracht Frankfurt",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
