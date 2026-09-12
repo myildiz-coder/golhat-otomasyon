@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T17:30:38.947Z",
+  "updatedAt": "2026-09-12T17:44:11.539Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "Göztepe",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 30,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Trabzonspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 31,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Everton",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 56,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -274,8 +274,8 @@
       "home": "Athletic Club",
       "away": "Elche",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 1,
+      "minute": 58,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Milan",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 71,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,7 +455,7 @@
       "away": "Werder Bremen",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 56,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -581,7 +581,7 @@
       "away": "FC Groningen",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 45,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
