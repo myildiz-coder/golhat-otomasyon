@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:49:17.762Z",
+  "updatedAt": "2026-09-12T15:54:56.375Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -254,17 +254,6 @@
       "venue": "",
       "home": "EYÜPSPOR",
       "away": "ÇAYKUR RİZESPOR A.Ş."
-    },
-    {
-      "id": 317828,
-      "date": "2026-09-12T14:00:00.000Z",
-      "timestamp": 1789221600,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "SAMSUNSPOR A.Ş.",
-      "away": "ARCA ÇORUM FK"
     },
     {
       "id": 317822,
