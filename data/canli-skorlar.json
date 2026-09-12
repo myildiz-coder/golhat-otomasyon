@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:56:54.419Z",
+  "updatedAt": "2026-09-12T16:11:22.641Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 6,
-    "upcoming": 16,
-    "finished": 11
+    "live": 3,
+    "upcoming": 15,
+    "finished": 15
   },
   "matches": [
     {
@@ -113,10 +113,10 @@
       "away": "Brentford",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795446,
@@ -131,10 +131,10 @@
       "away": "Nottingham Forest",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795447,
@@ -167,10 +167,10 @@
       "away": "Ipswich Town",
       "homeScore": 2,
       "awayScore": 3,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795451,
@@ -257,10 +257,10 @@
       "away": "Espanyol",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 84,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868051,
@@ -327,12 +327,12 @@
       "venue": "",
       "home": "Lazio",
       "away": "Milan",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749670,
@@ -473,7 +473,7 @@
       "away": "Monaco",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 42,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -561,9 +561,9 @@
       "venue": "",
       "home": "FC Twente",
       "away": "ADO Den Haag",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 70,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
