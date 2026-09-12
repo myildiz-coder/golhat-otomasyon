@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T14:06:55.474Z",
+  "updatedAt": "2026-09-12T14:21:01.187Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 33,
-    "live": 13,
-    "upcoming": 19,
+    "live": 14,
+    "upcoming": 18,
     "finished": 1
   },
   "matches": [
@@ -41,7 +41,7 @@
       "away": "Rizespor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -58,8 +58,8 @@
       "home": "Samsunspor",
       "away": "Çorum FK",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 8,
+      "awayScore": 3,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Brentford",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Nottingham Forest",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -147,9 +147,9 @@
       "venue": "",
       "home": "Chelsea",
       "away": "Hull City",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -165,9 +165,9 @@
       "venue": "",
       "home": "Crystal Palace",
       "away": "Ipswich Town",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 20,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Fulham",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -256,11 +256,11 @@
       "home": "Osasuna",
       "away": "Espanyol",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868051,
@@ -309,9 +309,9 @@
       "venue": "",
       "home": "Genoa",
       "away": "Frosinone",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Bayer Leverkusen",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 37,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Paderborn",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 37,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Borussia Mönchengladbach",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 37,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "VfB Stuttgart",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 37,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -436,8 +436,8 @@
       "home": "Mainz 05",
       "away": "Eintracht Frankfurt",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 37,
+      "awayScore": 2,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
