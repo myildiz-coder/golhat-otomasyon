@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:51:29.247Z",
+  "updatedAt": "2026-09-12T18:57:02.541Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -62,19 +62,32 @@
     },
     {
       "rank": 5,
-      "team": "TRABZONSPOR A.Ş.",
-      "played": 4,
+      "team": "CORENDON ALANYASPOR",
+      "played": 5,
       "won": 2,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 1,
-      "goalsFor": 9,
-      "goalsAgainst": 4,
-      "goalDifference": 5,
-      "points": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 5,
+      "goalDifference": 1,
+      "points": 8,
       "form": ""
     },
     {
       "rank": 6,
+      "team": "TRABZONSPOR A.Ş.",
+      "played": 5,
+      "won": 2,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 9,
+      "goalsAgainst": 5,
+      "goalDifference": 4,
+      "points": 7,
+      "form": ""
+    },
+    {
+      "rank": 7,
       "team": "ARCA ÇORUM FK",
       "played": 5,
       "won": 2,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 4,
       "won": 2,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 4,
       "won": 2,
@@ -109,19 +122,6 @@
       "goalsFor": 7,
       "goalsAgainst": 5,
       "goalDifference": 2,
-      "points": 7,
-      "form": ""
-    },
-    {
-      "rank": 9,
-      "team": "CORENDON ALANYASPOR",
-      "played": 4,
-      "won": 2,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
-      "goalDifference": 1,
       "points": 7,
       "form": ""
     },
@@ -205,6 +205,19 @@
     },
     {
       "rank": 16,
+      "team": "TÜMOSAN KONYASPOR",
+      "played": 5,
+      "won": 1,
+      "drawn": 0,
+      "lost": 4,
+      "goalsFor": 4,
+      "goalsAgainst": 8,
+      "goalDifference": -4,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "rank": 17,
       "team": "EYÜPSPOR",
       "played": 5,
       "won": 1,
@@ -217,55 +230,20 @@
       "form": ""
     },
     {
-      "rank": 17,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 4,
-      "won": 0,
-      "drawn": 1,
-      "lost": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 11,
-      "goalDifference": -4,
-      "points": 1,
-      "form": ""
-    },
-    {
       "rank": 18,
-      "team": "TÜMOSAN KONYASPOR",
-      "played": 4,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 5,
       "won": 0,
-      "drawn": 0,
-      "lost": 4,
-      "goalsFor": 3,
-      "goalsAgainst": 8,
-      "goalDifference": -5,
-      "points": 0,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 9,
+      "goalsAgainst": 13,
+      "goalDifference": -4,
+      "points": 2,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317822,
-      "date": "2026-09-12T17:00:00.000Z",
-      "timestamp": 1789232400,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "CORENDON ALANYASPOR",
-      "away": "GÖZTEPE A.Ş."
-    },
-    {
-      "id": 317825,
-      "date": "2026-09-12T17:00:00.000Z",
-      "timestamp": 1789232400,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "TÜMOSAN KONYASPOR",
-      "away": "TRABZONSPOR A.Ş."
-    },
     {
       "id": 317824,
       "date": "2026-09-13T14:00:00.000Z",
