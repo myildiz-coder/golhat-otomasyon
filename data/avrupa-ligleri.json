@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T20:23:32.707Z",
+  "updatedAt": "2026-09-12T00:29:12.166Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -317,7 +317,7 @@
       "fixtures": [
         {
           "id": 5795445,
-          "date": "2026-09-12T14:00:00Z",
+          "date": "2026-09-12T14:00:00.000Z",
           "timestamp": 1789221600,
           "round": "4",
           "status": "NS",
@@ -331,7 +331,7 @@
         },
         {
           "id": 5795446,
-          "date": "2026-09-12T14:00:00Z",
+          "date": "2026-09-12T14:00:00.000Z",
           "timestamp": 1789221600,
           "round": "4",
           "status": "NS",
@@ -345,7 +345,7 @@
         },
         {
           "id": 5795447,
-          "date": "2026-09-12T14:00:00Z",
+          "date": "2026-09-12T14:00:00.000Z",
           "timestamp": 1789221600,
           "round": "4",
           "status": "NS",
@@ -359,7 +359,7 @@
         },
         {
           "id": 5795449,
-          "date": "2026-09-12T14:00:00Z",
+          "date": "2026-09-12T14:00:00.000Z",
           "timestamp": 1789221600,
           "round": "4",
           "status": "NS",
@@ -373,7 +373,7 @@
         },
         {
           "id": 5795451,
-          "date": "2026-09-12T14:00:00Z",
+          "date": "2026-09-12T14:00:00.000Z",
           "timestamp": 1789221600,
           "round": "4",
           "status": "NS",
@@ -387,7 +387,7 @@
         },
         {
           "id": 5795454,
-          "date": "2026-09-12T16:30:00Z",
+          "date": "2026-09-12T16:30:00.000Z",
           "timestamp": 1789230600,
           "round": "4",
           "status": "NS",
@@ -401,7 +401,7 @@
         },
         {
           "id": 5795453,
-          "date": "2026-09-12T19:00:00Z",
+          "date": "2026-09-12T19:00:00.000Z",
           "timestamp": 1789239600,
           "round": "4",
           "status": "NS",
@@ -524,6 +524,21 @@
         },
         {
           "rank": 3,
+          "teamId": 8302,
+          "team": "Sevilla",
+          "played": 5,
+          "won": 3,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "goalDifference": 2,
+          "points": 10,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 8633,
           "team": "Real Madrid",
           "played": 4,
@@ -538,7 +553,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": 8603,
           "team": "Real Betis",
           "played": 4,
@@ -550,10 +565,10 @@
           "goalDifference": 0,
           "points": 9,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 9783,
           "team": "Deportivo A Coruña",
           "played": 4,
@@ -563,21 +578,6 @@
           "goalsFor": 8,
           "goalsAgainst": 5,
           "goalDifference": 3,
-          "points": 8,
-          "form": "",
-          "description": "#0046A7"
-        },
-        {
-          "rank": 6,
-          "teamId": 8302,
-          "team": "Sevilla",
-          "played": 5,
-          "won": 2,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 6,
-          "goalDifference": 1,
           "points": 8,
           "form": "",
           "description": "#02CCF0"
@@ -764,21 +764,6 @@
         },
         {
           "rank": 19,
-          "teamId": 10267,
-          "team": "Valencia",
-          "played": 5,
-          "won": 0,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 1,
-          "goalsAgainst": 9,
-          "goalDifference": -8,
-          "points": 2,
-          "form": "",
-          "description": "#FF4646"
-        },
-        {
-          "rank": 20,
           "teamId": 10268,
           "team": "Elche",
           "played": 4,
@@ -791,12 +776,27 @@
           "points": 1,
           "form": "",
           "description": "#FF4646"
+        },
+        {
+          "rank": 20,
+          "teamId": 10267,
+          "team": "Valencia",
+          "played": 5,
+          "won": 0,
+          "drawn": 1,
+          "lost": 4,
+          "goalsFor": 1,
+          "goalsAgainst": 10,
+          "goalDifference": -9,
+          "points": 1,
+          "form": "",
+          "description": "#FF4646"
         }
       ],
       "fixtures": [
         {
           "id": 5868056,
-          "date": "2026-09-12T12:00:00Z",
+          "date": "2026-09-12T12:00:00.000Z",
           "timestamp": 1789214400,
           "round": "5",
           "status": "NS",
@@ -810,7 +810,7 @@
         },
         {
           "id": 5868055,
-          "date": "2026-09-12T14:15:00Z",
+          "date": "2026-09-12T14:15:00.000Z",
           "timestamp": 1789222500,
           "round": "5",
           "status": "NS",
@@ -824,7 +824,7 @@
         },
         {
           "id": 5868051,
-          "date": "2026-09-12T16:30:00Z",
+          "date": "2026-09-12T16:30:00.000Z",
           "timestamp": 1789230600,
           "round": "5",
           "status": "NS",
@@ -838,7 +838,7 @@
         },
         {
           "id": 5868057,
-          "date": "2026-09-12T19:00:00Z",
+          "date": "2026-09-12T19:00:00.000Z",
           "timestamp": 1789239600,
           "round": "5",
           "status": "NS",
@@ -1189,8 +1189,8 @@
           "won": 1,
           "drawn": 0,
           "lost": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 10,
+          "goalsFor": 5,
+          "goalsAgainst": 11,
           "goalDifference": -6,
           "points": 3,
           "form": "",
@@ -1264,8 +1264,8 @@
           "won": 0,
           "drawn": 0,
           "lost": 4,
-          "goalsFor": 3,
-          "goalsAgainst": 10,
+          "goalsFor": 4,
+          "goalsAgainst": 11,
           "goalDifference": -7,
           "points": 0,
           "form": "",
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749672,
-          "date": "2026-09-12T13:00:00Z",
+          "date": "2026-09-12T13:00:00.000Z",
           "timestamp": 1789218000,
           "round": "4",
           "status": "NS",
@@ -1289,7 +1289,7 @@
         },
         {
           "id": 5749674,
-          "date": "2026-09-12T16:00:00Z",
+          "date": "2026-09-12T16:00:00.000Z",
           "timestamp": 1789228800,
           "round": "4",
           "status": "NS",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": 5749670,
-          "date": "2026-09-12T18:45:00Z",
+          "date": "2026-09-12T18:45:00.000Z",
           "timestamp": 1789238700,
           "round": "4",
           "status": "NS",
@@ -1724,7 +1724,7 @@
       "fixtures": [
         {
           "id": 5802936,
-          "date": "2026-09-12T15:15:00Z",
+          "date": "2026-09-12T15:15:00.000Z",
           "timestamp": 1789226100,
           "round": "4",
           "status": "NS",
@@ -1738,7 +1738,7 @@
         },
         {
           "id": 5802928,
-          "date": "2026-09-12T18:45:00Z",
+          "date": "2026-09-12T18:45:00.000Z",
           "timestamp": 1789238700,
           "round": "4",
           "status": "NS",
@@ -1752,7 +1752,7 @@
         },
         {
           "id": 5802930,
-          "date": "2026-09-12T18:45:00Z",
+          "date": "2026-09-12T18:45:00.000Z",
           "timestamp": 1789238700,
           "round": "4",
           "status": "NS",
@@ -1766,7 +1766,7 @@
         },
         {
           "id": 5802933,
-          "date": "2026-09-12T18:45:00Z",
+          "date": "2026-09-12T18:45:00.000Z",
           "timestamp": 1789238700,
           "round": "4",
           "status": "NS",
@@ -1780,7 +1780,7 @@
         },
         {
           "id": 5802934,
-          "date": "2026-09-12T18:45:00Z",
+          "date": "2026-09-12T18:45:00.000Z",
           "timestamp": 1789238700,
           "round": "4",
           "status": "NS",
@@ -1997,8 +1997,8 @@
           "won": 1,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
           "goalDifference": -1,
           "points": 4,
           "form": "",
@@ -2117,8 +2117,8 @@
           "won": 0,
           "drawn": 1,
           "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 9,
+          "goalsFor": 4,
+          "goalsAgainst": 10,
           "goalDifference": -6,
           "points": 1,
           "form": "",
@@ -2173,7 +2173,7 @@
       "fixtures": [
         {
           "id": 5881161,
-          "date": "2026-09-12T13:30:00Z",
+          "date": "2026-09-12T13:30:00.000Z",
           "timestamp": 1789219800,
           "round": "3",
           "status": "NS",
@@ -2187,7 +2187,7 @@
         },
         {
           "id": 5881162,
-          "date": "2026-09-12T13:30:00Z",
+          "date": "2026-09-12T13:30:00.000Z",
           "timestamp": 1789219800,
           "round": "3",
           "status": "NS",
@@ -2201,7 +2201,7 @@
         },
         {
           "id": 5881165,
-          "date": "2026-09-12T13:30:00Z",
+          "date": "2026-09-12T13:30:00.000Z",
           "timestamp": 1789219800,
           "round": "3",
           "status": "NS",
@@ -2215,7 +2215,7 @@
         },
         {
           "id": 5881166,
-          "date": "2026-09-12T13:30:00Z",
+          "date": "2026-09-12T13:30:00.000Z",
           "timestamp": 1789219800,
           "round": "3",
           "status": "NS",
@@ -2229,7 +2229,7 @@
         },
         {
           "id": 5881167,
-          "date": "2026-09-12T13:30:00Z",
+          "date": "2026-09-12T13:30:00.000Z",
           "timestamp": 1789219800,
           "round": "3",
           "status": "NS",
@@ -2243,7 +2243,7 @@
         },
         {
           "id": 5881164,
-          "date": "2026-09-12T16:30:00Z",
+          "date": "2026-09-12T16:30:00.000Z",
           "timestamp": 1789230600,
           "round": "3",
           "status": "NS",
@@ -2622,7 +2622,7 @@
       "fixtures": [
         {
           "id": 5781746,
-          "date": "2026-09-12T14:30:00Z",
+          "date": "2026-09-12T14:30:00.000Z",
           "timestamp": 1789223400,
           "round": "6",
           "status": "NS",
@@ -2636,7 +2636,7 @@
         },
         {
           "id": 5781748,
-          "date": "2026-09-12T16:45:00Z",
+          "date": "2026-09-12T16:45:00.000Z",
           "timestamp": 1789231500,
           "round": "6",
           "status": "NS",
@@ -2650,7 +2650,7 @@
         },
         {
           "id": 5781747,
-          "date": "2026-09-12T18:00:00Z",
+          "date": "2026-09-12T18:00:00.000Z",
           "timestamp": 1789236000,
           "round": "6",
           "status": "NS",
@@ -2664,7 +2664,7 @@
         },
         {
           "id": 5781741,
-          "date": "2026-09-12T19:00:00Z",
+          "date": "2026-09-12T19:00:00.000Z",
           "timestamp": 1789239600,
           "round": "6",
           "status": "NS",
