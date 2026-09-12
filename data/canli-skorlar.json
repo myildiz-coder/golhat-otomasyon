@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T14:57:24.859Z",
+  "updatedAt": "2026-09-12T15:11:14.863Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 15,
+    "live": 14,
     "upcoming": 17,
-    "finished": 1
+    "finished": 2
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Rizespor",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Çorum FK",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Brentford",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Aston Villa",
       "away": "Nottingham Forest",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 1,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Hull City",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Ipswich Town",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Fulham",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Espanyol",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,10 +311,10 @@
       "away": "Frosinone",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749674,
@@ -365,7 +365,7 @@
       "away": "Bayer Leverkusen",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 69,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -381,9 +381,9 @@
       "venue": "",
       "home": "Borussia Dortmund",
       "away": "Paderborn",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 68,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "Freiburg",
       "away": "Borussia Mönchengladbach",
-      "homeScore": 2,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 69,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -417,9 +417,9 @@
       "venue": "",
       "home": "Hoffenheim",
       "away": "VfB Stuttgart",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 67,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Eintracht Frankfurt",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 68,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -563,7 +563,7 @@
       "away": "ADO Den Haag",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 41,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
