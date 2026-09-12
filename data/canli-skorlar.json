@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:48:09.251Z",
+  "updatedAt": "2026-09-12T15:56:54.419Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 10,
+    "live": 6,
     "upcoming": 16,
-    "finished": 7
+    "finished": 11
   },
   "matches": [
     {
@@ -40,11 +40,11 @@
       "home": "Eyüpspor",
       "away": "Rizespor",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904748,
@@ -59,10 +59,10 @@
       "away": "Çorum FK",
       "homeScore": 1,
       "awayScore": 5,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904742,
@@ -113,7 +113,7 @@
       "away": "Brentford",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 85,
+      "minute": 94,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Aston Villa",
       "away": "Nottingham Forest",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 88,
+      "awayScore": 2,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "Hull City",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795449,
@@ -166,8 +166,8 @@
       "home": "Crystal Palace",
       "away": "Ipswich Town",
       "homeScore": 2,
-      "awayScore": 2,
-      "minute": 86,
+      "awayScore": 3,
+      "minute": 94,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,10 +185,10 @@
       "away": "Fulham",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795454,
@@ -257,7 +257,7 @@
       "away": "Espanyol",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 76,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "Monaco",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 33,
+      "minute": 42,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -561,9 +561,9 @@
       "venue": "",
       "home": "FC Twente",
       "away": "ADO Den Haag",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 61,
+      "minute": 70,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
