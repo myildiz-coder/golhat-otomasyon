@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:54:56.375Z",
+  "updatedAt": "2026-09-12T16:01:00.329Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -49,6 +49,19 @@
     },
     {
       "rank": 4,
+      "team": "ÇAYKUR RİZESPOR A.Ş.",
+      "played": 5,
+      "won": 3,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 5,
+      "goalsAgainst": 4,
+      "goalDifference": 1,
+      "points": 9,
+      "form": ""
+    },
+    {
+      "rank": 5,
       "team": "TRABZONSPOR A.Ş.",
       "played": 4,
       "won": 2,
@@ -61,7 +74,20 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "team": "ARCA ÇORUM FK",
+      "played": 5,
+      "won": 2,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 12,
+      "goalsAgainst": 10,
+      "goalDifference": 2,
+      "points": 7,
+      "form": ""
+    },
+    {
+      "rank": 7,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 4,
       "won": 2,
@@ -74,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 8,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 4,
       "won": 2,
@@ -87,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 9,
       "team": "CORENDON ALANYASPOR",
       "played": 4,
       "won": 2,
@@ -100,7 +126,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 10,
       "team": "GENÇLERBİRLİĞİ",
       "played": 4,
       "won": 2,
@@ -113,7 +139,7 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 11,
       "team": "FENERBAHÇE A.Ş.",
       "played": 4,
       "won": 2,
@@ -126,7 +152,7 @@
       "form": ""
     },
     {
-      "rank": 10,
+      "rank": 12,
       "team": "KASIMPAŞA A.Ş.",
       "played": 4,
       "won": 1,
@@ -139,20 +165,7 @@
       "form": ""
     },
     {
-      "rank": 11,
-      "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 4,
-      "won": 2,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 4,
-      "goalDifference": -1,
-      "points": 6,
-      "form": ""
-    },
-    {
-      "rank": 12,
+      "rank": 13,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 4,
       "won": 1,
@@ -165,28 +178,15 @@
       "form": ""
     },
     {
-      "rank": 13,
-      "team": "SAMSUNSPOR A.Ş.",
-      "played": 4,
-      "won": 1,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 6,
-      "goalDifference": -1,
-      "points": 4,
-      "form": ""
-    },
-    {
       "rank": 14,
-      "team": "ARCA ÇORUM FK",
-      "played": 4,
+      "team": "SAMSUNSPOR A.Ş.",
+      "played": 5,
       "won": 1,
       "drawn": 1,
-      "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 9,
-      "goalDifference": -2,
+      "lost": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 11,
+      "goalDifference": -5,
       "points": 4,
       "form": ""
     },
@@ -206,13 +206,13 @@
     {
       "rank": 16,
       "team": "EYÜPSPOR",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 0,
-      "lost": 3,
+      "lost": 4,
       "goalsFor": 2,
-      "goalsAgainst": 6,
-      "goalDifference": -4,
+      "goalsAgainst": 8,
+      "goalDifference": -6,
       "points": 3,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317821,
-      "date": "2026-09-12T14:00:00.000Z",
-      "timestamp": 1789221600,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "EYÜPSPOR",
-      "away": "ÇAYKUR RİZESPOR A.Ş."
-    },
     {
       "id": 317822,
       "date": "2026-09-12T17:00:00.000Z",
