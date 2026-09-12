@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:11:22.641Z",
+  "updatedAt": "2026-09-12T16:28:34.477Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 3,
+    "live": 2,
     "upcoming": 15,
-    "finished": 15
+    "finished": 16
   },
   "matches": [
     {
@@ -329,7 +329,7 @@
       "away": "Milan",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "Monaco",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -563,10 +563,10 @@
       "away": "ADO Den Haag",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 85,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781748,
