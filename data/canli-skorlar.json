@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T12:09:24.233Z",
+  "updatedAt": "2026-09-12T12:27:34.080Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -238,8 +238,8 @@
       "home": "Racing Santander",
       "away": "Deportivo Alavés",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 10,
+      "awayScore": 1,
+      "minute": 28,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
