@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T20:23:01.946Z",
+  "updatedAt": "2026-09-12T20:45:46.234Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 8,
+    "live": 3,
     "upcoming": 0,
-    "finished": 25
+    "finished": 30
   },
   "matches": [
     {
@@ -221,7 +221,7 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 66,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Rayo Vallecano",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 60,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,10 +347,10 @@
       "away": "Cagliari",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 81,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881161,
@@ -491,10 +491,10 @@
       "away": "Nice",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 77,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802930,
@@ -509,10 +509,10 @@
       "away": "Angers",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 81,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802933,
@@ -527,10 +527,10 @@
       "away": "Toulouse",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 80,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802934,
@@ -545,10 +545,10 @@
       "away": "Lyon",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 80,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781746,
@@ -617,7 +617,7 @@
       "away": "NEC Nijmegen",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 65,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
