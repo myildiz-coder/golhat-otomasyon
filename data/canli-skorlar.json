@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:28:34.477Z",
+  "updatedAt": "2026-09-12T16:40:17.310Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 33,
-    "live": 2,
-    "upcoming": 15,
+    "live": 5,
+    "upcoming": 12,
     "finished": 16
   },
   "matches": [
@@ -203,10 +203,10 @@
       "away": "Everton",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795453,
@@ -275,10 +275,10 @@
       "away": "Elche",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868057,
@@ -329,7 +329,7 @@
       "away": "Milan",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,10 +455,10 @@
       "away": "Werder Bremen",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802936,
@@ -471,9 +471,9 @@
       "venue": "",
       "home": "Strasbourg",
       "away": "Monaco",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 63,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
