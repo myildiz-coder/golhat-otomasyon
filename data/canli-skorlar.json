@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:35:25.943Z",
+  "updatedAt": "2026-09-12T19:44:57.328Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -221,7 +221,7 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 36,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -291,9 +291,9 @@
       "venue": "",
       "home": "Real Madrid",
       "away": "Rayo Vallecano",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 34,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -598,8 +598,8 @@
       "home": "Fortuna Sittard",
       "away": "Ajax",
       "homeScore": 1,
-      "awayScore": 3,
-      "minute": 74,
+      "awayScore": 4,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -617,7 +617,7 @@
       "away": "NEC Nijmegen",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 35,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
