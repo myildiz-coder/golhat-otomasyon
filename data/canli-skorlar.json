@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:24:00.704Z",
+  "updatedAt": "2026-09-13T20:37:56.004Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 21,
-    "live": 3,
+    "live": 2,
     "upcoming": 0,
-    "finished": 18
+    "finished": 19
   },
   "matches": [
     {
@@ -185,7 +185,7 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -237,12 +237,12 @@
       "venue": "",
       "home": "Sassuolo",
       "away": "Juventus",
-      "homeScore": 1,
-      "awayScore": 1,
-      "minute": 83,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 3,
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881168,
@@ -329,7 +329,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 77,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
