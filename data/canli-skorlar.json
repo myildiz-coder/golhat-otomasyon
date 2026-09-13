@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T13:48:10.121Z",
+  "updatedAt": "2026-09-13T13:57:15.974Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -131,7 +131,7 @@
       "away": "Málaga",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 87,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Monza",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 46,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Hamburger SV",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 18,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Troyes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 48,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 58,
+      "minute": 67,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
