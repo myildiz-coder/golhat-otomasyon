@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:56:24.922Z",
+  "updatedAt": "2026-09-13T19:02:45.877Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -10,6 +10,19 @@
   "standings": [
     {
       "rank": 1,
+      "team": "GALATASARAY A.Ş.",
+      "played": 5,
+      "won": 4,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 13,
+      "goalsAgainst": 6,
+      "goalDifference": 7,
+      "points": 13,
+      "form": ""
+    },
+    {
+      "rank": 2,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 5,
       "won": 4,
@@ -22,7 +35,7 @@
       "form": ""
     },
     {
-      "rank": 2,
+      "rank": 3,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 5,
       "won": 3,
@@ -31,19 +44,6 @@
       "goalsFor": 12,
       "goalsAgainst": 5,
       "goalDifference": 7,
-      "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 3,
-      "team": "GALATASARAY A.Ş.",
-      "played": 4,
-      "won": 3,
-      "drawn": 1,
-      "lost": 0,
-      "goalsFor": 12,
-      "goalsAgainst": 6,
-      "goalDifference": 6,
       "points": 10,
       "form": ""
     },
@@ -62,20 +62,20 @@
     },
     {
       "rank": 5,
-      "team": "KOCAELİSPOR",
-      "played": 4,
+      "team": "ÇAYKUR RİZESPOR A.Ş.",
+      "played": 5,
       "won": 3,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 5,
-      "goalsAgainst": 3,
-      "goalDifference": 2,
+      "goalsAgainst": 4,
+      "goalDifference": 1,
       "points": 9,
       "form": ""
     },
     {
       "rank": 6,
-      "team": "ÇAYKUR RİZESPOR A.Ş.",
+      "team": "KOCAELİSPOR",
       "played": 5,
       "won": 3,
       "drawn": 0,
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317826,
-      "date": "2026-09-13T17:00:00.000Z",
-      "timestamp": 1789318800,
-      "round": "6. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GALATASARAY A.Ş.",
-      "away": "KOCAELİSPOR"
-    },
     {
       "id": 317820,
       "date": "2026-09-14T17:00:00.000Z",
