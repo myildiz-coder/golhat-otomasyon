@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:57:44.081Z",
+  "updatedAt": "2026-09-13T19:10:51.037Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 21,
-    "live": 3,
-    "upcoming": 1,
+    "live": 4,
+    "upcoming": 0,
     "finished": 17
   },
   "matches": [
@@ -185,10 +185,10 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749675,
@@ -239,7 +239,7 @@
       "away": "Juventus",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 12,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Sparta Rotterdam",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
