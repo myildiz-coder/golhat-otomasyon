@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:35:51.434Z",
+  "updatedAt": "2026-09-13T12:49:13.618Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -129,9 +129,9 @@
       "venue": "",
       "home": "Celta Vigo",
       "away": "Málaga",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 34,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
