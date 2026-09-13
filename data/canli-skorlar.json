@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:58:34.531Z",
+  "updatedAt": "2026-09-13T13:13:40.717Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 21,
-    "live": 2,
-    "upcoming": 18,
+    "live": 5,
+    "upcoming": 15,
     "finished": 1
   },
   "matches": [
@@ -95,10 +95,10 @@
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 14,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795452,
@@ -131,7 +131,7 @@
       "away": "Málaga",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,12 +201,12 @@
       "venue": "",
       "home": "Lecce",
       "away": "Monza",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749676,
@@ -293,10 +293,10 @@
       "away": "Troyes",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 13,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802931,
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 28,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
