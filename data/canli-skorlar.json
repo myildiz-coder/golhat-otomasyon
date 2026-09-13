@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:38:09.827Z",
+  "updatedAt": "2026-09-13T16:49:26.729Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -113,7 +113,7 @@
       "away": "Manchester City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 51,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Deportivo A Coruña",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Bologna",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 38,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 46,
+      "minute": 57,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Lens",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 66,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
