@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:57:32.652Z",
+  "updatedAt": "2026-09-13T18:14:35.674Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 21,
-    "live": 3,
-    "upcoming": 4,
+    "live": 4,
+    "upcoming": 3,
     "finished": 14
   },
   "matches": [
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Amed Sportif",
       "away": "Başakşehir",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 57,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Kocaelispor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -165,9 +165,9 @@
       "venue": "",
       "home": "Getafe",
       "away": "Deportivo A Coruña",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 65,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,10 +401,10 @@
       "away": "Sparta Rotterdam",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 15,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
