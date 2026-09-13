@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:47:05.880Z",
+  "updatedAt": "2026-09-13T15:55:54.036Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 21,
-    "live": 6,
+    "live": 5,
     "upcoming": 8,
-    "finished": 7
+    "finished": 8
   },
   "matches": [
     {
@@ -40,11 +40,11 @@
       "home": "Gençlerbirliği",
       "away": "Kasımpaşa",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904743,
@@ -113,7 +113,7 @@
       "away": "Manchester City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 17,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 65,
+      "minute": 74,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 17,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Lens",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 32,
+      "minute": 41,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -382,8 +382,8 @@
       "home": "PEC Zwolle",
       "away": "Feyenoord",
       "homeScore": 0,
-      "awayScore": 3,
-      "minute": null,
+      "awayScore": 4,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
