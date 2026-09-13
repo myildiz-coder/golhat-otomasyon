@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-13T18:49:13.397Z",
+  "updatedAt": "2026-09-13T18:56:24.922Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "5. Hafta",
-  "roundLabel": "5. Hafta",
+  "round": "6. Hafta",
+  "roundLabel": "6. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -23,6 +23,19 @@
     },
     {
       "rank": 2,
+      "team": "AMED SPORTİF FAALİYETLER",
+      "played": 5,
+      "won": 3,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 5,
+      "goalDifference": 7,
+      "points": 10,
+      "form": ""
+    },
+    {
+      "rank": 3,
       "team": "GALATASARAY A.Ş.",
       "played": 4,
       "won": 3,
@@ -35,7 +48,7 @@
       "form": ""
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "KASIMPAŞA A.Ş.",
       "played": 5,
       "won": 2,
@@ -48,7 +61,7 @@
       "form": ""
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "KOCAELİSPOR",
       "played": 4,
       "won": 3,
@@ -61,7 +74,7 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 5,
       "won": 3,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "CORENDON ALANYASPOR",
       "played": 5,
       "won": 2,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "TRABZONSPOR A.Ş.",
       "played": 5,
       "won": 2,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "ARCA ÇORUM FK",
       "played": 5,
       "won": 2,
@@ -108,19 +121,6 @@
       "lost": 2,
       "goalsFor": 12,
       "goalsAgainst": 10,
-      "goalDifference": 2,
-      "points": 7,
-      "form": ""
-    },
-    {
-      "rank": 9,
-      "team": "AMED SPORTİF FAALİYETLER",
-      "played": 4,
-      "won": 2,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 5,
       "goalDifference": 2,
       "points": 7,
       "form": ""
@@ -167,13 +167,13 @@
     {
       "rank": 13,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 1,
-      "lost": 2,
+      "lost": 3,
       "goalsFor": 6,
-      "goalsAgainst": 6,
-      "goalDifference": 0,
+      "goalsAgainst": 11,
+      "goalDifference": -5,
       "points": 4,
       "form": ""
     },
@@ -245,21 +245,10 @@
   ],
   "fixtures": [
     {
-      "id": 317823,
-      "date": "2026-09-13T17:00:00.000Z",
-      "timestamp": 1789318800,
-      "round": "5. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "AMED SPORTİF FAALİYETLER",
-      "away": "İSTANBUL BAŞAKŞEHİR FK"
-    },
-    {
       "id": 317826,
       "date": "2026-09-13T17:00:00.000Z",
       "timestamp": 1789318800,
-      "round": "5. Hafta",
+      "round": "6. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -270,7 +259,7 @@
       "id": 317820,
       "date": "2026-09-14T17:00:00.000Z",
       "timestamp": 1789405200,
-      "round": "5. Hafta",
+      "round": "6. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
