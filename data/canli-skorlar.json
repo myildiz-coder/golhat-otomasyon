@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:48:19.118Z",
+  "updatedAt": "2026-09-13T18:57:44.081Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 21,
-    "live": 5,
+    "live": 3,
     "upcoming": 1,
-    "finished": 15
+    "finished": 17
   },
   "matches": [
     {
@@ -59,10 +59,10 @@
       "away": "Başakşehir",
       "homeScore": 5,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904746,
@@ -77,10 +77,10 @@
       "away": "Kocaelispor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795448,
@@ -239,7 +239,7 @@
       "away": "Juventus",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Brest",
       "away": "Paris Saint-Germain",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 3,
+      "awayScore": 1,
+      "minute": 12,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
