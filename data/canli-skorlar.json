@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:40:28.557Z",
+  "updatedAt": "2026-09-13T14:54:02.626Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 21,
-    "live": 6,
-    "upcoming": 12,
+    "live": 7,
+    "upcoming": 11,
     "finished": 3
   },
   "matches": [
@@ -41,7 +41,7 @@
       "away": "Kasımpaşa",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 40,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Coventry City",
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
-      "awayScore": 3,
-      "minute": 83,
+      "awayScore": 5,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 23,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -202,8 +202,8 @@
       "home": "Lecce",
       "away": "Monza",
       "homeScore": 3,
-      "awayScore": 1,
-      "minute": 76,
+      "awayScore": 2,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Hamburger SV",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 51,
+      "minute": 65,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -291,9 +291,9 @@
       "venue": "",
       "home": "Lille",
       "away": "Troyes",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 81,
+      "minute": 94,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,10 +383,10 @@
       "away": "Feyenoord",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781743,
