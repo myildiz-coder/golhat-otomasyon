@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:11:43.946Z",
+  "updatedAt": "2026-09-13T14:28:19.455Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 21,
     "live": 6,
-    "upcoming": 13,
-    "finished": 2
+    "upcoming": 12,
+    "finished": 3
   },
   "matches": [
     {
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Gençlerbirliği",
       "away": "Kasımpaşa",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 12,
+      "minute": 28,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Coventry City",
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
-      "awayScore": 2,
-      "minute": 54,
+      "awayScore": 3,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -148,11 +148,11 @@
       "home": "Levante",
       "away": "Barcelona",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868053,
@@ -203,7 +203,7 @@
       "away": "Monza",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 47,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Hamburger SV",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 41,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Troyes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 69,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,10 +365,10 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 82,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781749,
