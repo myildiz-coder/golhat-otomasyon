@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:37:26.453Z",
+  "updatedAt": "2026-09-13T15:47:05.880Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Kasımpaşa",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 80,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Manchester City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 56,
+      "minute": 65,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Bayern München",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -309,9 +309,9 @@
       "venue": "",
       "home": "Le Mans",
       "away": "Lens",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 23,
+      "minute": 32,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
