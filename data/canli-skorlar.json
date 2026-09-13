@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:26:42.839Z",
+  "updatedAt": "2026-09-13T19:37:41.896Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -185,7 +185,7 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Juventus",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 42,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 41,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "PSV Eindhoven",
       "away": "Sparta Rotterdam",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1,
-      "minute": 68,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
