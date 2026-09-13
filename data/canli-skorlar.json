@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T10:23:55.557Z",
+  "updatedAt": "2026-09-13T10:37:33.259Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -347,7 +347,7 @@
       "away": "FC Utrecht",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
