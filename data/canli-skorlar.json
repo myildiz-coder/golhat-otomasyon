@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:49:13.618Z",
+  "updatedAt": "2026-09-13T12:58:34.531Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -131,7 +131,7 @@
       "away": "Málaga",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 47,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 18,
+      "minute": 28,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
