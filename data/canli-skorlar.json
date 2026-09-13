@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:54:02.626Z",
+  "updatedAt": "2026-09-13T15:07:28.702Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 21,
-    "live": 7,
+    "live": 4,
     "upcoming": 11,
-    "finished": 3
+    "finished": 6
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Kasımpaşa",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,10 +95,10 @@
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
       "awayScore": 5,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795452,
@@ -149,7 +149,7 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 37,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,10 +203,10 @@
       "away": "Monza",
       "homeScore": 3,
       "awayScore": 2,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749676,
@@ -255,9 +255,9 @@
       "venue": "",
       "home": "RB Leipzig",
       "away": "Hamburger SV",
-      "homeScore": 2,
+      "homeScore": 5,
       "awayScore": 0,
-      "minute": 65,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,10 +293,10 @@
       "away": "Troyes",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802931,
@@ -382,8 +382,8 @@
       "home": "PEC Zwolle",
       "away": "Feyenoord",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 8,
+      "awayScore": 1,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
