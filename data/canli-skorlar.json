@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T13:57:15.974Z",
+  "updatedAt": "2026-09-13T14:11:43.946Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 21,
     "live": 6,
-    "upcoming": 14,
-    "finished": 1
+    "upcoming": 13,
+    "finished": 2
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Kasımpaşa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 12,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904743,
@@ -94,8 +94,8 @@
       "home": "Coventry City",
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": null,
+      "awayScore": 2,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,10 +131,10 @@
       "away": "Málaga",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868054,
@@ -203,7 +203,7 @@
       "away": "Monza",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": null,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -255,9 +255,9 @@
       "venue": "",
       "home": "RB Leipzig",
       "away": "Hamburger SV",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 41,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Troyes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 67,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
