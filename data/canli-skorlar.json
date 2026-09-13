@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T13:27:21.230Z",
+  "updatedAt": "2026-09-13T13:38:53.245Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 21,
-    "live": 5,
-    "upcoming": 15,
+    "live": 6,
+    "upcoming": 14,
     "finished": 1
   },
   "matches": [
@@ -94,8 +94,8 @@
       "home": "Coventry City",
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 27,
+      "awayScore": 1,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Málaga",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 66,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Monza",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 25,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,10 +257,10 @@
       "away": "Hamburger SV",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881163,
@@ -293,7 +293,7 @@
       "away": "Troyes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
