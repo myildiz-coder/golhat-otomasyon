@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T13:13:40.717Z",
+  "updatedAt": "2026-09-13T13:27:21.230Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -95,7 +95,7 @@
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Málaga",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 66,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Lecce",
       "away": "Monza",
-      "homeScore": 2,
-      "awayScore": 0,
-      "minute": 11,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -291,9 +291,9 @@
       "venue": "",
       "home": "Lille",
       "away": "Troyes",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
