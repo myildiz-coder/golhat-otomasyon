@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:13:03.277Z",
+  "updatedAt": "2026-09-13T17:27:22.310Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 21,
-    "live": 6,
+    "live": 4,
     "upcoming": 4,
-    "finished": 11
+    "finished": 13
   },
   "matches": [
     {
@@ -59,7 +59,7 @@
       "away": "Başakşehir",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Galatasaray",
       "away": "Kocaelispor",
-      "homeScore": 1,
+      "homeScore": 0,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,10 +113,10 @@
       "away": "Manchester City",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868052,
@@ -167,7 +167,7 @@
       "away": "Deportivo A Coruña",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 41,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -219,9 +219,9 @@
       "venue": "",
       "home": "Napoli",
       "away": "Bologna",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 53,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,10 +275,10 @@
       "away": "Bayern München",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 81,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802932,
