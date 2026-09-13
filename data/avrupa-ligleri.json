@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T08:23:57.289Z",
+  "updatedAt": "2026-09-13T12:27:15.303Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -704,6 +704,21 @@
         },
         {
           "rank": 15,
+          "teamId": 9910,
+          "team": "Celta Vigo",
+          "played": 6,
+          "won": 0,
+          "drawn": 4,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
+          "points": 4,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 16,
           "teamId": 8370,
           "team": "Rayo Vallecano",
           "played": 5,
@@ -718,22 +733,22 @@
           "description": ""
         },
         {
-          "rank": 16,
-          "teamId": 9910,
-          "team": "Celta Vigo",
+          "rank": 17,
+          "teamId": 9864,
+          "team": "Málaga",
           "played": 5,
           "won": 0,
           "drawn": 3,
           "lost": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "goalDifference": -6,
           "points": 3,
           "form": "",
           "description": ""
         },
         {
-          "rank": 17,
+          "rank": 18,
           "teamId": 10205,
           "team": "Villarreal",
           "played": 4,
@@ -743,21 +758,6 @@
           "goalsFor": 6,
           "goalsAgainst": 8,
           "goalDifference": -2,
-          "points": 2,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 18,
-          "teamId": 9864,
-          "team": "Málaga",
-          "played": 4,
-          "won": 0,
-          "drawn": 2,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6,
           "points": 2,
           "form": "",
           "description": "#FF4646"
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868052,
-          "date": "2026-09-13T12:00:00.000Z",
-          "timestamp": 1789300800,
-          "round": "5",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Celta Vigo",
-          "away": "Málaga",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868054,
           "date": "2026-09-13T14:15:00.000Z",
@@ -958,6 +944,20 @@
           "venue": "",
           "home": "Levante",
           "away": "Athletic Club",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5868063,
+          "date": "2026-09-17T17:00:00Z",
+          "timestamp": 1789664400,
+          "round": "6",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Real Betis",
+          "away": "Getafe",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -2427,13 +2427,13 @@
           "rank": 6,
           "teamId": 10218,
           "team": "Excelsior",
-          "played": 5,
+          "played": 6,
           "won": 3,
           "drawn": 1,
-          "lost": 1,
-          "goalsFor": 12,
-          "goalsAgainst": 5,
-          "goalDifference": 7,
+          "lost": 2,
+          "goalsFor": 13,
+          "goalsAgainst": 7,
+          "goalDifference": 6,
           "points": 10,
           "form": "",
           "description": "#7FAEFF"
@@ -2530,6 +2530,21 @@
         },
         {
           "rank": 13,
+          "teamId": 9908,
+          "team": "FC Utrecht",
+          "played": 6,
+          "won": 1,
+          "drawn": 2,
+          "lost": 3,
+          "goalsFor": 11,
+          "goalsAgainst": 19,
+          "goalDifference": -8,
+          "points": 5,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 14,
           "teamId": 6413,
           "team": "PEC Zwolle",
           "played": 5,
@@ -2544,7 +2559,7 @@
           "description": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "teamId": 6414,
           "team": "Telstar",
           "played": 5,
@@ -2559,7 +2574,7 @@
           "description": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "teamId": 7788,
           "team": "Cambuur",
           "played": 6,
@@ -2570,21 +2585,6 @@
           "goalsAgainst": 18,
           "goalDifference": -9,
           "points": 4,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 16,
-          "teamId": 9908,
-          "team": "FC Utrecht",
-          "played": 5,
-          "won": 0,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 9,
-          "goalsAgainst": 18,
-          "goalDifference": -9,
-          "points": 2,
           "form": "",
           "description": "#FFA72F"
         },
@@ -2620,20 +2620,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5781745,
-          "date": "2026-09-13T10:15:00.000Z",
-          "timestamp": 1789294500,
-          "round": "6",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Excelsior",
-          "away": "FC Utrecht",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5781744,
           "date": "2026-09-13T12:30:00.000Z",
@@ -2784,6 +2770,20 @@
           "venue": "",
           "home": "AZ Alkmaar",
           "away": "Telstar",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5781753,
+          "date": "2026-09-20T12:30:00Z",
+          "timestamp": 1789907400,
+          "round": "7",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "FC Twente",
+          "away": "PSV Eindhoven",
           "started": false,
           "finished": false,
           "cancelled": false
