@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T11:49:00.513Z",
+  "updatedAt": "2026-09-13T11:58:01.503Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -345,9 +345,9 @@
       "venue": "",
       "home": "Excelsior",
       "away": "FC Utrecht",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 76,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
