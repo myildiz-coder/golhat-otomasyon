@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:14:35.674Z",
+  "updatedAt": "2026-09-13T18:31:13.503Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 21,
-    "live": 4,
+    "live": 3,
     "upcoming": 3,
-    "finished": 14
+    "finished": 15
   },
   "matches": [
     {
@@ -59,7 +59,7 @@
       "away": "Başakşehir",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 57,
+      "minute": 73,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Kocaelispor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 54,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,10 +167,10 @@
       "away": "Deportivo A Coruña",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 82,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868058,
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "PSV Eindhoven",
       "away": "Sparta Rotterdam",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 15,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 31,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
