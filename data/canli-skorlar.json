@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:09:08.161Z",
+  "updatedAt": "2026-09-13T20:24:00.704Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -185,7 +185,7 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 49,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -238,8 +238,8 @@
       "home": "Sassuolo",
       "away": "Juventus",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 68,
+      "awayScore": 1,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 62,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
