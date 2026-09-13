@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:28:19.455Z",
+  "updatedAt": "2026-09-13T14:40:28.557Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Kasımpaşa",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 28,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 71,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -148,8 +148,8 @@
       "home": "Levante",
       "away": "Barcelona",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 11,
+      "awayScore": 2,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Monza",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 64,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -257,7 +257,7 @@
       "away": "Hamburger SV",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Troyes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 69,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
