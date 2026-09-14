@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:22:57.322Z",
+  "updatedAt": "2026-09-14T00:31:45.387Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -317,7 +317,7 @@
       "fixtures": [
         {
           "id": 5795450,
-          "date": "2026-09-14T19:00:00Z",
+          "date": "2026-09-14T19:00:00.000Z",
           "timestamp": 1789412400,
           "round": "4",
           "status": "NS",
@@ -539,6 +539,21 @@
         },
         {
           "rank": 4,
+          "teamId": 9906,
+          "team": "Atlético Madrid",
+          "played": 5,
+          "won": 3,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 6,
+          "goalDifference": 4,
+          "points": 10,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 5,
           "teamId": 8302,
           "team": "Sevilla",
           "played": 5,
@@ -550,10 +565,10 @@
           "goalDifference": 2,
           "points": 10,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 9783,
           "team": "Deportivo A Coruña",
           "played": 5,
@@ -565,10 +580,10 @@
           "goalDifference": 3,
           "points": 9,
           "form": "",
-          "description": "#0046A7"
+          "description": "#02CCF0"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "teamId": 8603,
           "team": "Real Betis",
           "played": 4,
@@ -580,40 +595,10 @@
           "goalDifference": 0,
           "points": 9,
           "form": "",
-          "description": "#02CCF0"
-        },
-        {
-          "rank": 7,
-          "teamId": 9906,
-          "team": "Atlético Madrid",
-          "played": 5,
-          "won": 2,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 6,
-          "goalDifference": 1,
-          "points": 8,
-          "form": "",
           "description": ""
         },
         {
           "rank": 8,
-          "teamId": 8560,
-          "team": "Real Sociedad",
-          "played": 6,
-          "won": 2,
-          "drawn": 2,
-          "lost": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 8,
-          "goalDifference": -2,
-          "points": 8,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 9,
           "teamId": 8558,
           "team": "Espanyol",
           "played": 5,
@@ -628,7 +613,7 @@
           "description": ""
         },
         {
-          "rank": 10,
+          "rank": 9,
           "teamId": 8315,
           "team": "Athletic Club",
           "played": 5,
@@ -643,7 +628,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 10,
           "teamId": 8696,
           "team": "Racing Santander",
           "played": 5,
@@ -658,7 +643,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 11,
           "teamId": 8371,
           "team": "Osasuna",
           "played": 5,
@@ -668,6 +653,21 @@
           "goalsFor": 5,
           "goalsAgainst": 8,
           "goalDifference": -3,
+          "points": 7,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
+          "teamId": 8560,
+          "team": "Real Sociedad",
+          "played": 6,
+          "won": 2,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 11,
+          "goalDifference": -5,
           "points": 7,
           "form": "",
           "description": ""
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868060,
-          "date": "2026-09-14T19:00:00Z",
+          "date": "2026-09-14T19:00:00.000Z",
           "timestamp": 1789412400,
           "round": "5",
           "status": "NS",
@@ -1084,8 +1084,8 @@
           "won": 2,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 4,
-          "goalsAgainst": 2,
+          "goalsFor": 6,
+          "goalsAgainst": 4,
           "goalDifference": 2,
           "points": 7,
           "form": "",
@@ -1099,8 +1099,8 @@
           "won": 2,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 6,
-          "goalsAgainst": 5,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
           "goalDifference": 1,
           "points": 7,
           "form": "",
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749671,
-          "date": "2026-09-14T16:30:00Z",
+          "date": "2026-09-14T16:30:00.000Z",
           "timestamp": 1789403400,
           "round": "4",
           "status": "NS",
@@ -1289,7 +1289,7 @@
         },
         {
           "id": 5749678,
-          "date": "2026-09-14T16:30:00Z",
+          "date": "2026-09-14T16:30:00.000Z",
           "timestamp": 1789403400,
           "round": "4",
           "status": "NS",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": 5749673,
-          "date": "2026-09-14T18:45:00Z",
+          "date": "2026-09-14T18:45:00.000Z",
           "timestamp": 1789411500,
           "round": "4",
           "status": "NS",
