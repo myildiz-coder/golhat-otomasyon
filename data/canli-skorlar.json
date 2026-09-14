@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T20:44:22.246Z",
+  "updatedAt": "2026-09-14T20:56:18.036Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 2,
+    "live": 0,
     "upcoming": 0,
-    "finished": 4
+    "finished": 6
   },
   "matches": [
     {
@@ -58,11 +58,11 @@
       "home": "Leeds United",
       "away": "Newcastle United",
       "homeScore": 4,
-      "awayScore": 0,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868060,
@@ -77,10 +77,10 @@
       "away": "Real Betis",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 85,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749671,
