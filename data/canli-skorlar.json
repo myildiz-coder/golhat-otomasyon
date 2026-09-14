@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T18:09:08.882Z",
+  "updatedAt": "2026-09-14T18:27:53.906Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 3,
+    "live": 1,
     "upcoming": 3,
-    "finished": 0
+    "finished": 2
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Fenerbahçe",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Como",
       "away": "Parma",
-      "homeScore": 1,
-      "awayScore": 0,
-      "minute": 79,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749678,
@@ -112,11 +112,11 @@
       "home": "Torino",
       "away": "Roma",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 78,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749673,
