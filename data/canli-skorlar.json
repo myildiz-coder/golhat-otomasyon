@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T20:11:55.393Z",
+  "updatedAt": "2026-09-14T20:29:40.984Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Leeds United",
       "away": "Newcastle United",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 54,
+      "minute": 72,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Real Betis",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 52,
+      "minute": 70,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -129,9 +129,9 @@
       "venue": "",
       "home": "Inter",
       "away": "Udinese",
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 2,
-      "minute": 68,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
