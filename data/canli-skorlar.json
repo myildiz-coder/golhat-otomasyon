@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T18:46:15.232Z",
+  "updatedAt": "2026-09-14T18:59:26.432Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 6,
     "live": 1,
-    "upcoming": 3,
-    "finished": 2
+    "upcoming": 2,
+    "finished": 3
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Fenerbahçe",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795450,
@@ -130,11 +130,11 @@
       "home": "Inter",
       "away": "Udinese",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 14,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
