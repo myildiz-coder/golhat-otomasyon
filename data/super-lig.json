@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-14T18:42:04.695Z",
+  "updatedAt": "2026-09-14T21:08:29.131Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "5. Hafta",
-  "roundLabel": "5. Hafta",
+  "round": "6. Hafta",
+  "roundLabel": "6. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -88,6 +88,19 @@
     },
     {
       "rank": 7,
+      "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
+      "played": 5,
+      "won": 2,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 5,
+      "goalDifference": 2,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 8,
       "team": "CORENDON ALANYASPOR",
       "played": 5,
       "won": 2,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "TRABZONSPOR A.Ş.",
       "played": 5,
       "won": 2,
@@ -113,7 +126,7 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "ARCA ÇORUM FK",
       "played": 5,
       "won": 2,
@@ -126,20 +139,20 @@
       "form": ""
     },
     {
-      "rank": 10,
-      "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 4,
+      "rank": 11,
+      "team": "FENERBAHÇE A.Ş.",
+      "played": 5,
       "won": 2,
       "drawn": 1,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 5,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
       "goalDifference": 2,
       "points": 7,
       "form": ""
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "GENÇLERBİRLİĞİ",
       "played": 5,
       "won": 2,
@@ -149,19 +162,6 @@
       "goalsAgainst": 9,
       "goalDifference": -4,
       "points": 7,
-      "form": ""
-    },
-    {
-      "rank": 12,
-      "team": "FENERBAHÇE A.Ş.",
-      "played": 4,
-      "won": 2,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 8,
-      "goalsAgainst": 6,
-      "goalDifference": 2,
-      "points": 6,
       "form": ""
     },
     {
@@ -245,15 +245,103 @@
   ],
   "fixtures": [
     {
-      "id": 317820,
-      "date": "2026-09-14T17:00:00.000Z",
-      "timestamp": 1789405200,
-      "round": "5. Hafta",
+      "id": 317830,
+      "date": "2026-09-18T17:00:00.000Z",
+      "timestamp": 1789750800,
+      "round": "6. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
-      "home": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "away": "FENERBAHÇE A.Ş."
+      "home": "KASIMPAŞA A.Ş.",
+      "away": "TÜMOSAN KONYASPOR"
+    },
+    {
+      "id": 317834,
+      "date": "2026-09-19T14:00:00.000Z",
+      "timestamp": 1789826400,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "ARCA ÇORUM FK",
+      "away": "CORENDON ALANYASPOR"
+    },
+    {
+      "id": 317836,
+      "date": "2026-09-19T14:00:00.000Z",
+      "timestamp": 1789826400,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "KOCAELİSPOR",
+      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
+    },
+    {
+      "id": 317829,
+      "date": "2026-09-19T17:00:00.000Z",
+      "timestamp": 1789837200,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "TRABZONSPOR A.Ş.",
+      "away": "GALATASARAY A.Ş."
+    },
+    {
+      "id": 317831,
+      "date": "2026-09-19T17:00:00.000Z",
+      "timestamp": 1789837200,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "İSTANBUL BAŞAKŞEHİR FK",
+      "away": "GENÇLERBİRLİĞİ"
+    },
+    {
+      "id": 317835,
+      "date": "2026-09-20T14:00:00.000Z",
+      "timestamp": 1789912800,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "FENERBAHÇE A.Ş.",
+      "away": "EYÜPSPOR"
+    },
+    {
+      "id": 317837,
+      "date": "2026-09-20T14:00:00.000Z",
+      "timestamp": 1789912800,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "ERZURUMSPOR FK",
+      "away": "SAMSUNSPOR A.Ş."
+    },
+    {
+      "id": 317832,
+      "date": "2026-09-20T17:00:00.000Z",
+      "timestamp": 1789923600,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "AMED SPORTİF FAALİYETLER",
+      "away": "BEŞİKTAŞ A.Ş."
+    },
+    {
+      "id": 317833,
+      "date": "2026-09-20T17:00:00.000Z",
+      "timestamp": 1789923600,
+      "round": "6. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GÖZTEPE A.Ş.",
+      "away": "ÇAYKUR RİZESPOR A.Ş."
     }
   ]
 }
