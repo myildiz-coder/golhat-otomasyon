@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:52:03.024Z",
+  "updatedAt": "2026-09-14T18:09:08.882Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Fenerbahçe",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Parma",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 62,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Roma",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 61,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
