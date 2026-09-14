@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T20:29:40.984Z",
+  "updatedAt": "2026-09-14T20:44:22.246Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 3,
+    "live": 2,
     "upcoming": 0,
-    "finished": 3
+    "finished": 4
   },
   "matches": [
     {
@@ -59,7 +59,7 @@
       "away": "Newcastle United",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 72,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Real Betis",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 70,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,11 +130,11 @@
       "home": "Inter",
       "away": "Udinese",
       "homeScore": 5,
-      "awayScore": 2,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 3,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
