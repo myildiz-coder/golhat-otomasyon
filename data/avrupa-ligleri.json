@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T16:24:30.301Z",
+  "updatedAt": "2026-09-14T20:23:36.371Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -45,6 +45,21 @@
         },
         {
           "rank": 3,
+          "teamId": 8463,
+          "team": "Leeds United",
+          "played": 4,
+          "won": 2,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 2,
+          "goalDifference": 5,
+          "points": 8,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 8667,
           "team": "Hull City",
           "played": 4,
@@ -59,7 +74,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": 10204,
           "team": "Brighton & Hove Albion",
           "played": 4,
@@ -71,10 +86,10 @@
           "goalDifference": 8,
           "points": 7,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 8455,
           "team": "Chelsea",
           "played": 4,
@@ -86,10 +101,10 @@
           "goalDifference": 1,
           "points": 7,
           "form": "",
-          "description": "#0046A7"
+          "description": ""
         },
         {
-          "rank": 6,
+          "rank": 7,
           "teamId": 9937,
           "team": "Brentford",
           "played": 4,
@@ -104,7 +119,7 @@
           "description": ""
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": 8650,
           "team": "Liverpool",
           "played": 4,
@@ -119,7 +134,7 @@
           "description": ""
         },
         {
-          "rank": 8,
+          "rank": 9,
           "teamId": 8668,
           "team": "Everton",
           "played": 4,
@@ -134,7 +149,7 @@
           "description": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "teamId": 9902,
           "team": "Ipswich Town",
           "played": 4,
@@ -149,37 +164,7 @@
           "description": ""
         },
         {
-          "rank": 10,
-          "teamId": 10261,
-          "team": "Newcastle United",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 4,
-          "goalDifference": 2,
-          "points": 5,
-          "form": "",
-          "description": ""
-        },
-        {
           "rank": 11,
-          "teamId": 8463,
-          "team": "Leeds United",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 2,
-          "goalDifference": 1,
-          "points": 5,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 12,
           "teamId": 10203,
           "team": "Nottingham Forest",
           "played": 4,
@@ -189,6 +174,21 @@
           "goalsFor": 4,
           "goalsAgainst": 4,
           "goalDifference": 0,
+          "points": 5,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
+          "teamId": 10261,
+          "team": "Newcastle United",
+          "played": 4,
+          "won": 1,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 8,
+          "goalDifference": -2,
           "points": 5,
           "form": "",
           "description": ""
@@ -315,20 +315,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5795450,
-          "date": "2026-09-14T19:00:00.000Z",
-          "timestamp": 1789412400,
-          "round": "4",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Leeds United",
-          "away": "Newcastle United",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5795456,
           "date": "2026-09-18T19:00:00Z",
@@ -482,6 +468,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5795466,
+          "date": "2026-10-10T14:00:00Z",
+          "timestamp": 1791640800,
+          "round": "6",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Aston Villa",
+          "away": "Brentford",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -524,6 +524,21 @@
         },
         {
           "rank": 3,
+          "teamId": 8603,
+          "team": "Real Betis",
+          "played": 5,
+          "won": 4,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "goalDifference": 1,
+          "points": 12,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 9866,
           "team": "Deportivo Alavés",
           "played": 5,
@@ -538,7 +553,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": 9906,
           "team": "Atlético Madrid",
           "played": 5,
@@ -550,10 +565,10 @@
           "goalDifference": 4,
           "points": 10,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 8302,
           "team": "Sevilla",
           "played": 5,
@@ -565,10 +580,10 @@
           "goalDifference": 2,
           "points": 10,
           "form": "",
-          "description": "#0046A7"
+          "description": "#02CCF0"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "teamId": 9783,
           "team": "Deportivo A Coruña",
           "played": 5,
@@ -578,21 +593,6 @@
           "goalsFor": 9,
           "goalsAgainst": 6,
           "goalDifference": 3,
-          "points": 9,
-          "form": "",
-          "description": "#02CCF0"
-        },
-        {
-          "rank": 7,
-          "teamId": 8603,
-          "team": "Real Betis",
-          "played": 4,
-          "won": 3,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
           "points": 9,
           "form": "",
           "description": ""
@@ -751,13 +751,13 @@
           "rank": 18,
           "teamId": 10205,
           "team": "Villarreal",
-          "played": 4,
+          "played": 5,
           "won": 0,
           "drawn": 2,
-          "lost": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 8,
-          "goalDifference": -2,
+          "lost": 3,
+          "goalsFor": 7,
+          "goalsAgainst": 10,
+          "goalDifference": -3,
           "points": 2,
           "form": "",
           "description": "#FF4646"
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868060,
-          "date": "2026-09-14T19:00:00.000Z",
-          "timestamp": 1789412400,
-          "round": "5",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Villarreal",
-          "away": "Real Betis",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868069,
           "date": "2026-09-15T17:00:00Z",
@@ -961,6 +947,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5868071,
+          "date": "2026-09-19T14:15:00Z",
+          "timestamp": 1789827300,
+          "round": "7",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Athletic Club",
+          "away": "Deportivo Alavés",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -973,6 +973,51 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 8686,
+          "team": "Roma",
+          "played": 4,
+          "won": 4,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 12,
+          "goalsAgainst": 1,
+          "goalDifference": 11,
+          "points": 12,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
+          "teamId": 8636,
+          "team": "Inter",
+          "played": 4,
+          "won": 4,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 13,
+          "goalsAgainst": 5,
+          "goalDifference": 8,
+          "points": 12,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 3,
+          "teamId": 10171,
+          "team": "Como",
+          "played": 4,
+          "won": 3,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 9,
+          "goalsAgainst": 4,
+          "goalDifference": 5,
+          "points": 10,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 8543,
           "team": "Lazio",
           "played": 4,
@@ -987,37 +1032,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 2,
-          "teamId": 8686,
-          "team": "Roma",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 10,
-          "goalsAgainst": 1,
-          "goalDifference": 9,
-          "points": 9,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 3,
-          "teamId": 8636,
-          "team": "Inter",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 8,
-          "goalsAgainst": 3,
-          "goalDifference": 5,
-          "points": 9,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 4,
+          "rank": 5,
           "teamId": 8529,
           "team": "Cagliari",
           "played": 4,
@@ -1029,10 +1044,10 @@
           "goalDifference": 2,
           "points": 9,
           "form": "",
-          "description": "#2AD572"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 8564,
           "team": "Milan",
           "played": 4,
@@ -1043,21 +1058,6 @@
           "goalsAgainst": 4,
           "goalDifference": 3,
           "points": 8,
-          "form": "",
-          "description": "#0046A7"
-        },
-        {
-          "rank": 6,
-          "teamId": 10171,
-          "team": "Como",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 3,
-          "goalDifference": 4,
-          "points": 7,
           "form": "",
           "description": "#02CCF0"
         },
@@ -1155,13 +1155,13 @@
           "rank": 13,
           "teamId": 8600,
           "team": "Udinese",
-          "played": 3,
+          "played": 4,
           "won": 1,
           "drawn": 1,
-          "lost": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
+          "lost": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 10,
+          "goalDifference": -3,
           "points": 4,
           "form": "",
           "description": ""
@@ -1170,13 +1170,13 @@
           "rank": 14,
           "teamId": 9804,
           "team": "Torino",
-          "played": 3,
+          "played": 4,
           "won": 1,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "goalsFor": 4,
-          "goalsAgainst": 5,
-          "goalDifference": -1,
+          "goalsAgainst": 7,
+          "goalDifference": -3,
           "points": 3,
           "form": "",
           "description": ""
@@ -1215,13 +1215,13 @@
           "rank": 17,
           "teamId": 10167,
           "team": "Parma",
-          "played": 3,
+          "played": 4,
           "won": 0,
           "drawn": 1,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "goalDifference": -3,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 6,
+          "goalDifference": -4,
           "points": 1,
           "form": "",
           "description": ""
@@ -1273,48 +1273,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5749671,
-          "date": "2026-09-14T16:30:00.000Z",
-          "timestamp": 1789403400,
-          "round": "4",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Como",
-          "away": "Parma",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
-          "id": 5749678,
-          "date": "2026-09-14T16:30:00.000Z",
-          "timestamp": 1789403400,
-          "round": "4",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Torino",
-          "away": "Roma",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
-          "id": 5749673,
-          "date": "2026-09-14T18:45:00.000Z",
-          "timestamp": 1789411500,
-          "round": "4",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Inter",
-          "away": "Udinese",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5749686,
           "date": "2026-09-18T18:45:00Z",
@@ -1437,6 +1395,48 @@
           "venue": "",
           "home": "Juventus",
           "away": "Atalanta",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749680,
+          "date": "2026-09-20T18:45:00Z",
+          "timestamp": 1789929900,
+          "round": "5",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Milan",
+          "away": "Lecce",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749693,
+          "date": "2026-10-10T13:00:00Z",
+          "timestamp": 1791637200,
+          "round": "6",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Genoa",
+          "away": "Fiorentina",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749694,
+          "date": "2026-10-10T16:00:00Z",
+          "timestamp": 1791648000,
+          "round": "6",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Inter",
+          "away": "Parma",
           "started": false,
           "finished": false,
           "cancelled": false
