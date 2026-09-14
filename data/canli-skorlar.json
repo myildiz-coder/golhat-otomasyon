@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T18:27:53.906Z",
+  "updatedAt": "2026-09-14T18:46:15.232Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Fenerbahçe",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 71,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
