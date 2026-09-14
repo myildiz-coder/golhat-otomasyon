@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T18:38:07.814Z",
+  "updatedAt": "2026-09-14T20:33:45.139Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 3
       },
       "nextMatches": [
-        {
-          "id": 5904740,
-          "date": "2026-09-14T17:00:00.000Z",
-          "timestamp": 1789405200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Gaziantep FK",
-          "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 5904755,
           "date": "2026-09-20T14:00:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904782,
+          "date": "2026-10-25T18:00:00.000Z",
+          "timestamp": 1792951200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904740,
+          "date": "2026-09-14T17:00:00.000Z",
+          "timestamp": 1789405200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Gaziantep FK",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
         {
           "id": 6106331,
           "date": "2026-09-10T16:45:00.000Z",
@@ -161,20 +175,6 @@
           "home": "Lyon",
           "away": "Fenerbahçe",
           "homeScore": 1,
-          "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904719,
-          "date": "2026-08-22T18:30:00.000Z",
-          "timestamp": 1787423400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Konyaspor",
-          "homeScore": 4,
           "awayScore": 2,
           "status": "FT",
           "kind": "finished",
