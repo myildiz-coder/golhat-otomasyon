@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T17:27:46.257Z",
+  "updatedAt": "2026-09-15T17:40:33.541Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Espanyol",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
