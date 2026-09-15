@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T19:28:22.958Z",
+  "updatedAt": "2026-09-15T19:42:02.356Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 4,
-    "live": 2,
-    "upcoming": 1,
+    "live": 3,
+    "upcoming": 0,
     "finished": 1
   },
   "matches": [
@@ -58,8 +58,8 @@
       "home": "Deportivo Alavés",
       "away": "Valencia",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 68,
+      "awayScore": 1,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,10 +77,10 @@
       "away": "Real Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781718,
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Ajax",
       "away": "Willem II",
-      "homeScore": 3,
-      "awayScore": 0,
-      "minute": 71,
+      "homeScore": 4,
+      "awayScore": 1,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
