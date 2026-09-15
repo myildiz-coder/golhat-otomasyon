@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:08:21.783Z",
+  "updatedAt": "2026-09-15T18:24:39.901Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -40,8 +40,8 @@
       "home": "Rayo Vallecano",
       "away": "Espanyol",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 48,
+      "awayScore": 1,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Willem II",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 9,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
