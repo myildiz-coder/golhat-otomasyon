@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T19:55:06.218Z",
+  "updatedAt": "2026-09-15T20:08:28.602Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 4,
-    "live": 2,
+    "live": 1,
     "upcoming": 0,
-    "finished": 2
+    "finished": 3
   },
   "matches": [
     {
@@ -59,10 +59,10 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868065,
@@ -76,8 +76,8 @@
       "home": "Elche",
       "away": "Real Madrid",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 24,
+      "awayScore": 2,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
