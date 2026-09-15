@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T19:10:14.855Z",
+  "updatedAt": "2026-09-15T19:28:22.958Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 50,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Ajax",
       "away": "Willem II",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 53,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
