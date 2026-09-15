@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T21:27:50.179Z",
+  "updatedAt": "2026-09-15T21:39:41.448Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -22,8 +22,8 @@
     88
   ],
   "summary": {
-    "total": 14,
-    "live": 1,
+    "total": 13,
+    "live": 0,
     "upcoming": 13,
     "finished": 0
   },
@@ -189,24 +189,6 @@
       "status": "NS",
       "statusLong": "",
       "kind": "upcoming"
-    },
-    {
-      "id": 5868065,
-      "leagueId": 140,
-      "league": "LaLiga",
-      "country": "ESP",
-      "round": "6",
-      "date": "2026-09-15T19:30:00.000Z",
-      "timestamp": 1789500600,
-      "venue": "",
-      "home": "Elche",
-      "away": "Real Madrid",
-      "homeScore": 2,
-      "awayScore": 3,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
     },
     {
       "id": 5868062,
