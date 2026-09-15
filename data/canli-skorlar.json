@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T17:54:42.122Z",
+  "updatedAt": "2026-09-15T18:08:21.783Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 4,
-    "live": 1,
-    "upcoming": 3,
+    "live": 3,
+    "upcoming": 1,
     "finished": 0
   },
   "matches": [
@@ -41,7 +41,7 @@
       "away": "Espanyol",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,10 +59,10 @@
       "away": "Valencia",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868065,
@@ -95,10 +95,10 @@
       "away": "Willem II",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
