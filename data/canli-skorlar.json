@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T21:13:50.015Z",
+  "updatedAt": "2026-09-15T21:27:50.179Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Elche",
       "away": "Real Madrid",
-      "homeScore": 1,
-      "awayScore": 2,
-      "minute": 82,
+      "homeScore": 2,
+      "awayScore": 3,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
