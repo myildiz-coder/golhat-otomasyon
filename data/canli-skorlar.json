@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T18:49:58.418Z",
+  "updatedAt": "2026-09-16T18:59:02.137Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 13,
-    "live": 2,
+    "live": 0,
     "upcoming": 9,
-    "finished": 2
+    "finished": 4
   },
   "matches": [
     {
@@ -203,10 +203,10 @@
       "away": "Osasuna",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868064,
@@ -221,10 +221,10 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868066,
