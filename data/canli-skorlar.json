@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:38:38.503Z",
+  "updatedAt": "2026-09-16T17:49:05.564Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -203,7 +203,7 @@
       "away": "Osasuna",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 37,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 37,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
