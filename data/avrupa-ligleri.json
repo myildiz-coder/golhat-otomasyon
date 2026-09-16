@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T20:23:04.198Z",
+  "updatedAt": "2026-09-16T00:29:44.056Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -515,9 +515,9 @@
           "won": 5,
           "drawn": 0,
           "lost": 1,
-          "goalsFor": 16,
-          "goalsAgainst": 4,
-          "goalDifference": 12,
+          "goalsFor": 17,
+          "goalsAgainst": 6,
+          "goalDifference": 11,
           "points": 15,
           "form": "",
           "description": "#2AD572"
@@ -785,9 +785,9 @@
           "won": 0,
           "drawn": 2,
           "lost": 4,
-          "goalsFor": 6,
-          "goalsAgainst": 15,
-          "goalDifference": -9,
+          "goalsFor": 8,
+          "goalsAgainst": 16,
+          "goalDifference": -8,
           "points": 2,
           "form": "",
           "description": "#FF4646"
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868062,
-          "date": "2026-09-16T17:00:00Z",
+          "date": "2026-09-16T17:00:00.000Z",
           "timestamp": 1789578000,
           "round": "6",
           "status": "NS",
@@ -810,7 +810,7 @@
         },
         {
           "id": 5868064,
-          "date": "2026-09-16T17:00:00Z",
+          "date": "2026-09-16T17:00:00.000Z",
           "timestamp": 1789578000,
           "round": "6",
           "status": "NS",
@@ -824,7 +824,7 @@
         },
         {
           "id": 5868066,
-          "date": "2026-09-16T19:30:00Z",
+          "date": "2026-09-16T19:30:00.000Z",
           "timestamp": 1789587000,
           "round": "6",
           "status": "NS",
@@ -838,7 +838,7 @@
         },
         {
           "id": 5868067,
-          "date": "2026-09-16T19:30:00Z",
+          "date": "2026-09-16T19:30:00.000Z",
           "timestamp": 1789587000,
           "round": "6",
           "status": "NS",
