@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:09:28.706Z",
+  "updatedAt": "2026-09-16T17:23:05.801Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 23,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Sparta Prague",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Osasuna",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
