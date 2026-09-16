@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:58:14.440Z",
+  "updatedAt": "2026-09-16T18:16:42.875Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 53,
+      "minute": 74,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -58,8 +58,8 @@
       "home": "Ararat Armenia",
       "away": "Sparta Prague",
       "homeScore": 1,
-      "awayScore": 3,
-      "minute": 52,
+      "awayScore": 4,
+      "minute": 75,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Atlético Madrid",
       "away": "Osasuna",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -220,8 +220,8 @@
       "home": "Deportivo A Coruña",
       "away": "Sevilla",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 1,
+      "minute": 57,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
