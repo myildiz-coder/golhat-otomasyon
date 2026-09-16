@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:49:05.564Z",
+  "updatedAt": "2026-09-16T17:58:14.440Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Ararat Armenia",
       "away": "Sparta Prague",
-      "homeScore": 0,
-      "awayScore": 2,
-      "minute": null,
+      "homeScore": 1,
+      "awayScore": 3,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Osasuna",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 47,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
