@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T16:44:57.559Z",
+  "updatedAt": "2026-09-16T16:56:24.933Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 13,
-    "live": 0,
-    "upcoming": 13,
+    "live": 2,
+    "upcoming": 11,
     "finished": 0
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Celta Vigo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112383,
@@ -59,10 +59,10 @@
       "away": "Sparta Prague",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112244,
