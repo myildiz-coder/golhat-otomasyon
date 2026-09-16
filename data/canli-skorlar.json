@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T18:34:46.597Z",
+  "updatedAt": "2026-09-16T18:49:58.418Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 13,
-    "live": 4,
+    "live": 2,
     "upcoming": 9,
-    "finished": 0
+    "finished": 2
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Celta Vigo",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112383,
@@ -59,10 +59,10 @@
       "away": "Sparta Prague",
       "homeScore": 1,
       "awayScore": 4,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112244,
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Atlético Madrid",
       "away": "Osasuna",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 73,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Sevilla",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 76,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
