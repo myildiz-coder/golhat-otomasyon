@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T20:24:32.674Z",
+  "updatedAt": "2026-09-16T20:39:14.904Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Bayer Leverkusen",
       "away": "NK Celje",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 66,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Benfica",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 64,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Jagiellonia Białystok",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 67,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Lyon",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 67,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Rennes",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "AZ Alkmaar",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 67,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Dinamo Zagreb",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 63,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Racing Santander",
       "homeScore": 4,
       "awayScore": 1,
-      "minute": 51,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
