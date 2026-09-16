@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T21:08:19.336Z",
+  "updatedAt": "2026-09-16T21:24:24.293Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Barcelona",
       "away": "Racing Santander",
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 2,
-      "minute": 70,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
