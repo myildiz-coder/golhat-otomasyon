@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T19:54:26.048Z",
+  "updatedAt": "2026-09-17T20:08:29.904Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "NEC Nijmegen",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "AFC Bournemouth",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Union St.Gilloise",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Celtic",
       "away": "Ferencváros",
       "homeScore": 1,
-      "awayScore": 2,
-      "minute": null,
+      "awayScore": 3,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Lech Poznań",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Marseille",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Torreense",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Villarreal",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
