@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T10:34:03.209Z",
+  "updatedAt": "2026-09-17T12:38:44.957Z",
   "sources": [
     {
       "name": "FotMob",
@@ -841,6 +841,13 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
         "disclosures": [
           {
+            "id": 1664658,
+            "date": "2026-09-17T15:05:10+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Thomas Reis İle Sözleşme İmzalanması Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1664658"
+          },
+          {
             "id": 1659251,
             "date": "2026-09-04T23:02:54+03:00",
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
@@ -874,13 +881,6 @@
             "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
             "summary": "Göktan Gürpüz Geçici Transferi Hakkında.",
             "url": "https://www.kap.org.tr/tr/Bildirim/1656180"
-          },
-          {
-            "id": 1646171,
-            "date": "2026-08-10T12:03:28+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "Salih Malkoçoğlu Kesin Transferi Hakkında.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1646171"
           }
         ]
       }
