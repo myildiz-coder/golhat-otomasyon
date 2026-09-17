@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T20:33:17.803Z",
+  "updatedAt": "2026-09-17T22:30:45.124Z",
   "sources": [
     {
       "name": "FotMob",
@@ -458,20 +458,6 @@
       },
       "nextMatches": [
         {
-          "id": 6112354,
-          "date": "2026-09-17T19:00:00.000Z",
-          "timestamp": 1789671600,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Marseille",
-          "homeScore": 3,
-          "awayScore": 1,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904752,
           "date": "2026-09-20T17:00:00.000Z",
           "timestamp": 1789923600,
@@ -540,9 +526,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904783,
+          "date": "2026-10-26T16:00:00.000Z",
+          "timestamp": 1793030400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Başakşehir",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6112354,
+          "date": "2026-09-17T19:00:00.000Z",
+          "timestamp": 1789671600,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Marseille",
+          "homeScore": 4,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904747,
           "date": "2026-09-11T17:00:00.000Z",
@@ -592,20 +606,6 @@
           "tournament": "Europa League Qualification",
           "stage": "",
           "home": "FK Kauno Žalgiris",
-          "away": "Beşiktaş",
-          "homeScore": 1,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
-        },
-        {
-          "id": 5904715,
-          "date": "2026-08-23T18:30:00.000Z",
-          "timestamp": 1787509800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Alanyaspor",
           "away": "Beşiktaş",
           "homeScore": 1,
           "awayScore": 0,
