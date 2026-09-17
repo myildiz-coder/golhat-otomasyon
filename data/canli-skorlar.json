@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T21:11:28.903Z",
+  "updatedAt": "2026-09-17T21:28:04.862Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -22,8 +22,8 @@
     88
   ],
   "summary": {
-    "total": 8,
-    "live": 1,
+    "total": 7,
+    "live": 0,
     "upcoming": 7,
     "finished": 0
   },
@@ -63,24 +63,6 @@
       "status": "NS",
       "statusLong": "",
       "kind": "upcoming"
-    },
-    {
-      "id": 5868068,
-      "leagueId": 140,
-      "league": "LaLiga",
-      "country": "ESP",
-      "round": "6",
-      "date": "2026-09-17T19:30:00.000Z",
-      "timestamp": 1789673400,
-      "venue": "",
-      "home": "Málaga",
-      "away": "Villarreal",
-      "homeScore": 1,
-      "awayScore": 2,
-      "minute": 81,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
     },
     {
       "id": 5868075,
