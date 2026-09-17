@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T19:27:39.407Z",
+  "updatedAt": "2026-09-17T19:40:11.918Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 11,
-    "live": 7,
-    "upcoming": 1,
+    "live": 8,
+    "upcoming": 0,
     "finished": 3
   },
   "matches": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Juventus",
       "away": "NEC Nijmegen",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "AFC Bournemouth",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 27,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Union St.Gilloise",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 27,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Ferencváros",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 28,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -147,9 +147,9 @@
       "venue": "",
       "home": "Crystal Palace",
       "away": "Lech Poznań",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 40,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -166,8 +166,8 @@
       "home": "Beşiktaş",
       "away": "Marseille",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 25,
+      "awayScore": 1,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Torreense",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 25,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,10 +221,10 @@
       "away": "Villarreal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
