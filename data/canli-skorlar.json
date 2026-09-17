@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T17:11:39.945Z",
+  "updatedAt": "2026-09-17T17:27:40.540Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "OFI Crete",
       "away": "Hoffenheim",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -58,8 +58,8 @@
       "home": "Levski Sofia",
       "away": "Salzburg",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 26,
+      "awayScore": 1,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Getafe",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
