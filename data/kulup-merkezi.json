@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T04:34:47.752Z",
+  "updatedAt": "2026-09-17T06:40:02.284Z",
   "sources": [
     {
       "name": "FotMob",
@@ -40,8 +40,8 @@
         },
         {
           "id": 5904761,
-          "date": "2026-10-11T17:00:00.000Z",
-          "timestamp": 1791738000,
+          "date": "2026-10-10T16:00:00.000Z",
+          "timestamp": 1791648000,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Rizespor",
@@ -68,8 +68,8 @@
         },
         {
           "id": 5904773,
-          "date": "2026-10-18T17:00:00.000Z",
-          "timestamp": 1792342800,
+          "date": "2026-10-17T16:00:00.000Z",
+          "timestamp": 1792252800,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Fenerbahçe",
@@ -96,8 +96,8 @@
         },
         {
           "id": 5904782,
-          "date": "2026-10-25T18:00:00.000Z",
-          "timestamp": 1792951200,
+          "date": "2026-10-26T18:30:00.000Z",
+          "timestamp": 1793039400,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Galatasaray",
@@ -253,8 +253,8 @@
         },
         {
           "id": 5904764,
-          "date": "2026-10-11T17:00:00.000Z",
-          "timestamp": 1791738000,
+          "date": "2026-10-09T17:00:00.000Z",
+          "timestamp": 1791565200,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Galatasaray",
@@ -281,8 +281,8 @@
         },
         {
           "id": 5904771,
-          "date": "2026-10-18T17:00:00.000Z",
-          "timestamp": 1792342800,
+          "date": "2026-10-17T13:00:00.000Z",
+          "timestamp": 1792242000,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Gençlerbirliği",
@@ -309,8 +309,8 @@
         },
         {
           "id": 5904782,
-          "date": "2026-10-25T18:00:00.000Z",
-          "timestamp": 1792951200,
+          "date": "2026-10-26T18:30:00.000Z",
+          "timestamp": 1793039400,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Galatasaray",
@@ -454,7 +454,7 @@
       "stadium": "Tüpraş Stadyumu",
       "squad": {
         "total": 32,
-        "injured": 1
+        "injured": 0
       },
       "nextMatches": [
         {
@@ -487,8 +487,8 @@
         },
         {
           "id": 5904765,
-          "date": "2026-10-11T17:00:00.000Z",
-          "timestamp": 1791738000,
+          "date": "2026-10-11T16:00:00.000Z",
+          "timestamp": 1791734400,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Beşiktaş",
@@ -515,8 +515,8 @@
         },
         {
           "id": 5904767,
-          "date": "2026-10-18T17:00:00.000Z",
-          "timestamp": 1792342800,
+          "date": "2026-10-19T17:00:00.000Z",
+          "timestamp": 1792429200,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Trabzonspor",
@@ -693,8 +693,8 @@
         },
         {
           "id": 5904766,
-          "date": "2026-10-11T17:00:00.000Z",
-          "timestamp": 1791738000,
+          "date": "2026-10-10T13:00:00.000Z",
+          "timestamp": 1791637200,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Samsunspor",
@@ -721,8 +721,8 @@
         },
         {
           "id": 5904767,
-          "date": "2026-10-18T17:00:00.000Z",
-          "timestamp": 1792342800,
+          "date": "2026-10-19T17:00:00.000Z",
+          "timestamp": 1792429200,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Trabzonspor",
@@ -749,8 +749,8 @@
         },
         {
           "id": 5904779,
-          "date": "2026-10-25T18:00:00.000Z",
-          "timestamp": 1792951200,
+          "date": "2026-10-26T16:00:00.000Z",
+          "timestamp": 1793030400,
           "tournament": "Super Lig",
           "stage": "",
           "home": "Rizespor",
