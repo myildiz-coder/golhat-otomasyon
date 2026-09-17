@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:28:36.026Z",
+  "updatedAt": "2026-09-17T18:45:44.100Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 11,
-    "live": 3,
+    "live": 1,
     "upcoming": 8,
-    "finished": 0
+    "finished": 2
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Hoffenheim",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112379,
@@ -59,10 +59,10 @@
       "away": "Salzburg",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112253,
@@ -203,7 +203,7 @@
       "away": "Getafe",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
