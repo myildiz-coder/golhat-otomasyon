@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T20:47:41.255Z",
+  "updatedAt": "2026-09-17T20:56:40.944Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 11,
-    "live": 8,
+    "live": 2,
     "upcoming": 0,
-    "finished": 3
+    "finished": 9
   },
   "matches": [
     {
@@ -77,10 +77,10 @@
       "away": "NEC Nijmegen",
       "homeScore": 5,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112272,
@@ -95,10 +95,10 @@
       "away": "AFC Bournemouth",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112283,
@@ -113,10 +113,10 @@
       "away": "Union St.Gilloise",
       "homeScore": 0,
       "awayScore": 3,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112299,
@@ -131,10 +131,10 @@
       "away": "Ferencváros",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112324,
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "Crystal Palace",
       "away": "Lech Poznań",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112354,
@@ -167,7 +167,7 @@
       "away": "Marseille",
       "homeScore": 4,
       "awayScore": 1,
-      "minute": 86,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,10 +185,10 @@
       "away": "Torreense",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868063,
@@ -221,7 +221,7 @@
       "away": "Villarreal",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 57,
+      "minute": 66,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
