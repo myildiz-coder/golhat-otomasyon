@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:30:25.464Z",
+  "updatedAt": "2026-09-17T16:48:06.876Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 11,
-    "live": 0,
-    "upcoming": 11,
+    "live": 2,
+    "upcoming": 9,
     "finished": 0
   },
   "matches": [
@@ -41,10 +41,10 @@
       "away": "Hoffenheim",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 3,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112379,
@@ -59,10 +59,10 @@
       "away": "Salzburg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 3,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112253,
