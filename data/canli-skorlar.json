@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:57:35.309Z",
+  "updatedAt": "2026-09-17T19:11:28.935Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 11,
-    "live": 1,
-    "upcoming": 8,
-    "finished": 2
+    "live": 7,
+    "upcoming": 1,
+    "finished": 3
   },
   "matches": [
     {
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Juventus",
       "away": "NEC Nijmegen",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112272,
@@ -95,10 +95,10 @@
       "away": "AFC Bournemouth",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112283,
@@ -113,10 +113,10 @@
       "away": "Union St.Gilloise",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112299,
@@ -131,10 +131,10 @@
       "away": "Ferencváros",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112324,
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "Crystal Palace",
       "away": "Lech Poznań",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112354,
@@ -167,10 +167,10 @@
       "away": "Marseille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112377,
@@ -185,10 +185,10 @@
       "away": "Torreense",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868063,
@@ -203,10 +203,10 @@
       "away": "Getafe",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868068,
