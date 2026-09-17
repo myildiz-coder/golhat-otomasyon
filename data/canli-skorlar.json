@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T17:40:54.204Z",
+  "updatedAt": "2026-09-17T17:55:03.192Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Hoffenheim",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Salzburg",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Real Betis",
       "away": "Getafe",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 37,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
