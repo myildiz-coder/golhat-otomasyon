@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:36:50.969Z",
+  "updatedAt": "2026-09-17T20:33:17.803Z",
   "sources": [
     {
       "name": "FotMob",
@@ -454,7 +454,7 @@
       "stadium": "Tüpraş Stadyumu",
       "squad": {
         "total": 32,
-        "injured": 0
+        "injured": 1
       },
       "nextMatches": [
         {
@@ -465,10 +465,10 @@
           "stage": "",
           "home": "Beşiktaş",
           "away": "Marseille",
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 3,
+          "awayScore": 1,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
