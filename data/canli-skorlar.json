@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:48:06.876Z",
+  "updatedAt": "2026-09-17T16:57:52.890Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Hoffenheim",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Salzburg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 3,
+      "minute": 13,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
