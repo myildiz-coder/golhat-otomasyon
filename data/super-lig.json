@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T18:50:55.270Z",
+  "updatedAt": "2026-09-18T18:56:34.800Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -50,14 +50,14 @@
     {
       "rank": 4,
       "team": "KASIMPAŞA A.Ş.",
-      "played": 5,
+      "played": 6,
       "won": 2,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 0,
       "goalsFor": 7,
       "goalsAgainst": 5,
       "goalDifference": 2,
-      "points": 9,
+      "points": 10,
       "form": ""
     },
     {
@@ -166,6 +166,19 @@
     },
     {
       "rank": 13,
+      "team": "TÜMOSAN KONYASPOR",
+      "played": 6,
+      "won": 1,
+      "drawn": 1,
+      "lost": 4,
+      "goalsFor": 4,
+      "goalsAgainst": 8,
+      "goalDifference": -4,
+      "points": 4,
+      "form": ""
+    },
+    {
+      "rank": 14,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 5,
       "won": 1,
@@ -178,7 +191,7 @@
       "form": ""
     },
     {
-      "rank": 14,
+      "rank": 15,
       "team": "SAMSUNSPOR A.Ş.",
       "played": 5,
       "won": 1,
@@ -191,7 +204,7 @@
       "form": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "team": "ERZURUMSPOR FK",
       "played": 5,
       "won": 1,
@@ -201,19 +214,6 @@
       "goalsAgainst": 11,
       "goalDifference": -9,
       "points": 4,
-      "form": ""
-    },
-    {
-      "rank": 16,
-      "team": "TÜMOSAN KONYASPOR",
-      "played": 5,
-      "won": 1,
-      "drawn": 0,
-      "lost": 4,
-      "goalsFor": 4,
-      "goalsAgainst": 8,
-      "goalDifference": -4,
-      "points": 3,
       "form": ""
     },
     {
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317830,
-      "date": "2026-09-18T17:00:00.000Z",
-      "timestamp": 1789750800,
-      "round": "6. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KASIMPAŞA A.Ş.",
-      "away": "TÜMOSAN KONYASPOR"
-    },
     {
       "id": 317834,
       "date": "2026-09-19T14:00:00.000Z",
