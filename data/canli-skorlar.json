@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T17:54:55.054Z",
+  "updatedAt": "2026-09-18T18:08:40.318Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 7,
-    "live": 1,
-    "upcoming": 6,
+    "live": 2,
+    "upcoming": 5,
     "finished": 0
   },
   "matches": [
@@ -41,7 +41,7 @@
       "away": "Konyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "PEC Zwolle",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
