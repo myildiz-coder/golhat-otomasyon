@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:20:59.466Z",
+  "updatedAt": "2026-09-18T19:35:05.957Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Chelsea",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -76,8 +76,8 @@
       "home": "Espanyol",
       "away": "Elche",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 18,
+      "awayScore": 2,
+      "minute": 32,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 35,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Union Berlin",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Lens",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 36,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -147,9 +147,9 @@
       "venue": "",
       "home": "FC Groningen",
       "away": "PEC Zwolle",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 62,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
