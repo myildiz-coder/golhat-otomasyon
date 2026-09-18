@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:44:08.751Z",
+  "updatedAt": "2026-09-18T19:54:02.139Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 7,
-    "live": 6,
+    "live": 5,
     "upcoming": 0,
-    "finished": 1
+    "finished": 2
   },
   "matches": [
     {
@@ -59,7 +59,7 @@
       "away": "Chelsea",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 44,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Elche",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 41,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Union Berlin",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 55,
+      "minute": 65,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Lens",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "PEC Zwolle",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 85,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
