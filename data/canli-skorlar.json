@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T20:37:30.876Z",
+  "updatedAt": "2026-09-18T20:47:41.194Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 7,
-    "live": 4,
+    "live": 2,
     "upcoming": 0,
-    "finished": 3
+    "finished": 5
   },
   "matches": [
     {
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Brentford",
       "away": "Chelsea",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 80,
+      "minute": 90,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Espanyol",
       "away": "Elche",
-      "homeScore": 0,
-      "awayScore": 2,
-      "minute": 71,
+      "homeScore": 1,
+      "awayScore": 3,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,10 +95,10 @@
       "away": "Sassuolo",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881171,
@@ -131,10 +131,10 @@
       "away": "Lens",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781754,
