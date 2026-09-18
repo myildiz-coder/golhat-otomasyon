@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T17:10:20.865Z",
+  "updatedAt": "2026-09-18T17:26:31.759Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -41,7 +41,7 @@
       "away": "Konyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 11,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
