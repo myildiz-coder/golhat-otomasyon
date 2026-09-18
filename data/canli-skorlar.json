@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T20:47:41.194Z",
+  "updatedAt": "2026-09-18T20:56:34.055Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 7,
-    "live": 2,
+    "live": 1,
     "upcoming": 0,
-    "finished": 5
+    "finished": 6
   },
   "matches": [
     {
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Brentford",
       "away": "Chelsea",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868075,
@@ -77,7 +77,7 @@
       "away": "Elche",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 82,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
