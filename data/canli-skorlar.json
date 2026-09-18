@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:35:05.957Z",
+  "updatedAt": "2026-09-18T19:44:08.751Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -59,7 +59,7 @@
       "away": "Chelsea",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 35,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -77,7 +77,7 @@
       "away": "Elche",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": 32,
+      "minute": 41,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -111,9 +111,9 @@
       "venue": "",
       "home": "Bayern München",
       "away": "Union Berlin",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 46,
+      "minute": 55,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "PEC Zwolle",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 76,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
