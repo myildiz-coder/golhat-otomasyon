@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T18:50:27.650Z",
+  "updatedAt": "2026-09-18T19:07:48.531Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 7,
-    "live": 5,
-    "upcoming": 2,
-    "finished": 0
+    "live": 6,
+    "upcoming": 0,
+    "finished": 1
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Konyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795456,
@@ -59,10 +59,10 @@
       "away": "Chelsea",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868075,
@@ -77,10 +77,10 @@
       "away": "Elche",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749686,
@@ -95,7 +95,7 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 4,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Union Berlin",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Lens",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "PEC Zwolle",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
