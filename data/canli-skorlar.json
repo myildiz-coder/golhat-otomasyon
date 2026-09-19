@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T17:44:00.199Z",
+  "updatedAt": "2026-09-19T17:53:57.991Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Galatasaray",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 44,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Gençlerbirliği",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 45,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Coventry City",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 57,
+      "minute": 67,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Racing Santander",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 51,
+      "minute": 61,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Inter",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 81,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 56,
+      "minute": 66,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -545,7 +545,7 @@
       "away": "SC Heerenveen",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": null,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
