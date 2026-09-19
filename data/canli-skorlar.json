@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:37:17.579Z",
+  "updatedAt": "2026-09-19T16:47:27.187Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 31,
-    "live": 5,
-    "upcoming": 11,
+    "live": 6,
+    "upcoming": 10,
     "finished": 15
   },
   "matches": [
@@ -185,7 +185,7 @@
       "away": "Coventry City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Racing Santander",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 15,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -309,9 +309,9 @@
       "venue": "",
       "home": "Roma",
       "away": "Inter",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 35,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Strasbourg",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 62,
+      "minute": 72,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -545,10 +545,10 @@
       "away": "SC Heerenveen",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 1,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781757,
