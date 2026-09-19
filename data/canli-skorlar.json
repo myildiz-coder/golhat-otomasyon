@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:35:46.845Z",
+  "updatedAt": "2026-09-19T19:44:49.135Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -257,7 +257,7 @@
       "away": "Barcelona",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 34,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Rennes",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 60,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -563,7 +563,7 @@
       "away": "Excelsior",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 77,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -581,7 +581,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 34,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
