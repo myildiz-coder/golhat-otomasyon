@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T12:09:40.196Z",
+  "updatedAt": "2026-09-19T12:28:12.811Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -112,8 +112,8 @@
       "home": "Tottenham Hotspur",
       "away": "Aston Villa",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 39,
+      "awayScore": 1,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Osasuna",
       "away": "Rayo Vallecano",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 9,
+      "minute": 28,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
