@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:50:40.403Z",
+  "updatedAt": "2026-09-19T15:56:24.849Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -36,6 +36,19 @@
     },
     {
       "rank": 3,
+      "team": "KOCAELİSPOR",
+      "played": 6,
+      "won": 4,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
+      "goalDifference": 3,
+      "points": 12,
+      "form": ""
+    },
+    {
+      "rank": 4,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 5,
       "won": 3,
@@ -48,7 +61,7 @@
       "form": ""
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "KASIMPAŞA A.Ş.",
       "played": 6,
       "won": 2,
@@ -61,7 +74,7 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 5,
       "won": 3,
@@ -74,33 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
-      "team": "KOCAELİSPOR",
-      "played": 5,
-      "won": 3,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 4,
-      "goalDifference": 1,
-      "points": 9,
-      "form": ""
-    },
-    {
       "rank": 7,
-      "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 5,
-      "won": 2,
-      "drawn": 2,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 5,
-      "goalDifference": 2,
-      "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 8,
       "team": "CORENDON ALANYASPOR",
       "played": 5,
       "won": 2,
@@ -109,6 +96,19 @@
       "goalsFor": 6,
       "goalsAgainst": 5,
       "goalDifference": 1,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 8,
+      "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
+      "played": 6,
+      "won": 2,
+      "drawn": 2,
+      "lost": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 7,
+      "goalDifference": 0,
       "points": 8,
       "form": ""
     },
@@ -254,17 +254,6 @@
       "venue": "",
       "home": "ARCA ÇORUM FK",
       "away": "CORENDON ALANYASPOR"
-    },
-    {
-      "id": 317836,
-      "date": "2026-09-19T14:00:00.000Z",
-      "timestamp": 1789826400,
-      "round": "6. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KOCAELİSPOR",
-      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
     },
     {
       "id": 317829,
