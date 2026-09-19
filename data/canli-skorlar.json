@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T20:45:59.264Z",
+  "updatedAt": "2026-09-19T20:54:55.193Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 3,
+    "live": 2,
     "upcoming": 0,
-    "finished": 28
+    "finished": 29
   },
   "matches": [
     {
@@ -257,7 +257,7 @@
       "away": "Barcelona",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 84,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,10 +491,10 @@
       "away": "Rennes",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802944,
@@ -581,7 +581,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 84,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
