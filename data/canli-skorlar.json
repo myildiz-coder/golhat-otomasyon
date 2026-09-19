@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:20:55.713Z",
+  "updatedAt": "2026-09-19T15:36:40.569Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 12,
+    "live": 8,
     "upcoming": 15,
-    "finished": 4
+    "finished": 8
   },
   "matches": [
     {
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Çorum FK",
       "away": "Alanyaspor",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 64,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Gaziantep FK",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 62,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Arsenal",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 63,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Ipswich Town",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -166,8 +166,8 @@
       "home": "Newcastle United",
       "away": "Hull City",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 60,
+      "awayScore": 1,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Deportivo Alavés",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 48,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -345,12 +345,12 @@
       "venue": "",
       "home": "Borussia Mönchengladbach",
       "away": "Mainz 05",
-      "homeScore": 2,
-      "awayScore": 3,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 3,
+      "awayScore": 4,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881173,
@@ -365,10 +365,10 @@
       "away": "Freiburg",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881174,
@@ -383,10 +383,10 @@
       "away": "1. FC Köln",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881178,
@@ -399,12 +399,12 @@
       "venue": "",
       "home": "Werder Bremen",
       "away": "Augsburg",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 2,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881177,
@@ -435,9 +435,9 @@
       "venue": "",
       "home": "Paris FC",
       "away": "Strasbourg",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Cambuur",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 49,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
