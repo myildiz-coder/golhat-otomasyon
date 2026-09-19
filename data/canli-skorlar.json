@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:21:52.730Z",
+  "updatedAt": "2026-09-19T16:37:17.579Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 3,
-    "upcoming": 14,
-    "finished": 14
+    "live": 5,
+    "upcoming": 11,
+    "finished": 15
   },
   "matches": [
     {
@@ -185,10 +185,10 @@
       "away": "Coventry City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868077,
@@ -239,10 +239,10 @@
       "away": "Racing Santander",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868078,
@@ -311,7 +311,7 @@
       "away": "Inter",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 19,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,10 +419,10 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802943,
@@ -435,9 +435,9 @@
       "venue": "",
       "home": "Paris FC",
       "away": "Strasbourg",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 46,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,10 +527,10 @@
       "away": "Cambuur",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781756,
