@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:39:01.526Z",
+  "updatedAt": "2026-09-19T18:50:00.952Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 31,
-    "live": 3,
-    "upcoming": 7,
+    "live": 8,
+    "upcoming": 2,
     "finished": 21
   },
   "matches": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Galatasaray",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": 76,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Gençlerbirliği",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 82,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,10 +329,10 @@
       "away": "Lazio",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881172,
@@ -455,10 +455,10 @@
       "away": "Troyes",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802939,
@@ -471,12 +471,12 @@
       "venue": "",
       "home": "Le Mans",
       "away": "Lorient",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802940,
@@ -491,10 +491,10 @@
       "away": "Rennes",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802944,
@@ -509,10 +509,10 @@
       "away": "Le Havre",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781755,
@@ -562,8 +562,8 @@
       "home": "Ajax",
       "away": "Excelsior",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 39,
+      "awayScore": 1,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
