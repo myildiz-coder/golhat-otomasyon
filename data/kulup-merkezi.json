@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:34:15.572Z",
+  "updatedAt": "2026-09-19T20:32:45.811Z",
   "sources": [
     {
       "name": "FotMob",
@@ -238,20 +238,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904749,
-          "date": "2026-09-19T17:00:00.000Z",
-          "timestamp": 1789837200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Galatasaray",
-          "homeScore": 3,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904764,
           "date": "2026-10-09T17:00:00.000Z",
           "timestamp": 1791565200,
@@ -320,9 +306,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904790,
+          "date": "2026-10-30T17:00:00.000Z",
+          "timestamp": 1793379600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Konyaspor",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904749,
+          "date": "2026-09-19T17:00:00.000Z",
+          "timestamp": 1789837200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Galatasaray",
+          "homeScore": 4,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904746,
           "date": "2026-09-13T17:00:00.000Z",
@@ -375,20 +389,6 @@
           "away": "Göztepe",
           "homeScore": 3,
           "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904721,
-          "date": "2026-08-21T18:30:00.000Z",
-          "timestamp": 1787337000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Erzurumspor FK",
-          "away": "Galatasaray",
-          "homeScore": 0,
-          "awayScore": 4,
           "status": "FT",
           "kind": "finished",
           "result": "W"
@@ -678,20 +678,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904749,
-          "date": "2026-09-19T17:00:00.000Z",
-          "timestamp": 1789837200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Galatasaray",
-          "homeScore": 3,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904766,
           "date": "2026-10-10T13:00:00.000Z",
           "timestamp": 1791637200,
@@ -760,9 +746,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904785,
+          "date": "2026-11-01T13:00:00.000Z",
+          "timestamp": 1793538000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Gaziantep FK",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904749,
+          "date": "2026-09-19T17:00:00.000Z",
+          "timestamp": 1789837200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Galatasaray",
+          "homeScore": 4,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904745,
           "date": "2026-09-12T17:00:00.000Z",
@@ -818,20 +832,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5904713,
-          "date": "2026-08-23T16:00:00.000Z",
-          "timestamp": 1787500800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Başakşehir",
-          "homeScore": 2,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://www.trabzonspor.org.tr/tr/haberler?team=trabzonspor",
