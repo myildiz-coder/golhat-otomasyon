@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:55:43.171Z",
+  "updatedAt": "2026-09-19T19:02:00.586Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -153,19 +153,32 @@
     },
     {
       "rank": 12,
-      "team": "GENÇLERBİRLİĞİ",
-      "played": 5,
+      "team": "İSTANBUL BAŞAKŞEHİR FK",
+      "played": 6,
       "won": 2,
       "drawn": 1,
-      "lost": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 9,
-      "goalDifference": -4,
+      "lost": 3,
+      "goalsFor": 10,
+      "goalsAgainst": 11,
+      "goalDifference": -1,
       "points": 7,
       "form": ""
     },
     {
       "rank": 13,
+      "team": "GENÇLERBİRLİĞİ",
+      "played": 6,
+      "won": 2,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 13,
+      "goalDifference": -8,
+      "points": 7,
+      "form": ""
+    },
+    {
+      "rank": 14,
       "team": "TÜMOSAN KONYASPOR",
       "played": 6,
       "won": 1,
@@ -174,19 +187,6 @@
       "goalsFor": 4,
       "goalsAgainst": 8,
       "goalDifference": -4,
-      "points": 4,
-      "form": ""
-    },
-    {
-      "rank": 14,
-      "team": "İSTANBUL BAŞAKŞEHİR FK",
-      "played": 5,
-      "won": 1,
-      "drawn": 1,
-      "lost": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 11,
-      "goalDifference": -5,
       "points": 4,
       "form": ""
     },
@@ -254,17 +254,6 @@
       "venue": "",
       "home": "TRABZONSPOR A.Ş.",
       "away": "GALATASARAY A.Ş."
-    },
-    {
-      "id": 317831,
-      "date": "2026-09-19T17:00:00.000Z",
-      "timestamp": 1789837200,
-      "round": "6. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "İSTANBUL BAŞAKŞEHİR FK",
-      "away": "GENÇLERBİRLİĞİ"
     },
     {
       "id": 317835,
