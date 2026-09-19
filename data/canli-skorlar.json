@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T13:54:41.904Z",
+  "updatedAt": "2026-09-19T14:07:44.137Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 7,
-    "upcoming": 23,
-    "finished": 1
+    "live": 11,
+    "upcoming": 18,
+    "finished": 2
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Alanyaspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904756,
@@ -59,10 +59,10 @@
       "away": "Gaziantep FK",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904749,
@@ -131,10 +131,10 @@
       "away": "Arsenal",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795458,
@@ -149,10 +149,10 @@
       "away": "Ipswich Town",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795462,
@@ -165,12 +165,12 @@
       "venue": "",
       "home": "Newcastle United",
       "away": "Hull City",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795463,
@@ -203,10 +203,10 @@
       "away": "Rayo Vallecano",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868071,
@@ -275,7 +275,7 @@
       "away": "Torino",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Cagliari",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Mainz 05",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 25,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -363,9 +363,9 @@
       "venue": "",
       "home": "Eintracht Frankfurt",
       "away": "Freiburg",
-      "homeScore": 1,
-      "awayScore": 0,
-      "minute": 25,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "1. FC Köln",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 25,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Augsburg",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
