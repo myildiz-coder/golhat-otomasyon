@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:02:00.586Z",
+  "updatedAt": "2026-09-19T19:11:53.922Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -11,13 +11,13 @@
     {
       "rank": 1,
       "team": "GALATASARAY A.Ş.",
-      "played": 5,
+      "played": 6,
       "won": 4,
       "drawn": 1,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 13,
-      "goalsAgainst": 6,
-      "goalDifference": 7,
+      "goalsAgainst": 10,
+      "goalDifference": 3,
       "points": 13,
       "form": ""
     },
@@ -62,6 +62,19 @@
     },
     {
       "rank": 5,
+      "team": "TRABZONSPOR A.Ş.",
+      "played": 6,
+      "won": 3,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 13,
+      "goalsAgainst": 5,
+      "goalDifference": 8,
+      "points": 10,
+      "form": ""
+    },
+    {
+      "rank": 6,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 5,
       "won": 3,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "KASIMPAŞA A.Ş.",
       "played": 6,
       "won": 2,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 5,
       "won": 3,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 6,
       "won": 2,
@@ -110,19 +123,6 @@
       "goalsAgainst": 7,
       "goalDifference": 0,
       "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 9,
-      "team": "TRABZONSPOR A.Ş.",
-      "played": 5,
-      "won": 2,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 9,
-      "goalsAgainst": 5,
-      "goalDifference": 4,
-      "points": 7,
       "form": ""
     },
     {
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317829,
-      "date": "2026-09-19T17:00:00.000Z",
-      "timestamp": 1789837200,
-      "round": "6. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "TRABZONSPOR A.Ş.",
-      "away": "GALATASARAY A.Ş."
-    },
     {
       "id": 317835,
       "date": "2026-09-20T14:00:00.000Z",
