@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:46:11.413Z",
+  "updatedAt": "2026-09-19T15:54:46.495Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 8,
+    "live": 6,
     "upcoming": 15,
-    "finished": 8
+    "finished": 10
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Alanyaspor",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904756,
@@ -59,10 +59,10 @@
       "away": "Gaziantep FK",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 87,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904749,
@@ -131,7 +131,7 @@
       "away": "Arsenal",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 88,
+      "minute": 97,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Ipswich Town",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 89,
+      "minute": 98,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Hull City",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 85,
+      "minute": 94,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Deportivo Alavés",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 73,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Strasbourg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 30,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Cambuur",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 53,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
