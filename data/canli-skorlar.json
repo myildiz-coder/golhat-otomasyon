@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:44:49.135Z",
+  "updatedAt": "2026-09-19T19:54:07.611Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 8,
+    "live": 7,
     "upcoming": 0,
-    "finished": 23
+    "finished": 24
   },
   "matches": [
     {
@@ -257,7 +257,7 @@
       "away": "Barcelona",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Venezia",
       "away": "Lazio",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 1,
+      "minute": 52,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,7 +455,7 @@
       "away": "Troyes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "Lorient",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Rennes",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 60,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -507,9 +507,9 @@
       "venue": "",
       "home": "Toulouse",
       "away": "Le Havre",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 54,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -563,10 +563,10 @@
       "away": "Excelsior",
       "homeScore": 2,
       "awayScore": 2,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781758,
@@ -581,7 +581,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
