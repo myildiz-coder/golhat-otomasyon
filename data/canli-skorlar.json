@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T12:28:12.811Z",
+  "updatedAt": "2026-09-19T12:43:37.816Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -113,7 +113,7 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 50,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Rayo Vallecano",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 28,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
