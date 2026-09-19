@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T17:21:07.640Z",
+  "updatedAt": "2026-09-19T17:34:37.834Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "Galatasaray",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Gençlerbirliği",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 22,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -185,7 +185,7 @@
       "away": "Coventry City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Racing Santander",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 49,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Inter",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 58,
+      "minute": 72,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -544,8 +544,8 @@
       "home": "Sparta Rotterdam",
       "away": "SC Heerenveen",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 35,
+      "awayScore": 2,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
