@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:07:31.903Z",
+  "updatedAt": "2026-09-19T16:21:52.730Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 4,
+    "live": 3,
     "upcoming": 14,
-    "finished": 13
+    "finished": 14
   },
   "matches": [
     {
@@ -221,10 +221,10 @@
       "away": "Deportivo Alavés",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868073,
@@ -309,9 +309,9 @@
       "venue": "",
       "home": "Roma",
       "away": "Inter",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 19,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Strasbourg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -525,9 +525,9 @@
       "venue": "",
       "home": "ADO Den Haag",
       "away": "Cambuur",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 74,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
