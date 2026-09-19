@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T17:34:37.834Z",
+  "updatedAt": "2026-09-19T17:44:00.199Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Galatasaray",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 35,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Başakşehir",
       "away": "Gençlerbirliği",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 35,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -184,8 +184,8 @@
       "home": "Nottingham Forest",
       "away": "Coventry City",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 48,
+      "awayScore": 1,
+      "minute": 57,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Racing Santander",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -310,8 +310,8 @@
       "home": "Roma",
       "away": "Inter",
       "homeScore": 2,
-      "awayScore": 1,
-      "minute": 72,
+      "awayScore": 2,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 46,
+      "minute": 56,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
