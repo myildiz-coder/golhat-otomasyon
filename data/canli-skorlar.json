@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T13:45:54.165Z",
+  "updatedAt": "2026-09-19T13:54:41.904Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -203,7 +203,7 @@
       "away": "Rayo Vallecano",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 87,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Torino",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 45,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Cagliari",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 45,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -346,8 +346,8 @@
       "home": "Borussia Mönchengladbach",
       "away": "Mainz 05",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 16,
+      "awayScore": 1,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "Freiburg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 16,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "1. FC Köln",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 16,
+      "minute": 25,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -400,8 +400,8 @@
       "home": "Werder Bremen",
       "away": "Augsburg",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 16,
+      "awayScore": 1,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
