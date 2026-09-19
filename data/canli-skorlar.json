@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:56:15.504Z",
+  "updatedAt": "2026-09-19T17:08:56.476Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 31,
-    "live": 6,
-    "upcoming": 10,
+    "live": 8,
+    "upcoming": 8,
     "finished": 15
   },
   "matches": [
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Galatasaray",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904751,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Başakşehir",
       "away": "Gençlerbirliği",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795464,
@@ -185,7 +185,7 @@
       "away": "Coventry City",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -237,9 +237,9 @@
       "venue": "",
       "home": "Celta Vigo",
       "away": "Racing Santander",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 24,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -311,7 +311,7 @@
       "away": "Inter",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Borussia Dortmund",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 39,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -436,8 +436,8 @@
       "home": "Paris FC",
       "away": "Strasbourg",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 81,
+      "awayScore": 1,
+      "minute": 93,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -545,7 +545,7 @@
       "away": "SC Heerenveen",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 23,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
