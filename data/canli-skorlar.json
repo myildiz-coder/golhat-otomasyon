@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T20:37:11.125Z",
+  "updatedAt": "2026-09-19T20:45:59.264Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 5,
+    "live": 3,
     "upcoming": 0,
-    "finished": 26
+    "finished": 28
   },
   "matches": [
     {
@@ -257,7 +257,7 @@
       "away": "Barcelona",
       "homeScore": 1,
       "awayScore": 3,
-      "minute": 75,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,10 +455,10 @@
       "away": "Troyes",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802939,
@@ -473,10 +473,10 @@
       "away": "Lorient",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802940,
@@ -491,7 +491,7 @@
       "away": "Rennes",
       "homeScore": 4,
       "awayScore": 0,
-      "minute": 80,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -580,8 +580,8 @@
       "home": "Willem II",
       "away": "Fortuna Sittard",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 75,
+      "awayScore": 1,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
