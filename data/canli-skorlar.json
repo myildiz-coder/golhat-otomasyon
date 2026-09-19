@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:58:43.656Z",
+  "updatedAt": "2026-09-19T19:12:07.008Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 31,
-    "live": 6,
-    "upcoming": 2,
+    "live": 8,
+    "upcoming": 0,
     "finished": 23
   },
   "matches": [
@@ -257,10 +257,10 @@
       "away": "Barcelona",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 11,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749682,
@@ -329,7 +329,7 @@
       "away": "Lazio",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,7 +455,7 @@
       "away": "Troyes",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "Lorient",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,7 +491,7 @@
       "away": "Rennes",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "Le Havre",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -563,7 +563,7 @@
       "away": "Excelsior",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -581,10 +581,10 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 10,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
