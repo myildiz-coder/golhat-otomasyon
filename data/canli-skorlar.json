@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T13:22:04.215Z",
+  "updatedAt": "2026-09-19T13:36:41.930Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 31,
-    "live": 4,
-    "upcoming": 27,
-    "finished": 0
+    "live": 7,
+    "upcoming": 23,
+    "finished": 1
   },
   "matches": [
     {
@@ -111,12 +111,12 @@
       "venue": "",
       "home": "Tottenham Hotspur",
       "away": "Aston Villa",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 3,
-      "minute": 88,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795457,
@@ -203,7 +203,7 @@
       "away": "Rayo Vallecano",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 63,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Torino",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 35,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Cagliari",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 22,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,10 +347,10 @@
       "away": "Mainz 05",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881173,
@@ -365,10 +365,10 @@
       "away": "Freiburg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881174,
@@ -383,10 +383,10 @@
       "away": "1. FC Köln",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881178,
@@ -401,10 +401,10 @@
       "away": "Augsburg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881177,
