@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T12:55:30.017Z",
+  "updatedAt": "2026-09-19T13:07:50.715Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 31,
-    "live": 2,
-    "upcoming": 29,
+    "live": 4,
+    "upcoming": 27,
     "finished": 0
   },
   "matches": [
@@ -112,8 +112,8 @@
       "home": "Tottenham Hotspur",
       "away": "Aston Villa",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 61,
+      "awayScore": 2,
+      "minute": 74,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Rayo Vallecano",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,10 +275,10 @@
       "away": "Torino",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749688,
@@ -293,10 +293,10 @@
       "away": "Cagliari",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749681,
