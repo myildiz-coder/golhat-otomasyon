@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T06:36:38.031Z",
+  "updatedAt": "2026-09-19T08:33:36.295Z",
   "sources": [
     {
       "name": "FotMob",
@@ -674,7 +674,7 @@
       "stadium": "Papara Park",
       "squad": {
         "total": 30,
-        "injured": 4
+        "injured": 5
       },
       "nextMatches": [
         {
