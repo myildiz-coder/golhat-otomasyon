@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:32:39.806Z",
+  "updatedAt": "2026-09-19T18:34:15.572Z",
   "sources": [
     {
       "name": "FotMob",
@@ -245,10 +245,10 @@
           "stage": "",
           "home": "Trabzonspor",
           "away": "Galatasaray",
-          "homeScore": 0,
+          "homeScore": 3,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
@@ -685,10 +685,10 @@
           "stage": "",
           "home": "Trabzonspor",
           "away": "Galatasaray",
-          "homeScore": 0,
+          "homeScore": 3,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
