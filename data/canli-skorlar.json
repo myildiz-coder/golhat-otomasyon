@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:36:40.569Z",
+  "updatedAt": "2026-09-19T15:46:11.413Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -40,8 +40,8 @@
       "home": "Çorum FK",
       "away": "Alanyaspor",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": 79,
+      "awayScore": 2,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -57,9 +57,9 @@
       "venue": "",
       "home": "Kocaelispor",
       "away": "Gaziantep FK",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 77,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Arsenal",
       "homeScore": 3,
       "awayScore": 0,
-      "minute": 78,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,7 +149,7 @@
       "away": "Ipswich Town",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 80,
+      "minute": 89,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Hull City",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 76,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Deportivo Alavés",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 73,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Strasbourg",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 30,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Cambuur",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
