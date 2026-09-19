@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:54:07.611Z",
+  "updatedAt": "2026-09-19T20:07:41.510Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -328,8 +328,8 @@
       "home": "Venezia",
       "away": "Lazio",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": 52,
+      "awayScore": 2,
+      "minute": 66,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -453,9 +453,9 @@
       "venue": "",
       "home": "Angers",
       "away": "Troyes",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 53,
+      "minute": 67,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -471,9 +471,9 @@
       "venue": "",
       "home": "Le Mans",
       "away": "Lorient",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 51,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -489,9 +489,9 @@
       "venue": "",
       "home": "Lyon",
       "away": "Rennes",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": null,
+      "minute": 51,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -509,7 +509,7 @@
       "away": "Le Havre",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 54,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -581,7 +581,7 @@
       "away": "Fortuna Sittard",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
