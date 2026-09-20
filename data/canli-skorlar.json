@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:44:26.403Z",
+  "updatedAt": "2026-09-20T12:56:10.069Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -185,7 +185,7 @@
       "away": "Málaga",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -489,9 +489,9 @@
       "venue": "",
       "home": "AZ Alkmaar",
       "away": "Telstar",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 14,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -507,9 +507,9 @@
       "venue": "",
       "home": "FC Twente",
       "away": "PSV Eindhoven",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 13,
+      "minute": 24,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
