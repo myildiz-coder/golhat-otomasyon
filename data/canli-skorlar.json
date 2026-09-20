@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T10:21:21.824Z",
+  "updatedAt": "2026-09-20T10:37:12.426Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 1,
-    "upcoming": 27,
+    "live": 2,
+    "upcoming": 26,
     "finished": 0
   },
   "matches": [
@@ -275,10 +275,10 @@
       "away": "Napoli",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 5,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749684,
@@ -471,9 +471,9 @@
       "venue": "",
       "home": "Feyenoord",
       "away": "FC Utrecht",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 6,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
