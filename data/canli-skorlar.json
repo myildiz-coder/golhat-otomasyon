@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T20:09:37.087Z",
+  "updatedAt": "2026-09-20T20:23:03.560Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -255,9 +255,9 @@
       "venue": "",
       "home": "Valencia",
       "away": "Real Sociedad",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 50,
+      "minute": 64,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -345,9 +345,9 @@
       "venue": "",
       "home": "Milan",
       "away": "Lecce",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 65,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -453,9 +453,9 @@
       "venue": "",
       "home": "Marseille",
       "away": "Paris Saint-Germain",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 63,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
