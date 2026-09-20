@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:36:40.226Z",
+  "updatedAt": "2026-09-20T14:32:26.537Z",
   "sources": [
     {
       "name": "FotMob",
@@ -32,10 +32,10 @@
           "stage": "",
           "home": "Fenerbahçe",
           "away": "Eyüpspor",
-          "homeScore": 0,
+          "homeScore": 3,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
