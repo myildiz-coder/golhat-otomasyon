@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:45:28.843Z",
+  "updatedAt": "2026-09-20T11:54:13.995Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 52,
+      "minute": 61,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,7 +473,7 @@
       "away": "FC Utrecht",
       "homeScore": 5,
       "awayScore": 0,
-      "minute": 71,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
