@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:34:27.366Z",
+  "updatedAt": "2026-09-20T20:32:22.771Z",
   "sources": [
     {
       "name": "FotMob",
@@ -458,20 +458,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904752,
-          "date": "2026-09-20T17:00:00.000Z",
-          "timestamp": 1789923600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Amed Sportif",
-          "away": "Beşiktaş",
-          "homeScore": 3,
-          "awayScore": 1,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 5904765,
           "date": "2026-10-11T16:00:00.000Z",
           "timestamp": 1791734400,
@@ -540,9 +526,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904786,
+          "date": "2026-11-01T16:00:00.000Z",
+          "timestamp": 1793548800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Kasımpaşa",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904752,
+          "date": "2026-09-20T17:00:00.000Z",
+          "timestamp": 1789923600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Amed Sportif",
+          "away": "Beşiktaş",
+          "homeScore": 3,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 6112354,
           "date": "2026-09-17T19:00:00.000Z",
@@ -598,20 +612,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 5987976,
-          "date": "2026-08-27T17:00:00.000Z",
-          "timestamp": 1787850000,
-          "tournament": "Europa League Qualification",
-          "stage": "",
-          "home": "FK Kauno Žalgiris",
-          "away": "Beşiktaş",
-          "homeScore": 1,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
         }
       ],
       "officialUrl": "https://bjk.com.tr/tr/haber_listesi/1",
