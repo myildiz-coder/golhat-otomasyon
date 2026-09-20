@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T15:36:57.455Z",
+  "updatedAt": "2026-09-20T15:46:23.553Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Eyüpspor",
-      "homeScore": 7,
+      "homeScore": 8,
       "awayScore": 0,
-      "minute": 77,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 78,
+      "minute": 88,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Atlético Madrid",
       "away": "Real Madrid",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 58,
+      "minute": 67,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 16,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -435,9 +435,9 @@
       "venue": "",
       "home": "Nice",
       "away": "Lille",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 22,
+      "minute": 32,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 46,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
