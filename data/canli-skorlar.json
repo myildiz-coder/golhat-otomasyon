@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:56:10.069Z",
+  "updatedAt": "2026-09-20T13:08:45.947Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 3,
-    "upcoming": 23,
+    "live": 9,
+    "upcoming": 17,
     "finished": 2
   },
   "matches": [
@@ -113,10 +113,10 @@
       "away": "Liverpool",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795460,
@@ -131,10 +131,10 @@
       "away": "Crystal Palace",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795461,
@@ -149,10 +149,10 @@
       "away": "Sunderland",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795459,
@@ -293,10 +293,10 @@
       "away": "Como",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 3,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749687,
@@ -311,10 +311,10 @@
       "away": "Genoa",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749685,
@@ -419,10 +419,10 @@
       "away": "Brest",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802942,
@@ -491,7 +491,7 @@
       "away": "Telstar",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -508,8 +508,8 @@
       "home": "FC Twente",
       "away": "PSV Eindhoven",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 24,
+      "awayScore": 2,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
