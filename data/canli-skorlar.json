@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T19:38:27.829Z",
+  "updatedAt": "2026-09-20T19:47:20.633Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -257,7 +257,7 @@
       "away": "Real Sociedad",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 36,
+      "minute": 45,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
