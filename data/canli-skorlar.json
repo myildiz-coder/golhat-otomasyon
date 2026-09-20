@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:12:38.008Z",
+  "updatedAt": "2026-09-20T18:30:32.432Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
+    "live": 3,
     "upcoming": 3,
-    "finished": 20
+    "finished": 22
   },
   "matches": [
     {
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Amed Sportif",
       "away": "Beşiktaş",
-      "homeScore": 2,
-      "awayScore": 0,
-      "minute": 53,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minute": 71,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Rizespor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 49,
+      "minute": 67,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -219,12 +219,12 @@
       "venue": "",
       "home": "Deportivo A Coruña",
       "away": "Real Betis",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "minute": 78,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868080,
@@ -237,12 +237,12 @@
       "venue": "",
       "home": "Villarreal",
       "away": "Levante",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1,
-      "minute": 83,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868079,
@@ -401,7 +401,7 @@
       "away": "Hoffenheim",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 43,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
