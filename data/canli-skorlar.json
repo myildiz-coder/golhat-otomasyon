@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T17:56:57.479Z",
+  "updatedAt": "2026-09-20T18:12:38.008Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -77,7 +77,7 @@
       "away": "Beşiktaş",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 53,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Rizespor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Real Betis",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 62,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Levante",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 68,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "Paderborn",
       "away": "Hoffenheim",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
