@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T14:20:52.970Z",
+  "updatedAt": "2026-09-20T14:36:48.990Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 12,
+    "live": 10,
     "upcoming": 13,
-    "finished": 3
+    "finished": 5
   },
   "matches": [
     {
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Eyüpspor",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Samsunspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 21,
+      "minute": 37,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -113,7 +113,7 @@
       "away": "Liverpool",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 65,
+      "minute": 81,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -131,7 +131,7 @@
       "away": "Crystal Palace",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 63,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -148,8 +148,8 @@
       "home": "Manchester City",
       "away": "Sunderland",
       "homeScore": 4,
-      "awayScore": 2,
-      "minute": 59,
+      "awayScore": 3,
+      "minute": 74,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -203,7 +203,7 @@
       "away": "Real Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 5,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,7 +293,7 @@
       "away": "Como",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -310,8 +310,8 @@
       "home": "Parma",
       "away": "Genoa",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 60,
+      "awayScore": 1,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "RB Leipzig",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -419,7 +419,7 @@
       "away": "Brest",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 64,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -491,10 +491,10 @@
       "away": "Telstar",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781753,
@@ -509,10 +509,10 @@
       "away": "PSV Eindhoven",
       "homeScore": 3,
       "awayScore": 2,
-      "minute": 90,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781751,
