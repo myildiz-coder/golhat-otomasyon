@@ -1,15 +1,28 @@
 {
-  "updatedAt": "2026-09-20T18:59:40.812Z",
+  "updatedAt": "2026-09-20T19:08:25.789Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "6. Hafta",
-  "roundLabel": "6. Hafta",
+  "round": "7. Hafta",
+  "roundLabel": "7. Hafta",
   "standings": [
     {
       "rank": 1,
+      "team": "AMED SPORTİF FAALİYETLER",
+      "played": 6,
+      "won": 4,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 15,
+      "goalsAgainst": 7,
+      "goalDifference": 8,
+      "points": 13,
+      "form": ""
+    },
+    {
+      "rank": 2,
       "team": "GALATASARAY A.Ş.",
       "played": 6,
       "won": 4,
@@ -22,20 +35,20 @@
       "form": ""
     },
     {
-      "rank": 2,
+      "rank": 3,
       "team": "BEŞİKTAŞ A.Ş.",
-      "played": 5,
+      "played": 6,
       "won": 4,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 12,
-      "goalsAgainst": 4,
-      "goalDifference": 8,
+      "lost": 2,
+      "goalsFor": 14,
+      "goalsAgainst": 7,
+      "goalDifference": 7,
       "points": 12,
       "form": ""
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "KOCAELİSPOR",
       "played": 6,
       "won": 4,
@@ -48,7 +61,7 @@
       "form": ""
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "CORENDON ALANYASPOR",
       "played": 6,
       "won": 3,
@@ -61,7 +74,7 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "FENERBAHÇE A.Ş.",
       "played": 6,
       "won": 3,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "TRABZONSPOR A.Ş.",
       "played": 6,
       "won": 3,
@@ -83,19 +96,6 @@
       "goalsFor": 13,
       "goalsAgainst": 5,
       "goalDifference": 8,
-      "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 7,
-      "team": "AMED SPORTİF FAALİYETLER",
-      "played": 5,
-      "won": 3,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 12,
-      "goalsAgainst": 5,
-      "goalDifference": 7,
       "points": 10,
       "form": ""
     },
@@ -115,14 +115,14 @@
     {
       "rank": 9,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 5,
+      "played": 6,
       "won": 3,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 6,
       "goalDifference": 1,
-      "points": 9,
+      "points": 10,
       "form": ""
     },
     {
@@ -218,6 +218,19 @@
     },
     {
       "rank": 17,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 6,
+      "won": 0,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 11,
+      "goalsAgainst": 15,
+      "goalDifference": -4,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "rank": 18,
       "team": "EYÜPSPOR",
       "played": 6,
       "won": 1,
@@ -228,43 +241,107 @@
       "goalDifference": -14,
       "points": 3,
       "form": ""
-    },
-    {
-      "rank": 18,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 5,
-      "won": 0,
-      "drawn": 2,
-      "lost": 3,
-      "goalsFor": 9,
-      "goalsAgainst": 13,
-      "goalDifference": -4,
-      "points": 2,
-      "form": ""
     }
   ],
   "fixtures": [
     {
-      "id": 317832,
-      "date": "2026-09-20T17:00:00.000Z",
-      "timestamp": 1789923600,
-      "round": "6. Hafta",
+      "id": 317844,
+      "date": "2026-10-09T17:00:00.000Z",
+      "timestamp": 1791565200,
+      "round": "7. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
-      "home": "AMED SPORTİF FAALİYETLER",
-      "away": "BEŞİKTAŞ A.Ş."
+      "home": "GALATASARAY A.Ş.",
+      "away": "KASIMPAŞA A.Ş."
     },
     {
-      "id": 317833,
-      "date": "2026-09-20T17:00:00.000Z",
-      "timestamp": 1789923600,
-      "round": "6. Hafta",
+      "id": 317842,
+      "date": "2026-10-10T10:30:00.000Z",
+      "timestamp": 1791628200,
+      "round": "7. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
-      "home": "GÖZTEPE A.Ş.",
-      "away": "ÇAYKUR RİZESPOR A.Ş."
+      "home": "GENÇLERBİRLİĞİ",
+      "away": "AMED SPORTİF FAALİYETLER"
+    },
+    {
+      "id": 317840,
+      "date": "2026-10-10T13:00:00.000Z",
+      "timestamp": 1791637200,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "CORENDON ALANYASPOR",
+      "away": "ERZURUMSPOR FK"
+    },
+    {
+      "id": 317846,
+      "date": "2026-10-10T13:00:00.000Z",
+      "timestamp": 1791637200,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "SAMSUNSPOR A.Ş.",
+      "away": "TRABZONSPOR A.Ş."
+    },
+    {
+      "id": 317841,
+      "date": "2026-10-10T16:00:00.000Z",
+      "timestamp": 1791648000,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "ÇAYKUR RİZESPOR A.Ş.",
+      "away": "FENERBAHÇE A.Ş."
+    },
+    {
+      "id": 317843,
+      "date": "2026-10-11T10:30:00.000Z",
+      "timestamp": 1791714600,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "TÜMOSAN KONYASPOR",
+      "away": "İSTANBUL BAŞAKŞEHİR FK"
+    },
+    {
+      "id": 317838,
+      "date": "2026-10-11T13:00:00.000Z",
+      "timestamp": 1791723600,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
+      "away": "ARCA ÇORUM FK"
+    },
+    {
+      "id": 317845,
+      "date": "2026-10-11T16:00:00.000Z",
+      "timestamp": 1791734400,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "BEŞİKTAŞ A.Ş.",
+      "away": "KOCAELİSPOR"
+    },
+    {
+      "id": 317839,
+      "date": "2026-10-12T17:00:00.000Z",
+      "timestamp": 1791824400,
+      "round": "7. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "EYÜPSPOR",
+      "away": "GÖZTEPE A.Ş."
     }
   ]
 }
