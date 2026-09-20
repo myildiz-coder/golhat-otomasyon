@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T15:07:41.061Z",
+  "updatedAt": "2026-09-20T15:21:28.833Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
-    "upcoming": 12,
+    "live": 6,
+    "upcoming": 11,
     "finished": 11
   },
   "matches": [
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Eyüpspor",
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 0,
-      "minute": 48,
+      "minute": 62,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 49,
+      "minute": 63,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,7 +365,7 @@
       "away": "RB Leipzig",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 78,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,10 +437,10 @@
       "away": "Lille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802945,
@@ -527,7 +527,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 22,
+      "minute": 36,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
