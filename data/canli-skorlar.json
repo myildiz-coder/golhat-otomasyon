@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:54:13.995Z",
+  "updatedAt": "2026-09-20T12:09:36.098Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 28,
     "live": 2,
-    "upcoming": 26,
-    "finished": 0
+    "upcoming": 25,
+    "finished": 1
   },
   "matches": [
     {
@@ -185,10 +185,10 @@
       "away": "Málaga",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 8,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868072,
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 61,
+      "minute": 76,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -473,10 +473,10 @@
       "away": "FC Utrecht",
       "homeScore": 5,
       "awayScore": 0,
-      "minute": 80,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781752,
