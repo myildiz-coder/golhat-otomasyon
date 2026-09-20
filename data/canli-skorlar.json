@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T16:37:55.954Z",
+  "updatedAt": "2026-09-20T16:48:10.351Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -167,7 +167,7 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 52,
+      "minute": 63,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,7 +221,7 @@
       "away": "Real Betis",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 17,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 18,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Atalanta",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 37,
+      "minute": 47,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 50,
+      "minute": 60,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -435,9 +435,9 @@
       "venue": "",
       "home": "Nice",
       "away": "Lille",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 64,
+      "minute": 74,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
