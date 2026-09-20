@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T17:10:45.110Z",
+  "updatedAt": "2026-09-20T17:27:17.923Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 8,
+    "live": 5,
     "upcoming": 4,
-    "finished": 16
+    "finished": 19
   },
   "matches": [
     {
@@ -75,9 +75,9 @@
       "venue": "",
       "home": "Amed Sportif",
       "away": "Beşiktaş",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 11,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Rizespor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -166,11 +166,11 @@
       "home": "Fulham",
       "away": "Manchester United",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 85,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868076,
@@ -220,8 +220,8 @@
       "home": "Deportivo A Coruña",
       "away": "Real Betis",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 39,
+      "awayScore": 1,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -237,9 +237,9 @@
       "venue": "",
       "home": "Villarreal",
       "away": "Levante",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 41,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -329,7 +329,7 @@
       "away": "Atalanta",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 51,
+      "minute": 68,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,10 +383,10 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 83,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881175,
@@ -437,10 +437,10 @@
       "away": "Lille",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802945,
