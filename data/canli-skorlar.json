@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T20:46:22.873Z",
+  "updatedAt": "2026-09-20T20:55:15.962Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -256,8 +256,8 @@
       "home": "Valencia",
       "away": "Real Sociedad",
       "homeScore": 2,
-      "awayScore": 2,
-      "minute": 87,
+      "awayScore": 3,
+      "minute": 96,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
