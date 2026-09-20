@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T06:37:00.667Z",
+  "updatedAt": "2026-09-20T08:33:39.684Z",
   "sources": [
     {
       "name": "FotMob",
@@ -21,7 +21,7 @@
       "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
       "squad": {
         "total": 29,
-        "injured": 3
+        "injured": 2
       },
       "nextMatches": [
         {
@@ -674,7 +674,7 @@
       "stadium": "Papara Park",
       "squad": {
         "total": 30,
-        "injured": 5
+        "injured": 4
       },
       "nextMatches": [
         {
