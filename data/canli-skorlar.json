@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T17:27:17.923Z",
+  "updatedAt": "2026-09-20T17:38:33.807Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
-    "upcoming": 4,
+    "live": 6,
+    "upcoming": 3,
     "finished": 19
   },
   "matches": [
@@ -77,7 +77,7 @@
       "away": "Beşiktaş",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -95,7 +95,7 @@
       "away": "Rizespor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 26,
+      "minute": 38,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -239,7 +239,7 @@
       "away": "Levante",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -327,9 +327,9 @@
       "venue": "",
       "home": "Juventus",
       "away": "Atalanta",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 68,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,10 +401,10 @@
       "away": "Hoffenheim",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802938,
