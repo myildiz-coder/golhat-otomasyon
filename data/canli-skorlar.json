@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T16:07:55.897Z",
+  "updatedAt": "2026-09-20T16:22:33.770Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 6,
+    "live": 5,
     "upcoming": 8,
-    "finished": 14
+    "finished": 15
   },
   "matches": [
     {
@@ -167,7 +167,7 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 38,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -202,11 +202,11 @@
       "home": "Atlético Madrid",
       "away": "Real Madrid",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868074,
@@ -329,7 +329,7 @@
       "away": "Atalanta",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 21,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 38,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -437,7 +437,7 @@
       "away": "Lille",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 67,
+      "minute": 82,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
