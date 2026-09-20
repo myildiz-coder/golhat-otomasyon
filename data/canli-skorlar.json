@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:09:36.098Z",
+  "updatedAt": "2026-09-20T12:28:18.150Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -185,7 +185,7 @@
       "away": "Málaga",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 27,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,7 +275,7 @@
       "away": "Napoli",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 76,
+      "minute": 95,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
