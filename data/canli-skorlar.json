@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:54:56.644Z",
+  "updatedAt": "2026-09-20T19:06:41.296Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
-    "upcoming": 1,
-    "finished": 22
+    "live": 4,
+    "upcoming": 0,
+    "finished": 24
   },
   "matches": [
     {
@@ -76,11 +76,11 @@
       "home": "Amed Sportif",
       "away": "Beşiktaş",
       "homeScore": 3,
-      "awayScore": 1,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904753,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Göztepe",
       "away": "Rizespor",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 92,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795455,
@@ -257,10 +257,10 @@
       "away": "Real Sociedad",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749683,
@@ -345,9 +345,9 @@
       "venue": "",
       "home": "Milan",
       "away": "Lecce",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": 8,
+      "minute": 19,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -399,9 +399,9 @@
       "venue": "",
       "home": "Paderborn",
       "away": "Hoffenheim",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1,
-      "minute": 67,
+      "minute": 79,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,7 +455,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 10,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
