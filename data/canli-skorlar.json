@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:30:32.432Z",
+  "updatedAt": "2026-09-20T18:46:06.800Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 28,
-    "live": 3,
-    "upcoming": 3,
+    "live": 4,
+    "upcoming": 2,
     "finished": 22
   },
   "matches": [
@@ -77,7 +77,7 @@
       "away": "Beşiktaş",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 71,
+      "minute": 86,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -94,8 +94,8 @@
       "home": "Göztepe",
       "away": "Rizespor",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 67,
+      "awayScore": 2,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -400,8 +400,8 @@
       "home": "Paderborn",
       "away": "Hoffenheim",
       "homeScore": 2,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 1,
+      "minute": 58,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,10 +455,10 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 1,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781750,
