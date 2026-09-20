@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T08:23:35.023Z",
+  "updatedAt": "2026-09-20T12:26:35.836Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -704,6 +704,21 @@
         },
         {
           "rank": 15,
+          "teamId": 8305,
+          "team": "Getafe",
+          "played": 7,
+          "won": 1,
+          "drawn": 3,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 7,
+          "goalDifference": -4,
+          "points": 6,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 16,
           "teamId": 10205,
           "team": "Villarreal",
           "played": 6,
@@ -718,7 +733,7 @@
           "description": ""
         },
         {
-          "rank": 16,
+          "rank": 17,
           "teamId": 8581,
           "team": "Levante",
           "played": 5,
@@ -728,21 +743,6 @@
           "goalsFor": 7,
           "goalsAgainst": 9,
           "goalDifference": -2,
-          "points": 5,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 17,
-          "teamId": 8305,
-          "team": "Getafe",
-          "played": 6,
-          "won": 1,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 7,
-          "goalDifference": -4,
           "points": 5,
           "form": "",
           "description": ""
@@ -764,6 +764,21 @@
         },
         {
           "rank": 19,
+          "teamId": 9864,
+          "team": "Málaga",
+          "played": 7,
+          "won": 0,
+          "drawn": 4,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 11,
+          "goalDifference": -8,
+          "points": 4,
+          "form": "",
+          "description": "#FF4646"
+        },
+        {
+          "rank": 20,
           "teamId": 10267,
           "team": "Valencia",
           "played": 6,
@@ -776,38 +791,9 @@
           "points": 4,
           "form": "",
           "description": "#FF4646"
-        },
-        {
-          "rank": 20,
-          "teamId": 9864,
-          "team": "Málaga",
-          "played": 6,
-          "won": 0,
-          "drawn": 3,
-          "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 11,
-          "goalDifference": -8,
-          "points": 3,
-          "form": "",
-          "description": "#FF4646"
         }
       ],
       "fixtures": [
-        {
-          "id": 5868076,
-          "date": "2026-09-20T12:00:00.000Z",
-          "timestamp": 1789905600,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Getafe",
-          "away": "Málaga",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868072,
           "date": "2026-09-20T14:15:00.000Z",
@@ -961,6 +947,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5868082,
+          "date": "2026-10-11T16:30:00Z",
+          "timestamp": 1791736200,
+          "round": "8",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Real Betis",
+          "away": "Osasuna",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -1093,6 +1093,21 @@
         },
         {
           "rank": 9,
+          "teamId": 9875,
+          "team": "Napoli",
+          "played": 5,
+          "won": 2,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "goalDifference": 1,
+          "points": 7,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 10,
           "teamId": 7943,
           "team": "Sassuolo",
           "played": 5,
@@ -1103,21 +1118,6 @@
           "goalsAgainst": 9,
           "goalDifference": 0,
           "points": 7,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 10,
-          "teamId": 9875,
-          "team": "Napoli",
-          "played": 4,
-          "won": 2,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 5,
-          "goalDifference": 1,
-          "points": 6,
           "form": "",
           "description": ""
         },
@@ -1200,14 +1200,14 @@
           "rank": 16,
           "teamId": 8535,
           "team": "Fiorentina",
-          "played": 4,
+          "played": 5,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 3,
-          "goalsFor": 5,
-          "goalsAgainst": 11,
+          "goalsFor": 6,
+          "goalsAgainst": 12,
           "goalDifference": -6,
-          "points": 3,
+          "points": 4,
           "form": "",
           "description": ""
         },
@@ -1273,20 +1273,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5749683,
-          "date": "2026-09-20T10:30:00.000Z",
-          "timestamp": 1789900200,
-          "round": "5",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Fiorentina",
-          "away": "Napoli",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5749684,
           "date": "2026-09-20T13:00:00.000Z",
@@ -1437,6 +1423,20 @@
           "venue": "",
           "home": "Sassuolo",
           "away": "Milan",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749691,
+          "date": "2026-10-11T18:45:00Z",
+          "timestamp": 1791744300,
+          "round": "6",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Cagliari",
+          "away": "Juventus",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -2350,6 +2350,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 10235,
+          "team": "Feyenoord",
+          "played": 7,
+          "won": 5,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 25,
+          "goalsAgainst": 7,
+          "goalDifference": 18,
+          "points": 17,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 8640,
           "team": "PSV Eindhoven",
           "played": 6,
@@ -2361,10 +2376,10 @@
           "goalDifference": 15,
           "points": 16,
           "form": "",
-          "description": "#2AD572"
+          "description": "#FFD908"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "teamId": 10229,
           "team": "AZ Alkmaar",
           "played": 6,
@@ -2375,21 +2390,6 @@
           "goalsAgainst": 6,
           "goalDifference": 11,
           "points": 16,
-          "form": "",
-          "description": "#FFD908"
-        },
-        {
-          "rank": 3,
-          "teamId": 10235,
-          "team": "Feyenoord",
-          "played": 6,
-          "won": 4,
-          "drawn": 2,
-          "lost": 0,
-          "goalsFor": 20,
-          "goalsAgainst": 7,
-          "goalDifference": 13,
-          "points": 14,
           "form": "",
           "description": "#0294F0"
         },
@@ -2530,21 +2530,6 @@
         },
         {
           "rank": 13,
-          "teamId": 9908,
-          "team": "FC Utrecht",
-          "played": 6,
-          "won": 1,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 11,
-          "goalsAgainst": 19,
-          "goalDifference": -8,
-          "points": 5,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 14,
           "teamId": 8614,
           "team": "Sparta Rotterdam",
           "played": 7,
@@ -2559,7 +2544,7 @@
           "description": ""
         },
         {
-          "rank": 15,
+          "rank": 14,
           "teamId": 7788,
           "team": "Cambuur",
           "played": 7,
@@ -2569,6 +2554,21 @@
           "goalsFor": 10,
           "goalsAgainst": 19,
           "goalDifference": -9,
+          "points": 5,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
+          "teamId": 9908,
+          "team": "FC Utrecht",
+          "played": 7,
+          "won": 1,
+          "drawn": 2,
+          "lost": 4,
+          "goalsFor": 11,
+          "goalsAgainst": 24,
+          "goalDifference": -13,
           "points": 5,
           "form": "",
           "description": ""
@@ -2620,20 +2620,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5781750,
-          "date": "2026-09-20T10:15:00.000Z",
-          "timestamp": 1789899300,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Feyenoord",
-          "away": "FC Utrecht",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5781752,
           "date": "2026-09-20T12:30:00.000Z",
@@ -2784,6 +2770,20 @@
           "venue": "",
           "home": "Telstar",
           "away": "ADO Den Haag",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5781760,
+          "date": "2026-10-11T14:45:00Z",
+          "timestamp": 1791729900,
+          "round": "8",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Excelsior",
+          "away": "FC Groningen",
           "started": false,
           "finished": false,
           "cancelled": false
