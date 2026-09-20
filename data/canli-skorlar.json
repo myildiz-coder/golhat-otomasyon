@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T14:55:08.727Z",
+  "updatedAt": "2026-09-20T15:07:41.061Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 8,
+    "live": 5,
     "upcoming": 12,
-    "finished": 8
+    "finished": 11
   },
   "matches": [
     {
@@ -39,9 +39,9 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Eyüpspor",
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 0,
-      "minute": null,
+      "minute": 48,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 49,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -149,10 +149,10 @@
       "away": "Sunderland",
       "homeScore": 5,
       "awayScore": 3,
-      "minute": 93,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795459,
@@ -203,7 +203,7 @@
       "away": "Real Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 39,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -293,10 +293,10 @@
       "away": "Como",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749687,
@@ -311,10 +311,10 @@
       "away": "Genoa",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 94,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749685,
@@ -365,7 +365,7 @@
       "away": "RB Leipzig",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 65,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -526,8 +526,8 @@
       "home": "NEC Nijmegen",
       "away": "Go Ahead Eagles",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 10,
+      "awayScore": 1,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
