@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T15:21:28.833Z",
+  "updatedAt": "2026-09-20T15:36:57.455Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 6,
-    "upcoming": 11,
-    "finished": 11
+    "live": 7,
+    "upcoming": 9,
+    "finished": 12
   },
   "matches": [
     {
@@ -41,7 +41,7 @@
       "away": "Eyüpspor",
       "homeScore": 7,
       "awayScore": 0,
-      "minute": 62,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -59,7 +59,7 @@
       "away": "Samsunspor",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 63,
+      "minute": 78,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,10 +167,10 @@
       "away": "Manchester United",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868076,
@@ -201,9 +201,9 @@
       "venue": "",
       "home": "Atlético Madrid",
       "away": "Real Madrid",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 58,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -365,10 +365,10 @@
       "away": "RB Leipzig",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881176,
@@ -383,10 +383,10 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 7,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881175,
@@ -437,7 +437,7 @@
       "away": "Lille",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 7,
+      "minute": 22,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -527,7 +527,7 @@
       "away": "Go Ahead Eagles",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 36,
+      "minute": null,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
