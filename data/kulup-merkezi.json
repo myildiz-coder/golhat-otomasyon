@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T14:32:26.537Z",
+  "updatedAt": "2026-09-20T16:32:58.501Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 2
       },
       "nextMatches": [
-        {
-          "id": 5904755,
-          "date": "2026-09-20T14:00:00.000Z",
-          "timestamp": 1789912800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Eyüpspor",
-          "homeScore": 3,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 5904761,
           "date": "2026-10-10T16:00:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904791,
+          "date": "2026-10-31T16:00:00.000Z",
+          "timestamp": 1793462400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Göztepe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904755,
+          "date": "2026-09-20T14:00:00.000Z",
+          "timestamp": 1789912800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Eyüpspor",
+          "homeScore": 8,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904740,
           "date": "2026-09-14T17:00:00.000Z",
@@ -161,20 +175,6 @@
           "home": "Samsunspor",
           "away": "Fenerbahçe",
           "homeScore": 0,
-          "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5987810,
-          "date": "2026-08-26T19:00:00.000Z",
-          "timestamp": 1787770800,
-          "tournament": "Champions League Qualification",
-          "stage": "",
-          "home": "Lyon",
-          "away": "Fenerbahçe",
-          "homeScore": 1,
           "awayScore": 2,
           "status": "FT",
           "kind": "finished",
