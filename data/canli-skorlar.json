@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:28:18.150Z",
+  "updatedAt": "2026-09-20T12:44:26.403Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 2,
-    "upcoming": 25,
-    "finished": 1
+    "live": 3,
+    "upcoming": 23,
+    "finished": 2
   },
   "matches": [
     {
@@ -185,7 +185,7 @@
       "away": "Málaga",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 27,
+      "minute": 43,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -275,10 +275,10 @@
       "away": "Napoli",
       "homeScore": 1,
       "awayScore": 1,
-      "minute": 95,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749684,
@@ -491,10 +491,10 @@
       "away": "Telstar",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 14,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781753,
@@ -509,10 +509,10 @@
       "away": "PSV Eindhoven",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 13,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781751,
