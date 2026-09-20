@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T19:18:26.433Z",
+  "updatedAt": "2026-09-20T19:28:27.750Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 4,
+    "live": 3,
     "upcoming": 0,
-    "finished": 24
+    "finished": 25
   },
   "matches": [
     {
@@ -256,8 +256,8 @@
       "home": "Valencia",
       "away": "Real Sociedad",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 16,
+      "awayScore": 1,
+      "minute": 26,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Lecce",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 31,
+      "minute": 41,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,10 +401,10 @@
       "away": "Hoffenheim",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 91,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802938,
@@ -455,7 +455,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 34,
+      "minute": 44,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
