@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T19:06:41.296Z",
+  "updatedAt": "2026-09-20T19:18:26.433Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -257,7 +257,7 @@
       "away": "Real Sociedad",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 4,
+      "minute": 16,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -347,7 +347,7 @@
       "away": "Lecce",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": 19,
+      "minute": 31,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -401,7 +401,7 @@
       "away": "Hoffenheim",
       "homeScore": 3,
       "awayScore": 1,
-      "minute": 79,
+      "minute": 91,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -455,7 +455,7 @@
       "away": "Paris Saint-Germain",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 22,
+      "minute": 34,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
