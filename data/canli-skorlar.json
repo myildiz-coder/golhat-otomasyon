@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T18:47:24.215Z",
+  "updatedAt": "2026-09-25T21:51:27.253Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -7,7 +7,7 @@
     "FotMob"
   ],
   "degraded": true,
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "timezone": "Europe/Istanbul",
   "trackedLeagues": [
     203,
