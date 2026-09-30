@@ -1,3 +1,6 @@
 .env.local
 layout-report.json
 layout-artifacts/
+
+.worker-dry-run/
+.wrangler/

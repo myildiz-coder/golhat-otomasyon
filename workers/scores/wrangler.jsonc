@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../sonsinyal-kontrol/node_modules/wrangler/config-schema.json",
+  "name": "golhat-live-scores",
+  "main": "index.mjs",
+  "compatibility_date": "2026-09-29",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "triggers": { "crons": ["*/3 * * * *"] },
+  "vars": { "SCORES_ENABLED": "false", "API_FOOTBALL_DAILY_LIMIT": "90" },
+  "d1_databases": [{"binding":"SCORES_DB","database_name":"golhat-live-scores","database_id":"REPLACE_WITH_PROVISIONED_DATABASE_ID","migrations_dir":"migrations"}],
+  "observability": { "enabled": true }
+}
