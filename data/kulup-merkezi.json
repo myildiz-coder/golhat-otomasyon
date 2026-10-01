@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:23:01.067Z",
+  "updatedAt": "2026-10-01T09:06:33.043Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,6 +24,20 @@
         "injured": 3
       },
       "nextMatches": [
+        {
+          "id": 6367375,
+          "date": "2026-10-03T16:00:00.000Z",
+          "timestamp": 1791043200,
+          "tournament": "Club Friendlies",
+          "stage": "",
+          "home": "Turan Tovuz",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
+        },
         {
           "id": 5904761,
           "date": "2026-10-10T16:00:00.000Z",
@@ -88,20 +102,6 @@
           "stage": "",
           "home": "Galatasaray",
           "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
-          "id": 5904791,
-          "date": "2026-10-31T16:00:00.000Z",
-          "timestamp": 1793462400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Göztepe",
           "homeScore": 0,
           "awayScore": 0,
           "status": "",
