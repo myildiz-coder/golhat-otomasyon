@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T01:42:06.840Z",
+  "updatedAt": "2026-10-04T08:33:27.943Z",
   "sources": [
     {
       "name": "FotMob",
@@ -186,43 +186,7 @@
       "kap": {
         "ticker": "FENER",
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a240e95dc90140ede7351a013d",
-        "disclosures": [
-          {
-            "id": 1633934,
-            "date": "2026-07-14T22:38:10+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "Mason Will John Greenwood Transferi Hakkında",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1633934"
-          },
-          {
-            "id": 1633933,
-            "date": "2026-07-14T22:30:16+03:00",
-            "type": "Transfer Görüşmeleri",
-            "summary": "Mason Will John Greenwood Transferi hk. ",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1633933"
-          },
-          {
-            "id": 1618523,
-            "date": "2026-06-18T13:01:48+03:00",
-            "type": "Teknik Yönetime İlişkin Açıklama",
-            "summary": "Futbol A Takımı Teknik Direktörlüğü için İsmail Kartal ile anlaşmaya varılmıştır.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1618523"
-          },
-          {
-            "id": 1598035,
-            "date": "2026-04-28T13:48:32+03:00",
-            "type": "Teknik Yönetime İlişkin Açıklama",
-            "summary": "Sayın Domenico Tedesco'nun Sözleşme Feshi Hk.",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1598035"
-          },
-          {
-            "id": 1552536,
-            "date": "2026-02-04T17:32:16+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "N'Golo Kante Transferi Hakkında ",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1552536"
-          }
-        ]
+        "disclosures": []
       }
     },
     "galatasaray": {
