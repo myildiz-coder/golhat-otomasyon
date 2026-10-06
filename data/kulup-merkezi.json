@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T22:46:57.787Z",
+  "updatedAt": "2026-10-06T06:33:34.088Z",
   "sources": [
     {
       "name": "FotMob",
@@ -186,7 +186,43 @@
       "kap": {
         "ticker": "FENER",
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a240e95dc90140ede7351a013d",
-        "disclosures": []
+        "disclosures": [
+          {
+            "id": 1633934,
+            "date": "2026-07-14T22:38:10+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Mason Will John Greenwood Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1633934"
+          },
+          {
+            "id": 1633933,
+            "date": "2026-07-14T22:30:16+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Mason Will John Greenwood Transferi hk. ",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1633933"
+          },
+          {
+            "id": 1618523,
+            "date": "2026-06-18T13:01:48+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Futbol A Takımı Teknik Direktörlüğü için İsmail Kartal ile anlaşmaya varılmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1618523"
+          },
+          {
+            "id": 1598035,
+            "date": "2026-04-28T13:48:32+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Sayın Domenico Tedesco'nun Sözleşme Feshi Hk.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1598035"
+          },
+          {
+            "id": 1552536,
+            "date": "2026-02-04T17:32:16+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "N'Golo Kante Transferi Hakkında ",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1552536"
+          }
+        ]
       }
     },
     "galatasaray": {
@@ -363,7 +399,50 @@
       "kap": {
         "ticker": "GSRAY",
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a14203278a0142095598f114ba",
-        "disclosures": []
+        "disclosures": [
+          {
+            "id": 1657700,
+            "date": "2026-09-02T22:00:04+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel Futbolcumuz Victor Enok Nelsson'un Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657700"
+          },
+          {
+            "id": 1657686,
+            "date": "2026-09-02T21:00:10+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu El-Chadaille Bitshiabu Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657686"
+          },
+          {
+            "id": 1657002,
+            "date": "2026-09-02T06:02:03+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu El-Chadaille Bitshiabu Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657002"
+          },
+          {
+            "id": 1656994,
+            "date": "2026-09-01T22:30:11+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Deniz Daniel Gül Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1656994"
+          },
+          {
+            "id": 1656667,
+            "date": "2026-09-01T12:30:15+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu Deniz Daniel Gül Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1656667"
+          },
+          {
+            "id": 1655994,
+            "date": "2026-08-30T13:00:36+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Rafael Alexandre Da Conceiçao Leao Transferi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655994"
+          }
+        ]
       }
     },
     "besiktas": {
@@ -540,7 +619,50 @@
       "kap": {
         "ticker": "BJKAS",
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a241a25fcb0141a276cda10189",
-        "disclosures": []
+        "disclosures": [
+          {
+            "id": 1659249,
+            "date": "2026-09-04T22:45:25+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcumuz Emrecan Uzunhan'ın transferi konusunda anlaşma sağlanmıştır",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1659249"
+          },
+          {
+            "id": 1655996,
+            "date": "2026-08-30T21:15:07+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel futbolcumuz Almoatasembellah Ali Mohamed Al Musrati'nin Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655996"
+          },
+          {
+            "id": 1655995,
+            "date": "2026-08-30T20:15:03+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel futbolcumuz Amir Hadziahmetovic'in Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1655995"
+          },
+          {
+            "id": 1654936,
+            "date": "2026-08-25T18:10:07+03:00",
+            "type": "Sözleşme Feshi",
+            "summary": "Profesyonel futbolcumuz Jean Emile Junior ONANA ONANA'nın Sözleşme Feshi Hakkında",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1654936"
+          },
+          {
+            "id": 1649384,
+            "date": "2026-08-13T18:10:10+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Profesyonel Futbolcu Dusan Vlahovic'in  transferi konusunda Oyuncu ile sözleşme imzalanmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1649384"
+          },
+          {
+            "id": 1648818,
+            "date": "2026-08-12T18:45:04+03:00",
+            "type": "Transfer Görüşmeleri",
+            "summary": "Profesyonel Futbolcu Dusan Vlahovic Hakkında ",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1648818"
+          }
+        ]
       }
     },
     "trabzonspor": {
@@ -717,7 +839,50 @@
       "kap": {
         "ticker": "TSPOR",
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a141da49e50141e0852f272b80",
-        "disclosures": []
+        "disclosures": [
+          {
+            "id": 1664658,
+            "date": "2026-09-17T15:05:10+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Thomas Reis İle Sözleşme İmzalanması Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1664658"
+          },
+          {
+            "id": 1659251,
+            "date": "2026-09-04T23:02:54+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Ali Habeşoğlu Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1659251"
+          },
+          {
+            "id": 1659250,
+            "date": "2026-09-04T23:01:45+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Rene Mitongo Muteba Geçici Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1659250"
+          },
+          {
+            "id": 1657703,
+            "date": "2026-09-02T23:51:50+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Franculino Gludo Dju Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657703"
+          },
+          {
+            "id": 1657232,
+            "date": "2026-09-02T15:13:45+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Fatih Tekke İle Olan Sözleşmenin Feshi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1657232"
+          },
+          {
+            "id": 1656180,
+            "date": "2026-08-31T13:34:33+03:00",
+            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
+            "summary": "Göktan Gürpüz Geçici Transferi Hakkında.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1656180"
+          }
+        ]
       }
     }
   }
