@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T16:05:21.919Z",
+  "updatedAt": "2026-10-08T21:16:01.370Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -7,7 +7,7 @@
     "FotMob"
   ],
   "degraded": true,
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "timezone": "Europe/Istanbul",
   "trackedLeagues": [
     203,
@@ -22,10 +22,101 @@
     88
   ],
   "summary": {
-    "total": 0,
+    "total": 5,
     "live": 0,
-    "upcoming": 0,
+    "upcoming": 5,
     "finished": 0
   },
-  "matches": []
+  "matches": [
+    {
+      "id": 5904764,
+      "leagueId": 203,
+      "league": "Super Lig",
+      "country": "TUR",
+      "round": "7",
+      "date": "2026-10-09T17:00:00.000Z",
+      "timestamp": 1791565200,
+      "venue": "",
+      "home": "Galatasaray",
+      "away": "Kasımpaşa",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5868086,
+      "leagueId": 140,
+      "league": "LaLiga",
+      "country": "ESP",
+      "round": "8",
+      "date": "2026-10-09T19:00:00.000Z",
+      "timestamp": 1791572400,
+      "venue": "",
+      "home": "Málaga",
+      "away": "Espanyol",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5881180,
+      "leagueId": 78,
+      "league": "Bundesliga",
+      "country": "GER",
+      "round": "5",
+      "date": "2026-10-09T18:30:00.000Z",
+      "timestamp": 1791570600,
+      "venue": "",
+      "home": "Borussia Dortmund",
+      "away": "Werder Bremen",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5802947,
+      "leagueId": 61,
+      "league": "Ligue 1",
+      "country": "FRA",
+      "round": "6",
+      "date": "2026-10-09T18:45:00.000Z",
+      "timestamp": 1791571500,
+      "venue": "",
+      "home": "Lens",
+      "away": "Lyon",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5781762,
+      "leagueId": 88,
+      "league": "Eredivisie",
+      "country": "NED",
+      "round": "8",
+      "date": "2026-10-09T18:00:00.000Z",
+      "timestamp": 1791568800,
+      "venue": "",
+      "home": "PSV Eindhoven",
+      "away": "SC Heerenveen",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    }
+  ]
 }
