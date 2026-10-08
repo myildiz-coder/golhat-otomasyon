@@ -2,6 +2,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const { jevDuplicateOf } = require('./jev-dedupe');
 
 const UEFA_2026_QUALIFYING_URL = 'https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-results-dates-how-it-/';
 
@@ -378,6 +379,15 @@ async function runCategory(roleName, state, options, apiKey, model, now) {
       if (storyIsDuplicate(story.headline, comparison)) {
         console.warn('[' + role.label + '] yinelenen haber atlandı: ' + story.headline);
         continue;
+      }
+      try {
+        const jevMatch = await jevDuplicateOf(story.headline, story.summary, comparison);
+        if (jevMatch) {
+          console.warn('[' + role.label + '] Jev aynı haber dedi (' + jevMatch.p + '), atlandı: ' + story.headline + ' ≈ ' + jevMatch.other);
+          continue;
+        }
+      } catch (error) {
+        console.warn('[' + role.label + '] Jev kontrolü çalışmadı, yalnız kelime kontrolü uygulandı: ' + error.message);
       }
       accepted.push(story);
       if (roleName === 'ozel_haber') break;
