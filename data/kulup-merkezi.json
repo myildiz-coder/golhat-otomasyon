@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T17:03:58.752Z",
+  "updatedAt": "2026-10-09T22:45:18.436Z",
   "sources": [
     {
       "name": "FotMob",
@@ -238,20 +238,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904764,
-          "date": "2026-10-09T17:00:00.000Z",
-          "timestamp": 1791565200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Kasımpaşa",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
-        {
           "id": 6106338,
           "date": "2026-10-13T19:00:00.000Z",
           "timestamp": 1791918000,
@@ -320,9 +306,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6106341,
+          "date": "2026-11-03T17:45:00.000Z",
+          "timestamp": 1793727900,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "VfB Stuttgart",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904764,
+          "date": "2026-10-09T17:00:00.000Z",
+          "timestamp": 1791565200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Kasımpaşa",
+          "homeScore": 3,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904749,
           "date": "2026-09-19T17:00:00.000Z",
@@ -375,20 +389,6 @@
           "away": "Galatasaray",
           "homeScore": 2,
           "awayScore": 3,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904728,
-          "date": "2026-08-29T18:30:00.000Z",
-          "timestamp": 1788028200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Göztepe",
-          "homeScore": 3,
-          "awayScore": 2,
           "status": "FT",
           "kind": "finished",
           "result": "W"
