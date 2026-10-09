@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T15:36:29.960Z",
+  "updatedAt": "2026-10-09T20:18:17.340Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -10,6 +10,19 @@
   "standings": [
     {
       "rank": 1,
+      "team": "GALATASARAY A.Ş.",
+      "played": 7,
+      "won": 5,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 16,
+      "goalsAgainst": 11,
+      "goalDifference": 5,
+      "points": 16,
+      "form": ""
+    },
+    {
+      "rank": 2,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 6,
       "won": 4,
@@ -18,19 +31,6 @@
       "goalsFor": 15,
       "goalsAgainst": 7,
       "goalDifference": 8,
-      "points": 13,
-      "form": ""
-    },
-    {
-      "rank": 2,
-      "team": "GALATASARAY A.Ş.",
-      "played": 6,
-      "won": 4,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 13,
-      "goalsAgainst": 10,
-      "goalDifference": 3,
       "points": 13,
       "form": ""
     },
@@ -101,19 +101,6 @@
     },
     {
       "rank": 8,
-      "team": "KASIMPAŞA A.Ş.",
-      "played": 6,
-      "won": 2,
-      "drawn": 4,
-      "lost": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 5,
-      "goalDifference": 2,
-      "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 9,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 6,
       "won": 3,
@@ -122,6 +109,19 @@
       "goalsFor": 7,
       "goalsAgainst": 6,
       "goalDifference": 1,
+      "points": 10,
+      "form": ""
+    },
+    {
+      "rank": 9,
+      "team": "KASIMPAŞA A.Ş.",
+      "played": 7,
+      "won": 2,
+      "drawn": 4,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 8,
+      "goalDifference": 0,
       "points": 10,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317844,
-      "date": "2026-10-09T17:00:00.000Z",
-      "timestamp": 1791565200,
-      "round": "7. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GALATASARAY A.Ş.",
-      "away": "KASIMPAŞA A.Ş."
-    },
     {
       "id": 317842,
       "date": "2026-10-10T10:30:00.000Z",
