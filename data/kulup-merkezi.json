@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T09:18:39.046Z",
+  "updatedAt": "2026-10-09T17:03:58.752Z",
   "sources": [
     {
       "name": "FotMob",
@@ -248,7 +248,7 @@
           "homeScore": 0,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
