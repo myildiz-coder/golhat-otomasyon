@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T12:44:30.478Z",
+  "updatedAt": "2026-10-10T18:42:48.592Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 3
       },
       "nextMatches": [
-        {
-          "id": 5904761,
-          "date": "2026-10-10T16:00:00.000Z",
-          "timestamp": 1791648000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Rizespor",
-          "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6106284,
           "date": "2026-10-14T19:00:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6106330,
+          "date": "2026-11-04T17:45:00.000Z",
+          "timestamp": 1793814300,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Liverpool",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904761,
+          "date": "2026-10-10T16:00:00.000Z",
+          "timestamp": 1791648000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Rizespor",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 3,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 6367375,
           "date": "2026-10-03T16:00:00.000Z",
@@ -165,20 +179,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "D"
-        },
-        {
-          "id": 5904737,
-          "date": "2026-09-05T17:00:00.000Z",
-          "timestamp": 1788627600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Beşiktaş",
-          "homeScore": 1,
-          "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
         }
       ],
       "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
@@ -678,20 +678,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904766,
-          "date": "2026-10-10T13:00:00.000Z",
-          "timestamp": 1791637200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Samsunspor",
-          "away": "Trabzonspor",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6112478,
           "date": "2026-10-15T16:45:00.000Z",
           "timestamp": 1792082700,
@@ -760,9 +746,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112501,
+          "date": "2026-11-05T17:45:00.000Z",
+          "timestamp": 1793900700,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Freiburg",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904766,
+          "date": "2026-10-10T13:00:00.000Z",
+          "timestamp": 1791637200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Samsunspor",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 3,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904749,
           "date": "2026-09-19T17:00:00.000Z",
@@ -815,20 +829,6 @@
           "away": "Trabzonspor",
           "homeScore": 2,
           "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
-        },
-        {
-          "id": 5987967,
-          "date": "2026-08-27T18:30:00.000Z",
-          "timestamp": 1787855400,
-          "tournament": "Europa League Qualification",
-          "stage": "",
-          "home": "Ferencváros",
-          "away": "Trabzonspor",
-          "homeScore": 4,
-          "awayScore": 0,
           "status": "FT",
           "kind": "finished",
           "result": "L"
