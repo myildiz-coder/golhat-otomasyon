@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T10:19:52.642Z",
+  "updatedAt": "2026-10-10T14:50:23.425Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -24,14 +24,14 @@
     {
       "rank": 2,
       "team": "AMED SPORTİF FAALİYETLER",
-      "played": 6,
+      "played": 7,
       "won": 4,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 1,
-      "goalsFor": 15,
-      "goalsAgainst": 7,
+      "goalsFor": 17,
+      "goalsAgainst": 9,
       "goalDifference": 8,
-      "points": 13,
+      "points": 14,
       "form": ""
     },
     {
@@ -140,6 +140,19 @@
     },
     {
       "rank": 11,
+      "team": "GENÇLERBİRLİĞİ",
+      "played": 7,
+      "won": 2,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 15,
+      "goalDifference": -8,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 12,
       "team": "ARCA ÇORUM FK",
       "played": 6,
       "won": 2,
@@ -152,7 +165,7 @@
       "form": ""
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 6,
       "won": 2,
@@ -161,19 +174,6 @@
       "goalsFor": 10,
       "goalsAgainst": 11,
       "goalDifference": -1,
-      "points": 7,
-      "form": ""
-    },
-    {
-      "rank": 13,
-      "team": "GENÇLERBİRLİĞİ",
-      "played": 6,
-      "won": 2,
-      "drawn": 1,
-      "lost": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 13,
-      "goalDifference": -8,
       "points": 7,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317842,
-      "date": "2026-10-10T10:30:00.000Z",
-      "timestamp": 1791628200,
-      "round": "7. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GENÇLERBİRLİĞİ",
-      "away": "AMED SPORTİF FAALİYETLER"
-    },
     {
       "id": 317840,
       "date": "2026-10-10T13:00:00.000Z",
