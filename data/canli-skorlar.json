@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T09:14:52.020Z",
+  "updatedAt": "2026-10-10T14:38:28.182Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 32,
-    "live": 0,
-    "upcoming": 32,
-    "finished": 0
+    "live": 14,
+    "upcoming": 15,
+    "finished": 2
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Gençlerbirliği",
       "away": "Amed Sportif",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904760,
@@ -59,10 +59,10 @@
       "away": "Erzurumspor FK",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 81,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904766,
@@ -76,11 +76,11 @@
       "home": "Samsunspor",
       "away": "Trabzonspor",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 3,
+      "minute": 76,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904761,
@@ -111,12 +111,12 @@
       "venue": "",
       "home": "Arsenal",
       "away": "Leeds United",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795466,
@@ -129,12 +129,12 @@
       "venue": "",
       "home": "Aston Villa",
       "away": "Brentford",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 39,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795467,
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "Chelsea",
       "away": "AFC Bournemouth",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 39,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795471,
@@ -167,10 +167,10 @@
       "away": "Fulham",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 39,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795474,
@@ -185,10 +185,10 @@
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 39,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795473,
@@ -222,9 +222,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "PST",
+      "statusLong": "Abandoned",
+      "kind": "other"
     },
     {
       "id": 5868081,
@@ -239,10 +239,10 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 24,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868084,
@@ -291,12 +291,12 @@
       "venue": "",
       "home": "Genoa",
       "away": "Fiorentina",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 78,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749694,
@@ -345,12 +345,12 @@
       "venue": "",
       "home": "Augsburg",
       "away": "Bayern München",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 48,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881183,
@@ -363,12 +363,12 @@
       "venue": "",
       "home": "Hoffenheim",
       "away": "Hamburger SV",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881184,
@@ -381,12 +381,12 @@
       "venue": "",
       "home": "Mainz 05",
       "away": "Bayer Leverkusen",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": 49,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881185,
@@ -400,11 +400,11 @@
       "home": "Paderborn",
       "away": "VfB Stuttgart",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 50,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881187,
@@ -419,10 +419,10 @@
       "away": "Elversberg",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 49,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881186,
@@ -545,10 +545,10 @@
       "away": "Sparta Rotterdam",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 6,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781759,
