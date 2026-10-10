@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T14:50:23.425Z",
+  "updatedAt": "2026-10-10T18:55:36.045Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -36,6 +36,32 @@
     },
     {
       "rank": 3,
+      "team": "FENERBAHÇE A.Ş.",
+      "played": 7,
+      "won": 4,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 19,
+      "goalsAgainst": 6,
+      "goalDifference": 13,
+      "points": 13,
+      "form": ""
+    },
+    {
+      "rank": 4,
+      "team": "TRABZONSPOR A.Ş.",
+      "played": 7,
+      "won": 4,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 5,
+      "goalDifference": 11,
+      "points": 13,
+      "form": ""
+    },
+    {
+      "rank": 5,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 6,
       "won": 4,
@@ -48,7 +74,7 @@
       "form": ""
     },
     {
-      "rank": 4,
+      "rank": 6,
       "team": "KOCAELİSPOR",
       "played": 6,
       "won": 4,
@@ -61,59 +87,20 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 7,
       "team": "CORENDON ALANYASPOR",
-      "played": 6,
+      "played": 7,
       "won": 3,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 1,
       "goalsFor": 8,
       "goalsAgainst": 6,
       "goalDifference": 2,
-      "points": 11,
-      "form": ""
-    },
-    {
-      "rank": 6,
-      "team": "FENERBAHÇE A.Ş.",
-      "played": 6,
-      "won": 3,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 16,
-      "goalsAgainst": 6,
-      "goalDifference": 10,
-      "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 7,
-      "team": "TRABZONSPOR A.Ş.",
-      "played": 6,
-      "won": 3,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 13,
-      "goalsAgainst": 5,
-      "goalDifference": 8,
-      "points": 10,
+      "points": 12,
       "form": ""
     },
     {
       "rank": 8,
-      "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 6,
-      "won": 3,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 6,
-      "goalDifference": 1,
-      "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 9,
       "team": "KASIMPAŞA A.Ş.",
       "played": 7,
       "won": 2,
@@ -122,6 +109,19 @@
       "goalsFor": 8,
       "goalsAgainst": 8,
       "goalDifference": 0,
+      "points": 10,
+      "form": ""
+    },
+    {
+      "rank": 9,
+      "team": "ÇAYKUR RİZESPOR A.Ş.",
+      "played": 7,
+      "won": 3,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 9,
+      "goalDifference": -2,
       "points": 10,
       "form": ""
     },
@@ -153,6 +153,19 @@
     },
     {
       "rank": 12,
+      "team": "ERZURUMSPOR FK",
+      "played": 7,
+      "won": 2,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 3,
+      "goalsAgainst": 11,
+      "goalDifference": -8,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 13,
       "team": "ARCA ÇORUM FK",
       "played": 6,
       "won": 2,
@@ -165,7 +178,7 @@
       "form": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 6,
       "won": 2,
@@ -174,19 +187,6 @@
       "goalsFor": 10,
       "goalsAgainst": 11,
       "goalDifference": -1,
-      "points": 7,
-      "form": ""
-    },
-    {
-      "rank": 14,
-      "team": "ERZURUMSPOR FK",
-      "played": 6,
-      "won": 2,
-      "drawn": 1,
-      "lost": 3,
-      "goalsFor": 3,
-      "goalsAgainst": 11,
-      "goalDifference": -8,
       "points": 7,
       "form": ""
     },
@@ -206,13 +206,13 @@
     {
       "rank": 16,
       "team": "SAMSUNSPOR A.Ş.",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "drawn": 1,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 6,
-      "goalsAgainst": 12,
-      "goalDifference": -6,
+      "goalsAgainst": 15,
+      "goalDifference": -9,
       "points": 4,
       "form": ""
     },
@@ -244,39 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317840,
-      "date": "2026-10-10T13:00:00.000Z",
-      "timestamp": 1791637200,
-      "round": "7. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "CORENDON ALANYASPOR",
-      "away": "ERZURUMSPOR FK"
-    },
-    {
-      "id": 317846,
-      "date": "2026-10-10T13:00:00.000Z",
-      "timestamp": 1791637200,
-      "round": "7. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "SAMSUNSPOR A.Ş.",
-      "away": "TRABZONSPOR A.Ş."
-    },
-    {
-      "id": 317841,
-      "date": "2026-10-10T16:00:00.000Z",
-      "timestamp": 1791648000,
-      "round": "7. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ÇAYKUR RİZESPOR A.Ş.",
-      "away": "FENERBAHÇE A.Ş."
-    },
     {
       "id": 317843,
       "date": "2026-10-11T10:30:00.000Z",
