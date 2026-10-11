@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T13:07:08.942Z",
+  "updatedAt": "2026-10-11T19:00:46.493Z",
   "sources": [
     {
       "name": "FotMob",
@@ -458,20 +458,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904765,
-          "date": "2026-10-11T16:00:00.000Z",
-          "timestamp": 1791734400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Kocaelispor",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6112353,
           "date": "2026-10-15T19:00:00.000Z",
           "timestamp": 1792090800,
@@ -540,9 +526,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112301,
+          "date": "2026-11-05T20:00:00.000Z",
+          "timestamp": 1793908800,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Celtic",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904765,
+          "date": "2026-10-11T16:00:00.000Z",
+          "timestamp": 1791734400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Kocaelispor",
+          "homeScore": 2,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904752,
           "date": "2026-09-20T17:00:00.000Z",
@@ -594,20 +608,6 @@
           "home": "Fenerbahçe",
           "away": "Beşiktaş",
           "homeScore": 1,
-          "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904729,
-          "date": "2026-08-31T18:30:00.000Z",
-          "timestamp": 1788201000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Çorum FK",
-          "homeScore": 6,
           "awayScore": 2,
           "status": "FT",
           "kind": "finished",
