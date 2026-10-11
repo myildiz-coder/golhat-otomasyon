@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T15:08:58.038Z",
+  "updatedAt": "2026-10-11T19:30:12.801Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -23,6 +23,19 @@
     },
     {
       "rank": 2,
+      "team": "BEŞİKTAŞ A.Ş.",
+      "played": 7,
+      "won": 5,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 8,
+      "goalDifference": 8,
+      "points": 15,
+      "form": ""
+    },
+    {
+      "rank": 3,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 7,
       "won": 4,
@@ -35,7 +48,7 @@
       "form": ""
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "FENERBAHÇE A.Ş.",
       "played": 7,
       "won": 4,
@@ -48,7 +61,7 @@
       "form": ""
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "TRABZONSPOR A.Ş.",
       "played": 7,
       "won": 4,
@@ -61,38 +74,25 @@
       "form": ""
     },
     {
-      "rank": 5,
-      "team": "BEŞİKTAŞ A.Ş.",
-      "played": 6,
-      "won": 4,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 14,
-      "goalsAgainst": 7,
-      "goalDifference": 7,
-      "points": 12,
-      "form": ""
-    },
-    {
       "rank": 6,
-      "team": "KOCAELİSPOR",
-      "played": 6,
-      "won": 4,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 4,
-      "goalDifference": 3,
-      "points": 12,
-      "form": ""
-    },
-    {
-      "rank": 7,
       "team": "CORENDON ALANYASPOR",
       "played": 7,
       "won": 3,
       "drawn": 3,
       "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
+      "goalDifference": 2,
+      "points": 12,
+      "form": ""
+    },
+    {
+      "rank": 7,
+      "team": "KOCAELİSPOR",
+      "played": 7,
+      "won": 4,
+      "drawn": 0,
+      "lost": 3,
       "goalsFor": 8,
       "goalsAgainst": 6,
       "goalDifference": 2,
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317845,
-      "date": "2026-10-11T16:00:00.000Z",
-      "timestamp": 1791734400,
-      "round": "7. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "BEŞİKTAŞ A.Ş.",
-      "away": "KOCAELİSPOR"
-    },
     {
       "id": 317839,
       "date": "2026-10-12T17:00:00.000Z",
