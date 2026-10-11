@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T15:18:06.490Z",
+  "updatedAt": "2026-10-11T19:35:56.805Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 24,
-    "live": 4,
-    "upcoming": 8,
-    "finished": 12
+    "live": 3,
+    "upcoming": 0,
+    "finished": 21
   },
   "matches": [
     {
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Beşiktaş",
       "away": "Kocaelispor",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795469,
@@ -130,11 +130,11 @@
       "home": "Liverpool",
       "away": "Manchester City",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 3,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868083,
@@ -165,12 +165,12 @@
       "venue": "",
       "home": "Real Sociedad",
       "away": "Deportivo A Coruña",
-      "homeScore": 2,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 2,
       "minute": null,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868082,
@@ -183,12 +183,12 @@
       "venue": "",
       "home": "Real Betis",
       "away": "Osasuna",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 5,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868087,
@@ -201,12 +201,12 @@
       "venue": "",
       "home": "Racing Santander",
       "away": "Valencia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 36,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749692,
@@ -273,12 +273,12 @@
       "venue": "",
       "home": "Sassuolo",
       "away": "Milan",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749691,
@@ -291,12 +291,12 @@
       "venue": "",
       "home": "Cagliari",
       "away": "Juventus",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881181,
@@ -311,10 +311,10 @@
       "away": "Borussia Mönchengladbach",
       "homeScore": 2,
       "awayScore": 1,
-      "minute": 84,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881182,
@@ -327,12 +327,12 @@
       "venue": "",
       "home": "Freiburg",
       "away": "Schalke 04",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802951,
@@ -363,12 +363,12 @@
       "venue": "",
       "home": "Rennes",
       "away": "Auxerre",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 3,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 4,
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802954,
@@ -384,9 +384,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781761,
@@ -453,12 +453,12 @@
       "venue": "",
       "home": "Excelsior",
       "away": "FC Groningen",
-      "homeScore": 0,
-      "awayScore": 1,
-      "minute": 34,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 1,
+      "awayScore": 5,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
