@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T09:31:31.436Z",
+  "updatedAt": "2026-10-11T13:55:54.808Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 24,
-    "live": 0,
-    "upcoming": 24,
-    "finished": 0
+    "live": 9,
+    "upcoming": 11,
+    "finished": 4
   },
   "matches": [
     {
@@ -42,9 +42,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904758,
@@ -58,11 +58,11 @@
       "home": "Gaziantep FK",
       "away": "Çorum FK",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904765,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Crystal Palace",
       "away": "Nottingham Forest",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795470,
@@ -114,9 +114,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795472,
@@ -150,9 +150,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868090,
@@ -222,9 +222,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749695,
@@ -237,12 +237,12 @@
       "venue": "",
       "home": "Lazio",
       "away": "Monza",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749696,
@@ -256,11 +256,11 @@
       "home": "Lecce",
       "away": "Bologna",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749698,
@@ -311,10 +311,10 @@
       "away": "Borussia Mönchengladbach",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 24,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881182,
@@ -345,12 +345,12 @@
       "venue": "",
       "home": "Nice",
       "away": "Strasbourg",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802953,
@@ -399,12 +399,12 @@
       "venue": "",
       "home": "FC Utrecht",
       "away": "Willem II",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781763,
@@ -419,10 +419,10 @@
       "away": "Cambuur",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 64,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781766,
@@ -435,12 +435,12 @@
       "venue": "",
       "home": "Telstar",
       "away": "ADO Den Haag",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": 67,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781760,
