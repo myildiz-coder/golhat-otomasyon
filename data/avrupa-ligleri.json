@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T20:13:30.459Z",
+  "updatedAt": "2026-10-11T23:39:27.911Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -614,21 +614,6 @@
         },
         {
           "rank": 9,
-          "teamId": 8696,
-          "team": "Racing Santander",
-          "played": 8,
-          "won": 3,
-          "drawn": 1,
-          "lost": 4,
-          "goalsFor": 13,
-          "goalsAgainst": 22,
-          "goalDifference": -9,
-          "points": 10,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 10,
           "teamId": 9910,
           "team": "Celta Vigo",
           "played": 8,
@@ -643,7 +628,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 10,
           "teamId": 8315,
           "team": "Athletic Club",
           "played": 6,
@@ -658,7 +643,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 11,
           "teamId": 10205,
           "team": "Villarreal",
           "played": 8,
@@ -673,7 +658,7 @@
           "description": ""
         },
         {
-          "rank": 13,
+          "rank": 12,
           "teamId": 8558,
           "team": "Espanyol",
           "played": 8,
@@ -688,7 +673,7 @@
           "description": ""
         },
         {
-          "rank": 14,
+          "rank": 13,
           "teamId": 8370,
           "team": "Rayo Vallecano",
           "played": 7,
@@ -703,7 +688,7 @@
           "description": ""
         },
         {
-          "rank": 15,
+          "rank": 14,
           "teamId": 8305,
           "team": "Getafe",
           "played": 8,
@@ -713,6 +698,21 @@
           "goalsFor": 4,
           "goalsAgainst": 10,
           "goalDifference": -6,
+          "points": 8,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
+          "teamId": 8696,
+          "team": "Racing Santander",
+          "played": 8,
+          "won": 2,
+          "drawn": 2,
+          "lost": 4,
+          "goalsFor": 13,
+          "goalsAgainst": 23,
+          "goalDifference": -10,
           "points": 8,
           "form": "",
           "description": ""
@@ -764,6 +764,21 @@
         },
         {
           "rank": 19,
+          "teamId": 10267,
+          "team": "Valencia",
+          "played": 8,
+          "won": 1,
+          "drawn": 2,
+          "lost": 5,
+          "goalsFor": 6,
+          "goalsAgainst": 15,
+          "goalDifference": -9,
+          "points": 5,
+          "form": "",
+          "description": "#FF4646"
+        },
+        {
+          "rank": 20,
           "teamId": 9864,
           "team": "Málaga",
           "played": 8,
@@ -773,21 +788,6 @@
           "goalsFor": 4,
           "goalsAgainst": 13,
           "goalDifference": -9,
-          "points": 4,
-          "form": "",
-          "description": "#FF4646"
-        },
-        {
-          "rank": 20,
-          "teamId": 10267,
-          "team": "Valencia",
-          "played": 8,
-          "won": 1,
-          "drawn": 1,
-          "lost": 6,
-          "goalsFor": 5,
-          "goalsAgainst": 15,
-          "goalDifference": -10,
           "points": 4,
           "form": "",
           "description": "#FF4646"
@@ -1003,21 +1003,6 @@
         },
         {
           "rank": 3,
-          "teamId": 8529,
-          "team": "Cagliari",
-          "played": 6,
-          "won": 5,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 6,
-          "goalsAgainst": 2,
-          "goalDifference": 4,
-          "points": 15,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 4,
           "teamId": 8686,
           "team": "Roma",
           "played": 6,
@@ -1028,6 +1013,21 @@
           "goalsAgainst": 3,
           "goalDifference": 11,
           "points": 14,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
+          "teamId": 8529,
+          "team": "Cagliari",
+          "played": 6,
+          "won": 4,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 3,
+          "goalDifference": 3,
+          "points": 13,
           "form": "",
           "description": "#2AD572"
         },
@@ -1048,6 +1048,21 @@
         },
         {
           "rank": 6,
+          "teamId": 9885,
+          "team": "Juventus",
+          "played": 6,
+          "won": 3,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 9,
+          "goalsAgainst": 5,
+          "goalDifference": 4,
+          "points": 11,
+          "form": "",
+          "description": "#02CCF0"
+        },
+        {
+          "rank": 7,
           "teamId": 10171,
           "team": "Como",
           "played": 6,
@@ -1059,10 +1074,10 @@
           "goalDifference": 3,
           "points": 11,
           "form": "",
-          "description": "#02CCF0"
+          "description": ""
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": 9875,
           "team": "Napoli",
           "played": 6,
@@ -1072,21 +1087,6 @@
           "goalsFor": 10,
           "goalsAgainst": 6,
           "goalDifference": 4,
-          "points": 10,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 8,
-          "teamId": 9885,
-          "team": "Juventus",
-          "played": 6,
-          "won": 3,
-          "drawn": 1,
-          "lost": 2,
-          "goalsFor": 8,
-          "goalsAgainst": 5,
-          "goalDifference": 3,
           "points": 10,
           "form": "",
           "description": ""
@@ -1638,9 +1638,9 @@
           "won": 2,
           "drawn": 0,
           "lost": 4,
-          "goalsFor": 8,
+          "goalsFor": 9,
           "goalsAgainst": 8,
-          "goalDifference": 0,
+          "goalDifference": 1,
           "points": 6,
           "form": "",
           "description": ""
@@ -1699,8 +1699,8 @@
           "drawn": 1,
           "lost": 4,
           "goalsFor": 4,
-          "goalsAgainst": 12,
-          "goalDifference": -8,
+          "goalsAgainst": 13,
+          "goalDifference": -9,
           "points": 4,
           "form": "",
           "description": "#FF4646"
