@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-12T02:15:21.489Z",
+  "updatedAt": "2026-10-12T03:36:09.918Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "7. Hafta",
-  "roundLabel": "7. Hafta",
+  "round": "8. Hafta",
+  "roundLabel": "8. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -248,7 +248,7 @@
       "id": 317839,
       "date": "2026-10-12T17:00:00.000Z",
       "timestamp": 1791824400,
-      "round": "7. Hafta",
+      "round": "8. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
