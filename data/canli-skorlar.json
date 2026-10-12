@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T10:01:53.825Z",
+  "updatedAt": "2026-10-12T17:41:39.335Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 5,
-    "live": 0,
-    "upcoming": 5,
+    "live": 2,
+    "upcoming": 3,
     "finished": 0
   },
   "matches": [
@@ -40,11 +40,11 @@
       "home": "Eyüpspor",
       "away": "Göztepe",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 40,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795468,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Atalanta",
       "away": "Venezia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 3,
+      "awayScore": 1,
+      "minute": 54,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749699,
