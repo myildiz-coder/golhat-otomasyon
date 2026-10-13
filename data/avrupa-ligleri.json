@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:50:14.808Z",
+  "updatedAt": "2026-10-13T01:59:32.949Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -167,13 +167,13 @@
           "rank": 11,
           "teamId": 10261,
           "team": "Newcastle United",
-          "played": 5,
+          "played": 6,
           "won": 2,
           "drawn": 2,
-          "lost": 1,
-          "goalsFor": 9,
-          "goalsAgainst": 9,
-          "goalDifference": 0,
+          "lost": 2,
+          "goalsFor": 10,
+          "goalsAgainst": 13,
+          "goalDifference": -3,
           "points": 8,
           "form": "",
           "description": ""
@@ -210,6 +210,21 @@
         },
         {
           "rank": 14,
+          "teamId": 8669,
+          "team": "Coventry City",
+          "played": 6,
+          "won": 2,
+          "drawn": 0,
+          "lost": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 11,
+          "goalDifference": -6,
+          "points": 6,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
           "teamId": 10203,
           "team": "Nottingham Forest",
           "played": 6,
@@ -224,7 +239,7 @@
           "description": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "teamId": 10252,
           "team": "Aston Villa",
           "played": 6,
@@ -239,7 +254,7 @@
           "description": ""
         },
         {
-          "rank": 16,
+          "rank": 17,
           "teamId": 8472,
           "team": "Sunderland",
           "played": 6,
@@ -254,7 +269,7 @@
           "description": ""
         },
         {
-          "rank": 17,
+          "rank": 18,
           "teamId": 8678,
           "team": "AFC Bournemouth",
           "played": 6,
@@ -266,10 +281,10 @@
           "goalDifference": -6,
           "points": 3,
           "form": "",
-          "description": ""
+          "description": "#FF4646"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "teamId": 8586,
           "team": "Tottenham Hotspur",
           "played": 6,
@@ -279,21 +294,6 @@
           "goalsFor": 3,
           "goalsAgainst": 9,
           "goalDifference": -6,
-          "points": 3,
-          "form": "",
-          "description": "#FF4646"
-        },
-        {
-          "rank": 19,
-          "teamId": 8669,
-          "team": "Coventry City",
-          "played": 5,
-          "won": 1,
-          "drawn": 0,
-          "lost": 4,
-          "goalsFor": 1,
-          "goalsAgainst": 10,
-          "goalDifference": -9,
           "points": 3,
           "form": "",
           "description": "#FF4646"
@@ -315,20 +315,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5795468,
-          "date": "2026-10-12T19:00:00.000Z",
-          "timestamp": 1791831600,
-          "round": "6",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Coventry City",
-          "away": "Newcastle United",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5795478,
           "date": "2026-10-17T11:30:00Z",
@@ -482,6 +468,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5795486,
+          "date": "2026-10-24T11:30:00Z",
+          "timestamp": 1792841400,
+          "round": "8",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Aston Villa",
+          "away": "Manchester City",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -556,14 +556,14 @@
           "rank": 5,
           "teamId": 8302,
           "team": "Sevilla",
-          "played": 7,
+          "played": 8,
           "won": 4,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 2,
-          "goalsFor": 10,
-          "goalsAgainst": 9,
+          "goalsFor": 13,
+          "goalsAgainst": 12,
           "goalDifference": 1,
-          "points": 13,
+          "points": 14,
           "form": "",
           "description": "#0046A7"
         },
@@ -734,6 +734,21 @@
         },
         {
           "rank": 17,
+          "teamId": 8581,
+          "team": "Levante",
+          "played": 7,
+          "won": 1,
+          "drawn": 3,
+          "lost": 3,
+          "goalsFor": 11,
+          "goalsAgainst": 15,
+          "goalDifference": -4,
+          "points": 6,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 18,
           "teamId": 10268,
           "team": "Elche",
           "played": 8,
@@ -744,21 +759,6 @@
           "goalsAgainst": 17,
           "goalDifference": -6,
           "points": 6,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 18,
-          "teamId": 8581,
-          "team": "Levante",
-          "played": 6,
-          "won": 1,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 8,
-          "goalsAgainst": 12,
-          "goalDifference": -4,
-          "points": 5,
           "form": "",
           "description": "#FF4646"
         },
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868085,
-          "date": "2026-10-12T19:00:00.000Z",
-          "timestamp": 1791831600,
-          "round": "8",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Levante",
-          "away": "Sevilla",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868093,
           "date": "2026-10-16T19:00:00Z",
@@ -958,6 +944,20 @@
           "venue": "",
           "home": "Levante",
           "away": "Athletic Club",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5868101,
+          "date": "2026-10-23T19:00:00Z",
+          "timestamp": 1792782000,
+          "round": "10",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Deportivo Alavés",
+          "away": "Málaga",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -1138,6 +1138,21 @@
         },
         {
           "rank": 12,
+          "teamId": 9804,
+          "team": "Torino",
+          "played": 6,
+          "won": 2,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 7,
+          "goalsAgainst": 9,
+          "goalDifference": -2,
+          "points": 7,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 13,
           "teamId": 9888,
           "team": "Lecce",
           "played": 6,
@@ -1152,7 +1167,7 @@
           "description": ""
         },
         {
-          "rank": 13,
+          "rank": 14,
           "teamId": 9857,
           "team": "Bologna",
           "played": 6,
@@ -1167,31 +1182,16 @@
           "description": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "teamId": 8600,
           "team": "Udinese",
-          "played": 5,
+          "played": 6,
           "won": 1,
           "drawn": 1,
-          "lost": 3,
-          "goalsFor": 8,
-          "goalsAgainst": 11,
-          "goalDifference": -3,
-          "points": 4,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 15,
-          "teamId": 9804,
-          "team": "Torino",
-          "played": 5,
-          "won": 1,
-          "drawn": 1,
-          "lost": 3,
-          "goalsFor": 5,
-          "goalsAgainst": 8,
-          "goalDifference": -3,
+          "lost": 4,
+          "goalsFor": 9,
+          "goalsAgainst": 13,
+          "goalDifference": -4,
           "points": 4,
           "form": "",
           "description": ""
@@ -1273,20 +1273,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5749699,
-          "date": "2026-10-12T18:45:00.000Z",
-          "timestamp": 1791830700,
-          "round": "6",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Torino",
-          "away": "Udinese",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5749704,
           "date": "2026-10-16T18:45:00Z",
@@ -1437,6 +1423,20 @@
           "venue": "",
           "home": "Torino",
           "away": "Monza",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749711,
+          "date": "2026-10-24T13:00:00Z",
+          "timestamp": 1792846800,
+          "round": "8",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Cagliari",
+          "away": "Bologna",
           "started": false,
           "finished": false,
           "cancelled": false
