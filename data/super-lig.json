@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-12T18:15:56.084Z",
+  "updatedAt": "2026-10-13T00:41:23.781Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "7. Hafta",
-  "roundLabel": "7. Hafta",
+  "round": "8. Hafta",
+  "roundLabel": "8. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -192,6 +192,19 @@
     },
     {
       "rank": 15,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 7,
+      "won": 1,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 15,
+      "goalDifference": 0,
+      "points": 6,
+      "form": ""
+    },
+    {
+      "rank": 16,
       "team": "TÜMOSAN KONYASPOR",
       "played": 7,
       "won": 1,
@@ -204,7 +217,7 @@
       "form": ""
     },
     {
-      "rank": 16,
+      "rank": 17,
       "team": "SAMSUNSPOR A.Ş.",
       "played": 7,
       "won": 1,
@@ -217,43 +230,118 @@
       "form": ""
     },
     {
-      "rank": 17,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 6,
-      "won": 0,
-      "drawn": 3,
-      "lost": 3,
-      "goalsFor": 11,
-      "goalsAgainst": 15,
-      "goalDifference": -4,
-      "points": 3,
-      "form": ""
-    },
-    {
       "rank": 18,
       "team": "EYÜPSPOR",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "drawn": 0,
-      "lost": 5,
+      "lost": 6,
       "goalsFor": 2,
-      "goalsAgainst": 16,
-      "goalDifference": -14,
+      "goalsAgainst": 20,
+      "goalDifference": -18,
       "points": 3,
       "form": ""
     }
   ],
   "fixtures": [
     {
-      "id": 317839,
-      "date": "2026-10-12T17:00:00.000Z",
-      "timestamp": 1791824400,
-      "round": "7. Hafta",
+      "id": 317852,
+      "date": "2026-10-16T17:00:00.000Z",
+      "timestamp": 1792170000,
+      "round": "8. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
-      "home": "EYÜPSPOR",
+      "home": "ARCA ÇORUM FK",
+      "away": "ÇAYKUR RİZESPOR A.Ş."
+    },
+    {
+      "id": 317855,
+      "date": "2026-10-17T10:30:00.000Z",
+      "timestamp": 1792233000,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "ERZURUMSPOR FK",
+      "away": "EYÜPSPOR"
+    },
+    {
+      "id": 317850,
+      "date": "2026-10-17T13:00:00.000Z",
+      "timestamp": 1792242000,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "AMED SPORTİF FAALİYETLER",
+      "away": "TÜMOSAN KONYASPOR"
+    },
+    {
+      "id": 317851,
+      "date": "2026-10-17T13:00:00.000Z",
+      "timestamp": 1792242000,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GENÇLERBİRLİĞİ",
+      "away": "GALATASARAY A.Ş."
+    },
+    {
+      "id": 317853,
+      "date": "2026-10-17T16:00:00.000Z",
+      "timestamp": 1792252800,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "FENERBAHÇE A.Ş.",
+      "away": "CORENDON ALANYASPOR"
+    },
+    {
+      "id": 317848,
+      "date": "2026-10-18T10:30:00.000Z",
+      "timestamp": 1792319400,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "KASIMPAŞA A.Ş.",
+      "away": "SAMSUNSPOR A.Ş."
+    },
+    {
+      "id": 317854,
+      "date": "2026-10-18T13:00:00.000Z",
+      "timestamp": 1792328400,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "KOCAELİSPOR",
       "away": "GÖZTEPE A.Ş."
+    },
+    {
+      "id": 317849,
+      "date": "2026-10-18T16:00:00.000Z",
+      "timestamp": 1792339200,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "İSTANBUL BAŞAKŞEHİR FK",
+      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
+    },
+    {
+      "id": 317847,
+      "date": "2026-10-19T17:00:00.000Z",
+      "timestamp": 1792429200,
+      "round": "8. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "TRABZONSPOR A.Ş.",
+      "away": "BEŞİKTAŞ A.Ş."
     }
   ]
 }
