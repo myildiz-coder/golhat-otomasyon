@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:14:13.997Z",
+  "updatedAt": "2026-10-14T09:32:26.546Z",
   "source": "UEFA",
   "sourceUrl": "https://standings.uefa.com/",
   "seasonEndYear": 2027,
@@ -1529,7 +1529,7 @@
           "rank": 1,
           "teamId": "2608297",
           "team": "CSKA Sofia",
-          "code": "CSS",
+          "code": "CSO",
           "countryCode": "BUL",
           "played": 0,
           "won": 0,
