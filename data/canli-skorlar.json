@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:18:00.488Z",
+  "updatedAt": "2026-10-14T18:43:07.871Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -24,8 +24,8 @@
   "summary": {
     "total": 9,
     "live": 0,
-    "upcoming": 9,
-    "finished": 0
+    "upcoming": 7,
+    "finished": 2
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Feyenoord",
       "away": "Como",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106405,
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "LASK",
       "away": "Liverpool",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 6,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106254,
