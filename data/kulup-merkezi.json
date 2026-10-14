@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T18:43:53.564Z",
+  "updatedAt": "2026-10-14T23:18:55.547Z",
   "sources": [
     {
       "name": "FotMob",
@@ -21,23 +21,9 @@
       "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
       "squad": {
         "total": 29,
-        "injured": 3
+        "injured": 4
       },
       "nextMatches": [
-        {
-          "id": 6106284,
-          "date": "2026-10-14T19:00:00.000Z",
-          "timestamp": 1792004400,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Aston Villa",
-          "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 5904773,
           "date": "2026-10-17T16:00:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904799,
+          "date": "2026-11-08T13:00:00.000Z",
+          "timestamp": 1794142800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Çorum FK",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6106284,
+          "date": "2026-10-14T19:00:00.000Z",
+          "timestamp": 1792004400,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Aston Villa",
+          "away": "Fenerbahçe",
+          "homeScore": 6,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904761,
           "date": "2026-10-10T16:00:00.000Z",
@@ -162,20 +176,6 @@
           "away": "Fenerbahçe",
           "homeScore": 0,
           "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
-        },
-        {
-          "id": 6106331,
-          "date": "2026-09-10T16:45:00.000Z",
-          "timestamp": 1789058700,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Roma",
-          "homeScore": 1,
-          "awayScore": 1,
           "status": "FT",
           "kind": "finished",
           "result": "D"
