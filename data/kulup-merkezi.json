@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T04:53:20.301Z",
+  "updatedAt": "2026-10-15T11:44:38.262Z",
   "sources": [
     {
       "name": "FotMob",
@@ -454,7 +454,7 @@
       "stadium": "Tüpraş Stadyumu",
       "squad": {
         "total": 32,
-        "injured": 1
+        "injured": 2
       },
       "nextMatches": [
         {
@@ -674,7 +674,7 @@
       "stadium": "Papara Park",
       "squad": {
         "total": 30,
-        "injured": 5
+        "injured": 7
       },
       "nextMatches": [
         {
