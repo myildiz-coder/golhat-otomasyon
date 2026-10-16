@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T00:29:54.459Z",
+  "updatedAt": "2026-10-16T07:20:43.537Z",
   "sources": [
     {
       "name": "FotMob",
@@ -673,8 +673,8 @@
       "coach": "Thomas Reis",
       "stadium": "Papara Park",
       "squad": {
-        "total": 33,
-        "injured": 7
+        "total": 32,
+        "injured": 8
       },
       "nextMatches": [
         {
