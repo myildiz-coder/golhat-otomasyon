@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T19:32:03.449Z",
+  "updatedAt": "2026-10-16T22:48:25.337Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -605,8 +605,8 @@
           "won": 2,
           "drawn": 5,
           "lost": 2,
-          "goalsFor": 12,
-          "goalsAgainst": 11,
+          "goalsFor": 13,
+          "goalsAgainst": 12,
           "goalDifference": 1,
           "points": 11,
           "form": "",
@@ -740,8 +740,8 @@
           "won": 1,
           "drawn": 4,
           "lost": 3,
-          "goalsFor": 11,
-          "goalsAgainst": 15,
+          "goalsFor": 12,
+          "goalsAgainst": 16,
           "goalDifference": -4,
           "points": 7,
           "form": "",
@@ -1024,9 +1024,9 @@
           "won": 4,
           "drawn": 1,
           "lost": 2,
-          "goalsFor": 12,
+          "goalsFor": 13,
           "goalsAgainst": 9,
-          "goalDifference": 3,
+          "goalDifference": 4,
           "points": 13,
           "form": "",
           "description": "#2AD572"
@@ -1130,8 +1130,8 @@
           "drawn": 2,
           "lost": 3,
           "goalsFor": 12,
-          "goalsAgainst": 13,
-          "goalDifference": -1,
+          "goalsAgainst": 14,
+          "goalDifference": -2,
           "points": 8,
           "form": "",
           "description": ""
@@ -1542,6 +1542,21 @@
         },
         {
           "rank": 7,
+          "teamId": 9941,
+          "team": "Toulouse",
+          "played": 7,
+          "won": 2,
+          "drawn": 3,
+          "lost": 2,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "goalDifference": 1,
+          "points": 9,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 8,
           "teamId": 8521,
           "team": "Brest",
           "played": 6,
@@ -1556,7 +1571,7 @@
           "description": ""
         },
         {
-          "rank": 8,
+          "rank": 9,
           "teamId": 8689,
           "team": "Lorient",
           "played": 6,
@@ -1571,7 +1586,7 @@
           "description": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "teamId": 9831,
           "team": "Nice",
           "played": 6,
@@ -1586,7 +1601,7 @@
           "description": ""
         },
         {
-          "rank": 10,
+          "rank": 11,
           "teamId": 8588,
           "team": "Lens",
           "played": 6,
@@ -1601,7 +1616,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "teamId": 9848,
           "team": "Strasbourg",
           "played": 6,
@@ -1616,37 +1631,7 @@
           "description": ""
         },
         {
-          "rank": 12,
-          "teamId": 8682,
-          "team": "Le Mans",
-          "played": 7,
-          "won": 1,
-          "drawn": 4,
-          "lost": 2,
-          "goalsFor": 10,
-          "goalsAgainst": 12,
-          "goalDifference": -2,
-          "points": 7,
-          "form": "",
-          "description": ""
-        },
-        {
           "rank": 13,
-          "teamId": 9941,
-          "team": "Toulouse",
-          "played": 7,
-          "won": 1,
-          "drawn": 4,
-          "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 11,
-          "goalDifference": -2,
-          "points": 7,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 14,
           "teamId": 8121,
           "team": "Angers",
           "played": 6,
@@ -1661,7 +1646,7 @@
           "description": ""
         },
         {
-          "rank": 15,
+          "rank": 14,
           "teamId": 8592,
           "team": "Marseille",
           "played": 6,
@@ -1671,6 +1656,21 @@
           "goalsFor": 9,
           "goalsAgainst": 8,
           "goalDifference": 1,
+          "points": 6,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
+          "teamId": 8682,
+          "team": "Le Mans",
+          "played": 7,
+          "won": 1,
+          "drawn": 3,
+          "lost": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 15,
+          "goalDifference": -5,
           "points": 6,
           "form": "",
           "description": ""
@@ -2006,15 +2006,15 @@
         },
         {
           "rank": 8,
-          "teamId": 8722,
-          "team": "1. FC Köln",
+          "teamId": 9810,
+          "team": "Eintracht Frankfurt",
           "played": 6,
           "won": 2,
           "drawn": 2,
           "lost": 2,
-          "goalsFor": 8,
-          "goalsAgainst": 10,
-          "goalDifference": -2,
+          "goalsFor": 10,
+          "goalsAgainst": 16,
+          "goalDifference": -6,
           "points": 8,
           "form": "",
           "description": ""
@@ -2051,6 +2051,21 @@
         },
         {
           "rank": 11,
+          "teamId": 8722,
+          "team": "1. FC Köln",
+          "played": 6,
+          "won": 2,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 8,
+          "goalsAgainst": 11,
+          "goalDifference": -3,
+          "points": 7,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
           "teamId": 10269,
           "team": "VfB Stuttgart",
           "played": 5,
@@ -2060,21 +2075,6 @@
           "goalsFor": 8,
           "goalsAgainst": 9,
           "goalDifference": -1,
-          "points": 6,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 12,
-          "teamId": 9810,
-          "team": "Eintracht Frankfurt",
-          "played": 6,
-          "won": 1,
-          "drawn": 3,
-          "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 16,
-          "goalDifference": -7,
           "points": 6,
           "form": "",
           "description": ""
@@ -2461,9 +2461,9 @@
           "won": 3,
           "drawn": 3,
           "lost": 3,
-          "goalsFor": 13,
+          "goalsFor": 15,
           "goalsAgainst": 11,
-          "goalDifference": 2,
+          "goalDifference": 4,
           "points": 12,
           "form": "",
           "description": ""
@@ -2492,8 +2492,8 @@
           "drawn": 2,
           "lost": 4,
           "goalsFor": 16,
-          "goalsAgainst": 16,
-          "goalDifference": 0,
+          "goalsAgainst": 18,
+          "goalDifference": -2,
           "points": 11,
           "form": "",
           "description": ""
