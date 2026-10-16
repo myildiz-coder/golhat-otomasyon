@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T17:42:17.112Z",
+  "updatedAt": "2026-10-16T20:06:45.028Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 1,
-    "upcoming": 5,
-    "finished": 0
+    "live": 4,
+    "upcoming": 0,
+    "finished": 2
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Çorum FK",
       "away": "Rizespor",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 43,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868093,
@@ -59,10 +59,10 @@
       "away": "Levante",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 46,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749704,
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Frosinone",
       "away": "Sassuolo",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 4,
+      "awayScore": 2,
+      "minute": 62,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881191,
@@ -95,10 +95,10 @@
       "away": "1. FC Köln",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 76,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802957,
@@ -112,11 +112,11 @@
       "home": "Le Mans",
       "away": "Toulouse",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 2,
+      "minute": 64,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781769,
@@ -129,12 +129,12 @@
       "venue": "",
       "home": "SC Heerenveen",
       "away": "Excelsior",
-      "homeScore": 0,
+      "homeScore": 4,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     }
   ]
 }
