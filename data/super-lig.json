@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T17:39:42.372Z",
+  "updatedAt": "2026-10-16T20:03:31.512Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -75,6 +75,19 @@
     },
     {
       "rank": 6,
+      "team": "ARCA ÇORUM FK",
+      "played": 8,
+      "won": 4,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 18,
+      "goalsAgainst": 13,
+      "goalDifference": 5,
+      "points": 13,
+      "form": ""
+    },
+    {
+      "rank": 7,
       "team": "CORENDON ALANYASPOR",
       "played": 7,
       "won": 3,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "KOCAELİSPOR",
       "played": 7,
       "won": 4,
@@ -97,19 +110,6 @@
       "goalsAgainst": 6,
       "goalDifference": 2,
       "points": 12,
-      "form": ""
-    },
-    {
-      "rank": 8,
-      "team": "ARCA ÇORUM FK",
-      "played": 7,
-      "won": 3,
-      "drawn": 1,
-      "lost": 3,
-      "goalsFor": 16,
-      "goalsAgainst": 12,
-      "goalDifference": 4,
-      "points": 10,
       "form": ""
     },
     {
@@ -128,13 +128,13 @@
     {
       "rank": 10,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 7,
+      "played": 8,
       "won": 3,
       "drawn": 1,
-      "lost": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 9,
-      "goalDifference": -2,
+      "lost": 4,
+      "goalsFor": 8,
+      "goalsAgainst": 11,
+      "goalDifference": -3,
       "points": 10,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317852,
-      "date": "2026-10-16T17:00:00.000Z",
-      "timestamp": 1792170000,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ARCA ÇORUM FK",
-      "away": "ÇAYKUR RİZESPOR A.Ş."
-    },
     {
       "id": 317855,
       "date": "2026-10-17T10:30:00.000Z",
