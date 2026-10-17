@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:44:17.274Z",
+  "updatedAt": "2026-10-17T18:35:37.005Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 4
       },
       "nextMatches": [
-        {
-          "id": 5904773,
-          "date": "2026-10-17T16:00:00.000Z",
-          "timestamp": 1792252800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Alanyaspor",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6106333,
           "date": "2026-10-20T16:45:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904810,
+          "date": "2026-11-21T16:00:00.000Z",
+          "timestamp": 1795276800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Kocaelispor",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904773,
+          "date": "2026-10-17T16:00:00.000Z",
+          "timestamp": 1792252800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Alanyaspor",
+          "homeScore": 3,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 6106284,
           "date": "2026-10-14T19:00:00.000Z",
@@ -165,20 +179,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 5904740,
-          "date": "2026-09-14T17:00:00.000Z",
-          "timestamp": 1789405200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Gaziantep FK",
-          "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
         }
       ],
       "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
