@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T09:08:37.483Z",
+  "updatedAt": "2026-10-17T12:39:34.806Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 0,
-    "upcoming": 28,
-    "finished": 0
+    "live": 2,
+    "upcoming": 25,
+    "finished": 1
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Erzurumspor FK",
       "away": "Eyüpspor",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904770,
@@ -112,11 +112,11 @@
       "home": "Everton",
       "away": "Chelsea",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 49,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795476,
@@ -203,10 +203,10 @@
       "away": "Atlético Madrid",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 38,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868100,
