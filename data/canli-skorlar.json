@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:56:06.218Z",
+  "updatedAt": "2026-10-17T18:09:47.768Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 5,
-    "upcoming": 11,
-    "finished": 12
+    "live": 4,
+    "upcoming": 5,
+    "finished": 19
   },
   "matches": [
     {
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Alanyaspor",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795478,
@@ -131,10 +131,10 @@
       "away": "Liverpool",
       "homeScore": 1,
       "awayScore": 2,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795479,
@@ -167,10 +167,10 @@
       "away": "Ipswich Town",
       "homeScore": 3,
       "awayScore": 2,
-      "minute": 96,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795482,
@@ -184,11 +184,11 @@
       "home": "Newcastle United",
       "away": "Aston Villa",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 82,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868094,
@@ -221,10 +221,10 @@
       "away": "Elche",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 83,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868091,
@@ -237,12 +237,12 @@
       "venue": "",
       "home": "Real Betis",
       "away": "Barcelona",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 4,
+      "minute": 73,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868099,
@@ -291,12 +291,12 @@
       "venue": "",
       "home": "Bologna",
       "away": "Inter",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 3,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749701,
@@ -417,12 +417,12 @@
       "venue": "",
       "home": "Bayern München",
       "away": "RB Leipzig",
-      "homeScore": 0,
+      "homeScore": 6,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 80,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802962,
@@ -436,11 +436,11 @@
       "home": "Strasbourg",
       "away": "Paris Saint-Germain",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 41,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 3,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802958,
@@ -489,12 +489,12 @@
       "venue": "",
       "home": "ADO Den Haag",
       "away": "PSV Eindhoven",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "minute": 65,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781774,
@@ -508,11 +508,11 @@
       "home": "Telstar",
       "away": "Feyenoord",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 9,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781768,
