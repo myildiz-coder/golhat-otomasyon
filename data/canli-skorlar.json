@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:09:47.768Z",
+  "updatedAt": "2026-10-17T20:34:16.178Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 28,
-    "live": 4,
-    "upcoming": 5,
-    "finished": 19
+    "live": 5,
+    "upcoming": 0,
+    "finished": 23
   },
   "matches": [
     {
@@ -185,10 +185,10 @@
       "away": "Aston Villa",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 82,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868094,
@@ -238,11 +238,11 @@
       "home": "Real Betis",
       "away": "Barcelona",
       "homeScore": 2,
-      "awayScore": 4,
-      "minute": 73,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 5,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868099,
@@ -257,10 +257,10 @@
       "away": "Athletic Club",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 75,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749709,
@@ -309,12 +309,12 @@
       "venue": "",
       "home": "Roma",
       "away": "Genoa",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 91,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881192,
@@ -418,11 +418,11 @@
       "home": "Bayern München",
       "away": "RB Leipzig",
       "homeScore": 6,
-      "awayScore": 0,
-      "minute": 80,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 1,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5802962,
@@ -453,12 +453,12 @@
       "venue": "",
       "home": "Lille",
       "away": "Brest",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 93,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802963,
@@ -471,12 +471,12 @@
       "venue": "",
       "home": "Troyes",
       "away": "Lens",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 3,
+      "minute": 87,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781776,
@@ -507,12 +507,12 @@
       "venue": "",
       "home": "Telstar",
       "away": "Feyenoord",
-      "homeScore": 0,
-      "awayScore": 1,
-      "minute": 9,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 3,
+      "awayScore": 4,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781768,
@@ -525,12 +525,12 @@
       "venue": "",
       "home": "Sparta Rotterdam",
       "away": "Willem II",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 3,
+      "awayScore": 2,
+      "minute": 76,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
