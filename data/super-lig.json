@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T12:30:28.180Z",
+  "updatedAt": "2026-10-17T15:49:12.441Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -11,18 +11,31 @@
     {
       "rank": 1,
       "team": "GALATASARAY A.Ş.",
-      "played": 7,
-      "won": 5,
+      "played": 8,
+      "won": 6,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 16,
+      "goalsFor": 17,
       "goalsAgainst": 11,
-      "goalDifference": 5,
-      "points": 16,
+      "goalDifference": 6,
+      "points": 19,
       "form": ""
     },
     {
       "rank": 2,
+      "team": "AMED SPORTİF FAALİYETLER",
+      "played": 8,
+      "won": 5,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 18,
+      "goalsAgainst": 9,
+      "goalDifference": 9,
+      "points": 17,
+      "form": ""
+    },
+    {
+      "rank": 3,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 7,
       "won": 5,
@@ -32,19 +45,6 @@
       "goalsAgainst": 8,
       "goalDifference": 8,
       "points": 15,
-      "form": ""
-    },
-    {
-      "rank": 3,
-      "team": "AMED SPORTİF FAALİYETLER",
-      "played": 7,
-      "won": 4,
-      "drawn": 2,
-      "lost": 1,
-      "goalsFor": 17,
-      "goalsAgainst": 9,
-      "goalDifference": 8,
-      "points": 14,
       "form": ""
     },
     {
@@ -180,13 +180,13 @@
     {
       "rank": 14,
       "team": "GENÇLERBİRLİĞİ",
-      "played": 7,
+      "played": 8,
       "won": 2,
       "drawn": 2,
-      "lost": 3,
+      "lost": 4,
       "goalsFor": 7,
-      "goalsAgainst": 15,
-      "goalDifference": -8,
+      "goalsAgainst": 16,
+      "goalDifference": -9,
       "points": 8,
       "form": ""
     },
@@ -206,13 +206,13 @@
     {
       "rank": 16,
       "team": "TÜMOSAN KONYASPOR",
-      "played": 7,
+      "played": 8,
       "won": 1,
       "drawn": 2,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 4,
-      "goalsAgainst": 8,
-      "goalDifference": -4,
+      "goalsAgainst": 9,
+      "goalDifference": -5,
       "points": 5,
       "form": ""
     },
@@ -244,28 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317850,
-      "date": "2026-10-17T13:00:00.000Z",
-      "timestamp": 1792242000,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "AMED SPORTİF FAALİYETLER",
-      "away": "TÜMOSAN KONYASPOR"
-    },
-    {
-      "id": 317851,
-      "date": "2026-10-17T13:00:00.000Z",
-      "timestamp": 1792242000,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GENÇLERBİRLİĞİ",
-      "away": "GALATASARAY A.Ş."
-    },
     {
       "id": 317853,
       "date": "2026-10-17T16:00:00.000Z",
