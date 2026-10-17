@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-17T17:58:09.305Z",
+  "updatedAt": "2026-10-17T19:58:28.857Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "8. Hafta",
-  "roundLabel": "8. Hafta",
+  "round": "9. Hafta",
+  "roundLabel": "9. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -36,6 +36,19 @@
     },
     {
       "rank": 3,
+      "team": "FENERBAHÇE A.Ş.",
+      "played": 8,
+      "won": 5,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 22,
+      "goalsAgainst": 6,
+      "goalDifference": 16,
+      "points": 16,
+      "form": ""
+    },
+    {
+      "rank": 4,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 7,
       "won": 5,
@@ -45,19 +58,6 @@
       "goalsAgainst": 8,
       "goalDifference": 8,
       "points": 15,
-      "form": ""
-    },
-    {
-      "rank": 4,
-      "team": "FENERBAHÇE A.Ş.",
-      "played": 7,
-      "won": 4,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 19,
-      "goalsAgainst": 6,
-      "goalDifference": 13,
-      "points": 13,
       "form": ""
     },
     {
@@ -88,19 +88,6 @@
     },
     {
       "rank": 7,
-      "team": "CORENDON ALANYASPOR",
-      "played": 7,
-      "won": 3,
-      "drawn": 3,
-      "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 6,
-      "goalDifference": 2,
-      "points": 12,
-      "form": ""
-    },
-    {
-      "rank": 8,
       "team": "KOCAELİSPOR",
       "played": 7,
       "won": 4,
@@ -109,6 +96,19 @@
       "goalsFor": 8,
       "goalsAgainst": 6,
       "goalDifference": 2,
+      "points": 12,
+      "form": ""
+    },
+    {
+      "rank": 8,
+      "team": "CORENDON ALANYASPOR",
+      "played": 8,
+      "won": 3,
+      "drawn": 3,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 9,
+      "goalDifference": -1,
       "points": 12,
       "form": ""
     },
@@ -245,21 +245,10 @@
   ],
   "fixtures": [
     {
-      "id": 317853,
-      "date": "2026-10-17T16:00:00.000Z",
-      "timestamp": 1792252800,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "FENERBAHÇE A.Ş.",
-      "away": "CORENDON ALANYASPOR"
-    },
-    {
       "id": 317848,
       "date": "2026-10-18T10:30:00.000Z",
       "timestamp": 1792319400,
-      "round": "8. Hafta",
+      "round": "9. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -270,7 +259,7 @@
       "id": 317854,
       "date": "2026-10-18T13:00:00.000Z",
       "timestamp": 1792328400,
-      "round": "8. Hafta",
+      "round": "9. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -281,7 +270,7 @@
       "id": 317849,
       "date": "2026-10-18T16:00:00.000Z",
       "timestamp": 1792339200,
-      "round": "8. Hafta",
+      "round": "9. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -292,7 +281,7 @@
       "id": 317847,
       "date": "2026-10-19T17:00:00.000Z",
       "timestamp": 1792429200,
-      "round": "8. Hafta",
+      "round": "9. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
