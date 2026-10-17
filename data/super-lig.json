@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T11:41:28.316Z",
+  "updatedAt": "2026-10-17T12:30:28.180Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -114,6 +114,19 @@
     },
     {
       "rank": 9,
+      "team": "ERZURUMSPOR FK",
+      "played": 8,
+      "won": 3,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "goalDifference": -6,
+      "points": 11,
+      "form": ""
+    },
+    {
+      "rank": 10,
       "team": "KASIMPAŞA A.Ş.",
       "played": 7,
       "won": 2,
@@ -126,7 +139,7 @@
       "form": ""
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 8,
       "won": 3,
@@ -139,7 +152,7 @@
       "form": ""
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 7,
       "won": 2,
@@ -152,7 +165,7 @@
       "form": ""
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 7,
       "won": 2,
@@ -165,7 +178,7 @@
       "form": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "GENÇLERBİRLİĞİ",
       "played": 7,
       "won": 2,
@@ -173,19 +186,6 @@
       "lost": 3,
       "goalsFor": 7,
       "goalsAgainst": 15,
-      "goalDifference": -8,
-      "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 14,
-      "team": "ERZURUMSPOR FK",
-      "played": 7,
-      "won": 2,
-      "drawn": 2,
-      "lost": 3,
-      "goalsFor": 3,
-      "goalsAgainst": 11,
       "goalDifference": -8,
       "points": 8,
       "form": ""
@@ -232,29 +232,18 @@
     {
       "rank": 18,
       "team": "EYÜPSPOR",
-      "played": 7,
+      "played": 8,
       "won": 1,
       "drawn": 0,
-      "lost": 6,
+      "lost": 7,
       "goalsFor": 2,
-      "goalsAgainst": 20,
-      "goalDifference": -18,
+      "goalsAgainst": 22,
+      "goalDifference": -20,
       "points": 3,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317855,
-      "date": "2026-10-17T10:30:00.000Z",
-      "timestamp": 1792233000,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ERZURUMSPOR FK",
-      "away": "EYÜPSPOR"
-    },
     {
       "id": 317850,
       "date": "2026-10-17T13:00:00.000Z",
