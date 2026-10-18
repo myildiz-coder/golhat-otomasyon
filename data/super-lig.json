@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T12:49:09.765Z",
+  "updatedAt": "2026-10-18T16:09:15.362Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -102,13 +102,13 @@
     {
       "rank": 8,
       "team": "KOCAELİSPOR",
-      "played": 7,
+      "played": 8,
       "won": 4,
       "drawn": 0,
-      "lost": 3,
-      "goalsFor": 8,
-      "goalsAgainst": 6,
-      "goalDifference": 2,
+      "lost": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 8,
+      "goalDifference": 1,
       "points": 12,
       "form": ""
     },
@@ -153,6 +153,19 @@
     },
     {
       "rank": 12,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 8,
+      "won": 2,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 17,
+      "goalsAgainst": 16,
+      "goalDifference": 1,
+      "points": 9,
+      "form": ""
+    },
+    {
+      "rank": 13,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 7,
       "won": 2,
@@ -165,7 +178,7 @@
       "form": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 7,
       "won": 2,
@@ -178,7 +191,7 @@
       "form": ""
     },
     {
-      "rank": 14,
+      "rank": 15,
       "team": "GENÇLERBİRLİĞİ",
       "played": 8,
       "won": 2,
@@ -188,19 +201,6 @@
       "goalsAgainst": 16,
       "goalDifference": -9,
       "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 15,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 7,
-      "won": 1,
-      "drawn": 3,
-      "lost": 3,
-      "goalsFor": 15,
-      "goalsAgainst": 15,
-      "goalDifference": 0,
-      "points": 6,
       "form": ""
     },
     {
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317854,
-      "date": "2026-10-18T13:00:00.000Z",
-      "timestamp": 1792328400,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KOCAELİSPOR",
-      "away": "GÖZTEPE A.Ş."
-    },
     {
       "id": 317849,
       "date": "2026-10-18T16:00:00.000Z",
