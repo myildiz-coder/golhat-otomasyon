@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T18:36:46.476Z",
+  "updatedAt": "2026-10-18T22:23:59.125Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -524,6 +524,21 @@
         },
         {
           "rank": 3,
+          "teamId": 8633,
+          "team": "Real Madrid",
+          "played": 9,
+          "won": 7,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 23,
+          "goalsAgainst": 9,
+          "goalDifference": 14,
+          "points": 21,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 4,
           "teamId": 8603,
           "team": "Real Betis",
           "played": 9,
@@ -534,21 +549,6 @@
           "goalsAgainst": 14,
           "goalDifference": 2,
           "points": 19,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 4,
-          "teamId": 8633,
-          "team": "Real Madrid",
-          "played": 8,
-          "won": 6,
-          "drawn": 0,
-          "lost": 2,
-          "goalsFor": 19,
-          "goalsAgainst": 8,
-          "goalDifference": 11,
-          "points": 18,
           "form": "",
           "description": "#2AD572"
         },
@@ -571,13 +571,13 @@
           "rank": 6,
           "teamId": 8302,
           "team": "Sevilla",
-          "played": 8,
+          "played": 9,
           "won": 4,
           "drawn": 2,
-          "lost": 2,
-          "goalsFor": 13,
-          "goalsAgainst": 12,
-          "goalDifference": 1,
+          "lost": 3,
+          "goalsFor": 14,
+          "goalsAgainst": 16,
+          "goalDifference": -2,
           "points": 14,
           "form": "",
           "description": "#02CCF0"
@@ -795,20 +795,6 @@
       ],
       "fixtures": [
         {
-          "id": 5868098,
-          "date": "2026-10-18T19:00:00.000Z",
-          "timestamp": 1792350000,
-          "round": "9",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Real Madrid",
-          "away": "Sevilla",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
           "id": 5868095,
           "date": "2026-10-19T19:00:00Z",
           "timestamp": 1792436400,
@@ -961,6 +947,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5868109,
+          "date": "2026-10-26T20:00:00Z",
+          "timestamp": 1793044800,
+          "round": "10",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Sevilla",
+          "away": "Osasuna",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -988,6 +988,21 @@
         },
         {
           "rank": 2,
+          "teamId": 8543,
+          "team": "Lazio",
+          "played": 7,
+          "won": 6,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 14,
+          "goalsAgainst": 4,
+          "goalDifference": 10,
+          "points": 19,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 3,
           "teamId": 8686,
           "team": "Roma",
           "played": 7,
@@ -998,21 +1013,6 @@
           "goalsAgainst": 3,
           "goalDifference": 13,
           "points": 17,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 3,
-          "teamId": 8543,
-          "team": "Lazio",
-          "played": 6,
-          "won": 5,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 11,
-          "goalsAgainst": 4,
-          "goalDifference": 7,
-          "points": 16,
           "form": "",
           "description": "#2AD572"
         },
@@ -1080,13 +1080,13 @@
           "rank": 8,
           "teamId": 9885,
           "team": "Juventus",
-          "played": 6,
+          "played": 7,
           "won": 3,
           "drawn": 2,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 9,
-          "goalsAgainst": 5,
-          "goalDifference": 4,
+          "goalsAgainst": 8,
+          "goalDifference": 1,
           "points": 11,
           "form": "",
           "description": ""
@@ -1274,20 +1274,6 @@
       ],
       "fixtures": [
         {
-          "id": 5749705,
-          "date": "2026-10-18T18:45:00.000Z",
-          "timestamp": 1792349100,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Juventus",
-          "away": "Lazio",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
           "id": 5749706,
           "date": "2026-10-19T16:30:00Z",
           "timestamp": 1792427400,
@@ -1440,6 +1426,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5749719,
+          "date": "2026-10-25T19:45:00Z",
+          "timestamp": 1792957500,
+          "round": "8",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Udinese",
+          "away": "Milan",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -1452,6 +1452,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 9748,
+          "team": "Lyon",
+          "played": 7,
+          "won": 4,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 13,
+          "goalsAgainst": 5,
+          "goalDifference": 8,
+          "points": 14,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 9847,
           "team": "Paris Saint-Germain",
           "played": 7,
@@ -1466,7 +1481,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "teamId": 6379,
           "team": "Paris FC",
           "played": 7,
@@ -1481,7 +1496,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "teamId": 8639,
           "team": "Lille",
           "played": 7,
@@ -1493,10 +1508,10 @@
           "goalDifference": 5,
           "points": 14,
           "form": "",
-          "description": "#2AD572"
+          "description": "#FFD908"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": 9829,
           "team": "Monaco",
           "played": 7,
@@ -1508,10 +1523,10 @@
           "goalDifference": 4,
           "points": 14,
           "form": "",
-          "description": "#FFD908"
+          "description": "#0046A7"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": 9851,
           "team": "Rennes",
           "played": 7,
@@ -1522,21 +1537,6 @@
           "goalsAgainst": 14,
           "goalDifference": 1,
           "points": 13,
-          "form": "",
-          "description": "#0046A7"
-        },
-        {
-          "rank": 6,
-          "teamId": 9748,
-          "team": "Lyon",
-          "played": 6,
-          "won": 3,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 11,
-          "goalsAgainst": 4,
-          "goalDifference": 7,
-          "points": 11,
           "form": "",
           "description": "#02CCF0"
         },
@@ -1634,13 +1634,13 @@
           "rank": 13,
           "teamId": 9831,
           "team": "Nice",
-          "played": 6,
+          "played": 7,
           "won": 2,
           "drawn": 2,
-          "lost": 2,
-          "goalsFor": 5,
-          "goalsAgainst": 7,
-          "goalDifference": -2,
+          "lost": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 9,
+          "goalDifference": -3,
           "points": 8,
           "form": "",
           "description": ""
@@ -1722,20 +1722,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5802960,
-          "date": "2026-10-18T18:45:00.000Z",
-          "timestamp": 1792349100,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Lyon",
-          "away": "Nice",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5802966,
           "date": "2026-10-23T18:45:00Z",
@@ -1886,6 +1872,20 @@
           "venue": "",
           "home": "Lille",
           "away": "Lens",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5802978,
+          "date": "2026-10-31T16:15:00Z",
+          "timestamp": 1793463300,
+          "round": "9",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Nice",
+          "away": "Rennes",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -2380,21 +2380,6 @@
         },
         {
           "rank": 3,
-          "teamId": 8611,
-          "team": "FC Twente",
-          "played": 9,
-          "won": 6,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 17,
-          "goalsAgainst": 8,
-          "goalDifference": 9,
-          "points": 20,
-          "form": "",
-          "description": "#0294F0"
-        },
-        {
-          "rank": 4,
           "teamId": 8640,
           "team": "PSV Eindhoven",
           "played": 9,
@@ -2406,10 +2391,10 @@
           "goalDifference": 15,
           "points": 19,
           "form": "",
-          "description": "#7FAEFF"
+          "description": "#0294F0"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "teamId": 8593,
           "team": "Ajax",
           "played": 9,
@@ -2424,6 +2409,21 @@
           "description": "#7FAEFF"
         },
         {
+          "rank": 5,
+          "teamId": 8611,
+          "team": "FC Twente",
+          "played": 9,
+          "won": 5,
+          "drawn": 2,
+          "lost": 2,
+          "goalsFor": 17,
+          "goalsAgainst": 10,
+          "goalDifference": 7,
+          "points": 17,
+          "form": "",
+          "description": "#7FAEFF"
+        },
+        {
           "rank": 6,
           "teamId": 6422,
           "team": "Fortuna Sittard",
@@ -2431,8 +2431,8 @@
           "won": 4,
           "drawn": 3,
           "lost": 2,
-          "goalsFor": 15,
-          "goalsAgainst": 16,
+          "goalsFor": 16,
+          "goalsAgainst": 17,
           "goalDifference": -1,
           "points": 15,
           "form": "",
@@ -2500,21 +2500,36 @@
         },
         {
           "rank": 11,
+          "teamId": 9908,
+          "team": "FC Utrecht",
+          "played": 9,
+          "won": 3,
+          "drawn": 2,
+          "lost": 4,
+          "goalsFor": 16,
+          "goalsAgainst": 26,
+          "goalDifference": -10,
+          "points": 11,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
           "teamId": 8464,
           "team": "NEC Nijmegen",
           "played": 9,
           "won": 2,
           "drawn": 4,
           "lost": 3,
-          "goalsFor": 14,
-          "goalsAgainst": 15,
+          "goalsFor": 15,
+          "goalsAgainst": 16,
           "goalDifference": -1,
           "points": 10,
           "form": "",
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "teamId": 8614,
           "team": "Sparta Rotterdam",
           "played": 9,
@@ -2529,7 +2544,7 @@
           "description": ""
         },
         {
-          "rank": 13,
+          "rank": 14,
           "teamId": 7788,
           "team": "Cambuur",
           "played": 9,
@@ -2540,21 +2555,6 @@
           "goalsAgainst": 21,
           "goalDifference": -8,
           "points": 9,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 14,
-          "teamId": 9908,
-          "team": "FC Utrecht",
-          "played": 9,
-          "won": 2,
-          "drawn": 2,
-          "lost": 5,
-          "goalsFor": 14,
-          "goalsAgainst": 26,
-          "goalDifference": -12,
-          "points": 8,
           "form": "",
           "description": ""
         },
