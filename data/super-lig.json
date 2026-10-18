@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T16:09:15.362Z",
+  "updatedAt": "2026-10-18T18:35:48.151Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -127,6 +127,19 @@
     },
     {
       "rank": 10,
+      "team": "İSTANBUL BAŞAKŞEHİR FK",
+      "played": 8,
+      "won": 3,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 12,
+      "goalsAgainst": 12,
+      "goalDifference": 0,
+      "points": 11,
+      "form": ""
+    },
+    {
+      "rank": 11,
       "team": "ERZURUMSPOR FK",
       "played": 8,
       "won": 3,
@@ -139,7 +152,7 @@
       "form": ""
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 8,
       "won": 3,
@@ -152,7 +165,7 @@
       "form": ""
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team": "GÖZTEPE A.Ş.",
       "played": 8,
       "won": 2,
@@ -165,28 +178,15 @@
       "form": ""
     },
     {
-      "rank": 13,
-      "team": "İSTANBUL BAŞAKŞEHİR FK",
-      "played": 7,
-      "won": 2,
-      "drawn": 2,
-      "lost": 3,
-      "goalsFor": 10,
-      "goalsAgainst": 11,
-      "goalDifference": -1,
-      "points": 8,
-      "form": ""
-    },
-    {
       "rank": 14,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 7,
+      "played": 8,
       "won": 2,
       "drawn": 2,
-      "lost": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 10,
-      "goalDifference": -3,
+      "lost": 4,
+      "goalsFor": 8,
+      "goalsAgainst": 12,
+      "goalDifference": -4,
       "points": 8,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317849,
-      "date": "2026-10-18T16:00:00.000Z",
-      "timestamp": 1792339200,
-      "round": "8. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "İSTANBUL BAŞAKŞEHİR FK",
-      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
-    },
     {
       "id": 317847,
       "date": "2026-10-19T17:00:00.000Z",
