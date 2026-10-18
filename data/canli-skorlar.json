@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T09:00:33.798Z",
+  "updatedAt": "2026-10-18T12:56:49.183Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 27,
-    "live": 0,
-    "upcoming": 27,
-    "finished": 0
+    "live": 2,
+    "upcoming": 22,
+    "finished": 3
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Kasımpaşa",
       "away": "Samsunspor",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904774,
@@ -165,12 +165,12 @@
       "venue": "",
       "home": "Osasuna",
       "away": "Racing Santander",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868092,
@@ -238,11 +238,11 @@
       "home": "Udinese",
       "away": "Lecce",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 3,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749703,
@@ -435,12 +435,12 @@
       "venue": "",
       "home": "PEC Zwolle",
       "away": "Go Ahead Eagles",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781771,
@@ -453,12 +453,12 @@
       "venue": "",
       "home": "Cambuur",
       "away": "AZ Alkmaar",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 26,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781772,
