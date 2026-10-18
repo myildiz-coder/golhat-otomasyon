@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-18T12:07:48.419Z",
+  "updatedAt": "2026-10-18T12:49:09.765Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "9. Hafta",
-  "roundLabel": "9. Hafta",
+  "round": "8. Hafta",
+  "roundLabel": "8. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -88,6 +88,19 @@
     },
     {
       "rank": 7,
+      "team": "KASIMPAŞA A.Ş.",
+      "played": 8,
+      "won": 3,
+      "drawn": 4,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 9,
+      "goalDifference": 3,
+      "points": 13,
+      "form": ""
+    },
+    {
+      "rank": 8,
       "team": "KOCAELİSPOR",
       "played": 7,
       "won": 4,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "CORENDON ALANYASPOR",
       "played": 8,
       "won": 3,
@@ -113,7 +126,7 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "ERZURUMSPOR FK",
       "played": 8,
       "won": 3,
@@ -123,19 +136,6 @@
       "goalsAgainst": 11,
       "goalDifference": -6,
       "points": 11,
-      "form": ""
-    },
-    {
-      "rank": 10,
-      "team": "KASIMPAŞA A.Ş.",
-      "played": 7,
-      "won": 2,
-      "drawn": 4,
-      "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 8,
-      "goalDifference": 0,
-      "points": 10,
       "form": ""
     },
     {
@@ -219,13 +219,13 @@
     {
       "rank": 17,
       "team": "SAMSUNSPOR A.Ş.",
-      "played": 7,
+      "played": 8,
       "won": 1,
       "drawn": 1,
-      "lost": 5,
-      "goalsFor": 6,
-      "goalsAgainst": 15,
-      "goalDifference": -9,
+      "lost": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 19,
+      "goalDifference": -12,
       "points": 4,
       "form": ""
     },
@@ -245,21 +245,10 @@
   ],
   "fixtures": [
     {
-      "id": 317848,
-      "date": "2026-10-18T10:30:00.000Z",
-      "timestamp": 1792319400,
-      "round": "9. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KASIMPAŞA A.Ş.",
-      "away": "SAMSUNSPOR A.Ş."
-    },
-    {
       "id": 317854,
       "date": "2026-10-18T13:00:00.000Z",
       "timestamp": 1792328400,
-      "round": "9. Hafta",
+      "round": "8. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -270,7 +259,7 @@
       "id": 317849,
       "date": "2026-10-18T16:00:00.000Z",
       "timestamp": 1792339200,
-      "round": "9. Hafta",
+      "round": "8. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -281,7 +270,7 @@
       "id": 317847,
       "date": "2026-10-19T17:00:00.000Z",
       "timestamp": 1792429200,
-      "round": "9. Hafta",
+      "round": "8. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
