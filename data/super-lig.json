@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-19T15:54:39.866Z",
+  "updatedAt": "2026-10-19T23:55:53.992Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "8. Hafta",
-  "roundLabel": "8. Hafta",
+  "round": "9. Hafta",
+  "roundLabel": "9. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -49,28 +49,28 @@
     },
     {
       "rank": 4,
-      "team": "BEŞİKTAŞ A.Ş.",
-      "played": 7,
+      "team": "TRABZONSPOR A.Ş.",
+      "played": 8,
       "won": 5,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 2,
-      "goalsFor": 16,
-      "goalsAgainst": 8,
-      "goalDifference": 8,
-      "points": 15,
+      "goalsFor": 18,
+      "goalsAgainst": 5,
+      "goalDifference": 13,
+      "points": 16,
       "form": ""
     },
     {
       "rank": 5,
-      "team": "TRABZONSPOR A.Ş.",
-      "played": 7,
-      "won": 4,
-      "drawn": 1,
-      "lost": 2,
+      "team": "BEŞİKTAŞ A.Ş.",
+      "played": 8,
+      "won": 5,
+      "drawn": 0,
+      "lost": 3,
       "goalsFor": 16,
-      "goalsAgainst": 5,
-      "goalDifference": 11,
-      "points": 13,
+      "goalsAgainst": 10,
+      "goalDifference": 6,
+      "points": 15,
       "form": ""
     },
     {
@@ -245,15 +245,103 @@
   ],
   "fixtures": [
     {
-      "id": 317847,
-      "date": "2026-10-19T17:00:00.000Z",
-      "timestamp": 1792429200,
-      "round": "8. Hafta",
+      "id": 317858,
+      "date": "2026-10-23T17:00:00.000Z",
+      "timestamp": 1792774800,
+      "round": "9. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
-      "home": "TRABZONSPOR A.Ş.",
-      "away": "BEŞİKTAŞ A.Ş."
+      "home": "CORENDON ALANYASPOR",
+      "away": "KOCAELİSPOR"
+    },
+    {
+      "id": 317857,
+      "date": "2026-10-24T10:30:00.000Z",
+      "timestamp": 1792837800,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "EYÜPSPOR",
+      "away": "KASIMPAŞA A.Ş."
+    },
+    {
+      "id": 317856,
+      "date": "2026-10-24T13:00:00.000Z",
+      "timestamp": 1792846800,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
+      "away": "ERZURUMSPOR FK"
+    },
+    {
+      "id": 317864,
+      "date": "2026-10-24T16:00:00.000Z",
+      "timestamp": 1792857600,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "SAMSUNSPOR A.Ş.",
+      "away": "AMED SPORTİF FAALİYETLER"
+    },
+    {
+      "id": 317861,
+      "date": "2026-10-25T13:00:00.000Z",
+      "timestamp": 1792933200,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "TÜMOSAN KONYASPOR",
+      "away": "GENÇLERBİRLİĞİ"
+    },
+    {
+      "id": 317860,
+      "date": "2026-10-25T16:00:00.000Z",
+      "timestamp": 1792944000,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GÖZTEPE A.Ş.",
+      "away": "ARCA ÇORUM FK"
+    },
+    {
+      "id": 317859,
+      "date": "2026-10-26T16:00:00.000Z",
+      "timestamp": 1793030400,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "ÇAYKUR RİZESPOR A.Ş.",
+      "away": "TRABZONSPOR A.Ş."
+    },
+    {
+      "id": 317863,
+      "date": "2026-10-26T16:00:00.000Z",
+      "timestamp": 1793030400,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "BEŞİKTAŞ A.Ş.",
+      "away": "İSTANBUL BAŞAKŞEHİR FK"
+    },
+    {
+      "id": 317862,
+      "date": "2026-10-26T18:30:00.000Z",
+      "timestamp": 1793039400,
+      "round": "9. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GALATASARAY A.Ş.",
+      "away": "FENERBAHÇE A.Ş."
     }
   ]
 }
