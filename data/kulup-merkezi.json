@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T13:39:21.867Z",
+  "updatedAt": "2026-10-19T20:00:34.091Z",
   "sources": [
     {
       "name": "FotMob",
@@ -458,20 +458,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904767,
-          "date": "2026-10-19T17:00:00.000Z",
-          "timestamp": 1792429200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6112356,
           "date": "2026-10-22T19:00:00.000Z",
           "timestamp": 1792695600,
@@ -540,9 +526,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904808,
+          "date": "2026-11-22T13:00:00.000Z",
+          "timestamp": 1795352400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Konyaspor",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904767,
+          "date": "2026-10-19T17:00:00.000Z",
+          "timestamp": 1792429200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Beşiktaş",
+          "homeScore": 2,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 6112353,
           "date": "2026-10-15T19:00:00.000Z",
@@ -595,20 +609,6 @@
           "away": "Marseille",
           "homeScore": 4,
           "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904747,
-          "date": "2026-09-11T17:00:00.000Z",
-          "timestamp": 1789146000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Erzurumspor FK",
-          "homeScore": 3,
-          "awayScore": 0,
           "status": "FT",
           "kind": "finished",
           "result": "W"
@@ -673,24 +673,10 @@
       "coach": "Thomas Reis",
       "stadium": "Papara Park",
       "squad": {
-        "total": 32,
-        "injured": 4
+        "total": 33,
+        "injured": 5
       },
       "nextMatches": [
-        {
-          "id": 5904767,
-          "date": "2026-10-19T17:00:00.000Z",
-          "timestamp": 1792429200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6112502,
           "date": "2026-10-22T16:45:00.000Z",
@@ -760,9 +746,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904803,
+          "date": "2026-11-22T16:00:00.000Z",
+          "timestamp": 1795363200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Eyüpspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904767,
+          "date": "2026-10-19T17:00:00.000Z",
+          "timestamp": 1792429200,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Beşiktaş",
+          "homeScore": 2,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 6112478,
           "date": "2026-10-15T16:45:00.000Z",
@@ -818,20 +832,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5904731,
-          "date": "2026-09-06T17:00:00.000Z",
-          "timestamp": 1788714000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Gençlerbirliği",
-          "homeScore": 5,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://www.trabzonspor.org.tr/tr/haberler?team=trabzonspor",
