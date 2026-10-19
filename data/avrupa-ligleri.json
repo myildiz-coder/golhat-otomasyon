@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T15:33:49.283Z",
+  "updatedAt": "2026-10-19T21:01:38.959Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -240,21 +240,36 @@
         },
         {
           "rank": 16,
-          "teamId": 8669,
-          "team": "Coventry City",
-          "played": 6,
-          "won": 2,
-          "drawn": 0,
-          "lost": 4,
-          "goalsFor": 5,
-          "goalsAgainst": 11,
-          "goalDifference": -6,
+          "teamId": 8586,
+          "team": "Tottenham Hotspur",
+          "played": 7,
+          "won": 1,
+          "drawn": 3,
+          "lost": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 10,
+          "goalDifference": -4,
           "points": 6,
           "form": "",
           "description": ""
         },
         {
           "rank": 17,
+          "teamId": 8669,
+          "team": "Coventry City",
+          "played": 7,
+          "won": 2,
+          "drawn": 0,
+          "lost": 5,
+          "goalsFor": 6,
+          "goalsAgainst": 14,
+          "goalDifference": -8,
+          "points": 6,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 18,
           "teamId": 9879,
           "team": "Fulham",
           "played": 7,
@@ -266,10 +281,10 @@
           "goalDifference": -3,
           "points": 5,
           "form": "",
-          "description": ""
+          "description": "#FF4646"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "teamId": 10203,
           "team": "Nottingham Forest",
           "played": 7,
@@ -284,7 +299,7 @@
           "description": "#FF4646"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "teamId": 8472,
           "team": "Sunderland",
           "played": 7,
@@ -297,38 +312,9 @@
           "points": 4,
           "form": "",
           "description": "#FF4646"
-        },
-        {
-          "rank": 20,
-          "teamId": 8586,
-          "team": "Tottenham Hotspur",
-          "played": 6,
-          "won": 0,
-          "drawn": 3,
-          "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 9,
-          "goalDifference": -6,
-          "points": 3,
-          "form": "",
-          "description": "#FF4646"
         }
       ],
       "fixtures": [
-        {
-          "id": 5795484,
-          "date": "2026-10-19T19:00:00.000Z",
-          "timestamp": 1792436400,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Tottenham Hotspur",
-          "away": "Coventry City",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5795491,
           "date": "2026-10-23T19:00:00Z",
@@ -479,6 +465,20 @@
           "venue": "",
           "home": "Chelsea",
           "away": "Manchester United",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5795495,
+          "date": "2026-10-31T15:00:00Z",
+          "timestamp": 1793458800,
+          "round": "9",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "AFC Bournemouth",
+          "away": "Leeds United",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -674,6 +674,36 @@
         },
         {
           "rank": 13,
+          "teamId": 8370,
+          "team": "Rayo Vallecano",
+          "played": 8,
+          "won": 2,
+          "drawn": 3,
+          "lost": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 17,
+          "goalDifference": -5,
+          "points": 9,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 14,
+          "teamId": 8305,
+          "team": "Getafe",
+          "played": 9,
+          "won": 2,
+          "drawn": 3,
+          "lost": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 11,
+          "goalDifference": -6,
+          "points": 9,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
           "teamId": 8558,
           "team": "Espanyol",
           "played": 9,
@@ -683,36 +713,6 @@
           "goalsFor": 11,
           "goalsAgainst": 12,
           "goalDifference": -1,
-          "points": 8,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 14,
-          "teamId": 8370,
-          "team": "Rayo Vallecano",
-          "played": 7,
-          "won": 2,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 11,
-          "goalsAgainst": 16,
-          "goalDifference": -5,
-          "points": 8,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 15,
-          "teamId": 8305,
-          "team": "Getafe",
-          "played": 8,
-          "won": 2,
-          "drawn": 2,
-          "lost": 4,
-          "goalsFor": 4,
-          "goalsAgainst": 10,
-          "goalDifference": -6,
           "points": 8,
           "form": "",
           "description": ""
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868095,
-          "date": "2026-10-19T19:00:00.000Z",
-          "timestamp": 1792436400,
-          "round": "9",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Getafe",
-          "away": "Rayo Vallecano",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868067,
           "date": "2026-10-21T18:00:00Z",
@@ -961,6 +947,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5868120,
+          "date": "2026-10-30T20:00:00Z",
+          "timestamp": 1793390400,
+          "round": "11",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Villarreal",
+          "away": "Espanyol",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -1065,13 +1065,13 @@
           "rank": 7,
           "teamId": 8529,
           "team": "Cagliari",
-          "played": 6,
+          "played": 7,
           "won": 4,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 6,
-          "goalsAgainst": 3,
-          "goalDifference": 3,
+          "goalsAgainst": 7,
+          "goalDifference": -1,
           "points": 13,
           "form": "",
           "description": ""
@@ -1108,6 +1108,21 @@
         },
         {
           "rank": 10,
+          "teamId": 9804,
+          "team": "Torino",
+          "played": 7,
+          "won": 3,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 9,
+          "goalDifference": 1,
+          "points": 10,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 11,
           "teamId": 8524,
           "team": "Atalanta",
           "played": 7,
@@ -1122,7 +1137,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "teamId": 9888,
           "team": "Lecce",
           "played": 7,
@@ -1137,7 +1152,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "teamId": 7943,
           "team": "Sassuolo",
           "played": 7,
@@ -1152,22 +1167,22 @@
           "description": ""
         },
         {
-          "rank": 13,
-          "teamId": 9804,
-          "team": "Torino",
-          "played": 6,
+          "rank": 14,
+          "teamId": 6504,
+          "team": "Monza",
+          "played": 7,
           "won": 2,
           "drawn": 1,
-          "lost": 3,
-          "goalsFor": 7,
-          "goalsAgainst": 9,
+          "lost": 4,
+          "goalsFor": 13,
+          "goalsAgainst": 15,
           "goalDifference": -2,
           "points": 7,
           "form": "",
           "description": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "teamId": 9857,
           "team": "Bologna",
           "played": 7,
@@ -1182,37 +1197,7 @@
           "description": ""
         },
         {
-          "rank": 15,
-          "teamId": 6504,
-          "team": "Monza",
-          "played": 6,
-          "won": 1,
-          "drawn": 1,
-          "lost": 4,
-          "goalsFor": 9,
-          "goalsAgainst": 15,
-          "goalDifference": -6,
-          "points": 4,
-          "form": "",
-          "description": ""
-        },
-        {
           "rank": 16,
-          "teamId": 10167,
-          "team": "Parma",
-          "played": 6,
-          "won": 1,
-          "drawn": 1,
-          "lost": 4,
-          "goalsFor": 4,
-          "goalsAgainst": 10,
-          "goalDifference": -6,
-          "points": 4,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 17,
           "teamId": 8600,
           "team": "Udinese",
           "played": 7,
@@ -1227,7 +1212,7 @@
           "description": ""
         },
         {
-          "rank": 18,
+          "rank": 17,
           "teamId": 10233,
           "team": "Genoa",
           "played": 7,
@@ -1239,10 +1224,10 @@
           "goalDifference": -8,
           "points": 4,
           "form": "",
-          "description": "#FF4646"
+          "description": ""
         },
         {
-          "rank": 19,
+          "rank": 18,
           "teamId": 8535,
           "team": "Fiorentina",
           "played": 7,
@@ -1251,6 +1236,21 @@
           "lost": 5,
           "goalsFor": 8,
           "goalsAgainst": 17,
+          "goalDifference": -9,
+          "points": 4,
+          "form": "",
+          "description": "#FF4646"
+        },
+        {
+          "rank": 19,
+          "teamId": 10167,
+          "team": "Parma",
+          "played": 7,
+          "won": 1,
+          "drawn": 1,
+          "lost": 5,
+          "goalsFor": 4,
+          "goalsAgainst": 13,
           "goalDifference": -9,
           "points": 4,
           "form": "",
@@ -1273,34 +1273,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5749706,
-          "date": "2026-10-19T16:30:00.000Z",
-          "timestamp": 1792427400,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Monza",
-          "away": "Cagliari",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
-          "id": 5749707,
-          "date": "2026-10-19T18:45:00.000Z",
-          "timestamp": 1792435500,
-          "round": "7",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Parma",
-          "away": "Torino",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5749718,
           "date": "2026-10-23T18:45:00Z",
@@ -1437,6 +1409,34 @@
           "venue": "",
           "home": "Udinese",
           "away": "Milan",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749727,
+          "date": "2026-10-27T17:30:00Z",
+          "timestamp": 1793122200,
+          "round": "9",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Sassuolo",
+          "away": "Lazio",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749721,
+          "date": "2026-10-27T19:45:00Z",
+          "timestamp": 1793130300,
+          "round": "9",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Roma",
+          "away": "Cagliari",
           "started": false,
           "finished": false,
           "cancelled": false
