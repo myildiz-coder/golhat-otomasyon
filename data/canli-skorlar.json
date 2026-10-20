@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T14:03:14.543Z",
+  "updatedAt": "2026-10-20T18:26:15.555Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 9,
-    "live": 0,
-    "upcoming": 9,
+    "live": 2,
+    "upcoming": 7,
     "finished": 0
   },
   "matches": [
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Slavia Prague",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 83,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106422,
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Sabah FK",
       "away": "Borussia Dortmund",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 85,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6106234,
