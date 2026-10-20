@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:21:18.725Z",
+  "updatedAt": "2026-10-20T21:43:59.997Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 4
       },
       "nextMatches": [
-        {
-          "id": 6106333,
-          "date": "2026-10-20T16:45:00.000Z",
-          "timestamp": 1792514700,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Slavia Prague",
-          "homeScore": 2,
-          "awayScore": 1,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 5904782,
           "date": "2026-10-26T18:30:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6106336,
+          "date": "2026-11-25T20:00:00.000Z",
+          "timestamp": 1795636800,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Shakhtar Donetsk",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6106333,
+          "date": "2026-10-20T16:45:00.000Z",
+          "timestamp": 1792514700,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Slavia Prague",
+          "homeScore": 2,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
         {
           "id": 5904773,
           "date": "2026-10-17T16:00:00.000Z",
@@ -162,20 +176,6 @@
           "away": "Fenerbahçe",
           "homeScore": 0,
           "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904755,
-          "date": "2026-09-20T14:00:00.000Z",
-          "timestamp": 1789912800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Eyüpspor",
-          "homeScore": 8,
-          "awayScore": 0,
           "status": "FT",
           "kind": "finished",
           "result": "W"
