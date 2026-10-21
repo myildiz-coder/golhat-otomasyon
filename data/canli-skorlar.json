@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T14:18:52.917Z",
+  "updatedAt": "2026-10-21T18:45:05.165Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 10,
-    "live": 0,
-    "upcoming": 10,
-    "finished": 0
+    "live": 1,
+    "upcoming": 7,
+    "finished": 2
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Lille",
       "away": "Galatasaray",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 4,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106410,
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Como",
       "away": "Manchester United",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6106238,
@@ -201,12 +201,12 @@
       "venue": "",
       "home": "Levante",
       "away": "Athletic Club",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 42,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
