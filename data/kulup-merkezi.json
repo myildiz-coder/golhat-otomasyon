@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T13:57:04.607Z",
+  "updatedAt": "2026-10-21T18:46:01.986Z",
   "sources": [
     {
       "name": "FotMob",
@@ -238,20 +238,6 @@
       },
       "nextMatches": [
         {
-          "id": 6106312,
-          "date": "2026-10-21T16:45:00.000Z",
-          "timestamp": 1792601100,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Lille",
-          "away": "Galatasaray",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 5904782,
           "date": "2026-10-26T18:30:00.000Z",
           "timestamp": 1793039400,
@@ -320,9 +306,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6106339,
+          "date": "2026-11-24T17:45:00.000Z",
+          "timestamp": 1795542300,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Aston Villa",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6106312,
+          "date": "2026-10-21T16:45:00.000Z",
+          "timestamp": 1792601100,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Lille",
+          "away": "Galatasaray",
+          "homeScore": 2,
+          "awayScore": 4,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904771,
           "date": "2026-10-17T13:00:00.000Z",
@@ -378,20 +392,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5904746,
-          "date": "2026-09-13T17:00:00.000Z",
-          "timestamp": 1789318800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Kocaelispor",
-          "homeScore": 1,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://www.galatasaray.org/haberler/futbol/43",
