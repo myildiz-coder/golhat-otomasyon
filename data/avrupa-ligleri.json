@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T04:39:45.750Z",
+  "updatedAt": "2026-10-21T13:44:00.665Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1737,20 +1737,6 @@
           "cancelled": false
         },
         {
-          "id": 5802971,
-          "date": "2026-10-24T15:15:00Z",
-          "timestamp": 1792854900,
-          "round": "8",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Toulouse",
-          "away": "Troyes",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
           "id": 5802967,
           "date": "2026-10-24T18:45:00Z",
           "timestamp": 1792867500,
@@ -1830,6 +1816,20 @@
           "venue": "",
           "home": "Rennes",
           "away": "Strasbourg",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5802971,
+          "date": "2026-10-25T16:15:00Z",
+          "timestamp": 1792944900,
+          "round": "8",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Toulouse",
+          "away": "Troyes",
           "started": false,
           "finished": false,
           "cancelled": false
