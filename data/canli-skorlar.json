@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T14:18:27.579Z",
+  "updatedAt": "2026-10-22T18:38:15.339Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 36,
-    "live": 0,
-    "upcoming": 36,
-    "finished": 0
+    "live": 9,
+    "upcoming": 18,
+    "finished": 9
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Juventus",
       "away": "Rennes",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": 93,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112281,
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Ferencváros",
       "away": "Torreense",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112289,
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Union St.Gilloise",
       "away": "Hapoel Beer Sheva",
-      "homeScore": 0,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 89,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112293,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Dinamo Zagreb",
       "away": "NEC Nijmegen",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 4,
+      "minute": 94,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112314,
@@ -111,12 +111,12 @@
       "venue": "",
       "home": "Sturm Graz",
       "away": "Marseille",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112320,
@@ -129,12 +129,12 @@
       "venue": "",
       "home": "Lech Poznań",
       "away": "Sunderland",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112370,
@@ -148,11 +148,11 @@
       "home": "OFI Crete",
       "away": "Bayer Leverkusen",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112382,
@@ -166,11 +166,11 @@
       "home": "Ararat Armenia",
       "away": "AZ Alkmaar",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 4,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112267,
@@ -363,12 +363,12 @@
       "venue": "",
       "home": "Kairat Almaty",
       "away": "Panathinaikos",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 5,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112408,
@@ -381,12 +381,12 @@
       "venue": "",
       "home": "FK Crvena Zvezda",
       "away": "FC København",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": 93,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112419,
@@ -399,12 +399,12 @@
       "venue": "",
       "home": "Pafos FC",
       "away": "Riga FC",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 92,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112475,
@@ -417,12 +417,12 @@
       "venue": "",
       "home": "Getafe",
       "away": "Lugano",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 5,
+      "minute": 94,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112502,
@@ -435,12 +435,12 @@
       "venue": "",
       "home": "Trabzonspor",
       "away": "Heart of Midlothian",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 92,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112526,
@@ -456,9 +456,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112531,
@@ -471,12 +471,12 @@
       "venue": "",
       "home": "Nordsjælland",
       "away": "CSKA Sofia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": 94,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112536,
@@ -489,12 +489,12 @@
       "venue": "",
       "home": "Inter Club d'Escaldes",
       "away": "Universitatea Craiova",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 3,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112545,
@@ -507,12 +507,12 @@
       "venue": "",
       "home": "FK Kauno Žalgiris",
       "away": "Brann",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 4,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112552,
@@ -525,12 +525,12 @@
       "venue": "",
       "home": "Iberia 1999",
       "away": "Mjällby",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minute": 95,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112390,
