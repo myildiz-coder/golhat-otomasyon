@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T17:21:10.968Z",
+  "updatedAt": "2026-10-22T21:45:55.402Z",
   "sources": [
     {
       "name": "FotMob",
@@ -454,23 +454,9 @@
       "stadium": "Tüpraş Stadyumu",
       "squad": {
         "total": 32,
-        "injured": 2
+        "injured": 3
       },
       "nextMatches": [
-        {
-          "id": 6112356,
-          "date": "2026-10-22T19:00:00.000Z",
-          "timestamp": 1792695600,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Crystal Palace",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 5904783,
           "date": "2026-10-26T16:00:00.000Z",
@@ -540,9 +526,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112357,
+          "date": "2026-11-26T17:45:00.000Z",
+          "timestamp": 1795715100,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Hapoel Beer Sheva",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6112356,
+          "date": "2026-10-22T19:00:00.000Z",
+          "timestamp": 1792695600,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Crystal Palace",
+          "homeScore": 2,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
         {
           "id": 5904767,
           "date": "2026-10-19T17:00:00.000Z",
@@ -598,20 +612,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 6112354,
-          "date": "2026-09-17T19:00:00.000Z",
-          "timestamp": 1789671600,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Marseille",
-          "homeScore": 4,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://bjk.com.tr/tr/haber_listesi/1",
@@ -677,20 +677,6 @@
         "injured": 5
       },
       "nextMatches": [
-        {
-          "id": 6112502,
-          "date": "2026-10-22T16:45:00.000Z",
-          "timestamp": 1792687500,
-          "tournament": "Conference League",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Hearts",
-          "homeScore": 1,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 5904779,
           "date": "2026-10-26T16:00:00.000Z",
@@ -760,9 +746,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112542,
+          "date": "2026-11-26T20:00:00.000Z",
+          "timestamp": 1795723200,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "CSKA Sofia",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6112502,
+          "date": "2026-10-22T16:45:00.000Z",
+          "timestamp": 1792687500,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Hearts",
+          "homeScore": 2,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904767,
           "date": "2026-10-19T17:00:00.000Z",
@@ -818,20 +832,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 5904745,
-          "date": "2026-09-12T17:00:00.000Z",
-          "timestamp": 1789232400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Konyaspor",
-          "away": "Trabzonspor",
-          "homeScore": 1,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
         }
       ],
       "officialUrl": "https://www.trabzonspor.org.tr/tr/haberler?team=trabzonspor",
