@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:06:49.346Z",
+  "updatedAt": "2026-10-22T17:21:10.968Z",
   "sources": [
     {
       "name": "FotMob",
@@ -673,7 +673,7 @@
       "coach": "Thomas Reis",
       "stadium": "Papara Park",
       "squad": {
-        "total": 33,
+        "total": 34,
         "injured": 5
       },
       "nextMatches": [
@@ -685,10 +685,10 @@
           "stage": "",
           "home": "Trabzonspor",
           "away": "Hearts",
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
