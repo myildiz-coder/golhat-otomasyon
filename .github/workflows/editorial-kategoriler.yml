@@ -69,6 +69,7 @@ jobs:
       - name: Kategori editörlerini çalıştır
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
           SELECTED_ROLE: ${{ inputs.role }}
           DRY_RUN: ${{ inputs.dry_run }}
           GOLHAT_EDITORIAL_ASSIGNMENT: ${{ inputs.assignment }}
