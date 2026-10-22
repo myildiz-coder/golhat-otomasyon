@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T09:25:59.154Z",
+  "updatedAt": "2026-10-22T15:18:26.611Z",
   "source": "UEFA",
   "sourceUrl": "https://standings.uefa.com/",
   "seasonEndYear": 2027,
@@ -1482,6 +1482,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": "50084",
+          "team": "Panathinaikos",
+          "code": "PAN",
+          "countryCode": "GRE",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 6
+        },
+        {
+          "rank": 2,
           "teamId": "2601105",
           "team": "Brighton",
           "code": "BHA",
@@ -1496,7 +1511,7 @@
           "points": 3
         },
         {
-          "rank": 2,
+          "rank": 3,
           "teamId": "52709",
           "team": "Copenhagen",
           "code": "CPH",
@@ -1511,7 +1526,7 @@
           "points": 3
         },
         {
-          "rank": 3,
+          "rank": 4,
           "teamId": "52731",
           "team": "Trabzonspor",
           "code": "TRA",
@@ -1526,7 +1541,7 @@
           "points": 3
         },
         {
-          "rank": 4,
+          "rank": 5,
           "teamId": "52816",
           "team": "Atalanta",
           "code": "ATA",
@@ -1541,7 +1556,7 @@
           "points": 3
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": "74233",
           "team": "Mjällby",
           "code": "MJA",
@@ -1556,7 +1571,7 @@
           "points": 3
         },
         {
-          "rank": 5,
+          "rank": 6,
           "teamId": "52883",
           "team": "Sint-Truidense",
           "code": "STR",
@@ -1571,7 +1586,7 @@
           "points": 3
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": "59880",
           "team": "Freiburg",
           "code": "FRE",
@@ -1586,7 +1601,7 @@
           "points": 3
         },
         {
-          "rank": 7,
+          "rank": 8,
           "teamId": "8538",
           "team": "Lugano",
           "code": "LUG",
@@ -1601,7 +1616,7 @@
           "points": 3
         },
         {
-          "rank": 9,
+          "rank": 10,
           "teamId": "50023",
           "team": "Monaco",
           "code": "MON",
@@ -1616,7 +1631,7 @@
           "points": 3
         },
         {
-          "rank": 10,
+          "rank": 11,
           "teamId": "52770",
           "team": "Brann",
           "code": "BRN",
@@ -1631,26 +1646,11 @@
           "points": 3
         },
         {
-          "rank": 10,
+          "rank": 11,
           "teamId": "52359",
           "team": "Hajduk Split",
           "code": "HAJ",
           "countryCode": "CRO",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 1,
-          "goalDifference": 1,
-          "points": 3
-        },
-        {
-          "rank": 10,
-          "teamId": "50084",
-          "team": "Panathinaikos",
-          "code": "PAN",
-          "countryCode": "GRE",
           "played": 1,
           "won": 1,
           "drawn": 0,
@@ -1707,21 +1707,6 @@
         },
         {
           "rank": 15,
-          "teamId": "79970",
-          "team": "Kairat Almaty",
-          "code": "KAI",
-          "countryCode": "KAZ",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1
-        },
-        {
-          "rank": 15,
           "teamId": "75795",
           "team": "Midtjylland",
           "code": "MID",
@@ -1751,7 +1736,7 @@
           "points": 1
         },
         {
-          "rank": 19,
+          "rank": 18,
           "teamId": "88148",
           "team": "Egnatia",
           "code": "EGN",
@@ -1766,7 +1751,7 @@
           "points": 1
         },
         {
-          "rank": 19,
+          "rank": 18,
           "teamId": "50120",
           "team": "Hearts",
           "code": "HEA",
@@ -1781,7 +1766,7 @@
           "points": 1
         },
         {
-          "rank": 19,
+          "rank": 18,
           "teamId": "2607924",
           "team": "Riga",
           "code": "RIG",
@@ -1796,7 +1781,7 @@
           "points": 1
         },
         {
-          "rank": 19,
+          "rank": 18,
           "teamId": "2606501",
           "team": "Univ. Craiova",
           "code": "UCR",
@@ -1808,6 +1793,21 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "rank": 22,
+          "teamId": "79970",
+          "team": "Kairat Almaty",
+          "code": "KAI",
+          "countryCode": "KAZ",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
           "points": 1
         },
         {
@@ -2024,19 +2024,9 @@
       "nextMatchday": {
         "id": "36624",
         "label": "2. Hafta",
-        "dateFrom": "2026-10-22T14:30:00Z",
+        "dateFrom": "2026-10-22T16:45:00Z",
         "dateTo": "2026-10-22T19:00:00Z",
         "matches": [
-          {
-            "id": "2050336",
-            "date": "2026-10-22T14:30:00Z",
-            "timestamp": 1792679400000,
-            "home": "Kairat Almaty",
-            "away": "Panathinaikos",
-            "homeCountry": "KAZ",
-            "awayCountry": "GRE",
-            "status": "UPCOMING"
-          },
           {
             "id": "2050331",
             "date": "2026-10-22T16:45:00Z",
