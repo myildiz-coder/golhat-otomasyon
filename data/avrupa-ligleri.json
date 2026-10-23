@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T04:42:50.706Z",
+  "updatedAt": "2026-10-23T13:21:40.532Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1836,8 +1836,8 @@
         },
         {
           "id": 5802972,
-          "date": "2026-10-25T19:45:00Z",
-          "timestamp": 1792957500,
+          "date": "2026-10-26T19:30:00Z",
+          "timestamp": 1793043000,
           "round": "8",
           "status": "NS",
           "statusLong": "Not Started",
