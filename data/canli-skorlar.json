@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T14:01:24.853Z",
+  "updatedAt": "2026-10-23T18:15:37.797Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 7,
-    "live": 0,
-    "upcoming": 7,
+    "live": 2,
+    "upcoming": 5,
     "finished": 0
   },
   "matches": [
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Alanyaspor",
       "away": "Kocaelispor",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 57,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795491,
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "Go Ahead Eagles",
       "away": "Telstar",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 15,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
