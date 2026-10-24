@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T16:23:29.997Z",
+  "updatedAt": "2026-10-24T18:51:18.482Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -10,6 +10,19 @@
   "standings": [
     {
       "rank": 1,
+      "team": "AMED SPORTİF FAALİYETLER",
+      "played": 9,
+      "won": 6,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 20,
+      "goalsAgainst": 10,
+      "goalDifference": 10,
+      "points": 20,
+      "form": ""
+    },
+    {
+      "rank": 2,
       "team": "GALATASARAY A.Ş.",
       "played": 8,
       "won": 6,
@@ -19,19 +32,6 @@
       "goalsAgainst": 11,
       "goalDifference": 6,
       "points": 19,
-      "form": ""
-    },
-    {
-      "rank": 2,
-      "team": "AMED SPORTİF FAALİYETLER",
-      "played": 8,
-      "won": 5,
-      "drawn": 2,
-      "lost": 1,
-      "goalsFor": 18,
-      "goalsAgainst": 9,
-      "goalDifference": 9,
-      "points": 17,
       "form": ""
     },
     {
@@ -219,13 +219,13 @@
     {
       "rank": 17,
       "team": "SAMSUNSPOR A.Ş.",
-      "played": 8,
+      "played": 9,
       "won": 1,
       "drawn": 1,
-      "lost": 6,
-      "goalsFor": 7,
-      "goalsAgainst": 19,
-      "goalDifference": -12,
+      "lost": 7,
+      "goalsFor": 8,
+      "goalsAgainst": 21,
+      "goalDifference": -13,
       "points": 4,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317864,
-      "date": "2026-10-24T16:00:00.000Z",
-      "timestamp": 1792857600,
-      "round": "9. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "SAMSUNSPOR A.Ş.",
-      "away": "AMED SPORTİF FAALİYETLER"
-    },
     {
       "id": 317861,
       "date": "2026-10-25T13:00:00.000Z",
