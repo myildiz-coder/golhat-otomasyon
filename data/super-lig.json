@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:22:40.166Z",
+  "updatedAt": "2026-10-24T12:57:30.910Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -62,6 +62,19 @@
     },
     {
       "rank": 5,
+      "team": "KASIMPAŞA A.Ş.",
+      "played": 9,
+      "won": 4,
+      "drawn": 4,
+      "lost": 1,
+      "goalsFor": 13,
+      "goalsAgainst": 9,
+      "goalDifference": 4,
+      "points": 16,
+      "form": ""
+    },
+    {
+      "rank": 6,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 8,
       "won": 5,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "KOCAELİSPOR",
       "played": 9,
       "won": 5,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "ARCA ÇORUM FK",
       "played": 8,
       "won": 4,
@@ -96,19 +109,6 @@
       "goalsFor": 18,
       "goalsAgainst": 13,
       "goalDifference": 5,
-      "points": 13,
-      "form": ""
-    },
-    {
-      "rank": 8,
-      "team": "KASIMPAŞA A.Ş.",
-      "played": 8,
-      "won": 3,
-      "drawn": 4,
-      "lost": 1,
-      "goalsFor": 12,
-      "goalsAgainst": 9,
-      "goalDifference": 3,
       "points": 13,
       "form": ""
     },
@@ -232,29 +232,18 @@
     {
       "rank": 18,
       "team": "EYÜPSPOR",
-      "played": 8,
+      "played": 9,
       "won": 1,
       "drawn": 0,
-      "lost": 7,
+      "lost": 8,
       "goalsFor": 2,
-      "goalsAgainst": 22,
-      "goalDifference": -20,
+      "goalsAgainst": 23,
+      "goalDifference": -21,
       "points": 3,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317857,
-      "date": "2026-10-24T10:30:00.000Z",
-      "timestamp": 1792837800,
-      "round": "9. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "EYÜPSPOR",
-      "away": "KASIMPAŞA A.Ş."
-    },
     {
       "id": 317856,
       "date": "2026-10-24T13:00:00.000Z",
