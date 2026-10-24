@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T09:25:01.362Z",
+  "updatedAt": "2026-10-24T13:03:48.598Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 25,
-    "live": 0,
-    "upcoming": 25,
-    "finished": 0
+    "live": 5,
+    "upcoming": 19,
+    "finished": 1
   },
   "matches": [
     {
@@ -40,11 +40,11 @@
       "home": "Eyüpspor",
       "away": "Kasımpaşa",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904776,
@@ -59,10 +59,10 @@
       "away": "Erzurumspor FK",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 3,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904784,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Aston Villa",
       "away": "Manchester City",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 76,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795485,
@@ -166,11 +166,11 @@
       "home": "Rayo Vallecano",
       "away": "Elche",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868106,
@@ -239,10 +239,10 @@
       "away": "Bologna",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 4,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749712,
@@ -257,10 +257,10 @@
       "away": "Sassuolo",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 2,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749717,
