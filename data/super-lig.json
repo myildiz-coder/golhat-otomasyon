@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:57:30.910Z",
+  "updatedAt": "2026-10-24T16:23:29.997Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -101,6 +101,19 @@
     },
     {
       "rank": 8,
+      "team": "ERZURUMSPOR FK",
+      "played": 9,
+      "won": 4,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 8,
+      "goalsAgainst": 12,
+      "goalDifference": -4,
+      "points": 14,
+      "form": ""
+    },
+    {
+      "rank": 9,
       "team": "ARCA ÇORUM FK",
       "played": 8,
       "won": 4,
@@ -113,7 +126,7 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "CORENDON ALANYASPOR",
       "played": 9,
       "won": 3,
@@ -126,7 +139,7 @@
       "form": ""
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 8,
       "won": 3,
@@ -135,19 +148,6 @@
       "goalsFor": 12,
       "goalsAgainst": 12,
       "goalDifference": 0,
-      "points": 11,
-      "form": ""
-    },
-    {
-      "rank": 11,
-      "team": "ERZURUMSPOR FK",
-      "played": 8,
-      "won": 3,
-      "drawn": 2,
-      "lost": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 11,
-      "goalDifference": -6,
       "points": 11,
       "form": ""
     },
@@ -180,13 +180,13 @@
     {
       "rank": 14,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 8,
+      "played": 9,
       "won": 2,
       "drawn": 2,
-      "lost": 4,
-      "goalsFor": 8,
-      "goalsAgainst": 12,
-      "goalDifference": -4,
+      "lost": 5,
+      "goalsFor": 9,
+      "goalsAgainst": 15,
+      "goalDifference": -6,
       "points": 8,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317856,
-      "date": "2026-10-24T13:00:00.000Z",
-      "timestamp": 1792846800,
-      "round": "9. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "away": "ERZURUMSPOR FK"
-    },
     {
       "id": 317864,
       "date": "2026-10-24T16:00:00.000Z",
