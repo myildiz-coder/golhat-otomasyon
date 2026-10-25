@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T17:06:33.119Z",
+  "updatedAt": "2026-10-25T19:32:15.682Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -115,18 +115,31 @@
     {
       "rank": 9,
       "team": "ARCA ÇORUM FK",
-      "played": 8,
+      "played": 9,
       "won": 4,
       "drawn": 1,
-      "lost": 3,
+      "lost": 4,
       "goalsFor": 18,
-      "goalsAgainst": 13,
-      "goalDifference": 5,
+      "goalsAgainst": 15,
+      "goalDifference": 3,
       "points": 13,
       "form": ""
     },
     {
       "rank": 10,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 9,
+      "won": 3,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 16,
+      "goalDifference": 3,
+      "points": 12,
+      "form": ""
+    },
+    {
+      "rank": 11,
       "team": "CORENDON ALANYASPOR",
       "played": 9,
       "won": 3,
@@ -139,7 +152,7 @@
       "form": ""
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 8,
       "won": 3,
@@ -152,7 +165,7 @@
       "form": ""
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 8,
       "won": 3,
@@ -162,19 +175,6 @@
       "goalsAgainst": 11,
       "goalDifference": -3,
       "points": 10,
-      "form": ""
-    },
-    {
-      "rank": 13,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 8,
-      "won": 2,
-      "drawn": 3,
-      "lost": 3,
-      "goalsFor": 17,
-      "goalsAgainst": 16,
-      "goalDifference": 1,
-      "points": 9,
       "form": ""
     },
     {
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317860,
-      "date": "2026-10-25T16:00:00.000Z",
-      "timestamp": 1792944000,
-      "round": "9. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GÖZTEPE A.Ş.",
-      "away": "ARCA ÇORUM FK"
-    },
     {
       "id": 317859,
       "date": "2026-10-26T16:00:00.000Z",
