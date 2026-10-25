@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T10:03:59.003Z",
+  "updatedAt": "2026-10-25T13:31:52.617Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 29,
-    "live": 0,
-    "upcoming": 29,
-    "finished": 0
+    "live": 5,
+    "upcoming": 23,
+    "finished": 1
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Gençlerbirliği",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 32,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904780,
@@ -165,12 +165,12 @@
       "venue": "",
       "home": "Athletic Club",
       "away": "Getafe",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 30,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868104,
@@ -237,12 +237,12 @@
       "venue": "",
       "home": "Inter",
       "away": "Fiorentina",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 102,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749710,
@@ -471,12 +471,12 @@
       "venue": "",
       "home": "Fortuna Sittard",
       "away": "Excelsior",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781777,
@@ -491,10 +491,10 @@
       "away": "FC Groningen",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 2,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781783,
@@ -509,10 +509,10 @@
       "away": "Feyenoord",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 2,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781778,
