@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T13:23:58.010Z",
+  "updatedAt": "2026-10-25T17:06:33.119Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -179,6 +179,19 @@
     },
     {
       "rank": 14,
+      "team": "TÜMOSAN KONYASPOR",
+      "played": 9,
+      "won": 2,
+      "drawn": 2,
+      "lost": 5,
+      "goalsFor": 6,
+      "goalsAgainst": 9,
+      "goalDifference": -3,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 15,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 9,
       "won": 2,
@@ -191,29 +204,16 @@
       "form": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "team": "GENÇLERBİRLİĞİ",
-      "played": 8,
+      "played": 9,
       "won": 2,
       "drawn": 2,
-      "lost": 4,
-      "goalsFor": 7,
-      "goalsAgainst": 16,
-      "goalDifference": -9,
-      "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 16,
-      "team": "TÜMOSAN KONYASPOR",
-      "played": 8,
-      "won": 1,
-      "drawn": 2,
       "lost": 5,
-      "goalsFor": 4,
-      "goalsAgainst": 9,
-      "goalDifference": -5,
-      "points": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 18,
+      "goalDifference": -11,
+      "points": 8,
       "form": ""
     },
     {
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317861,
-      "date": "2026-10-25T13:00:00.000Z",
-      "timestamp": 1792933200,
-      "round": "9. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "TÜMOSAN KONYASPOR",
-      "away": "GENÇLERBİRLİĞİ"
-    },
     {
       "id": 317860,
       "date": "2026-10-25T16:00:00.000Z",
