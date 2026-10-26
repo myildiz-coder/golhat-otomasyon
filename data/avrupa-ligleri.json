@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T15:09:07.210Z",
+  "updatedAt": "2026-10-26T20:59:41.192Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -571,14 +571,14 @@
           "rank": 6,
           "teamId": 8302,
           "team": "Sevilla",
-          "played": 9,
-          "won": 4,
+          "played": 10,
+          "won": 5,
           "drawn": 2,
           "lost": 3,
-          "goalsFor": 14,
+          "goalsFor": 15,
           "goalsAgainst": 16,
-          "goalDifference": -2,
-          "points": 14,
+          "goalDifference": -1,
+          "points": 17,
           "form": "",
           "description": "#02CCF0"
         },
@@ -661,13 +661,13 @@
           "rank": 12,
           "teamId": 8371,
           "team": "Osasuna",
-          "played": 9,
+          "played": 10,
           "won": 3,
           "drawn": 2,
-          "lost": 4,
+          "lost": 5,
           "goalsFor": 10,
-          "goalsAgainst": 18,
-          "goalDifference": -8,
+          "goalsAgainst": 19,
+          "goalDifference": -9,
           "points": 11,
           "form": "",
           "description": ""
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868109,
-          "date": "2026-10-26T20:00:00.000Z",
-          "timestamp": 1793044800,
-          "round": "10",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Sevilla",
-          "away": "Osasuna",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868120,
           "date": "2026-10-30T20:00:00Z",
@@ -958,6 +944,20 @@
           "venue": "",
           "home": "Sevilla",
           "away": "Deportivo Alavés",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5868125,
+          "date": "2026-11-07T13:00:00Z",
+          "timestamp": 1794056400,
+          "round": "12",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Málaga",
+          "away": "Racing Santander",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -1452,6 +1452,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 9847,
+          "team": "Paris Saint-Germain",
+          "played": 8,
+          "won": 5,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 15,
+          "goalsAgainst": 9,
+          "goalDifference": 6,
+          "points": 17,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 9851,
           "team": "Rennes",
           "played": 8,
@@ -1466,7 +1481,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "teamId": 8639,
           "team": "Lille",
           "played": 8,
@@ -1481,7 +1496,7 @@
           "description": "#2AD572"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "teamId": 9829,
           "team": "Monaco",
           "played": 8,
@@ -1493,34 +1508,19 @@
           "goalDifference": 4,
           "points": 15,
           "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 4,
-          "teamId": 9748,
-          "team": "Lyon",
-          "played": 7,
-          "won": 4,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 13,
-          "goalsAgainst": 5,
-          "goalDifference": 8,
-          "points": 14,
-          "form": "",
           "description": "#FFD908"
         },
         {
           "rank": 5,
-          "teamId": 9847,
-          "team": "Paris Saint-Germain",
-          "played": 7,
+          "teamId": 9748,
+          "team": "Lyon",
+          "played": 8,
           "won": 4,
           "drawn": 2,
-          "lost": 1,
-          "goalsFor": 14,
-          "goalsAgainst": 9,
-          "goalDifference": 5,
+          "lost": 2,
+          "goalsFor": 13,
+          "goalsAgainst": 6,
+          "goalDifference": 7,
           "points": 14,
           "form": "",
           "description": "#0046A7"
@@ -1723,20 +1723,6 @@
       ],
       "fixtures": [
         {
-          "id": 5802972,
-          "date": "2026-10-26T19:30:00.000Z",
-          "timestamp": 1793043000,
-          "round": "8",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Paris Saint-Germain",
-          "away": "Lyon",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
           "id": 5802973,
           "date": "2026-10-30T18:00:00Z",
           "timestamp": 1793383200,
@@ -1774,20 +1760,6 @@
           "venue": "",
           "home": "Nice",
           "away": "Rennes",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
-          "id": 5802975,
-          "date": "2026-10-31T19:45:00Z",
-          "timestamp": 1793475900,
-          "round": "9",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Lorient",
-          "away": "Brest",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -1863,6 +1835,20 @@
           "cancelled": false
         },
         {
+          "id": 5802975,
+          "date": "2026-11-02T19:45:00Z",
+          "timestamp": 1793648700,
+          "round": "9",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Lorient",
+          "away": "Brest",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
           "id": 5802989,
           "date": "2026-11-06T19:45:00Z",
           "timestamp": 1793994300,
@@ -1886,6 +1872,20 @@
           "venue": "",
           "home": "Auxerre",
           "away": "Paris FC",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5802987,
+          "date": "2026-11-07T19:45:00Z",
+          "timestamp": 1794080700,
+          "round": "10",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Paris Saint-Germain",
+          "away": "Troyes",
           "started": false,
           "finished": false,
           "cancelled": false
