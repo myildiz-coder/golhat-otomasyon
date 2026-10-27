@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:57:37.470Z",
+  "updatedAt": "2026-10-27T14:24:56.913Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1737,23 +1737,9 @@
           "cancelled": false
         },
         {
-          "id": 5802974,
-          "date": "2026-10-30T20:05:00Z",
-          "timestamp": 1793390700,
-          "round": "9",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Lille",
-          "away": "Lens",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
-        {
           "id": 5802978,
-          "date": "2026-10-31T16:15:00Z",
-          "timestamp": 1793463300,
+          "date": "2026-10-30T18:00:00Z",
+          "timestamp": 1793383200,
           "round": "9",
           "status": "NS",
           "statusLong": "Not Started",
@@ -1765,15 +1751,15 @@
           "cancelled": false
         },
         {
-          "id": 5802976,
-          "date": "2026-10-31T19:45:00Z",
-          "timestamp": 1793475900,
+          "id": 5802974,
+          "date": "2026-10-30T20:05:00Z",
+          "timestamp": 1793390700,
           "round": "9",
           "status": "NS",
           "statusLong": "Not Started",
           "venue": "",
-          "home": "Lyon",
-          "away": "Angers",
+          "home": "Lille",
+          "away": "Lens",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -1802,6 +1788,20 @@
           "venue": "",
           "home": "Strasbourg",
           "away": "Auxerre",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5802976,
+          "date": "2026-11-01T16:15:00Z",
+          "timestamp": 1793549700,
+          "round": "9",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Lyon",
+          "away": "Angers",
           "started": false,
           "finished": false,
           "cancelled": false
