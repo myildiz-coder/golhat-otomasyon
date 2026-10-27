@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T20:59:41.192Z",
+  "updatedAt": "2026-10-27T04:57:37.470Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -575,9 +575,9 @@
           "won": 5,
           "drawn": 2,
           "lost": 3,
-          "goalsFor": 15,
+          "goalsFor": 16,
           "goalsAgainst": 16,
-          "goalDifference": -1,
+          "goalDifference": 0,
           "points": 17,
           "form": "",
           "description": "#02CCF0"
@@ -666,8 +666,8 @@
           "drawn": 2,
           "lost": 5,
           "goalsFor": 10,
-          "goalsAgainst": 19,
-          "goalDifference": -9,
+          "goalsAgainst": 20,
+          "goalDifference": -10,
           "points": 11,
           "form": "",
           "description": ""
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749727,
-          "date": "2026-10-27T17:30:00Z",
+          "date": "2026-10-27T17:30:00.000Z",
           "timestamp": 1793122200,
           "round": "9",
           "status": "NS",
@@ -1289,7 +1289,7 @@
         },
         {
           "id": 5749721,
-          "date": "2026-10-27T19:45:00Z",
+          "date": "2026-10-27T19:45:00.000Z",
           "timestamp": 1793130300,
           "round": "9",
           "status": "NS",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": 5749728,
-          "date": "2026-10-27T19:45:00Z",
+          "date": "2026-10-27T19:45:00.000Z",
           "timestamp": 1793130300,
           "round": "9",
           "status": "NS",
@@ -1458,9 +1458,9 @@
           "won": 5,
           "drawn": 2,
           "lost": 1,
-          "goalsFor": 15,
+          "goalsFor": 16,
           "goalsAgainst": 9,
-          "goalDifference": 6,
+          "goalDifference": 7,
           "points": 17,
           "form": "",
           "description": "#2AD572"
@@ -1519,8 +1519,8 @@
           "drawn": 2,
           "lost": 2,
           "goalsFor": 13,
-          "goalsAgainst": 6,
-          "goalDifference": 7,
+          "goalsAgainst": 7,
+          "goalDifference": 6,
           "points": 14,
           "form": "",
           "description": "#0046A7"
