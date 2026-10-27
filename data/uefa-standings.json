@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T09:50:08.334Z",
+  "updatedAt": "2026-10-27T15:53:33.543Z",
   "source": "UEFA",
   "sourceUrl": "https://standings.uefa.com/",
   "seasonEndYear": 2027,
@@ -1289,9 +1289,19 @@
       "nextMatchday": {
         "id": "36576",
         "label": "4. Hafta",
-        "dateFrom": "2026-11-05T17:45:00Z",
+        "dateFrom": "2026-11-04T15:30:00Z",
         "dateTo": "2026-11-05T20:00:00Z",
         "matches": [
+          {
+            "id": "2050118",
+            "date": "2026-11-04T15:30:00Z",
+            "timestamp": 1793806200000,
+            "home": "Rennes",
+            "away": "Olympiacos",
+            "homeCountry": "FRA",
+            "awayCountry": "GRE",
+            "status": "UPCOMING"
+          },
           {
             "id": "2050113",
             "date": "2026-11-05T17:45:00Z",
@@ -1320,16 +1330,6 @@
             "away": "Bournemouth",
             "homeCountry": "CZE",
             "awayCountry": "ENG",
-            "status": "UPCOMING"
-          },
-          {
-            "id": "2050118",
-            "date": "2026-11-05T17:45:00Z",
-            "timestamp": 1793900700000,
-            "home": "Rennes",
-            "away": "Olympiacos",
-            "homeCountry": "FRA",
-            "awayCountry": "GRE",
             "status": "UPCOMING"
           },
           {
