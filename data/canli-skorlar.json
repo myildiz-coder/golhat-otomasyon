@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:41:45.994Z",
+  "updatedAt": "2026-10-28T20:35:09.229Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 5,
-    "live": 0,
-    "upcoming": 5,
-    "finished": 0
+    "live": 2,
+    "upcoming": 0,
+    "finished": 3
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Milan",
       "away": "Bologna",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 4,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749726,
@@ -60,9 +60,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749729,
@@ -76,11 +76,11 @@
       "home": "Venezia",
       "away": "Inter",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749724,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Genoa",
       "away": "Juventus",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749725,
@@ -111,12 +111,12 @@
       "venue": "",
       "home": "Monza",
       "away": "Napoli",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
