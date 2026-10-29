@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T21:01:10.313Z",
+  "updatedAt": "2026-10-29T05:41:03.042Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1048,6 +1048,21 @@
         },
         {
           "rank": 6,
+          "teamId": 9875,
+          "team": "Napoli",
+          "played": 9,
+          "won": 4,
+          "drawn": 2,
+          "lost": 3,
+          "goalsFor": 17,
+          "goalsAgainst": 11,
+          "goalDifference": 6,
+          "points": 14,
+          "form": "",
+          "description": "#02CCF0"
+        },
+        {
+          "rank": 7,
           "teamId": 9891,
           "team": "Frosinone",
           "played": 8,
@@ -1056,21 +1071,6 @@
           "lost": 2,
           "goalsFor": 17,
           "goalsAgainst": 13,
-          "goalDifference": 4,
-          "points": 14,
-          "form": "",
-          "description": "#02CCF0"
-        },
-        {
-          "rank": 7,
-          "teamId": 9875,
-          "team": "Napoli",
-          "played": 9,
-          "won": 4,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 15,
-          "goalsAgainst": 11,
           "goalDifference": 4,
           "points": 14,
           "form": "",
@@ -1205,8 +1205,8 @@
           "drawn": 1,
           "lost": 6,
           "goalsFor": 16,
-          "goalsAgainst": 20,
-          "goalDifference": -4,
+          "goalsAgainst": 22,
+          "goalDifference": -6,
           "points": 7,
           "form": "",
           "description": ""
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749723,
-          "date": "2026-10-29T17:30:00Z",
+          "date": "2026-10-29T17:30:00.000Z",
           "timestamp": 1793295000,
           "round": "9",
           "status": "NS",
@@ -1289,7 +1289,7 @@
         },
         {
           "id": 5749722,
-          "date": "2026-10-29T19:45:00Z",
+          "date": "2026-10-29T19:45:00.000Z",
           "timestamp": 1793303100,
           "round": "9",
           "status": "NS",
