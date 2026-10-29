@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T15:48:11.756Z",
+  "updatedAt": "2026-10-29T20:41:10.261Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 2,
-    "live": 0,
-    "upcoming": 2,
-    "finished": 0
+    "live": 1,
+    "upcoming": 0,
+    "finished": 1
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Frosinone",
       "away": "Lecce",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 5,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749722,
@@ -58,11 +58,11 @@
       "home": "Fiorentina",
       "away": "Atalanta",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
