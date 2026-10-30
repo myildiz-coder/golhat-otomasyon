@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:12:31.914Z",
+  "updatedAt": "2026-10-30T19:30:22.211Z",
   "sources": [
     {
       "name": "FotMob",
@@ -245,20 +245,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904790,
-          "date": "2026-10-30T17:00:00.000Z",
-          "timestamp": 1793379600,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Konyaspor",
-          "away": "Galatasaray",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6106341,
           "date": "2026-11-03T17:45:00.000Z",
           "timestamp": 1793727900,
@@ -327,9 +313,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904827,
+          "date": "2026-12-04T17:00:00.000Z",
+          "timestamp": 1796403600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Rizespor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904790,
+          "date": "2026-10-30T17:00:00.000Z",
+          "timestamp": 1793379600,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Konyaspor",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 4,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904782,
           "date": "2026-10-26T18:30:00.000Z",
@@ -385,20 +399,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5904764,
-          "date": "2026-10-09T17:00:00.000Z",
-          "timestamp": 1791565200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Kasımpaşa",
-          "homeScore": 3,
-          "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://www.galatasaray.org/haberler/futbol/43",
