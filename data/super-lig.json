@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:23:05.489Z",
+  "updatedAt": "2026-10-30T19:57:05.006Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -11,14 +11,14 @@
     {
       "rank": 1,
       "team": "GALATASARAY A.Ş.",
-      "played": 9,
-      "won": 7,
+      "played": 10,
+      "won": 8,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 19,
+      "goalsFor": 23,
       "goalsAgainst": 12,
-      "goalDifference": 7,
-      "points": 22,
+      "goalDifference": 11,
+      "points": 25,
       "form": ""
     },
     {
@@ -179,19 +179,6 @@
     },
     {
       "rank": 14,
-      "team": "TÜMOSAN KONYASPOR",
-      "played": 9,
-      "won": 2,
-      "drawn": 2,
-      "lost": 5,
-      "goalsFor": 6,
-      "goalsAgainst": 9,
-      "goalDifference": -3,
-      "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 15,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
       "played": 9,
       "won": 2,
@@ -200,6 +187,19 @@
       "goalsFor": 9,
       "goalsAgainst": 15,
       "goalDifference": -6,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 15,
+      "team": "TÜMOSAN KONYASPOR",
+      "played": 10,
+      "won": 2,
+      "drawn": 2,
+      "lost": 6,
+      "goalsFor": 6,
+      "goalsAgainst": 13,
+      "goalDifference": -7,
       "points": 8,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317870,
-      "date": "2026-10-30T17:00:00.000Z",
-      "timestamp": 1793379600,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "TÜMOSAN KONYASPOR",
-      "away": "GALATASARAY A.Ş."
-    },
     {
       "id": 317873,
       "date": "2026-10-31T10:30:00.000Z",
