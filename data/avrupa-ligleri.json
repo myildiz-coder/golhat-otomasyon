@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T21:05:13.336Z",
+  "updatedAt": "2026-10-30T05:40:16.050Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868120,
-          "date": "2026-10-30T20:00:00Z",
+          "date": "2026-10-30T20:00:00.000Z",
           "timestamp": 1793390400,
           "round": "11",
           "status": "NS",
@@ -1093,21 +1093,6 @@
         },
         {
           "rank": 9,
-          "teamId": 8524,
-          "team": "Atalanta",
-          "played": 9,
-          "won": 4,
-          "drawn": 1,
-          "lost": 4,
-          "goalsFor": 15,
-          "goalsAgainst": 15,
-          "goalDifference": 0,
-          "points": 13,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 10,
           "teamId": 9804,
           "team": "Torino",
           "played": 9,
@@ -1122,7 +1107,7 @@
           "description": ""
         },
         {
-          "rank": 11,
+          "rank": 10,
           "teamId": 8529,
           "team": "Cagliari",
           "played": 9,
@@ -1137,7 +1122,7 @@
           "description": ""
         },
         {
-          "rank": 12,
+          "rank": 11,
           "teamId": 9857,
           "team": "Bologna",
           "played": 9,
@@ -1147,6 +1132,21 @@
           "goalsFor": 12,
           "goalsAgainst": 12,
           "goalDifference": 0,
+          "points": 11,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 12,
+          "teamId": 8524,
+          "team": "Atalanta",
+          "played": 9,
+          "won": 3,
+          "drawn": 2,
+          "lost": 4,
+          "goalsFor": 16,
+          "goalsAgainst": 17,
+          "goalDifference": -1,
           "points": 11,
           "form": "",
           "description": ""
@@ -1228,6 +1228,21 @@
         },
         {
           "rank": 18,
+          "teamId": 8535,
+          "team": "Fiorentina",
+          "played": 9,
+          "won": 1,
+          "drawn": 2,
+          "lost": 6,
+          "goalsFor": 11,
+          "goalsAgainst": 21,
+          "goalDifference": -10,
+          "points": 5,
+          "form": "",
+          "description": "#FF4646"
+        },
+        {
+          "rank": 19,
           "teamId": 10167,
           "team": "Parma",
           "played": 9,
@@ -1238,21 +1253,6 @@
           "goalsAgainst": 15,
           "goalDifference": -10,
           "points": 5,
-          "form": "",
-          "description": "#FF4646"
-        },
-        {
-          "rank": 19,
-          "teamId": 8535,
-          "team": "Fiorentina",
-          "played": 9,
-          "won": 1,
-          "drawn": 1,
-          "lost": 7,
-          "goalsFor": 9,
-          "goalsAgainst": 20,
-          "goalDifference": -11,
-          "points": 4,
           "form": "",
           "description": "#FF4646"
         },
@@ -1724,7 +1724,7 @@
       "fixtures": [
         {
           "id": 5802973,
-          "date": "2026-10-30T18:00:00Z",
+          "date": "2026-10-30T18:00:00.000Z",
           "timestamp": 1793383200,
           "round": "9",
           "status": "NS",
@@ -1738,7 +1738,7 @@
         },
         {
           "id": 5802978,
-          "date": "2026-10-30T18:00:00Z",
+          "date": "2026-10-30T18:00:00.000Z",
           "timestamp": 1793383200,
           "round": "9",
           "status": "NS",
@@ -1752,7 +1752,7 @@
         },
         {
           "id": 5802974,
-          "date": "2026-10-30T20:05:00Z",
+          "date": "2026-10-30T20:05:00.000Z",
           "timestamp": 1793390700,
           "round": "9",
           "status": "NS",
@@ -2173,7 +2173,7 @@
       "fixtures": [
         {
           "id": 5881211,
-          "date": "2026-10-30T19:30:00Z",
+          "date": "2026-10-30T19:30:00.000Z",
           "timestamp": 1793388600,
           "round": "8",
           "status": "NS",
