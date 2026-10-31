@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:51:36.527Z",
+  "updatedAt": "2026-10-31T18:51:09.540Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -63,13 +63,13 @@
     {
       "rank": 5,
       "team": "FENERBAHÇE A.Ş.",
-      "played": 9,
+      "played": 10,
       "won": 5,
       "drawn": 1,
-      "lost": 3,
-      "goalsFor": 23,
-      "goalsAgainst": 8,
-      "goalDifference": 15,
+      "lost": 4,
+      "goalsFor": 24,
+      "goalsAgainst": 10,
+      "goalDifference": 14,
       "points": 16,
       "form": ""
     },
@@ -102,18 +102,31 @@
     {
       "rank": 8,
       "team": "KOCAELİSPOR",
-      "played": 9,
+      "played": 10,
       "won": 5,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 4,
       "goalsFor": 11,
       "goalsAgainst": 9,
       "goalDifference": 2,
-      "points": 15,
+      "points": 16,
       "form": ""
     },
     {
       "rank": 9,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 10,
+      "won": 4,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 21,
+      "goalsAgainst": 17,
+      "goalDifference": 4,
+      "points": 15,
+      "form": ""
+    },
+    {
+      "rank": 10,
       "team": "ERZURUMSPOR FK",
       "played": 10,
       "won": 4,
@@ -123,19 +136,6 @@
       "goalsAgainst": 15,
       "goalDifference": -6,
       "points": 14,
-      "form": ""
-    },
-    {
-      "rank": 10,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 9,
-      "won": 3,
-      "drawn": 3,
-      "lost": 3,
-      "goalsFor": 19,
-      "goalsAgainst": 16,
-      "goalDifference": 3,
-      "points": 12,
       "form": ""
     },
     {
@@ -167,14 +167,14 @@
     {
       "rank": 13,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 9,
+      "played": 10,
       "won": 3,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 5,
       "goalsFor": 11,
       "goalsAgainst": 15,
       "goalDifference": -4,
-      "points": 10,
+      "points": 11,
       "form": ""
     },
     {
@@ -244,28 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317872,
-      "date": "2026-10-31T13:00:00.000Z",
-      "timestamp": 1793451600,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KOCAELİSPOR",
-      "away": "ÇAYKUR RİZESPOR A.Ş."
-    },
-    {
-      "id": 317871,
-      "date": "2026-10-31T16:00:00.000Z",
-      "timestamp": 1793462400,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "FENERBAHÇE A.Ş.",
-      "away": "GÖZTEPE A.Ş."
-    },
     {
       "id": 317868,
       "date": "2026-11-01T10:30:00.000Z",
