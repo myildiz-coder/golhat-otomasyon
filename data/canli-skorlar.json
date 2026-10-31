@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:58:10.049Z",
+  "updatedAt": "2026-10-31T19:09:51.431Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 30,
-    "live": 6,
-    "upcoming": 20,
-    "finished": 4
+    "live": 5,
+    "upcoming": 6,
+    "finished": 19
   },
   "matches": [
     {
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Fenerbahçe",
       "away": "Göztepe",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795498,
@@ -111,12 +111,12 @@
       "venue": "",
       "home": "AFC Bournemouth",
       "away": "Leeds United",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795497,
@@ -129,12 +129,12 @@
       "venue": "",
       "home": "Brentford",
       "away": "Nottingham Forest",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795499,
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "Coventry City",
       "away": "Sunderland",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795500,
@@ -165,12 +165,12 @@
       "venue": "",
       "home": "Hull City",
       "away": "Ipswich Town",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795502,
@@ -184,11 +184,11 @@
       "home": "Manchester City",
       "away": "Brighton & Hove Albion",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795504,
@@ -201,12 +201,12 @@
       "venue": "",
       "home": "Tottenham Hotspur",
       "away": "Crystal Palace",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 81,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5795496,
@@ -255,12 +255,12 @@
       "venue": "",
       "home": "Rayo Vallecano",
       "away": "Celta Vigo",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868112,
@@ -273,12 +273,12 @@
       "venue": "",
       "home": "Real Betis",
       "away": "Málaga",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 76,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868115,
@@ -309,12 +309,12 @@
       "venue": "",
       "home": "Bologna",
       "away": "Monza",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
       "minute": null,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749739,
@@ -327,12 +327,12 @@
       "venue": "",
       "home": "Udinese",
       "away": "Roma",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 5,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5749730,
@@ -364,11 +364,11 @@
       "home": "Augsburg",
       "away": "Freiburg",
       "homeScore": 1,
-      "awayScore": 0,
-      "minute": 28,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881207,
@@ -381,12 +381,12 @@
       "venue": "",
       "home": "Bayer Leverkusen",
       "away": "VfB Stuttgart",
-      "homeScore": 0,
-      "awayScore": 2,
-      "minute": 28,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 2,
+      "awayScore": 4,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881209,
@@ -401,10 +401,10 @@
       "away": "Paderborn",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": 28,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881212,
@@ -418,11 +418,11 @@
       "home": "Schalke 04",
       "away": "RB Leipzig",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": 28,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881214,
@@ -435,12 +435,12 @@
       "venue": "",
       "home": "Werder Bremen",
       "away": "Hoffenheim",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 28,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5881208,
@@ -453,12 +453,12 @@
       "venue": "",
       "home": "Bayern München",
       "away": "Borussia Dortmund",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 1,
+      "minute": 76,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5802981,
@@ -489,12 +489,12 @@
       "venue": "",
       "home": "Feyenoord",
       "away": "Fortuna Sittard",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781791,
@@ -509,10 +509,10 @@
       "away": "NEC Nijmegen",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 65,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781793,
@@ -525,12 +525,12 @@
       "venue": "",
       "home": "PSV Eindhoven",
       "away": "Willem II",
-      "homeScore": 0,
+      "homeScore": 4,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 66,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5781786,
