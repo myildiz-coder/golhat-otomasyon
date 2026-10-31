@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T13:49:27.390Z",
+  "updatedAt": "2026-10-31T14:58:10.049Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 30,
-    "live": 3,
-    "upcoming": 26,
-    "finished": 1
+    "live": 6,
+    "upcoming": 20,
+    "finished": 4
   },
   "matches": [
     {
@@ -60,9 +60,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5904791,
@@ -93,12 +93,12 @@
       "venue": "",
       "home": "Chelsea",
       "away": "Manchester United",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "minute": 60,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795495,
@@ -238,11 +238,11 @@
       "home": "Levante",
       "away": "Atlético Madrid",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 2,
       "minute": null,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5868119,
@@ -309,12 +309,12 @@
       "venue": "",
       "home": "Bologna",
       "away": "Monza",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5749739,
@@ -363,12 +363,12 @@
       "venue": "",
       "home": "Augsburg",
       "away": "Freiburg",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 28,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881207,
@@ -382,11 +382,11 @@
       "home": "Bayer Leverkusen",
       "away": "VfB Stuttgart",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 2,
+      "minute": 28,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881209,
@@ -401,10 +401,10 @@
       "away": "Paderborn",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 28,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881212,
@@ -419,10 +419,10 @@
       "away": "RB Leipzig",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 28,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881214,
@@ -437,10 +437,10 @@
       "away": "Hoffenheim",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 28,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5881208,
