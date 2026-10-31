@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:32:40.107Z",
+  "updatedAt": "2026-10-31T14:30:00.054Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -60,6 +60,21 @@
         },
         {
           "rank": 4,
+          "teamId": 8455,
+          "team": "Chelsea",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 19,
+          "goalsAgainst": 15,
+          "goalDifference": 4,
+          "points": 16,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 5,
           "teamId": 8650,
           "team": "Liverpool",
           "played": 8,
@@ -70,21 +85,6 @@
           "goalsAgainst": 8,
           "goalDifference": 3,
           "points": 15,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 5,
-          "teamId": 8455,
-          "team": "Chelsea",
-          "played": 8,
-          "won": 4,
-          "drawn": 1,
-          "lost": 3,
-          "goalsFor": 17,
-          "goalsAgainst": 15,
-          "goalDifference": 2,
-          "points": 13,
           "form": "",
           "description": "#0046A7"
         },
@@ -242,13 +242,13 @@
           "rank": 16,
           "teamId": 10260,
           "team": "Manchester United",
-          "played": 8,
+          "played": 9,
           "won": 1,
           "drawn": 4,
-          "lost": 3,
+          "lost": 4,
           "goalsFor": 10,
-          "goalsAgainst": 13,
-          "goalDifference": -3,
+          "goalsAgainst": 15,
+          "goalDifference": -5,
           "points": 7,
           "form": "",
           "description": ""
@@ -315,20 +315,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5795498,
-          "date": "2026-10-31T12:30:00.000Z",
-          "timestamp": 1793449800,
-          "round": "9",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Chelsea",
-          "away": "Manchester United",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5795495,
           "date": "2026-10-31T15:00:00.000Z",
@@ -482,6 +468,20 @@
           "started": false,
           "finished": false,
           "cancelled": false
+        },
+        {
+          "id": 5795505,
+          "date": "2026-11-07T15:00:00Z",
+          "timestamp": 1794063600,
+          "round": "10",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Arsenal",
+          "away": "Hull City",
+          "started": false,
+          "finished": false,
+          "cancelled": false
         }
       ]
     },
@@ -494,6 +494,21 @@
       "standings": [
         {
           "rank": 1,
+          "teamId": 9906,
+          "team": "Atlético Madrid",
+          "played": 11,
+          "won": 9,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 22,
+          "goalsAgainst": 8,
+          "goalDifference": 14,
+          "points": 28,
+          "form": "",
+          "description": "#2AD572"
+        },
+        {
+          "rank": 2,
           "teamId": 8634,
           "team": "Barcelona",
           "played": 10,
@@ -504,21 +519,6 @@
           "goalsAgainst": 11,
           "goalDifference": 29,
           "points": 27,
-          "form": "",
-          "description": "#2AD572"
-        },
-        {
-          "rank": 2,
-          "teamId": 9906,
-          "team": "Atlético Madrid",
-          "played": 10,
-          "won": 8,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 20,
-          "goalsAgainst": 8,
-          "goalDifference": 12,
-          "points": 25,
           "form": "",
           "description": "#2AD572"
         },
@@ -704,21 +704,6 @@
         },
         {
           "rank": 15,
-          "teamId": 8581,
-          "team": "Levante",
-          "played": 10,
-          "won": 2,
-          "drawn": 4,
-          "lost": 4,
-          "goalsFor": 16,
-          "goalsAgainst": 19,
-          "goalDifference": -3,
-          "points": 10,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 16,
           "teamId": 10268,
           "team": "Elche",
           "played": 10,
@@ -728,6 +713,21 @@
           "goalsFor": 14,
           "goalsAgainst": 17,
           "goalDifference": -3,
+          "points": 10,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 16,
+          "teamId": 8581,
+          "team": "Levante",
+          "played": 11,
+          "won": 2,
+          "drawn": 4,
+          "lost": 5,
+          "goalsFor": 16,
+          "goalsAgainst": 21,
+          "goalDifference": -5,
           "points": 10,
           "form": "",
           "description": ""
@@ -794,20 +794,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5868117,
-          "date": "2026-10-31T13:00:00.000Z",
-          "timestamp": 1793451600,
-          "round": "11",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Levante",
-          "away": "Atlético Madrid",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5868119,
           "date": "2026-10-31T15:15:00.000Z",
@@ -958,6 +944,20 @@
           "venue": "",
           "home": "Espanyol",
           "away": "Deportivo A Coruña",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5868126,
+          "date": "2026-11-07T17:30:00Z",
+          "timestamp": 1794072600,
+          "round": "12",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Osasuna",
+          "away": "Athletic Club",
           "started": false,
           "finished": false,
           "cancelled": false
@@ -1123,21 +1123,6 @@
         },
         {
           "rank": 11,
-          "teamId": 9857,
-          "team": "Bologna",
-          "played": 9,
-          "won": 3,
-          "drawn": 2,
-          "lost": 4,
-          "goalsFor": 12,
-          "goalsAgainst": 12,
-          "goalDifference": 0,
-          "points": 11,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 12,
           "teamId": 8524,
           "team": "Atalanta",
           "played": 9,
@@ -1152,7 +1137,37 @@
           "description": ""
         },
         {
+          "rank": 12,
+          "teamId": 9857,
+          "team": "Bologna",
+          "played": 10,
+          "won": 3,
+          "drawn": 2,
+          "lost": 5,
+          "goalsFor": 12,
+          "goalsAgainst": 13,
+          "goalDifference": -1,
+          "points": 11,
+          "form": "",
+          "description": ""
+        },
+        {
           "rank": 13,
+          "teamId": 6504,
+          "team": "Monza",
+          "played": 10,
+          "won": 3,
+          "drawn": 1,
+          "lost": 6,
+          "goalsFor": 17,
+          "goalsAgainst": 22,
+          "goalDifference": -5,
+          "points": 10,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 14,
           "teamId": 10233,
           "team": "Genoa",
           "played": 9,
@@ -1167,7 +1182,7 @@
           "description": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "teamId": 9888,
           "team": "Lecce",
           "played": 9,
@@ -1182,7 +1197,7 @@
           "description": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "teamId": 7943,
           "team": "Sassuolo",
           "played": 9,
@@ -1193,21 +1208,6 @@
           "goalsAgainst": 22,
           "goalDifference": -8,
           "points": 8,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 16,
-          "teamId": 6504,
-          "team": "Monza",
-          "played": 9,
-          "won": 2,
-          "drawn": 1,
-          "lost": 6,
-          "goalsFor": 16,
-          "goalsAgainst": 22,
-          "goalDifference": -6,
-          "points": 7,
           "form": "",
           "description": ""
         },
@@ -1273,20 +1273,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5749732,
-          "date": "2026-10-31T14:00:00.000Z",
-          "timestamp": 1793455200,
-          "round": "10",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Bologna",
-          "away": "Monza",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5749739,
           "date": "2026-10-31T17:00:00.000Z",
@@ -1437,6 +1423,20 @@
           "venue": "",
           "home": "Cagliari",
           "away": "Frosinone",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749748,
+          "date": "2026-11-07T14:00:00Z",
+          "timestamp": 1794060000,
+          "round": "11",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Torino",
+          "away": "Lecce",
           "started": false,
           "finished": false,
           "cancelled": false
