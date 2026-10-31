@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T12:49:55.251Z",
+  "updatedAt": "2026-10-31T18:38:50.423Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 4
       },
       "nextMatches": [
-        {
-          "id": 5904791,
-          "date": "2026-10-31T16:00:00.000Z",
-          "timestamp": 1793462400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Göztepe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6106330,
           "date": "2026-11-04T17:45:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904823,
+          "date": "2026-12-05T16:00:00.000Z",
+          "timestamp": 1796486400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Başakşehir",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904791,
+          "date": "2026-10-31T16:00:00.000Z",
+          "timestamp": 1793462400,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Göztepe",
+          "homeScore": 1,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904782,
           "date": "2026-10-26T18:30:00.000Z",
@@ -165,20 +179,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 5904761,
-          "date": "2026-10-10T16:00:00.000Z",
-          "timestamp": 1791648000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Rizespor",
-          "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 3,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
