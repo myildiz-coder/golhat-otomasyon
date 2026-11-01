@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:18:49.986Z",
+  "updatedAt": "2026-11-01T20:37:31.418Z",
   "sources": [
     {
       "name": "FotMob",
@@ -465,20 +465,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904786,
-          "date": "2026-11-01T16:00:00.000Z",
-          "timestamp": 1793548800,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Kasımpaşa",
-          "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6112301,
           "date": "2026-11-05T20:00:00.000Z",
           "timestamp": 1793908800,
@@ -547,9 +533,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904828,
+          "date": "2026-12-06T13:00:00.000Z",
+          "timestamp": 1796562000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Samsunspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904786,
+          "date": "2026-11-01T16:00:00.000Z",
+          "timestamp": 1793548800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Kasımpaşa",
+          "away": "Beşiktaş",
+          "homeScore": 2,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
         {
           "id": 5904783,
           "date": "2026-10-26T16:00:00.000Z",
@@ -602,20 +616,6 @@
           "away": "Beşiktaş",
           "homeScore": 2,
           "awayScore": 3,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904765,
-          "date": "2026-10-11T16:00:00.000Z",
-          "timestamp": 1791734400,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Kocaelispor",
-          "homeScore": 2,
-          "awayScore": 1,
           "status": "FT",
           "kind": "finished",
           "result": "W"
