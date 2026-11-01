@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:30:20.516Z",
+  "updatedAt": "2026-11-01T19:51:06.865Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -50,18 +50,31 @@
     {
       "rank": 4,
       "team": "BEŞİKTAŞ A.Ş.",
-      "played": 9,
+      "played": 10,
       "won": 6,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 3,
-      "goalsFor": 18,
-      "goalsAgainst": 10,
+      "goalsFor": 20,
+      "goalsAgainst": 12,
       "goalDifference": 8,
-      "points": 18,
+      "points": 19,
       "form": ""
     },
     {
       "rank": 5,
+      "team": "KASIMPAŞA A.Ş.",
+      "played": 10,
+      "won": 4,
+      "drawn": 5,
+      "lost": 1,
+      "goalsFor": 15,
+      "goalsAgainst": 11,
+      "goalDifference": 4,
+      "points": 17,
+      "form": ""
+    },
+    {
+      "rank": 6,
       "team": "FENERBAHÇE A.Ş.",
       "played": 10,
       "won": 5,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "ARCA ÇORUM FK",
       "played": 10,
       "won": 5,
@@ -83,19 +96,6 @@
       "goalsFor": 21,
       "goalsAgainst": 16,
       "goalDifference": 5,
-      "points": 16,
-      "form": ""
-    },
-    {
-      "rank": 7,
-      "team": "KASIMPAŞA A.Ş.",
-      "played": 9,
-      "won": 4,
-      "drawn": 4,
-      "lost": 1,
-      "goalsFor": 13,
-      "goalsAgainst": 9,
-      "goalDifference": 4,
       "points": 16,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317866,
-      "date": "2026-11-01T16:00:00.000Z",
-      "timestamp": 1793548800,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KASIMPAŞA A.Ş.",
-      "away": "BEŞİKTAŞ A.Ş."
-    },
     {
       "id": 317869,
       "date": "2026-11-02T17:00:00.000Z",
