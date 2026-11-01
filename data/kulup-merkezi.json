@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T06:26:37.529Z",
+  "updatedAt": "2026-11-01T15:18:49.986Z",
   "sources": [
     {
       "name": "FotMob",
@@ -21,7 +21,7 @@
       "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
       "squad": {
         "total": 29,
-        "injured": 4
+        "injured": 6
       },
       "nextMatches": [
         {
@@ -685,20 +685,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904785,
-          "date": "2026-11-01T13:00:00.000Z",
-          "timestamp": 1793538000,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Gaziantep FK",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6112501,
           "date": "2026-11-05T17:45:00.000Z",
           "timestamp": 1793900700,
@@ -767,9 +753,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904821,
+          "date": "2026-12-06T16:00:00.000Z",
+          "timestamp": 1796572800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Çorum FK",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904785,
+          "date": "2026-11-01T13:00:00.000Z",
+          "timestamp": 1793538000,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Gaziantep FK",
+          "homeScore": 2,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904779,
           "date": "2026-10-26T16:00:00.000Z",
@@ -822,20 +836,6 @@
           "away": "Trabzonspor",
           "homeScore": 2,
           "awayScore": 4,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904766,
-          "date": "2026-10-10T13:00:00.000Z",
-          "timestamp": 1791637200,
-          "tournament": "Super Lig",
-          "stage": "",
-          "home": "Samsunspor",
-          "away": "Trabzonspor",
-          "homeScore": 0,
-          "awayScore": 3,
           "status": "FT",
           "kind": "finished",
           "result": "W"
