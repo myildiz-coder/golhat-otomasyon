@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T10:55:45.587Z",
+  "updatedAt": "2026-11-01T15:30:20.516Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -24,27 +24,27 @@
     {
       "rank": 2,
       "team": "AMED SPORTİF FAALİYETLER",
-      "played": 9,
-      "won": 6,
+      "played": 10,
+      "won": 7,
       "drawn": 2,
       "lost": 1,
-      "goalsFor": 20,
-      "goalsAgainst": 10,
-      "goalDifference": 10,
-      "points": 20,
+      "goalsFor": 25,
+      "goalsAgainst": 11,
+      "goalDifference": 14,
+      "points": 23,
       "form": ""
     },
     {
       "rank": 3,
       "team": "TRABZONSPOR A.Ş.",
-      "played": 9,
-      "won": 6,
+      "played": 10,
+      "won": 7,
       "drawn": 1,
       "lost": 2,
-      "goalsFor": 22,
+      "goalsFor": 24,
       "goalsAgainst": 8,
-      "goalDifference": 14,
-      "points": 19,
+      "goalDifference": 16,
+      "points": 22,
       "form": ""
     },
     {
@@ -127,6 +127,19 @@
     },
     {
       "rank": 10,
+      "team": "İSTANBUL BAŞAKŞEHİR FK",
+      "played": 10,
+      "won": 4,
+      "drawn": 2,
+      "lost": 4,
+      "goalsFor": 17,
+      "goalsAgainst": 16,
+      "goalDifference": 1,
+      "points": 14,
+      "form": ""
+    },
+    {
+      "rank": 11,
       "team": "ERZURUMSPOR FK",
       "played": 10,
       "won": 4,
@@ -139,7 +152,7 @@
       "form": ""
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "CORENDON ALANYASPOR",
       "played": 9,
       "won": 3,
@@ -149,19 +162,6 @@
       "goalsAgainst": 11,
       "goalDifference": -2,
       "points": 12,
-      "form": ""
-    },
-    {
-      "rank": 12,
-      "team": "İSTANBUL BAŞAKŞEHİR FK",
-      "played": 9,
-      "won": 3,
-      "drawn": 2,
-      "lost": 4,
-      "goalsFor": 12,
-      "goalsAgainst": 14,
-      "goalDifference": -2,
-      "points": 11,
       "form": ""
     },
     {
@@ -179,19 +179,6 @@
     },
     {
       "rank": 14,
-      "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 9,
-      "won": 2,
-      "drawn": 2,
-      "lost": 5,
-      "goalsFor": 9,
-      "goalsAgainst": 15,
-      "goalDifference": -6,
-      "points": 8,
-      "form": ""
-    },
-    {
-      "rank": 15,
       "team": "TÜMOSAN KONYASPOR",
       "played": 10,
       "won": 2,
@@ -200,6 +187,19 @@
       "goalsFor": 6,
       "goalsAgainst": 13,
       "goalDifference": -7,
+      "points": 8,
+      "form": ""
+    },
+    {
+      "rank": 15,
+      "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
+      "played": 10,
+      "won": 2,
+      "drawn": 2,
+      "lost": 6,
+      "goalsFor": 9,
+      "goalsAgainst": 17,
+      "goalDifference": -8,
       "points": 8,
       "form": ""
     },
@@ -219,64 +219,31 @@
     {
       "rank": 17,
       "team": "SAMSUNSPOR A.Ş.",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 1,
-      "lost": 7,
-      "goalsFor": 8,
-      "goalsAgainst": 21,
-      "goalDifference": -13,
+      "lost": 8,
+      "goalsFor": 10,
+      "goalsAgainst": 26,
+      "goalDifference": -16,
       "points": 4,
       "form": ""
     },
     {
       "rank": 18,
       "team": "EYÜPSPOR",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 0,
-      "lost": 8,
-      "goalsFor": 2,
-      "goalsAgainst": 23,
-      "goalDifference": -21,
+      "lost": 9,
+      "goalsFor": 3,
+      "goalsAgainst": 28,
+      "goalDifference": -25,
       "points": 3,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317868,
-      "date": "2026-11-01T10:30:00.000Z",
-      "timestamp": 1793529000,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "AMED SPORTİF FAALİYETLER",
-      "away": "EYÜPSPOR"
-    },
-    {
-      "id": 317865,
-      "date": "2026-11-01T13:00:00.000Z",
-      "timestamp": 1793538000,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "TRABZONSPOR A.Ş.",
-      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
-    },
-    {
-      "id": 317867,
-      "date": "2026-11-01T13:00:00.000Z",
-      "timestamp": 1793538000,
-      "round": "10. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "İSTANBUL BAŞAKŞEHİR FK",
-      "away": "SAMSUNSPOR A.Ş."
-    },
     {
       "id": 317866,
       "date": "2026-11-01T16:00:00.000Z",
