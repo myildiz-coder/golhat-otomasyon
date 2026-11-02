@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T18:44:58.461Z",
+  "updatedAt": "2026-11-02T19:05:35.098Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 6,
-    "live": 2,
+    "live": 1,
     "upcoming": 4,
-    "finished": 0
+    "finished": 1
   },
   "matches": [
     {
@@ -41,10 +41,10 @@
       "away": "Alanyaspor",
       "homeScore": 5,
       "awayScore": 0,
-      "minute": 89,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5795503,
@@ -93,9 +93,9 @@
       "venue": "",
       "home": "Sassuolo",
       "away": "Fiorentina",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2,
-      "minute": 56,
+      "minute": 77,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
