@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T05:55:36.151Z",
+  "updatedAt": "2026-11-02T18:15:53.122Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1168,6 +1168,21 @@
         },
         {
           "rank": 14,
+          "teamId": 7943,
+          "team": "Sassuolo",
+          "played": 10,
+          "won": 3,
+          "drawn": 2,
+          "lost": 5,
+          "goalsFor": 15,
+          "goalsAgainst": 22,
+          "goalDifference": -7,
+          "points": 11,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
           "teamId": 9888,
           "team": "Lecce",
           "played": 10,
@@ -1178,21 +1193,6 @@
           "goalsAgainst": 21,
           "goalDifference": -10,
           "points": 9,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 15,
-          "teamId": 7943,
-          "team": "Sassuolo",
-          "played": 9,
-          "won": 2,
-          "drawn": 2,
-          "lost": 5,
-          "goalsFor": 14,
-          "goalsAgainst": 22,
-          "goalDifference": -8,
-          "points": 8,
           "form": "",
           "description": ""
         },
@@ -1213,21 +1213,6 @@
         },
         {
           "rank": 17,
-          "teamId": 8535,
-          "team": "Fiorentina",
-          "played": 9,
-          "won": 1,
-          "drawn": 2,
-          "lost": 6,
-          "goalsFor": 11,
-          "goalsAgainst": 21,
-          "goalDifference": -10,
-          "points": 5,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 18,
           "teamId": 10167,
           "team": "Parma",
           "played": 9,
@@ -1237,6 +1222,21 @@
           "goalsFor": 5,
           "goalsAgainst": 15,
           "goalDifference": -10,
+          "points": 5,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 18,
+          "teamId": 8535,
+          "team": "Fiorentina",
+          "played": 10,
+          "won": 1,
+          "drawn": 2,
+          "lost": 7,
+          "goalsFor": 11,
+          "goalsAgainst": 22,
+          "goalDifference": -11,
           "points": 5,
           "form": "",
           "description": "#FF4646"
@@ -1273,20 +1273,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5749738,
-          "date": "2026-11-02T17:30:00.000Z",
-          "timestamp": 1793640600,
-          "round": "10",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Sassuolo",
-          "away": "Fiorentina",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5749731,
           "date": "2026-11-02T19:45:00.000Z",
@@ -1437,6 +1423,20 @@
           "venue": "",
           "home": "Fiorentina",
           "away": "Juventus",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5749753,
+          "date": "2026-11-21T14:00:00Z",
+          "timestamp": 1795269600,
+          "round": "12",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Como",
+          "away": "Cagliari",
           "started": false,
           "finished": false,
           "cancelled": false
