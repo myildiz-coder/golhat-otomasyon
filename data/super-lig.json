@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-02T03:43:21.648Z",
+  "updatedAt": "2026-11-02T11:54:12.552Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "11. Hafta",
-  "roundLabel": "11. Hafta",
+  "round": "10. Hafta",
+  "roundLabel": "10. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -248,7 +248,7 @@
       "id": 317869,
       "date": "2026-11-02T17:00:00.000Z",
       "timestamp": 1793638800,
-      "round": "11. Hafta",
+      "round": "10. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
