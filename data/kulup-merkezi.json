@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T12:06:01.219Z",
+  "updatedAt": "2026-11-03T19:38:38.459Z",
   "sources": [
     {
       "name": "FotMob",
@@ -252,10 +252,10 @@
           "stage": "",
           "home": "Galatasaray",
           "away": "VfB Stuttgart",
-          "homeScore": 0,
+          "homeScore": 2,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
