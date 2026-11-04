@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T12:02:31.986Z",
+  "updatedAt": "2026-11-04T19:42:20.402Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -1738,8 +1738,8 @@
         },
         {
           "id": 5802983,
-          "date": "2026-11-07T16:15:00Z",
-          "timestamp": 1794068100,
+          "date": "2026-11-07T18:00:00Z",
+          "timestamp": 1794074400,
           "round": "10",
           "status": "NS",
           "statusLong": "Not Started",
@@ -1752,8 +1752,8 @@
         },
         {
           "id": 5802987,
-          "date": "2026-11-07T19:45:00Z",
-          "timestamp": 1794080700,
+          "date": "2026-11-07T20:05:00Z",
+          "timestamp": 1794081900,
           "round": "10",
           "status": "NS",
           "statusLong": "Not Started",
