@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:13:42.199Z",
+  "updatedAt": "2026-11-04T16:47:51.873Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,8 +23,8 @@
   ],
   "summary": {
     "total": 10,
-    "live": 0,
-    "upcoming": 10,
+    "live": 1,
+    "upcoming": 9,
     "finished": 0
   },
   "matches": [
@@ -203,10 +203,10 @@
       "away": "Olympiacos",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 59,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     }
   ]
 }
