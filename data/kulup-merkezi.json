@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:38:38.459Z",
+  "updatedAt": "2026-11-04T00:42:28.176Z",
   "sources": [
     {
       "name": "FotMob",
@@ -188,6 +188,13 @@
         "queryUrl": "https://www.kap.org.tr/tr/bildirim-sorgu-sonuc?member=4028e4a240e95dc90140ede7351a013d",
         "disclosures": [
           {
+            "id": 1691981,
+            "date": "2026-11-03T23:19:32+03:00",
+            "type": "Teknik Yönetime İlişkin Açıklama",
+            "summary": "Futbol A Takımı Teknik Direktörlüğü için Sayın Emre Belözoğlu ile anlaşmaya varılmıştır.",
+            "url": "https://www.kap.org.tr/tr/Bildirim/1691981"
+          },
+          {
             "id": 1688558,
             "date": "2026-10-27T20:38:16+03:00",
             "type": "Teknik Yönetime İlişkin Açıklama",
@@ -221,13 +228,6 @@
             "type": "Teknik Yönetime İlişkin Açıklama",
             "summary": "Sayın Domenico Tedesco'nun Sözleşme Feshi Hk.",
             "url": "https://www.kap.org.tr/tr/Bildirim/1598035"
-          },
-          {
-            "id": 1552536,
-            "date": "2026-02-04T17:32:16+03:00",
-            "type": "Transfer Görüşmelerinin Sonuçlanması veya Sona Ermesi",
-            "summary": "N'Golo Kante Transferi Hakkında ",
-            "url": "https://www.kap.org.tr/tr/Bildirim/1552536"
           }
         ]
       }
@@ -244,20 +244,6 @@
         "injured": 0
       },
       "nextMatches": [
-        {
-          "id": 6106341,
-          "date": "2026-11-03T17:45:00.000Z",
-          "timestamp": 1793727900,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "VfB Stuttgart",
-          "homeScore": 2,
-          "awayScore": 0,
-          "status": "",
-          "kind": "live",
-          "result": ""
-        },
         {
           "id": 5904800,
           "date": "2026-11-07T16:00:00.000Z",
@@ -327,9 +313,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6106403,
+          "date": "2026-12-08T20:00:00.000Z",
+          "timestamp": 1796760000,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "AEK Athens",
+          "away": "Galatasaray",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6106341,
+          "date": "2026-11-03T17:45:00.000Z",
+          "timestamp": 1793727900,
+          "tournament": "Champions League",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "VfB Stuttgart",
+          "homeScore": 2,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904790,
           "date": "2026-10-30T17:00:00.000Z",
@@ -385,20 +399,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 6106338,
-          "date": "2026-10-13T19:00:00.000Z",
-          "timestamp": 1791918000,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Barcelona",
-          "homeScore": 1,
-          "awayScore": 4,
-          "status": "FT",
-          "kind": "finished",
-          "result": "L"
         }
       ],
       "officialUrl": "https://www.galatasaray.org/haberler/futbol/43",
