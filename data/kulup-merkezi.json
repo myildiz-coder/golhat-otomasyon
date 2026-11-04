@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:30:02.205Z",
+  "updatedAt": "2026-11-04T18:05:36.614Z",
   "sources": [
     {
       "name": "FotMob",
@@ -17,7 +17,7 @@
       "name": "Fenerbahçe",
       "season": "2026/2027",
       "league": "Super Lig",
-      "coach": "Dirk Kuyt",
+      "coach": "Emre Belözoglu",
       "stadium": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
       "squad": {
         "total": 29,
@@ -35,7 +35,7 @@
           "homeScore": 0,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
