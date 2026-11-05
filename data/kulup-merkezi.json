@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T16:33:47.156Z",
+  "updatedAt": "2026-11-05T23:43:21.905Z",
   "sources": [
     {
       "name": "FotMob",
@@ -465,20 +465,6 @@
       },
       "nextMatches": [
         {
-          "id": 6112301,
-          "date": "2026-11-05T20:00:00.000Z",
-          "timestamp": 1793908800,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Celtic",
-          "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 5904801,
           "date": "2026-11-08T18:00:00.000Z",
           "timestamp": 1794160800,
@@ -547,9 +533,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112245,
+          "date": "2026-12-10T20:00:00.000Z",
+          "timestamp": 1796932800,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Leverkusen",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6112301,
+          "date": "2026-11-05T20:00:00.000Z",
+          "timestamp": 1793908800,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Celtic",
+          "away": "Beşiktaş",
+          "homeScore": 3,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904786,
           "date": "2026-11-01T16:00:00.000Z",
@@ -605,20 +619,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 6112353,
-          "date": "2026-10-15T19:00:00.000Z",
-          "timestamp": 1792090800,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Hoffenheim",
-          "away": "Beşiktaş",
-          "homeScore": 2,
-          "awayScore": 3,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://bjk.com.tr/tr/haber_listesi/1",
@@ -680,24 +680,10 @@
       "coach": "Thomas Reis",
       "stadium": "Papara Park",
       "squad": {
-        "total": 34,
+        "total": 35,
         "injured": 8
       },
       "nextMatches": [
-        {
-          "id": 6112501,
-          "date": "2026-11-05T17:45:00.000Z",
-          "timestamp": 1793900700,
-          "tournament": "Conference League",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Freiburg",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 5904796,
           "date": "2026-11-08T15:30:00.000Z",
@@ -767,9 +753,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904821,
+          "date": "2026-12-06T16:00:00.000Z",
+          "timestamp": 1796572800,
+          "tournament": "Super Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Çorum FK",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6112501,
+          "date": "2026-11-05T17:45:00.000Z",
+          "timestamp": 1793900700,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Freiburg",
+          "homeScore": 0,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904785,
           "date": "2026-11-01T13:00:00.000Z",
@@ -822,20 +836,6 @@
           "away": "Beşiktaş",
           "homeScore": 2,
           "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 6112478,
-          "date": "2026-10-15T16:45:00.000Z",
-          "timestamp": 1792082700,
-          "tournament": "Conference League",
-          "stage": "",
-          "home": "KuPS",
-          "away": "Trabzonspor",
-          "homeScore": 2,
-          "awayScore": 4,
           "status": "FT",
           "kind": "finished",
           "result": "W"
