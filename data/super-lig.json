@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:21:11.779Z",
+  "updatedAt": "2026-11-06T21:36:20.456Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -49,6 +49,19 @@
     },
     {
       "rank": 4,
+      "team": "KASIMPAŞA A.Ş.",
+      "played": 11,
+      "won": 5,
+      "drawn": 5,
+      "lost": 1,
+      "goalsFor": 17,
+      "goalsAgainst": 11,
+      "goalDifference": 6,
+      "points": 20,
+      "form": ""
+    },
+    {
+      "rank": 5,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 10,
       "won": 6,
@@ -58,19 +71,6 @@
       "goalsAgainst": 12,
       "goalDifference": 8,
       "points": 19,
-      "form": ""
-    },
-    {
-      "rank": 5,
-      "team": "KASIMPAŞA A.Ş.",
-      "played": 10,
-      "won": 4,
-      "drawn": 5,
-      "lost": 1,
-      "goalsFor": 15,
-      "goalsAgainst": 11,
-      "goalDifference": 4,
-      "points": 17,
       "form": ""
     },
     {
@@ -206,13 +206,13 @@
     {
       "rank": 16,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 10,
+      "played": 11,
       "won": 2,
       "drawn": 2,
-      "lost": 6,
+      "lost": 7,
       "goalsFor": 9,
-      "goalsAgainst": 17,
-      "goalDifference": -8,
+      "goalsAgainst": 19,
+      "goalDifference": -10,
       "points": 8,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317874,
-      "date": "2026-11-06T17:00:00.000Z",
-      "timestamp": 1793984400,
-      "round": "11. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "away": "KASIMPAŞA A.Ş."
-    },
     {
       "id": 317875,
       "date": "2026-11-07T10:30:00.000Z",
