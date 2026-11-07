@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:14:03.700Z",
+  "updatedAt": "2026-11-07T19:25:03.875Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -11,26 +11,26 @@
     {
       "rank": 1,
       "team": "GALATASARAY A.Ş.",
-      "played": 10,
-      "won": 8,
+      "played": 11,
+      "won": 9,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 23,
-      "goalsAgainst": 12,
-      "goalDifference": 11,
-      "points": 25,
+      "goalsFor": 27,
+      "goalsAgainst": 15,
+      "goalDifference": 12,
+      "points": 28,
       "form": ""
     },
     {
       "rank": 2,
       "team": "AMED SPORTİF FAALİYETLER",
-      "played": 10,
+      "played": 11,
       "won": 7,
       "drawn": 2,
-      "lost": 1,
-      "goalsFor": 25,
-      "goalsAgainst": 11,
-      "goalDifference": 14,
+      "lost": 2,
+      "goalsFor": 28,
+      "goalsAgainst": 15,
+      "goalDifference": 13,
       "points": 23,
       "form": ""
     },
@@ -88,6 +88,19 @@
     },
     {
       "rank": 7,
+      "team": "İSTANBUL BAŞAKŞEHİR FK",
+      "played": 11,
+      "won": 5,
+      "drawn": 2,
+      "lost": 4,
+      "goalsFor": 19,
+      "goalsAgainst": 17,
+      "goalDifference": 2,
+      "points": 17,
+      "form": ""
+    },
+    {
+      "rank": 8,
       "team": "FENERBAHÇE A.Ş.",
       "played": 10,
       "won": 5,
@@ -100,7 +113,7 @@
       "form": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "ARCA ÇORUM FK",
       "played": 10,
       "won": 5,
@@ -113,29 +126,16 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "GÖZTEPE A.Ş.",
-      "played": 10,
+      "played": 11,
       "won": 4,
       "drawn": 3,
-      "lost": 3,
-      "goalsFor": 21,
-      "goalsAgainst": 17,
-      "goalDifference": 4,
-      "points": 15,
-      "form": ""
-    },
-    {
-      "rank": 10,
-      "team": "İSTANBUL BAŞAKŞEHİR FK",
-      "played": 10,
-      "won": 4,
-      "drawn": 2,
       "lost": 4,
-      "goalsFor": 17,
-      "goalsAgainst": 16,
-      "goalDifference": 1,
-      "points": 14,
+      "goalsFor": 22,
+      "goalsAgainst": 19,
+      "goalDifference": 3,
+      "points": 15,
       "form": ""
     },
     {
@@ -244,28 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317878,
-      "date": "2026-11-07T16:00:00.000Z",
-      "timestamp": 1794067200,
-      "round": "11. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GÖZTEPE A.Ş.",
-      "away": "İSTANBUL BAŞAKŞEHİR FK"
-    },
-    {
-      "id": 317880,
-      "date": "2026-11-07T16:00:00.000Z",
-      "timestamp": 1794067200,
-      "round": "11. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GALATASARAY A.Ş.",
-      "away": "AMED SPORTİF FAALİYETLER"
-    },
     {
       "id": 317877,
       "date": "2026-11-08T10:30:00.000Z",
