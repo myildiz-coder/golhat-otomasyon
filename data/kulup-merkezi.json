@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T08:56:58.891Z",
+  "updatedAt": "2026-11-07T16:32:42.978Z",
   "sources": [
     {
       "name": "FotMob",
@@ -252,10 +252,10 @@
           "stage": "",
           "home": "Galatasaray",
           "away": "Amed Sportif",
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
