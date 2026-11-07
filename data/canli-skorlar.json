@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T21:44:26.767Z",
+  "updatedAt": "2026-11-07T01:17:10.855Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -22,8 +22,8 @@
     88
   ],
   "summary": {
-    "total": 28,
-    "live": 2,
+    "total": 26,
+    "live": 0,
     "upcoming": 26,
     "finished": 0
   },
@@ -101,24 +101,6 @@
       "kind": "upcoming"
     },
     {
-      "id": 5795508,
-      "leagueId": 39,
-      "league": "Premier League",
-      "country": "ENG",
-      "round": "10",
-      "date": "2026-11-06T20:00:00.000Z",
-      "timestamp": 1793995200,
-      "venue": "",
-      "home": "Everton",
-      "away": "Coventry City",
-      "homeScore": 3,
-      "awayScore": 1,
-      "minute": 86,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
-    },
-    {
       "id": 5795511,
       "leagueId": 39,
       "league": "Premier League",
@@ -189,24 +171,6 @@
       "status": "NS",
       "statusLong": "",
       "kind": "upcoming"
-    },
-    {
-      "id": 5868128,
-      "leagueId": 140,
-      "league": "LaLiga",
-      "country": "ESP",
-      "round": "12",
-      "date": "2026-11-06T20:00:00.000Z",
-      "timestamp": 1793995200,
-      "venue": "",
-      "home": "Sevilla",
-      "away": "Deportivo Alavés",
-      "homeScore": 0,
-      "awayScore": 0,
-      "minute": 82,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
     },
     {
       "id": 5868125,
