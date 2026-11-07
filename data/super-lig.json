@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:52:40.815Z",
+  "updatedAt": "2026-11-07T15:14:03.700Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -75,6 +75,19 @@
     },
     {
       "rank": 6,
+      "team": "KOCAELİSPOR",
+      "played": 11,
+      "won": 6,
+      "drawn": 1,
+      "lost": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 9,
+      "goalDifference": 4,
+      "points": 19,
+      "form": ""
+    },
+    {
+      "rank": 7,
       "team": "FENERBAHÇE A.Ş.",
       "played": 10,
       "won": 5,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "ARCA ÇORUM FK",
       "played": 10,
       "won": 5,
@@ -96,19 +109,6 @@
       "goalsFor": 21,
       "goalsAgainst": 16,
       "goalDifference": 5,
-      "points": 16,
-      "form": ""
-    },
-    {
-      "rank": 8,
-      "team": "KOCAELİSPOR",
-      "played": 10,
-      "won": 5,
-      "drawn": 1,
-      "lost": 4,
-      "goalsFor": 11,
-      "goalsAgainst": 9,
-      "goalDifference": 2,
       "points": 16,
       "form": ""
     },
@@ -193,13 +193,13 @@
     {
       "rank": 15,
       "team": "TÜMOSAN KONYASPOR",
-      "played": 10,
+      "played": 11,
       "won": 2,
       "drawn": 2,
-      "lost": 6,
+      "lost": 7,
       "goalsFor": 6,
-      "goalsAgainst": 13,
-      "goalDifference": -7,
+      "goalsAgainst": 14,
+      "goalDifference": -8,
       "points": 8,
       "form": ""
     },
@@ -219,53 +219,31 @@
     {
       "rank": 17,
       "team": "SAMSUNSPOR A.Ş.",
-      "played": 10,
-      "won": 1,
+      "played": 11,
+      "won": 2,
       "drawn": 1,
       "lost": 8,
-      "goalsFor": 10,
+      "goalsFor": 11,
       "goalsAgainst": 26,
-      "goalDifference": -16,
-      "points": 4,
+      "goalDifference": -15,
+      "points": 7,
       "form": ""
     },
     {
       "rank": 18,
       "team": "EYÜPSPOR",
-      "played": 10,
+      "played": 11,
       "won": 1,
       "drawn": 0,
-      "lost": 9,
+      "lost": 10,
       "goalsFor": 3,
-      "goalsAgainst": 28,
-      "goalDifference": -25,
+      "goalsAgainst": 30,
+      "goalDifference": -27,
       "points": 3,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317875,
-      "date": "2026-11-07T10:30:00.000Z",
-      "timestamp": 1794047400,
-      "round": "11. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "EYÜPSPOR",
-      "away": "KOCAELİSPOR"
-    },
-    {
-      "id": 317882,
-      "date": "2026-11-07T13:00:00.000Z",
-      "timestamp": 1794056400,
-      "round": "11. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "SAMSUNSPOR A.Ş.",
-      "away": "TÜMOSAN KONYASPOR"
-    },
     {
       "id": 317878,
       "date": "2026-11-07T16:00:00.000Z",
