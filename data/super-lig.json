@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:37:41.683Z",
+  "updatedAt": "2026-11-08T19:55:34.281Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -23,6 +23,19 @@
     },
     {
       "rank": 2,
+      "team": "TRABZONSPOR A.Ş.",
+      "played": 11,
+      "won": 8,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 26,
+      "goalsAgainst": 8,
+      "goalDifference": 18,
+      "points": 25,
+      "form": ""
+    },
+    {
+      "rank": 3,
       "team": "AMED SPORTİF FAALİYETLER",
       "played": 11,
       "won": 7,
@@ -32,19 +45,6 @@
       "goalsAgainst": 15,
       "goalDifference": 13,
       "points": 23,
-      "form": ""
-    },
-    {
-      "rank": 3,
-      "team": "TRABZONSPOR A.Ş.",
-      "played": 10,
-      "won": 7,
-      "drawn": 1,
-      "lost": 2,
-      "goalsFor": 24,
-      "goalsAgainst": 8,
-      "goalDifference": 16,
-      "points": 22,
       "form": ""
     },
     {
@@ -167,13 +167,13 @@
     {
       "rank": 13,
       "team": "CORENDON ALANYASPOR",
-      "played": 10,
+      "played": 11,
       "won": 3,
       "drawn": 3,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 9,
-      "goalsAgainst": 16,
-      "goalDifference": -7,
+      "goalsAgainst": 18,
+      "goalDifference": -9,
       "points": 12,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317876,
-      "date": "2026-11-08T15:30:00.000Z",
-      "timestamp": 1794151800,
-      "round": "11. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "CORENDON ALANYASPOR",
-      "away": "TRABZONSPOR A.Ş."
-    },
     {
       "id": 317881,
       "date": "2026-11-08T18:00:00.000Z",
