@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-08T10:56:54.518Z",
+  "updatedAt": "2026-11-08T15:37:41.683Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "12. Hafta",
-  "roundLabel": "12. Hafta",
+  "round": "11. Hafta",
+  "roundLabel": "11. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -62,6 +62,19 @@
     },
     {
       "rank": 5,
+      "team": "FENERBAHÇE A.Ş.",
+      "played": 11,
+      "won": 6,
+      "drawn": 1,
+      "lost": 4,
+      "goalsFor": 29,
+      "goalsAgainst": 10,
+      "goalDifference": 19,
+      "points": 19,
+      "form": ""
+    },
+    {
+      "rank": 6,
       "team": "BEŞİKTAŞ A.Ş.",
       "played": 10,
       "won": 6,
@@ -74,7 +87,7 @@
       "form": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "KOCAELİSPOR",
       "played": 11,
       "won": 6,
@@ -87,7 +100,7 @@
       "form": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 11,
       "won": 5,
@@ -100,28 +113,15 @@
       "form": ""
     },
     {
-      "rank": 8,
-      "team": "FENERBAHÇE A.Ş.",
-      "played": 10,
-      "won": 5,
-      "drawn": 1,
-      "lost": 4,
-      "goalsFor": 24,
-      "goalsAgainst": 10,
-      "goalDifference": 14,
-      "points": 16,
-      "form": ""
-    },
-    {
       "rank": 9,
       "team": "ARCA ÇORUM FK",
-      "played": 10,
+      "played": 11,
       "won": 5,
       "drawn": 1,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 21,
-      "goalsAgainst": 16,
-      "goalDifference": 5,
+      "goalsAgainst": 21,
+      "goalDifference": 0,
       "points": 16,
       "form": ""
     },
@@ -140,19 +140,32 @@
     },
     {
       "rank": 11,
-      "team": "ERZURUMSPOR FK",
-      "played": 10,
+      "team": "ÇAYKUR RİZESPOR A.Ş.",
+      "played": 11,
       "won": 4,
       "drawn": 2,
-      "lost": 4,
-      "goalsFor": 9,
-      "goalsAgainst": 15,
-      "goalDifference": -6,
+      "lost": 5,
+      "goalsFor": 13,
+      "goalsAgainst": 16,
+      "goalDifference": -3,
       "points": 14,
       "form": ""
     },
     {
       "rank": 12,
+      "team": "ERZURUMSPOR FK",
+      "played": 11,
+      "won": 4,
+      "drawn": 2,
+      "lost": 5,
+      "goalsFor": 10,
+      "goalsAgainst": 17,
+      "goalDifference": -7,
+      "points": 14,
+      "form": ""
+    },
+    {
+      "rank": 13,
       "team": "CORENDON ALANYASPOR",
       "played": 10,
       "won": 3,
@@ -162,19 +175,6 @@
       "goalsAgainst": 16,
       "goalDifference": -7,
       "points": 12,
-      "form": ""
-    },
-    {
-      "rank": 13,
-      "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 10,
-      "won": 3,
-      "drawn": 2,
-      "lost": 5,
-      "goalsFor": 11,
-      "goalsAgainst": 15,
-      "goalDifference": -4,
-      "points": 11,
       "form": ""
     },
     {
@@ -245,32 +245,10 @@
   ],
   "fixtures": [
     {
-      "id": 317877,
-      "date": "2026-11-08T10:30:00.000Z",
-      "timestamp": 1794133800,
-      "round": "12. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ÇAYKUR RİZESPOR A.Ş.",
-      "away": "ERZURUMSPOR FK"
-    },
-    {
-      "id": 317879,
-      "date": "2026-11-08T13:00:00.000Z",
-      "timestamp": 1794142800,
-      "round": "12. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ARCA ÇORUM FK",
-      "away": "FENERBAHÇE A.Ş."
-    },
-    {
       "id": 317876,
       "date": "2026-11-08T15:30:00.000Z",
       "timestamp": 1794151800,
-      "round": "12. Hafta",
+      "round": "11. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
@@ -281,7 +259,7 @@
       "id": 317881,
       "date": "2026-11-08T18:00:00.000Z",
       "timestamp": 1794160800,
-      "round": "12. Hafta",
+      "round": "11. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
