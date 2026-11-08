@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T14:57:17.757Z",
+  "updatedAt": "2026-11-08T15:44:17.119Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 33,
-    "live": 9,
-    "upcoming": 19,
-    "finished": 5
+    "live": 10,
+    "upcoming": 17,
+    "finished": 6
   },
   "matches": [
     {
@@ -77,10 +77,10 @@
       "away": "Trabzonspor",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 14,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5904801,
@@ -113,7 +113,7 @@
       "away": "Brentford",
       "homeScore": 2,
       "awayScore": 0,
-      "minute": null,
+      "minute": 83,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -130,8 +130,8 @@
       "home": "Crystal Palace",
       "away": "Liverpool",
       "homeScore": 0,
-      "awayScore": 1,
-      "minute": null,
+      "awayScore": 2,
+      "minute": 84,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -147,9 +147,9 @@
       "venue": "",
       "home": "Ipswich Town",
       "away": "AFC Bournemouth",
-      "homeScore": 0,
-      "awayScore": 1,
-      "minute": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -167,7 +167,7 @@
       "away": "Chelsea",
       "homeScore": 1,
       "awayScore": 0,
-      "minute": null,
+      "minute": 80,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -221,10 +221,10 @@
       "away": "Rayo Vallecano",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 26,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 5868122,
@@ -311,7 +311,7 @@
       "away": "Milan",
       "homeScore": 0,
       "awayScore": 2,
-      "minute": null,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -328,8 +328,8 @@
       "home": "Monza",
       "away": "Atalanta",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
+      "awayScore": 1,
+      "minute": 85,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -383,7 +383,7 @@
       "away": "Bayer Leverkusen",
       "homeScore": 0,
       "awayScore": 1,
-      "minute": 28,
+      "minute": 56,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -436,8 +436,8 @@
       "home": "Rennes",
       "away": "Lille",
       "homeScore": 1,
-      "awayScore": 1,
-      "minute": null,
+      "awayScore": 2,
+      "minute": 87,
       "status": "LIVE",
       "statusLong": "",
       "kind": "live"
@@ -561,12 +561,12 @@
       "venue": "",
       "home": "FC Twente",
       "away": "Ajax",
-      "homeScore": 0,
-      "awayScore": 1,
-      "minute": 66,
-      "status": "LIVE",
-      "statusLong": "",
-      "kind": "live"
+      "homeScore": 2,
+      "awayScore": 2,
+      "minute": null,
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 5781796,
