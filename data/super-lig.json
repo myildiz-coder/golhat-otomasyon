@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-08T19:55:34.281Z",
+  "updatedAt": "2026-11-10T02:07:47.503Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
   "season": 2026,
   "seasonLabel": "2026/27",
-  "round": "11. Hafta",
-  "roundLabel": "11. Hafta",
+  "round": "12. Hafta",
+  "roundLabel": "12. Hafta",
   "standings": [
     {
       "rank": 1,
@@ -49,6 +49,19 @@
     },
     {
       "rank": 4,
+      "team": "BEŞİKTAŞ A.Ş.",
+      "played": 11,
+      "won": 7,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 23,
+      "goalsAgainst": 12,
+      "goalDifference": 11,
+      "points": 22,
+      "form": ""
+    },
+    {
+      "rank": 5,
       "team": "KASIMPAŞA A.Ş.",
       "played": 11,
       "won": 5,
@@ -61,7 +74,7 @@
       "form": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "FENERBAHÇE A.Ş.",
       "played": 11,
       "won": 6,
@@ -70,19 +83,6 @@
       "goalsFor": 29,
       "goalsAgainst": 10,
       "goalDifference": 19,
-      "points": 19,
-      "form": ""
-    },
-    {
-      "rank": 6,
-      "team": "BEŞİKTAŞ A.Ş.",
-      "played": 10,
-      "won": 6,
-      "drawn": 1,
-      "lost": 3,
-      "goalsFor": 20,
-      "goalsAgainst": 12,
-      "goalDifference": 8,
       "points": 19,
       "form": ""
     },
@@ -180,13 +180,13 @@
     {
       "rank": 14,
       "team": "GENÇLERBİRLİĞİ",
-      "played": 10,
+      "played": 11,
       "won": 3,
       "drawn": 2,
-      "lost": 5,
+      "lost": 6,
       "goalsFor": 12,
-      "goalsAgainst": 18,
-      "goalDifference": -6,
+      "goalsAgainst": 21,
+      "goalDifference": -9,
       "points": 11,
       "form": ""
     },
@@ -245,15 +245,103 @@
   ],
   "fixtures": [
     {
-      "id": 317881,
-      "date": "2026-11-08T18:00:00.000Z",
-      "timestamp": 1794160800,
-      "round": "11. Hafta",
+      "id": 317887,
+      "date": "2026-11-21T10:30:00.000Z",
+      "timestamp": 1795257000,
+      "round": "12. Hafta",
       "status": "NS",
       "statusLong": "Başlamadı",
       "venue": "",
-      "home": "BEŞİKTAŞ A.Ş.",
-      "away": "GENÇLERBİRLİĞİ"
+      "home": "GENÇLERBİRLİĞİ",
+      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
+    },
+    {
+      "id": 317886,
+      "date": "2026-11-21T13:00:00.000Z",
+      "timestamp": 1795266000,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "AMED SPORTİF FAALİYETLER",
+      "away": "ÇAYKUR RİZESPOR A.Ş."
+    },
+    {
+      "id": 317889,
+      "date": "2026-11-21T13:00:00.000Z",
+      "timestamp": 1795266000,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "GALATASARAY A.Ş.",
+      "away": "SAMSUNSPOR A.Ş."
+    },
+    {
+      "id": 317890,
+      "date": "2026-11-21T16:00:00.000Z",
+      "timestamp": 1795276800,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "KOCAELİSPOR",
+      "away": "FENERBAHÇE A.Ş."
+    },
+    {
+      "id": 317891,
+      "date": "2026-11-22T10:30:00.000Z",
+      "timestamp": 1795343400,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "ERZURUMSPOR FK",
+      "away": "GÖZTEPE A.Ş."
+    },
+    {
+      "id": 317884,
+      "date": "2026-11-22T13:00:00.000Z",
+      "timestamp": 1795352400,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "KASIMPAŞA A.Ş.",
+      "away": "CORENDON ALANYASPOR"
+    },
+    {
+      "id": 317888,
+      "date": "2026-11-22T13:00:00.000Z",
+      "timestamp": 1795352400,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "TÜMOSAN KONYASPOR",
+      "away": "BEŞİKTAŞ A.Ş."
+    },
+    {
+      "id": 317883,
+      "date": "2026-11-22T16:00:00.000Z",
+      "timestamp": 1795363200,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "TRABZONSPOR A.Ş.",
+      "away": "EYÜPSPOR"
+    },
+    {
+      "id": 317885,
+      "date": "2026-11-23T17:00:00.000Z",
+      "timestamp": 1795453200,
+      "round": "12. Hafta",
+      "status": "NS",
+      "statusLong": "Başlamadı",
+      "venue": "",
+      "home": "İSTANBUL BAŞAKŞEHİR FK",
+      "away": "ARCA ÇORUM FK"
     }
   ]
 }
