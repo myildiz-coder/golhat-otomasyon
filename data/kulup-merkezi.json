@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T09:37:46.777Z",
+  "updatedAt": "2026-11-15T17:16:56.999Z",
   "sources": [
     {
       "name": "FotMob",
@@ -685,20 +685,6 @@
       },
       "nextMatches": [
         {
-          "id": 6546945,
-          "date": "2026-11-15T14:00:00.000Z",
-          "timestamp": 1794751200,
-          "tournament": "Club Friendlies",
-          "stage": "",
-          "home": "Zenit",
-          "away": "Trabzonspor",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 5904803,
           "date": "2026-11-22T16:00:00.000Z",
           "timestamp": 1795363200,
@@ -767,9 +753,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904836,
+          "date": "2026-12-13T16:00:00.000Z",
+          "timestamp": 1797177600,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Fenerbahçe",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6546945,
+          "date": "2026-11-15T14:00:00.000Z",
+          "timestamp": 1794751200,
+          "tournament": "Club Friendlies",
+          "stage": "",
+          "home": "Zenit",
+          "away": "Trabzonspor",
+          "homeScore": 3,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "L"
+        },
         {
           "id": 5904796,
           "date": "2026-11-08T15:30:00.000Z",
@@ -822,20 +836,6 @@
           "away": "Trabzonspor",
           "homeScore": 3,
           "awayScore": 4,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 6112502,
-          "date": "2026-10-22T16:45:00.000Z",
-          "timestamp": 1792687500,
-          "tournament": "Conference League",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Hearts",
-          "homeScore": 2,
-          "awayScore": 0,
           "status": "FT",
           "kind": "finished",
           "result": "W"
