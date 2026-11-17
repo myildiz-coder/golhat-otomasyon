@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:59:18.300Z",
+  "updatedAt": "2026-11-17T13:39:07.995Z",
   "sources": [
     {
       "name": "FotMob",
@@ -461,7 +461,7 @@
       "stadium": "Tüpraş Stadyumu",
       "squad": {
         "total": 29,
-        "injured": 2
+        "injured": 3
       },
       "nextMatches": [
         {
