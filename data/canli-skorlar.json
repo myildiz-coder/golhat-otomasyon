@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T17:56:14.099Z",
+  "updatedAt": "2026-11-20T00:19:13.171Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -7,7 +7,7 @@
     "FotMob"
   ],
   "degraded": true,
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "timezone": "Europe/Istanbul",
   "trackedLeagues": [
     203,
@@ -22,10 +22,65 @@
     88
   ],
   "summary": {
-    "total": 0,
+    "total": 3,
     "live": 0,
-    "upcoming": 0,
+    "upcoming": 3,
     "finished": 0
   },
-  "matches": []
+  "matches": [
+    {
+      "id": 5868132,
+      "leagueId": 140,
+      "league": "LaLiga",
+      "country": "ESP",
+      "round": "13",
+      "date": "2026-11-20T20:00:00.000Z",
+      "timestamp": 1795204800,
+      "venue": "",
+      "home": "Athletic Club",
+      "away": "Espanyol",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5881226,
+      "leagueId": 78,
+      "league": "Bundesliga",
+      "country": "GER",
+      "round": "10",
+      "date": "2026-11-20T19:30:00.000Z",
+      "timestamp": 1795203000,
+      "venue": "",
+      "home": "Bayern München",
+      "away": "1. FC Köln",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    },
+    {
+      "id": 5802999,
+      "leagueId": 61,
+      "league": "Ligue 1",
+      "country": "FRA",
+      "round": "11",
+      "date": "2026-11-20T19:45:00.000Z",
+      "timestamp": 1795203900,
+      "venue": "",
+      "home": "Troyes",
+      "away": "Le Havre",
+      "homeScore": 0,
+      "awayScore": 0,
+      "minute": null,
+      "status": "NS",
+      "statusLong": "",
+      "kind": "upcoming"
+    }
+  ]
 }
