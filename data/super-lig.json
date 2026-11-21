@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T05:00:06.212Z",
+  "updatedAt": "2026-11-21T13:18:31.457Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -166,6 +166,19 @@
     },
     {
       "rank": 13,
+      "team": "GENÇLERBİRLİĞİ",
+      "played": 12,
+      "won": 4,
+      "drawn": 2,
+      "lost": 6,
+      "goalsFor": 13,
+      "goalsAgainst": 21,
+      "goalDifference": -8,
+      "points": 14,
+      "form": ""
+    },
+    {
+      "rank": 14,
       "team": "CORENDON ALANYASPOR",
       "played": 11,
       "won": 3,
@@ -175,19 +188,6 @@
       "goalsAgainst": 18,
       "goalDifference": -9,
       "points": 12,
-      "form": ""
-    },
-    {
-      "rank": 14,
-      "team": "GENÇLERBİRLİĞİ",
-      "played": 11,
-      "won": 3,
-      "drawn": 2,
-      "lost": 6,
-      "goalsFor": 12,
-      "goalsAgainst": 21,
-      "goalDifference": -9,
-      "points": 11,
       "form": ""
     },
     {
@@ -206,13 +206,13 @@
     {
       "rank": 16,
       "team": "GAZİANTEP FUTBOL KULÜBÜ A.Ş.",
-      "played": 11,
+      "played": 12,
       "won": 2,
       "drawn": 2,
-      "lost": 7,
+      "lost": 8,
       "goalsFor": 9,
-      "goalsAgainst": 19,
-      "goalDifference": -10,
+      "goalsAgainst": 20,
+      "goalDifference": -11,
       "points": 8,
       "form": ""
     },
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317887,
-      "date": "2026-11-21T10:30:00.000Z",
-      "timestamp": 1795257000,
-      "round": "12. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "GENÇLERBİRLİĞİ",
-      "away": "GAZİANTEP FUTBOL KULÜBÜ A.Ş."
-    },
     {
       "id": 317886,
       "date": "2026-11-21T13:00:00.000Z",
