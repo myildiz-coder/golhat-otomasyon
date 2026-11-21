@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T16:27:23.068Z",
+  "updatedAt": "2026-11-21T21:45:32.233Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -62,6 +62,19 @@
     },
     {
       "rank": 5,
+      "team": "FENERBAHÇE A.Ş.",
+      "played": 12,
+      "won": 6,
+      "drawn": 2,
+      "lost": 4,
+      "goalsFor": 31,
+      "goalsAgainst": 12,
+      "goalDifference": 19,
+      "points": 20,
+      "form": ""
+    },
+    {
+      "rank": 6,
       "team": "KASIMPAŞA A.Ş.",
       "played": 11,
       "won": 5,
@@ -74,29 +87,16 @@
       "form": ""
     },
     {
-      "rank": 6,
-      "team": "FENERBAHÇE A.Ş.",
-      "played": 11,
-      "won": 6,
-      "drawn": 1,
-      "lost": 4,
-      "goalsFor": 29,
-      "goalsAgainst": 10,
-      "goalDifference": 19,
-      "points": 19,
-      "form": ""
-    },
-    {
       "rank": 7,
       "team": "KOCAELİSPOR",
-      "played": 11,
+      "played": 12,
       "won": 6,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 4,
-      "goalsFor": 13,
-      "goalsAgainst": 9,
+      "goalsFor": 15,
+      "goalsAgainst": 11,
       "goalDifference": 4,
-      "points": 19,
+      "points": 20,
       "form": ""
     },
     {
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317890,
-      "date": "2026-11-21T16:00:00.000Z",
-      "timestamp": 1795276800,
-      "round": "12. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "KOCAELİSPOR",
-      "away": "FENERBAHÇE A.Ş."
-    },
     {
       "id": 317891,
       "date": "2026-11-22T10:30:00.000Z",
