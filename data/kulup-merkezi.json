@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T12:50:12.456Z",
+  "updatedAt": "2026-11-21T20:35:48.393Z",
   "sources": [
     {
       "name": "FotMob",
@@ -24,20 +24,6 @@
         "injured": 3
       },
       "nextMatches": [
-        {
-          "id": 5904810,
-          "date": "2026-11-21T16:00:00.000Z",
-          "timestamp": 1795276800,
-          "tournament": "Süper Lig",
-          "stage": "",
-          "home": "Kocaelispor",
-          "away": "Fenerbahçe",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6106336,
           "date": "2026-11-25T20:00:00.000Z",
@@ -107,9 +93,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904840,
+          "date": "2026-12-18T17:00:00.000Z",
+          "timestamp": 1797613200,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Kasımpaşa",
+          "away": "Fenerbahçe",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904810,
+          "date": "2026-11-21T16:00:00.000Z",
+          "timestamp": 1795276800,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Kocaelispor",
+          "away": "Fenerbahçe",
+          "homeScore": 2,
+          "awayScore": 2,
+          "status": "FT",
+          "kind": "finished",
+          "result": "D"
+        },
         {
           "id": 5904799,
           "date": "2026-11-08T13:00:00.000Z",
@@ -165,20 +179,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "L"
-        },
-        {
-          "id": 6106333,
-          "date": "2026-10-20T16:45:00.000Z",
-          "timestamp": 1792514700,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Fenerbahçe",
-          "away": "Slavia Prague",
-          "homeScore": 2,
-          "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
         }
       ],
       "officialUrl": "https://www.fenerbahce.org/haberler/futbol",
@@ -244,20 +244,6 @@
         "injured": 4
       },
       "nextMatches": [
-        {
-          "id": 5904809,
-          "date": "2026-11-21T13:00:00.000Z",
-          "timestamp": 1795266000,
-          "tournament": "Süper Lig",
-          "stage": "",
-          "home": "Galatasaray",
-          "away": "Samsunspor",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6106339,
           "date": "2026-11-24T17:45:00.000Z",
@@ -327,9 +313,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904845,
+          "date": "2026-12-19T16:00:00.000Z",
+          "timestamp": 1797696000,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Alanyaspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904809,
+          "date": "2026-11-21T13:00:00.000Z",
+          "timestamp": 1795266000,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Galatasaray",
+          "away": "Samsunspor",
+          "homeScore": 2,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904800,
           "date": "2026-11-07T16:00:00.000Z",
@@ -382,20 +396,6 @@
           "away": "Fenerbahçe",
           "homeScore": 2,
           "awayScore": 1,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 6106312,
-          "date": "2026-10-21T16:45:00.000Z",
-          "timestamp": 1792601100,
-          "tournament": "Champions League",
-          "stage": "",
-          "home": "Lille",
-          "away": "Galatasaray",
-          "homeScore": 2,
-          "awayScore": 4,
           "status": "FT",
           "kind": "finished",
           "result": "W"
