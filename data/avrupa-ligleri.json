@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:27:31.883Z",
+  "updatedAt": "2026-11-21T12:34:24.927Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -47,14 +47,14 @@
           "rank": 3,
           "teamId": 8456,
           "team": "Manchester City",
-          "played": 10,
+          "played": 11,
           "won": 7,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 3,
           "goalsFor": 21,
           "goalsAgainst": 13,
           "goalDifference": 8,
-          "points": 21,
+          "points": 22,
           "form": "",
           "description": "#2AD572"
         },
@@ -210,6 +210,21 @@
         },
         {
           "rank": 14,
+          "teamId": 9879,
+          "team": "Fulham",
+          "played": 11,
+          "won": 2,
+          "drawn": 5,
+          "lost": 4,
+          "goalsFor": 10,
+          "goalsAgainst": 12,
+          "goalDifference": -2,
+          "points": 11,
+          "form": "",
+          "description": ""
+        },
+        {
+          "rank": 15,
           "teamId": 9902,
           "team": "Ipswich Town",
           "played": 10,
@@ -220,21 +235,6 @@
           "goalsAgainst": 20,
           "goalDifference": -5,
           "points": 11,
-          "form": "",
-          "description": ""
-        },
-        {
-          "rank": 15,
-          "teamId": 9879,
-          "team": "Fulham",
-          "played": 10,
-          "won": 2,
-          "drawn": 4,
-          "lost": 4,
-          "goalsFor": 10,
-          "goalsAgainst": 12,
-          "goalDifference": -2,
-          "points": 10,
           "form": "",
           "description": ""
         },
@@ -315,20 +315,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 5795522,
-          "date": "2026-11-21T12:30:00.000Z",
-          "timestamp": 1795264200,
-          "round": "11",
-          "status": "NS",
-          "statusLong": "Not Started",
-          "venue": "",
-          "home": "Manchester City",
-          "away": "Fulham",
-          "started": false,
-          "finished": false,
-          "cancelled": false
-        },
         {
           "id": 5795515,
           "date": "2026-11-21T15:00:00.000Z",
@@ -479,6 +465,20 @@
           "venue": "",
           "home": "Leeds United",
           "away": "Coventry City",
+          "started": false,
+          "finished": false,
+          "cancelled": false
+        },
+        {
+          "id": 5795532,
+          "date": "2026-11-28T15:00:00Z",
+          "timestamp": 1795878000,
+          "round": "12",
+          "status": "NS",
+          "statusLong": "Not Started",
+          "venue": "",
+          "home": "Manchester United",
+          "away": "Brentford",
           "started": false,
           "finished": false,
           "cancelled": false
