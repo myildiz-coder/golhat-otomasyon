@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T04:24:24.661Z",
+  "updatedAt": "2026-11-22T12:44:58.883Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -101,6 +101,19 @@
     },
     {
       "rank": 8,
+      "team": "GÖZTEPE A.Ş.",
+      "played": 12,
+      "won": 5,
+      "drawn": 3,
+      "lost": 4,
+      "goalsFor": 23,
+      "goalsAgainst": 19,
+      "goalDifference": 4,
+      "points": 18,
+      "form": ""
+    },
+    {
+      "rank": 9,
       "team": "İSTANBUL BAŞAKŞEHİR FK",
       "played": 11,
       "won": 5,
@@ -113,7 +126,7 @@
       "form": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "ÇAYKUR RİZESPOR A.Ş.",
       "played": 12,
       "won": 5,
@@ -126,7 +139,7 @@
       "form": ""
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "ARCA ÇORUM FK",
       "played": 11,
       "won": 5,
@@ -139,33 +152,7 @@
       "form": ""
     },
     {
-      "rank": 11,
-      "team": "GÖZTEPE A.Ş.",
-      "played": 11,
-      "won": 4,
-      "drawn": 3,
-      "lost": 4,
-      "goalsFor": 22,
-      "goalsAgainst": 19,
-      "goalDifference": 3,
-      "points": 15,
-      "form": ""
-    },
-    {
       "rank": 12,
-      "team": "ERZURUMSPOR FK",
-      "played": 11,
-      "won": 4,
-      "drawn": 2,
-      "lost": 5,
-      "goalsFor": 10,
-      "goalsAgainst": 17,
-      "goalDifference": -7,
-      "points": 14,
-      "form": ""
-    },
-    {
-      "rank": 13,
       "team": "GENÇLERBİRLİĞİ",
       "played": 12,
       "won": 4,
@@ -173,6 +160,19 @@
       "lost": 6,
       "goalsFor": 13,
       "goalsAgainst": 21,
+      "goalDifference": -8,
+      "points": 14,
+      "form": ""
+    },
+    {
+      "rank": 13,
+      "team": "ERZURUMSPOR FK",
+      "played": 12,
+      "won": 4,
+      "drawn": 2,
+      "lost": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 18,
       "goalDifference": -8,
       "points": 14,
       "form": ""
@@ -244,17 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317891,
-      "date": "2026-11-22T10:30:00.000Z",
-      "timestamp": 1795343400,
-      "round": "12. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ERZURUMSPOR FK",
-      "away": "GÖZTEPE A.Ş."
-    },
     {
       "id": 317884,
       "date": "2026-11-22T13:00:00.000Z",
