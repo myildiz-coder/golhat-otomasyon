@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:43:31.490Z",
+  "updatedAt": "2026-11-22T22:01:44.816Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -24,14 +24,14 @@
     {
       "rank": 2,
       "team": "TRABZONSPOR A.Ş.",
-      "played": 11,
-      "won": 8,
+      "played": 12,
+      "won": 9,
       "drawn": 1,
       "lost": 2,
-      "goalsFor": 26,
+      "goalsFor": 27,
       "goalsAgainst": 8,
-      "goalDifference": 18,
-      "points": 25,
+      "goalDifference": 19,
+      "points": 28,
       "form": ""
     },
     {
@@ -232,29 +232,18 @@
     {
       "rank": 18,
       "team": "EYÜPSPOR",
-      "played": 11,
+      "played": 12,
       "won": 1,
       "drawn": 0,
-      "lost": 10,
+      "lost": 11,
       "goalsFor": 3,
-      "goalsAgainst": 30,
-      "goalDifference": -27,
+      "goalsAgainst": 31,
+      "goalDifference": -28,
       "points": 3,
       "form": ""
     }
   ],
   "fixtures": [
-    {
-      "id": 317883,
-      "date": "2026-11-22T16:00:00.000Z",
-      "timestamp": 1795363200,
-      "round": "12. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "TRABZONSPOR A.Ş.",
-      "away": "EYÜPSPOR"
-    },
     {
       "id": 317885,
       "date": "2026-11-23T17:00:00.000Z",
