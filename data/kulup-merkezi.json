@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T09:58:01.514Z",
+  "updatedAt": "2026-11-22T17:55:18.944Z",
   "sources": [
     {
       "name": "FotMob",
@@ -465,20 +465,6 @@
       },
       "nextMatches": [
         {
-          "id": 5904808,
-          "date": "2026-11-22T13:00:00.000Z",
-          "timestamp": 1795352400,
-          "tournament": "Süper Lig",
-          "stage": "",
-          "home": "Konyaspor",
-          "away": "Beşiktaş",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 6112357,
           "date": "2026-11-26T17:45:00.000Z",
           "timestamp": 1795715100,
@@ -547,9 +533,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 5904846,
+          "date": "2026-12-20T16:00:00.000Z",
+          "timestamp": 1797782400,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Rizespor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904808,
+          "date": "2026-11-22T13:00:00.000Z",
+          "timestamp": 1795352400,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Konyaspor",
+          "away": "Beşiktaş",
+          "homeScore": 2,
+          "awayScore": 4,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904801,
           "date": "2026-11-08T18:00:00.000Z",
@@ -605,20 +619,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "W"
-        },
-        {
-          "id": 6112356,
-          "date": "2026-10-22T19:00:00.000Z",
-          "timestamp": 1792695600,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Crystal Palace",
-          "homeScore": 2,
-          "awayScore": 2,
-          "status": "FT",
-          "kind": "finished",
-          "result": "D"
         }
       ],
       "officialUrl": "https://bjk.com.tr/tr/haber_listesi/1",
@@ -684,20 +684,6 @@
         "injured": 7
       },
       "nextMatches": [
-        {
-          "id": 5904803,
-          "date": "2026-11-22T16:00:00.000Z",
-          "timestamp": 1795363200,
-          "tournament": "Süper Lig",
-          "stage": "",
-          "home": "Trabzonspor",
-          "away": "Eyüpspor",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
         {
           "id": 6112542,
           "date": "2026-11-26T20:00:00.000Z",
@@ -767,9 +753,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 6112409,
+          "date": "2026-12-17T20:00:00.000Z",
+          "timestamp": 1797537600,
+          "tournament": "Conference League",
+          "stage": "",
+          "home": "FK Crvena Zvezda",
+          "away": "Trabzonspor",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 5904803,
+          "date": "2026-11-22T16:00:00.000Z",
+          "timestamp": 1795363200,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Trabzonspor",
+          "away": "Eyüpspor",
+          "homeScore": 1,
+          "awayScore": 0,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 6546945,
           "date": "2026-11-15T14:00:00.000Z",
@@ -822,20 +836,6 @@
           "away": "Gaziantep FK",
           "homeScore": 2,
           "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
-        },
-        {
-          "id": 5904779,
-          "date": "2026-10-26T16:00:00.000Z",
-          "timestamp": 1793030400,
-          "tournament": "Süper Lig",
-          "stage": "",
-          "home": "Rizespor",
-          "away": "Trabzonspor",
-          "homeScore": 3,
-          "awayScore": 4,
           "status": "FT",
           "kind": "finished",
           "result": "W"
