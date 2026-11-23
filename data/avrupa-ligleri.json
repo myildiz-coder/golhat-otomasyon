@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:45:23.288Z",
+  "updatedAt": "2026-11-23T07:27:40.022Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "timezone": "Europe/Istanbul",
@@ -317,7 +317,7 @@
       "fixtures": [
         {
           "id": 5795517,
-          "date": "2026-11-23T20:00:00Z",
+          "date": "2026-11-23T20:00:00.000Z",
           "timestamp": 1795464000,
           "round": "11",
           "status": "NS",
@@ -530,9 +530,9 @@
           "won": 10,
           "drawn": 1,
           "lost": 2,
-          "goalsFor": 25,
+          "goalsFor": 26,
           "goalsAgainst": 10,
-          "goalDifference": 15,
+          "goalDifference": 16,
           "points": 31,
           "form": "",
           "description": "#2AD572"
@@ -741,8 +741,8 @@
           "drawn": 3,
           "lost": 7,
           "goalsFor": 8,
-          "goalsAgainst": 20,
-          "goalDifference": -12,
+          "goalsAgainst": 21,
+          "goalDifference": -13,
           "points": 12,
           "form": "",
           "description": ""
@@ -796,7 +796,7 @@
       "fixtures": [
         {
           "id": 5868135,
-          "date": "2026-11-23T20:00:00Z",
+          "date": "2026-11-23T20:00:00.000Z",
           "timestamp": 1795464000,
           "round": "13",
           "status": "NS",
@@ -1275,7 +1275,7 @@
       "fixtures": [
         {
           "id": 5749756,
-          "date": "2026-11-23T19:45:00Z",
+          "date": "2026-11-23T19:45:00.000Z",
           "timestamp": 1795463100,
           "round": "12",
           "status": "NS",
