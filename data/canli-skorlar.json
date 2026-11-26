@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T14:16:01.615Z",
+  "updatedAt": "2026-11-26T18:47:39.504Z",
   "source": "FotMob",
   "sourceUrl": "https://www.fotmob.com/",
   "providerChain": [
@@ -23,9 +23,9 @@
   ],
   "summary": {
     "total": 36,
-    "live": 0,
-    "upcoming": 36,
-    "finished": 0
+    "live": 17,
+    "upcoming": 18,
+    "finished": 1
   },
   "matches": [
     {
@@ -39,12 +39,12 @@
       "venue": "",
       "home": "Olympiacos",
       "away": "Milan",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112277,
@@ -57,12 +57,12 @@
       "venue": "",
       "home": "Marseille",
       "away": "Levski Sofia",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112282,
@@ -75,12 +75,12 @@
       "venue": "",
       "home": "Viktoria Plzeň",
       "away": "Benfica",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112288,
@@ -94,11 +94,11 @@
       "home": "Union St.Gilloise",
       "away": "Lech Poznań",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112290,
@@ -112,11 +112,11 @@
       "home": "Dinamo Zagreb",
       "away": "Bayer Leverkusen",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112297,
@@ -132,9 +132,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112348,
@@ -147,12 +147,12 @@
       "venue": "",
       "home": "Celta Vigo",
       "away": "AFC Bournemouth",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112357,
@@ -167,10 +167,10 @@
       "away": "Hapoel Beer Sheva",
       "homeScore": 0,
       "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "minute": 63,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112252,
@@ -363,12 +363,12 @@
       "venue": "",
       "home": "Kairat Almaty",
       "away": "Mjällby",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
-      "statusLong": "",
-      "kind": "upcoming"
+      "status": "FT",
+      "statusLong": "Full-Time",
+      "kind": "finished"
     },
     {
       "id": 6112395,
@@ -381,12 +381,12 @@
       "venue": "",
       "home": "Ajax",
       "away": "Thun",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112417,
@@ -400,11 +400,11 @@
       "home": "Pafos FC",
       "away": "FC Midtjylland",
       "homeScore": 0,
-      "awayScore": 0,
-      "minute": null,
-      "status": "NS",
+      "awayScore": 1,
+      "minute": 46,
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112421,
@@ -417,12 +417,12 @@
       "venue": "",
       "home": "Brighton & Hove Albion",
       "away": "Universitatea Craiova",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112494,
@@ -436,11 +436,11 @@
       "home": "Brann",
       "away": "AGF",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112495,
@@ -453,12 +453,12 @@
       "venue": "",
       "home": "Heart of Midlothian",
       "away": "Monaco",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112527,
@@ -474,9 +474,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112546,
@@ -492,9 +492,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112551,
@@ -507,12 +507,12 @@
       "venue": "",
       "home": "Iberia 1999",
       "away": "Getafe",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112554,
@@ -528,9 +528,9 @@
       "homeScore": 0,
       "awayScore": 0,
       "minute": null,
-      "status": "NS",
+      "status": "LIVE",
       "statusLong": "",
-      "kind": "upcoming"
+      "kind": "live"
     },
     {
       "id": 6112391,
