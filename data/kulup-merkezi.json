@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T11:07:54.309Z",
+  "updatedAt": "2026-11-26T21:44:24.242Z",
   "sources": [
     {
       "name": "FotMob",
@@ -465,20 +465,6 @@
       },
       "nextMatches": [
         {
-          "id": 6112357,
-          "date": "2026-11-26T17:45:00.000Z",
-          "timestamp": 1795715100,
-          "tournament": "Europa League",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Hapoel Beer Sheva",
-          "homeScore": 0,
-          "awayScore": 0,
-          "status": "",
-          "kind": "upcoming",
-          "result": ""
-        },
-        {
           "id": 5904819,
           "date": "2026-11-30T18:00:00.000Z",
           "timestamp": 1796061600,
@@ -547,9 +533,37 @@
           "status": "",
           "kind": "upcoming",
           "result": ""
+        },
+        {
+          "id": 1000023207,
+          "date": "2027-01-17T00:00:00.000Z",
+          "timestamp": 1800144000,
+          "tournament": "Süper Lig",
+          "stage": "",
+          "home": "Göztepe",
+          "away": "Beşiktaş",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "",
+          "kind": "upcoming",
+          "result": ""
         }
       ],
       "recentMatches": [
+        {
+          "id": 6112357,
+          "date": "2026-11-26T17:45:00.000Z",
+          "timestamp": 1795715100,
+          "tournament": "Europa League",
+          "stage": "",
+          "home": "Beşiktaş",
+          "away": "Hapoel Beer Sheva",
+          "homeScore": 2,
+          "awayScore": 1,
+          "status": "FT",
+          "kind": "finished",
+          "result": "W"
+        },
         {
           "id": 5904808,
           "date": "2026-11-22T13:00:00.000Z",
@@ -605,20 +619,6 @@
           "status": "FT",
           "kind": "finished",
           "result": "D"
-        },
-        {
-          "id": 5904783,
-          "date": "2026-10-26T16:00:00.000Z",
-          "timestamp": 1793030400,
-          "tournament": "Süper Lig",
-          "stage": "",
-          "home": "Beşiktaş",
-          "away": "Başakşehir",
-          "homeScore": 2,
-          "awayScore": 0,
-          "status": "FT",
-          "kind": "finished",
-          "result": "W"
         }
       ],
       "officialUrl": "https://bjk.com.tr/tr/haber_listesi/1",
@@ -692,10 +692,10 @@
           "stage": "",
           "home": "CSKA Sofia",
           "away": "Trabzonspor",
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 1,
+          "awayScore": 1,
           "status": "",
-          "kind": "upcoming",
+          "kind": "live",
           "result": ""
         },
         {
