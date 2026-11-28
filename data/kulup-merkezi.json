@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:47:18.586Z",
+  "updatedAt": "2026-11-28T08:07:11.484Z",
   "sources": [
     {
       "name": "FotMob",
@@ -241,7 +241,7 @@
       "stadium": "RAMS Park",
       "squad": {
         "total": 28,
-        "injured": 5
+        "injured": 4
       },
       "nextMatches": [
         {
