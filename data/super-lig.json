@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:30:22.738Z",
+  "updatedAt": "2026-11-28T01:34:04.283Z",
   "source": "Türkiye Futbol Federasyonu (TFF)",
   "sourceUrl": "https://www.tff.org/default.aspx?pageID=198",
   "leagueId": "TFF-SUPER-LIG",
@@ -63,13 +63,13 @@
     {
       "rank": 5,
       "team": "KASIMPAŞA A.Ş.",
-      "played": 12,
+      "played": 13,
       "won": 6,
       "drawn": 5,
-      "lost": 1,
-      "goalsFor": 19,
-      "goalsAgainst": 12,
-      "goalDifference": 7,
+      "lost": 2,
+      "goalsFor": 21,
+      "goalsAgainst": 15,
+      "goalDifference": 6,
       "points": 23,
       "form": ""
     },
@@ -114,6 +114,19 @@
     },
     {
       "rank": 9,
+      "team": "ÇAYKUR RİZESPOR A.Ş.",
+      "played": 13,
+      "won": 6,
+      "drawn": 2,
+      "lost": 5,
+      "goalsFor": 18,
+      "goalsAgainst": 18,
+      "goalDifference": 0,
+      "points": 20,
+      "form": ""
+    },
+    {
+      "rank": 10,
       "team": "GÖZTEPE A.Ş.",
       "played": 12,
       "won": 5,
@@ -123,19 +136,6 @@
       "goalsAgainst": 19,
       "goalDifference": 4,
       "points": 18,
-      "form": ""
-    },
-    {
-      "rank": 10,
-      "team": "ÇAYKUR RİZESPOR A.Ş.",
-      "played": 12,
-      "won": 5,
-      "drawn": 2,
-      "lost": 5,
-      "goalsFor": 15,
-      "goalsAgainst": 16,
-      "goalDifference": -1,
-      "points": 17,
       "form": ""
     },
     {
@@ -180,27 +180,27 @@
     {
       "rank": 14,
       "team": "CORENDON ALANYASPOR",
-      "played": 12,
+      "played": 13,
       "won": 3,
       "drawn": 3,
-      "lost": 6,
-      "goalsFor": 10,
-      "goalsAgainst": 20,
-      "goalDifference": -10,
+      "lost": 7,
+      "goalsFor": 11,
+      "goalsAgainst": 22,
+      "goalDifference": -11,
       "points": 12,
       "form": ""
     },
     {
       "rank": 15,
       "team": "TÜMOSAN KONYASPOR",
-      "played": 12,
-      "won": 2,
+      "played": 13,
+      "won": 3,
       "drawn": 2,
       "lost": 8,
-      "goalsFor": 8,
-      "goalsAgainst": 18,
-      "goalDifference": -10,
-      "points": 8,
+      "goalsFor": 10,
+      "goalsAgainst": 19,
+      "goalDifference": -9,
+      "points": 11,
       "form": ""
     },
     {
@@ -244,28 +244,6 @@
     }
   ],
   "fixtures": [
-    {
-      "id": 317894,
-      "date": "2026-11-27T17:00:00.000Z",
-      "timestamp": 1795798800,
-      "round": "13. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "CORENDON ALANYASPOR",
-      "away": "TÜMOSAN KONYASPOR"
-    },
-    {
-      "id": 317895,
-      "date": "2026-11-27T17:00:00.000Z",
-      "timestamp": 1795798800,
-      "round": "13. Hafta",
-      "status": "NS",
-      "statusLong": "Başlamadı",
-      "venue": "",
-      "home": "ÇAYKUR RİZESPOR A.Ş.",
-      "away": "KASIMPAŞA A.Ş."
-    },
     {
       "id": 317900,
       "date": "2026-11-28T13:00:00.000Z",
